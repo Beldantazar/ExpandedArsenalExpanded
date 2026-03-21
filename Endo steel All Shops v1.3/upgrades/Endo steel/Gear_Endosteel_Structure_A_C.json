@@ -1,0 +1,36 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "MinTonnage" : 85,
+    "MaxTonnage" : 100,
+    "Description": {
+        "Cost": 1000000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Clantech",
+        "Model": "100T",
+        "UIName": "Endo Steel A (C)",
+        "Id": "Gear_Endosteel_Structure_A_C",
+        "Name": "Endo Steel A (C)",
+        "Details": "The Clans never lost the technology for manufacturing Endo Steel internal structure, and kept refining it while in their self imposed exile from the inner sphere. As a result, Clantech endosteel internals are much more compact and efficient, a full chassis of clan manufacture endo steel is thus 5 Endo Steel A (C) for 5.0 tons",
+        "Icon": "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA" : "-1T",
+    "BonusValueB" : "Mechs 85T-100T",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -1,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

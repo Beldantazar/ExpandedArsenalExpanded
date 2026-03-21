@@ -1,0 +1,36 @@
+{
+    "StatName" : null,
+    "RelativeModifier" : 0,
+    "AbsoluteModifier" : 0,
+    "MinTonnage" : 65,
+    "MaxTonnage" : 80,
+    "Description" : {
+        "Cost" : 50000,
+        "Rarity" : 4,
+        "Purchasable" : true,
+        "Manufacturer" : "Kurst inc",
+        "Model" : "80T",
+        "UIName" : "Endo Steel VIII",
+        "Id" : "Gear_Endosteel_Structure_VIII",
+        "Name" : "Endo Steel VIII",
+        "Details" : "Endo Steel VIII for mechs from 65 Tons to 80 Tons. Endo Steel was designed especially for use in BattleMech skeletons, halving the weight of the chassis, but at an increase in overall bulk. A full chassis is 10 Endo Steel VIII for 4.0 tons",
+        "Icon" : "uixSvgIcon_special_Equipment"
+    },
+    "BonusValueA" : "-0.4T",
+    "BonusValueB" : "Mechs 65T-80T",
+    "ComponentType" : "Upgrade",
+    "ComponentSubType" : "NotSet",
+    "PrefabIdentifier" : "",
+    "BattleValue" : 0,
+    "InventorySize" : 1,
+    "Tonnage" : -0.4,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [],
+    "ComponentTags" : {
+        "items" : [
+],
+        "tagSetSourceFile" : ""
+    }
+}
