@@ -1,0 +1,74 @@
+{
+  "id": "AffinityDef_chassis_Nimble",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_1",
+    "chassisNames": [
+        "chrPrfMech_javelinBase-001_30",
+        "chrPrfMech_spiderBase-001_30",
+        "chrPrfMech_firestarterBase-001_35",
+        "chrPrfMech_assassinBase-001_40",
+        "chrPrfMech_catapultBase-001_65",
+        "chrprfmech_k2pultbase-001_65",
+        "chrPrfMech_grasshopperBase-001_70",
+        "chrPrfMech_highlanderBase-001_90",
+        "chrPrfMech_stingerHotD-001_20",
+        "chrprfmech_valkyriehotd-001_30",
+        "chrPrfMech_viperbase-001_40",
+        "chrprfmech_septicemiabase-001_55",
+        "chrprfmech_canisbase-001_80",
+        "chrprfmech_jadephoenixbase-001_85",
+        "chrprfmech_cougarxrbase-001_35",
+        "chrprfmech_kyudobase-001_45",
+        "chrprfmech_lelimerc2base-001_40",
+        "chrprfmech_chargerhotd-001_80",
+        "chrprfmech_clintbase-001_40"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Nimble",
+        "missionsRequired": 15,
+        "levelName": "Nimble",
+        "decription": "+15% jump distance",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech makes it extremely mobile with its jump jets.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-NimbleJumper",
+              "Name": "Mech Affinity Jumping Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.15",
+              "operation": "Float_Multiply",
+              "statName": "JumpDistanceMultiplier",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

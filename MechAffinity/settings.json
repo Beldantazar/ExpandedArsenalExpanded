@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "debug": false,
+  "enablePilotAffinity": true,
+  "enablePilotSelect": false,
+  "enablePilotQuirks": false,
+  "enableMonthlyMoraleReset": false,
+  "enableStablePiloting": false,
+  "affinitySettings": {
+    "missionsBeforeDecay": 5,
+    "lowestPossibleDecay": 0,
+    "removeAffinityAfter": 17,
+    "maxAffinityPoints": 1000,
+    "decayByModulo": false,
+    "debugForceTag": "",
+    "defaultDaysBeforeSimDecay": -1,
+    "showDescriptionsOnChassis": false,
+    "trackSimDecayByStat": true,
+    "trackLowestDecayByStat": false,
+    "showAllPilotAffinities": true,
+    "topAffinitiesInTooltipCount": 3,
+    "showQuirks": false,
+    "affinityGroups": [],
+    "prefabOverrides": []
+  },
+  "quirkSettings": {
+    "playerQuirkPools": false,
+    "argoAdditive": true,
+    "argoMultiAutoAdjust": true,
+    "argoMin": 0.0,
+    "quirkPools": [],
+    "tooltipTags": [],
+    "addTags": []
+  },
+  "stablePilotingSettings": {
+    "reductionPerPiloting": 0.02,
+    "increasePerInjury": 0.05,
+    "tagEffects": [],
+    "InverseMax": 20
+  },
+  "pilotUiSettings": {
+    "pilotIcons": []
+  },
+  "legacyData": {
+    "debug_writeLegacyAffinityData": false
+  }
+}

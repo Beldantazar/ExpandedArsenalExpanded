@@ -1,0 +1,292 @@
+{
+    "Description": {
+        "Cost": 16200000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "Name": "Pulverizer Command",
+        "Details": "The personal mech of Jack 'Cus' Hambuilt, this mech was built out of the reconstructed remnants of a Pulverizer command mech. It was ground up rebuilt to have 10 more tons of weight, and all the battle electronics that it could reasonbly be installed with, while the engine was downrated and converted to an XL engine to free enough tonnage to allow for it to still mount a respectable defense with all of those electronics. The design seems to have been recently refitted again with salvaged electronics from the Word of Blake, giving it even more command power.",
+        "UIName": "Pulverizer Command",
+        "Id": "chassisdef_pulverizer_PVL-CMD",
+        "Icon": "uixTxrIcon_direwolf"
+    },
+    "VariantName": "PVL-CMD",
+    "StockRole": "Long Range Command Mech",
+    "YangsThoughts": "I've never even seen a Pulverizer original in person, and I've only seen references to them in old clan battle computers. This thing is a seriously impressive piece of hardware, overall, with an insane amount of command electronics. I don't even know where they sourced the B2000 battle computer or how they managed to extract it and remount it, but however they did it, it's our gain now.",
+    "Tonnage": 100,
+    "InitialTonnage": 25.5,
+    "weightClass": "ASSAULT",
+    "Heatsinks": 45,
+    "MaxJumpjets": 3,
+    "Stability": 200,
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "HardpointDataDefID": "hardpointdatadef_pulverizer",
+    "PrefabIdentifier": "chrprfmech_pulverizerbase-001",
+    "PrefabBase": "pulverizer",
+    "BattleValue": 10581000,
+    "TopSpeed": 60,
+    "TurnRadius": 90,
+    "MovementCapDefID": "movedef_direwhale",
+    "PathingCapDefID": "pathingdef_assault",
+    "MeleeDamage": 140,
+    "MeleeInstability": 100,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 125,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 125,
+    "DFAInstability": 125,
+    "PunchesWithLeftArm": false,
+    "Locations": [
+        {
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16,
+            "Location": "Head",
+            "Hardpoints": [
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85,
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105,
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160,
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105,
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85,
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105,
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ]
+        },
+        {
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": -1,
+            "InternalStructure": 105,
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ]
+        }
+    ],
+    "FixedEquipment": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_CompanyCommandModule",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Sensor_Prototype_ECM",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_C3i_Computer_2",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Nova_CEWS_CLAN_2",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_CommandConsole_with_B2000_1",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional",
+            "prefabName": "",
+            "hasPrefabName": true
+        }
+    ],
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 17,
+            "z": 0
+        },
+        {
+            "x": 5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": -5,
+            "y": 16,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ]
+}
+

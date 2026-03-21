@@ -1,0 +1,212 @@
+{
+  "Description": {
+    "Cost": 2123540,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Firefly",
+    "Id": "chassisdef_firefly_FFL-3A",
+    "Name": "Firefly",
+    "Details": "Entering service in 2669, the Firefly was one of the standard light 'Mechs of the Star League Defense Force in its later years, with a small volume also entering service with all the Member State militaries. Although too slow when compared to other 'Mechs of similar weight to act as a scout, the Firefly instead served as a light support 'Mech, its superior armor and armaments allowing it to act as the anvil used by the rest of its lance to crush enemy scout forces. The 'Mech was also deployed independently in urban environments where its jump jets gave it a decisive edge against infantry and light combat vehicles and is useful in a guerrilla fighter role. First built in 2679, the standard Star League Defense Force model utilizes an XL engine, double heat sinks, and ferro-fibrous armor to reduce weight. A battery of four small lasers, three medium lasers, and an LRM-5 provide significant offensive capabilities for a recon 'Mech. TAG enhances its ability to spot for artillery, while CASE protects from ammunition explosion.",
+    "Icon": "uixTxrIcon_osprey"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_firefly_FFL-3A",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_firefly",
+  "PrefabIdentifier": "chrprfmech_fireflybase-001",
+  "PrefabBase": "firefly",
+  "Tonnage": 30,
+  "InitialTonnage": 11.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 4642000,
+  "Heatsinks": 30,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 8,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 35,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 35,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 35,
+  "DFAInstability": 35,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0
+    }
+  ],
+  "VariantName": "FFL-3A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Medium Striker",
+  "YangsThoughts": "I thought all of these had been either degraded by the long years before the clan invasion or destroyed in the inner sphere, but apparently someone is still making a small number of there, although I'm not sure who would have the schematics for it."
+}

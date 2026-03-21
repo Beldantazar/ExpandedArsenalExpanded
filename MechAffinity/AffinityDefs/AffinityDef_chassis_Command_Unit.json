@@ -1,0 +1,69 @@
+{
+  "id": "AffinityDef_chassis_Command_Unit",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_12",
+    "chassisNames": [
+        "chrPrfMech_blackknightBase-001_75",
+        "chrPrfMech_marauderBase-001_75",
+        "chrPrfMech_battlemasterBase-001_85",
+        "chrprfmech_marauderiibase-001_100",
+        "chrprfmech_madcatmkiibase-001_90",
+        "chrprfmech_madcatbase-001_75",
+        "chrprfmech_shawklambase-001_55",
+        "chrprfmech_yf24gerwalkbase-001_55",
+        "chrprfmech_sidewinderbase-001_75",
+        "chrprfmech_atlas3base-001_100",
+        "chrprfmech_bigfootbase-001_85",
+        "chrprfmech_masonvikingbase-001_90",
+        "chrprfmech_rakshasabase-001_75",
+        "chrprfmech_pulverizerbase-001_90"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Command_Unit",
+        "missionsRequired": 15,
+        "levelName": "Command Unit",
+        "decription": "+1 Initiative",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Initiative",
+              "Name": "Mech Affinity Initiative Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "-1",
+              "operation": "Int_Add",
+              "statName": "BaseInitiative",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

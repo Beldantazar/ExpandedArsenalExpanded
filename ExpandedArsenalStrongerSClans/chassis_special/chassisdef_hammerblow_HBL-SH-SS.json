@@ -1,0 +1,271 @@
+{
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Superheavy_Chassis_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Hybrid_Defensive_Package_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "Description": {
+        "Cost": 25000000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hammerblow Custom",
+        "Id": "chassisdef_hammerblow_HBL-SH-SS",
+        "Name": "Hammerblow Custom",
+        "Details": "The personal superheavy Mech of Matteus Jae-Hyouk. Based on a Hammerblow super heavy s-class chassis, the Hammerblow Custom features multiple experimental weapons newly developed by Jade Falcon scientists. Its weapon hardpoints are slightly inconvenient for certain weapons, but the overall firepower is impressive.",
+        "Icon": "uixTxrIcon_monster"
+    },
+    "MovementCapDefID": "movedef_annihilator_ANH-1A",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_genericsh6",
+    "PrefabIdentifier": "chrprfmech_genericsh6base-001",
+    "PrefabBase": "genericsh6",
+    "Tonnage": 150,
+    "InitialTonnage": 25,
+    "weightClass": "ASSAULT",
+    "BattleValue": 10206000,
+    "Heatsinks": 45,
+    "TopSpeed": 105,
+    "TurnRadius": 290,
+    "MaxJumpjets": 0,
+    "Stability": 250,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 150,
+    "MeleeInstability": 100,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 150,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 150,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 41
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 250,
+            "MaxRearArmor": -1,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 450,
+            "MaxRearArmor": 225,
+            "InternalStructure": 225
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 250,
+            "MaxRearArmor": -1,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 160
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 19,
+            "z": 0
+        },
+        {
+            "x": 4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": -4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": 3,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "HBL-SH-SS",
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal_s_tier",
+            "mr-resize-1.8"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Superheavy",
+    "YangsThoughts": "Those plasma rifle things are odd, I've never seen them around before and I'm not even gonna pretend that I understand the science behind how they work, but they're effective against internal structure, so I don't really care. Also, I'd swear that those missile launchers are just strapped together with duct tape to make a bigger launcher."
+}

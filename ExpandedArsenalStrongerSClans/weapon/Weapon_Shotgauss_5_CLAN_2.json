@@ -1,0 +1,69 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 0,
+    "MaxRange": 540,
+    "RangeSplit": [
+        360,
+        360,
+        540
+    ],
+    "ammoCategoryID": "LB5X",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 6,
+    "Damage": 12,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 6,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 1,
+    "ShotsWhenFired": 10,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 6,
+    "Instability": 2,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 6693750,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Draconis Combine/Clan",
+        "Model": "Magnetic Accelerated Cluster Cannon",
+        "UIName": "Shotgauss 5 + +",
+        "Id": "Weapon_Shotgauss_5_CLAN_2",
+        "Name": "Shotgauss 5 + +",
+        "Details": "The shotgauss is a joint effort between weapons researchers of the Draconis Combine and members of an unknown clan, it uses the same ammunition as the standard LB-X autocannon, but discards the explosive propellant part of the shells, instead accelerating the sabot and flechettes directly via a shortened Gauss Rifle barrel. This allows for a great deal of damage and penetration, at the cost of reduced impact and that both the weapon and the ammo can explode.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "+ 4 Dmg.",
+    "BonusValueB": "+ 2 Structure Dmg.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lbx10",
+    "InventorySize": 3,
+    "Tonnage": 9,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "VolleyDivisor": 10,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_very-long",
+            "component_type_variant",
+            "component_type_variant2"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

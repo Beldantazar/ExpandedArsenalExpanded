@@ -1,0 +1,17 @@
+{
+  "id": "AffinityDef_global_Green",
+  "affinityType": "Global",
+  "affinityData": {
+    "id": "Green",
+    "missionsRequired": 3,
+    "levelName": "Green",
+    "decription": "Get A Small Piloting Boost",
+    "affinities": [
+      {
+        "type": "Piloting",
+        "bonus": 1
+      }
+    ],
+    "effectData": []
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "AffinityDef_chassis_Sturdy",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_6",
+    "chassisNames": [
+        "chrPrfMech_shadowhawkBase-001_55",
+        "chrPrfMech_dragonBase-001_60",
+        "chrprfmech_bushwackerbase-001_55",
+        "chrprfmech_talosbase-001_50",
+        "chrprfmech_thanatosbase-001_75",
+        "chrprfmech_huntsmanbase-001_50",
+        "chrprfmech_novabase-001_50",
+        "chrprfmech_warhawkbase-001_85",
+        "chrprfmech_vf11lambase-001_35",
+        "chrprfmech_vf11lambase-001_55",
+        "chrprfmech_anvilbase-001_60",
+        "chrprfmech_ionsunderbase-001_90",
+        "chrprfmech_bellerophonbase-001_60",
+        "chrprfmech_osirisbase-001_30"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Sturdy",
+        "missionsRequired": 15,
+        "levelName": "Sturdy",
+        "decription": "+1 Pilot Health",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its life support systems by 1, reducing pilot hits even further.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-PilotHits",
+              "Name": "Mech Affinity Pilot Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "1",
+              "operation": "Int_Add",
+              "statName": "BonusHealth",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

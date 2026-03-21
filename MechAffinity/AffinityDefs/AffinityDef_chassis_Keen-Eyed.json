@@ -1,0 +1,112 @@
+{
+  "id": "AffinityDef_chassis_Keen-Eyed",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_4",
+    "chassisNames": [
+        "chrPrfMech_cyclopsBase-001_90",
+        "chrPrfMech_annihilatorBase-001_100",
+        "chrprfmech_dasherbase-001_20",
+        "chrprfmech_kitfoxbase-001_30",
+        "chrprfmech_riflemaniicbase-001_65",
+        "chrprfmech_stonerhinobase-001_120",
+        "chrprfmech_marauderiicbase-001_85",
+        "chrprfmech_iongrigoribase-001_60",
+        "chrprfmech_wanetabase-001_55",
+        "chrprfmech_twlambase-001_55",
+        "chrprfmech_blackowlbase-001_30",
+        "chrprfmech_blackowlbase-001_45",
+        "chrprfmech_gspiderbase-001_60",
+        "chrprfmech_chimerabase-001_40",
+        "chrprfmech_heliosbase-001_60",
+        "chrprfmech_salamanderbase-001_80",
+        "chrprfmech_lancelotbase-001_60",
+        "chrprfmech_genericsh6base-001_150",
+        "chrprfmech_nightstarbase-001_95",
+        "chrprfmech_templarbase-001_85",
+        "chrprfmech_lupusbase-001_60",
+        "chrprfmech_yeomanbase-001_60",
+        "chrprfmech_firebeebase-001_35",
+        "chrprfmech_hussarbase-001_30"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Keen-Eyed",
+        "missionsRequired": 15,
+        "levelName": "Keen-Eyed",
+        "decription": "+15% Sensor range",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Sensor",
+              "Name": "Mech Affinity Sensor Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.15",
+              "operation": "Float_Multiply",
+              "statName": "SensorDistanceAbsolute",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          },
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Sight",
+              "Name": "Osiris Affinity Sight Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.15",
+              "operation": "Float_Multiply",
+              "statName": "SpotterDistanceAbsolute",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "Description": {
+    "Cost": 5700000,
+    "Rarity": 4,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Bellerophon",
+    "Id": "chassisdef_bellerophon_BKX-7NC",
+    "Name": "Bellerophon",
+    "Details": "The Bellerophon was a failed prototype BattleMech developed in 2442 by what would later be known as Defiance Industries. Designed during the infancy of BattleMech technology, Defiance Industries used what later was known as Primitive Technology to create the Bellerophon. It was envisioned that the design would complement the Mackie with its higher speed, while having nearly as much armor as its companion. Using technology based on the original Mackie prototype, the design inherited a host of design flaws from its predecessor. Chief among these were stability issues: the weapon arrangement would amplify its balance problems despite numerous improvements to the gyro system. After four prototypes were produced, the program was canceled due to the Terran Hegemony's lack of interest in the design. The design incorporated a pair of Large Lasers coupled with an SRM-4 which it would use to provide supporting fire for the Mackie. However, the two large lasers were mounted in the right arm, and the small SRM launcher found in the left arm was hardly able to keep the design balanced and upright, particularly while maneuvering. The Bellerophon's 14 heat sinks were not enough to offset any heat spikes should the MechWarrior choose to fire all their weapons at once, or even fire the two Large Lasers in tandem. This example is one of the rebuilt versions built during the Jihad, and uses Standard armor, chassis and engine instead of the original Primitive tech.",
+    "Icon": "uixTxrIcon_warhammeriic"
+  },
+  "MovementCapDefID": "movedef_battleaxe_BKX-7NC",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_battleaxe",
+  "PrefabIdentifier": "chrprfmech_battleaxebase-001",
+  "PrefabBase": "battleaxe",
+  "Tonnage": 60,
+  "InitialTonnage": 29.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 6922000,
+  "Heatsinks": 0,
+  "TopSpeed": 150,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 55,
+  "MeleeInstability": 60,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 140,
+      "MaxRearArmor": 70,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "BKX-7NC",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Antique Heavy Battlemech",
+  "YangsThoughts": "I know I asked you to bring me any special mechs and antiques you found, but why THIS thing? I suppose the rebuild using modern gyros at least fixed the balance so it's only under armed as opposed to also unable to stand up."
+}

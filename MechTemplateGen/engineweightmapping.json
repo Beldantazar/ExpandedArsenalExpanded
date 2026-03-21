@@ -1,0 +1,309 @@
+{
+    "mappingEntries": {
+        "100": {
+            "weight": 3.0,
+            "xlweight": 1.5,
+            "gyroweight": 1.0
+        },
+        "105": {
+            "weight": 3.5,
+            "xlweight": 2.0,
+            "gyroweight": 2.0
+        },
+        "110": {
+            "weight": 3.5,
+            "xlweight": 2.0,
+            "gyroweight": 2.0
+        },
+        "115": {
+            "weight": 4.0,
+            "xlweight": 2.0,
+            "gyroweight": 2.0
+        },
+        "120": {
+            "weight": 4.0,
+            "xlweight": 2.0,
+            "gyroweight": 2.0
+        },
+        "125": {
+            "weight": 4.0,
+            "xlweight": 2.0,
+            "gyroweight": 2.0
+        },
+        "130": {
+            "weight": 4.5,
+            "xlweight": 2.5,
+            "gyroweight": 2.0
+        },
+        "135": {
+            "weight": 4.5,
+            "xlweight": 2.5,
+            "gyroweight": 2.0
+        },
+        "140": {
+            "weight": 5.0,
+            "xlweight": 2.5,
+            "gyroweight": 2.0
+        },
+        "145": {
+            "weight": 5.0,
+            "xlweight": 2.5,
+            "gyroweight": 2.0
+        },
+        "150": {
+            "weight": 5.5,
+            "xlweight": 3.0,
+            "gyroweight": 2.0
+        },
+        "155": {
+            "weight": 5.5,
+            "xlweight": 3.0,
+            "gyroweight": 2.0
+        },
+        "160": {
+            "weight": 6.0,
+            "xlweight": 3.0,
+            "gyroweight": 2.0
+        },
+        "165": {
+            "weight": 6.0,
+            "xlweight": 3.0,
+            "gyroweight": 2.0
+        },
+        "170": {
+            "weight": 6.5,
+            "xlweight": 3.0,
+            "gyroweight": 2.0
+        },
+        "175": {
+            "weight": 7.0,
+            "xlweight": 3.5,
+            "gyroweight": 2.0
+        },
+        "180": {
+            "weight": 7.0,
+            "xlweight": 3.5,
+            "gyroweight": 2.0
+        },
+        "185": {
+            "weight": 7.5,
+            "xlweight": 4.0,
+            "gyroweight": 2.0
+        },
+        "190": {
+            "weight": 7.5,
+            "xlweight": 4.0,
+            "gyroweight": 2.0
+        },
+        "195": {
+            "weight": 8.0,
+            "xlweight": 4.0,
+            "gyroweight": 2.0
+        },
+        "200": {
+            "weight": 8.5,
+            "xlweight": 4.5,
+            "gyroweight": 2.0
+        },
+        "205": {
+            "weight": 8.5,
+            "xlweight": 4.5,
+            "gyroweight": 3.0
+        },
+        "210": {
+            "weight": 9.0,
+            "xlweight": 4.5,
+            "gyroweight": 3.0
+        },
+        "215": {
+            "weight": 9.5,
+            "xlweight": 5.0,
+            "gyroweight": 3.0
+        },
+        "220": {
+            "weight": 10.0,
+            "xlweight": 5.0,
+            "gyroweight": 3.0
+        },
+        "225": {
+            "weight": 10.0,
+            "xlweight": 5.0,
+            "gyroweight": 3.0
+        },
+        "230": {
+            "weight": 10.5,
+            "xlweight": 5.5,
+            "gyroweight": 3.0
+        },
+        "235": {
+            "weight": 11.0,
+            "xlweight": 5.5,
+            "gyroweight": 3.0
+        },
+        "240": {
+            "weight": 11.5,
+            "xlweight": 6.0,
+            "gyroweight": 3.0
+        },
+        "245": {
+            "weight": 12.0,
+            "xlweight": 6.0,
+            "gyroweight": 3.0
+        },
+        "250": {
+            "weight": 12.5,
+            "xlweight": 6.5,
+            "gyroweight": 3.0
+        },
+        "255": {
+            "weight": 13.0,
+            "xlweight": 6.5,
+            "gyroweight": 3.0
+        },
+        "260": {
+            "weight": 13.5,
+            "xlweight": 7.0,
+            "gyroweight": 3.0
+        },
+        "265": {
+            "weight": 14.0,
+            "xlweight": 7.0,
+            "gyroweight": 3.0
+        },
+        "270": {
+            "weight": 14.5,
+            "xlweight": 7.5,
+            "gyroweight": 3.0
+        },
+        "275": {
+            "weight": 15.5,
+            "xlweight": 8.0,
+            "gyroweight": 3.0
+        },
+        "280": {
+            "weight": 16.0,
+            "xlweight": 8.0,
+            "gyroweight": 3.0
+        },
+        "285": {
+            "weight": 16.5,
+            "xlweight": 8.5,
+            "gyroweight": 3.0
+        },
+        "290": {
+            "weight": 17.5,
+            "xlweight": 9.0,
+            "gyroweight": 3.0
+        },
+        "295": {
+            "weight": 18.0,
+            "xlweight": 9.0,
+            "gyroweight": 3.0
+        },
+        "300": {
+            "weight": 19.0,
+            "xlweight": 9.5,
+            "gyroweight": 3.0
+        },
+        "305": {
+            "weight": 19.5,
+            "xlweight": 10.0,
+            "gyroweight": 4.0
+        },
+        "310": {
+            "weight": 20.5,
+            "xlweight": 10.5,
+            "gyroweight": 4.0
+        },
+        "315": {
+            "weight": 21.5,
+            "xlweight": 11.0,
+            "gyroweight": 4.0
+        },
+        "320": {
+            "weight": 22.5,
+            "xlweight": 11.5,
+            "gyroweight": 4.0
+        },
+        "325": {
+            "weight": 23.5,
+            "xlweight": 12.0,
+            "gyroweight": 4.0
+        },
+        "330": {
+            "weight": 24.5,
+            "xlweight": 12.5,
+            "gyroweight": 4.0
+        },
+        "335": {
+            "weight": 25.5,
+            "xlweight": 13.0,
+            "gyroweight": 4.0
+        },
+        "340": {
+            "weight": 27.0,
+            "xlweight": 13.5,
+            "gyroweight": 4.0
+        },
+        "345": {
+            "weight": 28.5,
+            "xlweight": 14.5,
+            "gyroweight": 4.0
+        },
+        "350": {
+            "weight": 29.5,
+            "xlweight": 15.0,
+            "gyroweight": 4.0
+        },
+        "355": {
+            "weight": 31.5,
+            "xlweight": 16.0,
+            "gyroweight": 4.0
+        },
+        "360": {
+            "weight": 33.0,
+            "xlweight": 16.5,
+            "gyroweight": 4.0
+        },
+        "365": {
+            "weight": 34.5,
+            "xlweight": 17.5,
+            "gyroweight": 4.0
+        },
+        "370": {
+            "weight": 37.0,
+            "xlweight": 18.5,
+            "gyroweight": 4.0
+        },
+        "375": {
+            "weight": 38.5,
+            "xlweight": 19.5,
+            "gyroweight": 4.0
+        },
+        "380": {
+            "weight": 41.0,
+            "xlweight": 20.5,
+            "gyroweight": 4.0
+        },
+        "385": {
+            "weight": 43.5,
+            "xlweight": 2.0,
+            "gyroweight": 4.0
+        },
+        "390": {
+            "weight": 46.0,
+            "xlweight": 23.0,
+            "gyroweight": 4.0
+        },
+        "395": {
+            "weight": 49.0,
+            "xlweight": 24.5,
+            "gyroweight": 4.0
+        },
+        "400": {
+            "weight": 52.5,
+            "xlweight": 26.5,
+            "gyroweight": 4.0
+        }
+    }
+}

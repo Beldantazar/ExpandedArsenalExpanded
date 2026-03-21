@@ -1,0 +1,75 @@
+{
+  "id": "AffinityDef_chassis_Brawler",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_11",
+    "chassisNames": [
+        "chrPrfMech_archerBase-001_70",
+        "chrPrfMech_awesomeBase-001_80",
+        "chrPrfMech_atlasBase-001_100",
+        "chrprfmech_rtcorsair5base-001_95",
+        "chrprfmech_crusaderhotd-001_65",
+        "chrprfmech_hatamotochisam-001_80",
+        "chrprfmech_executionerbase-001_95",
+        "chrPrfMech_hellhoundBase-001_50",
+        "chrprfmech_kodiakbase-001_100",
+        "chrPrfMech_vaporeagleBase-001_55",
+        "chrprfmech_piranhabase-001_20",
+        "chrprfmech_huronwbase-001_50",
+        "chrprfmech_crusaderhotd-001_135",
+        "chrprfmech_berserkerbase-001_100",
+        "chrprfmech_wyvernbase-001_45",
+        "chrprfmech_hunchiebase-001_55",
+        "chrprfmech_scyllabase-001_100",
+        "chrprfmech_hatchetmanBasebase-001_65",
+        "chrprfmech_roughneckbase-001_65",
+        "chrprfmech_valkyrieiibase-001_60"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Brawler",
+        "missionsRequired": 15,
+        "levelName": "Brawler",
+        "decription": "+10% Melee Damage",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its melee damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-MeleeDamage",
+              "Name": "Mech Affinity Melee Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Melee",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

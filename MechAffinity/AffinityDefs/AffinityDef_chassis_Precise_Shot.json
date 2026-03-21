@@ -1,0 +1,75 @@
+{
+  "id": "AffinityDef_chassis_Precise_Shot",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_3",
+    "chassisNames": [
+        "chrPrfMech_pantherBase-001_35",
+        "chrPrfMech_blackjackBase-001_45",
+        "chrPrfMech_jagermechBase-001_65",
+        "chrPrfMech_cataphractBase-001_70",
+        "chrPrfMech_bullsharkBase-001_95",
+        "chrprfmech_ebonjaguarbase-001_65",
+        "chrprfmech_stormcrowbase-001_55",
+        "chrprfmech_stonerhinobase-001_100",
+        "chrprfmech_stingerlambase-001_30",
+        "chrprfmech_phawklegacylambase-001_30",
+        "chrprfmech_transientlambase-001_55",
+        "chrprfmech_caesarbase-001_70",
+        "chrprfmech_shogunbase-001_85",
+        "chrprfmech_sentinelbase-001_40",
+        "chrprfmech_genericsh1base-001_125",
+        "chrprfmech_blackpythonbase-001_75",
+        "chrprfmech_ostrochotd-001_60",
+        "chrprfmech_ospreybase-001_55",
+        "chrprfmech_bombardierbase-001_65",
+        "chrprfmech_torobase-001_35"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Precise_Shot",
+        "missionsRequired": 15,
+        "levelName": "Precise Shot",
+        "decription": "+1 Accuracy",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Targeting",
+              "Name": "Mech Affinity Targeting Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "-1.0",
+              "operation": "Float_Add",
+              "statName": "AccuracyModifier",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "Description": {
+    "Cost": 15000000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Clan Wolf",
+    "Model": "Uber",
+    "UIName": "Rakshasa",
+    "Id": "chassisdef_rakshasa_MDG-1AX",
+    "Name": "Rakshasa",
+    "Details": "Designed by engineers at the New Avalon Institute of Science in an attempt to copy the Mad Cat, while not as powerful as the OmniMech it emulates, the Rakshasa is a formidable 'Mech with an undeserved bad reputation.  Since the Inner Sphere first saw the Mad Cat they could only marvel at such a potent mix of speed, armor and firepower and how they themselves could produce a copy of such a design. Unlike the Draconis Combine whose reverse engineering efforts ultimately focused on the Clans OmniPod technology, technicians and students at the New Avalon Institute of Science labored for five long years attempting to specifically replicate the Mad Cat and its iconic primary configuration, rumors insisting the final breakthrough being the in-depth analysis of a captured Mad Cat. Its designers settled on calling the result the Rakshasa after a mythical creature that mimicked its adversaries abilities and appearance. The Rakshasa is powered by a GM 375 XL engine, giving it comparable ground speed to the 'Mech it attempts to emulate, and built on a GM Marauder Special MD Endo Steel chassis to save weight and allow the 'Mech to carry as similar a weapons payload as possible to the Mad Cat. The Rakshasa also carries eleven and a half tons of StarGuard ferro-fibrous armor giving it slightly less than maximum armor protection. A total of fifteen double heat sinks are woefully inadequate for the Rakshasa's heavy energy weapon loadout, requiring careful heat management on part of its pilot. Along with its visual similarity, offensively the Rakshasa tries to clone the weapons array of the Mad Cat Prime with boxy LRM launcher torsos supported by double barrelled laser-carrying arms.",
+    "Icon": "uixTxrIcon_madcat"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_rakshasa_MDG-1A",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_rakshasa",
+  "PrefabIdentifier": "chrprfmech_rakshasabase-001",
+  "PrefabBase": "rakshasa",
+  "Tonnage": 75,
+  "InitialTonnage": 30.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 8144000,
+  "Heatsinks": 30,
+  "TopSpeed": 76,
+  "TurnRadius": 180,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 75,
+  "MeleeInstability": 19,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 38,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "MDG-1AX",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Clan Heavy Mech",
+  "YangsThoughts": "I get what they were trying for with immitating the Timber Wolf, but the lack of Clan-Spec weaponry really hinders this mech, the obvious solution being to actually give it the weapons loadout of the mech it's trying to be if we have any spare."
+}

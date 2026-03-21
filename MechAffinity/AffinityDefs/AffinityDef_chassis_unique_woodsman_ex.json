@@ -1,0 +1,248 @@
+{
+  "id": "AffinityDef_chassis_unique_woodsman_ex",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "unique_woodsman_ex",
+    "chassisNames": [
+        "chassisdef_woodsman_WDM-EX"
+    ],
+    "idType": "ChassisId",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "unique_wood_1",
+        "missionsRequired": 15,
+        "levelName": "Laser Focus",
+        "decription": "+1 Accuracy",
+        "affinities": [],
+        "effectData": [
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-Targeting",
+                    "Name": "Mech Affinity Targeting Boost"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "additionalRules": "NotSet",
+                    "modType": "System.Single",
+                    "modValue": "-1.0",
+                    "operation": "Float_Add",
+                    "statName": "AccuracyModifier",
+                    "targetAmmoCategory": "NotSet",
+                    "targetCollection": "NotSet",
+                    "targetWeaponCategory": "NotSet",
+                    "targetWeaponSubType": "NotSet",
+                    "targetWeaponType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": true,
+                    "showInTargetPreview": false
+                }
+            }
+        ]
+      },
+        {
+            "id": "unique_wood_2",
+            "missionsRequired": 20,
+            "levelName": "Keen Eyed",
+            "decription": "+15% Vision",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-Sensor",
+                        "Name": "Mech Affinity Sensor Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "SensorDistanceAbsolute",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                },
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-Sight",
+                        "Name": "Osiris Affinity Sight Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "SpotterDistanceAbsolute",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": false,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unique_wood_3",
+            "missionsRequired": 25,
+            "levelName": "Rugged Chassis",
+            "decription": "-10% Damage Received",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                        "Name": "Mech Affinity Damage Reduction"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "DamageReductionMultiplierAll",
+                        "operation": "Float_Multiply",
+                        "modValue": "0.90",
+                        "modType": "System.Single",
+                        "additionalRules": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponType": "NotSet",
+                        "targetAmmoCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unique_wood_4",
+            "missionsRequired": 40,
+            "levelName": "Woodsman Master",
+            "decription": "+15% Speed",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its walk & sprinting speed by 15%.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-EasyToPilotWalk",
+                        "Name": "Mech Affinity Sprint Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "WalkSpeed",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": true
+                    }
+                },
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-EasyToPilotRun",
+                        "Name": "Mech Affinity Sprint Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "RunSpeed",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": false,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        }
+    ]
+  }
+}

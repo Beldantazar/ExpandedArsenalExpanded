@@ -1,0 +1,1756 @@
+{
+  "debug": false,
+  "missionsBeforeDecay": 1,
+  "lowestPossibleDecay": 0,
+  "removeAffinityAfter": 17,
+  "maxAffinityPoints": 1000,
+  "decayByModulo": false,
+  "debugForceTag": "",
+  "defaultDaysBeforeSimDecay": -1,
+  "showQuirks": false,
+  "showDescriptionsOnChassis": false,
+  "trackSimDecayByStat": true,
+  "trackLowestDecayByStat": false,
+  "showAllPilotAffinities": true,
+  "topAffinitiesInTooltipCount": 3,
+  "enablePilotQuirks": false,
+  "playerQuirkPools": false,
+  "pqArgoAdditive": true,
+  "pqArgoMultiAutoAdjust": true,
+  "pqArgoMin": 0.0,
+  "enablePilotSelect": false,
+  "enableMonthlyMoraleReset": false,
+  "enableStablePiloting": false,
+  "stablePilotingSettings": {
+    "reductionPerPiloting": 0.02,
+    "increasePerInjury": 0.05,
+    "tagEffects": [],
+    "InverseMax": 20
+  },
+  "quirkPools": [],
+  "pqTooltipTags": [],
+  "pilotQuirks": [],
+  "globalAffinities": [
+    {
+      "id": "Green",
+      "missionsRequired": 3,
+      "levelName": "Green",
+      "decription": "Get A Small Piloting Boost",
+      "affinities": [
+        {
+          "type": "Piloting",
+          "bonus": 1
+        }
+      ],
+      "effectData": []
+    },
+    {
+      "id": "Veteran",
+      "missionsRequired": 7,
+      "levelName": "Veteran",
+      "decription": "Get A Moderate Boost to All Skills",
+      "affinities": [
+        {
+          "type": "Guts",
+          "bonus": 2
+        },
+        {
+          "type": "Tactics",
+          "bonus": 2
+        },
+        {
+          "type": "Piloting",
+          "bonus": 1
+        },
+        {
+          "type": "Gunnery",
+          "bonus": 2
+        }
+      ],
+      "effectData": []
+    }
+  ],
+  "chassisAffinities": [
+    {
+      "id": "please_fill_it_with_some_unique_id",
+      "chassisNames": [
+        "chrPrfMech_fleaBase-001_15",
+        "chrPrfMech_fleaBase-001_20",
+        "chrPrfMech_locustBase-001_20",
+        "chrPrfMech_cicadaBase-001_40",
+        "chrPrfMech_trebuchetBase-001_50",
+        "chrPrfMech_thunderboltBase-001_65",
+        "chrPrfMech_zeusBase-001_80",
+        "chrPrfMech_kingcrabBase-001_100",
+        "chrprfmech_uzielbase-001_50",
+        "chrprfmech_mongoosebase-001_25",
+        "chrprfmech_iondevabase-001_70",
+        "chrPrfMech_kingcrabBase-001_125"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Zippy",
+          "missionsRequired": 15,
+          "levelName": "Zippy",
+          "decription": "Move With Incredible Speed! (+15% walk & sprint speed)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its walk & sprinting speed by 15%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-EasyToPilotWalk",
+                "Name": "Mech Affinity Sprint Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.15",
+                "operation": "Float_Multiply",
+                "statName": "WalkSpeed",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": true
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-EasyToPilotRun",
+                "Name": "Mech Affinity Sprint Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.15",
+                "operation": "Float_Multiply",
+                "statName": "RunSpeed",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_0",
+      "chassisNames": [
+        "chrPrfMech_commandoBase-001_25",
+        "chrprfmech_urbiebase-001_30",
+        "chrPrfMech_ravenBase-001_35",
+        "chrPrfMech_vulcanBase-001_40",
+        "chrPrfMech_warhammerBase-001_70",
+        "chrprfmech_dervishbase-001_55",
+        "chrprfmech_valiantbase-001_30",
+        "chrprfmech_cougarbase-001_35",
+        "chrprfmech_hellbringerbase-001_65",
+        "chrprfmech_archangelbase-001_100"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Evasive",
+          "missionsRequired": 15,
+          "levelName": "Evasive",
+          "decription": "Shrinks The Mech's Target Even Further! (+2 defense)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-NarrowProfile",
+                "Name": "Mech Affinity Defensive Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "2.0",
+                "operation": "Float_Add",
+                "statName": "ToHitThisActor",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_1",
+      "chassisNames": [
+        "chrPrfMech_javelinBase-001_30",
+        "chrPrfMech_spiderBase-001_30",
+        "chrPrfMech_firestarterBase-001_35",
+        "chrPrfMech_assassinBase-001_40",
+        "chrPrfMech_catapultBase-001_65",
+        "chrprfmech_k2pultbase-001_65",
+        "chrPrfMech_grasshopperBase-001_70",
+        "chrPrfMech_highlanderBase-001_90",
+        "chrPrfMech_stingerHotD-001_20",
+        "chrprfmech_valkyriehotd-001_30",
+        "chrPrfMech_viperbase-001_40",
+        "chrprfmech_septicemiabase-001_55"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Nimble",
+          "missionsRequired": 15,
+          "levelName": "Nimble",
+          "decription": "Lets the Mech Jump Even Further (+15% jump distance)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech makes it extremely mobile with its jump jets.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-NimbleJumper",
+                "Name": "Mech Affinity Jumping Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.15",
+                "operation": "Float_Multiply",
+                "statName": "JumpDistanceMultiplier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_2",
+      "chassisNames": [
+        "chrPrfMech_phoenixhawkBase-001_45",
+        "chrPrfMech_crabBase-001_50",
+        "chrPrfMech_wolverineBase-001_55",
+        "chrPrfMech_quickdrawBase-001_60",
+        "chrPrfMech_riflemanBase-001_60",
+        "chrprfmech_laohubase-001_75",
+        "chrprfmech_ostwarhotd-001_65",
+        "chrprfmech_wolfhoundbase-001_35",
+        "chrprfmech_banebase-001_100",
+        "chrprfmech_direwolfbase-001_100",
+        "chrPrfMech_shadowcatbase-001_45",
+        "chrprfmech_turkinabase-001_95",
+        "chrprfmech_genericsh4base-001_135",
+        "chrprfmech_omegabase-001_150",
+        "chrprfmech_wasplambase-001_30"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Encouraging",
+          "missionsRequired": 15,
+          "levelName": "Encouraging",
+          "decription": "Great at Keeping Morale High! (+3 Morale Gain)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its morale boost by 3.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-MoraleBoost",
+                "Name": "Mech Affinity Morale Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "3",
+                "operation": "Int_Add",
+                "statName": "MoraleBonusGain",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_3",
+      "chassisNames": [
+        "chrPrfMech_pantherBase-001_35",
+        "chrPrfMech_blackjackBase-001_45",
+        "chrPrfMech_jagermechBase-001_65",
+        "chrPrfMech_cataphractBase-001_70",
+        "chrPrfMech_bullsharkBase-001_95",
+        "chrprfmech_ebonjaguarbase-001_65",
+        "chrprfmech_stormcrowbase-001_55",
+        "chrprfmech_stonerhinobase-001_100",
+        "chrprfmech_stingerlambase-001_30",
+        "chrprfmech_phawklegacylambase-001_30",
+        "chrprfmech_transientlambase-001_55"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Precise_Shot",
+          "missionsRequired": 15,
+          "levelName": "Precise Shot",
+          "decription": "Able to Shoot Through a Needle's Eye! (+1 Accuracy)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Targeting",
+                "Name": "Mech Affinity Targeting Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "-1.0",
+                "operation": "Float_Add",
+                "statName": "AccuracyModifier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_4",
+      "chassisNames": [
+        "chrPrfMech_cyclopsBase-001_90",
+        "chrPrfMech_annihilatorBase-001_100",
+        "chrprfmech_dasherbase-001_20",
+        "chrprfmech_kitfoxbase-001_30",
+        "chrprfmech_riflemaniicbase-001_65",
+        "chrprfmech_stonerhinobase-001_120",
+        "chrprfmech_marauderiicbase-001_85",
+        "chrprfmech_iongrigoribase-001_60",
+        "chrprfmech_wanetabase-001_55",
+        "chrprfmech_twlambase-001_55",
+        "chrprfmech_blackowlbase-001_30",
+        "chrprfmech_blackowlbase-001_45"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Keen-Eyed",
+          "missionsRequired": 15,
+          "levelName": "Keen-Eyed",
+          "decription": "Improves Sensor Capability Even Further (+15% Sensor range)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Sensor",
+                "Name": "Mech Affinity Sensor Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.15",
+                "operation": "Float_Multiply",
+                "statName": "SensorDistanceAbsolute",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Sight",
+                "Name": "Osiris Affinity Sight Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.15",
+                "operation": "Float_Multiply",
+                "statName": "SpotterDistanceAbsolute",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_5",
+      "chassisNames": [
+        "chrPrfMech_hunchbackBase-001_50",
+        "chrPrfMech_victorBase-001_80",
+        "chrprfmech_blacklannerbase-001_55",
+        "chrprfmech_warhammeriicbase-001_80",
+        "chrprfmech_cephalusbase-001_25",
+        "chrPrfMech_pretabase-001_45",
+        "chrprfmech_switchbladebase-001_35",
+        "chrprfmech_switchbladebase-001_55",
+        "chrprfmech_seraphbase-001_85"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Agile",
+          "missionsRequired": 15,
+          "levelName": "Agile",
+          "decription": "Gains Bonus Evasion on Movement! (+1 Evasion pips on move)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Evasion",
+                "Name": "Mech Affinity Evasive Pips Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "1",
+                "operation": "Int_Add",
+                "statName": "EvasivePipsGainedAdditional",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_6",
+      "chassisNames": [
+        "chrPrfMech_shadowhawkBase-001_55",
+        "chrPrfMech_dragonBase-001_60",
+        "chrprfmech_bushwackerbase-001_55",
+        "chrprfmech_talosbase-001_50",
+        "chrprfmech_thanatosbase-001_75",
+        "chrprfmech_huntsmanbase-001_50",
+        "chrprfmech_novabase-001_50",
+        "chrprfmech_warhawkbase-001_85",
+        "chrprfmech_vf11lambase-001_35",
+        "chrprfmech_vf11lambase-001_50"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Sturdy",
+          "missionsRequired": 15,
+          "levelName": "Sturdy",
+          "decription": "Is Incredibly Resistant to Pilot Hits (+1 Pilot Health)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its life support systems by 1, reducing pilot hits even further.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-PilotHits",
+                "Name": "Mech Affinity Pilot Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "1",
+                "operation": "Int_Add",
+                "statName": "BonusHealth",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_7",
+      "chassisNames": [
+        "chrPrfMech_jennerBase-001_35",
+        "chrPrfMech_hatchetmanBase-001_45",
+        "chrPrfMech_enforcerBase-001_50",
+        "chrprfmech_hellspawnbase-001_45",
+        "chrPrfMech_adderbase-001_35",
+        "chrprfmech_arcticcheetahbase-001_30",
+        "chrprfmech_medusabase-001_50",
+        "chrprfmech_malakbase-001_30"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Cool-Running",
+          "missionsRequired": 15,
+          "levelName": "Cool-Running",
+          "decription": "Has Enhanced the Cooling Systems (+3 Heat Dissipation)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its heat sinking systems, increasing dissipation by 3.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Dissipation",
+                "Name": "Mech Affinity Heat Dissipation Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "3",
+                "operation": "Int_Add",
+                "statName": "HeatSinkCapacity",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_8",
+      "chassisNames": [
+        "chrPrfMech_orionBase-001_75",
+        "chrprfmech_orioniicbase-001_75",
+        "chrPrfMech_stalkerBase-001_85",
+        "chrprfmech_zeusxbase-001_80",
+        "chrprfmech_hellfirebase-001_60",
+        "chrprfmech_sunspiderbase-001_70",
+        "chrprfmech_genericsh3base-001_125",
+        "chrprfmech_phawklambase-001_50",
+        "chrprfmech_phawklegacylambase-001_50"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Ice_Cold",
+          "missionsRequired": 15,
+          "levelName": "Ice Cold",
+          "decription": "Has Greatly Enhanced the Cooling Systems (+9 Heat Dissipation)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its heat sinking systems, increasing dissipation by 9.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Dissipation",
+                "Name": "Mech Affinity Heat Dissipation Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "9",
+                "operation": "Int_Add",
+                "statName": "HeatSinkCapacity",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_9",
+      "chassisNames": [
+        "chrPrfMech_vindicatorBase-001_45",
+        "chrPrfMech_kintaroBase-001_55",
+        "chrPrfMech_griffinBase-001_55",
+        "chrprfmech_fafnirbase-001_100",
+        "chrprfmech_longbowbase-001_85",
+        "chrprfmech_bloodaspbase-001_90",
+        "chrprfmech_incubusbase-001_30",
+        "chrprfmech_maddogbase-001_60",
+        "chrprfmech_mistlynxbase-001_25",
+        "chrprfmech_summonerbase-001_70",
+        "chrprfmech_osteonbase-001_85",
+        "chrprfmech_longbowbase-001_120",
+        "chrprfmech_wanetabase-001_40",
+        "chrprfmech_twlambase-001_40"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Resistant",
+          "missionsRequired": 15,
+          "levelName": "Resistant",
+          "decription": "Has Improved Resistance to Critical Damage (+50 resistance to criticl damage)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its resistant to critical damage by 50%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-CritResist",
+                "Name": "Mech Affinity Critical Hit Resistance Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "0.5",
+                "operation": "Float_Multiply",
+                "statName": "CriticalHitChanceReceivedMultiplier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_10",
+      "chassisNames": [
+        "chrPrfMech_highlander_SLDFBase-001_90",
+        "chrPrfMech_bansheeBase-001_95",
+        "chrPrfMech_centurionBase-001_50",
+        "chrprfmech_argusbase-001_60",
+        "chrprfmech_hollanderbase-001_35",
+        "chrprfmech_maulerbase-001_90",
+        "chrprfmech_highlanderiicbase-001_90",
+        "chrprfmech_nightgyrbase-001_75",
+        "chrprfmech_supernovabase-001_90"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Unlimited_Power",
+          "missionsRequired": 15,
+          "levelName": "Unlimited Power",
+          "decription": "Has Boosted Weapon Damage (+10% Damage)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its weapon damage by 10%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-EnergyDamage",
+                "Name": "Mech Affinity Energy Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.1",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Energy",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its ballistic weapon damage by 10%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-BallisticDamage",
+                "Name": "Mech Affinity Ballistic Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.1",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Ballistic",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its missile weapon damage by 10%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-MissileDamage",
+                "Name": "Mech Affinity Missile Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.1",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Missile",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_11",
+      "chassisNames": [
+        "chrPrfMech_archerBase-001_70",
+        "chrPrfMech_awesomeBase-001_80",
+        "chrPrfMech_atlasBase-001_100",
+        "chrprfmech_rtcorsair5base-001_95",
+        "chrprfmech_crusaderhotd-001_65",
+        "chrprfmech_hatamotochisam-001_80",
+        "chrprfmech_executionerbase-001_95",
+        "chrPrfMech_hellhoundBase-001_50",
+        "chrprfmech_kodiakbase-001_100",
+        "chrPrfMech_vaporeagleBase-001_55",
+        "chrprfmech_piranhabase-001_20",
+        "chrprfmech_huronwbase-001_50"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Brawler",
+          "missionsRequired": 15,
+          "levelName": "Brawler",
+          "decription": "Has Boosted Melee Damage (+10% Melee Damage)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its melee damage by 10%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-MeleeDamage",
+                "Name": "Mech Affinity Melee Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.1",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Melee",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_12",
+      "chassisNames": [
+        "chrPrfMech_blackknightBase-001_75",
+        "chrPrfMech_marauderBase-001_75",
+        "chrPrfMech_battlemasterBase-001_85",
+        "chrprfmech_marauderiibase-001_100",
+        "chrprfmech_madcatmkiibase-001_90",
+        "chrprfmech_madcatbase-001_75",
+        "chrprfmech_shawklambase-001_55",
+        "chrprfmech_yf24gerwalkbase-001_55"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Command_Unit",
+          "missionsRequired": 15,
+          "levelName": "Command Unit",
+          "decription": "Has Boosted Initiative (+1 Initiative)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Initiative",
+                "Name": "Mech Affinity Initiative Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "-1",
+                "operation": "Int_Add",
+                "statName": "BaseInitiative",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "please_fill_it_with_some_unique_id_13",
+      "chassisNames": [
+        "chrPrfMech_urbanmechBase-001_30"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "Trash_Master",
+          "missionsRequired": 15,
+          "levelName": "Trash Master",
+          "decription": "You have discovered the secret to making this trashcan move...rolling (+75% walk/sprint speed)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "You have discovered the secret to making this trashcan move...rolling (+75% walk/sprint speed)",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-TrashMaster",
+                "Name": "Mech Affinity Trash Master Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.75",
+                "operation": "Float_Multiply",
+                "statName": "WalkSpeed",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": true
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-EasyToPilotRun",
+                "Name": "Mech Affinity Sprint Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.75",
+                "operation": "Float_Multiply",
+                "statName": "RunSpeed",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "Not_Just_a_Meme",
+          "missionsRequired": 50,
+          "levelName": "Not Just a Meme",
+          "decription": "Show the world your not a meme, your mastery of the urbie will make you the envy of all",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its weapon damage, jumping and evasion.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-EnergyDamage",
+                "Name": "Mech Affinity Meme Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.3",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Energy",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its ballistic weapon damage by 30%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-BallisticDamage",
+                "Name": "Mech Affinity Ballistic Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.3",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Ballistic",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its missile weapon damage by 30%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-MissileDamage",
+                "Name": "Mech Affinity Missile Damage Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.3",
+                "operation": "Float_Multiply",
+                "statName": "DamagePerShot",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "Missile",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Initiative",
+                "Name": "Mech Affinity Initiative Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "-1",
+                "operation": "Int_Add",
+                "statName": "BaseInitiative",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its heat sinking systems, increasing dissipation by 9.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Dissipation",
+                "Name": "Mech Affinity Heat Dissipation Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "9",
+                "operation": "Int_Add",
+                "statName": "HeatSinkCapacity",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-MoraleBoost",
+                "Name": "Mech Affinity Evasive Pips Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "1",
+                "operation": "Int_Add",
+                "statName": "EvasivePipsGainedAdditional",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Targeting",
+                "Name": "Mech Affinity Targeting Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "-1.0",
+                "operation": "Float_Add",
+                "statName": "AccuracyModifier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech makes it extremely mobile with its jump jets.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-NimbleJumper",
+                "Name": "Mech Affinity Jumping Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "3.25",
+                "operation": "Float_Multiply",
+                "statName": "JumpDistanceMultiplier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unique_lam_valkyrie_ghost",
+      "chassisNames": [
+        "chrprfmech_vfwargerwalkbase-001_50"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "unique_coolrunning",
+          "missionsRequired": 15,
+          "levelName": "Cool Running",
+          "decription": "Has Greatly Enhanced the Cooling Systems (+9 Heat Dissipation)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its heat sinking systems, increasing dissipation by 9.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Dissipation",
+                "Name": "Mech Affinity Heat Dissipation Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "9",
+                "operation": "Int_Add",
+                "statName": "HeatSinkCapacity",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "unique_fighter_ace",
+          "missionsRequired": 40,
+          "levelName": "Fighter Ace",
+          "decription": "Unlocked the true potential of the Valkyrie Ghost's unique construction",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech further improves its cooling by 11.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Cooling-Unique",
+                "Name": "Mech Affinity Evasion Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "11",
+                "operation": "Int_Add",
+                "statName": "HeatSinkCapacity",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 2.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Evasion-Unique",
+                "Name": "Mech Affinity Evasive Pips Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "2",
+                "operation": "Int_Add",
+                "statName": "EvasivePipsGainedAdditional",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech grants it 15% extra jumping distance.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-NimbleJumper-Unique",
+                "Name": "Mech Affinity Jumping Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Single",
+                "modValue": "1.15",
+                "operation": "Float_Multiply",
+                "statName": "JumpDistanceMultiplier",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unique_sh_monster",
+      "chassisNames": [
+        "chrprfmech_monsterbase-001_150"
+      ],
+      "idType": "AssemblyVariant",
+      "altMaps": [],
+      "affinityLevels": [
+        {
+          "id": "unique-encouraging",
+          "missionsRequired": 15,
+          "levelName": "Encouraging",
+          "decription": "Great at Keeping Morale High! (+3 Morale Gain)",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its morale boost by 3.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-MoraleBoost-Unique",
+                "Name": "Mech Affinity Morale Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "3",
+                "operation": "Int_Add",
+                "statName": "MoraleBonusGain",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        },
+        {
+          "id": "unique_sh_pilot",
+          "missionsRequired": 40,
+          "levelName": "Dreadnought Commander",
+          "decription": "Unlocked the true potential of the Monster's unique construction",
+          "affinities": [],
+          "effectData": [
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                "Name": "Mech Affinity Evasion Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "statName": "DamageReductionMultiplierAll",
+                "operation": "Float_Multiply",
+                "modValue": "0.90",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Initiative-Unique",
+                "Name": "Mech Affinity Initiative Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "modType": "System.Int32",
+                "modValue": "-1",
+                "operation": "Int_Add",
+                "statName": "BaseInitiative",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": true,
+                "showInTargetPreview": false
+              }
+            },
+            {
+              "Description": {
+                "Details": "The pilot's incredible skill with this mech improves accuracy with called shots (+15%).",
+                "Icon": "UixSvgIcon_specialEquip_System",
+                "Id": "StatusEffect-Affinity-Precision-Unique",
+                "Name": "Mech Affinity Evasive Pips Boost"
+              },
+              "durationData": {
+                "duration": -1,
+                "stackLimit": -1
+              },
+              "effectType": "StatisticEffect",
+              "nature": "Buff",
+              "statisticData": {
+                "additionalRules": "NotSet",
+                "statName": "CalledShotBonusMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.15",
+                "modType": "System.Single",
+                "targetAmmoCategory": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponSubType": "NotSet",
+                "targetWeaponType": "NotSet"
+              },
+              "targetingData": {
+                "effectTargetType": "Creator",
+                "effectTriggerType": "Passive",
+                "hideApplicationFloatie": true,
+                "showInStatusPanel": false,
+                "showInTargetPreview": false
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quirkAffinities": [],
+  "taggedAffinities": [],
+  "prefabOverrides": [],
+  "affinityGroups": [],
+  "iconColours": [],
+  "addTags": []
+}

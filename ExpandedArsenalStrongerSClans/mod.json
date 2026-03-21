@@ -1,0 +1,81 @@
+{
+    "Name": "Elite Arsenal Stronger S Mechs",
+    "Enabled": true,
+    "Version": "1.0.0",
+    "Description": "Upgrades some s tier assault mechs to be stronger and harder to beat",
+    "Author": "Hong Ooi",
+    "DependsOn": [
+        "Elite Arsenal",
+        "superheavies"
+    ],
+    "RequiredContentPacks": [
+        "flashpoint",
+        "urbanwarfare",
+        "heavymetal"
+    ],
+    "Manifest": [
+        {
+            "Type": "MechDef",
+            "Path": "mech_clan",
+            "AddToDB": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "mech_special",
+            "AddToDB": true
+        },
+        {
+            "Type": "MechDef",
+            "Path": "mech",
+            "AddToDB": true
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis_clan",
+            "AddToDB": true
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis_special",
+            "AddToDB": true
+        },
+        {
+            "Type": "ChassisDef",
+            "Path": "chassis",
+            "AddToDB": true
+        },
+        {
+            "Type": "WeaponDef",
+            "Path": "weapon",
+            "AddToDB": true
+        },
+        {
+            "Type": "JumpJetDef",
+            "Path": "jumpjets"
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "upgrades",
+            "AddToDB": true
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemcol",
+            "ShouldAppendText": true
+        },
+        {
+            "Type": "FactionDef",
+            "Path": "factions"
+        },
+        {
+            "Type": "MovementCapabilitiesDef",
+            "Path": "movement"
+        }
+    ],
+    "DataAddendumEntries": [
+        {
+            "name": "BattleTech.FactionEnumeration",
+            "path": "Faction.json"
+        }
+    ]
+}

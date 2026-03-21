@@ -1,0 +1,67 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 0,
+    "MaxRange": 540,
+    "RangeSplit": [
+        360,
+        360,
+        540
+    ],
+    "ammoCategoryID": "LB10X",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 12,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 6,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 2,
+    "ShotsWhenFired": 8,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 3,
+    "Instability": 5,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 3450000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Draconis Combine/Clan",
+        "Model": "Magnetic Accelerated Cluster Cannon",
+        "UIName": "Shotgauss 10",
+        "Id": "Weapon_Shotgauss_10_CLAN_STOCK",
+        "Name": "Shotgauss 10",
+        "Details": "The shotgauss is a joint effort between weapons researchers of the Draconis Combine and members of an unknown clan, it uses the same ammunition as the standard LB-X autocannon, but discards the explosive propellant part of the shells, instead accelerating the sabot and flechettes directly via a shortened Gauss Rifle barrel. This allows for a great deal of damage and penetration, at the cost of reduced impact and that both the weapon and the ammo can explode.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "lbx10",
+    "InventorySize": 4,
+    "Tonnage": 12,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "VolleyDivisor": 8,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

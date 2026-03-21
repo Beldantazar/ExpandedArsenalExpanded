@@ -1,0 +1,20 @@
+Adds Endo steel upgrades.
+
+Endo steel IV       for mechs up to 40T
+Endo steel VI       for mechs 45T to 60T
+Endo steel VIII     for mechs 65T to 80T
+Endo steel X        for mechs 85T to 100T
+
+Endo steel internal structure has been a way to turn extra critical slots into a little more tonnage for a long time and I was sad to not see it in this game, so I made it. Each takes 1 slot and with 12 reduces weight by about 5% of max weight IE 12 Endo steel IV reduces weight by about 2 tons (0.17 tons * 12 = 2.04 tons, 2 tons is 5% of 40 tons) this follows the battletech TT rules. There is a difference between TT and PC number of slots and how they are used so I decreased from 14 slots to 12 and adjusted weights accordingly. 
+
+When refitting a mech Battletech only checks mech weights before showing components for jump-jets so as to only show the ones that can be placed on that mech but when I made them as jump-jets they used your jump-jet slots and I'm not okay with that. If some one knows how to make it check for mech tonnage before displaying or how to make jumpjets that don't use your jump-jet slots please let me know.
+
+Because this mod gives you odd tonnage I recommend using OnePointArmorStep.  CURSE YOU EVIL 0.01 UNUSED TONNAGE!!! lol
+https://www.nexusmods.com/battletech/mods/228
+
+Installation instructions
+
+1    Install BattleTechModLoader & ModTek following the instructions in this link: https://github.com/Mpstark/BattleTechModLoader?.
+2    Extract the files of my mod into "BATTLETECH\Mods\". or just drag and drop on the BTML
+3    This mod modifies itemCollection_Components_base.csv if you have any other mod that adds items to that list you need to add my items to their list and or add their items this mods list and make sure that one is loaded last to prevent conflict.
+4    Play!

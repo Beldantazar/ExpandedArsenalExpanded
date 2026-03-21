@@ -1,0 +1,3296 @@
+{
+    "mappingEntries": {
+        "AmmoBoxTemplate": {
+            "itemId": "AmmoBoxTemplate",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC10": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC10",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC2": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC2",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC20": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC20",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC5": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC5",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_Flamer": {
+            "itemId": "Ammo_AmmunitionBox_Generic_Flamer",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_GAUSS": {
+            "itemId": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB10X": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB10X",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB20X": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB20X",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB2X": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB2X",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB5X": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB5X",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LRM": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LRM",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_MG": {
+            "itemId": "Ammo_AmmunitionBox_Generic_MG",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_MG_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_MG_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_Narc": {
+            "itemId": "Ammo_AmmunitionBox_Generic_Narc",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_SRM": {
+            "itemId": "Ammo_AmmunitionBox_Generic_SRM",
+            "itemType": "AmmunitionBox"
+        },
+        "AmmunitionBox_Flamer": {
+            "itemId": "AmmunitionBox_Flamer",
+            "itemType": "AmmunitionBox"
+        },
+        "Gear_HeatSink_Generic_Bulk-Bank": {
+            "itemId": "Gear_HeatSink_Generic_Bulk-Bank",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Double": {
+            "itemId": "Gear_HeatSink_Generic_Double",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Improved-Bank": {
+            "itemId": "Gear_HeatSink_Generic_Improved-Bank",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Standard-Bank": {
+            "itemId": "Gear_HeatSink_Generic_Standard-Bank",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Standard": {
+            "itemId": "Gear_HeatSink_Generic_Standard",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Thermal-Exchanger-I": {
+            "itemId": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Thermal-Exchanger-II": {
+            "itemId": "Gear_HeatSink_Generic_Thermal-Exchanger-II",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Thermal-Exchanger-III": {
+            "itemId": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "itemType": "HeatSink"
+        },
+        "": {
+            "itemId": "",
+            "itemType": "Upgrade"
+        },
+        "Gear_JumpJet_Generic_Assault": {
+            "itemId": "Gear_JumpJet_Generic_Assault",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Generic_Heavy": {
+            "itemId": "Gear_JumpJet_Generic_Heavy",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Generic_Standard": {
+            "itemId": "Gear_JumpJet_Generic_Standard",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Vectored_Thrust_Kit": {
+            "itemId": "Gear_JumpJet_Vectored_Thrust_Kit",
+            "itemType": "JumpJet"
+        },
+        "Jumpjet_Template": {
+            "itemId": "Jumpjet_Template",
+            "itemType": "JumpJet"
+        },
+        "TargetDummyMod": {
+            "itemId": "TargetDummyMod",
+            "itemType": "Upgrade"
+        },
+        "WeaponTemplate": {
+            "itemId": "WeaponTemplate",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_0-STOCK": {
+            "itemId": "Weapon_Autocannon_AC10_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_1-Defiance": {
+            "itemId": "Weapon_Autocannon_AC10_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_1-Imperator": {
+            "itemId": "Weapon_Autocannon_AC10_1-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_1-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC10_1-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_1-Mydron": {
+            "itemId": "Weapon_Autocannon_AC10_1-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_2-Defiance": {
+            "itemId": "Weapon_Autocannon_AC10_2-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_2-Federated": {
+            "itemId": "Weapon_Autocannon_AC10_2-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_2-Imperator": {
+            "itemId": "Weapon_Autocannon_AC10_2-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_2-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC10_2-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_2-Mydron": {
+            "itemId": "Weapon_Autocannon_AC10_2-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_3-Federated": {
+            "itemId": "Weapon_Autocannon_AC10_3-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_0-STOCK": {
+            "itemId": "Weapon_Autocannon_AC20_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_1-Defiance": {
+            "itemId": "Weapon_Autocannon_AC20_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_1-Federated": {
+            "itemId": "Weapon_Autocannon_AC20_1-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_1-Imperator": {
+            "itemId": "Weapon_Autocannon_AC20_1-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_1-Mydron": {
+            "itemId": "Weapon_Autocannon_AC20_1-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_2-Defiance": {
+            "itemId": "Weapon_Autocannon_AC20_2-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_2-Federated": {
+            "itemId": "Weapon_Autocannon_AC20_2-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_2-Imperator": {
+            "itemId": "Weapon_Autocannon_AC20_2-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_2-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC20_2-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_2-Mydron": {
+            "itemId": "Weapon_Autocannon_AC20_2-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_3-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC20_3-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_SPECIAL-Victoria": {
+            "itemId": "Weapon_Autocannon_AC20_SPECIAL-Victoria",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_0-STOCK": {
+            "itemId": "Weapon_Autocannon_AC2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_1-Defiance": {
+            "itemId": "Weapon_Autocannon_AC2_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_1-Federated": {
+            "itemId": "Weapon_Autocannon_AC2_1-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_1-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC2_1-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_1-Mydron": {
+            "itemId": "Weapon_Autocannon_AC2_1-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_2-Defiance": {
+            "itemId": "Weapon_Autocannon_AC2_2-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_2-Federated": {
+            "itemId": "Weapon_Autocannon_AC2_2-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_2-Imperator": {
+            "itemId": "Weapon_Autocannon_AC2_2-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_2-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC2_2-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_2-Mydron": {
+            "itemId": "Weapon_Autocannon_AC2_2-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_3-Imperator": {
+            "itemId": "Weapon_Autocannon_AC2_3-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_0-STOCK": {
+            "itemId": "Weapon_Autocannon_AC5_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_1-Defiance": {
+            "itemId": "Weapon_Autocannon_AC5_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_1-Federated": {
+            "itemId": "Weapon_Autocannon_AC5_1-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_1-Imperator": {
+            "itemId": "Weapon_Autocannon_AC5_1-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_1-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC5_1-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_2-Defiance": {
+            "itemId": "Weapon_Autocannon_AC5_2-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_2-Federated": {
+            "itemId": "Weapon_Autocannon_AC5_2-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_2-Imperator": {
+            "itemId": "Weapon_Autocannon_AC5_2-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_2-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_AC5_2-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_2-Mydron": {
+            "itemId": "Weapon_Autocannon_AC5_2-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_3-Mydron": {
+            "itemId": "Weapon_Autocannon_AC5_3-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB10X_0-STOCK": {
+            "itemId": "Weapon_Autocannon_LB10X_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB10X_1-Western": {
+            "itemId": "Weapon_Autocannon_LB10X_1-Western",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB10X_2-Western": {
+            "itemId": "Weapon_Autocannon_LB10X_2-Western",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB20X_0-STOCK": {
+            "itemId": "Weapon_Autocannon_LB20X_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB20X_1-Shengli_Arms": {
+            "itemId": "Weapon_Autocannon_LB20X_1-Shengli_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB20X_2-Shengli_Arms": {
+            "itemId": "Weapon_Autocannon_LB20X_2-Shengli_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB2X_0-STOCK": {
+            "itemId": "Weapon_Autocannon_LB2X_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB2X_1-Defiance": {
+            "itemId": "Weapon_Autocannon_LB2X_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB2X_2-Defiance": {
+            "itemId": "Weapon_Autocannon_LB2X_2-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB5X_0-STOCK": {
+            "itemId": "Weapon_Autocannon_LB5X_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB5X_1-GM": {
+            "itemId": "Weapon_Autocannon_LB5X_1-GM",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_LB5X_2-GM": {
+            "itemId": "Weapon_Autocannon_LB5X_2-GM",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC10_0-STOCK": {
+            "itemId": "Weapon_Autocannon_UAC10_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC10_1-Federated": {
+            "itemId": "Weapon_Autocannon_UAC10_1-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC10_2-Federated": {
+            "itemId": "Weapon_Autocannon_UAC10_2-Federated",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC20_0-STOCK": {
+            "itemId": "Weapon_Autocannon_UAC20_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC20_1-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_UAC20_1-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC20_2-Kali_Yama": {
+            "itemId": "Weapon_Autocannon_UAC20_2-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC2_0-STOCK": {
+            "itemId": "Weapon_Autocannon_UAC2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC2_1-Imperator": {
+            "itemId": "Weapon_Autocannon_UAC2_1-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC2_2-Imperator": {
+            "itemId": "Weapon_Autocannon_UAC2_2-Imperator",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC5_0-STOCK": {
+            "itemId": "Weapon_Autocannon_UAC5_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC5_1-Mydron": {
+            "itemId": "Weapon_Autocannon_UAC5_1-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_UAC5_2-Mydron": {
+            "itemId": "Weapon_Autocannon_UAC5_2-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_COIL_COIL-L_0-STOCK": {
+            "itemId": "Weapon_COIL_COIL-L_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_COIL_COIL-M_0-STOCK": {
+            "itemId": "Weapon_COIL_COIL-M_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_COIL_COIL-S_0-STOCK": {
+            "itemId": "Weapon_COIL_COIL-S_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_DFAAttack": {
+            "itemId": "Weapon_DFAAttack",
+            "itemType": "Weapon"
+        },
+        "Weapon_Flamer_Flamer_0-STOCK": {
+            "itemId": "Weapon_Flamer_Flamer_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Flamer_Flamer_1-Hotshot": {
+            "itemId": "Weapon_Flamer_Flamer_1-Hotshot",
+            "itemType": "Weapon"
+        },
+        "Weapon_Flamer_Flamer_2-Olympus": {
+            "itemId": "Weapon_Flamer_Flamer_2-Olympus",
+            "itemType": "Weapon"
+        },
+        "Weapon_Flamer_Flamer_SPECIAL-Victoria": {
+            "itemId": "Weapon_Flamer_Flamer_SPECIAL-Victoria",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_0-STOCK": {
+            "itemId": "Weapon_Gauss_Gauss_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_1-M7": {
+            "itemId": "Weapon_Gauss_Gauss_1-M7",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_2-M9": {
+            "itemId": "Weapon_Gauss_Gauss_2-M9",
+            "itemType": "Weapon"
+        },
+        "Weapon_Inferno_Inferno2_0-STOCK": {
+            "itemId": "Weapon_Inferno_Inferno2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Inferno_Inferno2_1-Harvester": {
+            "itemId": "Weapon_Inferno_Inferno2_1-Harvester",
+            "itemType": "Weapon"
+        },
+        "Weapon_Inferno_Inferno2_2-Marklin_Mini": {
+            "itemId": "Weapon_Inferno_Inferno2_2-Marklin_Mini",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_AI_Imaginary": {
+            "itemId": "Weapon_Laser_AI_Imaginary",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_0-STOCK": {
+            "itemId": "Weapon_Laser_LargeLaserER_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_1-Blankenburg25": {
+            "itemId": "Weapon_Laser_LargeLaserER_1-Blankenburg25",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_2-BlazeFire": {
+            "itemId": "Weapon_Laser_LargeLaserER_2-BlazeFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_0-STOCK": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_1-Thunderbolt12": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_1-Thunderbolt12",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_2-Exostar": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_2-Exostar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_0-STOCK": {
+            "itemId": "Weapon_Laser_LargeLaser_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_1-Diverse_Optics": {
+            "itemId": "Weapon_Laser_LargeLaser_1-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_1-ExoStar": {
+            "itemId": "Weapon_Laser_LargeLaser_1-ExoStar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_1-Intek": {
+            "itemId": "Weapon_Laser_LargeLaser_1-Intek",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_2-Diverse_Optics": {
+            "itemId": "Weapon_Laser_LargeLaser_2-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_2-ExoStar": {
+            "itemId": "Weapon_Laser_LargeLaser_2-ExoStar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_2-Intek": {
+            "itemId": "Weapon_Laser_LargeLaser_2-Intek",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_2-Magna": {
+            "itemId": "Weapon_Laser_LargeLaser_2-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_3-Magna": {
+            "itemId": "Weapon_Laser_LargeLaser_3-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_0-STOCK": {
+            "itemId": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_1-MagnaVI": {
+            "itemId": "Weapon_Laser_MediumLaserER_1-MagnaVI",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_2-BrightBloom": {
+            "itemId": "Weapon_Laser_MediumLaserER_2-BrightBloom",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_0-STOCK": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_1-RakerIV": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_2-Magna400P": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_0-STOCK": {
+            "itemId": "Weapon_Laser_MediumLaser_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_1-ExoStar": {
+            "itemId": "Weapon_Laser_MediumLaser_1-ExoStar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_1-Intek": {
+            "itemId": "Weapon_Laser_MediumLaser_1-Intek",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_1-Magna": {
+            "itemId": "Weapon_Laser_MediumLaser_1-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_2-Diverse_Optics": {
+            "itemId": "Weapon_Laser_MediumLaser_2-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_2-ExoStar": {
+            "itemId": "Weapon_Laser_MediumLaser_2-ExoStar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_2-Intek": {
+            "itemId": "Weapon_Laser_MediumLaser_2-Intek",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_2-Magna": {
+            "itemId": "Weapon_Laser_MediumLaser_2-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_3-Diverse_Optics": {
+            "itemId": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_0-STOCK": {
+            "itemId": "Weapon_Laser_SmallLaserER_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_1-Diverse_Optics": {
+            "itemId": "Weapon_Laser_SmallLaserER_1-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_2-BlazeFire": {
+            "itemId": "Weapon_Laser_SmallLaserER_2-BlazeFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_0-STOCK": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_1-Maxell": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_1-Maxell",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_2-Magna200P": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_2-Magna200P",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_0-STOCK": {
+            "itemId": "Weapon_Laser_SmallLaser_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_1-Diverse_Optics": {
+            "itemId": "Weapon_Laser_SmallLaser_1-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_1-ExoStar": {
+            "itemId": "Weapon_Laser_SmallLaser_1-ExoStar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_1-Magna": {
+            "itemId": "Weapon_Laser_SmallLaser_1-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_2-Diverse_Optics": {
+            "itemId": "Weapon_Laser_SmallLaser_2-Diverse_Optics",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_2-ExoStar": {
+            "itemId": "Weapon_Laser_SmallLaser_2-ExoStar",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_2-Intek": {
+            "itemId": "Weapon_Laser_SmallLaser_2-Intek",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_2-Magna": {
+            "itemId": "Weapon_Laser_SmallLaser_2-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaser_3-Intek": {
+            "itemId": "Weapon_Laser_SmallLaser_3-Intek",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_0-STOCK": {
+            "itemId": "Weapon_LRM_LRM10_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_1-Delta": {
+            "itemId": "Weapon_LRM_LRM10_1-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_1-LongFire": {
+            "itemId": "Weapon_LRM_LRM10_1-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_1-Telos": {
+            "itemId": "Weapon_LRM_LRM10_1-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_2-Delta": {
+            "itemId": "Weapon_LRM_LRM10_2-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_2-LongFire": {
+            "itemId": "Weapon_LRM_LRM10_2-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_2-Telos": {
+            "itemId": "Weapon_LRM_LRM10_2-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_2-Zeus": {
+            "itemId": "Weapon_LRM_LRM10_2-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_3-Zeus": {
+            "itemId": "Weapon_LRM_LRM10_3-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_0-STOCK": {
+            "itemId": "Weapon_LRM_LRM15_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_1-Delta": {
+            "itemId": "Weapon_LRM_LRM15_1-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_1-LongFire": {
+            "itemId": "Weapon_LRM_LRM15_1-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_1-Telos": {
+            "itemId": "Weapon_LRM_LRM15_1-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_2-Delta": {
+            "itemId": "Weapon_LRM_LRM15_2-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_2-LongFire": {
+            "itemId": "Weapon_LRM_LRM15_2-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_2-Telos": {
+            "itemId": "Weapon_LRM_LRM15_2-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_2-Zeus": {
+            "itemId": "Weapon_LRM_LRM15_2-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_3-Zeus": {
+            "itemId": "Weapon_LRM_LRM15_3-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_0-STOCK": {
+            "itemId": "Weapon_LRM_LRM20_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_1-Delta": {
+            "itemId": "Weapon_LRM_LRM20_1-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_1-LongFire": {
+            "itemId": "Weapon_LRM_LRM20_1-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_1-Telos": {
+            "itemId": "Weapon_LRM_LRM20_1-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_2-Delta": {
+            "itemId": "Weapon_LRM_LRM20_2-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_2-LongFire": {
+            "itemId": "Weapon_LRM_LRM20_2-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_2-Telos": {
+            "itemId": "Weapon_LRM_LRM20_2-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_2-Zeus": {
+            "itemId": "Weapon_LRM_LRM20_2-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_3-Zeus": {
+            "itemId": "Weapon_LRM_LRM20_3-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_0-STOCK": {
+            "itemId": "Weapon_LRM_LRM5_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_1-Delta": {
+            "itemId": "Weapon_LRM_LRM5_1-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_1-LongFire": {
+            "itemId": "Weapon_LRM_LRM5_1-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_1-Telos": {
+            "itemId": "Weapon_LRM_LRM5_1-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_2-Delta": {
+            "itemId": "Weapon_LRM_LRM5_2-Delta",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_2-LongFire": {
+            "itemId": "Weapon_LRM_LRM5_2-LongFire",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_2-Telos": {
+            "itemId": "Weapon_LRM_LRM5_2-Telos",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_2-Zeus": {
+            "itemId": "Weapon_LRM_LRM5_2-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_3-Zeus": {
+            "itemId": "Weapon_LRM_LRM5_3-Zeus",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_0-STOCK": {
+            "itemId": "Weapon_MachineGun_MachineGun_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_1-Brigadier": {
+            "itemId": "Weapon_MachineGun_MachineGun_1-Brigadier",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_1-VMI": {
+            "itemId": "Weapon_MachineGun_MachineGun_1-VMI",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_2-Brigadier": {
+            "itemId": "Weapon_MachineGun_MachineGun_2-Brigadier",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_2-VMI": {
+            "itemId": "Weapon_MachineGun_MachineGun_2-VMI",
+            "itemType": "Weapon"
+        },
+        "Weapon_MeleeAttack": {
+            "itemId": "Weapon_MeleeAttack",
+            "itemType": "Weapon"
+        },
+        "Weapon_Narc_Standard_0-STOCK": {
+            "itemId": "Weapon_Narc_Standard_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Narc_Standard_1-Ceres_Arms": {
+            "itemId": "Weapon_Narc_Standard_1-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_Narc_Standard_2-Kali_Yama": {
+            "itemId": "Weapon_Narc_Standard_2-Kali_Yama",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_0-STOCK": {
+            "itemId": "Weapon_PPC_PPCER_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_1-MagnaFirestar": {
+            "itemId": "Weapon_PPC_PPCER_1-MagnaFirestar",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_2-TiegartMagnum": {
+            "itemId": "Weapon_PPC_PPCER_2-TiegartMagnum",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_0-STOCK": {
+            "itemId": "Weapon_PPC_PPCSnub_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_1-Ceres_Arms": {
+            "itemId": "Weapon_PPC_PPCSnub_1-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_1-Donal": {
+            "itemId": "Weapon_PPC_PPCSnub_1-Donal",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_1-Magna": {
+            "itemId": "Weapon_PPC_PPCSnub_1-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_2-Ceres_Arms": {
+            "itemId": "Weapon_PPC_PPCSnub_2-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_2-Donal": {
+            "itemId": "Weapon_PPC_PPCSnub_2-Donal",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_2-Magna": {
+            "itemId": "Weapon_PPC_PPCSnub_2-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_0-STOCK": {
+            "itemId": "Weapon_PPC_PPC_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_1-Ceres_Arms": {
+            "itemId": "Weapon_PPC_PPC_1-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_1-Donal": {
+            "itemId": "Weapon_PPC_PPC_1-Donal",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_1-Tiegart": {
+            "itemId": "Weapon_PPC_PPC_1-Tiegart",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_2-Ceres_Arms": {
+            "itemId": "Weapon_PPC_PPC_2-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_2-Donal": {
+            "itemId": "Weapon_PPC_PPC_2-Donal",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_2-Tiegart": {
+            "itemId": "Weapon_PPC_PPC_2-Tiegart",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_0-STOCK": {
+            "itemId": "Weapon_SRM_SRM2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_1-Holly": {
+            "itemId": "Weapon_SRM_SRM2_1-Holly",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_1-Irian": {
+            "itemId": "Weapon_SRM_SRM2_1-Irian",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_2-Holly": {
+            "itemId": "Weapon_SRM_SRM2_2-Holly",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_2-Irian": {
+            "itemId": "Weapon_SRM_SRM2_2-Irian",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_2-Valiant": {
+            "itemId": "Weapon_SRM_SRM2_2-Valiant",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_3-Valiant": {
+            "itemId": "Weapon_SRM_SRM2_3-Valiant",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_0-STOCK": {
+            "itemId": "Weapon_SRM_SRM4_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_1-Holly": {
+            "itemId": "Weapon_SRM_SRM4_1-Holly",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_1-Irian": {
+            "itemId": "Weapon_SRM_SRM4_1-Irian",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_2-Holly": {
+            "itemId": "Weapon_SRM_SRM4_2-Holly",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_2-Irian": {
+            "itemId": "Weapon_SRM_SRM4_2-Irian",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_2-Valiant": {
+            "itemId": "Weapon_SRM_SRM4_2-Valiant",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_3-Valiant": {
+            "itemId": "Weapon_SRM_SRM4_3-Valiant",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_0-STOCK": {
+            "itemId": "Weapon_SRM_SRM6_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_1-Holly": {
+            "itemId": "Weapon_SRM_SRM6_1-Holly",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_1-Irian": {
+            "itemId": "Weapon_SRM_SRM6_1-Irian",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_2-Holly": {
+            "itemId": "Weapon_SRM_SRM6_2-Holly",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_2-Irian": {
+            "itemId": "Weapon_SRM_SRM6_2-Irian",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_2-Valiant": {
+            "itemId": "Weapon_SRM_SRM6_2-Valiant",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_3-Valiant": {
+            "itemId": "Weapon_SRM_SRM6_3-Valiant",
+            "itemType": "Weapon"
+        },
+        "Weapon_TAG_Standard_0-STOCK": {
+            "itemId": "Weapon_TAG_Standard_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_TAG_Standard_1-Mendham": {
+            "itemId": "Weapon_TAG_Standard_1-Mendham",
+            "itemType": "Weapon"
+        },
+        "Weapon_TAG_Standard_2-Ceres_Arms": {
+            "itemId": "Weapon_TAG_Standard_2-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Gear_Actuator_Coventry_Alpha": {
+            "itemId": "Gear_Actuator_Coventry_Alpha",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Coventry_B20-Extended": {
+            "itemId": "Gear_Actuator_Coventry_B20-Extended",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Coventry_B40-Extended": {
+            "itemId": "Gear_Actuator_Coventry_B40-Extended",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Coventry_B60-Extended": {
+            "itemId": "Gear_Actuator_Coventry_B60-Extended",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Coventry_X55-Standard": {
+            "itemId": "Gear_Actuator_Coventry_X55-Standard",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Coventry_X65-Standard": {
+            "itemId": "Gear_Actuator_Coventry_X65-Standard",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Coventry_X75-Standard": {
+            "itemId": "Gear_Actuator_Coventry_X75-Standard",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Behemoth": {
+            "itemId": "Gear_Actuator_Friedhof_Behemoth",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Colossus": {
+            "itemId": "Gear_Actuator_Friedhof_Colossus",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Cronos": {
+            "itemId": "Gear_Actuator_Friedhof_Cronos",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Gargantuan": {
+            "itemId": "Gear_Actuator_Friedhof_Gargantuan",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Heracles": {
+            "itemId": "Gear_Actuator_Friedhof_Heracles",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Perseus": {
+            "itemId": "Gear_Actuator_Friedhof_Perseus",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Friedhof_Theseus": {
+            "itemId": "Gear_Actuator_Friedhof_Theseus",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Pitban_Jackrabbit": {
+            "itemId": "Gear_Actuator_Pitban_Jackrabbit",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Pitban_Kangaroo": {
+            "itemId": "Gear_Actuator_Pitban_Kangaroo",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Pitban_Wallaby": {
+            "itemId": "Gear_Actuator_Pitban_Wallaby",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Prototype_Hatchet": {
+            "itemId": "Gear_Actuator_Prototype_Hatchet",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Diomede_Treads": {
+            "itemId": "Gear_Actuator_Diomede_Treads",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Rawlings_Epsilon": {
+            "itemId": "Gear_Actuator_Rawlings_Epsilon",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Rawlings_Omega": {
+            "itemId": "Gear_Actuator_Rawlings_Omega",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Rawlings_Omicron": {
+            "itemId": "Gear_Actuator_Rawlings_Omicron",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Ceres_Metals_Braced": {
+            "itemId": "Gear_Cockpit_Ceres_Metals_Braced",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Ceres_Metals_Hardened": {
+            "itemId": "Gear_Cockpit_Ceres_Metals_Hardened",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Ceres_Metals_Reinforced": {
+            "itemId": "Gear_Cockpit_Ceres_Metals_Reinforced",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Majesty_M_M_120KL": {
+            "itemId": "Gear_Cockpit_Majesty_M_M_120KL",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Majesty_M_M_180KL": {
+            "itemId": "Gear_Cockpit_Majesty_M_M_180KL",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Majesty_M_M_60KL": {
+            "itemId": "Gear_Cockpit_Majesty_M_M_60KL",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Majesty_M_M_MagestrixAlpha": {
+            "itemId": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_StarCorps_Advanced": {
+            "itemId": "Gear_Cockpit_StarCorps_Advanced",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_StarCorps_Dalban": {
+            "itemId": "Gear_Cockpit_StarCorps_Dalban",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_StarCorps_Enhanced": {
+            "itemId": "Gear_Cockpit_StarCorps_Enhanced",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_StarCorps_Improved": {
+            "itemId": "Gear_Cockpit_StarCorps_Improved",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_Tacticon_B2000_Battle_Computer": {
+            "itemId": "Gear_Cockpit_Tacticon_B2000_Battle_Computer",
+            "itemType": "Upgrade"
+        },
+        "Gear_Sensor_Prototype_ActiveProbe": {
+            "itemId": "Gear_Sensor_Prototype_ActiveProbe",
+            "itemType": "Upgrade"
+        },
+        "Gear_Sensor_Prototype_ECM": {
+            "itemId": "Gear_Sensor_Prototype_ECM",
+            "itemType": "Upgrade"
+        },
+        "Gear_Sensor_Prototype_EWE": {
+            "itemId": "Gear_Sensor_Prototype_EWE",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Advanced_Command_Module": {
+            "itemId": "Gear_General_Advanced_Command_Module",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Close_Quarters_Combat_Suite": {
+            "itemId": "Gear_General_Close_Quarters_Combat_Suite",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Company_Command_Module": {
+            "itemId": "Gear_General_Company_Command_Module",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Enhanced_Missilery_System": {
+            "itemId": "Gear_General_Enhanced_Missilery_System",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_GM_Ballistic_Siege_Compensators": {
+            "itemId": "Gear_General_GM_Ballistic_Siege_Compensators",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Intercept_System": {
+            "itemId": "Gear_General_Intercept_System",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Lance_Command_Module": {
+            "itemId": "Gear_General_Lance_Command_Module",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Optimized_Capacitors": {
+            "itemId": "Gear_General_Optimized_Capacitors",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Rangefinder_Suite": {
+            "itemId": "Gear_General_Rangefinder_Suite",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Robinson_TG120_Drive_Train": {
+            "itemId": "Gear_General_Robinson_TG120_Drive_Train",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Targeting_Baffle": {
+            "itemId": "Gear_General_Targeting_Baffle",
+            "itemType": "Upgrade"
+        },
+        "Gear_Structure_Prototype_TSM": {
+            "itemId": "Gear_Structure_Prototype_TSM",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Coventry_Mark-75": {
+            "itemId": "Gear_Gyro_Coventry_Mark-75",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Coventry_Mark-85": {
+            "itemId": "Gear_Gyro_Coventry_Mark-85",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Coventry_Mark-95": {
+            "itemId": "Gear_Gyro_Coventry_Mark-95",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Friedhof_Kite": {
+            "itemId": "Gear_Gyro_Friedhof_Kite",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Friedhof_Osprey": {
+            "itemId": "Gear_Gyro_Friedhof_Osprey",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Friedhof_Sparrow": {
+            "itemId": "Gear_Gyro_Friedhof_Sparrow",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Hermes_Equilibrium": {
+            "itemId": "Gear_Gyro_Hermes_Equilibrium",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Rawlings_StabiliTrak-10": {
+            "itemId": "Gear_Gyro_Rawlings_StabiliTrak-10",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Rawlings_StabiliTrak-15": {
+            "itemId": "Gear_Gyro_Rawlings_StabiliTrak-15",
+            "itemType": "Upgrade"
+        },
+        "Gear_Gyro_Rawlings_StabiliTrak-5": {
+            "itemId": "Gear_Gyro_Rawlings_StabiliTrak-5",
+            "itemType": "Upgrade"
+        },
+        "Gear_Mortar_MechMortar": {
+            "itemId": "Gear_Mortar_MechMortar",
+            "itemType": "Upgrade"
+        },
+        "Gear_Mortar_Thumper": {
+            "itemId": "Gear_Mortar_Thumper",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Hartford_F1800": {
+            "itemId": "Gear_TargetingTrackingSystem_Hartford_F1800",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Hartford_F2400": {
+            "itemId": "Gear_TargetingTrackingSystem_Hartford_F2400",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Hartford_F3000": {
+            "itemId": "Gear_TargetingTrackingSystem_Hartford_F3000",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Hartford_S2000": {
+            "itemId": "Gear_TargetingTrackingSystem_Hartford_S2000",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Kallon_A-C-1000": {
+            "itemId": "Gear_TargetingTrackingSystem_Kallon_A-C-1000",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Kallon_A-C-1500": {
+            "itemId": "Gear_TargetingTrackingSystem_Kallon_A-C-1500",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Kallon_A-C-P150+": {
+            "itemId": "Gear_TargetingTrackingSystem_Kallon_A-C-P150+",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Kallon_Lock-On": {
+            "itemId": "Gear_TargetingTrackingSystem_Kallon_Lock-On",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX": {
+            "itemId": "Gear_TargetingTrackingSystem_RCA_InstaTrac-IX",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII": {
+            "itemId": "Gear_TargetingTrackingSystem_RCA_InstaTrac-VIII",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_RCA_InstaTrac-X": {
+            "itemId": "Gear_TargetingTrackingSystem_RCA_InstaTrac-X",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII": {
+            "itemId": "Gear_TargetingTrackingSystem_RCA_InstaTrac-XII",
+            "itemType": "Upgrade"
+        },
+        "Gear_AMS_1": {
+            "itemId": "Gear_AMS_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_AMS_2": {
+            "itemId": "Gear_AMS_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_AMS_CLAN_1": {
+            "itemId": "Gear_AMS_CLAN_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_AMS_CLAN_2": {
+            "itemId": "Gear_AMS_CLAN_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_AP_1": {
+            "itemId": "Gear_AP_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_AP_2": {
+            "itemId": "Gear_AP_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_AP_CLAN_1": {
+            "itemId": "Gear_AP_CLAN_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_AP_CLAN_2": {
+            "itemId": "Gear_AP_CLAN_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_C3i_Computer_1": {
+            "itemId": "Gear_C3i_Computer_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_C3i_Computer_2": {
+            "itemId": "Gear_C3i_Computer_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Guardian_ECM_1": {
+            "itemId": "Gear_Guardian_ECM_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Guardian_ECM_2": {
+            "itemId": "Gear_Guardian_ECM_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Guardian_ECM_CLAN_1": {
+            "itemId": "Gear_Guardian_ECM_CLAN_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Guardian_ECM_CLAN_2": {
+            "itemId": "Gear_Guardian_ECM_CLAN_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Heavy_Defensive_Suite": {
+            "itemId": "Gear_Heavy_Defensive_Suite",
+            "itemType": "Upgrade"
+        },
+        "Gear_Heavy_Defensive_Suite_1": {
+            "itemId": "Gear_Heavy_Defensive_Suite_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Hybrid_Defensive_Package": {
+            "itemId": "Gear_Hybrid_Defensive_Package",
+            "itemType": "Upgrade"
+        },
+        "Gear_Hybrid_Defensive_Package_1": {
+            "itemId": "Gear_Hybrid_Defensive_Package_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_MASC_1": {
+            "itemId": "Gear_MASC_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_MASC_2": {
+            "itemId": "Gear_MASC_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_MASC_CLAN_1": {
+            "itemId": "Gear_MASC_CLAN_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_MASC_CLAN_2": {
+            "itemId": "Gear_MASC_CLAN_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Nova_CEWS_CLAN_1": {
+            "itemId": "Gear_Nova_CEWS_CLAN_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Nova_CEWS_CLAN_2": {
+            "itemId": "Gear_Nova_CEWS_CLAN_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Passive_Defensive_Matrix": {
+            "itemId": "Gear_Passive_Defensive_Matrix",
+            "itemType": "Upgrade"
+        },
+        "Gear_Passive_Defensive_Matrix_1": {
+            "itemId": "Gear_Passive_Defensive_Matrix_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_PPC_Capacitator_1": {
+            "itemId": "Gear_PPC_Capacitator_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_PPC_Capacitator_2": {
+            "itemId": "Gear_PPC_Capacitator_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Shortrange_EW_Suite": {
+            "itemId": "Gear_Shortrange_EW_Suite",
+            "itemType": "Upgrade"
+        },
+        "Gear_Shortrange_EW_Suite_1": {
+            "itemId": "Gear_Shortrange_EW_Suite_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_StealthSuite_1": {
+            "itemId": "Gear_StealthSuite_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_StealthSuite_2": {
+            "itemId": "Gear_StealthSuite_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_ARTEMISIV_1": {
+            "itemId": "Gear_TargetingTrackingSystem_ARTEMISIV_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_ARTEMISIV_2": {
+            "itemId": "Gear_TargetingTrackingSystem_ARTEMISIV_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_CLAN_2": {
+            "itemId": "Gear_TargetingTrackingSystem_CLAN_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_CLAN_3": {
+            "itemId": "Gear_TargetingTrackingSystem_CLAN_3",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Clan_ARTEMISIV_1": {
+            "itemId": "Gear_TargetingTrackingSystem_Clan_ARTEMISIV_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Clan_ARTEMISIV_2": {
+            "itemId": "Gear_TargetingTrackingSystem_Clan_ARTEMISIV_2",
+            "itemType": "Upgrade"
+        },
+        "Weapon_ATM_IATM12_1": {
+            "itemId": "Weapon_ATM_IATM12_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM12_2": {
+            "itemId": "Weapon_ATM_IATM12_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM3_1": {
+            "itemId": "Weapon_ATM_IATM3_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM3_2": {
+            "itemId": "Weapon_ATM_IATM3_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM6_1": {
+            "itemId": "Weapon_ATM_IATM6_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM6_2": {
+            "itemId": "Weapon_ATM_IATM6_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM9_1": {
+            "itemId": "Weapon_ATM_IATM9_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM9_2": {
+            "itemId": "Weapon_ATM_IATM9_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC10_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC10_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_LBX_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC10_LBX_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_LBX_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC10_LBX_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC20_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC20_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_LBX_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC20_LBX_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_LBX_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC20_LBX_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC2_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC2_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_LBX_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC2_LBX_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_LBX_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC2_LBX_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC5_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC5_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_LBX_CLAN_1": {
+            "itemId": "Weapon_Autocannon_AC5_LBX_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_LBX_CLAN_2": {
+            "itemId": "Weapon_Autocannon_AC5_LBX_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_3-EA": {
+            "itemId": "Weapon_Gauss_Gauss_3-EA",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_Clantech_1": {
+            "itemId": "Weapon_Gauss_Gauss_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_Clantech_2": {
+            "itemId": "Weapon_Gauss_Gauss_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_HeavyGaussV3": {
+            "itemId": "Weapon_Gauss_HeavyGaussV3",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG20_1": {
+            "itemId": "Weapon_HyperGauss_HAG20_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG20_2": {
+            "itemId": "Weapon_HyperGauss_HAG20_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG30_1": {
+            "itemId": "Weapon_HyperGauss_HAG30_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG30_2": {
+            "itemId": "Weapon_HyperGauss_HAG30_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG40_1": {
+            "itemId": "Weapon_HyperGauss_HAG40_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG40_2": {
+            "itemId": "Weapon_HyperGauss_HAG40_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_BinaryLaserCannon_2": {
+            "itemId": "Weapon_Laser_BinaryLaserCannon_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_BinaryLaserCannon_3": {
+            "itemId": "Weapon_Laser_BinaryLaserCannon_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED_1": {
+            "itemId": "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED_2": {
+            "itemId": "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED_1": {
+            "itemId": "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED_2": {
+            "itemId": "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED_1": {
+            "itemId": "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED_2": {
+            "itemId": "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserERPulse_1": {
+            "itemId": "Weapon_Laser_LargeLaserERPulse_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserERPulse_2": {
+            "itemId": "Weapon_Laser_LargeLaserERPulse_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_Clantech_1": {
+            "itemId": "Weapon_Laser_LargeLaserER_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_Clantech_2": {
+            "itemId": "Weapon_Laser_LargeLaserER_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_Clantech_1": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_Clantech_2": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_X_1": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_X_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_X_2": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_X_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserERPulse_1": {
+            "itemId": "Weapon_Laser_MediumLaserERPulse_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserERPulse_2": {
+            "itemId": "Weapon_Laser_MediumLaserERPulse_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_Clantech_1": {
+            "itemId": "Weapon_Laser_MediumLaserER_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_Clantech_2": {
+            "itemId": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_Clantech_1": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_Clantech_2": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_X_1": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_X_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_X_2": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_X_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_Clantech_1": {
+            "itemId": "Weapon_Laser_SmallLaserER_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_Clantech_2": {
+            "itemId": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_Clantech_1": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_Clantech_2": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSLLaser_1": {
+            "itemId": "Weapon_Laser_VSLLaser_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSLLaser_2": {
+            "itemId": "Weapon_Laser_VSLLaser_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSMLaser_1": {
+            "itemId": "Weapon_Laser_VSMLaser_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSMLaser_2": {
+            "itemId": "Weapon_Laser_VSMLaser_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSSLaser_1": {
+            "itemId": "Weapon_Laser_VSSLaser_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSSLaser_2": {
+            "itemId": "Weapon_Laser_VSSLaser_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM12_CLAN_1": {
+            "itemId": "Weapon_LRM_ATM12_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM12_CLAN_2": {
+            "itemId": "Weapon_LRM_ATM12_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM3_CLAN_1": {
+            "itemId": "Weapon_LRM_ATM3_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM3_CLAN_2": {
+            "itemId": "Weapon_LRM_ATM3_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM6_CLAN_1": {
+            "itemId": "Weapon_LRM_ATM6_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM6_CLAN_2": {
+            "itemId": "Weapon_LRM_ATM6_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM9_CLAN_1": {
+            "itemId": "Weapon_LRM_ATM9_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM9_CLAN_2": {
+            "itemId": "Weapon_LRM_ATM9_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_Clantech_1": {
+            "itemId": "Weapon_LRM_LRM10_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_Clantech_2": {
+            "itemId": "Weapon_LRM_LRM10_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_Clantech_1": {
+            "itemId": "Weapon_LRM_LRM15_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_Clantech_2": {
+            "itemId": "Weapon_LRM_LRM15_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_Clantech_1": {
+            "itemId": "Weapon_LRM_LRM20_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_Clantech_2": {
+            "itemId": "Weapon_LRM_LRM20_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_Clantech_1": {
+            "itemId": "Weapon_LRM_LRM5_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_Clantech_2": {
+            "itemId": "Weapon_LRM_LRM5_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_1": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_2": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_HEAVY_1": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_HEAVY_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_HEAVY_2": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_HEAVY_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_LIGHT_1": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_LIGHT_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_LIGHT_2": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_LIGHT_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-3_1": {
+            "itemId": "Weapon_MML-3_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-3_2": {
+            "itemId": "Weapon_MML-3_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-5_1": {
+            "itemId": "Weapon_MML-5_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-5_2": {
+            "itemId": "Weapon_MML-5_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-7_1": {
+            "itemId": "Weapon_MML-7_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-7_2": {
+            "itemId": "Weapon_MML-7_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-9_1": {
+            "itemId": "Weapon_MML-9_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-9_2": {
+            "itemId": "Weapon_MML-9_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_10-2": {
+            "itemId": "Weapon_MRM_10-2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_10-3": {
+            "itemId": "Weapon_MRM_10-3",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_20-2": {
+            "itemId": "Weapon_MRM_20-2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_20-3": {
+            "itemId": "Weapon_MRM_20-3",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_30-2": {
+            "itemId": "Weapon_MRM_30-2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_30-3": {
+            "itemId": "Weapon_MRM_30-3",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_40-2": {
+            "itemId": "Weapon_MRM_40-2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_40-3": {
+            "itemId": "Weapon_MRM_40-3",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_3": {
+            "itemId": "Weapon_PPC_PPCER_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_CLAN_1": {
+            "itemId": "Weapon_PPC_PPCER_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_CLAN_2": {
+            "itemId": "Weapon_PPC_PPCER_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_CLAN_3": {
+            "itemId": "Weapon_PPC_PPCER_CLAN_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_3": {
+            "itemId": "Weapon_PPC_PPC_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_HEAVY_1": {
+            "itemId": "Weapon_PPC_PPC_HEAVY_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_HEAVY_2": {
+            "itemId": "Weapon_PPC_PPC_HEAVY_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_HEAVY_3": {
+            "itemId": "Weapon_PPC_PPC_HEAVY_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_LIGHT_1": {
+            "itemId": "Weapon_PPC_PPC_LIGHT_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_LIGHT_2": {
+            "itemId": "Weapon_PPC_PPC_LIGHT_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_LIGHT_3": {
+            "itemId": "Weapon_PPC_PPC_LIGHT_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_RotaryAutocannon_RAC2_1": {
+            "itemId": "Weapon_RotaryAutocannon_RAC2_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_RotaryAutocannon_RAC2_2": {
+            "itemId": "Weapon_RotaryAutocannon_RAC2_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_RotaryAutocannon_RAC5_1": {
+            "itemId": "Weapon_RotaryAutocannon_RAC5_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_RotaryAutocannon_RAC5_2": {
+            "itemId": "Weapon_RotaryAutocannon_RAC5_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SilverBulletSpecial_1": {
+            "itemId": "Weapon_SilverBulletSpecial_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SilverBulletSpecial_2": {
+            "itemId": "Weapon_SilverBulletSpecial_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_Clantech_1": {
+            "itemId": "Weapon_SRM_SRM2_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_Clantech_2": {
+            "itemId": "Weapon_SRM_SRM2_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_Clantech_3": {
+            "itemId": "Weapon_SRM_SRM2_Clantech_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_STREAK_1": {
+            "itemId": "Weapon_SRM_SRM2_STREAK_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_STREAK_2": {
+            "itemId": "Weapon_SRM_SRM2_STREAK_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_STREAK_CLAN_1": {
+            "itemId": "Weapon_SRM_SRM2_STREAK_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_STREAK_CLAN_2": {
+            "itemId": "Weapon_SRM_SRM2_STREAK_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_Clantech_1": {
+            "itemId": "Weapon_SRM_SRM4_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_Clantech_2": {
+            "itemId": "Weapon_SRM_SRM4_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_Clantech_3": {
+            "itemId": "Weapon_SRM_SRM4_Clantech_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_STREAK_1": {
+            "itemId": "Weapon_SRM_SRM4_STREAK_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_STREAK_2": {
+            "itemId": "Weapon_SRM_SRM4_STREAK_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_STREAK_CLAN_1": {
+            "itemId": "Weapon_SRM_SRM4_STREAK_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_STREAK_CLAN_2": {
+            "itemId": "Weapon_SRM_SRM4_STREAK_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_Clantech_1": {
+            "itemId": "Weapon_SRM_SRM6_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_Clantech_2": {
+            "itemId": "Weapon_SRM_SRM6_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_Clantech_3": {
+            "itemId": "Weapon_SRM_SRM6_Clantech_3",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_STREAK_1": {
+            "itemId": "Weapon_SRM_SRM6_STREAK_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_STREAK_2": {
+            "itemId": "Weapon_SRM_SRM6_STREAK_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_STREAK_CLAN_1": {
+            "itemId": "Weapon_SRM_SRM6_STREAK_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_STREAK_CLAN_2": {
+            "itemId": "Weapon_SRM_SRM6_STREAK_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_10_1": {
+            "itemId": "Weapon_Thunderbolt_10_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_10_2": {
+            "itemId": "Weapon_Thunderbolt_10_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_15_1": {
+            "itemId": "Weapon_Thunderbolt_15_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_15_2": {
+            "itemId": "Weapon_Thunderbolt_15_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_20_1": {
+            "itemId": "Weapon_Thunderbolt_20_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_20_2": {
+            "itemId": "Weapon_Thunderbolt_20_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_5_1": {
+            "itemId": "Weapon_Thunderbolt_5_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_5_2": {
+            "itemId": "Weapon_Thunderbolt_5_2",
+            "itemType": "Weapon"
+        },
+        "Ammo_AmmunitionBox_Generic_AC10_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC10_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC10_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC10_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC20_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC20_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC20_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC20_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC2_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC2_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC2_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC2_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC5_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_AC5_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_AC5_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_GAUSS_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_GAUSS_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_GAUSS_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB10X_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB10X_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB10X_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB10X_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB20X_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB20X_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB20X_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB20X_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB2X_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB2X_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB2X_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB2X_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB5X_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB5X_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LB5X_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LB5X_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LRM_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LRM_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_LRM_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_LRM_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_MG_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_MG_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_Narc_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_Narc_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_Narc_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_Narc_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_SRM_Double": {
+            "itemId": "Ammo_AmmunitionBox_Generic_SRM_Double",
+            "itemType": "AmmunitionBox"
+        },
+        "Ammo_AmmunitionBox_Generic_SRM_Half": {
+            "itemId": "Ammo_AmmunitionBox_Generic_SRM_Half",
+            "itemType": "AmmunitionBox"
+        },
+        "Gear_HeatSink_CorrosiveDouble": {
+            "itemId": "Gear_HeatSink_CorrosiveDouble",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_DHS_NAIS": {
+            "itemId": "Gear_HeatSink_DHS_NAIS",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_DoubleStrength": {
+            "itemId": "Gear_HeatSink_DoubleStrength",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Double_Clan": {
+            "itemId": "Gear_HeatSink_Generic_Double_Clan",
+            "itemType": "HeatSink"
+        },
+        "Gear_AMS": {
+            "itemId": "Gear_AMS",
+            "itemType": "Upgrade"
+        },
+        "Gear_AMS_CLAN": {
+            "itemId": "Gear_AMS_CLAN",
+            "itemType": "Upgrade"
+        },
+        "Gear_AP": {
+            "itemId": "Gear_AP",
+            "itemType": "Upgrade"
+        },
+        "Gear_AP_CLAN": {
+            "itemId": "Gear_AP_CLAN",
+            "itemType": "Upgrade"
+        },
+        "Gear_C3i_Computer": {
+            "itemId": "Gear_C3i_Computer",
+            "itemType": "Upgrade"
+        },
+        "Gear_CompanyCommandModule": {
+            "itemId": "Gear_CompanyCommandModule",
+            "itemType": "Upgrade"
+        },
+        "Gear_Engine_Upgrade2X": {
+            "itemId": "Gear_Engine_Upgrade2X",
+            "itemType": "Upgrade"
+        },
+        "Gear_Engine_Upgrade3X": {
+            "itemId": "Gear_Engine_Upgrade3X",
+            "itemType": "Upgrade"
+        },
+        "Gear_Engine_Upgrade4X": {
+            "itemId": "Gear_Engine_Upgrade4X",
+            "itemType": "Upgrade"
+        },
+        "Gear_Engine_Upgrade4XL": {
+            "itemId": "Gear_Engine_Upgrade4XL",
+            "itemType": "Upgrade"
+        },
+        "Gear_Guardian_ECM": {
+            "itemId": "Gear_Guardian_ECM",
+            "itemType": "Upgrade"
+        },
+        "Gear_Guardian_ECM_CLAN": {
+            "itemId": "Gear_Guardian_ECM_CLAN",
+            "itemType": "Upgrade"
+        },
+        "Gear_MASC": {
+            "itemId": "Gear_MASC",
+            "itemType": "Upgrade"
+        },
+        "Gear_MASC_CLAN": {
+            "itemId": "Gear_MASC_CLAN",
+            "itemType": "Upgrade"
+        },
+        "Gear_Mortar_Sniper": {
+            "itemId": "Gear_Mortar_Sniper",
+            "itemType": "Upgrade"
+        },
+        "Gear_Nova_CEWS_CLAN": {
+            "itemId": "Gear_Nova_CEWS_CLAN",
+            "itemType": "Upgrade"
+        },
+        "Gear_PPC_Capacitator": {
+            "itemId": "Gear_PPC_Capacitator",
+            "itemType": "Upgrade"
+        },
+        "Gear_StealthSuite": {
+            "itemId": "Gear_StealthSuite",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_ARTEMISIV": {
+            "itemId": "Gear_TargetingTrackingSystem_ARTEMISIV",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_CLAN": {
+            "itemId": "Gear_TargetingTrackingSystem_CLAN",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_CLAN_1": {
+            "itemId": "Gear_TargetingTrackingSystem_CLAN_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_Clan_ARTEMISIV": {
+            "itemId": "Gear_TargetingTrackingSystem_Clan_ARTEMISIV",
+            "itemType": "Upgrade"
+        },
+        "Gear_JumpJet_Advanced_Assault": {
+            "itemId": "Gear_JumpJet_Advanced_Assault",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Advanced_Heavy": {
+            "itemId": "Gear_JumpJet_Advanced_Heavy",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Advanced_Standard": {
+            "itemId": "Gear_JumpJet_Advanced_Standard",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Improved_Assault": {
+            "itemId": "Gear_JumpJet_Improved_Assault",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Improved_Heavy": {
+            "itemId": "Gear_JumpJet_Improved_Heavy",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Improved_Standard": {
+            "itemId": "Gear_JumpJet_Improved_Standard",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard30": {
+            "itemId": "Gear_PartialWing_Generic_Standard30",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard35": {
+            "itemId": "Gear_PartialWing_Generic_Standard35",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard40": {
+            "itemId": "Gear_PartialWing_Generic_Standard40",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard45": {
+            "itemId": "Gear_PartialWing_Generic_Standard45",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard50": {
+            "itemId": "Gear_PartialWing_Generic_Standard50",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard55": {
+            "itemId": "Gear_PartialWing_Generic_Standard55",
+            "itemType": "JumpJet"
+        },
+        "Weapon_AntiPersonnelGauss_APG": {
+            "itemId": "Weapon_AntiPersonnelGauss_APG",
+            "itemType": "Weapon"
+        },
+        "Weapon_AssaultCannon_ASC2_0-STOCK": {
+            "itemId": "Weapon_AssaultCannon_ASC2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM12_0-STOCK": {
+            "itemId": "Weapon_ATM_IATM12_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM3_0-STOCK": {
+            "itemId": "Weapon_ATM_IATM3_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM6_0-STOCK": {
+            "itemId": "Weapon_ATM_IATM6_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IATM9_0-STOCK": {
+            "itemId": "Weapon_ATM_IATM9_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_IMPATM3_0-STOCK": {
+            "itemId": "Weapon_ATM_IMPATM3_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_ATM_INFERNOATM3_0-STOCK": {
+            "itemId": "Weapon_ATM_INFERNOATM3_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_CLAN": {
+            "itemId": "Weapon_Autocannon_AC10_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC10_LBX_CLAN": {
+            "itemId": "Weapon_Autocannon_AC10_LBX_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_CLAN": {
+            "itemId": "Weapon_Autocannon_AC20_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_LBX_CLAN": {
+            "itemId": "Weapon_Autocannon_AC20_LBX_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC20_Tyrannosaurus": {
+            "itemId": "Weapon_Autocannon_AC20_Tyrannosaurus",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_CLAN": {
+            "itemId": "Weapon_Autocannon_AC2_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC2_LBX_CLAN": {
+            "itemId": "Weapon_Autocannon_AC2_LBX_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_CLAN": {
+            "itemId": "Weapon_Autocannon_AC5_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Autocannon_AC5_LBX_CLAN": {
+            "itemId": "Weapon_Autocannon_AC5_LBX_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Flamer_Flamer_CLAN": {
+            "itemId": "Weapon_Flamer_Flamer_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Flamer_Volcano": {
+            "itemId": "Weapon_Flamer_Volcano",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_Clantech": {
+            "itemId": "Weapon_Gauss_Gauss_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_HeavyGauss": {
+            "itemId": "Weapon_Gauss_HeavyGauss",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_HeavyGaussV2": {
+            "itemId": "Weapon_Gauss_HeavyGaussV2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_LightGauss": {
+            "itemId": "Weapon_Gauss_LightGauss",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperAutocannon_HVAC10_0-STOCK": {
+            "itemId": "Weapon_HyperAutocannon_HVAC10_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperAutocannon_HVAC2_0-STOCK": {
+            "itemId": "Weapon_HyperAutocannon_HVAC2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperAutocannon_HVAC5_0-STOCK": {
+            "itemId": "Weapon_HyperAutocannon_HVAC5_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG20": {
+            "itemId": "Weapon_HyperGauss_HAG20",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG30": {
+            "itemId": "Weapon_HyperGauss_HAG30",
+            "itemType": "Weapon"
+        },
+        "Weapon_HyperGauss_HAG40": {
+            "itemId": "Weapon_HyperGauss_HAG40",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_BinaryLaserCannon_0-STOCK": {
+            "itemId": "Weapon_Laser_BinaryLaserCannon_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_BinaryLaserCannon_1-Defiance": {
+            "itemId": "Weapon_Laser_BinaryLaserCannon_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyLargeLaser_CLAN": {
+            "itemId": "Weapon_Laser_HeavyLargeLaser_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED": {
+            "itemId": "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyMediumLaser_CLAN": {
+            "itemId": "Weapon_Laser_HeavyMediumLaser_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED": {
+            "itemId": "Weapon_Laser_HeavyMediumLaser_CLAN_IMPROVED",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavySmallLaser_CLAN": {
+            "itemId": "Weapon_Laser_HeavySmallLaser_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED": {
+            "itemId": "Weapon_Laser_HeavySmallLaser_CLAN_IMPROVED",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserERPulse_0": {
+            "itemId": "Weapon_Laser_LargeLaserERPulse_0",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_Clantech": {
+            "itemId": "Weapon_Laser_LargeLaserER_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_Clantech": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_X": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_X",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaser_-1-Tronel": {
+            "itemId": "Weapon_Laser_LargeLaser_-1-Tronel",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_Light_TAG_CLAN": {
+            "itemId": "Weapon_Laser_Light_TAG_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserERPulse_0": {
+            "itemId": "Weapon_Laser_MediumLaserERPulse_0",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_Clantech": {
+            "itemId": "Weapon_Laser_MediumLaserER_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_Clantech": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_X": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_X",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaser_-1-Agra": {
+            "itemId": "Weapon_Laser_MediumLaser_-1-Agra",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MicroLaserER_Clantech": {
+            "itemId": "Weapon_Laser_MicroLaserER_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MicroLaserPulse_Clantech": {
+            "itemId": "Weapon_Laser_MicroLaserPulse_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_Clantech": {
+            "itemId": "Weapon_Laser_SmallLaserER_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_Clantech": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSLLaser_0-STOCK": {
+            "itemId": "Weapon_Laser_VSLLaser_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSMLaser_0-STOCK": {
+            "itemId": "Weapon_Laser_VSMLaser_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_VSSLaser_0-STOCK": {
+            "itemId": "Weapon_Laser_VSSLaser_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM12": {
+            "itemId": "Weapon_LRM_ATM12",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM3": {
+            "itemId": "Weapon_LRM_ATM3",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM6": {
+            "itemId": "Weapon_LRM_ATM6",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM9": {
+            "itemId": "Weapon_LRM_ATM9",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_Clantech": {
+            "itemId": "Weapon_LRM_LRM10_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_Clantech": {
+            "itemId": "Weapon_LRM_LRM15_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_Clantech": {
+            "itemId": "Weapon_LRM_LRM20_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_Clantech": {
+            "itemId": "Weapon_LRM_LRM5_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_JUGG": {
+            "itemId": "Weapon_MachineGun_JUGG",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_1-Blackwell": {
+            "itemId": "Weapon_MachineGun_MachineGun_1-Blackwell",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_1-Mydron": {
+            "itemId": "Weapon_MachineGun_MachineGun_1-Mydron",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_2-M100": {
+            "itemId": "Weapon_MachineGun_MachineGun_2-M100",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_3-Voelkers": {
+            "itemId": "Weapon_MachineGun_MachineGun_3-Voelkers",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_HEAVY": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_HEAVY",
+            "itemType": "Weapon"
+        },
+        "Weapon_MachineGun_MachineGun_CLAN_LIGHT": {
+            "itemId": "Weapon_MachineGun_MachineGun_CLAN_LIGHT",
+            "itemType": "Weapon"
+        },
+        "Weapon_MassDriver_MD40": {
+            "itemId": "Weapon_MassDriver_MD40",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-3": {
+            "itemId": "Weapon_MML-3",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-5": {
+            "itemId": "Weapon_MML-5",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-7": {
+            "itemId": "Weapon_MML-7",
+            "itemType": "Weapon"
+        },
+        "Weapon_MML-9": {
+            "itemId": "Weapon_MML-9",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_10-1-UMP": {
+            "itemId": "Weapon_MRM_10-1-UMP",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_10": {
+            "itemId": "Weapon_MRM_10",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_20-1-UMP": {
+            "itemId": "Weapon_MRM_20-1-UMP",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_20": {
+            "itemId": "Weapon_MRM_20",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_30-1-UMP": {
+            "itemId": "Weapon_MRM_30-1-UMP",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_30": {
+            "itemId": "Weapon_MRM_30",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_40-1-UMP": {
+            "itemId": "Weapon_MRM_40-1-UMP",
+            "itemType": "Weapon"
+        },
+        "Weapon_MRM_40": {
+            "itemId": "Weapon_MRM_40",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmacannon_0-STOCK": {
+            "itemId": "Weapon_Plasma_Plasmacannon_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmacannon_1-Diamond_Shark": {
+            "itemId": "Weapon_Plasma_Plasmacannon_1-Diamond_Shark",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_PlasmaPPC_0-STOCK": {
+            "itemId": "Weapon_Plasma_PlasmaPPC_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_0-STOCK": {
+            "itemId": "Weapon_Plasma_Plasmarifle_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_1-Ceres_Arms": {
+            "itemId": "Weapon_Plasma_Plasmarifle_1-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_1-Defiance": {
+            "itemId": "Weapon_Plasma_Plasmarifle_1-Defiance",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_1-Tiegart": {
+            "itemId": "Weapon_Plasma_Plasmarifle_1-Tiegart",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_2-ChisComp": {
+            "itemId": "Weapon_Plasma_Plasmarifle_2-ChisComp",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_2-Victory": {
+            "itemId": "Weapon_Plasma_Plasmarifle_2-Victory",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_Plasmarifle_3-Ceres_Arms": {
+            "itemId": "Weapon_Plasma_Plasmarifle_3-Ceres_Arms",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCER_CLAN": {
+            "itemId": "Weapon_PPC_PPCER_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_-1-Magna": {
+            "itemId": "Weapon_PPC_PPC_-1-Magna",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_HEAVY": {
+            "itemId": "Weapon_PPC_PPC_HEAVY",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_LIGHT": {
+            "itemId": "Weapon_PPC_PPC_LIGHT",
+            "itemType": "Weapon"
+        },
+        "Weapon_RocketLauncher_RL10_0_STOCK": {
+            "itemId": "Weapon_RocketLauncher_RL10_0_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_RocketLauncher_RL15_0_STOCK": {
+            "itemId": "Weapon_RocketLauncher_RL15_0_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_RocketLauncher_RL20_0_STOCK": {
+            "itemId": "Weapon_RocketLauncher_RL20_0_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_RotaryAutocannon_RAC2_0-STOCK": {
+            "itemId": "Weapon_RotaryAutocannon_RAC2_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_RotaryAutocannon_RAC5_0-STOCK": {
+            "itemId": "Weapon_RotaryAutocannon_RAC5_0-STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SilverBulletSpecial": {
+            "itemId": "Weapon_SilverBulletSpecial",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_Clantech": {
+            "itemId": "Weapon_SRM_SRM2_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_OneShot": {
+            "itemId": "Weapon_SRM_SRM2_OneShot",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_STREAK": {
+            "itemId": "Weapon_SRM_SRM2_STREAK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_STREAK_CLAN": {
+            "itemId": "Weapon_SRM_SRM2_STREAK_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_Clantech": {
+            "itemId": "Weapon_SRM_SRM4_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_OS": {
+            "itemId": "Weapon_SRM_SRM4_OS",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_STREAK": {
+            "itemId": "Weapon_SRM_SRM4_STREAK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_STREAK_CLAN": {
+            "itemId": "Weapon_SRM_SRM4_STREAK_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_Clantech": {
+            "itemId": "Weapon_SRM_SRM6_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_STREAK": {
+            "itemId": "Weapon_SRM_SRM6_STREAK",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_STREAK_CLAN": {
+            "itemId": "Weapon_SRM_SRM6_STREAK_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM_NARC_CLAN": {
+            "itemId": "Weapon_SRM_SRM_NARC_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_10": {
+            "itemId": "Weapon_Thunderbolt_10",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_15": {
+            "itemId": "Weapon_Thunderbolt_15",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_20": {
+            "itemId": "Weapon_Thunderbolt_20",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_5": {
+            "itemId": "Weapon_Thunderbolt_5",
+            "itemType": "Weapon"
+        },
+        "Gear_JumpJet_Super_Heavy_Vectored_Thrust_Kit": {
+            "itemId": "Gear_JumpJet_Super_Heavy_Vectored_Thrust_Kit",
+            "itemType": "JumpJet"
+        },
+        "Gear_JumpJet_Heavy_Vectored_Thrust_Kit": {
+            "itemId": "Gear_JumpJet_Heavy_Vectored_Thrust_Kit",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWingSystem_Generic_Standard35": {
+            "itemId": "Gear_PartialWingSystem_Generic_Standard35",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWingSystem_Generic_Standard85": {
+            "itemId": "Gear_PartialWingSystem_Generic_Standard85",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWing_Generic_Standard75": {
+            "itemId": "Gear_PartialWing_Generic_Standard75",
+            "itemType": "JumpJet"
+        },
+        "Weapon_Gauss_HyperGauss_1": {
+            "itemId": "Weapon_Gauss_HyperGauss_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_HyperGauss_2": {
+            "itemId": "Weapon_Gauss_HyperGauss_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_HyperGauss_STOCK": {
+            "itemId": "Weapon_Gauss_HyperGauss_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_LightGauss_1": {
+            "itemId": "Weapon_Gauss_LightGauss_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_LightGauss_2": {
+            "itemId": "Weapon_Gauss_LightGauss_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Hyper_Plasma_Rifle_Clantech": {
+            "itemId": "Weapon_Hyper_Plasma_Rifle_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Hyper_Plasma_Rifle_Clantech_EX": {
+            "itemId": "Weapon_Hyper_Plasma_Rifle_Clantech_EX",
+            "itemType": "Weapon"
+        },
+        "Weapon_Hyper_Plasma_Rifle_Clantech_STOCK": {
+            "itemId": "Weapon_Hyper_Plasma_Rifle_Clantech_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_1": {
+            "itemId": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_2": {
+            "itemId": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX": {
+            "itemId": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_STOCK": {
+            "itemId": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserERArray_Clantech_2": {
+            "itemId": "Weapon_Laser_SmallLaserERArray_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulseArray_Clantech_2": {
+            "itemId": "Weapon_Laser_SmallLaserPulseArray_Clantech_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_MassDriver_MD40_1": {
+            "itemId": "Weapon_MassDriver_MD40_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_RefinedPlasmaPPC_1": {
+            "itemId": "Weapon_Plasma_RefinedPlasmaPPC_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_RefinedPlasmaPPC_2": {
+            "itemId": "Weapon_Plasma_RefinedPlasmaPPC_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_RefinedPlasmaPPC_EX": {
+            "itemId": "Weapon_Plasma_RefinedPlasmaPPC_EX",
+            "itemType": "Weapon"
+        },
+        "Weapon_Plasma_RefinedPlasmaPPC_STOCK": {
+            "itemId": "Weapon_Plasma_RefinedPlasmaPPC_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_MICRO": {
+            "itemId": "Weapon_PPC_PPC_MICRO",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_MICRO_1": {
+            "itemId": "Weapon_PPC_PPC_MICRO_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_MICRO_2": {
+            "itemId": "Weapon_PPC_PPC_MICRO_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_10_CLAN_1": {
+            "itemId": "Weapon_Shotgauss_10_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_10_CLAN_2": {
+            "itemId": "Weapon_Shotgauss_10_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_10_CLAN_STOCK": {
+            "itemId": "Weapon_Shotgauss_10_CLAN_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_20_CLAN_1": {
+            "itemId": "Weapon_Shotgauss_20_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_20_CLAN_2": {
+            "itemId": "Weapon_Shotgauss_20_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_20_CLAN_STOCK": {
+            "itemId": "Weapon_Shotgauss_20_CLAN_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_5_CLAN_1": {
+            "itemId": "Weapon_Shotgauss_5_CLAN_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_5_CLAN_2": {
+            "itemId": "Weapon_Shotgauss_5_CLAN_2",
+            "itemType": "Weapon"
+        },
+        "Weapon_Shotgauss_5_CLAN_STOCK": {
+            "itemId": "Weapon_Shotgauss_5_CLAN_STOCK",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_54_Clantech_1": {
+            "itemId": "Weapon_Thunderbolt_54_Clantech_1",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_54_Clantech": {
+            "itemId": "Weapon_Thunderbolt_54_Clantech",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_54_Clantech_EX": {
+            "itemId": "Weapon_Thunderbolt_54_Clantech_EX",
+            "itemType": "Weapon"
+        },
+        "Weapon_Thunderbolt_54_Clantech_STOCK": {
+            "itemId": "Weapon_Thunderbolt_54_Clantech_STOCK",
+            "itemType": "Weapon"
+        },
+        "Gear_General_Assault_Enhancement_Package": {
+            "itemId": "Gear_General_Assault_Enhancement_Package",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_A_C": {
+            "itemId": "Gear_Endosteel_Structure_A_C",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_H_C": {
+            "itemId": "Gear_Endosteel_Structure_H_C",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_IV": {
+            "itemId": "Gear_Endosteel_Structure_IV",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_L_C": {
+            "itemId": "Gear_Endosteel_Structure_L_C",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_M_C": {
+            "itemId": "Gear_Endosteel_Structure_M_C",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_VI": {
+            "itemId": "Gear_Endosteel_Structure_VI",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_VIII": {
+            "itemId": "Gear_Endosteel_Structure_VIII",
+            "itemType": "Upgrade"
+        },
+        "Gear_Endosteel_Structure_X": {
+            "itemId": "Gear_Endosteel_Structure_X",
+            "itemType": "Upgrade"
+        },
+        "emod_Engine_LAM": {
+            "itemId": "emod_Engine_LAM",
+            "itemType": "HeatSink"
+        },
+        "emod_Engine_LAM_1": {
+            "itemId": "emod_Engine_LAM_1",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Engine_Double": {
+            "itemId": "Gear_HeatSink_Engine_Double",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Engine_Double_Clan": {
+            "itemId": "Gear_HeatSink_Engine_Double_Clan",
+            "itemType": "HeatSink"
+        },
+        "Gear_Heatsink_Fixed_Double_Clan": {
+            "itemId": "Gear_Heatsink_Fixed_Double_Clan",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Generic_Double_Clantech": {
+            "itemId": "Gear_HeatSink_Generic_Double_Clantech",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_Internal_Engine_2": {
+            "itemId": "Gear_HeatSink_Internal_Engine_2",
+            "itemType": "HeatSink"
+        },
+        "Gear_Cockpit_CIC": {
+            "itemId": "Gear_Cockpit_CIC",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_CommandConsole": {
+            "itemId": "Gear_Cockpit_CommandConsole",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_CommandConsole_with_B2000": {
+            "itemId": "Gear_Cockpit_CommandConsole_with_B2000",
+            "itemType": "Upgrade"
+        },
+        "emod_armorslots_LAM_1": {
+            "itemId": "emod_armorslots_LAM_1",
+            "itemType": "Upgrade"
+        },
+        "emod_armorslots_LAM_2": {
+            "itemId": "emod_armorslots_LAM_2",
+            "itemType": "Upgrade"
+        },
+        "emod_armorslots_LAM_3": {
+            "itemId": "emod_armorslots_LAM_3",
+            "itemType": "Upgrade"
+        },
+        "Gear_Heavy_Defensive_Suite_2": {
+            "itemId": "Gear_Heavy_Defensive_Suite_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Superheavy_Chassis": {
+            "itemId": "Gear_Superheavy_Chassis",
+            "itemType": "Upgrade"
+        },
+        "Gear_Superheavy_Chassis_1": {
+            "itemId": "Gear_Superheavy_Chassis_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Chi_Katana": {
+            "itemId": "Gear_Actuator_Chi_Katana",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Prototype_Valiant_Hatchet": {
+            "itemId": "Gear_Actuator_Prototype_Valiant_Hatchet",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Prototype_VibroSword": {
+            "itemId": "Gear_Actuator_Prototype_VibroSword",
+            "itemType": "Upgrade"
+        },
+        "Gear_Combat_Shield_Proto": {
+            "itemId": "Gear_Combat_Shield_Proto",
+            "itemType": "Upgrade"
+        },
+        "Gear_Proto_EWS": {
+            "itemId": "Gear_Proto_EWS",
+            "itemType": "Upgrade"
+        },
+        "Gear_RemoteSensorDispenser": {
+            "itemId": "Gear_RemoteSensorDispenser",
+            "itemType": "Upgrade"
+        },
+        "Gear_TSM_Prototype_Bergan": {
+            "itemId": "Gear_TSM_Prototype_Bergan",
+            "itemType": "Upgrade"
+        },
+        "emod_armorslots_LAM": {
+            "itemId": "emod_armorslots_LAM",
+            "itemType": "Upgrade"
+        },
+        "emod_arm_mortis": {
+            "itemId": "emod_arm_mortis",
+            "itemType": "Upgrade"
+        },
+        "emod_structureslots_LAM": {
+            "itemId": "emod_structureslots_LAM",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Chainsaw": {
+            "itemId": "Gear_Actuator_Chainsaw",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Claw": {
+            "itemId": "Gear_Actuator_Claw",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Prototype_VibroShank": {
+            "itemId": "Gear_Actuator_Prototype_VibroShank",
+            "itemType": "Upgrade"
+        },
+        "Gear_Actuator_Tail": {
+            "itemId": "Gear_Actuator_Tail",
+            "itemType": "Upgrade"
+        },
+        "Gear_Arm_Blade": {
+            "itemId": "Gear_Arm_Blade",
+            "itemType": "Upgrade"
+        },
+        "Gear_Crane_LoaderKing": {
+            "itemId": "Gear_Crane_LoaderKing",
+            "itemType": "Upgrade"
+        },
+        "Gear_EndoFerroCombo_1_Slot": {
+            "itemId": "Gear_EndoFerroCombo_1_Slot",
+            "itemType": "Upgrade"
+        },
+        "Gear_EndoFerroCombo_4_Slot": {
+            "itemId": "Gear_EndoFerroCombo_4_Slot",
+            "itemType": "Upgrade"
+        },
+        "Gear_EndoSteel_1_Slot": {
+            "itemId": "Gear_EndoSteel_1_Slot",
+            "itemType": "Upgrade"
+        },
+        "Gear_EndoSteel_2_Slot": {
+            "itemId": "Gear_EndoSteel_2_Slot",
+            "itemType": "Upgrade"
+        },
+        "Gear_FerroFibrous_1_Slot": {
+            "itemId": "Gear_FerroFibrous_1_Slot",
+            "itemType": "Upgrade"
+        },
+        "Gear_FerroFibrous_2_Slot": {
+            "itemId": "Gear_FerroFibrous_2_Slot",
+            "itemType": "Upgrade"
+        },
+        "Gear_IndustrialClaw_LoaderKing": {
+            "itemId": "Gear_IndustrialClaw_LoaderKing",
+            "itemType": "Upgrade"
+        },
+        "Gear_Pirate_Claw": {
+            "itemId": "Gear_Pirate_Claw",
+            "itemType": "Upgrade"
+        },
+        "Gear_Pirate_Cutlass": {
+            "itemId": "Gear_Pirate_Cutlass",
+            "itemType": "Upgrade"
+        },
+        "Gear_Raven_Shoulder": {
+            "itemId": "Gear_Raven_Shoulder",
+            "itemType": "Upgrade"
+        },
+        "Gear_Sensor_Beagle_ActiveProbe": {
+            "itemId": "Gear_Sensor_Beagle_ActiveProbe",
+            "itemType": "Upgrade"
+        },
+        "Gear_TargetingTrackingSystem_ARTEMISIV_AVATAR": {
+            "itemId": "Gear_TargetingTrackingSystem_ARTEMISIV_AVATAR",
+            "itemType": "Upgrade"
+        },
+        "Gear_Targeting_Computer_CLAN_4": {
+            "itemId": "Gear_Targeting_Computer_CLAN_4",
+            "itemType": "Upgrade"
+        },
+        "Weapon_Boomstick_AC20_LBX": {
+            "itemId": "Weapon_Boomstick_AC20_LBX",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_CLAN": {
+            "itemId": "Weapon_Gauss_Gauss_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_HEAVY-1-UMP": {
+            "itemId": "Weapon_Gauss_Gauss_HEAVY-1-UMP",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_HEAVY": {
+            "itemId": "Weapon_Gauss_Gauss_HEAVY",
+            "itemType": "Weapon"
+        },
+        "Weapon_Gauss_Gauss_LIGHT": {
+            "itemId": "Weapon_Gauss_Gauss_LIGHT",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserER_CLAN": {
+            "itemId": "Weapon_Laser_LargeLaserER_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_LargeLaserPulse_CLAN": {
+            "itemId": "Weapon_Laser_LargeLaserPulse_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserER_CLAN": {
+            "itemId": "Weapon_Laser_MediumLaserER_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MediumLaserPulse_CLAN": {
+            "itemId": "Weapon_Laser_MediumLaserPulse_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MicroLaserER_CLAN": {
+            "itemId": "Weapon_Laser_MicroLaserER_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_MicroLaserPulse_CLAN": {
+            "itemId": "Weapon_Laser_MicroLaserPulse_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserER_CLAN": {
+            "itemId": "Weapon_Laser_SmallLaserER_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Laser_SmallLaserPulse_CLAN": {
+            "itemId": "Weapon_Laser_SmallLaserPulse_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM12_CLAN": {
+            "itemId": "Weapon_LRM_ATM12_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM3_CLAN": {
+            "itemId": "Weapon_LRM_ATM3_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM6_CLAN": {
+            "itemId": "Weapon_LRM_ATM6_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_ATM9_CLAN": {
+            "itemId": "Weapon_LRM_ATM9_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM10_CLAN": {
+            "itemId": "Weapon_LRM_LRM10_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM15_CLAN": {
+            "itemId": "Weapon_LRM_LRM15_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM20_CLAN": {
+            "itemId": "Weapon_LRM_LRM20_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_LRM_LRM5_CLAN": {
+            "itemId": "Weapon_LRM_LRM5_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_Mortar_Sniper": {
+            "itemId": "Weapon_Mortar_Sniper",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPCSnub_ARCH": {
+            "itemId": "Weapon_PPC_PPCSnub_ARCH",
+            "itemType": "Weapon"
+        },
+        "Weapon_PPC_PPC_LIGHT_PRETA": {
+            "itemId": "Weapon_PPC_PPC_LIGHT_PRETA",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM2_CLAN": {
+            "itemId": "Weapon_SRM_SRM2_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM4_CLAN": {
+            "itemId": "Weapon_SRM_SRM4_CLAN",
+            "itemType": "Weapon"
+        },
+        "Weapon_SRM_SRM6_CLAN": {
+            "itemId": "Weapon_SRM_SRM6_CLAN",
+            "itemType": "Weapon"
+        },
+        "Gear_Actuator_Berserk_Hatchet": {
+            "itemId": "Gear_Actuator_Berserk_Hatchet",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_CommandConsole_with_B2000_1": {
+            "itemId": "Gear_Cockpit_CommandConsole_with_B2000_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Assault_Enhancement_Package_BAL": {
+            "itemId": "Gear_General_Assault_Enhancement_Package_BAL",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Assault_Enhancement_Package_ENG": {
+            "itemId": "Gear_General_Assault_Enhancement_Package_ENG",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Assault_Enhancement_Package_MSL": {
+            "itemId": "Gear_General_Assault_Enhancement_Package_MSL",
+            "itemType": "Upgrade"
+        },
+        "Gear_General_Clan_Ballistic_Weapon_Compensators": {
+            "itemId": "Gear_General_Clan_Ballistic_Weapon_Compensators",
+            "itemType": "Upgrade"
+        },
+        "Gear_Hybrid_Defensive_Package_2": {
+            "itemId": "Gear_Hybrid_Defensive_Package_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Laser_Weapon_Optimization_System": {
+            "itemId": "Gear_Laser_Weapon_Optimization_System",
+            "itemType": "Upgrade"
+        }
+    }
+}

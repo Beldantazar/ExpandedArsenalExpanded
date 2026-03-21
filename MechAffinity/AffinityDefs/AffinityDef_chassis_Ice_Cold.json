@@ -1,0 +1,70 @@
+{
+  "id": "AffinityDef_chassis_Ice_Cold",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_8",
+    "chassisNames": [
+        "chrPrfMech_orionBase-001_75",
+        "chrprfmech_orioniicbase-001_75",
+        "chrPrfMech_stalkerBase-001_85",
+        "chrprfmech_zeusxbase-001_80",
+        "chrprfmech_hellfirebase-001_60",
+        "chrprfmech_sunspiderbase-001_70",
+        "chrprfmech_genericsh3base-001_125",
+        "chrprfmech_phawklambase-001_50",
+        "chrprfmech_phawklegacylambase-001_50",
+        "chrPrfMech_novacatbase-001_70",
+        "chrprfmech_woodsmanbase-001_80",
+        "chrprfmech_penbase-001_75",
+        "chrprfmech_iondoloirebase-001_80",
+        "chrprfmech_woodsmanbase-001_75",
+        "chrprfmech_lamentbase-001_65"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Ice_Cold",
+        "missionsRequired": 15,
+        "levelName": "Ice Cold",
+        "decription": "+9 Heat Dissipation",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its heat sinking systems, increasing dissipation by 9.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Dissipation",
+              "Name": "Mech Affinity Heat Dissipation Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "9",
+              "operation": "Int_Add",
+              "statName": "HeatSinkCapacity",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

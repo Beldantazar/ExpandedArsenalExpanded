@@ -1,0 +1,67 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "MediumLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 450,
+    "RangeSplit": [
+        120,
+        200,
+        260
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 46,
+    "Damage": 20,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 9,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
+    "Description": {
+        "Cost": 12000000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Clan Tech",
+        "Model": "FLSPT Laser (EX)",
+        "UIName": "FLSPT Laser (EX)",
+        "Id": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
+        "Name": "FLSPT Laser (EX)",
+        "Details": "A version of the standard Traser that was able to be pushed to higher output with lower heat than the normal model thanks to fortuitous impurities in the chip wafers. The Fire Linked Short Pulse Trinary Laser (called the Traser by troops) is an experimental weapon developed by an unnamed clan. They improved on the design of the Binary Laser by using three of the much more efficient ER Medium Pulse laser core, and having all the cores be linked to a single improved pulse controller derived from the Variable Speed Laser tech pioneered by the Word of Blake. This allows the weapon to fire a very large number of short duration pulses with a longer (by pulse laser standards) delay between them, which aids in heat dissipation.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+ 6 Dmg.",
+    "BonusValueB": "- 10 Heat",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 3,
+    "Tonnage": 7,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant3",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

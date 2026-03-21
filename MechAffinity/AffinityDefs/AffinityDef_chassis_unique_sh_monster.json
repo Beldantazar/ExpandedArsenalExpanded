@@ -1,0 +1,182 @@
+{
+  "id": "AffinityDef_chassis_unique_sh_monster",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "unique_sh_monster",
+    "chassisNames": [
+      "chassisdef_monster_HWR-SH-SS"
+    ],
+    "idType": "ChassisId",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "unique_sh_1",
+        "missionsRequired": 15,
+        "levelName": "Encouraging",
+        "decription": "+3 Morale Gain",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its morale boost by 3.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-MoraleBoost-Unique",
+              "Name": "Mech Affinity Morale Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "3",
+              "operation": "Int_Add",
+              "statName": "MoraleBonusGain",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "unique_sh_2",
+        "missionsRequired": 20,
+        "levelName": "Dreadnought",
+        "decription": "-10% Damage Received",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+              "Name": "Mech Affinity Evasion Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "statName": "DamageReductionMultiplierAll",
+              "operation": "Float_Multiply",
+              "modValue": "0.90",
+              "modType": "System.Single",
+              "additionalRules": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponType": "NotSet",
+              "targetAmmoCategory": "NotSet",
+              "targetWeaponSubType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "unique_sh_3",
+        "missionsRequired": 25,
+        "levelName": "Dreadnought Commander",
+        "decription": "+1 Initiative",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Initiative-Unique",
+              "Name": "Mech Affinity Initiative Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "-1",
+              "operation": "Int_Add",
+              "statName": "BaseInitiative",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      },
+      {
+        "id": "unique_sh_4",
+        "missionsRequired": 40,
+        "levelName": "Dreadnought Master",
+        "decription": "+ Called Shot (Moderate)",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves accuracy with called shots (+25%).",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Precision-Unique",
+              "Name": "Mech Affinity Evasive Pips Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "statName": "CalledShotBonusMultiplier",
+              "operation": "Float_Multiply",
+              "modValue": "1.25",
+              "modType": "System.Single",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

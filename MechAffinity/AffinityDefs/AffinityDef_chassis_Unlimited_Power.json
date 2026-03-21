@@ -1,0 +1,140 @@
+{
+  "id": "AffinityDef_chassis_Unlimited_Power",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_10",
+    "chassisNames": [
+        "chrPrfMech_highlander_SLDFBase-001_90",
+        "chrPrfMech_bansheeBase-001_95",
+        "chrPrfMech_centurionBase-001_50",
+        "chrprfmech_argusbase-001_60",
+        "chrprfmech_hollanderbase-001_35",
+        "chrprfmech_maulerbase-001_90",
+        "chrprfmech_highlanderiicbase-001_90",
+        "chrprfmech_nightgyrbase-001_75",
+        "chrprfmech_supernovabase-001_90",
+        "chrprfmech_iononangerbase-001_90",
+        "chrprfmech_ironcheetahbase-001_100",
+        "chrprfmech_ionbruinbase-001_80",
+        "chrprfmech_vanquisherbase-001_100",
+        "chrprfmech_gunslingerbase-001_85",
+        "chrprfmech_exterminatorbase-001_85",
+        "chrprfmech_pillagerbase-001_100",
+        "chrprfmech_hyperionbase-001_125",
+        "chrprfmech_genericsh5base-001_150",
+        "chrprfmech_emperorbase-001_90"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Unlimited_Power",
+        "missionsRequired": 15,
+        "levelName": "Unlimited Power",
+        "decription": "+10% Weapon Damage",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its energy weapon damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-EnergyDamage",
+              "Name": "Mech Affinity Energy Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Energy",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          },
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its ballistic weapon damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-BallisticDamage",
+              "Name": "Mech Affinity Ballistic Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Ballistic",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          },
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its missile weapon damage by 10%.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-MissileDamage",
+              "Name": "Mech Affinity Missile Damage Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "1.1",
+              "operation": "Float_Multiply",
+              "statName": "DamagePerShot",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "Weapon",
+              "targetWeaponCategory": "Missile",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "Description": {
+    "Cost": 3800000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Assassin",
+    "Id": "chassisdef_assassin_ASN-26X",
+    "Name": "Assassin",
+    "Details": "A 3050's tech version of the -30, the -26 also uses an endo steel chassis but mounts an XL engine, the extra weight saved allowing the 'Mech to carry an UAC/5 and a pair of medium pulse lasers for offensive armament. Field endurance is limited however, as six and half tons of armor provided basic protection, and a single ton of autocannon reloads are chewed through rapidly. The 10 double heat sinks struggle to manage heat strain.",
+    "Icon": "uixTxrIcon_assassin"
+  },
+  "MovementCapDefID": "movedef_assassin_ASN-21",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_assassin",
+  "PrefabIdentifier": "chrPrfMech_assassinBase-001",
+  "PrefabBase": "assassin",
+  "Tonnage": 40,
+  "InitialTonnage": 16.0,
+  "weightClass": "MEDIUM",
+  "Heatsinks": 30,
+  "MaxJumpjets": 7,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 50,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 13.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12.5,
+      "z": -0.5
+    },
+    {
+      "x": -3,
+      "y": 12.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 13.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12.5,
+      "z": -0.5
+    },
+    {
+      "x": -3,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 1
+    }
+  ],
+  "VariantName": "ASN-26X",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout / Hunter-Killer",
+  "YangsThoughts": "A nice variant upgrade, but it does suffer from some heat issues and ammo problems, just say the word though and we can make use of all that additional tonnage to mount some other weapons.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Intercept_System",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    }
+  ]
+}

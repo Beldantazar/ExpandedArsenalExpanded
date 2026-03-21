@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MechTemplateGen": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\SteamLibrary\\steamapps\\common\\BATTLETECH\\Mods\\MechTemplateGen"
+    }
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "id": "AffinityDef_chassis_Agile",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_5",
+    "chassisNames": [
+        "chrPrfMech_hunchbackBase-001_50",
+        "chrPrfMech_victorBase-001_80",
+        "chrprfmech_blacklannerbase-001_55",
+        "chrprfmech_warhammeriicbase-001_80",
+        "chrprfmech_cephalusbase-001_25",
+        "chrPrfMech_pretabase-001_45",
+        "chrprfmech_switchbladebase-001_35",
+        "chrprfmech_switchbladebase-001_50",
+        "chrprfmech_seraphbase-001_85",
+        "chrprfmech_foxbase-001_50",
+        "chrprfmech_wightbase-001_35",
+        "chrprfmech_thunderbase-001_70",
+        "chrprfmech_chameleonbase-001_50",
+        "chrprfmech_nighthawkbase-001_35",
+        "chrprfmech_avatarbase-001_70"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Agile",
+        "missionsRequired": 15,
+        "levelName": "Agile",
+        "decription": "+1 Evasion",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 1.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Evasion",
+              "Name": "Mech Affinity Evasive Pips Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Int32",
+              "modValue": "1",
+              "operation": "Int_Add",
+              "statName": "EvasivePipsGainedAdditional",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

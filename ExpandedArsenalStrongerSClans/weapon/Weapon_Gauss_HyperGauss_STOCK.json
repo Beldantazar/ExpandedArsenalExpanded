@@ -1,0 +1,67 @@
+{
+    "Category": "Ballistic",
+    "Type": "Gauss",
+    "WeaponSubType": "Gauss",
+    "MinRange": 180,
+    "MaxRange": 600,
+    "RangeSplit": [
+        240,
+        420,
+        600
+    ],
+    "ammoCategoryID": "GAUSS",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 10,
+    "Damage": 190,
+    "StructureDamage": 50,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": 2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 5,
+    "Instability": 60,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 105000000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "Lyran Alliance/Clan",
+        "Model": "Heavy Magnetic Cannon",
+        "UIName": "Hyper Gauss Rifle",
+        "Id": "Weapon_Gauss_HyperGauss_STOCK",
+        "Name": "Hyper Gauss Rifle",
+        "Details": "The Hyper Gauss Rifle is a combination of Clan Jade Falcon materials science and Lyran Alliance desire to make an even more powerful version of the Heavy Gauss Rifle. They used Clan spec materials and electronics to rebuilt the best grade of regular Heavy Gauss Rifle, but instead of trying to make the weapon lighter and smaller, they used the weight savings to pack even more power and damage into the weapon while keeping it mostly the same weight. This drastically improved the penetration damage of the new weapon, at the cost of somewhat reduced range.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Gauss",
+    "BattleValue": 0,
+    "InventorySize": 6,
+    "Tonnage": 17,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "Arms",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_extreme"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

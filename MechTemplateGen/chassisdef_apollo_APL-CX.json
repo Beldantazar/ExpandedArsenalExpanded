@@ -1,0 +1,235 @@
+{
+  "Description": {
+    "Cost": 5400000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Apollo",
+    "Id": "chassisdef_apollo_APL-CX",
+    "Name": "Apollo",
+    "Details": "The Apollo-C is a complete ground up refit sold by Clan Sea Fox, after they managed to pick up a bunch of completely wrecked APL-1Ms for cheap. They rebuilt the mechs using XL engines and endo-steel chassis and then replaced the two LRM-15s with eight Clan-spec LRM-5s (4 in each torso). This weight savings combined with the other upgrades allowed installation of a Clan-spec medium pulse laser and ER medium laser behind hidden panels in each arm, while also allowing for 2 more tons of reloads to give mechwarriors plenty of alternate ammunition space. It even allowed for the engine to be upgraded to a 275 rating to improve the mech's speed to 86km/h. 'All these changes massively improved the Apollo-Cs ability to protect itself at short range, and made it extremely effective at luring raiders in with the apparent prospect of an undefended fire support mech, only to suprise them with a face full of LRMs that have no minimum range.",
+    "Icon": "uixTxrIcon_archer"
+  },
+  "MovementCapDefID": "movedef_hunchie_APL-C",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_hunchie",
+  "PrefabIdentifier": "chrprfmech_hunchiebase-001",
+  "PrefabBase": "hunchie",
+  "Tonnage": 55,
+  "InitialTonnage": 14.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 5148000,
+  "Heatsinks": 30,
+  "TopSpeed": 80,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 70,
+  "MeleeInstability": 55,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 70,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 70,
+  "DFAInstability": 70,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 90,
+      "MaxRearArmor": -1,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 130,
+      "MaxRearArmor": 65,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 130,
+      "MaxRearArmor": 65,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 90,
+      "MaxRearArmor": -1,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 15,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "APL-CX",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Close Assault",
+  "YangsThoughts": "Now this, THIS is what I mean when I tell people that Clan-spec weaponry turns a good mech design into a great one. This thing is even more effective at close range damage output, and yet still maintains more long range firepower than the original design. They even managed to make it faster, reducing one of the biggest weaknesses of the original design.",
+  "FixedEquipment": []
+}

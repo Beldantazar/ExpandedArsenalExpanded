@@ -1,0 +1,74 @@
+{
+  "id": "AffinityDef_chassis_Evasive",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "please_fill_it_with_some_unique_id_0",
+    "chassisNames": [
+        "chrPrfMech_commandoBase-001_25",
+        "chrprfmech_urbiebase-001_30",
+        "chrPrfMech_ravenBase-001_35",
+        "chrPrfMech_vulcanBase-001_40",
+        "chrPrfMech_warhammerBase-001_70",
+        "chrprfmech_dervishbase-001_55",
+        "chrprfmech_valiantbase-001_30",
+        "chrprfmech_cougarbase-001_35",
+        "chrprfmech_hellbringerbase-001_65",
+        "chrprfmech_archangelbase-001_100",
+        "chrprfmech_tomahawkbase-001_70",
+        "chrprfmech_daikyubase-001_70",
+        "chrprfmech_enfieldbase-001_50",
+        "chrprfmech_battleaxebase-001_70",
+        "chrprfmech_minskbase-001_70",
+        "chrprfmech_championbase-001_60",
+        "chrprfmech_bombardbase-001_50",
+        "chrprfmech_hunchbackiichotd-001_50",
+        "chrprfmech_striderbase-001_40"
+    ],
+    "idType": "AssemblyVariant",
+    "altMaps": [],
+    "affinityLevels": [
+      {
+        "id": "Evasive",
+        "missionsRequired": 15,
+        "levelName": "Evasive",
+        "decription": "+2 defense",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-NarrowProfile",
+              "Name": "Mech Affinity Defensive Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "modType": "System.Single",
+              "modValue": "2.0",
+              "operation": "Float_Add",
+              "statName": "ToHitThisActor",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": true,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

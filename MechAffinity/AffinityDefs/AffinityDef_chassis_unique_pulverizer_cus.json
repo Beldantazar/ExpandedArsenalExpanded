@@ -1,0 +1,182 @@
+{
+  "id": "AffinityDef_chassis_unique_pulverizer_cmd",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "unique_pulverizer_cmd",
+    "chassisNames": [
+        "chassisdef_pulverizer_PVL-CMD"
+    ],
+    "idType": "ChassisId",
+    "altMaps": [],
+    "affinityLevels": [
+        {
+            "id": "unique_pulverizer_1",
+            "missionsRequired": 15,
+            "levelName": "Encouraging",
+            "decription": "+3 Resolve",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its morale boost by 3.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-MoraleBoost",
+                        "Name": "Mech Affinity Morale Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Int32",
+                        "modValue": "3",
+                        "operation": "Int_Add",
+                        "statName": "MoraleBonusGain",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+      {
+        "id": "unique_pulverizer_2",
+        "missionsRequired": 20,
+        "levelName": "Defensive",
+        "decription": "+2 Hit Defense",
+        "affinities": [],
+        "effectData": [
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-NarrowProfile",
+                    "Name": "Mech Affinity Defensive Boost"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "additionalRules": "NotSet",
+                    "modType": "System.Single",
+                    "modValue": "2.0",
+                    "operation": "Float_Add",
+                    "statName": "ToHitThisActor",
+                    "targetAmmoCategory": "NotSet",
+                    "targetCollection": "NotSet",
+                    "targetWeaponCategory": "NotSet",
+                    "targetWeaponSubType": "NotSet",
+                    "targetWeaponType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": true,
+                    "showInTargetPreview": false
+                }
+            }
+        ]
+      },
+      {
+        "id": "unique_pulverizer_3",
+        "missionsRequired": 25,
+        "levelName": "Commanding Durability",
+        "decription": "-10% Damage",
+        "affinities": [],
+        "effectData": [
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                    "Name": "Mech Affinity Evasion Boost"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "statName": "DamageReductionMultiplierAll",
+                    "operation": "Float_Multiply",
+                    "modValue": "0.90",
+                    "modType": "System.Single",
+                    "additionalRules": "NotSet",
+                    "targetCollection": "NotSet",
+                    "targetWeaponCategory": "NotSet",
+                    "targetWeaponType": "NotSet",
+                    "targetAmmoCategory": "NotSet",
+                    "targetWeaponSubType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": true,
+                    "showInTargetPreview": false
+                }
+            }
+        ]
+      },
+      {
+        "id": "unique_pulverizer_4",
+        "missionsRequired": 40,
+        "levelName": "Master And Commander",
+        "decription": "+ Called Shot (Moderate)",
+        "affinities": [],
+        "effectData": [
+          {
+            "Description": {
+              "Details": "The pilot's incredible skill with this mech improves accuracy with called shots (+25%).",
+              "Icon": "UixSvgIcon_specialEquip_System",
+              "Id": "StatusEffect-Affinity-Precision-Unique",
+              "Name": "Mech Affinity Evasive Pips Boost"
+            },
+            "durationData": {
+              "duration": -1,
+              "stackLimit": -1
+            },
+            "effectType": "StatisticEffect",
+            "nature": "Buff",
+            "statisticData": {
+              "additionalRules": "NotSet",
+              "statName": "CalledShotBonusMultiplier",
+              "operation": "Float_Multiply",
+              "modValue": "1.25",
+              "modType": "System.Single",
+              "targetAmmoCategory": "NotSet",
+              "targetCollection": "NotSet",
+              "targetWeaponCategory": "NotSet",
+              "targetWeaponSubType": "NotSet",
+              "targetWeaponType": "NotSet"
+            },
+            "targetingData": {
+              "effectTargetType": "Creator",
+              "effectTriggerType": "Passive",
+              "hideApplicationFloatie": true,
+              "showInStatusPanel": false,
+              "showInTargetPreview": false
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

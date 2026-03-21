@@ -1,0 +1,215 @@
+{
+  "id": "AffinityDef_chassis_unique_scylla_jump",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "unique_scylla_jump",
+    "chassisNames": [
+        "chassisdef_scylla_SCL-JM"
+    ],
+    "idType": "ChassisId",
+    "altMaps": [],
+    "affinityLevels": [
+        {
+            "id": "unique_scylla_1",
+            "missionsRequired": 15,
+            "levelName": "Advanced Engine Operation",
+            "decription": "+15% jump distance",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech makes it extremely mobile with its jump jets.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-NimbleJumper",
+                        "Name": "Mech Affinity Jumping Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "JumpDistanceMultiplier",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+      {
+        "id": "unique_scylla_2",
+        "missionsRequired": 20,
+        "levelName": "Zippy",
+        "decription": "+15% speed",
+        "affinities": [],
+        "effectData": [
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech improves its walk & sprinting speed by 15%.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-EasyToPilotWalk",
+                    "Name": "Mech Affinity Sprint Boost"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "additionalRules": "NotSet",
+                    "modType": "System.Single",
+                    "modValue": "1.15",
+                    "operation": "Float_Multiply",
+                    "statName": "WalkSpeed",
+                    "targetAmmoCategory": "NotSet",
+                    "targetCollection": "NotSet",
+                    "targetWeaponCategory": "NotSet",
+                    "targetWeaponSubType": "NotSet",
+                    "targetWeaponType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": true,
+                    "showInTargetPreview": true
+                }
+            },
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-EasyToPilotRun",
+                    "Name": "Mech Affinity Sprint Boost"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "additionalRules": "NotSet",
+                    "modType": "System.Single",
+                    "modValue": "1.15",
+                    "operation": "Float_Multiply",
+                    "statName": "RunSpeed",
+                    "targetAmmoCategory": "NotSet",
+                    "targetCollection": "NotSet",
+                    "targetWeaponCategory": "NotSet",
+                    "targetWeaponSubType": "NotSet",
+                    "targetWeaponType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": false,
+                    "showInTargetPreview": false
+                }
+            }
+        ]
+      },
+      {
+        "id": "unique_scylla_3",
+        "missionsRequired": 25,
+        "levelName": "Durable",
+        "decription": "-10% Damage",
+        "affinities": [],
+        "effectData": [
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                    "Name": "Mech Affinity Damage Reduction"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "statName": "DamageReductionMultiplierAll",
+                    "operation": "Float_Multiply",
+                    "modValue": "0.90",
+                    "modType": "System.Single",
+                    "additionalRules": "NotSet",
+                    "targetCollection": "NotSet",
+                    "targetWeaponCategory": "NotSet",
+                    "targetWeaponType": "NotSet",
+                    "targetAmmoCategory": "NotSet",
+                    "targetWeaponSubType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": true,
+                    "showInTargetPreview": false
+                }
+            }
+        ]
+      },
+      {
+        "id": "unique_scylla_4",
+        "missionsRequired": 40,
+        "levelName": "Jump Master",
+        "decription": "+10% Melee Damage",
+        "affinities": [],
+        "effectData": [
+            {
+                "Description": {
+                    "Details": "The pilot's incredible skill with this mech improves its melee damage by 10%.",
+                    "Icon": "UixSvgIcon_specialEquip_System",
+                    "Id": "StatusEffect-Affinity-MeleeDamage",
+                    "Name": "Mech Affinity Melee Damage Boost"
+                },
+                "durationData": {
+                    "duration": -1,
+                    "stackLimit": -1
+                },
+                "effectType": "StatisticEffect",
+                "nature": "Buff",
+                "statisticData": {
+                    "additionalRules": "NotSet",
+                    "modType": "System.Single",
+                    "modValue": "1.1",
+                    "operation": "Float_Multiply",
+                    "statName": "DamagePerShot",
+                    "targetAmmoCategory": "NotSet",
+                    "targetCollection": "Weapon",
+                    "targetWeaponCategory": "Melee",
+                    "targetWeaponSubType": "NotSet",
+                    "targetWeaponType": "NotSet"
+                },
+                "targetingData": {
+                    "effectTargetType": "Creator",
+                    "effectTriggerType": "Passive",
+                    "hideApplicationFloatie": true,
+                    "showInStatusPanel": true,
+                    "showInTargetPreview": false
+                }
+            }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,351 @@
+{
+    "FixedEquipment": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Superheavy_Chassis_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Hybrid_Defensive_Package_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "Description": {
+        "Cost": 25000000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Alpha CUS",
+        "Id": "chassisdef_alpha_ALP-SH-SS",
+        "Name": "Alpha CUS",
+        "Details": "The personal superheavy Mech of Jimothy 'CUS' Hambuilt. Based on an Alpha super heavy s-class chassis with every weight saving technology available, the Alpha CUS features a highly spread out weapons loadout to make it more resistant to losing too much firepower from individual lucky hits, along with surprising mobility for its 150-ton weight. It has an immense number of weapon hardpoints for its size, which makes it able to be refitted to any situation or desired weapons loadout.",
+        "Icon": "uixTxrIcon_monster"
+    },
+    "MovementCapDefID": "movedef_annihilator_ANH-1A",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_genericsh5",
+    "PrefabIdentifier": "chrprfmech_genericsh5base-001",
+    "PrefabBase": "genericsh5",
+    "Tonnage": 150,
+    "InitialTonnage": 23,
+    "weightClass": "ASSAULT",
+    "BattleValue": 10206000,
+    "Heatsinks": 45,
+    "TopSpeed": 105,
+    "TurnRadius": 290,
+    "MaxJumpjets": 0,
+    "Stability": 250,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 150,
+    "MeleeInstability": 100,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 150,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 150,
+    "DFAInstability": 75,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 80,
+            "MaxRearArmor": -1,
+            "InternalStructure": 41
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 250,
+            "MaxRearArmor": -1,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 450,
+            "MaxRearArmor": 225,
+            "InternalStructure": 225
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 320,
+            "MaxRearArmor": 160,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 250,
+            "MaxRearArmor": -1,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 160
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 320,
+            "MaxRearArmor": -1,
+            "InternalStructure": 160
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14.5,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 19,
+            "z": 0
+        },
+        {
+            "x": 4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": -4.5,
+            "y": 16,
+            "z": -0.5
+        },
+        {
+            "x": 3,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "ALP-SH-SS",
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal_s_tier",
+            "mr-resize-1.8"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Superheavy",
+    "YangsThoughts": "I thought we were done seeing bigger and bigger super heavy mechs, but this takes the cake. This thing has so many weapon hardpoints you can basically mount anything you can think of on it. Just be careful of how many separate weapons you put on it, our cockpit display has a bug that limits us to 14 weapons."
+}

@@ -1,0 +1,208 @@
+{
+  "Description": {
+    "Cost": 6700000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "BattleAxe",
+    "Id": "chassisdef_battleaxe_BKX-7K",
+    "Name": "BattleAxe",
+    "Details": "The prototype of the BattleAxe originally appeared in 2459, and relied on the standard armament of the time: lasers and missiles. Over the next fifteen years, the speed was increased by a third and the mass of the cockpit and armor were reduced. In the late 2460s, unsure of the BattleAxe's maneuverability, the introduction of the WSP-1 Wasp inspired designers to mount experimental jump jets onto the upper legs, allowing it to vault over anything it could not run through. Unfortunately, MechWarriors had to go through training for the new jump jets and the landing process, as many died early on. The Federated Suns subsequently switched the Large Lasers in the arms for new Particle Projection Cannons. The BattleAxe only has nine tons of armor, which is comparatively light for a 'Mech of its size. Massive overheating problems, and the introduction of the Hammerhands, eventually ended the operational service of the BattleAxe. The last BattleAxes, considered ancient, were destroyed in a desperate defense of Robinson against conventionally equipped Combat Vehicle formations during the Second Succession War. The original production variant of this 'Mech, the BKX-7K, utilizes two massive Donal Particle Projection Cannons, which were relatively new at the time. Supporting these massive cannons are two Federated 5-Shot LRM-5 launchers with one ton of ammo split between them, as well as a Harpoon-6 SRM-6. These secondary weapons give the BattleAxe something to hit with at all ranges.",
+    "Icon": "uixTxrIcon_warhammeriic"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_battleaxe_BKX-7K",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_battleaxe",
+  "PrefabIdentifier": "chrprfmech_battleaxebase-001",
+  "PrefabBase": "battleaxe",
+  "Tonnage": 70,
+  "InitialTonnage": 29.0,
+  "weightClass": "HEAVY",
+  "BattleValue": 6577000,
+  "Heatsinks": 0,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 90,
+  "MeleeInstability": 70,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 90,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 90,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 220,
+      "MaxRearArmor": 110,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "BKX-7K",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Antique Heavy Battlemech",
+  "YangsThoughts": "A true classic antique, from the same era as the Mackie, I feel priviledged just being able to see this thing in my mechbay. The weapons layout for this thing is still viable, similar to the WarHammer but with a little bit less firepower."
+}

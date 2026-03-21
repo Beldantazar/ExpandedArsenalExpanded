@@ -1,0 +1,115 @@
+{
+    "Category": "Energy",
+    "Type": "PPC",
+    "WeaponSubType": "PPC",
+    "MinRange": 0,
+    "MaxRange": 540,
+    "RangeSplit": [
+        300,
+        300,
+        540
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 45,
+    "Damage": 120,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 15,
+    "StructureDamage": 0,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 0,
+    "Instability": 40,
+    "WeaponEffectID": "WeaponEffect-Weapon_PPC",
+    "Description": {
+        "Cost": 5250000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Experimental Clan Tech",
+        "Model": "Refined Plasma PPC +",
+        "UIName": "Refined Plasma PPC +",
+        "Id": "Weapon_Plasma_RefinedPlasmaPPC_1",
+        "Name": "Refined Plasma PPC",
+        "Details": "The Refined Plasma PPC is a heavily reworked version of the original Plasma PPC as discovered by the Word of Blake. Like the original, it uses a special plasma bottle to source plasma directly from the mech's reactor instead of running a separate particle generator (similar to the Parti-Kill model of PPC). Unlike the original, however, the particles are allowed to cool somewhat before firing, this reduces the thermal effects, while increasing the direct impact effects. In effect, it trades the originals heavy thermal and structural impact out for high damage like a heavy PPC.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+ 20 Dmg.",
+    "BonusValueB": "+ 10 Stb.Dmg.",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "PPC",
+    "BattleValue": 0,
+    "InventorySize": 3,
+    "Tonnage": 8,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": 1,
+                "ticksOnActivations": true,
+                "useActivationsOfTarget": true,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 0,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "OnHit",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "NotSet",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "AbilityDefPPC",
+                "Name": "SENSORS IMPAIRED",
+                "Details": "[AMT] Difficulty to all of this unit's attacks until its next activation.",
+                "Icon": "uixSvgIcon_status_sensorsImpaired"
+            },
+            "nature": "Debuff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "3.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

@@ -1,0 +1,29 @@
+{
+  "id": "AffinityDef_global_Veteran",
+  "affinityType": "Global",
+  "affinityData": {
+    "id": "Veteran",
+    "missionsRequired": 7,
+    "levelName": "Veteran",
+    "decription": "Get A Moderate Boost to All Skills",
+    "affinities": [
+      {
+        "type": "Guts",
+        "bonus": 2
+      },
+      {
+        "type": "Tactics",
+        "bonus": 2
+      },
+      {
+        "type": "Piloting",
+        "bonus": 1
+      },
+      {
+        "type": "Gunnery",
+        "bonus": 2
+      }
+    ],
+    "effectData": []
+  }
+}

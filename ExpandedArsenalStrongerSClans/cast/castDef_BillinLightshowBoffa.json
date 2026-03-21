@@ -1,0 +1,23 @@
+{
+    "id": "castDef_BillinLightshowBoffa",
+    "internalName": "BillinLightshowBoffa",
+    "firstName": "Billin",
+    "lastName": "Boffa",
+    "callsign": "Lightshow",
+    "rank": "",
+    "gender": "NonBinary",
+    "faction": "CussCutlasses",
+    "sgCharType": "UNSET",
+    "showRank": false,
+    "showFirstName": true,
+    "showCallsign": true,
+    "showLastName": true,
+    "localizeName": false,
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/guiTxrPort_SE03_PirateLackey_def_utr.png"
+    },
+    "emotePotraitList": [
+
+    ]
+}
