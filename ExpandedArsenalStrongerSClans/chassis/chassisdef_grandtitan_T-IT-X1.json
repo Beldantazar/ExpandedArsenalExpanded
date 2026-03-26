@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 23800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Grand Titan",
-    "Id": "chassisdef_grandtitan_T-IT-X1",
-    "Name": "Grand Titan",
-    "Details": "The Grand Titan is built on an Corean Model 101BLP Endo Steel chassis and with an LTV 400 XL engine, which propels the Grand Titan to a top speed of 64.8 km/h. Clad in eighteen tons of Durallex Heavy armor, the 'Mech carries a large arsenal of weapons that allow it to work best at short to medium range. The longest-range weapon carried is a Holly LRM-15 launcher linked to an Artemis IV fire control system for greater accuracy. The 'Mech also carries two Diverse Optics Type 20 Large Pulse Lasers which it brings to bear on an enemy as it closes ranges. Once at close range, the 'Mech carries two Diverse Optics Medium Pulse Lasers, two Diverse Optics Small Pulse Lasers, and a pair of Holly SRM-6 launchers with Artemis IV fire control systems. For protection from missile attacks, the 'Mech has a McArthur anti-missile system.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_titanii"
-  },
+    "Description": {
+        "Cost": 23800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Grand Titan",
+        "Id": "chassisdef_grandtitan_T-IT-X1",
+        "Name": "Grand Titan",
+        "Details": "The Grand Titan is built on an Corean Model 101BLP Endo Steel chassis and with an LTV 400 XL engine, which propels the Grand Titan to a top speed of 64.8 km/h. Clad in eighteen tons of Durallex Heavy armor, the 'Mech carries a large arsenal of weapons that allow it to work best at short to medium range. The longest-range weapon carried is a Holly LRM-15 launcher linked to an Artemis IV fire control system for greater accuracy. The 'Mech also carries two Diverse Optics Type 20 Large Pulse Lasers which it brings to bear on an enemy as it closes ranges. Once at close range, the 'Mech carries two Diverse Optics Medium Pulse Lasers, two Diverse Optics Small Pulse Lasers, and a pair of Holly SRM-6 launchers with Artemis IV fire control systems. For protection from missile attacks, the 'Mech has a McArthur anti-missile system.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_grandtitan"
+    },
   "MovementCapDefID": "movedef_grandtitan_T-IT-N10M",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_grandtitan",
@@ -23,7 +23,7 @@
   "Heatsinks": 30,
   "TopSpeed": 60,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [
     0,

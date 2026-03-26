@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 7500000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Woodsman",
-    "Id": "chassisdef_woodsman_WDM-W",
-    "Name": "Woodsman",
-    "Details": "The original Woodsman was the first heavy omnimech produced by Clan Wolf. An extensively tested and versatile design, it was able to inspire multiple successor omnimech designs. It has recently been brought back in to production which has allowed new variants to be produced. The W variant is one that has been given unusual weaponry by an unnamed clan. Mounting twin trasers and twin ATM 6's it has extensive firepower for all ranges.",
-    "Icon": "uixTxrIcon_orioniic"
-  },
+    "Description": {
+        "Cost": 7500000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Woodsman",
+        "Id": "chassisdef_woodsman_WDM-W",
+        "Name": "Woodsman",
+        "Details": "The original Woodsman was the first heavy omnimech produced by Clan Wolf. An extensively tested and versatile design, it was able to inspire multiple successor omnimech designs. It has recently been brought back in to production which has allowed new variants to be produced. The W variant is one that has been given unusual weaponry by an unnamed clan. Mounting twin trasers and twin ATM 6's it has extensive firepower for all ranges.",
+        "Icon": "uixTxrIcon_woodsman"
+    },
   "FixedEquipment": [
 
   ],

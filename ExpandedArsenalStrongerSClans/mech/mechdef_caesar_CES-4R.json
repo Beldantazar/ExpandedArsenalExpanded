@@ -9,7 +9,7 @@
     "Id": "mechdef_caesar_CES-4R",
     "Name": "Caesar",
     "Details": "The Caesar was built to do as much damage to an enemy at as great a stand-off range as possible. The 'Mech therefore carries primarily long-ranged armament. A variant that first saw action during the Jihad, the -4R attempts to improve upon the -3R variant marketed in the Federated Suns. Designed with short-range combat in mind, it drops the rear-facing pulse lasers and three heat sinks in favor of additional armor and three ER medium lasers. MASC enables the Caesar to close more quickly and bring its snub-nose PPC to bear. The large volume of heat sinks carried ensure the Caesar can fire all its weapons while hardly breaking a sweat, making it a popular choice for missions in areas of extremely high temperatures.",
-    "Icon": "uixTxrIcon_cataphract"
+    "Icon": "uixTxrIcon_caesar"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_avatar_AV1-O",

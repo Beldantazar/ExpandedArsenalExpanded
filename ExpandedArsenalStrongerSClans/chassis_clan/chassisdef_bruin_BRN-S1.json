@@ -9,7 +9,7 @@
     "Id": "chassisdef_bruin_BRN-S1",
     "Name": "Bruin",
     "Details": "The Bruin is a Clan Ghost Bear assault BattleMech which was produced at the Dominion's Bergan Industries factory on Alshain. Its conception was to help unify and bolster the Inner Sphere economy while continuing integration with Clan Ghost Bear. The Bruin's long-range firepower includes a right arm mounted Omega 12-coil Gauss rifle and a center torso mounted Type X Short Bow LRM-10 Launcher. These two weapons give the 'Mech far reaching power, providing it the ability to penetrate an opponent's armor and damage its interior equipment.For its intermediate and short range brackets, the 'Mech is armed with a Clan Kolibri Delta Series Large Pulse Laser in its left arm, a Series 2f ER Medium Laser in each arm, and a Smartshot Mark V Streak SRM-4 launcher in each torso.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_champion"
+    "Icon": "uixTxrIcon_ionbruin"
   },
   "MovementCapDefID": "movedef_ionbruin_BRN-1",
   "PathingCapDefID": "pathingdef_assault",
@@ -23,7 +23,7 @@
   "Heatsinks": 45,
   "TopSpeed": 105,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [
     0,

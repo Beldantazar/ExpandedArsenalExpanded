@@ -9,7 +9,7 @@
         "Id": "chassisdef_woodsman_WDM-EX",
         "Name": "Woodsman S Blazer",
         "Details": "The Woodsman is a venerable mech design used for centuries that inspired more modern designs like the Timber Wolf, it has also been very commonly used as a testbed for various mech systems and weaponry. This one was serving as a testbed for a prototype laser weapon optimization system, which makes laser weapons used on it generate less heat and do more damage. The personal mech of Billin 'Lightshow' Boffa, this mech has been customized to bring it up to S class defenses, cooling and weaponry, and to trade speed for more weaponry.",
-        "Icon": "uixTxrIcon_orioniic"
+        "Icon": "uixTxrIcon_woodsman"
     },
     "FixedEquipment": [
         {

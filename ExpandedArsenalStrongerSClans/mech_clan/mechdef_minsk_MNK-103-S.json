@@ -29,7 +29,7 @@
         "Id": "mechdef_minsk_MNK-103-S",
         "Name": "Minsk 103 S",
         "Details": "The Minsk is Clan Ghost Bear's first domestically produced heavy BattleMech. Produced after Operation KLONDIKE's Arcadia campaign, the Minsk served the Ghost Bears in command and support Stars as a bodyguard unit. The design was retired for more than a century as Clan warriors disliked serving as a bodyguard, though the Bears resurrected it in the 3060s to bulk out their touman. An Active Probe provides minor e-war capabilities. This version has been updated by the Jade Falcons to mount a hyper gauss rifle, which gives the design heavier firepower.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-        "Icon": "uixTxrIcon_orioniic"
+        "Icon": "uixTxrIcon_minsk"
     },
     "simGameMechPartCost": 3500000,
     "Version": 1,

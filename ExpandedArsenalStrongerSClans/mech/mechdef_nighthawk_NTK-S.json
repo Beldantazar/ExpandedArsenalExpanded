@@ -9,7 +9,7 @@
     "Id": "mechdef_nighthawk_NTK-S",
     "Name": "Night Hawk",
     "Details": "The Night Hawk was designed as a fast reaction BattleMech for hunting down Periphery raiders that had managed to penetrate the front lines. Mountain Wolf BattleMechs submitted their proposal for the Night Hawk, their first BattleMech, to the Star League Defense Force in 2655, and after many months of trials, the 'Mech was put into full production in 2656. Production continued for almost 300 years until 2945, when the factory producing the Night Hawk was destroyed and did not see production again until 3055. The Night Hawk is an impressive light 'Mech on the modern battlefield, with a top speed of 97.2 km/h that is provided by a GM 210 XL extralight engine. For protection from enemy fire, the Night Hawk has seven tons of ProtecTech Light armor which can defend it from fire from most other light 'Mechs. Finally, to dissipate the vast amount of heat from its all energy weapons arsenal, the Night Hawk uses 12 double heat sinks. The Night Hawk carries an all energy weapons arsenal to allow it to operate in independent, long-term operations. The primary long range weapon on the Night Hawk is a Maxwell ER large laser that is backed up by a Defiance B3L large laser. Finally, for close range combat, the Night Hawk has a Defiance P5M medium pulse laser.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_blackjack"
+    "Icon": "uixTxrIcon_nighthawk"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_cougar",

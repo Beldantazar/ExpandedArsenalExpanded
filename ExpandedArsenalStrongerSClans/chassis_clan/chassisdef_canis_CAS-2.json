@@ -9,7 +9,7 @@
     "Id": "chassisdef_canis_CAS-2",
     "Name": "Canis",
     "Details": "After the Clan invasion showed that Clan tactics often did not hold up against Inner Sphere forces because of the protracted engagements, Clan Coyote scientists designed the Canis. This second-line assault BattleMech primarily utilizes energy weapons, though it does use some ballistic weaponry to provide a stronger punch. In order to provide the tonnage for this powerful weapon array, the Canis utilizes an Endo Steel internal structure, as well as an extralight fusion engine. Developed during the Jihad in 3071, this is an upgrade in the design's weaponry. The 'Mech's Ultra Class autocannons are removed, for a pair of Class 20 Hyper-Assault Gauss Rifles with four tons of ammunition. Three of the 'Mech's ER Large Lasers are removed, with one being moved to its head. In their place, they've been given two Large Pulse Lasers.",
-    "Icon": "uixTxrIcon_juggernaut"
+    "Icon": "uixTxrIcon_canis"
   },
   "MovementCapDefID": "movedef_canis_CAS-2",
   "PathingCapDefID": "pathingdef_assault",

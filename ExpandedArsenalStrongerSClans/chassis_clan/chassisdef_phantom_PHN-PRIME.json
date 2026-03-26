@@ -9,7 +9,7 @@
     "Id": "chassisdef_phantom_PHN-PRIME",
     "Name": "Phantom",
     "Details": "Intended to push a medium reconnaissance 'Mech to the most extreme limits, the Phantom is built on a lightweight Type-A endo steel chassis and is propelled to a top speed of 151.2 km/h by a Light Force 360 XL extralight engine. The Phantom also boasts strong protection for its size with six tons of Composite A-2 ferro-fibrous armor. In its Primary configuration the Phantom is an electronics marvel. To root out hidden units, the Phantom carries an active probe which is able to find hidden enemy units at up to 180 meters. The Phantom prime is capable of spotting for friendly Arrow IV artillery with a TAG laser designator and, for protection from enemy electronic warfare systems, the 'Mech has an ECM suite. To engage its enemies at long range, the Phantom has an LRM-5 launcher backed up by an ER medium laser and an ER small laser for close combat.",
-    "Icon": "uixTxrIcon_panther"
+    "Icon": "uixTxrIcon_ionphantom"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_ionphantom_PHN-PRIME",
@@ -24,7 +24,7 @@
   "Heatsinks": 30,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "MaxJumpjets": 8,
+  "MaxJumpjets": 9,
   "Stability": 130,
   "StabilityDefenses": [
     0,

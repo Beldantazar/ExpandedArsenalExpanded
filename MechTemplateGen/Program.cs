@@ -128,6 +128,27 @@ JArray addToTags(JToken tags, string newTag)
     return temp;
 }
 
+JArray removeFromTags(JToken tags, string newTag)
+{
+    
+    JArray temp;
+    if (!(tags is JArray))
+    {
+        temp = new JArray();
+        temp.Add(tags.DeepClone());
+    }
+    else
+    {
+        temp = (JArray)tags;
+    }
+    var mechToken = temp.FirstOrDefault(x => x.Value<string>() == newTag);
+    if (mechToken != null)
+    {
+        temp.Remove(mechToken);
+    }
+    return temp;
+}
+
 void processEquipment(JToken mech, string[][] equipment)
 {
     var Equipment = new JArray();
@@ -212,14 +233,36 @@ void processMechInfo(MechInfo info)
     }
     if(info.icon != null)
     {
-        chassis["Description"]["Icon"] = info.icon;
-        mech["Description"]["Icon"] = info.icon;
+        var newIconName = info.icon;
+        var icons = Directory.GetFiles("..\\", info.icon + ".dds", SearchOption.AllDirectories);
+        
+        if (icons.Length > 0)
+        {
+            newIconName = $"uixTxrIcon_{((info.prefabName ?? info.newMechName) ?? chassis["Description"]["Name"].ToString()).ToLowerInvariant()}";
+            var mostRecentDate = DateTime.MinValue;
+            string mostRecentIcon = icons[0]; 
+            for (var i = 0; i < icons.Length; i++)
+            {
+                var newWriteTime = File.GetLastWriteTime(icons[i]);
+                if (Path.GetFullPath($"{newIconName}.dds") == Path.GetFullPath(icons[i])) { continue; }
+                if (newWriteTime > mostRecentDate)
+                {
+                    mostRecentDate = newWriteTime;
+                    mostRecentIcon = icons[i];
+                }
+            }
+            
+            File.Copy(mostRecentIcon, $"{newIconName}.dds", true);
+        }
+        chassis["Description"]["Icon"] = newIconName;
+        mech["Description"]["Icon"] = newIconName;
     }
     if (info.prefabName != null && info.mechTonnage != null && info.mechEngine != null) {
         var name = MoveDefTemplate["Description"]["Id"].ToString();
         name = name.Replace("bloodasp", info.prefabName);
         MoveDefTemplate["Description"]["Id"] = name;
         var moveDist = info.mechEngine / info.mechTonnage;
+        chassis["MaxJumpjets"] = moveDist;
         var sprintDist = Math.Ceiling((double)moveDist * 1.5);
         moveDist *= 30;
         sprintDist *= 30;
@@ -324,7 +367,27 @@ void processMechInfo(MechInfo info)
     }
     if (info.equipment != null)
     {
-        processFixedEquipment(chassis, info.fixedEquipment);
+        processEquipment(chassis, info.equipment);
+    }
+
+    var allTags = mech["MechTags"];
+    if (allTags != null)
+    {
+        var tagItems = allTags["items"];
+        if (tagItems != null)
+        {
+            tagItems = removeFromTags(tagItems, "elite_forces");
+            tagItems = removeFromTags(tagItems, "elite_arsenal");
+            tagItems = removeFromTags(tagItems, "elite_arsenal_s_tier");
+            tagItems = removeFromTags(tagItems, "BLACKLISTED");
+            tagItems = removeFromTags(tagItems, "NotDavion");
+            tagItems = removeFromTags(tagItems, "NotLiao");
+            tagItems = removeFromTags(tagItems, "NotMarik");
+            tagItems = removeFromTags(tagItems, "NotSteiner");
+            tagItems = removeFromTags(tagItems, "NotMagistracyOfCanopus");
+            tagItems = removeFromTags(tagItems, "NotTaurianConcordat");
+            allTags["items"] = tagItems;
+        }
     }
 
     if (info.newMechVariant ?? false)
@@ -375,6 +438,10 @@ void processMechInfo(MechInfo info)
         if (info.efFixedEquipment != null)
         {
             processFixedEquipment(newChassisDef, info.efFixedEquipment);
+        }
+        if (info.efEquipment != null)
+        {
+            processEquipment(chassis, info.efEquipment);
         }
         File.WriteAllText(outputFileName, newChassisDef.ToString());
         File.WriteAllText(outputMechFileName, newMechDef.ToString());
@@ -466,6 +533,18 @@ void processMechInfo(MechInfo info)
         {
             processFixedEquipment(newXChassisDef, info.eaFixedEquipment);
             processFixedEquipment(newSChassisDef, info.eaFixedEquipment);
+        }
+        if (info.eaSFixedEquipment != null)
+        {
+            processFixedEquipment(newSChassisDef, info.eaSFixedEquipment);
+        }
+        if (info.eaXEquipment != null)
+        {
+            processEquipment(newXMechDef, info.eaXEquipment);
+        }
+        if (info.eaSEquipment != null)
+        {
+            processEquipment(newSMechDef, info.eaSEquipment);
         }
         File.WriteAllText(outputXFileName, newXChassisDef.ToString());
         File.WriteAllText(outputXMechFileName, newXMechDef.ToString());

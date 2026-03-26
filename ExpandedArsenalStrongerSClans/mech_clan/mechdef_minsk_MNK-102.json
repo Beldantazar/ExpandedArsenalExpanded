@@ -28,7 +28,7 @@
         "Id": "mechdef_minsk_MNK-102",
         "Name": "Minsk 102",
         "Details": "The Minsk is Clan Ghost Bear's first domestically produced heavy BattleMech. Produced after Operation KLONDIKE's Arcadia campaign, the Minsk served the Ghost Bears in command and support Stars as a bodyguard unit. The design was retired for more than a century as Clan warriors disliked serving as a bodyguard, though the Bears resurrected it in the 3060s to bulk out their touman. The Minsk MNK-101 carries a varied loadout of Clan weapons: two each Gauss Rifles, SRM-6s, Small Pulse Lasers, and Machine Guns as well as one LRM-10. An Inner Sphere Beagle Active Probe provides minor e-war capabilities.",
-        "Icon": "uixTxrIcon_orioniic"
+        "Icon": "uixTxrIcon_minsk"
     },
     "simGameMechPartCost": 350000,
     "Version": 1,

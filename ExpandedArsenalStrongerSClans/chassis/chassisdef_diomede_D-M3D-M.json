@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 2380000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Diomede",
-    "Id": "chassisdef_diomede_D-M3D-M",
-    "Name": "Diomede",
-    "Details": "The Diomede is an early post-Jihad IndustrialMech that was produced by Curtiss Hydroponics of Silver. Starting with the D-M3D-3 model, this massive ConstructionMech was designed to handle the rigors of harsh realities that face potential customers. In addition to handling potential construction tasks, the Diomede can also serve as a SecurityMech if needed. Because of this combat equipment, the Republic of the Sphere requires users to pay large amounts in licensing fees to help keep it from falling into the wrong hands. Built to circumvent the Republic's restrictions on BattleMech production, this Diomede is a cheap assault 'Mech introduced in 3092.[6] None of the standard industrial equipment remains in this variant. It has been replaced by a pair of medium lasers, twin machine guns, and a Imperator Gauss rifle. The 'Mech retains the twin MML-7 launchers. The tracks used by the standard Diomede remain.",
-    "Icon": "uixTxrIcon_roughneckcrane"
-  },
+    "Description": {
+        "Cost": 2380000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Diomede",
+        "Id": "chassisdef_diomede_D-M3D-M",
+        "Name": "Diomede",
+        "Details": "The Diomede is an early post-Jihad IndustrialMech that was produced by Curtiss Hydroponics of Silver. Starting with the D-M3D-3 model, this massive ConstructionMech was designed to handle the rigors of harsh realities that face potential customers. In addition to handling potential construction tasks, the Diomede can also serve as a SecurityMech if needed. Because of this combat equipment, the Republic of the Sphere requires users to pay large amounts in licensing fees to help keep it from falling into the wrong hands. Built to circumvent the Republic's restrictions on BattleMech production, this Diomede is a cheap assault 'Mech introduced in 3092.[6] None of the standard industrial equipment remains in this variant. It has been replaced by a pair of medium lasers, twin machine guns, and a Imperator Gauss rifle. The 'Mech retains the twin MML-7 launchers. The tracks used by the standard Diomede remain.",
+        "Icon": "uixTxrIcon_diomede"
+    },
   "MovementCapDefID": "movedef_diomede_D-M3D-M",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_diomede",
@@ -23,7 +23,7 @@
   "Heatsinks": 0,
   "TopSpeed": 60,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 2,
   "Stability": 200,
   "StabilityDefenses": [
     0,

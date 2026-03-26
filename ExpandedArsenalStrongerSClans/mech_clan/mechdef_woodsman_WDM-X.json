@@ -28,7 +28,7 @@
         "Id": "mechdef_woodsman_WDM-X",
         "Name": "Woodsman X",
         "Details": "The first heavy OmniMech developed by Clan Wolf, the Woodsman was one of the most heavily tested weapons ever produced by the Clan. Every last detail was considered and problems were eliminated before production began. This resulted in a chassis that would not only function well in the Clan's front line forces for nearly a century, but also inspire the Timber Wolf, Gargoyle, and Naga OmniMechs.<br>The primary Woodsman configuration would be mirrored in the default Timber Wolf weapon load. Each arm carried an ER Large Laser and an ER Medium Laser, and a pair of LRM-15s rounded out the configuration in each side torso. To provide anti-infantry capability, a pair of Machine Guns were mounted in the center torso. Five additional pod mounted double heat sinks brought the total up to seventeen, allowing the Woodsman to fire most of its weaponry without worrying about heat overloads.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-        "Icon": "uixTxrIcon_orioniic"
+        "Icon": "uixTxrIcon_woodsman"
     },
     "simGameMechPartCost": 3500000,
     "Version": 1,

@@ -9,7 +9,7 @@
     "Id": "chassisdef_sidewinder_SDW-Prime",
     "Name": "Sidewinder",
     "Details": "The use of a weaker engine and correspondingly slower speed compared to the Timber Wolf is offset by the inclusion of jump jets and a MASC system in the Sidewinder. Twelve tons of ferro-fibrous armor provide ample protection, and 34.75 tons of pod space are available. In its only known configuration, the Sidewinder mounts a Gauss rifle, two LRM-10 with Artemis IV fire control, a Large Pulse Laser, two Medium Pulse Lasers and an AMS system, with twelve double heat sinks.",
-    "Icon": "uixTxrIcon_madcat"
+    "Icon": "uixTxrIcon_sidewinder"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_sidewinder_SDW-Prime",
@@ -24,7 +24,7 @@
   "Heatsinks": 30,
   "TopSpeed": 76,
   "TurnRadius": 180,
-  "MaxJumpjets": 5,
+  "MaxJumpjets": 4,
   "Stability": 160,
   "StabilityDefenses": [
     0,

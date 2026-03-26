@@ -9,7 +9,7 @@
     "Id": "chassisdef_visionquest_VQ-S2",
     "Name": "Vision Quest",
     "Details": "The Vision Quest was created by Clan Nova Cat to honor the memory of Khan Sandra Rosse and the future she foresaw for both the Nova Cats and Kerensky's Clans as a whole. Only four years after its introduction, the Vision Quest was fully retooled to Clan tech standards, boosting its armor and swapping out the improved Gauss rifle for a Class-20 Ultra autocannon.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_clint"
+    "Icon": "uixTxrIcon_visionquest"
   },
   "MovementCapDefID": "movedef_visionquest_VQ-Clan",
   "PathingCapDefID": "pathingdef_heavy",
@@ -20,7 +20,7 @@
   "InitialTonnage": 18.5,
   "weightClass": "HEAVY",
   "Heatsinks": 45,
-  "MaxJumpjets": 4,
+  "MaxJumpjets": 5,
   "Stability": 160,
   "StabilityDefenses": [
     0,

@@ -1,9 +1,9 @@
 {
-    "Name": "Elite Arsenal Stronger S Mechs",
+    "Name": "Elite Arsenal Expanded",
     "Enabled": true,
     "Version": "1.0.0",
-    "Description": "Upgrades some s tier assault mechs to be stronger and harder to beat",
-    "Author": "Hong Ooi",
+    "Description": "Expands the mechs and weapons of Elite Arsenal",
+    "Author": "Beldantazar",
     "DependsOn": [
         "Elite Arsenal",
         "superheavies"
@@ -51,7 +51,8 @@
         },
         {
             "Type": "JumpJetDef",
-            "Path": "jumpjets"
+            "Path": "jumpjets",
+            "AddToDB": true
         },
         {
             "Type": "UpgradeDef",
@@ -70,6 +71,10 @@
         {
             "Type": "MovementCapabilitiesDef",
             "Path": "movement"
+        },
+        {
+            "Type": "Sprite",
+            "Path": "portraits"
         }
     ],
     "DataAddendumEntries": [

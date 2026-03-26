@@ -9,7 +9,7 @@
     "Id": "chassisdef_gunslinger_GUN-3ERDX",
     "Name": "Gunslinger",
     "Details": "The Gunslinger is a product of the Clan Invasion and would not exist if not for that violent conflict. The 'Mech was jointly designed by engineers from both the Draconis Combine and the Federated Commonwealth who were in the process of assisting the Free Rasalhague Republic. To power the Gunslinger, a VOX 255 XL engine is used to give the 'Mech a top speed of 54 km/h. This is augmented by a pair of HildCo Model 12 jump jets that allow the Gunslinger to traverse rough terrain and provide extra mobility at close ranges. The 'Mech is also equipped with a Guardian ECM Suite and a Beagle Active Probe, giving the Gunslinger superior detection capabilities and protection from advanced enemy electronic warfare equipment. A Dark Age Era variant introduced in 3131 by the Draconis Combine, this version of the Gunslinger uses a mix of Clan and Inner Sphere technologies. Powered by a 255-rated Clan XL Fusion Engine, the 'Mech retains the speed and limited Jump Jet capacity of the original, while the gyro is replaced by an XL version. Weapons-wise, its primary weapons remain its arm mounted Gauss rifles with four tons of ammunition. The four Medium Lasers in the side torsos are replaced by Clan ER Medium Lasers, while three X-Pulse Small Lasers are fitted.",
-    "Icon": "uixTxrIcon_dervish"
+    "Icon": "uixTxrIcon_gunslinger"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_gunslinger_GUN-3ERD",
@@ -24,7 +24,7 @@
   "Heatsinks": 30,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "MaxJumpjets": 4,
+  "MaxJumpjets": 3,
   "Stability": 200,
   "StabilityDefenses": [
     0,

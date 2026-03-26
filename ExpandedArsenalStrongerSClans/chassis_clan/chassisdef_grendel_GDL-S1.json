@@ -9,7 +9,7 @@
     "Id": "chassisdef_grendel_GDL-S1",
     "Name": "Grendel",
     "Details": "The Grendel features a powerful Consolidated 315 XL extralight engine, enabling it to move at a fleet 118.8 km/h, and enough jump jets fixed on the chassis to propel it up to 210 meters at a leap. The Sharks spared no expense in weight-saving materials, making use of an the XL engine, endo steel structure, and seven and a half tons of ferro-fibrous armor to provide thirteen and half tons of available pod space. The incredible speed of the Grendel is not terribly helpful in most zellbrigen duels, but it is effective in large-scale actions especially against Inner Sphere foes of similar weight hard pressed to counter its speed or firepower. The Grendel is also popular with technicians, because while many OmniMechs are often hangar queens, the Grendel can go long periods without maintenance and still remain combat effective. The Primary configuration uses an ER large laser at long range, but really excels at closer ranges. Up close, the Grendel makes use of three ER medium lasers that can be devastating to light 'Mechs and a Streak SRM-6 that exploits any holes the lasers make. An ER small laser that is effective at point-blank range seems an afterthought. Two extra double heat sinks help to keep the design mostly cool.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_awesome"
+    "Icon": "uixTxrIcon_grendel"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_grendel_GDL-PRIME",
@@ -24,7 +24,7 @@
   "Heatsinks": 45,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "MaxJumpjets": 6,
+  "MaxJumpjets": 7,
   "Stability": 130,
   "StabilityDefenses": [
     0,

@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 14800000,
-    "Rarity": 5,
-    "Purchasable": false,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Viking",
-    "Id": "chassisdef_viking_VKG-S1",
-    "Name": "Viking",
-    "Details": "The Viking began production shortly after the Beowulf in a joint effort by the Free Rasalhague Republic and ComStar. The 'Mech is intended to take over in the role that has been traditionally filled by the Bombardier. The Viking is built on a GC Type 1 Endo Steel chassis and powered by a GM 270 fusion engine, giving the 'Mech a top speed of 54.0 km/h. The Viking is protected by fifteen and a half tons of GC Slab armor with CASE, providing the 'Mech with good armor protection as well as protection against ammunition explosions. To dissipate heat from the Viking's impressive arsenal, the 'Mech has ten double heat sinks. The Viking has proven itself a powerful assault and fire support 'Mech capable of putting out almost twice as much firepower as the 'Mech it replaces. The Viking has a singular mission of long-range missile fire support. To do this, the Viking carries two Shigunga LRM-15 launchers and two Shigunga LRM-20 launchers, all of which are linked to an Artemis IV fire control system for increased missile accuracy. For close combat, the Viking has two torso mounted ChisComp 32 Small Lasers and four Sperry Browning Machine Guns for anti-infantry combat.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_longbow"
-  },
+    "Description": {
+        "Cost": 14800000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Viking",
+        "Id": "chassisdef_viking_VKG-S1",
+        "Name": "Viking",
+        "Details": "The Viking began production shortly after the Beowulf in a joint effort by the Free Rasalhague Republic and ComStar. The 'Mech is intended to take over in the role that has been traditionally filled by the Bombardier. The Viking is built on a GC Type 1 Endo Steel chassis and powered by a GM 270 fusion engine, giving the 'Mech a top speed of 54.0 km/h. The Viking is protected by fifteen and a half tons of GC Slab armor with CASE, providing the 'Mech with good armor protection as well as protection against ammunition explosions. To dissipate heat from the Viking's impressive arsenal, the 'Mech has ten double heat sinks. The Viking has proven itself a powerful assault and fire support 'Mech capable of putting out almost twice as much firepower as the 'Mech it replaces. The Viking has a singular mission of long-range missile fire support. To do this, the Viking carries two Shigunga LRM-15 launchers and two Shigunga LRM-20 launchers, all of which are linked to an Artemis IV fire control system for increased missile accuracy. For close combat, the Viking has two torso mounted ChisComp 32 Small Lasers and four Sperry Browning Machine Guns for anti-infantry combat.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_viking"
+    },
   "MovementCapDefID": "movedef_masonviking_VKG-2F",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_masonviking",

@@ -9,7 +9,7 @@
     "Id": "chassisdef_caesar_CES-S",
     "Name": "Caesar",
     "Details": "The Caesar was built to do as much damage to an enemy at as great a stand-off range as possible. The 'Mech therefore carries primarily long-ranged armament.   The primary long-ranged weapon on the Caesar is a Poland Main Model A Gauss rifle that can shear off just under a ton of armor with each shot, fed from a 16-round magazine. This is backed up at long ranges by a Johnston High Speed ER PPC, which can do two-thirds of the damage of the Gauss rifle but is not dependent on limited ammunition. For close-range engagements, the Caesar carries four Sutel Precision Line medium pulse lasers, allowing it to put up a crippling defense against any enemies that can get close to the 'Mech. The large volume of heat sinks carried ensure the Caesar can fire all its weapons while hardly breaking a sweat, making it a popular choice for missions in areas of extremely high temperatures.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_cataphract"
+    "Icon": "uixTxrIcon_caesar"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_caesar_CES-3R",

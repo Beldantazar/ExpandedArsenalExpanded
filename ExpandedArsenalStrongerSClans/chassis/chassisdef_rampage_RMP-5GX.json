@@ -9,7 +9,7 @@
     "Id": "chassisdef_rampage_RMP-5GX",
     "Name": "Rampage",
     "Details": "The Rampage was a BattleMech produced by the Rim Worlds Republic. The 'Mech was originally built and used as a standard line unit, but it was upgraded to a fast assault 'Mech in 2767, following Stefan Amaris' successful coup that installed him as the nominal leader of the Terran Hegemony. With the occupation of Star League R&D facilities, his Periphery nation was finally able to produce the SLDF's advanced weaponry. The Rampage's upgrade utilized Endo Steel and an XL engine to save weight. As engineers debated the best way to make the Rampage faster, they settled on installing the new MASC system, which accelerates the 85-ton 'Mech to 86 km/h in bursts. While its speed gives it a measure of protection, the design also sports a massive sixteen tons of PanzerSlab 9 armor. Introduced in 2750 and built in limited numbers prior to introduction of 5G, the 4G Rampage was similar to the -5G upgrade. It lacked the missile launchers and one medium laser, but added a Gauss rifle for concentrated long-range fire. This required the minimum amount of double heat sinks and slightly less armor.",
-    "Icon": "uixTxrIcon_awesome"
+    "Icon": "uixTxrIcon_rampage"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_rampage_RMP-5G",

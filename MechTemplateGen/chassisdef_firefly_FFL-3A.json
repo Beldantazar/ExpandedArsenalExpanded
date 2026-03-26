@@ -9,7 +9,7 @@
     "Id": "chassisdef_firefly_FFL-3A",
     "Name": "Firefly",
     "Details": "Entering service in 2669, the Firefly was one of the standard light 'Mechs of the Star League Defense Force in its later years, with a small volume also entering service with all the Member State militaries. Although too slow when compared to other 'Mechs of similar weight to act as a scout, the Firefly instead served as a light support 'Mech, its superior armor and armaments allowing it to act as the anvil used by the rest of its lance to crush enemy scout forces. The 'Mech was also deployed independently in urban environments where its jump jets gave it a decisive edge against infantry and light combat vehicles and is useful in a guerrilla fighter role. First built in 2679, the standard Star League Defense Force model utilizes an XL engine, double heat sinks, and ferro-fibrous armor to reduce weight. A battery of four small lasers, three medium lasers, and an LRM-5 provide significant offensive capabilities for a recon 'Mech. TAG enhances its ability to spot for artillery, while CASE protects from ammunition explosion.",
-    "Icon": "uixTxrIcon_osprey"
+    "Icon": "uixTxrIcon_firefly"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_firefly_FFL-3A",
@@ -24,7 +24,7 @@
   "Heatsinks": 30,
   "TopSpeed": 210,
   "TurnRadius": 90,
-  "MaxJumpjets": 8,
+  "MaxJumpjets": 5,
   "Stability": 100,
   "StabilityDefenses": [
     0,

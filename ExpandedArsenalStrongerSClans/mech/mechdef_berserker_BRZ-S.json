@@ -30,7 +30,7 @@
         "Id": "mechdef_berserker_BRZ-S",
         "Name": "Berserker",
         "Details": "A massive close in brawling mech, with a gigantic 400XL engine and a MASC system to allow it to reach a top speed of 86.4 km/h. It runs an arsenal of energy weapons for ranged operations while it gets in range for its massive 7 ton hatchet. For long range it uses an ER PPC then twin large pulse lasers for closer in work. It does mount a flamer in the head but more for the psychological effect than any actual combat use.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-        "Icon": "uixTxrIcon_charger"
+        "Icon": "uixTxrIcon_berserker"
     },
     "simGameMechPartCost": 2400000,
     "Version": 1,

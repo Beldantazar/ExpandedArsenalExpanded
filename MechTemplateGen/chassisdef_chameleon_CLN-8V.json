@@ -9,7 +9,7 @@
     "Id": "chassisdef_chameleon_CLN-8V",
     "Name": "Chameleon",
     "Details": "The Chameleon was designed to help a new MechWarrior master the skills of maneuvering and heat management, with a top speed of 97.2 km/h and a jumping distance of 180 meters. The 'Mech also had an almost all-energy-weapon loadout, but was cooled by only 10 single heat sinks; this paucity of freezers forces MechWarriors to concentrate on the 'Mech's heat levels. In some instances, the Chameleon had been forced into combat situations, notably during the Dragoon Civil War and the World of Blake's conquest of Terra.This variant sought to make the Chameleon a capable frontline fighter. The weapons complement was changed considerably. An ER large laser and standard medium laser were mounted in the right arm. Another medium laser remained in the left arm. Two medium X-pulse lasers were mounted in the right torso, while another was mounted in the left. A pair of machine guns were still carried in the center torso but now shared a CASE II–protected half-ton magazine in the left torso. To make room for all these improvements, a 300 XL engine was used. The heat sinks were upgrade to twelve doubles. Nine tons of standard armor protected this variant.",
-    "Icon": "uixTxrIcon_firestarter"
+    "Icon": "uixTxrIcon_chameleon"
   },
   "MovementCapDefID": "movedef_chameleon_CLN-8V",
   "PathingCapDefID": "pathingdef_medium",
@@ -23,7 +23,7 @@
   "Heatsinks": 0,
   "TopSpeed": 65,
   "TurnRadius": 90,
-  "MaxJumpjets": 0,
+  "MaxJumpjets": 6,
   "Stability": 130,
   "StabilityDefenses": [
     0,

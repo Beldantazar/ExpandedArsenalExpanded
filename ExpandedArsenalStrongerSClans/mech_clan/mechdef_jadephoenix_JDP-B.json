@@ -23,7 +23,7 @@
     "Id": "mechdef_jadephoenix_JDP-B",
     "Name": "Jade Phoenix",
     "Details": "The Jade Phoenix serves as a workhorse OmniMech within the Falcon touman. All configurations are fairly straightforward, with few surprises. This leads the Mech to be deployed in honest battles that rely on a Warrior's skills rather than shock tactics or deception. The fixed Partial Wing assembly and high speed give the Jade Phoenix unparalleled maneuverability, allowing the pilot to gain positions that are typically unreachable by assault Mechs. A deadly skirmisher, the B-configuration carries two Gauss rifles in the arms that allow it to keep most enemies at bay. An improved heavy medium and improved heavy large laser supplement the Gauss rifles when ranges close. Four tons of ammunition keep the Gauss rifles well stocked, while four jump jets gives the pilot tactical options.",
-    "Icon": "uixTxrIcon_nightstar"
+    "Icon": "uixTxrIcon_jadephoenix"
   },
   "simGameMechPartCost": 4500000,
   "Version": 1,

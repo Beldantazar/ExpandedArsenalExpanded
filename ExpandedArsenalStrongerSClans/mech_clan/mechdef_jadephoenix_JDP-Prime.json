@@ -23,7 +23,7 @@
     "Id": "mechdef_jadephoenix_JDP-Prime",
     "Name": "Jade Phoenix",
     "Details": "The Jade Phoenix serves as a workhorse OmniMech within the Falcon touman. All configurations are fairly straightforward, with few surprises. This leads the Mech to be deployed in honest battles that rely on a Warrior's skills rather than shock tactics or deception. The fixed Partial Wing assembly and high speed give the Jade Phoenix unparalleled maneuverability, allowing the pilot to gain positions that are typically unreachable by assault Mechs. The Primary Configuration is geared towards long-range combat, with two ER PPCs backed up by an HAG 30. Four Jump Jets grant the Primary Configuration its agility, while five additional double heat sinks help to dissipate the tremendous waste heat of jump maneuvers and weapons fire",
-    "Icon": "uixTxrIcon_nightstar"
+    "Icon": "uixTxrIcon_jadephoenix"
   },
   "simGameMechPartCost": 4500000,
   "Version": 1,

@@ -9,7 +9,7 @@
     "Id": "chassisdef_fox_FX-X",
     "Name": "Fox",
     "Details": "The Fox is an early example of a Clan medium BattleMech, originally created as Clan Sea Fox's first BattleMech. The Sea Foxes didn't sell the Fox to any other Clans directly, but it was commonly used and participated in numerous Trials in the twenty-ninth century. This varriant is a pure Clan-tech version of the Fox that uses the same endo steel chassis and XL engine. The weapons are upgraded to Clan-spec LRM-15s, Streak SRM-2s, machine guns, and ER medium lasers in the arms. The center torso medium laser is removed and replaced by an ER large laser. To handle the higher heat load it carries an extra double heat sink. Ferro-fibrous armor protects the Fox.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_mongoose"
+    "Icon": "uixTxrIcon_fox"
   },
   "MovementCapDefID": "movedef_fox_FX-1",
   "PathingCapDefID": "pathingdef_medium",
@@ -23,7 +23,7 @@
   "Heatsinks": 30,
   "TopSpeed": 120,
   "TurnRadius": 90,
-  "MaxJumpjets": 5,
+  "MaxJumpjets": 6,
   "Stability": 130,
   "StabilityDefenses": [
     0,

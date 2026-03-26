@@ -11,7 +11,7 @@
     "Id": "mechdef_glassspider_GS-S1",
     "Name": "Glass Spider",
     "Details": "The Glass Spider is the direct descendant of the Star League Galahad, so it was only natural that Inner Sphere observers gave it that code name when they first encountered the BattleMech. The Glass Spider was one of the most common 'Mechs in second-line formations and could be found in the touman of every Clan. It served in the dual role of providing direct-fire support for friendly forces and serving as the first line of air defense for most garrison units. While this mission profile made it unpopular among those trueborns assigned to pilot a Glass Spider, it was a popular choice for any MechWarrior engaging an aerospace fighter in an honor duel. Its ability to quickly kill a target, and thus quickly win honor, also made it popular among some warrior.<br>The weapons on the Glass Spider are simple and straightforward: two Gauss rifles, one in each arm. The long-range, powerful guns devastate most opponents quickly and, like the Rifleman's weapons, can rotate completely to cover the rear arc.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_riflemaniic"
+    "Icon": "uixTxrIcon_gspider"
   },
   "simGameMechPartCost": 610000,
   "Version": 1,

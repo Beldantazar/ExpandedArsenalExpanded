@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 23800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Pillager",
-    "Id": "chassisdef_pillager_PLG-1N",
-    "Name": "Pillager",
-    "Details": "The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications. These design parameters were paramount as the SLDF mobilized to wage the Reunification War. Later Pillagers were upgraded with more cutting-edge Star League technology. Production of the Pillager halted not because its facility was destroyed, but the advanced Gauss rifle and XL engine production lines had been obliterated by the end of the Second Succession War. Curiously, HildCo did not restart production of the original PLG-1N, rather the Pillager lines only began production again in 3058 when advanced components were once again available for the PLG-3Z. The original Pillager, designed in 2575 and fielded for the first two decades of the Reunification War, uses a standard fusion engine instead of the extralight model that went into production. Other limitations include a 60 meter jump range and 17 tons of armor. The weapons suite was also different, relying on twin torso mounted Autocannon/20s, a single SRM-4, and three medium lasers; one mounted in each arm and a head-mounted laser. Sixteen single heat sinks kept the heat under control. ",
-    "Icon": "uixTxrIcon_battlemaster"
-  },
+    "Description": {
+        "Cost": 23800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Pillager",
+        "Id": "chassisdef_pillager_PLG-1N",
+        "Name": "Pillager",
+        "Details": "The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications. These design parameters were paramount as the SLDF mobilized to wage the Reunification War. Later Pillagers were upgraded with more cutting-edge Star League technology. Production of the Pillager halted not because its facility was destroyed, but the advanced Gauss rifle and XL engine production lines had been obliterated by the end of the Second Succession War. Curiously, HildCo did not restart production of the original PLG-1N, rather the Pillager lines only began production again in 3058 when advanced components were once again available for the PLG-3Z. The original Pillager, designed in 2575 and fielded for the first two decades of the Reunification War, uses a standard fusion engine instead of the extralight model that went into production. Other limitations include a 60 meter jump range and 17 tons of armor. The weapons suite was also different, relying on twin torso mounted Autocannon/20s, a single SRM-4, and three medium lasers; one mounted in each arm and a head-mounted laser. Sixteen single heat sinks kept the heat under control. ",
+        "Icon": "uixTxrIcon_pillager"
+    },
   "MovementCapDefID": "movedef_pillager_PLG-1N",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_pillager",
@@ -20,7 +20,7 @@
   "InitialTonnage": 35.0,
   "weightClass": "ASSAULT",
   "BattleValue": 23581000,
-  "Heatsinks": 30,
+  "Heatsinks": 0,
   "TopSpeed": 60,
   "TurnRadius": 90,
   "MaxJumpjets": 3,

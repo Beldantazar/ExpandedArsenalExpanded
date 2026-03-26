@@ -92,6 +92,10 @@ mechdef_bombardier_BMB-X,MechPart,1,1
 mechdef_bombardier_BMB-S,MechPart,1,1
 mechdef_atlas_AS7-D3-X,MechPart,1,1
 mechdef_atlas_AS7-D3-S,MechPart,1,1
+mechdef_battlemaster_BLR-X1,MechPart,1,1
+mechdef_battlemaster_BLR-S1,MechPart,1,1
+mechdef_battlemaster_BLR-X2,MechPart,1,1
+mechdef_battlemaster_BLR-S2,MechPart,1,1
 mechdef_bigfoot_BFT-X1,MechPart,1,1
 mechdef_bigfoot_BFT-S1,MechPart,1,1
 mechdef_bigfoot_BFT-X2,MechPart,1,1

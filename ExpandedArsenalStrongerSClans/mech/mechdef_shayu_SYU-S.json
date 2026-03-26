@@ -25,7 +25,7 @@
     "Id": "mechdef_shayu_SYU-S",
     "Name": "Sha Yu",
     "Details": "A mech based on the Raven, this mech is designed to integrate stealth equipment to avoid detection and TAG lasers to improve damage done to targets. This variant mounts two ER Large Lasers and two ER Medium Lasers for good ranged damage.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_cicada"
+    "Icon": "uixTxrIcon_shayuredux"
   },
   "simGameMechPartCost": 2500000,
   "Version": 1,

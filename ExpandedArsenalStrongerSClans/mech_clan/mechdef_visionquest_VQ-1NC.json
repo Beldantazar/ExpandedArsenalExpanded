@@ -11,7 +11,7 @@
     "Id": "mechdef_visionquest_VQ-1NC",
     "Name": "Vision Quest",
     "Details": "The Vision Quest was created by Clan Nova Cat to honor the memory of Khan Sandra Rosse and the future she foresaw for both the Nova Cats and Kerensky's Clans as a whole. A solid workhorse design, the Vision Quest was built around a Kaumodaki Gauss rifle, two newly developed Clan spec SearFire ER Large Lasers and three Eclipser Medium Pulse Lasers. Two tons of gauss rounds and twelve double heat sinks give the design the ability to easily support an aggressive offensive or anchor a defensive line.",
-    "Icon": "uixTxrIcon_clint"
+    "Icon": "uixTxrIcon_visionquest"
   },
   "simGameMechPartCost": 610000,
   "Version": 1,

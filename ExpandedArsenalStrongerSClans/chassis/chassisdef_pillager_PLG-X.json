@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 23800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Pillager",
-    "Id": "chassisdef_pillager_PLG-X",
-    "Name": "Pillager",
-    "Details": "The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications. These design parameters were paramount as the SLDF mobilized to wage the Reunification War. Later Pillagers were upgraded with more cutting-edge Star League technology. Production of the Pillager halted not because its facility was destroyed, but the advanced Gauss rifle and XL engine production lines had been obliterated by the end of the Second Succession War. Curiously, HildCo did not restart production of the original PLG-1N, rather the Pillager lines only began production again in 3058 when advanced components were once again available for the PLG-3Z. The PLG-3Z Pillager is built using a lightweight Vlar 300 XL engine, which weighs half as much as a standard fusion engine and gives the Pillager a top speed of 54 km/h. The small mass of the engine allows the 'Mech to mount an obscene array of weapons. The 'Mech's mobility is enhanced with three HildCo Model 13 jump jets that allow it to jump up to ninety meters. The Pillager has excellent armor protection at nineteen and a half tons and has fourteen double heat sinks that provide more than enough heat dissipation capability for the Pillager's needs. The primary weapons on the Pillager were a pair of Poland Main Model A Gauss rifles, which allowed the Pillager to engage an enemy at up to six hundred and sixty meters. The Gauss rifles were supported at intermediate ranges by a Defiance B3L large laser. For close range combat, the Pillager had four Ceres Arms medium lasers that provided a devastating close range barrage.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_battlemaster"
-  },
+    "Description": {
+        "Cost": 23800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Pillager",
+        "Id": "chassisdef_pillager_PLG-X",
+        "Name": "Pillager",
+        "Details": "The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications. These design parameters were paramount as the SLDF mobilized to wage the Reunification War. Later Pillagers were upgraded with more cutting-edge Star League technology. Production of the Pillager halted not because its facility was destroyed, but the advanced Gauss rifle and XL engine production lines had been obliterated by the end of the Second Succession War. Curiously, HildCo did not restart production of the original PLG-1N, rather the Pillager lines only began production again in 3058 when advanced components were once again available for the PLG-3Z. The PLG-3Z Pillager is built using a lightweight Vlar 300 XL engine, which weighs half as much as a standard fusion engine and gives the Pillager a top speed of 54 km/h. The small mass of the engine allows the 'Mech to mount an obscene array of weapons. The 'Mech's mobility is enhanced with three HildCo Model 13 jump jets that allow it to jump up to ninety meters. The Pillager has excellent armor protection at nineteen and a half tons and has fourteen double heat sinks that provide more than enough heat dissipation capability for the Pillager's needs. The primary weapons on the Pillager were a pair of Poland Main Model A Gauss rifles, which allowed the Pillager to engage an enemy at up to six hundred and sixty meters. The Gauss rifles were supported at intermediate ranges by a Defiance B3L large laser. For close range combat, the Pillager had four Ceres Arms medium lasers that provided a devastating close range barrage.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_pillager"
+    },
   "MovementCapDefID": "movedef_pillager_PLG-3Z",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_pillager",

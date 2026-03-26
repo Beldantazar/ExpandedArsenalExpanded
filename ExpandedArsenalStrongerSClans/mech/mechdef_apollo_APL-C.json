@@ -9,13 +9,7 @@
       "unit_lance_assassin",
       "unit_role_brawler",
       "unit_release",
-      "NotDavion",
-      "NotLiao",
-      "NotMarik",
-      "NotSteiner",
       "NotKurita",
-      "NotMagistracyOfCanopus",
-      "NotTaurianConcordat",
       "unit_none",
       "unit_none_Davion",
       "unit_none_Liao",
@@ -68,7 +62,7 @@
     "Id": "mechdef_apollo_APL-C",
     "Name": "Apollo",
     "Details": "The Apollo-C is a complete ground up refit sold by Clan Sea Fox, after they managed to pick up a bunch of completely wrecked APL-1Ms for cheap. They rebuilt the mechs using XL engines and endo-steel chassis and then replaced the two LRM-15s with eight Clan-spec LRM-5s (4 in each torso). This weight savings combined with the other upgrades allowed installation of a Clan-spec medium pulse laser and ER medium laser behind hidden panels in each arm, while also allowing for 2 more tons of reloads to give mechwarriors plenty of alternate ammunition space. It even allowed for the engine to be upgraded to a 275 rating to improve the mech's speed to 86km/h. 'All these changes massively improved the Apollo-Cs ability to protect itself at short range, and made it extremely effective at luring raiders in with the apparent prospect of an undefended fire support mech, only to suprise them with a face full of LRMs that have no minimum range.",
-    "Icon": "uixTxrIcon_archer"
+    "Icon": "uixTxrIcon_hunchie"
   },
   "simGameMechPartCost": 660000,
   "Version": 1,

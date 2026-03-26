@@ -2776,6 +2776,10 @@
             "itemId": "Weapon_Thunderbolt_5",
             "itemType": "Weapon"
         },
+        "Gear_JumpJet_Ultra_Heavy_Vectored_Thrust_Kit": {
+            "itemId": "Gear_JumpJet_Ultra_Heavy_Vectored_Thrust_Kit",
+            "itemType": "JumpJet"
+        },
         "Gear_JumpJet_Super_Heavy_Vectored_Thrust_Kit": {
             "itemId": "Gear_JumpJet_Super_Heavy_Vectored_Thrust_Kit",
             "itemType": "JumpJet"
@@ -2790,6 +2794,10 @@
         },
         "Gear_PartialWingSystem_Generic_Standard85": {
             "itemId": "Gear_PartialWingSystem_Generic_Standard85",
+            "itemType": "JumpJet"
+        },
+        "Gear_PartialWingSystem_Generic_Standard95": {
+            "itemId": "Gear_PartialWingSystem_Generic_Standard95",
             "itemType": "JumpJet"
         },
         "Gear_PartialWing_Generic_Standard75": {

@@ -9,7 +9,7 @@
     "Id": "chassisdef_helios_HEL-4A",
     "Name": "Helios",
     "Details": "With a military that utilized expensive assault 'Mechs like the Emperor, Pillager, and Victor in large numbers, the St. Ives Compact had a distinct need to protect those investments. To do this, the St. Ives Compact worked with engineers at Ceres Metals Industries to design a 'Mech that could both protect and support its heavier charges. The Helios is also produced by Ceres Metals for use by ComStar due to the secular organization quietly financing an increase in the number of production lines for the 'Mech to four. A more energy weapon dependent version of the Helios spawned by the Combine trade deal, the 4A strips all of the 'Mech's weapons and adds two tons of armor. It has an ER PPC as its primary weapon backed up by two medium lasers and an MRM-20 launcher.",
-    "Icon": "uixTxrIcon_bloodasp"
+    "Icon": "uixTxrIcon_helios"
   },
   "MovementCapDefID": "movedef_helios_HEL-4A",
   "PathingCapDefID": "pathingdef_heavy",
@@ -23,7 +23,7 @@
   "Heatsinks": 30,
   "TopSpeed": 150,
   "TurnRadius": 90,
-  "MaxJumpjets": 5,
+  "MaxJumpjets": 4,
   "Stability": 160,
   "StabilityDefenses": [
     0,

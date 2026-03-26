@@ -23,7 +23,7 @@
     "Id": "mechdef_stag_ST-X3",
     "Name": "Stag",
     "Details": "The Stag was Clan Wolverine's redesign based on the Vulcan BattleMech. Khan Sarah McEvedy's orders led to the Stag, which transformed the venerable infantry-killer into a cavalry 'Mech that could also scout. As this design was pressed into service shortly after the conclusion of Operation KLONDIKE, it used Star League technology.<br>The Stag was built on an Endo Steel frame and powered by an XL engine. Ten tons of armor provided the 'Mech with the maximum possible protection. This apparently new variant mounts some unusual new ballistic and energy weapons giving it efficient performance as a long range sniper.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_vaporeagle"
+    "Icon": "uixTxrIcon_stag"
   },
   "simGameMechPartCost": 2500000,
   "Version": 1,

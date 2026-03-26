@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 14800000,
-    "Rarity": 5,
-    "Purchasable": false,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Onager",
-    "Id": "chassisdef_onager_ONG-90",
-    "Name": "Onager",
-    "Details": "The Onager is a Clan Jade Falcon assault BattleMech produced by Red Devil Industries on Pandora shortly after the end of the Jihad. Named after a medieval siege engine, the Onager's creation was ordered by Khan Samantha Clees as a replacement for Inner Sphere designs used in various garrison forces. The Onager's weaponry is designed more with close combat in mind than ranged fighting. To handle threats at long range, the 'Mech relies on its massive Class 30 hyper-assault Gauss rifle. The weapon has four tons of ammunition to give it ample time to cut down incoming enemies. At shorter ranges, the 'Mech is capable of bringing the rest of its firepower to bear. This arsenal includes a pair of Medium Pulse Lasers and two SRM-6 launchers. To clear infantry and other smaller targets, the 'Mech also has a pair of Micro Pulse Lasers and a Small Pulse Laser. The heat from its weapons is managed by 12 double heat sinks, though this is not entirely sufficient.",
-    "Icon": "uixTxrIcon_laohu"
-  },
+    "Description": {
+        "Cost": 14800000,
+        "Rarity": 5,
+        "Purchasable": false,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Onager",
+        "Id": "chassisdef_onager_ONG-90",
+        "Name": "Onager",
+        "Details": "The Onager is a Clan Jade Falcon assault BattleMech produced by Red Devil Industries on Pandora shortly after the end of the Jihad. Named after a medieval siege engine, the Onager's creation was ordered by Khan Samantha Clees as a replacement for Inner Sphere designs used in various garrison forces. The Onager's weaponry is designed more with close combat in mind than ranged fighting. To handle threats at long range, the 'Mech relies on its massive Class 30 hyper-assault Gauss rifle. The weapon has four tons of ammunition to give it ample time to cut down incoming enemies. At shorter ranges, the 'Mech is capable of bringing the rest of its firepower to bear. This arsenal includes a pair of Medium Pulse Lasers and two SRM-6 launchers. To clear infantry and other smaller targets, the 'Mech also has a pair of Micro Pulse Lasers and a Small Pulse Laser. The heat from its weapons is managed by 12 double heat sinks, though this is not entirely sufficient.",
+        "Icon": "uixTxrIcon_onager"
+    },
   "MovementCapDefID": "movedef_onanger_ONG-90",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_iononanger",

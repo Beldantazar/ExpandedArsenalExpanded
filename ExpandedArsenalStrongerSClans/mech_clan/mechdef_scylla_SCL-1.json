@@ -23,7 +23,7 @@
         "Id": "mechdef_scylla_SCL-1",
         "Name": "Scylla",
         "Details": "Following their ejection from the Inner Sphere, Clan Steel Viper used its invading Clan strength to expand its holdings within the Kerensky Cluster. Khan Perigard Zalman's controversial decision to allow freebirths into the Clan's touman bore fruit as the trueborn warriors could focus on expanding the Clan's territory. The problem the Vipers ran into was equipping these troops. Beginning in 3062, Clan Steel Viper replaced the electronics and weaponry of the Golden Century Storm Giant and rechristened it as the 'new' Scylla assault BattleMech, named after a sea monster from Greek mythology, Scylla. This 'upgraded' version kept the old engine that enabled it to move quickly for a 'Mech of its size.",
-        "Icon": "uixTxrIcon_kodiak"
+        "Icon": "uixTxrIcon_scylla"
     },
     "simGameMechPartCost": 4500000,
     "Version": 1,

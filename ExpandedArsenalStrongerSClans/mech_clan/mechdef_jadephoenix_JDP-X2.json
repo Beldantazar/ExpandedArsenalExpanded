@@ -24,7 +24,7 @@
     "Id": "mechdef_jadephoenix_JDP-X2",
     "Name": "Jade Phoenix",
     "Details": "The Jade Phoenix serves as a workhorse OmniMech within the Falcon touman. All configurations are fairly straightforward, with few surprises. This leads the Mech to be deployed in honest battles that rely on a Warrior's skills rather than shock tactics or deception. The fixed Partial Wing assembly and high speed give the Jade Phoenix unparalleled maneuverability, allowing the pilot to gain positions that are typically unreachable by assault Mechs. A juggernaut designed to fight in the middle of the battle, the A configuration mounts a large pulse laser, medium pulse laser and small pulse laser in the left arm, while a mammoth Class-20 Ultra autocannon occupies the right arm. Four tons of ammunition supplies the autocannon, while Improved Jump Jets allows the Jade Phoenix to reach close-combat ranges.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_nightstar"
+    "Icon": "uixTxrIcon_jadephoenix"
   },
   "simGameMechPartCost": 4500000,
   "Version": 1,

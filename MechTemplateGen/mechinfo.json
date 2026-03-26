@@ -2721,7 +2721,7 @@
         "icon": "uixTxrIcon_direwolf",
         "initialTonnage": null,
         "initialTonnageExtra": 6,
-        "Heatsinks": 54,
+        "Heatsinks": 66,
         "newMechVariant": true,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
@@ -2764,7 +2764,7 @@
         "icon": "uixTxrIcon_direwolf",
         "initialTonnage": null,
         "initialTonnageExtra": 6,
-        "Heatsinks": 54,
+        "Heatsinks": 66,
         "newMechVariant": true,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
@@ -2807,7 +2807,7 @@
         "icon": "uixTxrIcon_direwolf",
         "initialTonnage": null,
         "initialTonnageExtra": 6,
-        "Heatsinks": 54,
+        "Heatsinks": 66,
         "newMechVariant": true,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": false,
@@ -2850,7 +2850,7 @@
         "icon": "uixTxrIcon_direwolf",
         "initialTonnage": null,
         "initialTonnageExtra": 6,
-        "Heatsinks": 54,
+        "Heatsinks": 66,
         "newMechVariant": true,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": false,
@@ -2893,7 +2893,7 @@
         "icon": "uixTxrIcon_direwolf",
         "initialTonnage": null,
         "initialTonnageExtra": 6,
-        "Heatsinks": 54,
+        "Heatsinks": 66,
         "newMechVariant": true,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": false,
@@ -3515,6 +3515,62 @@
         },
         "details": "Also called the Atlas III, this mech is the latest generation of the long running line of battlemechs, and it is built with a combination of Inner Sphere and Clan technology. The D3 version includes an advanced ECM suite for protection from enemy threats along with the Atlas' traditional 19.5 tons of armor. The D2 variant adds a targeting computer but reduces the ecm suites sophistication to compensate. It also mounts a HAG 30 in place of the RAC/2.",
         "yangsThoughts": "It's still the same Atlas concept that has been a terror on the battlefields for the last three hundred years, just now with more advanced weaponry and better electronics. The increased accuracy from the targeting computer is nice, though I'm not sure if the reduction in electronics is worth it."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_battlemaster_BLR-1G.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_battlemaster_BLR-1G.json",
+        "newMechName": "BattleMaster",
+        "newMechDesignation": "BLR",
+        "newMechModelNumber": "3M",
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The 3M was a basic upgrade of the BattleMaster utilizing Star League technology. Introduced by Earthwerks Incorporated for the Free Worlds League in 3049, the 'Mech replaces the standard heat sinks with double heat sinks, upgrades its primary weapon to a Fusigon Longtooth ER PPC and removes one of the machine guns to add CASE to the design to protect itself in the event of an ammunition explosion.",
+        "yangsThoughts": "A nice upgrade to a classic mech, this setup has nicer range but no other major changes to its weapons loadout."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_battlemaster_BLR-1G.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_battlemaster_BLR-1G.json",
+        "newMechName": "BattleMaster",
+        "newMechDesignation": "BLR",
+        "newMechModelNumber": "C",
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "This variant was designed in 3070 by Clan Jade Falcon scientists following the capture of Red Devil Industries during the FedCom Civil War. This 'Mech is built on an Endo Steel chassis protected by sixteen and a half tons of armor. Based on the 4S, the Clan-tech variant replaces the gauss rifle with a Hyper-Assault Gauss Rifle 30 and four tons of ammunition. All the medium lasers are front facing, with four medium pulse lasers and two ER medium lasers. All of these weapons are guided by a Targeting Computer. The short-range missile launcher is replaced with an ATM 6 and three tons of ammunition to ensure the ability to make use of the flexibility offered by the Advanced Tactical Missile System.",
+        "yangsThoughts": "I always appreciate it when the Clan does my job for me of improving a mech to the limit."
     },
     {
         "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_battlemaster_BLR-1G.json",
@@ -7773,5 +7829,475 @@
         "useMountIdNaming": false,
         "details": "The Dillettante is a new super heavy chassis from the Federated Commonwealth, continuing their love of autocannons, it mounts two rotary autocannons, both class 5, backed up by some Clan-spec ER PPCs and Large Pulse Lasers. The P2 variant replaces the rotary autocannon 2s of the P1 variant with a clan sourced Hyper-Gauss Rifle for improved armor penetration. Since all of its weapons have fairly long range, the designers were able to support such heavy firepower by putting a very small 270 XL engine, making the mech behave somewhat more like a mobile turret than a unit that can actually give chase. Nevertheless, the sheer amount of firepower on the mech allows it to perform as an excellent anvil for more mobile lance mates to drive enemies onto.",
         "yangsThoughts": "This is like the old monkey's paw story, I wanted less explosive ammo and I got less explosive ammo, but now the GUNs can explode instead. I wouldn't go bringing this mech for any convoy escort or destruction missions either, as it's not gonna be able to catch them."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_hornet_HNT-151.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_hornet_HNT-151.json",
+        "newMechName": "Howler",
+        "newMechDesignation": "HWL",
+        "newMechModelNumber": "1",
+        "prefabName": "baboon",
+        "prefabId": "chrprfmech_baboonbase-001",
+        "hardpointData": "hardpointdatadef_baboon",
+        "icon": "uixTxrIcon_valiant",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "mechTonnage": 20,
+        "mechEngine": 140,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 4, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightparts" ]
+            }
+        },
+        "stockRole": "Light Scout and Trainer",
+        "details": "Although this simian-looking BattleMech was conceived as a Totem 'Mech for Clan Fire Mandrill, the Inner Sphere gave it the reporting name Baboon and saw it first in Jade Falcon second-line units. Since then it has proven to be much more widespread among Clan second-line forces and recon units. It is relatively fast for a 'Mech its size, topping out at 119 km/h. Its good speed and armament is made possible by the use of an endo steel structure and three tons of ferro-fibrous armor. The Howler is, essentially, a missile boat, very potent for its size. Meant to provide fire support to light garrison Stars, the 'Mech carries three LRM-5 launchers and three tons of ammunition. It is also used extensively as a training 'Mech.",
+        "yangsThoughts": "A decent fire support mech for the weight, but very easily killed if it doesn't keep moving. "
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_hornet_HNT-151.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_hornet_HNT-151.json",
+        "newMechName": "Howler",
+        "newMechDesignation": "HWL",
+        "newMechModelNumber": "2",
+        "prefabName": "baboon",
+        "prefabId": "chrprfmech_baboonbase-001",
+        "hardpointData": "hardpointdatadef_baboon",
+        "icon": "uixTxrIcon_valiant",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 20,
+        "mechEngine": 120,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 4, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightparts" ]
+            }
+        },
+        "stockRole": "Light Scout and Trainer",
+        "details": "Although this simian-looking BattleMech was conceived as a Totem 'Mech for Clan Fire Mandrill, the Inner Sphere gave it the reporting name Baboon and saw it first in Jade Falcon second-line units. Since then it has proven to be much more widespread among Clan second-line forces and recon units. It is relatively fast for a 'Mech its size, topping out at 119 km/h. Its good speed and armament is made possible by the use of an endo steel structure and three tons of ferro-fibrous armor. The Howler was redesigned by Clan Steel Viper scientists to improve their light second-line units after the Clan was expelled from the Inner Sphere by Clan Jade Falcon. A smaller extralight engine provides the space for four ATM-3s along with two tons of ammunition. Though the 'Mech's running speed is reduced, it uses MASC to accelerate to 130 km/h in short bursts.",
+        "yangsThoughts": "This thing has significantly more firepower than the first form, and enough free tonnage to run a good loadout, just keep in mind it's still fragile."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_hornet_HNT-151.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_hornet_HNT-151.json",
+        "newMechName": "Howler",
+        "newMechDesignation": "HWL",
+        "newMechModelNumber": "5",
+        "prefabName": "baboon",
+        "prefabId": "chrprfmech_baboonbase-001",
+        "hardpointData": "hardpointdatadef_baboon",
+        "icon": "uixTxrIcon_valiant",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 20,
+        "mechEngine": 140,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 3, 0, 3, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightparts" ]
+            }
+        },
+        "stockRole": "Light Scout and Trainer",
+        "details": "Although this simian-looking BattleMech was conceived as a Totem 'Mech for Clan Fire Mandrill, the Inner Sphere gave it the reporting name Baboon and saw it first in Jade Falcon second-line units. Since then it has proven to be much more widespread among Clan second-line forces and recon units. It is relatively fast for a 'Mech its size, topping out at 119 km/h. Its good speed and armament is made possible by the use of an endo steel structure and three tons of ferro-fibrous armor. The standard Howler chassis has had its LRM-5s removed and replaced with six ER medium lasers, fitted in triple mounts in each side torso.",
+        "yangsThoughts": "Surprisingly good range and damage for direct fire here, but it overheats easily, so you're gonna need to disengage frequently to avoid issues with heat."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Bowman",
+        "newMechDesignation": "BWM",
+        "newMechModelNumber": "2",
+        "prefabName": "bowman",
+        "prefabId": "chrprfmech_bowmanbase-001",
+        "hardpointData": "hardpointdatadef_bowman",
+        "icon": "uixTxrIcon_bombard",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 350,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 2, 2 ]
+        },
+        "stockRole": "Heavy Fire Support",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Bowman started off production as a defensive artillery platform with a pair of Arrow IVs, however, general Clan dislike of indirect fire combat, and the lack of direct combat options on the original design resulted in several redesigns. This variant abandons any hope of the Bowman being an ArtilleryMech. Both artillery launchers are replaced with LRM-20s, the legs are equipped with anti infantry weaponry and 3 ER Medium Lasers, and an ER Large Laser give more direct fire options. More heat sinks are added to keep the heat in check.",
+        "yangsThoughts": "A nice fire support mech with decent direct fire, and plentry of armor and ecm let it brawl well given that Clan LRMs have no minimum range anyway."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Bowman",
+        "newMechDesignation": "BWM",
+        "newMechModelNumber": "3",
+        "prefabName": "bowman",
+        "prefabId": "chrprfmech_bowmanbase-001",
+        "hardpointData": "hardpointdatadef_bowman",
+        "icon": "uixTxrIcon_bombard",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 70,
+        "mechEngine": 350,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 2, 2 ]
+        },
+        "stockRole": "Heavy Fire Support Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Bowman started off production as a defensive artillery platform with a pair of Arrow IVs, however, general Clan dislike of indirect fire combat, and the lack of direct combat options on the original design resulted in several redesigns. Another of the direct fire designed variants, this one mounts a HAG 20 in the right arm, and and ATM 9 in the left torso to replace the LRM-20. Four ER Medium Lasers give it decent support for when the bins run dry.",
+        "yangsThoughts": "Mostly a brawler at this point, this mech only mounts one indirect fire weapon."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_huronw_HUR-WO-R4L.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_huronw_HUR-WO-R4L.json",
+        "newMechName": "Conjurer",
+        "newMechDesignation": "WVR-IIC",
+        "newMechModelNumber": "4",
+        "prefabName": "conjurer",
+        "prefabId": "chrprfmech_conjurerbase-001",
+        "hardpointData": "hardpointdatadef_conjurer",
+        "icon": "uixTxrIcon_hellhound",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 50,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Medium Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Conjurer, designated the Hellhound by the IS, is a medium to short range fighter. The mech is, for all intents and purposes, a Wolverine IIC however the Clans would not be willing to name a mech after Clan Wolverine, and so it was renamed. As a second line mech, most variants use a standard engine, but do mount an endo-steel chassis for reduced weight. This variant, however, also uses an extra-light engine to save as much weight as possible for weaponry. Mounting a quartet of heavy medium lasers, a medium pulse laser and twin Stream SRM-6s, this mech pushes the 14 double heatsinks well past their endurance. For anti-infantry work it also mounts two light machine guns.",
+        "yangsThoughts": "Jump capable, heavily armed and surprisingly well armored for its size, this is one of the mechs that really showcases just how good clan weaponry really is."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_huronw_HUR-WO-R4L.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_huronw_HUR-WO-R4L.json",
+        "newMechName": "Conjurer",
+        "newMechDesignation": "WVR-IIC",
+        "newMechModelNumber": "8",
+        "prefabName": "conjurer",
+        "prefabId": "chrprfmech_conjurerbase-001",
+        "hardpointData": "hardpointdatadef_conjurer",
+        "icon": "uixTxrIcon_hellhound",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 50,
+        "mechEngine": 250,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Medium Fire Support and Harasser",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Conjurer, designated the Hellhound by the IS, is a medium to short range fighter. The mech is, for all intents and purposes, a Wolverine IIC however the Clans would not be willing to name a mech after Clan Wolverine, and so it was renamed. As a second line mech, most variants use a standard engine, but do mount an endo-steel chassis for reduced weight. This variant, however, also uses an extra-light engine to save as much weight as possible for weaponry. A very late variant produced for the Wolf Empire, this version mounts a mix of clan-spec and Inner Sphere weaponry. It downgrades the engine to a 250-xl and uses the weight savings to mount a rotary AC/5, MASC, Clan Stream SRM-6 and two Clan medium pulse lasers.",
+        "yangsThoughts": "This variant is interesting, the big heavy RAC/5 is unusual to find on a mech this size, but gives it far more firepower than an AC20 without the short range."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Grizzly",
+        "newMechDesignation": "GRZ",
+        "newMechModelNumber": "1",
+        "prefabName": "grizzly",
+        "prefabId": "chrprfmech_grizzlybase-001",
+        "hardpointData": "hardpointdatadef_grizzly",
+        "icon": "uixTxrIcon_templar",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy All-Rounder",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Grizzly is a BattleMech that was developed by Clan Ghost Bear scientists in the thirtieth century. Unfortunately, the design excels at no one thing, so it never carved a niche in the Clan's touman. Thirteen tons of armor are mounted on an Endo Steel frame. Jump jets are mounted so that the Grizzly can leap up to 120 meters at a time. Aside from the 'jack of all trades, master of none moniker,' the Grizzly is also poorly engineered. Slagged armor tends to get stuck in joints and weapons, while the actuators are difficult to repair in their own right. Production ceased in 3013 and the remaining 'Mechs were relegated to green Provisional Garrison Clusters.  The Grizzly actually packs a solid long-range punch with a Omega 12-coil Gauss rifle and a Type X Short Bow LRM-10 Launcher. At closer ranges, a brace of pulse lasers provides accurate fire in the form of a Kolibri Delta Series Large Pulse Laser, Kolibri Delta Series Medium Pulse Laser, and a Chi Series Small Pulse Laser.",
+        "yangsThoughts": "If it weren't for the production quality issues, this mech would have been a solid design with good firepower at all ranges. However, the lack of focus in the firepower holds it back a bit."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Grizzly",
+        "newMechDesignation": "GRZ",
+        "newMechModelNumber": "1",
+        "prefabName": "grizzly",
+        "prefabId": "chrprfmech_grizzlybase-001",
+        "hardpointData": "hardpointdatadef_grizzly",
+        "icon": "uixTxrIcon_templar",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 4, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy All-Rounder",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Grizzly is a BattleMech that was developed by Clan Ghost Bear scientists in the thirtieth century. Unfortunately, the design excels at no one thing, so it never carved a niche in the Clan's touman. Thirteen tons of armor are mounted on an Endo Steel frame. Jump jets are mounted so that the Grizzly can leap up to 120 meters at a time. Aside from the 'jack of all trades, master of none moniker,' the Grizzly is also poorly engineered. Slagged armor tends to get stuck in joints and weapons, while the actuators are difficult to repair in their own right. Production ceased in 3013 and the remaining 'Mechs were relegated to green Provisional Garrison Clusters.  THis variant design refits the mech into a potent urban combat unit specialized in close range firepower, but with a decent amount of long range still preserved. It Keeps the Gauss rifle, but swaps from pulse lasers to an ER Large Laser and 6 ER Micros. Indirect firepower is provided by an ATM-9.",
+        "yangsThoughts": "The close range laser array really only works in urban environments, you might want to consider replacing it with an array of small pulse lasers if you want to get some more range."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Dark Crow",
+        "newMechDesignation": "DCR",
+        "newMechModelNumber": "1",
+        "prefabName": "darkcrow",
+        "prefabId": "chrprfmech_darkcrowbase-001",
+        "hardpointData": "hardpointdatadef_darkcrow",
+        "icon": "uixTxrIcon_blackjack",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "mechTonnage": 55,
+        "mechEngine": 330,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 2, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Dark Crow is a Clan Snow Raven second line BattleMech, which was produced only at its Inner Sphere facilities in the Outworlds Alliance after the Jihad. Named after a strange cave-dwelling bird found on the planet Dante, the 'Mech has proven to be a popular design among second line troops. The 'Mech's principal weaponry is its two Type 31 UAC/5s, each found in its rather unusual mid-torso arms. Augmenting the dual autocannons at closer ranges is a single Mk. 22 SRM-6 launcher found in the right torso. The 'Mech's left torso-mounted Series 6b ER large laser is generally utilized for long-range attacks and sniping. The Dark Crow has been fitted with 10 double heat sinks to handle its movement and weapons heat. Four tons of ammunition supply this 'Mech's autocannon pair, and a single ton of ammunition feeds its missile launcher system. An endo steel frame holds the 330-rated XL engine, both of which helping to free weight in order to mount the 'Mech's equipment. Protecting the Dark Crow's hull is eight tons of standard armor, which has been criticized for being thinner than that of most typical Medium 'Mechs of its size.",
+        "yangsThoughts": "A pretty good second line medium, but that armor is a bit thin for my tastes. I wonder if we could fit two rotary autocannons on in place of those ultras."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Shrike",
+        "newMechDesignation": "SRK",
+        "newMechModelNumber": "1",
+        "prefabName": "shrike",
+        "prefabId": "chrprfmech_shrikebase-001",
+        "hardpointData": "hardpointdatadef_shrike",
+        "icon": "uixTxrIcon_blackjack",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "mechTonnage": 55,
+        "mechEngine": 330,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 2, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "fixedEquipment": [
+            [],
+            [],
+            [ "Gear_PartialWingSystem_Generic_Standard85" ],
+            [],
+            [ "Gear_PartialWingSystem_Generic_Standard85" ],
+            [],
+            [],
+            []
+        ],
+        "eafixedEquipment": [
+            [],
+            [],
+            [ "Gear_PartialWingSystem_Generic_Standard85", "Gear_JumpJet_Super_Heavy_Vectored_Thrust_Kit" ],
+            [],
+            [ "Gear_PartialWingSystem_Generic_Standard85", "Gear_JumpJet_Super_Heavy_Vectored_Thrust_Kit" ],
+            [],
+            [],
+            []
+        ],
+        "details": "The Dark Crow is a Clan Snow Raven second line BattleMech, which was produced only at its Inner Sphere facilities in the Outworlds Alliance after the Jihad. Named after a strange cave-dwelling bird found on the planet Dante, the 'Mech has proven to be a popular design among second line troops. The 'Mech's principal weaponry is its two Type 31 UAC/5s, each found in its rather unusual mid-torso arms. Augmenting the dual autocannons at closer ranges is a single Mk. 22 SRM-6 launcher found in the right torso. The 'Mech's left torso-mounted Series 6b ER large laser is generally utilized for long-range attacks and sniping. The Dark Crow has been fitted with 10 double heat sinks to handle its movement and weapons heat. Four tons of ammunition supply this 'Mech's autocannon pair, and a single ton of ammunition feeds its missile launcher system. An endo steel frame holds the 330-rated XL engine, both of which helping to free weight in order to mount the 'Mech's equipment. Protecting the Dark Crow's hull is eight tons of standard armor, which has been criticized for being thinner than that of most typical Medium 'Mechs of its size.",
+        "yangsThoughts": "A pretty good second line medium, but that armor is a bit thin for my tastes. I wonder if we could fit two rotary autocannons on in place of those ultras."
     }
 ]

@@ -9,7 +9,7 @@
     "Id": "chassisdef_bruin_BRN-2",
     "Name": "Bruin",
     "Details": "The Bruin is a Clan Ghost Bear assault BattleMech which was produced at the Dominion's Bergan Industries factory on Alshain. Its conception was to help unify and bolster the Inner Sphere economy while continuing integration with Clan Ghost Bear. This variant introduced in 3083[4] was designed using lessons learned from the liberation of Terra from the Word of Blake. The Bruin 2 drops the Gauss Rifle and both Medium Lasers to mount 2 Large Pulse Lasers and 2 Ultra Class 5 Autocannons. Also added is a standard SRM 2 Launcher with inferno SRM missiles as ammunition. To augment the 'Mech's ability to handle infantry, it has been provided with Machine Guns.",
-    "Icon": "uixTxrIcon_champion"
+    "Icon": "uixTxrIcon_ionbruin"
   },
   "MovementCapDefID": "movedef_ionbruin_BRN-2",
   "PathingCapDefID": "pathingdef_assault",
@@ -23,7 +23,7 @@
   "Heatsinks": 30,
   "TopSpeed": 105,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [
     0,

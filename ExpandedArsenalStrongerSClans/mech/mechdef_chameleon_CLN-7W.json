@@ -11,9 +11,6 @@
       "unit_role_brawler",
       "unit_release",
       "Davion",
-      "NotMarik",
-      "NotSteiner",
-      "NotMagistracyOfCanopus",
       "unit_very_rare",
       "unit_uncommon_Davion",
       "unit_very_rare_Liao",
@@ -66,7 +63,7 @@
     "Id": "mechdef_chameleon_CLN-7W",
     "Name": "Chameleon",
     "Details": "The Chameleon was designed to help a new MechWarrior master the skills of maneuvering and heat management, with a top speed of 97.2 km/h and a jumping distance of 180 meters. The 'Mech also had an almost all-energy-weapon loadout, but was cooled by only 10 single heat sinks; this paucity of freezers forces MechWarriors to concentrate on the 'Mech's heat levels. In some instances, the Chameleon had been forced into combat situations, notably during the Dragoon Civil War and the World of Blake's conquest of Terra. The 7W variant of the Chameleon looked to use the 'Mech in a full-time combat role. The 'Mech upgraded the large laser to an ER large laser. Additionally, the machine guns and small lasers were removed and replaced with a medium pulse laser and double heat sinks. J.B. BattleMechs allowed pilots to turn off the heat management software for battlefield flexibility.",
-    "Icon": "uixTxrIcon_firestarter"
+    "Icon": "uixTxrIcon_chameleon"
   },
   "simGameMechPartCost": 480000,
   "Version": 1,

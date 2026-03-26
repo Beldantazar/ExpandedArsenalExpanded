@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 23800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Iron Cheetah",
-    "Id": "chassisdef_ironcheetah_ICH-B",
-    "Name": "Iron Cheetah",
-    "Details": "Designed to improve upon the Dire Wolf, the Iron Cheetah mounts a 400-rated XL engine. This enables to the 'Mech to reach speeds of 64 km/h. While designers feared the increased engine mass would excessively reduce the 'Mech's payload, the increased cooling efficiency meant little impact to the 'Mech's practical punch. Both Endo Steel and ferro-fibrous armor were used to save additional weight. Mounting paired Large Pulse Lasers and six Medium Pulse Lasers, the B-configuration is capable of highly accurate fire even while utilizing its four Jump Jets to seek cover and firing positions. A Targeting Computer provides additional firing assistance.",
-    "Icon": "uixTxrIcon_direwolf"
-  },
+    "Description": {
+        "Cost": 23800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Iron Cheetah",
+        "Id": "chassisdef_ironcheetah_ICH-B",
+        "Name": "Iron Cheetah",
+        "Details": "Designed to improve upon the Dire Wolf, the Iron Cheetah mounts a 400-rated XL engine. This enables to the 'Mech to reach speeds of 64 km/h. While designers feared the increased engine mass would excessively reduce the 'Mech's payload, the increased cooling efficiency meant little impact to the 'Mech's practical punch. Both Endo Steel and ferro-fibrous armor were used to save additional weight. Mounting paired Large Pulse Lasers and six Medium Pulse Lasers, the B-configuration is capable of highly accurate fire even while utilizing its four Jump Jets to seek cover and firing positions. A Targeting Computer provides additional firing assistance.",
+        "Icon": "uixTxrIcon_ironcheetah"
+    },
   "MovementCapDefID": "movedef_ironcheetah_ICH-B",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_ironcheetah",
@@ -20,10 +20,10 @@
   "InitialTonnage": 44.5,
   "weightClass": "ASSAULT",
   "BattleValue": 23581000,
-  "Heatsinks": 54,
+  "Heatsinks": 66,
   "TopSpeed": 60,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [
     0,

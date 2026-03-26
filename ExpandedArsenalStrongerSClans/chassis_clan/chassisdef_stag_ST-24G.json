@@ -9,7 +9,7 @@
     "Id": "chassisdef_stag_ST-24G",
     "Name": "Stag",
     "Details": "The Stag was Clan Wolverine's redesign based on the Vulcan BattleMech. Khan Sarah McEvedy's orders led to the Stag, which transformed the venerable infantry-killer into a cavalry 'Mech that could also scout. As this design was pressed into service shortly after the conclusion of Operation KLONDIKE, it used Star League technology.<br>The Stag was built on an Endo Steel frame and powered by an XL engine. Ten tons of armor provided the 'Mech with the maximum possible protection. The so-called Stag II incorporated a prototype version of the ER PPC that was roughly comparable to the Clan version of the weapon, though it was slightly less destructive. This upgrade of the large laser necessitated removal of the MASC, though the top speed was upgraded to 119 km/h. Additionally, ferro-fibrous weave was incorporated into the armor, though at an overall decrease in protection. The SRMs were removed in favor of a third medium laser, two Medium Pulse Lasers, and two Small Lasers.",
-    "Icon": "uixTxrIcon_vaporeagle"
+    "Icon": "uixTxrIcon_stag"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_stag_ST-24G",
@@ -24,7 +24,7 @@
   "Heatsinks": 30,
   "TopSpeed": 85,
   "TurnRadius": 90,
-  "MaxJumpjets": 6,
+  "MaxJumpjets": 7,
   "Stability": 130,
   "StabilityDefenses": [
     0,

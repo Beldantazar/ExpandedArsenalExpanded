@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 23800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Iron Cheetah",
-    "Id": "chassisdef_ironcheetah_ICH-A",
-    "Name": "Iron Cheetah",
-    "Details": "Designed to improve upon the Dire Wolf, the Iron Cheetah mounts a 400-rated XL engine. This enables to the 'Mech to reach speeds of 64 km/h. While designers feared the increased engine mass would excessively reduce the 'Mech's payload, the increased cooling efficiency meant little impact to the 'Mech's practical punch. Both Endo Steel and ferro-fibrous armor were used to save additional weight. A close-in brawler, the A's primary weapon is a massive Ultra AC/20 mounted in the right arm. Double Streak SRM 6 racks and multiple Machine Guns support the main weapon. A pair of Large Pulse Lasers provide accurate long-range fire. Finally, a single Active Probe helps prevent ambushes.",
-    "Icon": "uixTxrIcon_direwolf"
-  },
+    "Description": {
+        "Cost": 23800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Iron Cheetah",
+        "Id": "chassisdef_ironcheetah_ICH-A",
+        "Name": "Iron Cheetah",
+        "Details": "Designed to improve upon the Dire Wolf, the Iron Cheetah mounts a 400-rated XL engine. This enables to the 'Mech to reach speeds of 64 km/h. While designers feared the increased engine mass would excessively reduce the 'Mech's payload, the increased cooling efficiency meant little impact to the 'Mech's practical punch. Both Endo Steel and ferro-fibrous armor were used to save additional weight. A close-in brawler, the A's primary weapon is a massive Ultra AC/20 mounted in the right arm. Double Streak SRM 6 racks and multiple Machine Guns support the main weapon. A pair of Large Pulse Lasers provide accurate long-range fire. Finally, a single Active Probe helps prevent ambushes.",
+        "Icon": "uixTxrIcon_ironcheetah"
+    },
   "MovementCapDefID": "movedef_ironcheetah_ICH-A",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_ironcheetah",
@@ -20,10 +20,10 @@
   "InitialTonnage": 44.5,
   "weightClass": "ASSAULT",
   "BattleValue": 23581000,
-  "Heatsinks": 54,
+  "Heatsinks": 66,
   "TopSpeed": 60,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [
     0,

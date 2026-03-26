@@ -73,12 +73,16 @@ namespace MechTemplateGen
         public string[][] fixedEquipment;
         [JsonProperty("eaFixedEquipment")]
         public string[][] eaFixedEquipment;
+        [JsonProperty("eaSFixedEquipment")]
+        public string[][] eaSFixedEquipment;
         [JsonProperty("efFixedEquipment")]
         public string[][] efFixedEquipment;
         [JsonProperty("equipment")]
         public string[][] equipment;
-        [JsonProperty("eaEquipment")]
-        public string[][] eaEquipment;
+        [JsonProperty("eaSEquipment")]
+        public string[][] eaSEquipment;
+        [JsonProperty("eaXEquipment")]
+        public string[][] eaXEquipment;
         [JsonProperty("efEquipment")]
         public string[][] efEquipment;
         [JsonProperty("Heatsinks")]

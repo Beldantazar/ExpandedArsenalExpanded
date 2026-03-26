@@ -9,7 +9,7 @@
     "Id": "chassisdef_apollo_APL-X1",
     "Name": "Apollo",
     "Details": "The Apollo is designed to be a long range fire support BattleMech. Armed with massive missile launchers which can rain destruction down on an enemy, the Apollo shouldn't have to worry about its less than average speed if it is employed correctly. The 3T variant of the Apollo is a major modification. The 'Mech downgrades its LRM-15 launchers to a pair of LRM-10 launchers with Artemis IV fire control systems, but upgrades its close range weaponry to two medium pulse lasers and two medium lasers.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_archer"
+    "Icon": "uixTxrIcon_hunchie"
   },
   "MovementCapDefID": "movedef_hunchie_APL-3T",
   "PathingCapDefID": "pathingdef_medium",
@@ -23,7 +23,7 @@
   "Heatsinks": 30,
   "TopSpeed": 80,
   "TurnRadius": 90,
-  "MaxJumpjets": 0,
+  "MaxJumpjets": 4,
   "Stability": 130,
   "StabilityDefenses": [
     0,

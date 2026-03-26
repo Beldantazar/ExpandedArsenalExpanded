@@ -9,7 +9,7 @@
     "Id": "chassisdef_vanquisher_VQR-2A",
     "Name": "Vanquisher",
     "Details": "Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree. The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request. Intended to stay back and let faster units spot for it using the C3i system, the Vanquisher carries a pair of Corean Light Gauss Rifles backed up by two Diverse Optics Sunbeam ER Large Lasers, giving the Vanquisher almost unparalleled reach on the battlefield. For close combat, the 'Mech has three Diverse Optics Type ER Medium Lasers, which are usually enough to dissuade most lighter 'Mechs.",
-    "Icon": "uixTxrIcon_catapultk2"
+    "Icon": "uixTxrIcon_vanquisher"
   },
   "MovementCapDefID": "movedef_vanquisher_VQR-2A",
   "PathingCapDefID": "pathingdef_assault",

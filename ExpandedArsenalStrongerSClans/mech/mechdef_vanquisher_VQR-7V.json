@@ -1,7 +1,6 @@
 {
   "MechTags": {
     "items": [
-      "elite_forces",
       "unit_mech_Advanced",
       "unit_mech",
       "unit_assault",
@@ -28,7 +27,7 @@
     "Id": "mechdef_vanquisher_VQR-7V",
     "Name": "Vanquisher",
     "Details": "Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree. The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request. The 7V variant uses a pair of Rotary AC/5s along with a set of two light PPCs and a Heavy PPC.",
-    "Icon": "uixTxrIcon_catapultk2"
+    "Icon": "uixTxrIcon_vanquisher"
   },
   "simGameMechPartCost": 2400000,
   "Version": 1,

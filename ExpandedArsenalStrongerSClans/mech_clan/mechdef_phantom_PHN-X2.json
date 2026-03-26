@@ -24,7 +24,7 @@
     "Id": "mechdef_phantom_PHN-X2",
     "Name": "Phantom",
     "Details": "Intended to push a medium reconnaissance 'Mech to the most extreme limits, the Phantom is built on a lightweight Type-A endo steel chassis and is propelled to a top speed of 151.2 km/h by a Light Force 360 XL extralight engine. The Phantom also boasts strong protection for its size with six tons of Composite A-2 ferro-fibrous armor. Capable of working as a long-range fire support 'Mech or very short-range brawler, the Phantom A is armed with a pair of LRM-5 launchers for long-range fire support capabilities. For close range combat, the 'Mech has five ER small lasers, one firing to the rear, and a single ER medium laser, making it a powerful medium 'Mech at any range.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_panther"
+    "Icon": "uixTxrIcon_ionphantom"
   },
   "simGameMechPartCost": 2500000,
   "Version": 1,

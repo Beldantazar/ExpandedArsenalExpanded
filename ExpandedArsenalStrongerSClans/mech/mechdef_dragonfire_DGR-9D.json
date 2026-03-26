@@ -24,7 +24,7 @@
     "Id": "mechdef_dragonfire_DGR-9D",
     "Name": "Dragon Fire",
     "Details": "Originally conceived of in the twenty-eighth century as a part of the same development project that birthed the Marauder, the Dragon Fire didn't initially make the transition from a design on paper to an actual production model. The discovery of the Gray Death Memory Core gave the Dragon Fire a new lease on life and the 'Mech first saw production in late 3058. This Dark Age era variant of the Dragon Fire was introduced by General Motors as a pocket assault. A downgraded Pitban 225 XL, endo-composite internals, and an XL gyro made room for a heavier arsenal. In addition to the Zeus Slingshot Gauss, it carries a Mydron Tornado rotary AC/5 and a range of ExoStar Pinnacle Clan-spec energy weapons: an ER PPC, an ER large laser, and two ER medium lasers.",
-    "Icon": "uixTxrIcon_k2pult"
+    "Icon": "uixTxrIcon_dragonfire"
   },
   "simGameMechPartCost": 3500000,
   "Version": 1,

@@ -10,7 +10,7 @@
     "Id": "chassisdef_anvil_ANV-X",
     "Name": "Anvil",
     "Details": "The Anvil was originally intended to act as a brawler BattleMech in its original design and testing phase. The Anvil carries a powerful short range arsenal. The primary weapons are a pair of Sutel Precision Line Large Pulse Lasers which provide powerful medium to long range firepower. The short range firepower is bolstered with a pair of Martell medium lasers.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_avatar"
+    "Icon": "uixTxrIcon_anvil"
   },
   "MovementCapDefID": "movedef_anvil_ANV-3M",
   "PathingCapDefID": "pathingdef_heavy",

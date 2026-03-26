@@ -23,7 +23,7 @@
     "Id": "mechdef_sentinel_STN-3L",
     "Name": "Sentinel",
     "Details": "The Sentinel is a medium BattleMech built by Defiance Industries as an infantry support and installation defense 'Mech, originally under exclusive contract for the Lyran Commonwealth. While initially pleased to have a then-Terran Hegemony controlled factory manufacturing the 'Mech exclusively for the LCAF, the Lyrans were less so when a Star League Council amendment in 2652 permitted the Star League Defense Force to purchase a highly advanced version of the design which Houses Steiner, Marik and Davion would not receive until years later. The Royal version of the Sentinel featured a significantly upgraded weapon loadout, mounting a Gauss rifle in place of the autocannon and a medium laser in place of the Streak SRM-2 rack, but retaining the small laser. To handle the weight of the Gauss rifle it was almost entirely rebuilt using an XL engine and endo steel structure, with seven and a half tons of ferro-fibrous plate enhancing its protection.",
-    "Icon": "uixTxrIcon_laohu"
+    "Icon": "uixTxrIcon_sentinel"
   },
   "simGameMechPartCost": 2500000,
   "Version": 1,

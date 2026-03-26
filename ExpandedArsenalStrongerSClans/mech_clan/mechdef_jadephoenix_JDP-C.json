@@ -23,7 +23,7 @@
     "Id": "mechdef_jadephoenix_JDP-C",
     "Name": "Jade Phoenix",
     "Details": "The Jade Phoenix serves as a workhorse OmniMech within the Falcon touman. All configurations are fairly straightforward, with few surprises. This leads the Mech to be deployed in honest battles that rely on a Warrior's skills rather than shock tactics or deception. The fixed Partial Wing assembly and high speed give the Jade Phoenix unparalleled maneuverability, allowing the pilot to gain positions that are typically unreachable by assault Mechs.The C-configuration is a mixed missile boat. Dual ATM 12s with six tons of ammunition offer flexibility, while two SRM 6s and two ER medium lasers add to the short range damage potential. The ubiquitous four jump jets are also present.",
-    "Icon": "uixTxrIcon_nightstar"
+    "Icon": "uixTxrIcon_jadephoenix"
   },
   "simGameMechPartCost": 4500000,
   "Version": 1,

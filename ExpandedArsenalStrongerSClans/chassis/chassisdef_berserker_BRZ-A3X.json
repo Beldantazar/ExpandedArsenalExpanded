@@ -1,16 +1,16 @@
 {
-  "Description": {
-    "Cost": 23800000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Berserker",
-    "Id": "chassisdef_berserker_BRZ-A3X",
-    "Name": "Berserker",
-    "Details": "A massive close in brawling mech, with a gigantic 400XL engine and a MASC system to allow it to reach a top speed of 86.4 km/h. It runs an arsenal of energy weapons for ranged operations while it gets in range for its massive 7 ton hatchet. For long range it uses an ER PPC then twin large pulse lasers for closer in work. It does mount a flamer in the head but more for the psychological effect than any actual combat use.",
-    "Icon": "uixTxrIcon_charger"
-  },
+    "Description": {
+        "Cost": 23800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Berserker",
+        "Id": "chassisdef_berserker_BRZ-A3X",
+        "Name": "Berserker",
+        "Details": "A massive close in brawling mech, with a gigantic 400XL engine and a MASC system to allow it to reach a top speed of 86.4 km/h. It runs an arsenal of energy weapons for ranged operations while it gets in range for its massive 7 ton hatchet. For long range it uses an ER PPC then twin large pulse lasers for closer in work. It does mount a flamer in the head but more for the psychological effect than any actual combat use.",
+        "Icon": "uixTxrIcon_berserker"
+    },
   "MovementCapDefID": "movedef_berserker_BRZ-A3",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_berserker",
@@ -23,7 +23,7 @@
   "Heatsinks": 30,
   "TopSpeed": 60,
   "TurnRadius": 90,
-  "MaxJumpjets": 3,
+  "MaxJumpjets": 4,
   "Stability": 200,
   "StabilityDefenses": [
     0,

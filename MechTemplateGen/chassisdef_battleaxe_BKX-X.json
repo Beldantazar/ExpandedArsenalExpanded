@@ -9,7 +9,7 @@
     "Id": "chassisdef_battleaxe_BKX-X",
     "Name": "BattleAxe",
     "Details": "The prototype of the BattleAxe originally appeared in 2459, and relied on the standard armament of the time: lasers and missiles. Over the next fifteen years, the speed was increased by a third and the mass of the cockpit and armor were reduced. In the late 2460s, unsure of the BattleAxe's maneuverability, the introduction of the WSP-1 Wasp inspired designers to mount experimental jump jets onto the upper legs, allowing it to vault over anything it could not run through. Unfortunately, MechWarriors had to go through training for the new jump jets and the landing process, as many died early on. The Federated Suns subsequently switched the Large Lasers in the arms for new Particle Projection Cannons. The BattleAxe only has nine tons of armor, which is comparatively light for a 'Mech of its size. Massive overheating problems, and the introduction of the Hammerhands, eventually ended the operational service of the BattleAxe. The last BattleAxes, considered ancient, were destroyed in a desperate defense of Robinson against conventionally equipped Combat Vehicle formations during the Second Succession War. Due to the uncertainty of the BattleAxe's jump jets, many MechWarriors had technicians remove the jump jets in favor of two more LRM-5 launchers, one on each side of the torso. It was labeled the 7NC because of its nickname 'No Crash'.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_warhammeriic"
+    "Icon": "uixTxrIcon_battleaxe"
   },
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_battleaxe_BKX-7NC",

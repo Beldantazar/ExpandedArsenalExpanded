@@ -9,13 +9,7 @@
       "unit_lance_assassin",
       "unit_role_brawler",
       "unit_release",
-      "NotDavion",
-      "NotLiao",
-      "NotMarik",
-      "NotSteiner",
       "NotKurita",
-      "NotMagistracyOfCanopus",
-      "NotTaurianConcordat",
       "unit_none",
       "unit_none_Davion",
       "unit_none_Liao",
@@ -68,7 +62,7 @@
     "Id": "mechdef_apollo_APL-1M",
     "Name": "Apollo",
     "Details": "The Apollo is designed to be a long range fire support BattleMech. Armed with massive missile launchers which can rain destruction down on an enemy, the Apollo shouldn't have to worry about its less than average speed if it is employed correctly. The Apollo uses a pair of Zeus LRM-15 launchers with Artemis IV fire control systems to give the 'Mech increased missile accuracy. These two launchers with their advanced fire control system can, on average, do almost as much damage as a pair of LRM-20 launchers. These are backed up for close combat by a pair of Sunglow Prism-Optic small pulse lasers which almost feel as if they were added to the 'Mech as an afterthought. Pilots should ensure they remain near bodyguards or on the edge of the battle, as the mounted 220-rated engine gives it a top speed of only 64.8 km/h. 11.5 tons of standard armor give it some survivability should the Apollo take return fire or be engaged by closer foes.",
-    "Icon": "uixTxrIcon_archer"
+    "Icon": "uixTxrIcon_hunchie"
   },
   "simGameMechPartCost": 660000,
   "Version": 1,
