@@ -1,0 +1,68 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaserER",
+    "MinRange": 0,
+    "MaxRange": 690,
+    "RangeSplit": [
+        350,
+        510,
+        690
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 72,
+    "Damage": 166,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -1,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "CanExplode": true,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserER_Large",
+    "Description": {
+        "Cost": 3821500,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": "RISC",
+        "Model": "Hyper L Laser",
+        "UIName": "RISC Hyper L Laser + +",
+        "Id": "Weapon_Laser_Hyper_Laser_CLAN_2",
+        "Name": "RISC Hyper L Laser + +",
+        "Details": "This monster of a weapon is the production-grade output of the RISC's Hyper Laser research. It pushes the power output of Heavy Lasers even further, allowing it to do enormous damage with an extremely long range, but a massive heat output to match. The amount of power running through the weapon means that it is able to explode if struck with sufficient force by enemy weapons fire.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "+66 dmg",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 4,
+    "Tonnage": 8,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_long",
+            "component_type_variant",
+            "component_type_variant2"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

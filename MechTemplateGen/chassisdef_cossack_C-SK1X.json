@@ -1,0 +1,194 @@
+{
+  "Description": {
+    "Cost": 1800000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Cossack",
+    "Id": "chassisdef_cossack_C-SK1X",
+    "Name": "Cossack",
+    "Details": "The Cossack is named after the mercenary unit Khorsakov's Cossacks in honor of their faithful service to the St. Ives Compact. The Cossack is a practice in compromise, originally requested as the fastest 'Mech that Ceres Metals Industries could produce, the emphasis of the design changed throughout its development to a slow moving, heavily armored light 'Mech. The final design that was accepted became the current incarnation of the Cossack, built on a weight saving Taijian Series X endo steel chassis, and mounting a lightweight Hermes 120 XL engine that gives the 'Mech a top speed of 97.2 km/h. Six Pitban LFT-65 jump jets allow the Cossack to jump up to 180 meters, allowing the 'Mech to easily handle the roughest terrain. For protection, the Cossack has three tons of armor and has 10 single heat sinks to handle the heat produced by the weapons payload carried by the 'Mech. Overall, the compromises that created the Cossack turned it into a light trooper 'Mech that works well as part of a team, but alone excels at no one role. The primary weapons on the Cossack are a Kajuka Type 2 'Bright Blossom' medium laser and a MilDouglas 'Duke' SRM-6. These are backed up by a pair of Jackson Model 12 small lasers. While this is not an impressive arsenal, the Cossack is capable of defending itself from most light 'Mechs and vehicles.",
+    "Icon": "uixTxrIcon_cossack"
+  },
+  "MovementCapDefID": "movedef_cossack_C-SK1",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_cossack",
+  "PrefabIdentifier": "chrprfmech_cossackbase-001",
+  "PrefabBase": "cossack",
+  "Tonnage": 20,
+  "InitialTonnage": 8.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 1642000,
+  "Heatsinks": 30,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 15,
+  "MeleeInstability": 20,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 25,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 25,
+  "DFAInstability": 25,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0
+    }
+  ],
+  "VariantName": "C-SK1X",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Skirmisher and Scout",
+  "YangsThoughts": "An interesting compromise mech, it's not the strongest thing, but for a 20 ton 'Mech you can't really expect too much, and this thing performs better than many things in this weight class."
+}

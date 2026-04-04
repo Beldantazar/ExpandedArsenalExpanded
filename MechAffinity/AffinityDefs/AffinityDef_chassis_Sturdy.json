@@ -17,7 +17,9 @@
         "chrprfmech_anvilbase-001_60",
         "chrprfmech_ionsunderbase-001_90",
         "chrprfmech_bellerophonbase-001_60",
-        "chrprfmech_osirisbase-001_30"
+        "chrprfmech_osirisbase-001_30",
+        "chrprfmech_lelialbatrossbase-001_95",
+        "chrprfmech_ymirbase-001_90"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

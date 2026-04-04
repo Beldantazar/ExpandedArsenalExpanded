@@ -1,0 +1,223 @@
+{
+  "Description": {
+    "Cost": 14800000,
+    "Rarity": 5,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Ymir",
+    "Id": "chassisdef_ymir_BWP-3A",
+    "Name": "Ymir",
+    "Details": "The Ymir was the Lyran Commonwealth's first homegrown BattleMech. The first primitive machines, then known as the Bipedal Weapons Platform, saw action in 2462. Named for the frost giants of Scandinavian mythology, the Ymir was developed by Coventry Defense Conglomerate by taking the basic frame of the Mackie, shaving ten tons from it and then modifying it to form a sleeker design, that offered greater stability and the ability to maneuver more easily. CDC chose to further differentiate the Ymir from its predecessor by giving it a more angled appearance and distributing the weapons load more evenly. With a weapons load designed to enable it to switch between engaging at long range and short range, the BWP-1X Ymir was, on paper, a capable machine; however, it was no faster than the Mackie and its prototype heat dissipation system meant that it frequently ran hot. The Lyran High Command elected not to buy the BWP-X1, preferring to stick with the Mackie, but did offer enough support to CDC to enable them to build a handful of the earliest Ymir model as prototype testbeds, allowing CDC to continue development work. CDC struggled along until more advanced components enabled them to increase the 'Mech's top speed to 64 km/h and protect it with ten and a half tons of armor. Coventry eventually produced upgraded versions of the Ymir in 2475 (-2B) and 2478 (-2E). These variants of the Ymir remained in production well into the Star League era, halting in 2648. The 3A is an upgrade of the 2E Ymir using Star League technology and was developed in 2733. It downgraded the PPCs to standard Large Lasers even as double heat sinks were used. An Artemis IV Fire Control System was added to each missile launcher. The remaining tonnage went towards a medium laser and additional armor.",
+    "Icon": "uixTxrIcon_ymir"
+  },
+  "MovementCapDefID": "movedef_ymir_BWP-3A",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_ymir",
+  "PrefabIdentifier": "chrprfmech_ymirbase-001",
+  "PrefabBase": "ymir",
+  "Tonnage": 90,
+  "InitialTonnage": 49.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 9642000,
+  "Heatsinks": 30,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 115,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 115,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "BWP-3A",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Juggernaut & Heavy Cavalry",
+  "YangsThoughts": "Commander, where do you find these things, how do you consistently manage to find working examples of five hundred year old designs? The double heat sinks at least improve the heat management, but I'm not sure the Artemis is worth the downgraded PPCs."
+}

@@ -17,7 +17,9 @@
         "chrprfmech_bigfootbase-001_85",
         "chrprfmech_masonvikingbase-001_90",
         "chrprfmech_rakshasabase-001_75",
-        "chrprfmech_pulverizerbase-001_90"
+        "chrprfmech_pulverizerbase-001_90",
+        "chrprfmech_lelikoscheibase-001_65",
+        "chrprfmech_falconbase-001_30"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

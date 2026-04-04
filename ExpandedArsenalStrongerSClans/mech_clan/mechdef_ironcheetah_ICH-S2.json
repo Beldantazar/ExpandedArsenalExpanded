@@ -114,7 +114,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -122,7 +122,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -130,7 +130,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
@@ -138,23 +138,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 2,
-            "IsFixed": false,
-            "DamageLevel": "Functional",
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 3,
-            "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -162,7 +146,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightLeg",
@@ -170,7 +154,7 @@
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -178,7 +162,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
@@ -186,7 +170,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "Head",
@@ -194,7 +178,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -202,7 +186,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -210,7 +194,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -218,7 +202,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightLeg",
@@ -226,7 +210,31 @@
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_Hyper_Laser_CLAN_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         }
     ]
 }

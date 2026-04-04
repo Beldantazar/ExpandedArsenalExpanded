@@ -100,6 +100,10 @@
             "itemId": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
             "itemType": "HeatSink"
         },
+        "Gear_HeatSink_BuiltIn_Engine_Thermal_Management": {
+            "itemId": "Gear_HeatSink_BuiltIn_Engine_Thermal_Management",
+            "itemType": "HeatSink"
+        },
         "": {
             "itemId": "",
             "itemType": "Upgrade"
@@ -2788,17 +2792,21 @@
             "itemId": "Gear_JumpJet_Heavy_Vectored_Thrust_Kit",
             "itemType": "JumpJet"
         },
-        "Gear_PartialWingSystem_Generic_Standard35": {
-            "itemId": "Gear_PartialWingSystem_Generic_Standard35",
-            "itemType": "JumpJet"
+        "Gear_HeatSink_PartialWingSystem_Generic_Standard35": {
+            "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard35",
+            "itemType": "HeatSink"
         },
-        "Gear_PartialWingSystem_Generic_Standard85": {
-            "itemId": "Gear_PartialWingSystem_Generic_Standard85",
-            "itemType": "JumpJet"
+        "Gear_HeatSink_PartialWingSystem_Generic_Standard50": {
+            "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard50",
+            "itemType": "HeatSink"
         },
-        "Gear_PartialWingSystem_Generic_Standard95": {
-            "itemId": "Gear_PartialWingSystem_Generic_Standard95",
-            "itemType": "JumpJet"
+        "Gear_HeatSink_PartialWingSystem_Generic_Standard85": {
+            "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard85",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_PartialWingSystem_Generic_Standard95": {
+            "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard95",
+            "itemType": "HeatSink"
         },
         "Gear_PartialWing_Generic_Standard75": {
             "itemId": "Gear_PartialWing_Generic_Standard75",

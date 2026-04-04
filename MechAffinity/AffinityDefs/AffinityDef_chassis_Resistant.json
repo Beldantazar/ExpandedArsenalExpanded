@@ -24,7 +24,8 @@
         "chrprfmech_swdbase-001_40",
         "chrprfmech_genericsh7base-001_135",
         "chrprfmech_mackiebase-001_100",
-        "chrprfmech_merlinbase-001_60"
+        "chrprfmech_merlinbase-001_60",
+        "chrprfmech_hoplitebase-001_55"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

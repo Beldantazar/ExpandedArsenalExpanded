@@ -30,6 +30,10 @@
             "AddToDB": true
         },
         {
+            "Type": "HeatSinkDef",
+            "Path": "heatsinks"
+        },
+        {
             "Type": "ChassisDef",
             "Path": "chassis_clan",
             "AddToDB": true

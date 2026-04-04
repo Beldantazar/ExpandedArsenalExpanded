@@ -5,99 +5,7 @@ using Newtonsoft.Json.Linq;
 List<MechInfo>? mechInfo = JsonConvert.DeserializeObject<List<MechInfo>>(File.ReadAllText("mechinfo.json"));
 EngineWeightMapping weightMapping = JsonConvert.DeserializeObject<EngineWeightMapping>(File.ReadAllText("engineweightmapping.json"));
 
-ItemMapping itemMapping;
-
-string baseComponentTemplate = """
-     {{
-      "MountedLocation": "{2}",
-      "ComponentDefID": "{0}",
-      "ComponentDefType": "{1}",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-     }}
-     """;
-
-string baseEquipmentTemplate = """
-     {{
-      "MountedLocation": "{2}",
-      "ComponentDefID": "{0}",
-      "ComponentDefType": "{1}",
-      "HardpointSlot": 0,
-      "IsFixed": false,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-     }}
-     """;
-
-List<string> ignoreFiles = ["global.json", "lancedef_mech_dynamic_common.json", "milestone_010_skipPrologue.json", "pilot_fp_BH_Reaper.json", "pilot_fp_BW_LynnSheridan.json", "SimGameConstants.json", "CompanyTags.json"];
-try
-{
-    itemMapping = JsonConvert.DeserializeObject<ItemMapping>(File.ReadAllText("itemmapping.json"));
-} catch (Exception e)
-{
-    itemMapping = new ItemMapping()
-    {
-        entries = []
-    };
-    Console.WriteLine("Generating Item Mapping File");
-    foreach (var file in Directory.EnumerateFiles("..\\..\\BattleTech_Data\\StreamingAssets\\data", "*.json", SearchOption.AllDirectories) )
-    {
-        if (ignoreFiles.Contains(Path.GetFileName(file))) continue;
-        JToken jsonData;
-        try
-        {
-            jsonData = JToken.Parse(File.ReadAllText(file), new JsonLoadSettings());
-        } catch (Exception f)
-        {
-            Console.WriteLine(f.Message);
-            continue;
-        }
-        if (jsonData is JObject && jsonData["ComponentType"] != null)
-        {
-            itemMapping.entries[jsonData["Description"]["Id"].ToString()] = new ItemMappingEntry { itemId = jsonData["Description"]["Id"].ToString(), itemType = jsonData["ComponentType"].ToString() };
-        }
-    }
-    foreach (var file in Directory.EnumerateFiles("..\\", "*.json", SearchOption.AllDirectories))
-    {
-        if (ignoreFiles.Contains(Path.GetFileName(file))) continue;
-        JToken jsonData;
-        try
-        {
-            jsonData = JToken.Parse(File.ReadAllText(file), new JsonLoadSettings());
-        }
-        catch (Exception f)
-        {
-            Console.WriteLine(f.Message);
-            continue;
-        }
-        if (jsonData is JObject && jsonData["ComponentType"] != null)
-        {
-            itemMapping.entries[jsonData["Description"]["Id"].ToString()] = new ItemMappingEntry { itemId = jsonData["Description"]["Id"].ToString(), itemType = jsonData["ComponentType"].ToString() };
-        }
-    }
-    File.WriteAllText("itemmapping.json", JsonConvert.SerializeObject(itemMapping, Formatting.Indented));
-}
-
-JObject? generateComponentString(string componentId, string location)
-{
-    if (itemMapping.entries.ContainsKey(componentId))
-    {
-        var objectString = String.Format(baseComponentTemplate, itemMapping.entries[componentId].itemId, itemMapping.entries[componentId].itemType, location);
-        return JObject.Parse(objectString);
-    }
-    return null;
-}
-
-JObject? generateEquipmentString(string componentId, string location)
-{
-    if (itemMapping.entries.ContainsKey(componentId))
-    {
-        var objectString = String.Format(baseEquipmentTemplate, itemMapping.entries[componentId].itemId, itemMapping.entries[componentId].itemType, location);
-        return JObject.Parse(objectString);
-    }
-    return null;
-}
+UtilityDataBuilder.buildItemMappingData();
 
 void processFixedEquipment(JToken chassis, string[][] equipment)
 {
@@ -106,7 +14,7 @@ void processFixedEquipment(JToken chassis, string[][] equipment)
     {
         for (var j = 0; j < equipment[i].Length; j++)
         {
-            fixedEquipment.Add(generateComponentString(equipment[i][j], chassis["Locations"][i]["Location"].ToString()));
+            fixedEquipment.Add(UtilityDataBuilder.generateComponentString(equipment[i][j], chassis["Locations"][i]["Location"].ToString()));
         }
     }
     chassis["FixedEquipment"] = fixedEquipment;
@@ -156,7 +64,7 @@ void processEquipment(JToken mech, string[][] equipment)
     {
         for (var j = 0; j < equipment[i].Length; j++)
         {
-            Equipment.Add(generateEquipmentString(equipment[i][j], mech["Locations"][i]["Location"].ToString()));
+            Equipment.Add(UtilityDataBuilder.generateEquipmentString(equipment[i][j], mech["Locations"][i]["Location"].ToString()));
         }
     }
     mech["Inventory"] = Equipment;
@@ -219,7 +127,7 @@ void processMechInfo(MechInfo info)
                 chassisWeightMultiplier = 0.75M;
                 break;
         }
-        chassisTonnage = Math.Round(chassisTonnage * chassisWeightMultiplier * 2, 0, MidpointRounding.AwayFromZero) / 2.0M;
+        chassisTonnage = MathHelper.CeilingToNearest(chassisTonnage * chassisWeightMultiplier, 0.5m);
         var engineTonnageMapping = weightMapping.entries[info.mechEngine.ToString()];
         var engineTonnage = (info.xlEngine ?? false) ? engineTonnageMapping.xlWeight : engineTonnageMapping.weight;
         var gyroWeight = Decimal.Parse(engineTonnageMapping.gyroWeight ?? "0.0");

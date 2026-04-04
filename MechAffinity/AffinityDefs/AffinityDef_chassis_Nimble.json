@@ -22,7 +22,9 @@
         "chrprfmech_kyudobase-001_45",
         "chrprfmech_lelimerc2base-001_40",
         "chrprfmech_chargerhotd-001_80",
-        "chrprfmech_clintbase-001_40"
+        "chrprfmech_clintbase-001_40",
+        "chrprfmech_shrikebase-001_95",
+        "chrprfmech_wraithbase-001_55"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

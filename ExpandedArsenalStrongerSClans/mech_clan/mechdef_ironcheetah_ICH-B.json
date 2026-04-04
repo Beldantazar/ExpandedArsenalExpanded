@@ -112,7 +112,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -120,7 +120,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
@@ -128,7 +128,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
@@ -136,7 +136,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
@@ -144,7 +144,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 3,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -152,7 +152,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -160,7 +160,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -168,7 +168,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 3,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
@@ -176,7 +176,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -184,7 +184,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightLeg",
@@ -192,7 +192,7 @@
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftLeg",
@@ -200,15 +200,39 @@
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_JumpJet_Advanced_Assault",
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
             "ComponentDefType": "JumpJet",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Assault",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-I",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         }
     ]
 }

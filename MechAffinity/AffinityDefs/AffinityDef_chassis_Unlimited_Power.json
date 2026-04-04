@@ -22,7 +22,10 @@
         "chrprfmech_pillagerbase-001_100",
         "chrprfmech_hyperionbase-001_125",
         "chrprfmech_genericsh5base-001_150",
-        "chrprfmech_emperorbase-001_90"
+        "chrprfmech_emperorbase-001_90",
+        "chrprfmech_raptorbase-001_25",
+        "chrprfmech_crkbase-001_85",
+        "chrprfmech_lynxbase-001_55"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

@@ -1,0 +1,86 @@
+{
+    "DissipationCapacity": 12,
+    "Description": {
+        "Cost": 720000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "Generic",
+        "Model": "Partial Wing System",
+        "UIName": "Partial Wing System (50T, Split)",
+        "Id": "Gear_HeatSink_PartialWingSystem_Generic_Standard50",
+        "Name": "Partial Wing System",
+        "Details": "The partial wing system offers increased jump distance and maneuverability as well as additional heat dissipation. For 50T 'Mechs.",
+        "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+    },
+    "BonusValueA": "+ 10% Jump Jet Dist.",
+    "BonusValueB": "",
+    "ComponentType": "HeatSink",
+    "ComponentSubType": "Heatsink",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 3,
+    "Tonnage": 1.75,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": -1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Jump_Distance-T3",
+                "Name": "JUMP DISTANCE INCREASED",
+                "Details": "The Partial Wing System increases Jump Jet jump distance by 10%",
+                "Icon": "uixSvgIcon_equipment_Gyro"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "JumpDistanceMultiplier",
+                "operation": "Float_Multiply",
+                "modValue": "1.1",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "NotSet",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "NotSet",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "BUILTIN",
+            "BLACKLISTED"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

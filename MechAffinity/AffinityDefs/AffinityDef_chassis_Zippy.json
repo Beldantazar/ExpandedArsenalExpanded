@@ -25,7 +25,8 @@
         "chrprfmech_blitzkriegbase-001_50",
         "chrprfmech_icarusiibase-001_40",
         "chrprfmech_locustiicbase-001_25",
-        "chrprfmech_hornetbase-001_20"
+        "chrprfmech_hornetbase-001_20",
+        "chrprfmech_baboonbase-001_20"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

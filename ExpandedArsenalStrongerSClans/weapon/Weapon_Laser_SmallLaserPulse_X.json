@@ -1,0 +1,65 @@
+{
+    "Category": "AntiPersonnel",
+    "Type": "Laser",
+    "WeaponSubType": "SmallLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 150,
+    "RangeSplit": [
+        150,
+        150,
+        150
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 15,
+    "Damage": 40,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 1,
+    "ProjectilesPerShot": 5,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Small",
+    "Description": {
+        "Cost": 300000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Exostar",
+        "Model": "Small X-Pulse Laser",
+        "UIName": "S X-Pulse",
+        "Id": "Weapon_Laser_SmallLaserPulse_X",
+        "Name": "S X-Pulse",
+        "Details": "X-Pulse Lasers are an attempt by Federated Commonwealth technicians to increase the range of Pulse Lasers to compete with the longer ranges of standard models. X-Pulse lasers are not a new weapon per se, but an upgrade to Pulse Lasers that pushes extra energy through the system in order to extend the range.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 1,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

@@ -18,7 +18,11 @@
         "chrprfmech_penbase-001_75",
         "chrprfmech_iondoloirebase-001_80",
         "chrprfmech_woodsmanbase-001_75",
-        "chrprfmech_lamentbase-001_65"
+        "chrprfmech_lamentbase-001_65",
+        "chrprfmech_solitairebase-001_25",
+        "chrprfmech_tiburonbase-001_35",
+        "chrprfmech_komodobase-001_45",
+        "chrprfmech_mercurybase-001_20"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
