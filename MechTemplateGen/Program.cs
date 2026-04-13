@@ -413,16 +413,16 @@ void processMechInfo(MechInfo info)
             if (items != null)
             {
                 items.Add("elite_arsenal_s_tier");
-                if (info.mechTonnage <= 100)
+                var mechToken = items.FirstOrDefault(x => x.Value<string>() == "unit_mech");
+                var mechSuperToken = items.FirstOrDefault(x => x.Value<string>() == "unit_superheavy");
+                if ((info.mechTonnage != null && info.mechTonnage <= 100) || mechSuperToken == null)
                 {
                     items.Add("unit_mech_s_tier");
-                    var mechToken = items.FirstOrDefault(x => x.Value<string>() == "unit_mech");
                     items.Remove(mechToken);
                 } else 
                 {
                     items.Add("unit_superheavy_s_tier");
-                    var mechToken = items.FirstOrDefault(x => x.Value<string>() == "unit_superheavy");
-                    items.Remove(mechToken);
+                    items.Remove(mechSuperToken);
                 }
             }
             sTags["items"] = items;

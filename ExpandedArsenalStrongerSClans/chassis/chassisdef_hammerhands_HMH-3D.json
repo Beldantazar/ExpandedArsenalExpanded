@@ -67,6 +67,10 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -79,7 +83,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
@@ -106,7 +110,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
@@ -129,6 +133,10 @@
         },
         {
           "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],
@@ -207,5 +215,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Antique Heavy Battlemech",
-  "YangsThoughts": "Now this is a true classic mech, they don't design them like this anymore, although that's probably a good thing for pilot survivability. This variant strips out the SRM and jump jets for a PPC, more because the pilots were scared of the jump jets than any actual tactical reason."
+  "YangsThoughts": "Now this is a true classic mech, they don't design them like this anymore, although that's probably a good thing for pilot survivability. It's got two powerful autocannons, and some basic additional weapons, but I'd say it could really use updating to the latest ultra autocannons or rotary autocannons to get some proper damage. If you've got them, you could even put some clan gausses on there."
 }

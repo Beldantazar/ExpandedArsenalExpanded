@@ -24,7 +24,7 @@
     "Id": "mechdef_koschei_KSC-3IX",
     "Name": "Koschei",
     "Details": "The product of heavy government investment, the Koschei was the second BattleMech produced in the Capellan Confederation. Since the Confederation Defense Company was not interested in helping, Earthwerks and the Confederation invested in improving the infrastructure on Tikonov and recruiting local engineers. The first Koscheis were produced in 2504. Production of the 3I stopped in 2714 to make way for an improved variant. By the time of the Succession Wars there were few such 'Mechs on the battlefield. The primary weapon of the Koschei is an Imperator-B Autocannon/10. This low-heat weapon still has respectable range and firepower. It is backed up by Magna Mk II medium lasers. The standard allotment of heat sinks is almost thoroughly sufficient for the 'Mech.",
-    "Icon": "uixTxrIcon_koschei"
+    "Icon": "uixTxrIcon_lelikoschei"
   },
   "simGameMechPartCost": 3500000,
   "Version": 1,

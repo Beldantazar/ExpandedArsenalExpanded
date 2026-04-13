@@ -29,7 +29,7 @@
     "Instability": 6,
     "WeaponEffectID": "WeaponEffect-Weapon_PPC",
     "Description": {
-        "Cost": 135000,
+        "Cost": 270000,
         "Rarity": 3,
         "Purchasable": true,
         "Manufacturer": "Clantech",

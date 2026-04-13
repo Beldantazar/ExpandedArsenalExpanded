@@ -30,7 +30,7 @@
     "Instability": 40,
     "WeaponEffectID": "WeaponEffect-Weapon_PPC",
     "Description": {
-        "Cost": 5250000,
+        "Cost": 10500000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Experimental Clan Tech",

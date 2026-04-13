@@ -2,7 +2,6 @@
   "MinAppearanceDate": "3040-01-01T00:00:00Z",
   "MechTags": {
     "items": [
-      "unit_mech",
       "unit_heavy",
       "unit_jumpOK",
       "unit_range_medium",
@@ -49,7 +48,7 @@
       "unit_none_NoFaction",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

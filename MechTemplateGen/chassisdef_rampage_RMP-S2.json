@@ -1,0 +1,230 @@
+{
+  "Description": {
+    "Cost": 7873010,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Rampage",
+    "Id": "chassisdef_rampage_RMP-S2",
+    "Name": "Rampage",
+    "Details": "The Rampage was a BattleMech produced by the Rim Worlds Republic. The 'Mech was originally built and used as a standard line unit, but it was upgraded to a fast assault 'Mech in 2767, following Stefan Amaris' successful coup that installed him as the nominal leader of the Terran Hegemony. With the occupation of Star League R&D facilities, his Periphery nation was finally able to produce the SLDF's advanced weaponry. The Rampage's upgrade utilized Endo Steel and an XL engine to save weight. As engineers debated the best way to make the Rampage faster, they settled on installing the new MASC system, which accelerates the 85-ton 'Mech to 86 km/h in bursts. While its speed gives it a measure of protection, the design also sports a massive sixteen tons of PanzerSlab 9 armor. The primary weapon of the Rampage is the Lubalin LB 10-X AC. Two tons of ammunition allow it to switch between standard and cluster shots. It also has an array of lasers, namely the Tronel XIII Large Pulse Laser housed in its chest, and two Maxell DT medium lasers, one on each side of the pulse laser. In addition to the autocannon for long-range fire, the Rampage has an Artemis IV Fire Control System-guided Jackson Dart LRM-10 launcher with a single ton of ammo. To strengthen its short range firepower, three Marklin Mini Streak SRM-2 launchers are bundled together in the left torso with a ton of ammo to share between them. For defense against missiles, the Rampage mounted a Buzzsaw anti-missile system. Against infantry, a Zippo Mark X Anti-Personnel Flamer is installed; a popular piece of equipment for the Rim Worlds' civilian pacification efforts. Thirteen double heat sinks keeps heat levels in check.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_rampage"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_rampage_RMP-5G",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_rampage",
+  "PrefabIdentifier": "chrprfmech_rampagebase-001",
+  "PrefabBase": "rampage",
+  "Tonnage": 85,
+  "InitialTonnage": 25.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 3749000,
+  "Heatsinks": 45,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.2,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.2,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 105,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 105,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 270,
+      "MaxRearArmor": 135,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "RMP-S2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Assault Brawler",
+  "YangsThoughts": "This thing has a bad reputation for the attrocities it unleashed with its flamers during the civil war, but the actual design is solid."
+}

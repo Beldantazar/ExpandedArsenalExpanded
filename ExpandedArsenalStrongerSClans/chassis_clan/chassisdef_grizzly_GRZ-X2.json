@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_grizzly"
   },
   "FixedEquipment": [],
-  "MovementCapDefID": "movedef_grizzly_GRZ-1",
+  "MovementCapDefID": "movedef_grizzly_GRZ-2",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_grizzly",
   "PrefabIdentifier": "chrprfmech_grizzlybase-001",

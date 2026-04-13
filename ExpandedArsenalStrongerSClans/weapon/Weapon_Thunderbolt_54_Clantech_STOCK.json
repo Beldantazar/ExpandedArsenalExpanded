@@ -31,7 +31,7 @@
     "CanExplode": true,
     "WeaponEffectID": "WeaponEffect-Weapon_LRM20",
     "Description": {
-        "Cost": 13125000,
+        "Cost": 1312500,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Jade Falcon Scientists",

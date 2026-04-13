@@ -30,7 +30,7 @@
     "Instability": 50,
     "WeaponEffectID": "WeaponEffect-Weapon_PPC",
     "Description": {
-        "Cost": 5250000,
+        "Cost": 21000000,
         "Rarity": 2,
         "Purchasable": true,
         "Manufacturer": "Experimental",

@@ -1,22 +1,22 @@
 {
   "MechTags": {
     "items": [
-      "unit_release",
-      "unit_mech",
-      "unit_medium",
-      "unit_ready",
-      "unit_lance_support",
-      "unit_role_sniper",
-      "unit_range_short",
-      "unit_jumpOK",
-      "unit_hot",
-      "unit_armor_high",
-      "unit_speed_low",
-      "NotKurita",
-      "Liao",
-      "elite_arsenal",
-      "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+        "unit_release",
+        "unit_mech",
+        "unit_medium",
+        "unit_ready",
+        "unit_lance_support",
+        "unit_role_sniper",
+        "unit_range_short",
+        "unit_jumpOK",
+        "unit_hot",
+        "unit_armor_high",
+        "unit_speed_low",
+        "NotKurita",
+        "Liao",
+        "elite_arsenal",
+        "elite_arsenal_s_tier",
+        "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

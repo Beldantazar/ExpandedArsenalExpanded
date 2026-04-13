@@ -29,7 +29,7 @@
     "Instability": 0,
     "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Medium",
     "Description": {
-        "Cost": 12000000,
+        "Cost": 120000000,
         "Rarity": 5,
         "Purchasable": true,
         "Manufacturer": "Clan Tech",

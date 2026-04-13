@@ -14,7 +14,7 @@
   "FixedEquipment": [],
   "MovementCapDefID": "movedef_swd_STC-2D",
   "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_swdmech",
+  "HardpointDataDefID": "hardpointdatadef_swd",
   "PrefabIdentifier": "chrprfmech_swdbase-001",
   "PrefabBase": "swd",
   "Tonnage": 40,

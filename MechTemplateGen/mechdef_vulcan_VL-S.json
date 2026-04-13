@@ -258,7 +258,6 @@
   ],
   "MechTags": {
     "items": [
-      "unit_mech",
       "unit_medium",
       "unit_jumpOK",
       "unit_range_medium",
@@ -306,7 +305,7 @@
       "unit_very_rare_NoFaction",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

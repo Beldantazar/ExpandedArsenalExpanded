@@ -2,7 +2,6 @@
   "MechTags": {
     "items": [
       "unit_release",
-      "unit_mech",
       "unit_medium",
       "unit_lance_tank",
       "unit_role_sniper",
@@ -10,7 +9,7 @@
       "unit_jumpOK",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

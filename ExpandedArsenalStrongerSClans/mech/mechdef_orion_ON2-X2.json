@@ -1,0 +1,223 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_heavy",
+            "unit_release",
+            "unit_mech",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_range_medium",
+            "unit_indirectFire",
+            "unit_hot",
+            "unit_armor_high",
+            "unit_speed_low",
+            "Marik",
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_orion_ON2-X2",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 8880000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Orion ON2-X2",
+        "Id": "mechdef_orion_ON2-X2",
+        "Name": "Orion",
+        "Details": "The 2K is another upgrade of the Orion using Star League technology. Released at the same time as the cheaper (and more popular) 2M variant the 'Mech uses an Endo Steel chassis and an XL engine to allow for even more saved weight for weaponry. For long-range combat, the ON2-K is armed with a Gauss rifle as well as an LRM-15 linked to an Artemis IV FCS for increased accuracy. For closer ranges, the 'Mech has a blistering array of five medium pulse lasers. Fourteen double heat sinks are needed to keep the heat fully undercontrol, but this required using Standard armor instead of Ferro-Fibrous to save space.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_orion"
+    },
+    "simGameMechPartCost": 890000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 55,
+            "CurrentInternalStructure": 115,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 55
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_BinaryLaserCannon_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_BinaryLaserCannon_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MML-9_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Kite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

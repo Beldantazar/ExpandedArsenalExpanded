@@ -23,7 +23,7 @@
     "Id": "mechdef_koschei_KSC-4L",
     "Name": "Koschei",
     "Details": "The product of heavy government investment, the Koschei was the second BattleMech produced in the Capellan Confederation. Since the Confederation Defense Company was not interested in helping, Earthwerks and the Confederation invested in improving the infrastructure on Tikonov and recruiting local engineers. The first Koscheis were produced in 2504. Production of the 3I stopped in 2714 to make way for an improved variant. By the time of the Succession Wars there were few such 'Mechs on the battlefield. An upgraded version of the 3L, the 4L utilizes an Endo Steel structure and enhances the accuracy of the missile launcher with an Artemis IV Fire Control System. The remaining weight savings goes to upgrading the lasers to a Large and Medium Pulse Laser, respectively, while double heat sinks counter the increased heat.",
-    "Icon": "uixTxrIcon_koschei"
+    "Icon": "uixTxrIcon_lelikoschei"
   },
   "simGameMechPartCost": 3500000,
   "Version": 1,

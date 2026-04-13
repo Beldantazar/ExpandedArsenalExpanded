@@ -24,7 +24,7 @@
     "Id": "mechdef_koschei_KSC-X1",
     "Name": "Koschei",
     "Details": "The product of heavy government investment, the Koschei was the second BattleMech produced in the Capellan Confederation. Since the Confederation Defense Company was not interested in helping, Earthwerks and the Confederation invested in improving the infrastructure on Tikonov and recruiting local engineers. The first Koscheis were produced in 2504. Production of the 3I stopped in 2714 to make way for an improved variant. By the time of the Succession Wars there were few such 'Mechs on the battlefield. The 5I was introduced by Earthwerks in 3071, primarily for the mercenary market. It saves weight with an XL engine, Endo Steel, and light ferro-fibrous armor. Thirteen double heat sinks keep the heat buildup from a Heavy and a Snub-Nose PPC and five Extended Range Small Lasers under control. The machine also mounts jump jets and a Guardian ECM Suite.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_koschei"
+    "Icon": "uixTxrIcon_lelikoschei"
   },
   "simGameMechPartCost": 3500000,
   "Version": 1,

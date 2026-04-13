@@ -25,7 +25,7 @@
     "Id": "mechdef_koschei_KSC-S2",
     "Name": "Koschei",
     "Details": "The product of heavy government investment, the Koschei was the second BattleMech produced in the Capellan Confederation. Since the Confederation Defense Company was not interested in helping, Earthwerks and the Confederation invested in improving the infrastructure on Tikonov and recruiting local engineers. The first Koscheis were produced in 2504. Production of the 3I stopped in 2714 to make way for an improved variant. By the time of the Succession Wars there were few such 'Mechs on the battlefield. As part of the Trinity Alliance, the Magistracy of Canopus acquired plans for the Koschei in 3068. Majesty Metals and Manufacturing produces their variation on the 5I at Dunianshire. It removes the jump jets and weapons in favor of a different configuration, which hearkens back to the earlier versions with a massive Rotary Autocannon. ER lasers and a Snub-Nose PPC necessitates the addition of fourteenth heat sink to remain cool.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_koschei"
+    "Icon": "uixTxrIcon_lelikoschei"
   },
   "simGameMechPartCost": 3500000,
   "Version": 1,

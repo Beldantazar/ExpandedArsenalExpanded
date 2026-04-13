@@ -14,15 +14,15 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_PartialWingSystem_Generic_Standard35",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefID": "Gear_HeatSink_PartialWingSystem_Generic_Standard35",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_PartialWingSystem_Generic_Standard35",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefID": "Gear_HeatSink_PartialWingSystem_Generic_Standard35",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     }

@@ -18,7 +18,7 @@
   "PrefabIdentifier": "chrprfmech_crkbase-001",
   "PrefabBase": "crk",
   "Tonnage": 85,
-  "InitialTonnage": 27.5,
+  "InitialTonnage": 23.5,
   "weightClass": "ASSAULT",
   "BattleValue": 3749000,
   "Heatsinks": 45,

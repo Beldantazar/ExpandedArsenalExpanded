@@ -2,14 +2,13 @@
   "MechTags": {
     "items": [
       "unit_generic",
-      "unit_mech",
       "unit_heavy",
       "unit_release",
       "unit_lance_support",
       "unit_role_brawler",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

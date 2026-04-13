@@ -1,295 +1,263 @@
 {
-  "MechTags": {
-    "items": [
-      "unit_advanced",
-      "unit_bracket_low",
-      "unit_bracket_med",
-      "unit_release",
-      "unit_mech",
-      "unit_heavy",
-      "unit_ready",
-      "unit_lance_assassin",
-      "unit_lance_vanguard",
-      "unit_role_brawler",
-      "elite_arsenal",
-      "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+    "MechTags": {
+        "items": [
+            "unit_advanced",
+            "unit_bracket_low",
+            "unit_bracket_med",
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_ready",
+            "unit_lance_assassin",
+            "unit_lance_vanguard",
+            "unit_role_brawler",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_mech_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_blackpython_BP-S",
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Black Python BP-S",
+        "Id": "mechdef_blackpython_BP-S",
+        "Name": "Black Python",
+        "Details": "The Black Python is similar in many ways to the Warhammer and Marauder BattleMechs. Though it is faster than those heavies, it has a similar weapons load-out with comparable damage, albeit with much more accurate damage potential. In order to achieve this, this expensive second-line 'Mech avails itself of all weight saving technologies that were at the disposal of the Clans, including an XL Engine, Endo Steel frame, and eleven tons of Ferro-Fibrous armor.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_blackpython"
+    },
+    "simGameMechPartCost": 3500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 175,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 115,
+            "AssignedArmor": 175,
+            "AssignedRearArmor": 60
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 135,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 135,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 135,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 135,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 135,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 135,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 135,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 135,
+            "AssignedRearArmor": 0
+        }
     ],
-    "tagSetSourceFile": ""
-  },
-  "ChassisID": "chassisdef_blackpython_BP-S",
-  "Description": {
-    "Cost": 10000000,
-    "Rarity": 2,
-    "Purchasable": true,
-    "Manufacturer": null,
-    "Model": null,
-    "UIName": "Black Python BP-S",
-    "Id": "mechdef_blackpython_BP-S",
-    "Name": "Black Python",
-    "Details": "The Black Python is similar in many ways to the Warhammer and Marauder BattleMechs. Though it is faster than those heavies, it has a similar weapons load-out with comparable damage, albeit with much more accurate damage potential. In order to achieve this, this expensive second-line 'Mech avails itself of all weight saving technologies that were at the disposal of the Clans, including an XL Engine, Endo Steel frame, and eleven tons of Ferro-Fibrous armor.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_blackpython"
-  },
-  "simGameMechPartCost": 3500000,
-  "Version": 1,
-  "Locations": [
-    {
-      "DamageLevel": "Functional",
-      "Location": "Head",
-      "CurrentArmor": 45,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 16,
-      "AssignedArmor": 45,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftArm",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 60,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftTorso",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": 50,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": 50
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "CenterTorso",
-      "CurrentArmor": 165,
-      "CurrentRearArmor": 60,
-      "CurrentInternalStructure": 115,
-      "AssignedArmor": 165,
-      "AssignedRearArmor": 60
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightTorso",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": 50,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": 50
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightArm",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 60,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftLeg",
-      "CurrentArmor": 130,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 130,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightLeg",
-      "CurrentArmor": 130,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 130,
-      "AssignedRearArmor": -1
-    }
-  ],
-  "inventory": [
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
-      "ComponentDefType": "JumpJet",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_SmallLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
-    }
-  ]
+    "inventory": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN_IMPROVED_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_MICRO_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_MICRO_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Autocannon_AC2_CLAN_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Autocannon_AC2_CLAN_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC2_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Guardian_ECM_CLAN_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

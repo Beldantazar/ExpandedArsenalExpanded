@@ -8,7 +8,7 @@
     "UIName": "Rampage",
     "Id": "chassisdef_rampage_RMP-5GX",
     "Name": "Rampage",
-    "Details": "The Rampage was a BattleMech produced by the Rim Worlds Republic. The 'Mech was originally built and used as a standard line unit, but it was upgraded to a fast assault 'Mech in 2767, following Stefan Amaris' successful coup that installed him as the nominal leader of the Terran Hegemony. With the occupation of Star League R&D facilities, his Periphery nation was finally able to produce the SLDF's advanced weaponry. The Rampage's upgrade utilized Endo Steel and an XL engine to save weight. As engineers debated the best way to make the Rampage faster, they settled on installing the new MASC system, which accelerates the 85-ton 'Mech to 86 km/h in bursts. While its speed gives it a measure of protection, the design also sports a massive sixteen tons of PanzerSlab 9 armor. Introduced in 2750 and built in limited numbers prior to introduction of 5G, the 4G Rampage was similar to the -5G upgrade. It lacked the missile launchers and one medium laser, but added a Gauss rifle for concentrated long-range fire. This required the minimum amount of double heat sinks and slightly less armor.",
+    "Details": "The Rampage was a BattleMech produced by the Rim Worlds Republic. The 'Mech was originally built and used as a standard line unit, but it was upgraded to a fast assault 'Mech in 2767, following Stefan Amaris' successful coup that installed him as the nominal leader of the Terran Hegemony. With the occupation of Star League R&D facilities, his Periphery nation was finally able to produce the SLDF's advanced weaponry. The Rampage's upgrade utilized Endo Steel and an XL engine to save weight. As engineers debated the best way to make the Rampage faster, they settled on installing the new MASC system, which accelerates the 85-ton 'Mech to 86 km/h in bursts. While its speed gives it a measure of protection, the design also sports a massive sixteen tons of PanzerSlab 9 armor. The primary weapon of the Rampage is the Lubalin LB 10-X AC. Two tons of ammunition allow it to switch between standard and cluster shots. It also has an array of lasers, namely the Tronel XIII Large Pulse Laser housed in its chest, and two Maxell DT medium lasers, one on each side of the pulse laser. In addition to the autocannon for long-range fire, the Rampage has an Artemis IV Fire Control System-guided Jackson Dart LRM-10 launcher with a single ton of ammo. To strengthen its short range firepower, three Marklin Mini Streak SRM-2 launchers are bundled together in the left torso with a ton of ammo to share between them. For defense against missiles, the Rampage mounted a Buzzsaw anti-missile system. Against infantry, a Zippo Mark X Anti-Personnel Flamer is installed; a popular piece of equipment for the Rim Worlds' civilian pacification efforts. Thirteen double heat sinks keeps heat levels in check.",
     "Icon": "uixTxrIcon_rampage"
   },
   "FixedEquipment": [],
@@ -61,7 +61,7 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Ballistic",
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -76,6 +76,22 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         },
         {
@@ -109,6 +125,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -120,6 +140,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -200,5 +224,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Assault Brawler",
-  "YangsThoughts": "Better at long range sniping but a little less armored, I think this design is overall better than the standard design."
+  "YangsThoughts": "This thing has a bad reputation for the attrocities it unleashed with its flamers during the civil war, but the actual design is solid."
 }

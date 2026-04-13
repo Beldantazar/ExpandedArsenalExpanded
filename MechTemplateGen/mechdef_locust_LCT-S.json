@@ -1,7 +1,6 @@
 {
   "MechTags": {
     "items": [
-      "unit_mech",
       "unit_release",
       "unit_light",
       "unit_lance_vanguard",
@@ -13,7 +12,7 @@
       "unit_armor_high",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

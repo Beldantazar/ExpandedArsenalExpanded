@@ -1,7 +1,6 @@
 {
   "MechTags": {
     "items": [
-      "unit_mech",
       "unit_heavy",
       "unit_indirectFire",
       "unit_lance_tank",
@@ -13,7 +12,7 @@
       "unit_speed_high",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

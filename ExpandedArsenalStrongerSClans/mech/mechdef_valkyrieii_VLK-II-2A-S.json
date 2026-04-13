@@ -1,15 +1,15 @@
 {
   "MechTags": {
     "items": [
-      "unit_mech",
-      "unit_release",
-      "unit_heavy",
-      "unit_lance_vanguard",
-      "unit_role_flanker",
-      "unit_jumpOK",
-      "elite_arsenal",
-      "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+        "unit_mech",
+        "unit_release",
+        "unit_heavy",
+        "unit_lance_vanguard",
+        "unit_role_flanker",
+        "unit_jumpOK",
+        "elite_arsenal",
+        "elite_arsenal_s_tier",
+        "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

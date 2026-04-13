@@ -302,7 +302,6 @@
   ],
   "MechTags": {
     "items": [
-      "unit_mech",
       "unit_heavy",
       "unit_release",
       "unit_ready",
@@ -319,7 +318,7 @@
       "TaurianConcordat",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   }

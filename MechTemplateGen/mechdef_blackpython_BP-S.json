@@ -5,7 +5,6 @@
       "unit_bracket_low",
       "unit_bracket_med",
       "unit_release",
-      "unit_mech",
       "unit_heavy",
       "unit_ready",
       "unit_lance_assassin",
@@ -13,7 +12,7 @@
       "unit_role_brawler",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

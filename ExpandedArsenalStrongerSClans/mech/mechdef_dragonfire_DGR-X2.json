@@ -1,317 +1,247 @@
 {
-  "MechTags": {
-    "items": [
-      "unit_release",
-      "unit_mech",
-      "unit_heavy",
-      "unit_ready",
-      "unit_lance_support",
-      "unit_role_sniper",
-      "unit_advanced",
-      "unit_bracket_high",
-      "elite_arsenal"
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_ready",
+            "unit_lance_vanguard",
+            "unit_lance_assassin",
+            "unit_lance_support",
+            "unit_role_brawler",
+            "unit_role_sniper",
+            "unit_advanced",
+            "unit_bracket_high",
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_dragonfire_DGR-X2",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Dragon Fire DGR-X2",
+        "Id": "mechdef_dragonfire_DGR-X2",
+        "Name": "Dragon Fire",
+        "Details": "Originally conceived of in the twenty-eighth century as a part of the same development project that birthed the Marauder, the Dragon Fire didn't initially make the transition from a design on paper to an actual production model. The discovery of the Gray Death Memory Core gave the Dragon Fire a new lease on life and the 'Mech first saw production in late 3058. This Dark Age era variant of the Dragon Fire was introduced by General Motors as a pocket assault. A downgraded Pitban 225 XL, endo-composite internals, and an XL gyro made room for a heavier arsenal. In addition to the Zeus Slingshot Gauss, it carries a Mydron Tornado rotary AC/5 and a range of ExoStar Pinnacle Clan-spec energy weapons: an ER PPC, an ER large laser, and two ER medium lasers.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_dragonfire"
+    },
+    "simGameMechPartCost": 3500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 115,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 0
+        }
     ],
-    "tagSetSourceFile": ""
-  },
-  "ChassisID": "chassisdef_dragonfire_DGR-X2",
-  "HeraldryID": null,
-  "Description": {
-    "Cost": 10000000,
-    "Rarity": 2,
-    "Purchasable": true,
-    "Manufacturer": null,
-    "Model": null,
-    "UIName": "Dragon Fire DGR-X2",
-    "Id": "mechdef_dragonfire_DGR-X2",
-    "Name": "Dragon Fire",
-    "Details": "Originally conceived of in the twenty-eighth century as a part of the same development project that birthed the Marauder, the Dragon Fire didn't initially make the transition from a design on paper to an actual production model. The discovery of the Gray Death Memory Core gave the Dragon Fire a new lease on life and the 'Mech first saw production in late 3058. This Dark Age era variant of the Dragon Fire was introduced by General Motors as a pocket assault. A downgraded Pitban 225 XL, endo-composite internals, and an XL gyro made room for a heavier arsenal. In addition to the Zeus Slingshot Gauss, it carries a Mydron Tornado rotary AC/5 and a range of ExoStar Pinnacle Clan-spec energy weapons: an ER PPC, an ER large laser, and two ER medium lasers.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_dragonfire"
-  },
-  "simGameMechPartCost": 3500000,
-  "Version": 1,
-  "Locations": [
-    {
-      "DamageLevel": "Functional",
-      "Location": "Head",
-      "CurrentArmor": 45,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 16,
-      "AssignedArmor": 45,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftArm",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 60,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftTorso",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": 35,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": 35
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "CenterTorso",
-      "CurrentArmor": 180,
-      "CurrentRearArmor": 45,
-      "CurrentInternalStructure": 115,
-      "AssignedArmor": 180,
-      "AssignedRearArmor": 45
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightTorso",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": 35,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": 35
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightArm",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 60,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftLeg",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightLeg",
-      "CurrentArmor": 125,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 80,
-      "AssignedArmor": 125,
-      "AssignedRearArmor": -1
-    }
-  ],
-  "inventory": [
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": "",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_LargeLaserER_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_LRM_LRM20_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_LRM_LRM20_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_MachineGun_MachineGun_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
-      "SimGameUID": null,
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "SimGameUID": null,
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
-      "SimGameUID": null,
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    }
-  ]
+    "inventory": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Kite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Heavy_Defensive_Suite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

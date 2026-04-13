@@ -2,7 +2,6 @@
   "MechTags": {
     "items": [
       "unit_indirectFire",
-      "unit_mech",
       "unit_heavy",
       "unit_jumpOK",
       "unit_release",
@@ -14,7 +13,7 @@
       "unit_jumpOK",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

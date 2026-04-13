@@ -14,8 +14,8 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_PartialWingSystem_Generic_Standard85",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefID": "Gear_HeatSink_PartialWingSystem_Generic_Standard85",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -28,8 +28,8 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_PartialWingSystem_Generic_Standard85",
-      "ComponentDefType": "JumpJet",
+      "ComponentDefID": "Gear_HeatSink_PartialWingSystem_Generic_Standard85",
+      "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"
     },
@@ -108,6 +108,10 @@
         {
           "WeaponMount": "Missile",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -119,6 +123,10 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -132,7 +140,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 270,
@@ -142,6 +155,10 @@
     {
       "Location": "RightTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Missile",
           "Omni": false
@@ -170,6 +187,10 @@
         },
         {
           "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

@@ -46,6 +46,12 @@ mechdef_valkyrieii_VLK-II-2A-X,MechPart,1,1
 mechdef_valkyrieii_VLK-II-2A-S,MechPart,1,1
 mechdef_yeoman_YMN-X,MechPart,1,1
 mechdef_yeoman_YMN-S,MechPart,1,1
+mechdef_avatar_AV1-X,MechPart,1,1
+mechdef_avatar_AV1-S,MechPart,1,1
+mechdef_orion_ON1-X1,MechPart,1,1
+mechdef_orion_ON1-S1,MechPart,1,1
+mechdef_orion_ON2-X2,MechPart,1,1
+mechdef_orion_ON2-S2,MechPart,1,1
 mechdef_glassspider_GS-X1,MechPart,1,1
 mechdef_glassspider_GS-S1,MechPart,1,1
 mechdef_glassspider_GS-X2,MechPart,1,1
@@ -66,10 +72,10 @@ mechdef_tomahawk_THK-X1,MechPart,1,1
 mechdef_tomahawk_THK-S1,MechPart,1,1
 mechdef_tomahawk_THK-X2,MechPart,1,1
 mechdef_tomahawk_THK-S2,MechPart,1,1
-mechdef_daikyu_DAI-X,MechPart,1,1
-mechdef_daikyu_DAI-S,MechPart,1,1
-mechdef_daikyu_DAI-X,MechPart,1,1
-mechdef_daikyu_DAI-S,MechPart,1,1
+mechdef_daikyu_DAI-X1,MechPart,1,1
+mechdef_daikyu_DAI-S1,MechPart,1,1
+mechdef_daikyu_DAI-X2,MechPart,1,1
+mechdef_daikyu_DAI-S2,MechPart,1,1
 mechdef_anvil_ANV-X,MechPart,1,1
 mechdef_anvil_ANV-S,MechPart,1,1
 mechdef_caesar_CES-X,MechPart,1,1
@@ -134,6 +140,8 @@ mechdef_koschei_KSC-X2,MechPart,1,1
 mechdef_koschei_KSC-S2,MechPart,1,1
 mechdef_excalibur_EXC-X,MechPart,1,1
 mechdef_excalibur_EXC-S,MechPart,1,1
+mechdef_guillotine_GLT-X2,MechPart,1,1
+mechdef_guillotine_GLT-S2,MechPart,1,1
 mechdef_guillotine_GLT-X,MechPart,1,1
 mechdef_guillotine_GLT-S,MechPart,1,1
 mechdef_shootist_ST-X,MechPart,1,1

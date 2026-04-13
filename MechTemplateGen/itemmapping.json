@@ -1072,6 +1072,10 @@
             "itemId": "Gear_Actuator_Diomede_Treads",
             "itemType": "Upgrade"
         },
+        "Gear_Actuator_Talon": {
+            "itemId": "Gear_Actuator_Talon",
+            "itemType": "Upgrade"
+        },
         "Gear_Actuator_Rawlings_Epsilon": {
             "itemId": "Gear_Actuator_Rawlings_Epsilon",
             "itemType": "Upgrade"

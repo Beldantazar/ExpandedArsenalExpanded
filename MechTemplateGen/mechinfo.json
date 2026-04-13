@@ -23,6 +23,29 @@
         }
     },
     {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_cyclops_CP-10-Z-DC.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_cyclops_CP-10-Z-DC.json",
+        "newMechName": "Cyclops",
+        "newMechDesignation": "CP-10",
+        "newMechModelNumber": "Z-DC",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": true,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_roughneck_RGH-3A.json",
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_roughneck_RGH-3A.json",
         "newMechName": "Roughneck",
@@ -1647,6 +1670,97 @@
         }
     },
     {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Avatar",
+        "newMechDesignation": "AV1",
+        "newMechModelNumber": "0G",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The G variant was designed as a dedicated 'Mech killer, mounting a Gauss Rifle and two tons of ammunition in each arm, it also has a slightly more flexible set of mounting brackets allowing for easier reconfiguration.",
+        "yangsThoughts": "Two Gauss Rifles on a mech this size is some serious firepower, but the more important change is the more flexible hardpoint layout, letting us techs reconfigure it even more flexibly."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Orion",
+        "newMechDesignation": "ON1",
+        "newMechModelNumber": "V",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Orion",
+        "newMechDesignation": "ON2",
+        "newMechModelNumber": "K",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 1, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 2, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The 2K is another upgrade of the Orion using Star League technology. Released at the same time as the cheaper (and more popular) 2M variant the 'Mech uses an Endo Steel chassis and an XL engine to allow for even more saved weight for weaponry. For long-range combat, the ON2-K is armed with a Gauss rifle as well as an LRM-15 linked to an Artemis IV FCS for increased accuracy. For closer ranges, the 'Mech has a blistering array of five medium pulse lasers. Fourteen double heat sinks are needed to keep the heat fully undercontrol, but this required using Standard armor instead of Ferro-Fibrous to save space.",
+        "yangsThoughts": "A beast at close ranges with all those pulse lasers and still capable of extensive long range firepower, this thing is a great upgrade to the older version, just watch out for how much heat that pulse laser array puts out."
+    },
+    {
         "baseTemplateFileName": "..\\EliteForces\\elitechassis\\chassisdef_atlas_AS7-DX1.json",
         "baseMechFileName": "..\\EliteForces\\elitemech\\mechdef_atlas_AS7-DX1.json",
         "newMechName": "Grand Titan",
@@ -2503,10 +2617,10 @@
         "xlEngine": true,
         "chassisType": "EndoComposite",
         "hardpoints": {
-            "Energy": [ 0, 3, 0, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 3, 1, 1, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 2, 0, 0 ],
             "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "fixedEquipment": [
@@ -2565,10 +2679,10 @@
         "xlEngine": true,
         "chassisType": "EndoComposite",
         "hardpoints": {
-            "Energy": [ 0, 3, 0, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 3, 1, 1, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 2, 0, 0 ],
             "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "fixedEquipment": [
@@ -2627,10 +2741,10 @@
         "xlEngine": true,
         "chassisType": "EndoComposite",
         "hardpoints": {
-            "Energy": [ 0, 3, 0, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 1, 1, 2, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 2, 0, 0 ],
             "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "fixedEquipment": [
@@ -2679,10 +2793,10 @@
         "xlEngine": true,
         "chassisType": "EndoComposite",
         "hardpoints": {
-            "Energy": [ 0, 3, 0, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 1, 1, 2, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 2, 0, 0 ],
             "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "fixedEquipment": [
@@ -2692,8 +2806,8 @@
             [],
             [ "Gear_HeatSink_PartialWingSystem_Generic_Standard85" ],
             [],
-            [],
-            []
+            [ "Gear_Actuator_Talon" ],
+            [ "Gear_Actuator_Talon" ]
         ],
         "stockRole": "Long Range Jumping Fire Support",
         "itemColAssignment": {
@@ -3758,7 +3872,7 @@
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "1",
         "mechTonnage": 70,
         "mechEngine": 350,
         "xlEngine": true,
@@ -3793,13 +3907,14 @@
         "prefabName": "daikyu",
         "prefabId": "chrprfmech_daikyubase-001",
         "hardpointData": "hardpointdatadef_daikyu",
+        "icon": "uixTxrIcon_trebuchet",
         "initialTonnage": null,
         "newMechVariant": true,
         "Heatsinks": 30,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 70,
         "mechEngine": 350,
         "xlEngine": true,
@@ -4573,7 +4688,7 @@
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 85,
         "mechEngine": 255,
         "xlEngine": true,
@@ -5453,7 +5568,7 @@
         "newMechVariant": true,
         "Heatsinks": 30,
         "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": true,
+        "newEliteArsenalVariants": false,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
         "mechTonnage": 80,
@@ -5495,7 +5610,7 @@
         "newMechVariant": true,
         "Heatsinks": 30,
         "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": true,
+        "newEliteArsenalVariants": false,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
         "mechTonnage": 80,
@@ -5715,8 +5830,8 @@
         "hardpoints": {
             "Energy": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
-            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "stockRole": "Antique Heavy Battlemech",
@@ -5738,7 +5853,7 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_madcat_MC-PRIME.json",
         "newMechName": "Hammerhands",
         "newMechDesignation": "HMH",
-        "newMechModelNumber": "3D",
+        "newMechModelNumber": "4D",
         "prefabName": "hammerhands",
         "prefabId": "chrprfmech_hammerhandsbase-001",
         "hardpointData": "hardpointdatadef_hammerhands",
@@ -5758,7 +5873,7 @@
             "Energy": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
             "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "stockRole": "Antique Heavy Battlemech",
@@ -5772,7 +5887,7 @@
                 "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
             }
         },
-        "details": "The second exclusive Federated Suns BattleMech, the Hammerhands was developed in 2475 after a decade reviewing the performance and complaints received about the earlier BattleAxe. Little more than a heavier and slower version of the BattleAxe, the design received its name based on the impressive weapons carried in each arm, serving to trigger the Federated Suns' seeming love affair with autocannons. Much like its sibling design, the Hammerhands went on to influence and be outdone by the immensely popular Warhammer, causing it to fade into history, all but forgotten. The Achernar designers' solution for the high heat generated by the BattleAxe's PPCs was to replace them with a pair of Mydron Model B Autocannon/10s backed up by ChisComp 38 medium lasers in each arm, while retaining the earlier design's shoulder-mounted Harpoon-6 SRM-6. Carrying four tons of ammunition spread between the arms and torsos, the Hammerhands autocannons were rarely silenced during most Age of War era conflicts.",
+        "details": "The second exclusive Federated Suns BattleMech, the Hammerhands was developed in 2475 after a decade reviewing the performance and complaints received about the earlier BattleAxe. Little more than a heavier and slower version of the BattleAxe, the design received its name based on the impressive weapons carried in each arm, serving to trigger the Federated Suns' seeming love affair with autocannons. Much like its sibling design, the Hammerhands went on to influence and be outdone by the immensely popular Warhammer, causing it to fade into history, all but forgotten. A solution to both Federated Suns MechWarriors' early dislike of jump jets and desire for decreased reliance upon supply chains, the 4D strips out the jump jets and SRM-6 rack for a single PPC.",
         "yangsThoughts": "Now this is a true classic mech, they don't design them like this anymore, although that's probably a good thing for pilot survivability. This variant strips out the SRM and jump jets for a PPC, more because the pilots were scared of the jump jets than any actual tactical reason."
     },
     {
@@ -5917,14 +6032,14 @@
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 85,
         "mechEngine": 340,
         "xlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
-            "Energy": [ 0, 0, 1, 1, 1, 0, 0, 0 ],
-            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 0, 2, 1, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
             "Missile": [ 0, 1, 3, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 1, 0, 0, 0, 0, 0 ]
         },
@@ -5948,7 +6063,7 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_warhawk_A.json",
         "newMechName": "Rampage",
         "newMechDesignation": "RMP",
-        "newMechModelNumber": "5G",
+        "newMechModelNumber": "4G",
         "prefabName": "rampage",
         "prefabId": "chrprfmech_rampagebase-001",
         "hardpointData": "hardpointdatadef_rampage",
@@ -5959,15 +6074,15 @@
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "1",
         "mechTonnage": 85,
         "mechEngine": 340,
         "xlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
-            "Energy": [ 0, 0, 1, 1, 1, 0, 0, 0 ],
+            "Energy": [ 0, 0, 3, 1, 3, 0, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
-            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 1, 0, 0, 0, 0, 0 ]
         },
         "useMountIdNaming": false,
@@ -6007,9 +6122,9 @@
         "xlEngine": false,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
+            "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
         },
         "useMountIdNaming": false,
@@ -6032,14 +6147,14 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_warhawk_A.json",
         "newMechName": "Shogun",
         "newMechDesignation": "SHG",
-        "newMechModelNumber": "2F",
+        "newMechModelNumber": "2H",
         "prefabName": "shogun",
         "prefabId": "chrprfmech_shogunbase-001",
         "hardpointData": "hardpointdatadef_shogun",
         "icon": "uixTxrIcon_templar",
         "initialTonnage": null,
         "newMechVariant": true,
-        "Heatsinks": 0,
+        "Heatsinks": 30,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": false,
         "includeModelNumberInEAVariant": false,
@@ -6049,7 +6164,7 @@
         "xlEngine": false,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 1, 0, 0, 1, 1, 0, 0, 0 ],
+            "Energy": [ 1, 0, 1, 1, 2, 0, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -6081,19 +6196,19 @@
         "icon": "uixTxrIcon_templar",
         "initialTonnage": null,
         "newMechVariant": true,
-        "Heatsinks": 0,
+        "Heatsinks": 30,
         "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": false,
+        "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 85,
         "mechEngine": 255,
         "xlEngine": false,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
+            "Energy": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "Missile": [ 0, 2, 2, 0, 2, 2, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
         },
         "useMountIdNaming": false,
@@ -6133,10 +6248,10 @@
         "xlEngine": false,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 1, 0, 2, 2, 2, 0, 0, 0 ],
-            "Ballistic": [ 0, 1, 0, 0, 0, 0, 0, 0 ],
-            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "Energy": [ 1, 0, 3, 2, 3, 0, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "useMountIdNaming": false,
         "stockRole": "Venerable Assault Skirmisher",
@@ -6175,9 +6290,9 @@
         "xlEngine": false,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 1, 0, 2, 2, 2, 0, 0, 0 ],
-            "Ballistic": [ 0, 1, 0, 0, 0, 0, 0, 0 ],
-            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Energy": [ 0, 0, 3, 2, 3, 1, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
         },
         "useMountIdNaming": false,
@@ -6203,7 +6318,7 @@
         "newMechModelNumber": "2D",
         "prefabName": "swd",
         "prefabId": "chrprfmech_swdbase-001",
-        "hardpointData": "hardpointdatadef_swdmech",
+        "hardpointData": "hardpointdatadef_swd",
         "icon": "uixTxrIcon_hellbringer",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -8215,7 +8330,7 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
         "newMechName": "Grizzly",
         "newMechDesignation": "GRZ",
-        "newMechModelNumber": "1",
+        "newMechModelNumber": "2",
         "prefabName": "grizzly",
         "prefabId": "chrprfmech_grizzlybase-001",
         "hardpointData": "hardpointdatadef_grizzly",
@@ -9494,9 +9609,9 @@
         "newMechName": "Koschei",
         "newMechDesignation": "KSC",
         "newMechModelNumber": "3I",
-        "prefabName": "koschei",
-        "prefabId": "chrprfmech_koscheibase-001",
-        "hardpointData": "hardpointdatadef_koschei",
+        "prefabName": "lelikoschei",
+        "prefabId": "chrprfmech_lelikoscheibase-001",
+        "hardpointData": "hardpointdatadef_lelikoschei",
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -9536,9 +9651,9 @@
         "newMechName": "Koschei",
         "newMechDesignation": "KSC",
         "newMechModelNumber": "3L",
-        "prefabName": "koschei",
-        "prefabId": "chrprfmech_koscheibase-001",
-        "hardpointData": "hardpointdatadef_koschei",
+        "prefabName": "lelikoschei",
+        "prefabId": "chrprfmech_lelikoscheibase-001",
+        "hardpointData": "hardpointdatadef_lelikoschei",
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -9578,9 +9693,9 @@
         "newMechName": "Koschei",
         "newMechDesignation": "KSC",
         "newMechModelNumber": "4I",
-        "prefabName": "koschei",
-        "prefabId": "chrprfmech_koscheibase-001",
-        "hardpointData": "hardpointdatadef_koschei",
+        "prefabName": "lelikoschei",
+        "prefabId": "chrprfmech_lelikoscheibase-001",
+        "hardpointData": "hardpointdatadef_lelikoschei",
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -9620,9 +9735,9 @@
         "newMechName": "Koschei",
         "newMechDesignation": "KSC",
         "newMechModelNumber": "4L",
-        "prefabName": "koschei",
-        "prefabId": "chrprfmech_koscheibase-001",
-        "hardpointData": "hardpointdatadef_koschei",
+        "prefabName": "lelikoschei",
+        "prefabId": "chrprfmech_lelikoscheibase-001",
+        "hardpointData": "hardpointdatadef_lelikoschei",
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -9662,9 +9777,9 @@
         "newMechName": "Koschei",
         "newMechDesignation": "KSC",
         "newMechModelNumber": "5I",
-        "prefabName": "koschei",
-        "prefabId": "chrprfmech_koscheibase-001",
-        "hardpointData": "hardpointdatadef_koschei",
+        "prefabName": "lelikoschei",
+        "prefabId": "chrprfmech_lelikoscheibase-001",
+        "hardpointData": "hardpointdatadef_lelikoschei",
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -9704,9 +9819,9 @@
         "newMechName": "Koschei",
         "newMechDesignation": "KSC",
         "newMechModelNumber": "5MC",
-        "prefabName": "koschei",
-        "prefabId": "chrprfmech_koscheibase-001",
-        "hardpointData": "hardpointdatadef_koschei",
+        "prefabName": "lelikoschei",
+        "prefabId": "chrprfmech_lelikoscheibase-001",
+        "hardpointData": "hardpointdatadef_lelikoschei",
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
@@ -10291,7 +10406,7 @@
         "mechTonnage": 85,
         "mechEngine": 255,
         "xlEngine": false,
-        "chassisType": "Standard",
+        "chassisType": "EndoSteel",
         "hardpoints": {
             "Energy": [ 1, 3, 0, 1, 0, 3, 0, 0 ],
             "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
@@ -10352,8 +10467,92 @@
                 "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
             }
         },
-        "details": "he Guillotine was originally designed in 2499[2] as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries. The Guillotine carries a single Large Laser which had buggy cabling in some early version, along with four medium lasers. Backing up the energy weapons is a single SRM-6 launcher with one ton of ammo. The nimbleness of the Guillotine is what's responsible for its longevity, a factor which can catch new pilots off-guard. Four Anderson 398 jump jets, one in either leg and either side torso, gives the 'Mech a jumping distance of 120 meters.",
+        "details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries. The Guillotine carries a single Large Laser which had buggy cabling in some early version, along with four medium lasers. Backing up the energy weapons is a single SRM-6 launcher with one ton of ammo. The nimbleness of the Guillotine is what's responsible for its longevity, a factor which can catch new pilots off-guard. Four Anderson 398 jump jets, one in either leg and either side torso, gives the 'Mech a jumping distance of 120 meters.",
         "yangsThoughts": "A versatile skirmisher, this mech is decently powerful, especially when you can backstab enemies, but it suffers in terrain that doesn't let it make use of its evasion."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Guillotine",
+        "newMechDesignation": "GLT",
+        "newMechModelNumber": "3NESP",
+        "prefabName": "glt",
+        "prefabId": "chrprfmech_gltbase-001",
+        "hardpointData": "hardpointdatadef_glt",
+        "icon": "uixTxrIcon_stinger",
+        "initialTonnage": null,
+        "newMechVariant": false,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 1, 1, 2, 0, 6, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Energy Skirmisher",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries. Suspected to have been delivered in error to Kapten Harald Estriđsen of the Free Rasalhague Republic's 1st Drakøns as a gift from ComStar in 3049, this Guillotine variant was assumed to be a prototype designed by ComStar for its Com Guards. Removing ten heat sinks but upgrading the remaining fifteen to doubles, the left arm Large Laser was replaced by an ER PPC while the number of Medium Lasers was increased from four to twelve; one in the head, three in the right arm, two in the left torso and a whopping six in the right torso. Its heat load now quite excessive, the SRM-6 rack and its troublesome CASE ammo bay also remains.",
+        "yangsThoughts": "Are you joking with me right now? Why does this thing mount twelve medium lasers, who greenlit this thing?"
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Guillotine",
+        "newMechDesignation": "GLT",
+        "newMechModelNumber": "3NES",
+        "prefabName": "glt",
+        "prefabId": "chrprfmech_gltbase-001",
+        "hardpointData": "hardpointdatadef_glt",
+        "icon": "uixTxrIcon_stinger",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 2, 2, 0, 6, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Energy Skirmisher",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries. Based on the original Estridsen variant that was suspected to have been delivered in error to Kapten Harald Estriđsen of the Free Rasalhague Republic's 1st Drakøns as a gift from ComStar in 3049, the precursor to this Guillotine variant was assumed to be a prototype designed by ComStar for its Com Guards. Removing ten heat sinks but upgrading the remaining fifteen to doubles, the left arm Large Laser was replaced by an ER PPC while the number of Medium Lasers was increased from four to twelve; one in the head, three in the right arm, two in the left torso and a whopping six in the right torso. Its heat load now quite excessive, the SRM-6 rack and its troublesome CASE ammo bay also remains. The production version of this mach was produced in 3070 and it made use of some Clan-Spec weaponry and heat sinking technology to allow for even greater heat management than the original prototype.",
+        "yangsThoughts": "Ok, now I know someone is messing with me, not only did they make a prototype but they actually made a production version of this thing?"
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
@@ -10394,7 +10593,7 @@
                 "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
             }
         },
-        "details": "he Guillotine was originally designed in 2499[2] as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries. The 7M variant is an improvement of the older Guillotine replacing the Large Laser with an ER PPC with capacitor, the two medium lasers in the right arm with twin light PPCs, and upgrading the other two medium lasers to ER models. The older SRM-6 is upgraded to a Streak enhanced model, which also fixed the original 'Mech's odd SRM arming bug.",
+        "details": "The Guillotine was originally designed in 2499 as a front-line BattleMech for the Terran Hegemony and was the Star League Defense Force's standard heavy 'Mech for generations. While its weaponry was ample for its era, as time went by the march of technology allowed for the development of larger 'Mechs which were significantly better armed. However few of these new 'Mechs could match the Guillotine in maneuverability or staying power, and so the 'Mech simply transitioned from the front-line shock role to that of a heavy raider - a task it excels at thanks to its quick speed and use of jump jets. Its mobility also makes the 'Mech adept at fighting in difficult terrain such as jungle or mountainous regions. The only serious issue with the 'Mech ironically are its weapons, which have been plagued with various problems over the centuries. The 7M variant is an improvement of the older Guillotine replacing the Large Laser with an ER PPC with capacitor, the two medium lasers in the right arm with twin light PPCs, and upgrading the other two medium lasers to ER models. The older SRM-6 is upgraded to a Streak enhanced model, which also fixed the original 'Mech's odd SRM arming bug.",
         "yangsThoughts": "A very nice upgrade overall, it does suffer from not being able to fire all of its weapons without overheating, so you're gonna need to adjust your tactics a bit."
     },
     {

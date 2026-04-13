@@ -23,7 +23,7 @@
     "Id": "mechdef_koschei_KSC-4I",
     "Name": "Koschei",
     "Details": "The product of heavy government investment, the Koschei was the second BattleMech produced in the Capellan Confederation. Since the Confederation Defense Company was not interested in helping, Earthwerks and the Confederation invested in improving the infrastructure on Tikonov and recruiting local engineers. The first Koscheis were produced in 2504. Production of the 3I stopped in 2714 to make way for an improved variant. By the time of the Succession Wars there were few such 'Mechs on the battlefield. The upgraded version of the 3I debuted in 2719. It is built on an Endo Steel chassis with ferro-fibrous armor. It features an LB 10-X AC and more lasers, but was not well-received.",
-    "Icon": "uixTxrIcon_koschei"
+    "Icon": "uixTxrIcon_lelikoschei"
   },
   "simGameMechPartCost": 3500000,
   "Version": 1,

@@ -38,28 +38,10 @@
             "DamageLevel": "Functional",
             "Location": "Head",
             "CurrentArmor": 45,
-            "CurrentRearArmor": -1,
+            "CurrentRearArmor": 0,
             "CurrentInternalStructure": 16,
             "AssignedArmor": 45,
-            "AssignedRearArmor": -1
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "LeftArm",
-            "CurrentArmor": 120,
-            "CurrentRearArmor": -1,
-            "CurrentInternalStructure": 60,
-            "AssignedArmor": 120,
-            "AssignedRearArmor": -1
-        },
-        {
-            "DamageLevel": "Functional",
-            "Location": "LeftTorso",
-            "CurrentArmor": 110,
-            "CurrentRearArmor": 50,
-            "CurrentInternalStructure": 80,
-            "AssignedArmor": 110,
-            "AssignedRearArmor": 50
+            "AssignedRearArmor": 0
         },
         {
             "DamageLevel": "Functional",
@@ -72,6 +54,15 @@
         },
         {
             "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
             "Location": "RightTorso",
             "CurrentArmor": 110,
             "CurrentRearArmor": 50,
@@ -81,197 +72,185 @@
         },
         {
             "DamageLevel": "Functional",
-            "Location": "RightArm",
+            "Location": "LeftArm",
             "CurrentArmor": 120,
-            "CurrentRearArmor": -1,
+            "CurrentRearArmor": 0,
             "CurrentInternalStructure": 60,
             "AssignedArmor": 120,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 0
         },
         {
             "DamageLevel": "Functional",
             "Location": "LeftLeg",
             "CurrentArmor": 160,
-            "CurrentRearArmor": -1,
+            "CurrentRearArmor": 0,
             "CurrentInternalStructure": 80,
             "AssignedArmor": 160,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": 0
         },
         {
             "DamageLevel": "Functional",
             "Location": "RightLeg",
             "CurrentArmor": 160,
-            "CurrentRearArmor": -1,
+            "CurrentRearArmor": 0,
             "CurrentInternalStructure": 80,
             "AssignedArmor": 160,
-            "AssignedRearArmor": -1
+            "AssignedRearArmor": 0
         }
     ],
     "inventory": [
         {
             "MountedLocation": "Head",
             "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Hardened",
-            "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
-            "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
-            "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
-            "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
-            "SimGameUID": null,
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
-            "SimGameUID": null,
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_LRM_LRM10_Clantech_2",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
             "ComponentDefID": "Gear_Guardian_ECM_CLAN_2",
-            "SimGameUID": null,
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_Hyper_Laser_CLAN_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_Hyper_Laser_CLAN_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_Nova_CEWS_CLAN_2",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
-            "SimGameUID": null,
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_LRM_LRM10_Clantech_2",
-            "SimGameUID": null,
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Double",
-            "SimGameUID": null,
-            "ComponentDefType": "AmmunitionBox",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
-            "GUID": null,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Nova_CEWS_CLAN_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         }
     ]
 }

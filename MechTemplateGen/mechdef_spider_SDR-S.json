@@ -1,7 +1,6 @@
 {
   "MechTags": {
     "items": [
-      "unit_mech",
       "unit_light",
       "unit_jumpOK",
       "unit_range_short",
@@ -49,7 +48,7 @@
       "unit_ext_rare_NoFaction",
       "elite_arsenal",
       "elite_arsenal_s_tier",
-      "unit_superheavy_s_tier"
+      "unit_mech_s_tier"
     ],
     "tagSetSourceFile": ""
   },

@@ -1,226 +1,226 @@
 {
-  "Description": {
-    "Cost": 7800000,
-    "Rarity": 4,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Salamander",
-    "Id": "chassisdef_salamander_PPR-X1",
-    "Name": "Salamander",
-    "Details": "The Salamander is an assault fire support 'Mech that is built to carry out a mission similar to the Awesome: long range fire support and bombardment. The Salamander is powered by a Pitban 320 XL engine and is built on a Chariot Type IV Endo Steel chassis, allowing the 'Mech to dedicate over half of its weight to its weapons and the equipment needed to carry out its mission. The Salamander is armored with fifteen and a half tons of armor, which is heavy even for an assault class fire support 'Mech.  The Salamander's arsenal centers around its primary long-range weapons systems; three Doombud LRM-20 Racks. This heavy LRM payload allows the Salamander to put out one and a half times the downrange fire of an Archer. Additionally, the Salamander can sustain a barrage for three minutes at its maximum rate of fire, which is an impressive feat for a dedicated fire support 'Mech. For close range defense, the 'Mech carries two Defiance B3M medium lasers.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_awesome"
-  },
-  "MovementCapDefID": "movedef_salamander_PPR-5S",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_salamander",
-  "PrefabIdentifier": "chrprfmech_salamanderbase-001",
-  "PrefabBase": "salamander",
-  "Tonnage": 80,
-  "InitialTonnage": 22.5,
-  "weightClass": "ASSAULT",
-  "BattleValue": 7718000,
-  "Heatsinks": 30,
-  "TopSpeed": 105,
-  "TurnRadius": 90,
-  "MaxJumpjets": 4,
-  "Stability": 200,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": true,
-  "MeleeDamage": 120,
-  "MeleeInstability": 80,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 100,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 100,
-  "DFAInstability": 100,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
+    "Description": {
+        "Cost": 7800000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Salamander",
+        "Id": "chassisdef_salamander_PPR-X1",
+        "Name": "Salamander",
+        "Details": "The Salamander is an assault fire support 'Mech that is built to carry out a mission similar to the Awesome: long range fire support and bombardment. The Salamander is powered by a Pitban 320 XL engine and is built on a Chariot Type IV Endo Steel chassis, allowing the 'Mech to dedicate over half of its weight to its weapons and the equipment needed to carry out its mission. The Salamander is armored with fifteen and a half tons of armor, which is heavy even for an assault class fire support 'Mech.  The Salamander's arsenal centers around its primary long-range weapons systems; three Doombud LRM-20 Racks. This heavy LRM payload allows the Salamander to put out one and a half times the downrange fire of an Archer. Additionally, the Salamander can sustain a barrage for three minutes at its maximum rate of fire, which is an impressive feat for a dedicated fire support 'Mech. For close range defense, the 'Mech carries two Defiance B3M medium lasers.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_awesome"
     },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 130,
-      "MaxRearArmor": -1,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 170,
-      "MaxRearArmor": 85,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 250,
-      "MaxRearArmor": 125,
-      "InternalStructure": 125
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 170,
-      "MaxRearArmor": 85,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 130,
-      "MaxRearArmor": -1,
-      "InternalStructure": 65
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 170,
-      "MaxRearArmor": -1,
-      "InternalStructure": 85
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 170,
-      "MaxRearArmor": -1,
-      "InternalStructure": 85
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "z": -1
-    },
-    {
-      "x": -4,
-      "y": 15,
-      "z": -1
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": 4,
-      "y": 15,
-      "z": -1
-    },
-    {
-      "x": -4,
-      "y": 15,
-      "z": -1
-    },
-    {
-      "x": 3.5,
-      "y": 5.5,
-      "z": 1
-    },
-    {
-      "x": -3.5,
-      "y": 5.5,
-      "z": 1
-    }
-  ],
-  "VariantName": "PPR-X1",
-  "ChassisTags": {
-    "items": [
-      "elite_arsenal"
+    "MovementCapDefID": "movedef_salamander_PPR-5S",
+    "PathingCapDefID": "pathingdef_assault",
+    "HardpointDataDefID": "hardpointdatadef_salamander",
+    "PrefabIdentifier": "chrprfmech_salamanderbase-001",
+    "PrefabBase": "salamander",
+    "Tonnage": 80,
+    "InitialTonnage": 22.5,
+    "weightClass": "ASSAULT",
+    "BattleValue": 7718000,
+    "Heatsinks": 30,
+    "TopSpeed": 105,
+    "TurnRadius": 90,
+    "MaxJumpjets": 4,
+    "Stability": 200,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
     ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Assault Fire Support",
-  "YangsThoughts": "A nice powerful long range fire support mech, basically an Archer on steroids. It's kind of slow, but no worse than the Archer, and that massive barrage is really useful. If you have the funds for it, I'd love to see what this baby can do with a full set of Clan-spec missile racks.",
-  "FixedEquipment": [
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    }
-  ]
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 120,
+    "MeleeInstability": 80,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 100,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 100,
+    "DFAInstability": 100,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 170,
+            "MaxRearArmor": 85,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 250,
+            "MaxRearArmor": 125,
+            "InternalStructure": 125
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 170,
+            "MaxRearArmor": 85,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 170,
+            "MaxRearArmor": -1,
+            "InternalStructure": 85
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 14,
+            "z": 0
+        },
+        {
+            "x": 4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": -4,
+            "y": 15,
+            "z": -1
+        },
+        {
+            "x": 3.5,
+            "y": 5.5,
+            "z": 1
+        },
+        {
+            "x": -3.5,
+            "y": 5.5,
+            "z": 1
+        }
+    ],
+    "VariantName": "PPR-X1",
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Heavy Assault Fire Support",
+    "YangsThoughts": "A nice powerful long range fire support mech, basically an Archer on steroids. It's kind of slow, but no worse than the Archer, and that massive barrage is really useful. If you have the funds for it, I'd love to see what this baby can do with a full set of Clan-spec missile racks.",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

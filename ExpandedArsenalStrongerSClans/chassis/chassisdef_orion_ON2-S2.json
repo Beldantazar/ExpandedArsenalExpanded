@@ -1,0 +1,224 @@
+{
+  "Description": {
+    "Cost": 7500000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Orion",
+    "Id": "chassisdef_orion_ON2-S2",
+    "Name": "Orion",
+    "Details": "The 2K is another upgrade of the Orion using Star League technology. Released at the same time as the cheaper (and more popular) 2M variant the 'Mech uses an Endo Steel chassis and an XL engine to allow for even more saved weight for weaponry. For long-range combat, the ON2-K is armed with a Gauss rifle as well as an LRM-15 linked to an Artemis IV FCS for increased accuracy. For closer ranges, the 'Mech has a blistering array of five medium pulse lasers. Fourteen double heat sinks are needed to keep the heat fully undercontrol, but this required using Standard armor instead of Ferro-Fibrous to save space.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_orion"
+  },
+  "MovementCapDefID": "movedef_orion_ON1-K",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_orion",
+  "PrefabIdentifier": "chrPrfMech_orionBase-001",
+  "PrefabBase": "orion",
+  "Tonnage": 75,
+  "InitialTonnage": 19.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 7124000,
+  "Heatsinks": 45,
+  "TopSpeed": 64,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 95,
+  "MeleeInstability": 75,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 95,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 95,
+  "DFAInstability": 95,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 15,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 16,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "ON2-S2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Close Assault",
+  "YangsThoughts": "A beast at close ranges with all those pulse lasers and still capable of extensive long range firepower, this thing is a great upgrade to the older version, just watch out for how much heat that pulse laser array puts out."
+}
