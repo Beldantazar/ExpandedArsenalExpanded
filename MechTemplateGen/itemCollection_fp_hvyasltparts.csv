@@ -54,6 +54,14 @@ mechdef_orion_ON1-X1,MechPart,1,1
 mechdef_orion_ON1-S1,MechPart,1,1
 mechdef_orion_ON2-X2,MechPart,1,1
 mechdef_orion_ON2-S2,MechPart,1,1
+mechdef_cataphract_CTF-X,MechPart,1,1
+mechdef_cataphract_CTF-S,MechPart,1,1
+mechdef_novacat_NCT-X1,MechPart,1,1
+mechdef_novacat_NCT-S1,MechPart,1,1
+mechdef_novacat_NCT-X2,MechPart,1,1
+mechdef_novacat_NCT-S2,MechPart,1,1
+mechdef_novacat_NCT-X3,MechPart,1,1
+mechdef_novacat_NCT-S3,MechPart,1,1
 mechdef_grandtitan_T-IT-X1,MechPart,1,1
 mechdef_grandtitan_T-IT-S1,MechPart,1,1
 mechdef_grandtitan_T-IT-X2,MechPart,1,1
@@ -94,8 +102,8 @@ mechdef_bruin_BRN-X2,MechPart,1,1
 mechdef_bruin_BRN-S2,MechPart,1,1
 mechdef_jinggau_JN-X,MechPart,1,1
 mechdef_jinggau_JN-S,MechPart,1,1
-mechdef_jinggau_JN-X,MechPart,1,1
-mechdef_jinggau_JN-S,MechPart,1,1
+mechdef_jinggau_JN-X2,MechPart,1,1
+mechdef_jinggau_JN-S2,MechPart,1,1
 mechdef_bombardier_BMB-X,MechPart,1,1
 mechdef_bombardier_BMB-S,MechPart,1,1
 mechdef_atlas_AS7-D3-X,MechPart,1,1
@@ -238,3 +246,11 @@ mechdef_guillotine_GLT-X,MechPart,1,1
 mechdef_guillotine_GLT-S,MechPart,1,1
 mechdef_shootist_ST-X,MechPart,1,1
 mechdef_shootist_ST-S,MechPart,1,1
+mechdef_balar_BA1-X1,MechPart,1,1
+mechdef_balar_BA1-S1,MechPart,1,1
+mechdef_balar_BA1-X2,MechPart,1,1
+mechdef_balar_BA1-S2,MechPart,1,1
+mechdef_broadside_BS-X1,MechPart,1,1
+mechdef_broadside_BS-S1,MechPart,1,1
+mechdef_broadside_BS-X2,MechPart,1,1
+mechdef_broadside_BS-S2,MechPart,1,1

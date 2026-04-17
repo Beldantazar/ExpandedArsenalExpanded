@@ -1,0 +1,206 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_release",
+      "unit_heavy",
+      "unit_lance_assassin",
+      "unit_role_flanker",
+      "unit_bracket_high",
+      "elite_arsenal",
+      "elite_arsenal_s_tier",
+      "unit_mech_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_novacat_NCT-S3",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 10000000,
+    "Rarity": 1,
+    "Purchasable": false,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Nova Cat NCT-S3",
+    "Id": "mechdef_novacat_NCT-S3",
+    "Name": "Nova Cat",
+    "Details": "This variant of NovaCat introduces Clan ballistic capeability to the Onmimech.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_novacat"
+  },
+  "simGameMechPartCost": 3500000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 45,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 45,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 110,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 110,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 75,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 175,
+      "CurrentRearArmor": 40,
+      "CurrentInternalStructure": 110,
+      "AssignedArmor": 175,
+      "AssignedRearArmor": 40
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 115,
+      "CurrentRearArmor": 35,
+      "CurrentInternalStructure": 75,
+      "AssignedArmor": 115,
+      "AssignedRearArmor": 35
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 110,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 110,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 150,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 75,
+      "AssignedArmor": 150,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 120,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 75,
+      "AssignedArmor": 150,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+      "SimGameUID": "",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB5X",
+      "SimGameUID": "",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "SimGameUID": "",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+      "SimGameUID": "",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_AC5_CLAN",
+      "SimGameUID": "",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_AC5_CLAN",
+      "SimGameUID": "",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Autocannon_AC5_LBX_CLAN",
+      "SimGameUID": "",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+      "SimGameUID": "",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+      "SimGameUID": "",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": "",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": "",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

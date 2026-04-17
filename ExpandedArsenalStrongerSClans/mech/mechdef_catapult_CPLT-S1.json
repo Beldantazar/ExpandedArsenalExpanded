@@ -1,212 +1,240 @@
 {
-  "Description": {
-    "Cost": 5800000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Catapult CPLT-S1",
-    "Id": "mechdef_catapult_CPLT-S1",
-    "Name": "Catapult",
-    "Details": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_catapult"
-  },
-  "MovementCapDefID": "movedef_catapult_CPLT-C1",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_catapult",
-  "PrefabIdentifier": "chrPrfMech_catapultBase-001",
-  "PrefabBase": "catapult",
-  "Tonnage": 65,
-  "InitialTonnage": 26,
-  "weightClass": "HEAVY",
-  "BattleValue": 7144000,
-  "Heatsinks": 0,
-  "TopSpeed": 64,
-  "TurnRadius": 90,
-  "MaxJumpjets": 4,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 60,
-  "MeleeInstability": 65,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 80,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 80,
-  "DFAInstability": 80,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
+    "MechTags": {
+        "items": [
+            "unit_heavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_range_long",
+            "unit_indirectFire",
+            "unit_jumpOK",
+            "unit_hot",
+            "NotKurita",
+            "Liao",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_mech_s_tier"
+        ],
+        "tagSetSourceFile": ""
     },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
+    "ChassisID": "chassisdef_catapult_CPLT-S1",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 7410000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Catapult CPLT-S1",
+        "Id": "mechdef_catapult_CPLT-S1",
+        "Name": "Catapult",
+        "Details": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_catapult"
     },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    "simGameMechPartCost": 740000,
+    "Version": 1,
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 160,
+            "CurrentRearArmor": 55,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 160,
+            "AssignedRearArmor": 55
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 40
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 40
+        },
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 0
         }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 12,
-      "z": 1
-    },
-    {
-      "x": 4,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": -4,
-      "y": 12,
-      "z": 0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 12,
-      "z": 1
-    },
-    {
-      "x": 4,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": -4,
-      "y": 12,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 5,
-      "z": 0
-    }
-  ],
-  "VariantName": "CPLT-C1",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "Ah, the Catapult C1. Just like its namesake, it's good at lobbing large numbers of missiles over terrain without fear of return fire. Surprisingly, it's also not too shabby at closer ranges in a pinch.",
-  "ChassisID": "chassisdef_catapult_CPLT-S1"
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Heavy",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_MML-9_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_MML-9_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_ARTEMISIV_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

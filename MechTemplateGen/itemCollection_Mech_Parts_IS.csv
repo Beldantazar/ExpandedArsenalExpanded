@@ -11,6 +11,7 @@ mechdef_assassin_ASN-26,MechPart,1,1
 mechdef_assassin_ASN-27,MechPart,1,1
 mechdef_avatar_AV1-0G,MechPart,1,1
 mechdef_orion_ON2-K,MechPart,1,1
+mechdef_cataphract_CTF-4XE,MechPart,1,1
 mechdef_grandtitan_T-IT-N10M,MechPart,1,1
 mechdef_grandtitan_T-IT-N11M,MechPart,1,1
 mechdef_chimera_CMA-1S,MechPart,1,1
@@ -166,3 +167,16 @@ mechdef_falcon_FLC-4P,MechPart,1,1
 mechdef_falcon_FLC-4Nb,MechPart,1,1
 mechdef_lynx_LNX-9Q,MechPart,1,1
 mechdef_lynx_LNX-C,MechPart,1,1
+mechdef_balar_BA1-O,MechPart,1,1
+mechdef_balar_BA1-OA,MechPart,1,1
+mechdef_balar_BA1-OB,MechPart,1,1
+mechdef_balar_BA1-OC,MechPart,1,1
+mechdef_cyclone_CYC-A1,MechPart,1,1
+mechdef_cyclone_CYC-C1,MechPart,1,1
+mechdef_olympian_AL1-G8R,MechPart,1,1
+mechdef_sorcerer_SRC-1A,MechPart,1,1
+mechdef_sorcerer_SRC-1B,MechPart,1,1
+mechdef_sorcerer_SRC-1C,MechPart,1,1
+mechdef_broadside_BS-1D,MechPart,1,1
+mechdef_broadside_BS-2D,MechPart,1,1
+mechdef_broadside_BS-BB,MechPart,1,1

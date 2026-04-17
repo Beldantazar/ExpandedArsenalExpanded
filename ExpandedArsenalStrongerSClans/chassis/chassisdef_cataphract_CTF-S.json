@@ -1,0 +1,229 @@
+{
+  "Description": {
+    "Cost": 6600000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Cataphract",
+    "Id": "chassisdef_cataphract_CTF-S",
+    "Name": "Cataphract",
+    "Details": "This variant of the Cataphract takes advantage of more modern tech to free extra tonnage for its returning to the original prototype electronic warfare equipment from the 0X. Mounting significantly better firepower than the 0X model it brings an ER PPC, Gauss Rifle, two ER medium lasers and an MML-5, giving it weaponry for any range.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_cataphract"
+  },
+  "MovementCapDefID": "movedef_cataphract_CTF-1X",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_cataphract",
+  "PrefabIdentifier": "chrPrfMech_cataphractBase-001",
+  "PrefabBase": "cataphract",
+  "Tonnage": 70,
+  "InitialTonnage": 17.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 6577000,
+  "Heatsinks": 45,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 0,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 90,
+  "MeleeInstability": 70,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 90,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 90,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 220,
+      "MaxRearArmor": 110,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "CTF-S",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Brawler & Close Assault",
+  "YangsThoughts": "I'm surprised to see another variant with that prototype ewar equipment, but I guess it did perform better than the modern Guardians. This thing is also no slouch on the firepower or armor either, so it can actually hold its own without problem.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_Sensor_Prototype_EWE",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
+}

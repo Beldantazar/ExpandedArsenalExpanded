@@ -1,210 +1,221 @@
 {
-  "Description": {
-    "Cost": 7873010,
-    "Rarity": 2,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Exterminator",
-    "Id": "chassisdef_exterminator_EXT-S",
-    "Name": "Exterminator",
-    "Details": "The Exterminator is a BattleMech that was designed in 2630 for the most dubious, but necessary, of purposes: Head Hunting. The Exterminator was outfitted with a special Null-Signature System, heat baffles and, in some cases, a Chameleon Light Polarization Shield. These advanced systems allowed it to easily infiltrate enemy lines. Once the Exterminator breached the enemy's rear, its mission was to find and destroy as much of the enemy's command structure as possible. This mission profile included attacking mobile headquarters, field bases and command level officers. Rather than be part of the standard formation, Exterminators were attached to a regimental or higher headquarters unit, often as a fifth member of the command lance itself, before being assigned to individual units. A regiment was considered lucky to have more than one Exterminator, and it was not unusual for its parent unit to pull all assigned Exterminators and pool them for a specific mission. The weapons used by the Exterminator are not nearly as unique or high-tech as the onboard electronics. The primary weapons of the Exterminator are four Averell Highpoint medium lasers, two in each arm. For long-range engagements, the 'Mech also carries a Deadeye-10 LRM-10 launcher with 12 reloads in the center torso. These weapons are backed up by a single Dinatech Mark III small laser mounted in the head for when engagements close to point-blank range and, for defense against missile attacks, the Exterminator has a Buzzsaw anti-missile system in the right torso, with enough ammo to intercept 12 incoming volleys.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_exterminator"
-  },
-  "FixedEquipment": [],
-  "MovementCapDefID": "movedef_exterminator_EXT-4C",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_exterminator",
-  "PrefabIdentifier": "chrprfmech_exterminatorbase-001",
-  "PrefabBase": "exterminator",
-  "Tonnage": 65,
-  "InitialTonnage": 36.5,
-  "weightClass": "HEAVY",
-  "BattleValue": 3749000,
-  "Heatsinks": 45,
-  "TopSpeed": 85,
-  "TurnRadius": 90,
-  "MaxJumpjets": 6,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1.25,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1.25,
-  "Signature": 0,
-  "Radius": 4,
-  "PunchesWithLeftArm": true,
-  "MeleeDamage": 65,
-  "MeleeInstability": 65,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 60,
-  "DFAToHitModifier": 2,
-  "DFASelfDamage": 60,
-  "DFAInstability": 30,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [
+    "Description": {
+        "Cost": 7873010,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Exterminator",
+        "Id": "chassisdef_exterminator_EXT-S",
+        "Name": "Exterminator",
+        "Details": "The Exterminator is a BattleMech that was designed in 2630 for the most dubious, but necessary, of purposes: Head Hunting. The Exterminator was outfitted with a special Null-Signature System, heat baffles and, in some cases, a Chameleon Light Polarization Shield. These advanced systems allowed it to easily infiltrate enemy lines. Once the Exterminator breached the enemy's rear, its mission was to find and destroy as much of the enemy's command structure as possible. This mission profile included attacking mobile headquarters, field bases and command level officers. Rather than be part of the standard formation, Exterminators were attached to a regimental or higher headquarters unit, often as a fifth member of the command lance itself, before being assigned to individual units. A regiment was considered lucky to have more than one Exterminator, and it was not unusual for its parent unit to pull all assigned Exterminators and pool them for a specific mission. The weapons used by the Exterminator are not nearly as unique or high-tech as the onboard electronics. The primary weapons of the Exterminator are four Averell Highpoint medium lasers, two in each arm. For long-range engagements, the 'Mech also carries a Deadeye-10 LRM-10 launcher with 12 reloads in the center torso. These weapons are backed up by a single Dinatech Mark III small laser mounted in the head for when engagements close to point-blank range and, for defense against missile attacks, the Exterminator has a Buzzsaw anti-missile system in the right torso, with enough ammo to intercept 12 incoming volleys.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_exterminator"
+    },
+    "FixedEquipment": [
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_StealthSuite_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "SimGameUID": "",
+            "hasPrefabName": false,
+            "DamageLevel": "Functional"
         }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
-    },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 210,
-      "MaxRearArmor": 105,
-      "InternalStructure": 105
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 100,
-      "MaxRearArmor": -1,
-      "InternalStructure": 50
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 12.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 12.5,
-      "z": 0.5
-    },
-    {
-      "x": -2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": 2.5,
-      "y": 11.5,
-      "z": -0.5
-    },
-    {
-      "x": -2,
-      "y": 3,
-      "z": 0.5
-    },
-    {
-      "x": 2,
-      "y": 3,
-      "z": 0.5
-    }
-  ],
-  "VariantName": "EXT-S",
-  "ChassisTags": {
-    "items": [
-      "elite_arsenal_s_tier"
     ],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Heavy Assassination Striker",
-  "YangsThoughts": "A stealthy assassin, I had thought all of this model had been destroyed in the succession wars, but I guess we've gotten lucky and found a rare survivor."
+    "MovementCapDefID": "movedef_exterminator_EXT-4C",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_exterminator",
+    "PrefabIdentifier": "chrprfmech_exterminatorbase-001",
+    "PrefabBase": "exterminator",
+    "Tonnage": 65,
+    "InitialTonnage": 36.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 3749000,
+    "Heatsinks": 45,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 6,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1.25,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1.25,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": true,
+    "MeleeDamage": 65,
+    "MeleeInstability": 65,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 60,
+    "DFAToHitModifier": 2,
+    "DFASelfDamage": 60,
+    "DFAInstability": 30,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12.5,
+            "z": 0.5
+        },
+        {
+            "x": -2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": 2.5,
+            "y": 11.5,
+            "z": -0.5
+        },
+        {
+            "x": -2,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 2,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "EXT-S",
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Heavy Assassination Striker",
+    "YangsThoughts": "A stealthy assassin, I had thought all of this model had been destroyed in the succession wars, but I guess we've gotten lucky and found a rare survivor."
 }

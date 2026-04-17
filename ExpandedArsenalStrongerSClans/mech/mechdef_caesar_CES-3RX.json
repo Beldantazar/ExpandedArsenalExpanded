@@ -1,225 +1,237 @@
 {
-  "Description": {
-    "Cost": 6700000,
-    "Rarity": 5,
-    "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
-    "UIName": "Caesar CES-3RX",
-    "Id": "mechdef_caesar_CES-3RX",
-    "Name": "Caesar",
-    "Details": "The Caesar was built to do as much damage to an enemy at as great a stand-off range as possible. The 'Mech therefore carries primarily long-ranged armament.   The primary long-ranged weapon on the Caesar is a Poland Main Model A Gauss rifle that can shear off just under a ton of armor with each shot, fed from a 16-round magazine. This is backed up at long ranges by a Johnston High Speed ER PPC, which can do two-thirds of the damage of the Gauss rifle but is not dependent on limited ammunition. For close-range engagements, the Caesar carries four Sutel Precision Line medium pulse lasers, allowing it to put up a crippling defense against any enemies that can get close to the 'Mech. The large volume of heat sinks carried ensure the Caesar can fire all its weapons while hardly breaking a sweat, making it a popular choice for missions in areas of extremely high temperatures.",
-    "Icon": "uixTxrIcon_caesar"
-  },
-  "FixedEquipment": [],
-  "MovementCapDefID": "movedef_avatar_AV1-O",
-  "PathingCapDefID": "pathingdef_heavy",
-  "HardpointDataDefID": "hardpointdatadef_avatar",
-  "PrefabIdentifier": "chrprfmech_avatarbase-001",
-  "PrefabBase": "avatar",
-  "Tonnage": 70,
-  "InitialTonnage": 24,
-  "weightClass": "HEAVY",
-  "BattleValue": 6577000,
-  "Heatsinks": 30,
-  "TopSpeed": 120,
-  "TurnRadius": 90,
-  "MaxJumpjets": 4,
-  "Stability": 160,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 8,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 90,
-  "MeleeInstability": 70,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 90,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 90,
-  "DFAInstability": 90,
-  "Locations": [
-    {
-      "Location": "Head",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_heavy",
+            "unit_bracket_high",
+            "unit_lance_vanguard",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_release",
+            "unit_range_long",
+            "elite_forces"
+        ],
+        "tagSetSourceFile": ""
     },
-    {
-      "Location": "LeftArm",
-      "Hardpoints": [
+    "ChassisID": "chassisdef_caesar_CES-3RX",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Caesar CES-3RX",
+        "Id": "mechdef_caesar_CES-3RX",
+        "Name": "Caesar",
+        "Details": "The Caesar was built to do as much damage to an enemy at as great a stand-off range as possible. The 'Mech therefore carries primarily long-ranged armament.   The primary long-ranged weapon on the Caesar is a Poland Main Model A Gauss rifle that can shear off just under a ton of armor with each shot, fed from a 16-round magazine. This is backed up at long ranges by a Johnston High Speed ER PPC, which can do two-thirds of the damage of the Gauss rifle but is not dependent on limited ammunition. For close-range engagements, the Caesar carries four Sutel Precision Line medium pulse lasers, allowing it to put up a crippling defense against any enemies that can get close to the 'Mech. The large volume of heat sinks carried ensure the Caesar can fire all its weapons while hardly breaking a sweat, making it a popular choice for missions in areas of extremely high temperatures.",
+        "Icon": "uixTxrIcon_caesar"
+    },
+    "simGameMechPartCost": 2000000,
+    "Version": 1,
+    "Locations": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 110,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 45
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 110,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 110,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 0
         }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 110,
-      "MaxRearArmor": -1,
-      "InternalStructure": 55
-    },
-    {
-      "Location": "LeftTorso",
-      "Hardpoints": [
+    ],
+    "inventory": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Gauss_Gauss_1-M7",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPCER_1-MagnaFirestar",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 220,
-      "MaxRearArmor": 110,
-      "InternalStructure": 110
-    },
-    {
-      "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 150,
-      "MaxRearArmor": 75,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         },
         {
-          "WeaponMount": "Ballistic",
-          "Omni": false
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_1-RakerIV",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
         }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 110,
-      "MaxRearArmor": -1,
-      "InternalStructure": 55
-    },
-    {
-      "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    },
-    {
-      "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 150,
-      "MaxRearArmor": -1,
-      "InternalStructure": 75
-    }
-  ],
-  "LOSSourcePositions": [
-    {
-      "x": 0,
-      "y": 15,
-      "z": 1
-    },
-    {
-      "x": 4,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": -4,
-      "y": 14,
-      "z": 0
-    }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 15,
-      "z": 1
-    },
-    {
-      "x": 4,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": -4,
-      "y": 14,
-      "z": 0
-    },
-    {
-      "x": 3,
-      "y": 5,
-      "z": 0
-    },
-    {
-      "x": -3,
-      "y": 5,
-      "z": 0
-    }
-  ],
-  "VariantName": "AV1-O",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "First Generation Omnimech",
-  "YangsThoughts": "The first of the Inner Sphere OmniMechs to be conceptualized and one of the last to reach production by the Draconis Combine as part of its 'first generation', the Avatar's design is based on captured Vulture OmniMechs.",
-  "ChassisID": "chassisdef_caesar_CES-3RX"
+    ]
 }

@@ -1,3 +1,14 @@
+mechdef_minsk_MNK-101,Mech,1,1
+mechdef_minsk_MNK-102,Mech,1,1
+mechdef_minsk_MNK-103,Mech,1,1
+mechdef_woodsman_WDM-W,Mech,1,1
+mechdef_woodsman_WDM-PRIME,Mech,1,1
+mechdef_kingfisher_KFR-PRIME,Mech,1,1
+mechdef_kingfisher_KFR-W,Mech,1,1
+mechdef_scylla_SCL-1,Mech,1,1
+mechdef_scylla_SCL-W,Mech,1,1
+mechdef_mercuryii_MCY-100,Mech,1,1
+mechdef_mercuryii_MCY-110,Mech,1,1
 mechdef_naja_NJA-EC,Mech,1,1
 mechdef_naja_NJA-1,Mech,1,1
 mechdef_fox_FX-1,Mech,1,1
@@ -43,7 +54,7 @@ mechdef_bowman_BWM-3,Mech,1,1
 mechdef_conjurer_WVR-IIC-4,Mech,1,1
 mechdef_conjurer_WVR-IIC-8,Mech,1,1
 mechdef_grizzly_GRZ-1,Mech,1,1
-mechdef_grizzly_GRZ-1,Mech,1,1
+mechdef_grizzly_GRZ-2,Mech,1,1
 mechdef_darkcrow_DCR-1,Mech,1,1
 mechdef_shrike_SRK-1,Mech,1,1
 mechdef_shrike_SRK-2,Mech,1,1
@@ -51,3 +62,6 @@ mechdef_shrike_SRK-3,Mech,1,1
 mechdef_solitaire_SLT-1,Mech,1,1
 mechdef_tiburon_TBN-1,Mech,1,1
 mechdef_tiburon_TBN-2,Mech,1,1
+mechdef_medusa_MED-1,Mech,1,1
+mechdef_medusa_MED-3,Mech,1,1
+mechdef_medusa_MED-4,Mech,1,1

@@ -98,3 +98,9 @@ mechdef_lynx_LNX-X1,MechPart,1,1
 mechdef_lynx_LNX-S1,MechPart,1,1
 mechdef_lynx_LNX-X2,MechPart,1,1
 mechdef_lynx_LNX-S2,MechPart,1,1
+mechdef_medusa_MED-X1,MechPart,1,1
+mechdef_medusa_MED-S1,MechPart,1,1
+mechdef_medusa_MED-X2,MechPart,1,1
+mechdef_medusa_MED-S2,MechPart,1,1
+mechdef_medusa_MED-X3,MechPart,1,1
+mechdef_medusa_MED-S3,MechPart,1,1

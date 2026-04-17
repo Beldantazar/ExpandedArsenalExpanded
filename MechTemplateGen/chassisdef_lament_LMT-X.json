@@ -8,7 +8,7 @@
     "UIName": "Lament",
     "Id": "chassisdef_lament_LMT-X",
     "Name": "Lament",
-    "Details": "To achieve this 'Mech's principal focus in destroying its enemies, its weapons array is straightforward and to the point. The design's main guns come in the form of a pair of Magna Supernova Heavy Particle Projection Cannons, one per arm. Backing up the main guns are three Diverse Optics Sunfire Extended Medium Lasers in each of the side torso and in the head<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_lament"
   },
   "MovementCapDefID": "movedef_lament",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_lamentbase-001",
   "PrefabBase": "lament",
   "Tonnage": 65,
-  "InitialTonnage": 22.5,
+  "InitialTonnage": 23.5,
   "weightClass": "HEAVY",
   "BattleValue": 7144000,
   "Heatsinks": 30,
@@ -73,6 +73,14 @@
           "Omni": false
         },
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -92,6 +100,10 @@
         },
         {
           "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
           "Omni": false
         }
       ],
@@ -120,6 +132,10 @@
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -133,6 +149,14 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -217,5 +241,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Fire Support",
-  "YangsThoughts": "To achieve this 'Mech's principal focus in destroying its enemies, its weapons array is straightforward and to the point. The design's main guns come in the form of a pair of Magna Supernova Heavy Particle Projection Cannons, one per arm. Backing up the main guns are three Diverse Optics Sunfire Extended Medium Lasers in each of the side torso and in the head"
+  "YangsThoughts": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System."
 }

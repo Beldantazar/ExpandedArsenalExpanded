@@ -1,0 +1,245 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_tank",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_role_flanker",
+            "unit_bracket_low",
+            "unit_range_short",
+            "unit_release",
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_sorcerer_SRC-X1",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Sorcerer SRC-X1",
+        "Id": "mechdef_sorcerer_SRC-X1",
+        "Name": "Sorcerer",
+        "Details": "StarCorps Industries's Project: SORCERER was shrouded in such secrecy that the first Sorcerer Battlemechs just seemed to appear in Star League Defense Force ranks where they were met with varying degrees of suspicion. The 95-ton Sorcerer 1A is built around a PlasmaStar 380XL engine to propel it to a respectable 64.8km/h which enables the Sorcerer to bring its arsenal and Guardian ECM Suite to the enemy. The design carries a pair of Ceres Arms Smasher PPCs, a pair of Donal Snub-Nose PPCs, a pair of Magna MkII Medium Lasers, and a Magna MkI Small Laser. A staggering twenty Double Heat Sinks is barely enough to keep the weapons' heat generation in check.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_sorcerer"
+    },
+    "simGameMechPartCost": 2000000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 225,
+            "CurrentRearArmor": 70,
+            "CurrentInternalStructure": 150,
+            "AssignedArmor": 225,
+            "AssignedRearArmor": 70
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 155,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 155,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 155,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 155,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 175,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 175,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 175,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 175,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_1-Donal",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_1-Donal",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_1-Donal",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPCSnub_1-Donal",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_LIGHT_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Guardian_ECM_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Kite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Heavy_Defensive_Suite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_PPC_Capacitator_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

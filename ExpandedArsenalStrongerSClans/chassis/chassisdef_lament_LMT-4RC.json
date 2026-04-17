@@ -1,0 +1,252 @@
+{
+    "Description": {
+        "Cost": 5800000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Lament",
+        "Id": "chassisdef_lament_LMT-4RC",
+        "Name": "Lament",
+        "Details": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System.",
+        "Icon": "uixTxrIcon_lament"
+    },
+    "MovementCapDefID": "movedef_lament",
+    "PathingCapDefID": "pathingdef_heavy",
+    "HardpointDataDefID": "hardpointdatadef_lament",
+    "PrefabIdentifier": "chrprfmech_lamentbase-001",
+    "PrefabBase": "lament",
+    "Tonnage": 65,
+    "InitialTonnage": 20.5,
+    "weightClass": "HEAVY",
+    "BattleValue": 7144000,
+    "Heatsinks": 30,
+    "TopSpeed": 64,
+    "TurnRadius": 90,
+    "MaxJumpjets": 5,
+    "Stability": 160,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 8,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 60,
+    "MeleeInstability": 65,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 80,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 80,
+    "DFAInstability": 80,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 210,
+            "MaxRearArmor": 105,
+            "InternalStructure": 105
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 150,
+            "MaxRearArmor": 75,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 100,
+            "MaxRearArmor": -1,
+            "InternalStructure": 50
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 150,
+            "MaxRearArmor": -1,
+            "InternalStructure": 75
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 0
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 12,
+            "z": 1
+        },
+        {
+            "x": 4,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": -4,
+            "y": 12,
+            "z": 0
+        },
+        {
+            "x": 3,
+            "y": 5,
+            "z": 0
+        },
+        {
+            "x": -3,
+            "y": 5,
+            "z": 0
+        }
+    ],
+    "VariantName": "LMT-4RC",
+    "ChassisTags": {
+        "items": [
+
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Heavy Fire Support",
+    "YangsThoughts": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System."
+}
+

@@ -126,6 +126,14 @@
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -202,6 +210,6 @@
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Heavy Energy Skirmisher",
+  "StockRole": "Heavy Missile Fire Support",
   "YangsThoughts": "This version is a much needed improvement, it's got decent damage at any distance, and machine guns to defend itself at close range."
 }

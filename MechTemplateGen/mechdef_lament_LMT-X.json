@@ -21,7 +21,7 @@
     "UIName": "Lament LMT-X",
     "Id": "mechdef_lament_LMT-X",
     "Name": "Lament",
-    "Details": "To achieve this 'Mech's principal focus in destroying its enemies, its weapons array is straightforward and to the point. The design's main guns come in the form of a pair of Magna Supernova Heavy Particle Projection Cannons, one per arm. Backing up the main guns are three Diverse Optics Sunfire Extended Medium Lasers in each of the side torso and in the head.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_lament"
   },
   "simGameMechPartCost": 3500000,
@@ -103,7 +103,7 @@
   "inventory": [
     {
       "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_PPC_PPC_HEAVY",
+      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -114,18 +114,7 @@
     },
     {
       "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_PPC_HEAVY",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "Head",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -136,7 +125,7 @@
     },
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -147,7 +136,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
       "SimGameUID": null,
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
@@ -158,18 +147,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
       "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -180,18 +158,7 @@
     },
     {
       "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
       "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -202,7 +169,29 @@
     },
     {
       "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
       "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
@@ -214,6 +203,72 @@
     {
       "MountedLocation": "RightTorso",
       "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
       "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,

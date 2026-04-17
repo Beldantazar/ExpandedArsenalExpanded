@@ -1,0 +1,210 @@
+{
+  "Description": {
+    "Cost": 2123540,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Cyclone",
+    "Id": "chassisdef_cyclone_CYC-S",
+    "Name": "Cyclone",
+    "Details": "After the lack-luster reaction to the Cyclone B2 in most markets, Magna Metals Inc., in collaboration with Hollis Incorporated, developed the C1 variant. The Cyclone C1 is built around the same Magna 210XL engine of the A1 variant. Using the same Endo-Steel chassis of the B2, the C1 replaces the weapons payload of the B2 with a Magna Firestar ER PPC, a pair of Magna Mk VI ER Medium Lasers, a Guardian ECM Suite, and an additional Double Heat Sink.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_cyclone"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_cyclone_CYC-C1",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_cyclone",
+  "PrefabIdentifier": "chrprfmech_cyclonebase-001",
+  "PrefabBase": "cyclone",
+  "Tonnage": 30,
+  "InitialTonnage": 12.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 4642000,
+  "Heatsinks": 45,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 7,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 35,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 35,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 35,
+  "DFAInstability": 35,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 8,
+      "z": 0
+    },
+    {
+      "x": 2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": -2,
+      "y": 8,
+      "z": -1
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0
+    }
+  ],
+  "VariantName": "CYC-S",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Scout and Harasser",
+  "YangsThoughts": "An all energy version of the classic, the extra weight savings from that chassis mean you can mount a surprisingly heavy amount of energy weaponry for how light the mech is."
+}

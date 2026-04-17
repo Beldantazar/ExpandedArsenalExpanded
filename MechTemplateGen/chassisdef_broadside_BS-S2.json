@@ -1,0 +1,260 @@
+{
+  "Description": {
+    "Cost": 9000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Broadside",
+    "Id": "chassisdef_broadside_BS-S2",
+    "Name": "Broadside",
+    "Details": "The Broadside is a relatively new chassis to the battlefields of the Inner Sphere but Solaris VII never misses an opportunity for innovation. In that vein comes Blunderbuss, a Broadside with a knock-out punch. Built on the same Endo-Steel skeleton as the regular Broadside, the Blunderbuss swaps the rugged standard engine for an advanced Clan-grade 300-rated XL. It uses this extra free weight to mount a dizzying array of firepower, with a Silver Bullet Gauss Rifle and a Hyper-Assault Gauss Rifle/30 forming the core of the array. An Clan-spec Gauss Rifle and ER PPC round out the guns, ensuring that the Blunderbuss can one-tap just about anything it can catch. The heat is decently managed by the 12 double heat sinks mounted to it.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_broadside"
+  },
+  "MovementCapDefID": "movedef_broadside_BS-BB",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_broadside",
+  "PrefabIdentifier": "chrprfmech_broadsidebase-001",
+  "PrefabBase": "broadside",
+  "Tonnage": 100,
+  "InitialTonnage": 20.5,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 45,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 95,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 125,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 125,
+  "DFAInstability": 125,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 310,
+      "MaxRearArmor": 155,
+      "InternalStructure": 155
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 170,
+      "MaxRearArmor": -1,
+      "InternalStructure": 85
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 19,
+      "z": 0
+    },
+    {
+      "x": 4.5,
+      "y": 16,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 16,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 19,
+      "z": 0
+    },
+    {
+      "x": 4.5,
+      "y": 16,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 16,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "BS-S2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "YangsThoughts": "An odd layout, with mismatched Gauss Rifles and I'm not honestly sure why, but it seems to work ok so I guess if it works it works.",
+  "StockRole": "Assault Sniper and Striker",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_General_GM_Ballistic_Siege_Compensators",
+      "SimGameUID": "",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    }
+  ]
+}

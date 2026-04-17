@@ -22,7 +22,9 @@
         "chrprfmech_erisbase-001_50",
         "chrprfmech_jackrabbitbase-001_25",
         "chrprfmech_slingbase-001_25",
-        "chrprfmech_gltbase-001_70"
+        "chrprfmech_gltbase-001_70",
+        "chrprfmech_cyclonebase-001_30",
+        "chrprfmech_medusabase-001_50"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

@@ -116,7 +116,7 @@
     },
     {
         "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_catapult_CPLT-C1.json",
-        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_catapult_CPLT-C1.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_catapult_CPLT-C1.json",
         "newMechName": "Catapult",
         "newMechDesignation": "CPLT",
         "newMechModelNumber": "C1",
@@ -161,13 +161,13 @@
         }
     },
     {
-        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_lament_LMT-2R.json",
-        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_lament_LMT-2R.json",
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_lament_LMT-4RC.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_lament_LMT-4RC.json",
         "newMechName": "Lament",
         "newMechDesignation": "LMT",
-        "newMechModelNumber": "2R",
+        "newMechModelNumber": "4RC",
         "newMechVariant": false,
-        "newEliteForcesVariant": true,
+        "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
@@ -1759,6 +1759,120 @@
         },
         "details": "The 2K is another upgrade of the Orion using Star League technology. Released at the same time as the cheaper (and more popular) 2M variant the 'Mech uses an Endo Steel chassis and an XL engine to allow for even more saved weight for weaponry. For long-range combat, the ON2-K is armed with a Gauss rifle as well as an LRM-15 linked to an Artemis IV FCS for increased accuracy. For closer ranges, the 'Mech has a blistering array of five medium pulse lasers. Fourteen double heat sinks are needed to keep the heat fully undercontrol, but this required using Standard armor instead of Ferro-Fibrous to save space.",
         "yangsThoughts": "A beast at close ranges with all those pulse lasers and still capable of extensive long range firepower, this thing is a great upgrade to the older version, just watch out for how much heat that pulse laser array puts out."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_cataphract_CTF-2X.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_cataphract_CTF-2X.json",
+        "newMechName": "Cataphract",
+        "newMechDesignation": "CTF",
+        "newMechModelNumber": "4XE",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 0, 0, 0, 0 ]
+        },
+        "Heatsinks": 30,
+        "fixedEquipment": [
+            [],
+            [],
+            [ "Gear_Sensor_Prototype_EWE" ],
+            [],
+            [],
+            [],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "This variant of the Cataphract takes advantage of more modern tech to free extra tonnage for its returning to the original prototype electronic warfare equipment from the 0X. Mounting significantly better firepower than the 0X model it brings an ER PPC, Gauss Rifle, two ER medium lasers and an MML-5, giving it weaponry for any range.",
+        "yangsThoughts": "I'm surprised to see another variant with that prototype ewar equipment, but I guess it did perform better than the modern Guardians. This thing is also no slouch on the firepower or armor either, so it can actually hold its own without problem."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_NovaCat_NCT-Prime.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_NovaCat_NCT-Prime.json",
+        "newMechName": "Nova Cat",
+        "newMechDesignation": "NCT",
+        "newMechModelNumber": "Prime",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_NovaCat_NCT-B.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_NovaCat_NCT-B.json",
+        "newMechName": "Nova Cat",
+        "newMechDesignation": "NCT",
+        "newMechModelNumber": "B",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_NovaCat_NCT-C.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_NovaCat_NCT-C.json",
+        "newMechName": "Nova Cat",
+        "newMechDesignation": "NCT",
+        "newMechModelNumber": "C",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        }
     },
     {
         "baseTemplateFileName": "..\\EliteForces\\elitechassis\\chassisdef_atlas_AS7-DX1.json",
@@ -3448,7 +3562,7 @@
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 65,
         "mechEngine": 325,
         "xlEngine": true,
@@ -3501,7 +3615,7 @@
             "Missile": [ 0, 0, 2, 0, 2, 1, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 1, 0, 0 ]
         },
-        "stockRole": "Heavy Energy Skirmisher",
+        "stockRole": "Heavy Missile Fire Support",
         "useMountIdNaming": false,
         "itemColAssignment": {
             "mech": {
@@ -3543,7 +3657,7 @@
             "Missile": [ 0, 0, 2, 0, 2, 1, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 1, 0, 0 ]
         },
-        "stockRole": "Heavy Energy Skirmisher",
+        "stockRole": "Heavy Missile Fire Support",
         "useMountIdNaming": false,
         "itemColAssignment": {
             "mech": {
@@ -3583,9 +3697,9 @@
             "Energy": [ 0, 1, 0, 0, 0, 0, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 2, 0, 2, 1, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 1, 0, 0 ]
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 3, 0, 0 ]
         },
-        "stockRole": "Heavy Energy Skirmisher",
+        "stockRole": "Heavy Missile Fire Support",
         "useMountIdNaming": false,
         "itemColAssignment": {
             "mech": {
@@ -4379,7 +4493,7 @@
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
-        "baseMechFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
         "newMechName": "Caesar",
         "newMechDesignation": "CES",
         "newMechModelNumber": "3R",
@@ -4399,7 +4513,7 @@
         "xlEngine": true,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 0, 1, 1, 0, 1, 2, 0, 0 ],
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -4421,7 +4535,7 @@
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
-        "baseMechFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
         "newMechName": "Caesar",
         "newMechDesignation": "CES",
         "newMechModelNumber": "4R",
@@ -4441,7 +4555,7 @@
         "xlEngine": true,
         "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 0, 1, 1, 1, 1, 2, 0, 0 ],
+            "Energy": [ 0, 2, 1, 1, 1, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
@@ -9086,7 +9200,7 @@
         },
         "itemColAssignment": {
             "mech": {
-                "itemCol": [ "itemCollection_Mech_iS" ],
+                "itemCol": [ "itemCollection_Mech_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmechs" ]
             },
             "mechPart": {
@@ -9126,7 +9240,7 @@
         },
         "itemColAssignment": {
             "mech": {
-                "itemCol": [ "itemCollection_Mech_iS" ],
+                "itemCol": [ "itemCollection_Mech_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmechs" ]
             },
             "mechPart": {
@@ -9166,7 +9280,7 @@
         },
         "itemColAssignment": {
             "mech": {
-                "itemCol": [ "itemCollection_Mech_iS" ],
+                "itemCol": [ "itemCollection_Mech_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmechs" ]
             },
             "mechPart": {
@@ -9206,7 +9320,7 @@
         },
         "itemColAssignment": {
             "mech": {
-                "itemCol": [ "itemCollection_Mech_iS" ],
+                "itemCol": [ "itemCollection_Mech_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmechs" ]
             },
             "mechPart": {
@@ -9699,7 +9813,7 @@
         "icon": "uixTxrIcon_hunchback",
         "initialTonnage": null,
         "newMechVariant": true,
-        "Heatsinks": 0,
+        "Heatsinks": 30,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": false,
         "includeModelNumberInEAVariant": false,
@@ -10941,5 +11055,671 @@
         },
         "details": "The Lynx was first produced in 2761 by Blue Shot Weapons of Solaris VII for use by the SLDF. One of the first BattleMechs to be designed around an ER PPC, the Lynx possesses a stunning combination of speed, mobility, armor, and firepower for any 'Mech of any weight class. However, Blue Shot Weapons never was able to produce this striker BattleMech in significant numbers. With the decline of technology of the Succession Wars, Blue Shot's production dwindled still, until the factory producing the Lynx was destroyed in 2928 by Marik raiders. The few remaining Lynxes were ultimately cannibalized for whatever could be salvaged. Beyond the Inner Sphere, a number of Lynx would accompany the Exodus fleet, serving as an operating partner with the Sling during Clan Smoke Jaguar's involvement in Operation KLONDIKE. The Lynx would remain popular with Jaguar warriors and would even be rebuilt with Clan-technology before being overshadowed by the introduction of the OmniMech. Relegated to second-line garrison troops, the so-called Lynx C would serve in the Jaguars doomed defense of Huntress against the Inner Sphere during Operation SERPENT. The Lynx is powered by a Nissan 275 XL extralight engine that allows the 'Mech to reach speeds of up to 86.4 km/h. Adding to its mobility, five Luxor Load Lifters jump jets provide the Lynx with a jumping distance of up to 150 meters. The Lynx is protected by 12 tons of Kallon Unity Weave armor, which almost provides the maximum protection that a 55 ton 'Mech can carry. Finally, to dissipate the waste heat produced by all of its energy weapons, the Lynx has 15 double heat sinks. Clan Smoke Jaguar's Clan technology rebuild retaining the same ground speed and jump radius as its forebear, but the weapon suite is now an Type 22 ER PPC, Series 7J ER large laser, Kolibri Delta large pulse laser, Series 2a ER medium laser, and Series 1b ER small laser. To offset the increased heat, engineers replaced two tons of armor with double heat sinks, bringing the total to 17.",
         "yangsThoughts": "Pretty much the same basic mech as the regular Lynx, its already so good the Clans couldn't do that much to improve it other than put on Endo Steel and upgrade the guns to clan-spec. The problem is that the upgrade to clan spec energy weapons makes it generate so much more heat that it overheats in half the time."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Balar",
+        "newMechDesignation": "BA1",
+        "newMechModelNumber": "O",
+        "prefabName": "balar",
+        "prefabId": "chrprfmech_balarbase-001",
+        "hardpointData": "hardpointdatadef_balar",
+        "icon": "uixTxrIcon_ebonjaguar",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 350,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "stockRole": "Heavy Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Balar was concepted by Luthien Armor Works after the Clan Invasion and was based on Smoke Jaguar Ebon Jaguars, captured during the Battle of Luthien. Built around a similarly fast 350-rated XL Engine and constructed on a similar, but heavier, Endo-Steel frame than its progenitor, the Balar entered production right at the end of the 3050s and was fairly rapidly sold to other manufacturers throughout the Inner Sphere in order to recoup manufacturing costs. The Balar's Prime configuration uses a LB-10X Autocannon for primary punch while an ER PPC and LRM-10 cover longer ranges. A Streak SRM-2 helps to ward away pesky light mechs that get too close for comfort.",
+        "yangsThoughts": "It weighs more than the original Clan version it's based on, but it's got less firepower because of the heavier Inner Sphere weaponry. It's a fine mech, but you might want to put Clan weaponry on it to maximize the firepower."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Balar",
+        "newMechDesignation": "BA1",
+        "newMechModelNumber": "OA",
+        "prefabName": "balar",
+        "prefabId": "chrprfmech_balarbase-001",
+        "hardpointData": "hardpointdatadef_balar",
+        "icon": "uixTxrIcon_ebonjaguar",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 70,
+        "mechEngine": 350,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "stockRole": "Heavy Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Balar was concepted by Luthien Armor Works after the Clan Invasion and was based on Smoke Jaguar Ebon Jaguars, captured during the Battle of Luthien. Built around a similarly fast 350-rated XL Engine and constructed on a similar, but heavier, Endo-Steel frame than its progenitor, the Balar entered production right at the end of the 3050s and was fairly rapidly sold to other manufacturers throughout the Inner Sphere in order to recoup manufacturing costs. The Balar's Prime configuration uses a LB-10X Autocannon for primary punch while an ER PPC and LRM-10 cover longer ranges. A Streak SRM-2 helps to ward away pesky light mechs that get too close for comfort.",
+        "yangsThoughts": "A little more focused punch than the prime layout, but I think the machine guns could just be dropped to reduce explosion risk."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Balar",
+        "newMechDesignation": "BA1",
+        "newMechModelNumber": "OB",
+        "prefabName": "balar",
+        "prefabId": "chrprfmech_balarbase-001",
+        "hardpointData": "hardpointdatadef_balar",
+        "icon": "uixTxrIcon_ebonjaguar",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 350,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "stockRole": "Heavy Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Balar was concepted by Luthien Armor Works after the Clan Invasion and was based on Smoke Jaguar Ebon Jaguars, captured during the Battle of Luthien. Built around a similarly fast 350-rated XL Engine and constructed on a similar, but heavier, Endo-Steel frame than its progenitor, the Balar entered production right at the end of the 3050s and was fairly rapidly sold to other manufacturers throughout the Inner Sphere in order to recoup manufacturing costs. The Balar's B configuration is an all-energy config, centered around two Large Pulse Lasers and a PPC. For backup firepower it carries an ER Medium Laser, Medium Pulse Laser, and two Small Lasers. For extra battlefield utility it carries a rare Beagle Active Probe and to keep it cold it carries 15 double heat sinks",
+        "yangsThoughts": "All energy based, so it has nothing to explode and can just keep fighting forever as long as you don't overheat, but it does generate a lot of heat."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Balar",
+        "newMechDesignation": "BA1",
+        "newMechModelNumber": "OC",
+        "prefabName": "balar",
+        "prefabId": "chrprfmech_balarbase-001",
+        "hardpointData": "hardpointdatadef_balar",
+        "icon": "uixTxrIcon_ebonjaguar",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 350,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "stockRole": "Heavy Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Balar was concepted by Luthien Armor Works after the Clan Invasion and was based on Smoke Jaguar Ebon Jaguars, captured during the Battle of Luthien. Built around a similarly fast 350-rated XL Engine and constructed on a similar, but heavier, Endo-Steel frame than its progenitor, the Balar entered production right at the end of the 3050s and was fairly rapidly sold to other manufacturers throughout the Inner Sphere in order to recoup manufacturing costs.  The Balar's C is a mixed attacker, using a LB-2X Autocannon and twin LRM-15s for long range firepower while making use of twin SRM-4s at close range. Five total tons of ammunition keep the guns firing in any situation.",
+        "yangsThoughts": "The exact opposite of the B layout, this thing is all ammo based, which means it basically never overheats, but it has a lot of stuff that can blow up inside it."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_kitfox_PRIME.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_kitfox_PRIME.json",
+        "newMechName": "Cyclone",
+        "newMechDesignation": "CYC",
+        "newMechModelNumber": "A1",
+        "prefabName": "cyclone",
+        "prefabId": "chrprfmech_cyclonebase-001",
+        "hardpointData": "hardpointdatadef_cyclone",
+        "icon": "uixTxrIcon_mongoose",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 30,
+        "mechEngine": 210,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Light Scout and Harasser",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "Designed by Hollis Incorporated as a platform to sell Magna Metals engines, the Cyclone A1 began mass-manufacture in 2631 and fell out of production when the Star League fell, only returning in the 3060s. Sporting a Magna 210XL Fusion engine, the Cyclone A1 can reach and maintain speeds up to 118kph. Sold as a Scout Mech, the A1 features both a Guardian ECM Suite and a Beagle Active Probe which leaves just enough space for its light weapons payload consisting of a pair of Longfire V LRM 5s in the arms and a pair of Magna Mk II Medium Lasers in the side torsos.",
+        "yangsThoughts": "Nice to see that some of the older designs have made a comeback, this thing is extremely fast, but very lightly armed, so you'll need to keep it moving if you want it to survive."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_kitfox_PRIME.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_kitfox_PRIME.json",
+        "newMechName": "Cyclone",
+        "newMechDesignation": "CYC",
+        "newMechModelNumber": "C1",
+        "prefabName": "cyclone",
+        "prefabId": "chrprfmech_cyclonebase-001",
+        "hardpointData": "hardpointdatadef_cyclone",
+        "icon": "uixTxrIcon_mongoose",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 30,
+        "mechEngine": 210,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Light Scout and Harasser",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "After the lack-luster reaction to the Cyclone B2 in most markets, Magna Metals Inc., in collaboration with Hollis Incorporated, developed the C1 variant. The Cyclone C1 is built around the same Magna 210XL engine of the A1 variant. Using the same Endo-Steel chassis of the B2, the C1 replaces the weapons payload of the B2 with a Magna Firestar ER PPC, a pair of Magna Mk VI ER Medium Lasers, a Guardian ECM Suite, and an additional Double Heat Sink.",
+        "yangsThoughts": "An all energy version of the classic, the extra weight savings from that chassis mean you can mount a surprisingly heavy amount of energy weaponry for how light the mech is."
+    },
+    {
+        "baseTemplateFileName": "..\\superheavies\\chassis\\chassisdef_matarII_SAM-RS-MT2.json",
+        "baseMechFileName": "..\\superheavies\\mech\\mechdef_matarII_SAM-RS-MT2.json",
+        "newMechName": "Olympian",
+        "newMechDesignation": "AL1",
+        "newMechModelNumber": "G8R",
+        "prefabName": "alligator",
+        "prefabId": "chrprfmech_alligatorbase-001",
+        "hardpointData": "hardpointdatadef_alligator",
+        "icon": "uixTxrIcon_superheavy",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 60,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": true,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 120,
+        "mechEngine": 360,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 2, 1, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Superheavy Brawler and Fire Support",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "With their immediate neighbors working on superheavy battlemechs, House Marik found itself behind the technological 8-ball. In order to ensure the FWLM could compete on a new, heavier battlefield, Thomas Marik commissioned Project Olympian, House Marik's superheavy construction project. The resultant mech, the AL1-G8R Olympian, proved effective albeit expensive. Armed with twin capacitor fed Heavy PPCs as well as four each MML-5s and ER Small Lasers. The Olympian proved successful though its cost and grueling maintenance requirements kept it from wider production.",
+        "yangsThoughts": "A nice mix of energy and missile support, it can hold its own in most situations, but I can't help but wonder how much better it might perform with Clan grade equipment."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_huronw_HUR-WO-R4L.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_huronw_HUR-WO-R4L.json",
+        "newMechName": "Medusa",
+        "newMechDesignation": "MED",
+        "newMechModelNumber": "1",
+        "prefabName": "medusa",
+        "prefabId": "chrprfmech_medusabase-001",
+        "hardpointData": "hardpointdatadef_medusa",
+        "icon": "uixTxrIcon_vindicator",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 50,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 1, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 1, 0, 0 ]
+        },
+        "stockRole": "Medium Scount and Flanker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "During the Golden Century, Clan Cloud Cobra, just like most of the clans, enjoyed considerable growth and relative peace which allowed them to pour time and resources into laboratories and research and development projects. One such result of these efforts was the Medusa, a 50-ton brain-child of Josian Cloister scientists. The 300XL Engine, Endo-Steel chassis, and Ferro-Fibrous armor makes the Medusa a considerably expensive 'Mech yet an effective one. First and foremost, the Medusa was designed around a trio of Clan SRM-6s spread across the torso and around the 'mech's distinctive cockpit cowling. As a longer-ranged complement to the array of SRMs, the design mounts a Large Pulse Laser and two ER Medium Lasers.",
+        "yangsThoughts": "A nicely balanced medium 'Mech, not much for long range firepower other than the pulse laser, but those SRMs will rip through anything it can get close to."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_huronw_HUR-WO-R4L.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_huronw_HUR-WO-R4L.json",
+        "newMechName": "Medusa",
+        "newMechDesignation": "MED",
+        "newMechModelNumber": "3",
+        "prefabName": "medusa",
+        "prefabId": "chrprfmech_medusabase-001",
+        "hardpointData": "hardpointdatadef_medusa",
+        "icon": "uixTxrIcon_vindicator",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 50,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 1, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 1, 0, 0 ]
+        },
+        "stockRole": "Medium Scount and Flanker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "During the Golden Century, Clan Cloud Cobra, just like most of the clans, enjoyed considerable growth and relative peace which allowed them to pour time and resources into laboratories and research and development projects. One such result of these efforts was the Medusa, a 50-ton brain-child of Josian Cloister scientists. The 300XL Engine, Endo-Steel chassis, and Ferro-Fibrous armor makes the Medusa a considerably expensive 'Mech yet an effective one. The MED-3 takes an unusual tack with the mech, concentrating the firepower into a massive Ultra AC/20, backed up by a SRM-6 and a pair of ER Medium Lasers.",
+        "yangsThoughts": "Pretty much just a transport for the UAC 20 with some extra guns strapped to the side, great up close but a bit fragile when getting in range."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_huronw_HUR-WO-R4L.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_huronw_HUR-WO-R4L.json",
+        "newMechName": "Medusa",
+        "newMechDesignation": "MED",
+        "newMechModelNumber": "4",
+        "prefabName": "medusa",
+        "prefabId": "chrprfmech_medusabase-001",
+        "hardpointData": "hardpointdatadef_medusa",
+        "icon": "uixTxrIcon_vindicator",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 50,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 4, 1, 1, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 2, 0, 0 ]
+        },
+        "stockRole": "Medium Scount and Flanker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "During the Golden Century, Clan Cloud Cobra, just like most of the clans, enjoyed considerable growth and relative peace which allowed them to pour time and resources into laboratories and research and development projects. One such result of these efforts was the Medusa, a 50-ton brain-child of Josian Cloister scientists. The 300XL Engine, Endo-Steel chassis, and Ferro-Fibrous armor makes the Medusa a considerably expensive 'Mech yet an effective one. The MED-4 focuses on being a missile cloud, mounting a whopping seven ATM-3 launchers as well as a single ER Large Laser. 6 tons of ammo keeps the ATMs firing on all cylinders.",
+        "yangsThoughts": "A weird design overall, it really goes all in on the missiles but at the same time it spreads them out strangely across the chassis."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Sorcerer",
+        "newMechDesignation": "SRC",
+        "newMechModelNumber": "1A",
+        "prefabName": "sorcerer",
+        "prefabId": "chrprfmech_sorcererbase-001",
+        "hardpointData": "hardpointdatadef_sorcerer",
+        "icon": "uixTxrIcon_shadowhawkiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 0, 2, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Assault PPC Carrier",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            }
+        },
+        "details": "StarCorps Industries's Project: SORCERER was shrouded in such secrecy that the first Sorcerer Battlemechs just seemed to appear in Star League Defense Force ranks where they were met with varying degrees of suspicion. The 95-ton Sorcerer 1A is built around a PlasmaStar 380XL engine to propel it to a respectable 64.8km/h which enables the Sorcerer to bring its arsenal and Guardian ECM Suite to the enemy. The design carries a pair of Ceres Arms Smasher PPCs, a pair of Donal Snub-Nose PPCs, a pair of Magna MkII Medium Lasers, and a Magna MkI Small Laser. A staggering twenty Double Heat Sinks is barely enough to keep the weapons' heat generation in check.",
+        "yangsThoughts": "A big PPC carrying brawler, this thing is good at both long and short ranges with those snubbies, but it definitely has issues with overheating."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Sorcerer",
+        "newMechDesignation": "SRC",
+        "newMechModelNumber": "1B",
+        "prefabName": "sorcerer",
+        "prefabId": "chrprfmech_sorcererbase-001",
+        "hardpointData": "hardpointdatadef_sorcerer",
+        "icon": "uixTxrIcon_shadowhawkiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 0, 3, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 1, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Assault Fire Support",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            }
+        },
+        "details": "Shortly after the Sorcerer 1A began walking off of the StarCorps Industries production lines on Fletcher, the Sorcerer 1B began production in the satellite facility on Crofton. The 1B variant trades in the array of PPCs and Lasers for a Blankenburg Technologies ER PPC, a pair of Artemis IV-enhanced Holly LRM15s, and a trio of Defiance P5M Medium Pulse Lasers. The reduced Heat generation of this payload allowed designers to remove the five external Double Heat Sinks and freed up room for CASE in the right torso.",
+        "yangsThoughts": "An interesting layout change, swapping the PPCs for LRMs allows it to do indirect fire, but it could probably use updating to either Clan spec or MMLs these days."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Sorcerer",
+        "newMechDesignation": "SRC",
+        "newMechModelNumber": "1C",
+        "prefabName": "sorcerer",
+        "prefabId": "chrprfmech_sorcererbase-001",
+        "hardpointData": "hardpointdatadef_sorcerer",
+        "icon": "uixTxrIcon_shadowhawkiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 0, 2, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 1, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Assault Fire Support",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            }
+        },
+        "details": "Despite being designed for Urban and close-quarters warfare, the Sorcerer 1C variant drops the pair Snub-Nosed PPCs of the original Sorcerer 1A in favor of the easier-to-obtain Blankenburg Large Pulse Lasers. Less surprisingly, the 1A's PPC and laser complement is replaced by a quartet of Magna 400P Medium Pulse Lasers and a pair of Holly Streak SRM2s. The Sorcerer 1C dedicates eight tons to mount four Pitban LFT-50 jump jets to propel it 120 meters in short bursts and utilizes only sixteen Double Heat Sinks.",
+        "yangsThoughts": "Honestly, I have to say that the designers of this were a bit crazy to swap out the snubbies for pulse lasers when making something for urban combat, even if they are cheaper."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Broadside",
+        "newMechDesignation": "BS",
+        "newMechModelNumber": "1D",
+        "prefabName": "broadside",
+        "prefabId": "chrprfmech_broadsidebase-001",
+        "hardpointData": "hardpointdatadef_broadside",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 1, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 1, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 2, 0, 0, 0 ]
+        },
+        "stockRole": "Assault Sniper and Striker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Developed by Iroquois Machinery Limited as their first entry into true BattleMech production, the Broadside has been met with heavy skepticism by Davion MechWarriors. However, after an impressive showing from a cadet in the 1st Conroe Training Battalion against a Kuritan Atlas, the Broadside is coming to be more broadly accepted. The design is built around a 300-rated fusion engine with Endo-Steel bones for extra weight saving. True to its Davion roots, the Broadside uses a mixture of autocannons for primary firepower (a LB-10X, UAC/10, and RAC/2 specifically). For backup, the Broadside carries a brace of lasers and a flamer. The dense armor provides more than enough protection while CASE II protects the substantial ammunition bins.",
+        "yangsThoughts": "A lot of power in this thing, not very fast, but a nice heir to the design of the Annihilator, it even has the same ballistic compensators."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Broadside",
+        "newMechDesignation": "BS",
+        "newMechModelNumber": "2D",
+        "prefabName": "broadside",
+        "prefabId": "chrprfmech_broadsidebase-001",
+        "hardpointData": "hardpointdatadef_broadside",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 3, 0, 3, 1, 0, 0 ]
+        },
+        "stockRole": "Assault Sniper and Striker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Developed by Iroquois Machinery Limited as their first entry into true BattleMech production, the Broadside has been met with heavy skepticism by Davion MechWarriors. However, after an impressive showing from a cadet in the 1st Conroe Training Battalion against a Kuritan Atlas, the Broadside is coming to be more broadly accepted. The design is built around a 300-rated fusion engine with Endo-Steel bones for extra weight saving. True to its Davion roots, the Broadside uses a mixture of autocannons for primary firepower, a pair of Ultra Autocannon/10s and an Ultra Autocannon/5 in this case. For backup, the Broadside carries a small number of ER Medium Lasers. The dense armor provides more than enough protection while CASE II protects the substantial ammunition bins.",
+        "yangsThoughts": "More consistency in the autocannons but shorter ranger brackets, you'll have to be careful to avoid getting flanked while bringing the bigger 10's to bear."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Broadside",
+        "newMechDesignation": "BS",
+        "newMechModelNumber": "BB",
+        "prefabName": "broadside",
+        "prefabId": "chrprfmech_broadsidebase-001",
+        "hardpointData": "hardpointdatadef_broadside",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 2, 1, 2, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "stockRole": "Assault Sniper and Striker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The Broadside is a relatively new chassis to the battlefields of the Inner Sphere but Solaris VII never misses an opportunity for innovation. In that vein comes Blunderbuss, a Broadside with a knock-out punch. Built on the same Endo-Steel skeleton as the regular Broadside, the Blunderbuss swaps the rugged standard engine for an advanced Clan-grade 300-rated XL. It uses this extra free weight to mount a dizzying array of firepower, with a Silver Bullet Gauss Rifle and a Hyper-Assault Gauss Rifle/30 forming the core of the array. An Clan-spec Gauss Rifle and ER PPC round out the guns, ensuring that the Blunderbuss can one-tap just about anything it can catch. The heat is decently managed by the 12 double heat sinks mounted to it.",
+        "yangsThoughts": "An odd layout, with mismatched Gauss Rifles and I'm not honestly sure why, but it seems to work ok so I guess if it works it works."
     }
 ]
