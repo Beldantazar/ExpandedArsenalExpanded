@@ -1,281 +1,241 @@
 {
-  "MechTags": {
-    "items": [
-      "unit_mech",
-      "unit_heavy",
-      "unit_release",
-      "unit_lance_support",
-      "unit_role_sniper",
-      "elite_arsenal"
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_heavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_lament_LMT-X",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Lament LMT-X",
+        "Id": "mechdef_lament_LMT-X",
+        "Name": "Lament",
+        "Details": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_lament"
+    },
+    "simGameMechPartCost": 3500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 120,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 120,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 0
+        }
     ],
-    "tagSetSourceFile": ""
-  },
-  "ChassisID": "chassisdef_lament_LMT-X",
-  "HeraldryID": null,
-  "Description": {
-    "Cost": 10000000,
-    "Rarity": 3,
-    "Purchasable": true,
-    "Manufacturer": null,
-    "Model": null,
-    "UIName": "Lament LMT-X",
-    "Id": "mechdef_lament_LMT-X",
-    "Name": "Lament",
-    "Details": "Based on the LMT-3C, this version of the 'Mech uses a mix of Clan weaponry and equipment. The 4RC has four Clan-produced Improved Heavy Large Lasers in place of three ER PPCs. The 'Mech's Inner Sphere Double Heat Sinks are exchanged for twenty one Clan Double Heat Sinks, while retaining the 3C's C3 Slave Unit and Radical Heatsink System.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_lament"
-  },
-  "simGameMechPartCost": 3500000,
-  "Version": 1,
-  "Locations": [
-    {
-      "DamageLevel": "Functional",
-      "Location": "Head",
-      "CurrentArmor": 45,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 16,
-      "AssignedArmor": 45,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftArm",
-      "CurrentArmor": 100,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 50,
-      "AssignedArmor": 100,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftTorso",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": 40,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": 40
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "CenterTorso",
-      "CurrentArmor": 170,
-      "CurrentRearArmor": 45,
-      "CurrentInternalStructure": 105,
-      "AssignedArmor": 170,
-      "AssignedRearArmor": 45
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightTorso",
-      "CurrentArmor": 120,
-      "CurrentRearArmor": 40,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 120,
-      "AssignedRearArmor": 40
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightArm",
-      "CurrentArmor": 100,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 50,
-      "AssignedArmor": 100,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftLeg",
-      "CurrentArmor": 150,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 150,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightLeg",
-      "CurrentArmor": 150,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 75,
-      "AssignedArmor": 150,
-      "AssignedRearArmor": -1
-    }
-  ],
-  "inventory": [
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Weapon_Laser_HeavyLargeLaser_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftLeg",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    }
-  ]
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Plasma_RefinedPlasmaPPC_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Plasma_RefinedPlasmaPPC_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_PPC_Capacitator_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Kite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

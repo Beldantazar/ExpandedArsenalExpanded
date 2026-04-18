@@ -146,8 +146,8 @@ mechdef_bruin_BRN-X2,MechPart,1,1
 mechdef_bruin_BRN-S2,MechPart,1,1
 mechdef_jinggau_JN-X,MechPart,1,1
 mechdef_jinggau_JN-S,MechPart,1,1
-mechdef_jinggau_JN-X,MechPart,1,1
-mechdef_jinggau_JN-S,MechPart,1,1
+mechdef_jinggau_JN-X2,MechPart,1,1
+mechdef_jinggau_JN-S2,MechPart,1,1
 mechdef_bombardier_BMB-X,MechPart,1,1
 mechdef_bombardier_BMB-S,MechPart,1,1
 mechdef_atlas_AS7-D3-X,MechPart,1,1
@@ -224,8 +224,8 @@ mechdef_battleaxe_BKX-X,MechPart,1,1
 mechdef_battleaxe_BKX-S,MechPart,1,1
 mechdef_battleaxe_BKX-X,MechPart,1,1
 mechdef_battleaxe_BKX-S,MechPart,1,1
-mechdef_bellerophon_BKX-X,MechPart,1,1
-mechdef_bellerophon_BKX-S,MechPart,1,1
+mechdef_bellerophon_BEL-X,MechPart,1,1
+mechdef_bellerophon_BEL-S,MechPart,1,1
 mechdef_hammerhands_HMH-X1,MechPart,1,1
 mechdef_hammerhands_HMH-S1,MechPart,1,1
 mechdef_hammerhands_HMH-X2,MechPart,1,1
@@ -248,8 +248,12 @@ mechdef_exterminator_EXT-X,MechPart,1,1
 mechdef_exterminator_EXT-S,MechPart,1,1
 mechdef_lancelot_LNC25-X,MechPart,1,1
 mechdef_lancelot_LNC25-S,MechPart,1,1
+mechdef_lancelot_LNC25-X2,MechPart,1,1
+mechdef_lancelot_LNC25-S2,MechPart,1,1
 mechdef_lancelot_LNC25-C-X,MechPart,1,1
 mechdef_lancelot_LNC25-C-S,MechPart,1,1
+mechdef_lancelot_LNC25-C2-X2,MechPart,1,1
+mechdef_lancelot_LNC25-C2-S2,MechPart,1,1
 mechdef_pillager_PLG-X,MechPart,1,1
 mechdef_pillager_PLG-S,MechPart,1,1
 mechdef_pillager_PLG-X,MechPart,1,1
@@ -294,3 +298,7 @@ mechdef_balar_BA1-X1,MechPart,1,1
 mechdef_balar_BA1-S1,MechPart,1,1
 mechdef_balar_BA1-X2,MechPart,1,1
 mechdef_balar_BA1-S2,MechPart,1,1
+mechdef_broadside_BS-X1,MechPart,1,1
+mechdef_broadside_BS-S1,MechPart,1,1
+mechdef_broadside_BS-X2,MechPart,1,1
+mechdef_broadside_BS-S2,MechPart,1,1

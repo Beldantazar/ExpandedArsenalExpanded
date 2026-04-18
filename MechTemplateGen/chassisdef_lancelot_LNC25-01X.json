@@ -59,6 +59,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -70,6 +74,10 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -101,6 +109,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -112,6 +124,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false

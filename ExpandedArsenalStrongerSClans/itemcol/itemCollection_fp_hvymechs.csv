@@ -82,8 +82,8 @@ mechdef_sidewinder_SDW-X,Mech,1,1
 mechdef_sidewinder_SDW-S,Mech,1,1
 mechdef_jinggau_JN-X,Mech,1,1
 mechdef_jinggau_JN-S,Mech,1,1
-mechdef_jinggau_JN-X,Mech,1,1
-mechdef_jinggau_JN-S,Mech,1,1
+mechdef_jinggau_JN-X2,Mech,1,1
+mechdef_jinggau_JN-S2,Mech,1,1
 mechdef_bombardier_BMB-X,Mech,1,1
 mechdef_bombardier_BMB-S,Mech,1,1
 mechdef_tomahawk_THK-X1,Mech,1,1
@@ -122,8 +122,8 @@ mechdef_battleaxe_BKX-X,Mech,1,1
 mechdef_battleaxe_BKX-S,Mech,1,1
 mechdef_battleaxe_BKX-X,Mech,1,1
 mechdef_battleaxe_BKX-S,Mech,1,1
-mechdef_bellerophon_BKX-X,Mech,1,1
-mechdef_bellerophon_BKX-S,Mech,1,1
+mechdef_bellerophon_BEL-X,Mech,1,1
+mechdef_bellerophon_BEL-S,Mech,1,1
 mechdef_hammerhands_HMH-X1,Mech,1,1
 mechdef_hammerhands_HMH-S1,Mech,1,1
 mechdef_hammerhands_HMH-X2,Mech,1,1
@@ -136,8 +136,12 @@ mechdef_exterminator_EXT-X,Mech,1,1
 mechdef_exterminator_EXT-S,Mech,1,1
 mechdef_lancelot_LNC25-X,Mech,1,1
 mechdef_lancelot_LNC25-S,Mech,1,1
+mechdef_lancelot_LNC25-X2,Mech,1,1
+mechdef_lancelot_LNC25-S2,Mech,1,1
 mechdef_lancelot_LNC25-C-X,Mech,1,1
 mechdef_lancelot_LNC25-C-S,Mech,1,1
+mechdef_lancelot_LNC25-C2-X2,Mech,1,1
+mechdef_lancelot_LNC25-C2-S2,Mech,1,1
 mechdef_bowman_BWM-X1,Mech,1,1
 mechdef_bowman_BWM-S1,Mech,1,1
 mechdef_bowman_BWM-X2,Mech,1,1

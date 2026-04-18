@@ -8,16 +8,16 @@
     "UIName": "Lancelot",
     "Id": "chassisdef_lancelot_LNC25-X",
     "Name": "Lancelot",
-    "Details": "The Lancelot was originally conceived in response to a Star League Defense Force contract for a medium BattleMech that could operate with minimal logistical support, was fast enough to take part in mobile operations, and packed sufficient firepower to be a viable threat on the battlefield. With this criteria in mind, Krupp Technologies attempted to combine the speed of a medium 'Mech with the survivability of a heavy 'Mech in the Lancelot. Despite the use of a lightweight engine, the production Lancelot ended up in the heavyweight class, but the SLDF was impressed enough with the unit's speed and firepower during its trial runs to make an initial order of 250 in 2581. This prototype Lancelot variant was produced by Krupp prior to Amaris' seizure of Terra. An upgrade of the LNC25-01, it uses an Endo-Steel chassis and ferro-fibrous armor. The weapons array is same, except the large lasers are Extended Range Type and four jump jets are added for mobility. Early field tests revealed that the inclusion of jump jets did little to improve the design, with most pilots requesting either more armoring or more heat sinks instead.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "The Lancelot was originally conceived in response to a Star League Defense Force contract for a medium BattleMech that could operate with minimal logistical support, was fast enough to take part in mobile operations, and packed sufficient firepower to be a viable threat on the battlefield. With this criteria in mind, Krupp Technologies attempted to combine the speed of a medium 'Mech with the survivability of a heavy 'Mech in the Lancelot. Despite the use of a lightweight engine, the production Lancelot ended up in the heavyweight class, but the SLDF was impressed enough with the unit's speed and firepower during its trial runs to make an initial order of 250 in 2581. The weapons carried by the Lancelot cover almost the entire range of energy weapons available and gave it firepower equivalent to that found in many assault 'Mechs. Its primary armament is a Kinslaughter PPC mounted in the right side of its torso. The Kinslaughter has a tendency to generate more heat than other particle cannons if not properly maintained. This is backed up by two Krupp Model 32 Large Lasers in rotating arm mounts, known among MechWarriors as 'Fur Burners' for their excellent performance, and a single Krupp Model 2 medium laser in the chest.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_lancelot"
   },
-  "MovementCapDefID": "movedef_lancelot_LNC25-01X",
+  "MovementCapDefID": "movedef_lancelot_LNC25-01",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_lancelot",
   "PrefabIdentifier": "chrprfmech_lancelotbase-001",
   "PrefabBase": "lancelot",
   "Tonnage": 60,
-  "InitialTonnage": 26.5,
+  "InitialTonnage": 29.5,
   "weightClass": "HEAVY",
   "Heatsinks": 30,
   "MaxJumpjets": 6,
@@ -58,6 +58,14 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -114,6 +122,14 @@
       "Hardpoints": [
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -194,7 +210,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Energy Sniper",
-  "YangsThoughts": "An interesting prototype version of this mech, I think the original pilots are right, and either more armor, more heatsinks or more guns would be better.",
+  "YangsThoughts": "Nice find, Commander, a repairable original Star League era model Lancelot. That rangefinder that matches the one on the rifleman will be helpful in shooting things from the safety of distance.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",
