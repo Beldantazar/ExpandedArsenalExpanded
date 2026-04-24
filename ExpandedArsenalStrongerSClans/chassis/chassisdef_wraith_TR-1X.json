@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_wraithbase-001",
   "PrefabBase": "wraith",
   "Tonnage": 55,
-  "InitialTonnage": 12.0,
+  "InitialTonnage": 32.0,
   "weightClass": "MEDIUM",
   "BattleValue": 5148000,
   "Heatsinks": 30,
@@ -66,6 +66,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -76,7 +80,16 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 130,
@@ -94,7 +107,16 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 130,
@@ -104,6 +126,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false

@@ -8,16 +8,16 @@
     "UIName": "Starslayer",
     "Id": "chassisdef_starslayer_STY-X1",
     "Name": "Starslayer",
-    "Details": "TThe Starslayer was intended to replace the Crab as the Star League's standard medium 'Mech after Cosara Weaponries were unable to meet the SLDF's required production volumes. Though Blue Shot's design won selection in 2765, the Starslayer would also be plagued with technical delays with its tracking system that would delay full production until 2772 and the Amaris Civil War. Despite the SLDF's desperate need for matériel, tensions between General Kerensky and Archon Robert Steiner II would result in Blue Shot delaying SLDF shipments until 2781 due to lack of 'up-to-date' shipping information and as a result the Starslayer would be far more common in the Lyran Commonwealth Armed Forces service than the SLDF. By now a thoroughly Lyran Commonwealth design, production of the original 2C Starslayer would cease during the technological decline of the early Succession Wars. The discovery of the Helm Memory Core and the desperate rearmament race spawned by the attacking Clans would lead Blue Shot Weaponry to resume production with the superior and updated STY-3C model in wake of the initial Clan Invasion.[6][3] The resurrected Starslayer would go on to become a mainstay of both the Lyran Alliance and Lyran Commonwealth Armed Forces as a optimal raider, its mobility and largely energy based loadout allowing it to stay in the field nearly indefinitely. The application of Lyran and Clan Sea Fox built Clan-tech weaponry has only enhanced its abilities yet further and the Starslayer figured prominently in Task Force Kingbreaker during the Dark Age era. The Clan Invasion era Starslayer is built on a lightweight Thor-4 Endo Steel chassis and reaches a top speed of 86.4 km/h with its Magna 250 fusion engine. The Starslayer also has five Odin's Own Model 34z jump jets which give it the ability to jump up to one hundred and fifty meters. Finally, the design carries nine and a half tons of Norse-34 ferro-fibrous with CASE. The CASE protects the BattleMech from complete destruction in the event of an ammunition explosion. The primary weapons on the Starslayer are a pair of BlazeFire Systems Large Lasers that provide the 'Mech with a striking distance of up to four hundred and fifty meters. For close range combat, the Starslayer has two Defiance B3M medium lasers and a Defiance B4M small laser. Finally, to allow the Starslayer to find and exploit weak points in an enemy's armor, it also carries a TharHes 4 Pack SRM-4 launcher.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "TThe Starslayer was intended to replace the Crab as the Star League's standard medium 'Mech after Cosara Weaponries were unable to meet the SLDF's required production volumes. Though Blue Shot's design won selection in 2765, the Starslayer would also be plagued with technical delays with its tracking system that would delay full production until 2772 and the Amaris Civil War. Despite the SLDF's desperate need for matériel, tensions between General Kerensky and Archon Robert Steiner II would result in Blue Shot delaying SLDF shipments until 2781 due to lack of 'up-to-date' shipping information and as a result the Starslayer would be far more common in the Lyran Commonwealth Armed Forces service than the SLDF. By now a thoroughly Lyran Commonwealth design, production of the original 2C Starslayer would cease during the technological decline of the early Succession Wars. The original Starslayer, introduced in 2772, used a standard chassis and only mounted seven tons of ferro-fibrous armor, carrying an array of lasers developed in-house by Blueshot including Blueshot large lasers, Razzing Devil medium lasers and a Blueshot Standard small laser. Only the Moonshot missile rack had to be licensed for manufacture.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_starslayer"
   },
-  "MovementCapDefID": "movedef_starslayer_STY-3C",
+  "MovementCapDefID": "movedef_starslayer_STY-2C",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_starslayer",
   "PrefabIdentifier": "chrprfmech_starslayerbase-001",
   "PrefabBase": "starslayer",
   "Tonnage": 50,
-  "InitialTonnage": 21.0,
+  "InitialTonnage": 23.5,
   "weightClass": "MEDIUM",
   "BattleValue": 4124000,
   "Heatsinks": 30,
@@ -111,6 +111,10 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -122,6 +126,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -204,5 +212,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Medium Skirmisher",
-  "YangsThoughts": "Similar to a Crab, as it was intended to be, this thing mounts a nice array of energy weapons, but I can't help thinking it could do more with some Clan-spec gear."
+  "YangsThoughts": "An antique similar in concept to a Crab, as it was intended, but the lack of the modern version's endo-steel means that it's a bit low in armor."
 }

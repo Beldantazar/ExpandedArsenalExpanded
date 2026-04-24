@@ -24,7 +24,7 @@
     "UIName": "Merlin MLN-1AX",
     "Id": "mechdef_merlin_MLN-1AX",
     "Name": "Merlin",
-    "Details": "An upgraded variant of the original 1A, this one keeps the weapons loadout of the original and instead upgrades it to double heat sinks and then uses the saved weight to add some more armor and an extra laser.",
+    "Details": "An upgraded variant of the original 1A, it upgrades the heat sinks to doubles and also changes the chassis to endosteel and changes to an XL engine, the additional saved weight is used to change to a loadout of multiple snubnosed PPCs instead of the original.",
     "Icon": "uixTxrIcon_merlin"
   },
   "simGameMechPartCost": 690000,

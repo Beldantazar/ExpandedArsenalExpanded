@@ -104,7 +104,12 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 140,
@@ -197,7 +202,7 @@
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Long Range Sniper",
+  "StockRole": "Close In Brawler",
   "YangsThoughts": "I thought these had all gone extinct, but I guess there were still some examples floating around out there. This thing is a solid workhorse with a nicely varied set of weaponry able to work at any range, though it is more short ranged than the original model with its Gauss Rifle.",
   "FixedEquipment": [
     {

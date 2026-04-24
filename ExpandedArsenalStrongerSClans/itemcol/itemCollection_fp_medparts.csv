@@ -14,8 +14,12 @@ mechdef_enforcer_ENF-X,MechPart,1,1
 mechdef_enforcer_ENF-S,MechPart,1,1
 mechdef_blitzkrieg_BTZ-X,MechPart,1,1
 mechdef_blitzkrieg_BTZ-S,MechPart,1,1
-mechdef_bombard_BMB-X,MechPart,1,1
-mechdef_bombard_BMB-S,MechPart,1,1
+mechdef_bombard_BMB-X1,MechPart,1,1
+mechdef_bombard_BMB-S1,MechPart,1,1
+mechdef_bombard_BMB-X2,MechPart,1,1
+mechdef_bombard_BMB-S2,MechPart,1,1
+mechdef_bombard_BMB-X3,MechPart,1,1
+mechdef_bombard_BMB-S3,MechPart,1,1
 mechdef_hunchbackiic_HBK-IIC-X,MechPart,1,1
 mechdef_hunchbackiic_HBK-IIC-S,MechPart,1,1
 mechdef_trebuchet_TBT-X,MechPart,1,1
@@ -74,6 +78,8 @@ mechdef_sentinel_STN-X,MechPart,1,1
 mechdef_sentinel_STN-S,MechPart,1,1
 mechdef_starslayer_STY-X1,MechPart,1,1
 mechdef_starslayer_STY-S1,MechPart,1,1
+mechdef_starslayer_STY-X2,MechPart,1,1
+mechdef_starslayer_STY-S2,MechPart,1,1
 mechdef_wyvern_WVE-X,MechPart,1,1
 mechdef_wyvern_WVE-S,MechPart,1,1
 mechdef_wyvern_WVE-X,MechPart,1,1

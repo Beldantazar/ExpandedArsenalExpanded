@@ -8,7 +8,7 @@
     "UIName": "Ice Ferret",
     "Id": "chassisdef_iceferret_IFR-S",
     "Name": "Ice Ferret",
-    "Details": "In its primary configuration, the Ice Ferret is capable of acting in a variety of roles. The Ice Ferret carries an Active Probe allowing the 'Mech to detect hidden enemy units. For close combat, the Ice Ferret prime has a Streak SRM-2 launcher and an ER Small Laser. For long range engagements, the 'Mech is armed with a single ER PPC, giving it excellent long range hitting power for its size.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "The A configuration carries a single LB-X Autocannon/2 for its excellent long range sniping capabilities. This is backed up by two ER Medium Lasers for close combat capabilities and a single Anti-Missile System for added defense against missile weapons.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_iceferret"
   },
   "FixedEquipment": [],
@@ -18,7 +18,7 @@
   "PrefabIdentifier": "chrprfmech_iceferretbase-001",
   "PrefabBase": "iceferret",
   "Tonnage": 45,
-  "InitialTonnage": 25,
+  "InitialTonnage": 24,
   "weightClass": "MEDIUM",
   "BattleValue": 4252000,
   "Heatsinks": 45,
@@ -61,19 +61,11 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Ballistic",
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Ballistic",
           "Omni": false
         }
       ],
@@ -94,7 +86,24 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 140,
@@ -114,11 +123,11 @@
       "Location": "RightArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         },
         {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -199,5 +208,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Scout",
-  "YangsThoughts": "In its primary configuration, the Ice Ferret is capable of acting in a variety of roles. The Ice Ferret carries an Active Probe allowing the 'Mech to detect hidden enemy units. For close combat, the Ice Ferret prime has a Streak SRM-2 launcher and an ER Small Laser. For long range engagements, the 'Mech is armed with a single ER PPC, giving it excellent long range hitting power for its size."
+  "YangsThoughts": "The A configuration carries a single LB-X Autocannon/2 for its excellent long range sniping capabilities. This is backed up by two ER Medium Lasers for close combat capabilities and a single Anti-Missile System for added defense against missile weapons."
 }

@@ -24,7 +24,7 @@
     "UIName": "Merlin MLN-X2",
     "Id": "mechdef_merlin_MLN-X2",
     "Name": "Merlin",
-    "Details": "This Merlin variant is a deadly infighter. Only the flamer and LRM-5 remain from its original armament. Each arm now holds a Medium Variable Speed Pulse Laser and the right torso now contains a Large Variable Speed Pulse Laser. These highly accurate lasers give this Merlin a devastating damage capacity up close. Heavy Ferro-Fibrous armor covers this variant and thirteen double heat sinks can struggle to keep this variant cool.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "Another completely reworked variant with weight saving technologies, this time it changes to a ballistic focused loadout with twin ultra autocannon 5s to keep the heat generation down.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_merlin"
   },
   "simGameMechPartCost": 690000,

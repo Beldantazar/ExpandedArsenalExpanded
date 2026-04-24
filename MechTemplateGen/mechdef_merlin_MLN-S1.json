@@ -25,7 +25,7 @@
     "UIName": "Merlin MLN-S1",
     "Id": "mechdef_merlin_MLN-S1",
     "Name": "Merlin",
-    "Details": "An upgraded variant of the original 1A, this one keeps the weapons loadout of the original and instead upgrades it to double heat sinks and then uses the saved weight to add some more armor and an extra laser.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "An upgraded variant of the original 1A, it upgrades the heat sinks to doubles and also changes the chassis to endosteel and changes to an XL engine, the additional saved weight is used to change to a loadout of multiple snubnosed PPCs instead of the original.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_merlin"
   },
   "simGameMechPartCost": 690000,

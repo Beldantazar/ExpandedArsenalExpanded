@@ -380,6 +380,16 @@
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 60,
+        "mechEngine": 240,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 2, 0, 1, 1, 0, 0 ]
+        },
         "Heatsinks": 30,
         "itemColAssignment": {
             "mech": {
@@ -391,8 +401,8 @@
                 "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
             }
         },
-        "details": "An upgraded variant of the original 1A, this one keeps the weapons loadout of the original and instead upgrades it to double heat sinks and then uses the saved weight to add some more armor and an extra laser.",
-        "yangsThoughts": "A definite upgrade over the base mech, this one doesn't really change anything about how it works just makes it better, and I can't really complain about that."
+        "details": "An upgraded variant of the original 1A, it upgrades the heat sinks to doubles and also changes the chassis to endosteel and changes to an XL engine, the additional saved weight is used to change to a loadout of multiple snubnosed PPCs instead of the original.",
+        "yangsThoughts": "A definite upgrade over the base mech, it completely reworks the weapons loadout for the better, though it is very short ranged."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_merlin_MLN-1A.json",
@@ -406,6 +416,10 @@
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
         "Heatsinks": 30,
+        "mechTonnage": 60,
+        "mechEngine": 240,
+        "xlEngine": false,
+        "chassisType": "Standard",
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_IS" ],
@@ -431,6 +445,10 @@
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
         "Heatsinks": 30,
+        "mechTonnage": 60,
+        "mechEngine": 240,
+        "xlEngine": false,
+        "chassisType": "Standard",
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_IS" ],
@@ -452,9 +470,13 @@
         "newMechModelNumber": "1P",
         "newMechVariant": true,
         "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": true,
+        "newEliteArsenalVariants": false,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 60,
+        "mechEngine": 240,
+        "xlEngine": false,
+        "chassisType": "Standard",
         "Heatsinks": 30,
         "itemColAssignment": {
             "mech": {
@@ -468,6 +490,41 @@
         },
         "details": "This Merlin variant is a deadly infighter. Only the flamer and LRM-5 remain from its original armament. Each arm now holds a Medium Variable Speed Pulse Laser and the right torso now contains a Large Variable Speed Pulse Laser. These highly accurate lasers give this Merlin a devastating damage capacity up close. Heavy Ferro-Fibrous armor covers this variant and thirteen double heat sinks can struggle to keep this variant cool.",
         "yangsThoughts": "I feel like this mech would be better off without the flamer, honestly, the range is so short that you're going to struggle to use it effectively, and you'd probably be better off just running a an extra heat sink."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_merlin_MLN-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_merlin_MLN-1A.json",
+        "newMechName": "Merlin",
+        "newMechDesignation": "MLN",
+        "newMechModelNumber": "1P",
+        "newMechVariant": false,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 60,
+        "mechEngine": 240,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 2, 0, 1, 1, 0, 0 ]
+        },
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Another completely reworked variant with weight saving technologies, this time it changes to a ballistic focused loadout with twin ultra autocannon 5s to keep the heat generation down.",
+        "yangsThoughts": "An interesting change up, 60 tons is a bit light to really get full power out of ballistic weapons but it can work similar to a rifleman if you want."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_ostroc_OSR-2M.json",
@@ -684,6 +741,12 @@
         "mechEngine": 275,
         "xlEngine": true,
         "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 2, 3, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 1, 0, 0 ]
+        },
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
@@ -709,6 +772,16 @@
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
         "Heatsinks": 30,
+        "mechTonnage": 55,
+        "mechEngine": 275,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 2, 3, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 1, 0, 0 ]
+        },
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
@@ -763,6 +836,12 @@
         "mechEngine": 300,
         "xlEngine": true,
         "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 3, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_IS" ],
@@ -832,7 +911,7 @@
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "1",
         "Heatsinks": 30,
         "itemColAssignment": {
             "mech": {
@@ -844,6 +923,109 @@
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_bombard_BMB-010.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_bombard_BMB-010.json",
+        "newMechName": "Bombard",
+        "newMechDesignation": "BMB",
+        "newMechModelNumber": "013",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 1, 1 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The redesigned Bombard-013 was released in 3064 after a humiliating Davion Arena match defeat in 3054. It replaced the twin autocannons with two thunderbolt launchers and two ER Medium Lasers. It mounts 12 reloads for each of the launchers which is enough for decent endurance in the arenas it is designed for.",
+        "yangsThoughts": "It can at least hit things at more than point blank range, but its actual performance otherwise is pretty abysmal for how slow it is."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_bombard_BMB-010.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_bombard_BMB-010.json",
+        "newMechName": "Bombard",
+        "newMechDesignation": "BMB",
+        "newMechModelNumber": "01X",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "prefabName": "bombard",
+        "Heatsinks": 30,
+        "mechTonnage": 50,
+        "mechEngine": 150,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 1, 1 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "A mixed tech version designed to finally address the painfully slow movement of the standard design, it upgrades from the 100 XL engine to a 150 XL augmented by MASC.  The additional weight of the system is compensated for by switching to dual Clan-spec gauss rifles augmented by leg mounted antipersonnel weaponry.",
+        "yangsThoughts": "This one can at least move at a reasonable speed, so it's actually kind of viable as a general combat mech."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_bombard_BMB-010.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_bombard_BMB-010.json",
+        "newMechName": "Bombard",
+        "newMechDesignation": "BMB",
+        "newMechModelNumber": "01Y",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "prefabName": "bombard",
+        "Heatsinks": 30,
+        "mechTonnage": 50,
+        "mechEngine": 150,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 1, 1 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "A mixed tech version designed to finally address the painfully slow movement of the standard design, it upgrades from the 100 XL engine to a 150 XL augmented by MASC.  An alternate setup to the 1X, this one is inspired by the hunchback IIC to mount twin Clan-spec Ultra AC20s for extreme close in firepower.",
+        "yangsThoughts": "This one can at least move at a reasonable speed, so it's actually kind of viable as a general combat mech."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_hunchback_HBK-IIC.json",
@@ -892,8 +1074,8 @@
         }
     },
     {
-        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_iceferret_IFR-PRIME.json",
-        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_iceferret_IFR-PRIME.json",
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_iceferret_IFR-A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_iceferret_IFR-A.json",
         "newMechName": "Ice Ferret",
         "newMechDesignation": "IFR",
         "newMechModelNumber": "PRIME",
@@ -905,11 +1087,34 @@
         "Heatsinks": 30,
         "itemColAssignment": {
             "mech": {
-                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
                 "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
             },
             "mechPart": {
-                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_iceferret_IFR-B.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_iceferret_IFR-B.json",
+        "newMechName": "Ice Ferret",
+        "newMechDesignation": "IFR",
+        "newMechModelNumber": "PRIME",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         }
@@ -1176,6 +1381,79 @@
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_blackjack_BJ-1X.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_blackjack_BJ-1X.json",
+        "newMechName": "Blackjack",
+        "newMechDesignation": "BJ",
+        "newMechModelNumber": "1XO",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_blackjack_BJ-1DC.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_blackjack_BJ-1DC.json",
+        "newMechName": "Blackjack",
+        "newMechDesignation": "BJ",
+        "newMechModelNumber": "1DC",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 2, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_blackjack_BJ-3.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_blackjack_BJ-3.json",
+        "newMechName": "Blackjack",
+        "newMechDesignation": "BJ",
+        "newMechModelNumber": "3",
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         }
@@ -2233,8 +2511,8 @@
         "chassisType": "EndoSteel",
         "stockRole": "Long Range Sniper",
         "hardpoints": {
-            "Energy": [ 0, 1, 0, 1, 0, 1, 0, 0 ],
-            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Energy": [ 0, 3, 2, 1, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
         },
@@ -2274,12 +2552,12 @@
         "xlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
-            "Energy": [ 0, 3, 2, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 3, 2, 0, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
         },
-        "stockRole": "Long Range Sniper",
+        "stockRole": "Close In Brawler",
         "useMountIdNaming": false,
         "itemColAssignment": {
             "mech": {
@@ -4685,7 +4963,7 @@
             "Energy": [ 0, 2, 0, 2, 0, 0, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 0, 0 ]
         },
         "stockRole": "Medium Urban Brawler",
         "useMountIdNaming": false,
@@ -4725,9 +5003,9 @@
         "chassisType": "EndoSteel",
         "hardpoints": {
             "Energy": [ 0, 2, 0, 2, 0, 0, 0, 0 ],
-            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
-            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 1, 0, 0, 0, 0 ]
         },
         "stockRole": "Medium Urban Brawler",
         "useMountIdNaming": false,
@@ -6569,7 +6847,7 @@
         "eliteArsenalVariantNumber": "1",
         "mechTonnage": 50,
         "mechEngine": 300,
-        "xlEngine": false,
+        "xlEngine": true,
         "chassisType": "Standard",
         "hardpoints": {
             "Energy": [ 0, 1, 0, 0, 0, 2, 0, 0 ],
@@ -6604,7 +6882,7 @@
         "icon": "uixTxrIcon_firestarter",
         "initialTonnage": null,
         "newMechVariant": true,
-        "Heatsinks": 0,
+        "Heatsinks": 30,
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
@@ -6933,7 +7211,7 @@
         "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_rifleman_RFL-3C.json",
         "newMechName": "Lancelot",
         "newMechDesignation": "LNC25",
-        "newMechModelNumber": "01X",
+        "newMechModelNumber": "01-X",
         "prefabName": "lancelot",
         "prefabId": "chrprfmech_lancelotbase-001",
         "hardpointData": "hardpointdatadef_lancelot",
@@ -7264,7 +7542,7 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_centurion_CN9-AH.json",
         "newMechName": "Starslayer",
         "newMechDesignation": "STY",
-        "newMechModelNumber": "3C",
+        "newMechModelNumber": "2C",
         "prefabName": "starslayer",
         "prefabId": "chrprfmech_starslayerbase-001",
         "hardpointData": "hardpointdatadef_starslayer",
@@ -7278,9 +7556,9 @@
         "mechTonnage": 50,
         "mechEngine": 250,
         "xlEngine": false,
-        "chassisType": "EndoSteel",
+        "chassisType": "Standard",
         "hardpoints": {
-            "Energy": [ 0, 0, 2, 0, 1, 1, 0, 0 ],
+            "Energy": [ 0, 0, 2, 0, 2, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 2, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
@@ -7297,7 +7575,48 @@
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         },
-        "details": "TThe Starslayer was intended to replace the Crab as the Star League's standard medium 'Mech after Cosara Weaponries were unable to meet the SLDF's required production volumes. Though Blue Shot's design won selection in 2765, the Starslayer would also be plagued with technical delays with its tracking system that would delay full production until 2772 and the Amaris Civil War. Despite the SLDF's desperate need for matériel, tensions between General Kerensky and Archon Robert Steiner II would result in Blue Shot delaying SLDF shipments until 2781 due to lack of 'up-to-date' shipping information and as a result the Starslayer would be far more common in the Lyran Commonwealth Armed Forces service than the SLDF. By now a thoroughly Lyran Commonwealth design, production of the original 2C Starslayer would cease during the technological decline of the early Succession Wars. The discovery of the Helm Memory Core and the desperate rearmament race spawned by the attacking Clans would lead Blue Shot Weaponry to resume production with the superior and updated STY-3C model in wake of the initial Clan Invasion.[6][3] The resurrected Starslayer would go on to become a mainstay of both the Lyran Alliance and Lyran Commonwealth Armed Forces as a optimal raider, its mobility and largely energy based loadout allowing it to stay in the field nearly indefinitely. The application of Lyran and Clan Sea Fox built Clan-tech weaponry has only enhanced its abilities yet further and the Starslayer figured prominently in Task Force Kingbreaker during the Dark Age era. The Clan Invasion era Starslayer is built on a lightweight Thor-4 Endo Steel chassis and reaches a top speed of 86.4 km/h with its Magna 250 fusion engine. The Starslayer also has five Odin's Own Model 34z jump jets which give it the ability to jump up to one hundred and fifty meters. Finally, the design carries nine and a half tons of Norse-34 ferro-fibrous with CASE. The CASE protects the BattleMech from complete destruction in the event of an ammunition explosion. The primary weapons on the Starslayer are a pair of BlazeFire Systems Large Lasers that provide the 'Mech with a striking distance of up to four hundred and fifty meters. For close range combat, the Starslayer has two Defiance B3M medium lasers and a Defiance B4M small laser. Finally, to allow the Starslayer to find and exploit weak points in an enemy's armor, it also carries a TharHes 4 Pack SRM-4 launcher.",
+        "details": "TThe Starslayer was intended to replace the Crab as the Star League's standard medium 'Mech after Cosara Weaponries were unable to meet the SLDF's required production volumes. Though Blue Shot's design won selection in 2765, the Starslayer would also be plagued with technical delays with its tracking system that would delay full production until 2772 and the Amaris Civil War. Despite the SLDF's desperate need for matériel, tensions between General Kerensky and Archon Robert Steiner II would result in Blue Shot delaying SLDF shipments until 2781 due to lack of 'up-to-date' shipping information and as a result the Starslayer would be far more common in the Lyran Commonwealth Armed Forces service than the SLDF. By now a thoroughly Lyran Commonwealth design, production of the original 2C Starslayer would cease during the technological decline of the early Succession Wars. The original Starslayer, introduced in 2772, used a standard chassis and only mounted seven tons of ferro-fibrous armor, carrying an array of lasers developed in-house by Blueshot including Blueshot large lasers, Razzing Devil medium lasers and a Blueshot Standard small laser. Only the Moonshot missile rack had to be licensed for manufacture.",
+        "yangsThoughts": "An antique similar in concept to a Crab, as it was intended, but the lack of the modern version's endo-steel means that it's a bit low in armor."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_centurion_CN9-AH.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_centurion_CN9-AH.json",
+        "newMechName": "Starslayer",
+        "newMechDesignation": "STY",
+        "newMechModelNumber": "3C",
+        "prefabName": "starslayer",
+        "prefabId": "chrprfmech_starslayerbase-001",
+        "hardpointData": "hardpointdatadef_starslayer",
+        "icon": "uixTxrIcon_hollander",
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 50,
+        "mechEngine": 250,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Medium Skirmisher",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "TThe Starslayer was intended to replace the Crab as the Star League's standard medium 'Mech after Cosara Weaponries were unable to meet the SLDF's required production volumes. Though Blue Shot's design won selection in 2765, the Starslayer would also be plagued with technical delays with its tracking system that would delay full production until 2772 and the Amaris Civil War. Despite the SLDF's desperate need for matériel, tensions between General Kerensky and Archon Robert Steiner II would result in Blue Shot delaying SLDF shipments until 2781 due to lack of 'up-to-date' shipping information and as a result the Starslayer would be far more common in the Lyran Commonwealth Armed Forces service than the SLDF. By now a thoroughly Lyran Commonwealth design, production of the original 2C Starslayer would cease during the technological decline of the early Succession Wars. The discovery of the Helm Memory Core and the desperate rearmament race spawned by the attacking Clans would lead Blue Shot Weaponry to resume production with the superior and updated STY-3C model in wake of the initial Clan Invasion. The resurrected Starslayer would go on to become a mainstay of both the Lyran Alliance and Lyran Commonwealth Armed Forces as a optimal raider, its mobility and largely energy based loadout allowing it to stay in the field nearly indefinitely. The application of Lyran and Clan Sea Fox built Clan-tech weaponry has only enhanced its abilities yet further and the Starslayer figured prominently in Task Force Kingbreaker during the Dark Age era. The Clan Invasion era Starslayer is built on a lightweight Thor-4 Endo Steel chassis and reaches a top speed of 86.4 km/h with its Magna 250 fusion engine. The Starslayer also has five Odin's Own Model 34z jump jets which give it the ability to jump up to one hundred and fifty meters. Finally, the design carries nine and a half tons of Norse-34 ferro-fibrous with CASE. The CASE protects the BattleMech from complete destruction in the event of an ammunition explosion. The primary weapons on the Starslayer are a pair of BlazeFire Systems Large Lasers that provide the 'Mech with a striking distance of up to four hundred and fifty meters. For close range combat, the Starslayer has two Defiance B3M medium lasers and a Defiance B4M small laser. Finally, to allow the Starslayer to find and exploit weak points in an enemy's armor, it also carries a TharHes 4 Pack SRM-4 launcher.",
         "yangsThoughts": "Similar to a Crab, as it was intended to be, this thing mounts a nice array of energy weapons, but I can't help thinking it could do more with some Clan-spec gear."
     },
     {
@@ -7761,13 +8080,13 @@
         "hardpointData": "hardpointdatadef_hunchie",
         "icon": "uixTxrIcon_archer",
         "newMechVariant": true,
-        "newEliteForcesVariant": true,
+        "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "2",
         "Heatsinks": 30,
         "mechTonnage": 55,
-        "mechEngine": 220,
+        "mechEngine": 275,
         "xlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
@@ -8502,7 +8821,7 @@
         "xlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
-            "Energy": [ 0, 0, 0, 2, 0, 0, 0, 0 ],
+            "Energy": [ 0, 0, 2, 0, 0, 0, 0, 0 ],
             "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
@@ -9439,10 +9758,10 @@
         "chassisType": "EndoSteel",
         "stockRole": "Medium Jumping Skirmisher",
         "hardpoints": {
-            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 0, 2, 0, 2, 0, 0, 0 ]
         },
         "itemColAssignment": {
             "mech": {
@@ -11031,7 +11350,7 @@
             "Energy": [ 0, 2, 1, 1, 1, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 0, 0, 2, 0, 2, 0, 0, 0 ]
         },
         "fixedEquipment": [
             [],

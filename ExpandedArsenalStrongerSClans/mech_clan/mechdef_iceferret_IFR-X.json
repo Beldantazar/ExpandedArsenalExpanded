@@ -1,183 +1,178 @@
 {
-  "MechTags": {
-    "items": [
-      "unit_release",
-      "unit_mech",
-      "unit_medium",
-      "unit_ready",
-      "unit_lance_support",
-      "unit_role_sniper",
-      "elite_arsenal"
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_medium",
+            "unit_ready",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_iceferret_IFR-X",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 8000000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Ice Ferret IFR-X",
+        "Id": "mechdef_iceferret_IFR-X",
+        "Name": "Ice Ferret",
+        "Details": "The A configuration carries a single LB-X Autocannon/2 for its excellent long range sniping capabilities. This is backed up by two ER Medium Lasers for close combat capabilities and a single Anti-Missile System for added defense against missile weapons.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_iceferret"
+    },
+    "simGameMechPartCost": 2500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 85,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 85,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 70,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 70,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 70,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 70,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        }
     ],
-    "tagSetSourceFile": ""
-  },
-  "ChassisID": "chassisdef_iceferret_IFR-X",
-  "HeraldryID": null,
-  "Description": {
-    "Cost": 8000000,
-    "Rarity": 2,
-    "Purchasable": true,
-    "Manufacturer": null,
-    "Model": null,
-    "UIName": "Ice Ferret IFR-X",
-    "Id": "mechdef_iceferret_IFR-X",
-    "Name": "Ice Ferret",
-    "Details": "In its primary configuration, the Ice Ferret is capable of acting in a variety of roles. The Ice Ferret carries an Active Probe allowing the 'Mech to detect hidden enemy units. For close combat, the Ice Ferret prime has a Streak SRM-2 launcher and an ER Small Laser. For long range engagements, the 'Mech is armed with a single ER PPC, giving it excellent long range hitting power for its size.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_iceferret"
-  },
-  "simGameMechPartCost": 2500000,
-  "Version": 1,
-  "Locations": [
-    {
-      "DamageLevel": "Functional",
-      "Location": "Head",
-      "CurrentArmor": 45,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 16,
-      "AssignedArmor": 45,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftArm",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftTorso",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": 30,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": 30
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "CenterTorso",
-      "CurrentArmor": 85,
-      "CurrentRearArmor": 40,
-      "CurrentInternalStructure": 70,
-      "AssignedArmor": 85,
-      "AssignedRearArmor": 40
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightTorso",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": 30,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": 30
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightArm",
-      "CurrentArmor": 70,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 35,
-      "AssignedArmor": 70,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftLeg",
-      "CurrentArmor": 85,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 85,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightLeg",
-      "CurrentArmor": 85,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 55,
-      "AssignedArmor": 85,
-      "AssignedRearArmor": -1
-    }
-  ],
-  "inventory": [
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Weapon_SRM_SRM2_STREAK_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightArm",
-      "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
-      "SimGameUID": null,
-      "ComponentDefType": "AmmunitionBox",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_AP_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftArm",
-      "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
-      "SimGameUID": null,
-      "ComponentDefType": "Weapon",
-      "HardpointSlot": 0,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    },
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "GUID": null,
-      "DamageLevel": "Functional",
-      "prefabName": null,
-      "hasPrefabName": false
-    }
-  ]
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_AMS_CLAN",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Autocannon_AC2_LBX_CLAN_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB2X_Half",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Kite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

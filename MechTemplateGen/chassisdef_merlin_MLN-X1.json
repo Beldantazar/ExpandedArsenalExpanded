@@ -8,7 +8,7 @@
     "UIName": "Merlin",
     "Id": "chassisdef_merlin_MLN-X1",
     "Name": "Merlin",
-    "Details": "An upgraded variant of the original 1A, this one keeps the weapons loadout of the original and instead upgrades it to double heat sinks and then uses the saved weight to add some more armor and an extra laser.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "An upgraded variant of the original 1A, it upgrades the heat sinks to doubles and also changes the chassis to endosteel and changes to an XL engine, the additional saved weight is used to change to a loadout of multiple snubnosed PPCs instead of the original.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_merlin"
   },
   "MovementCapDefID": "movedef_merlin",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_merlinbase-001",
   "PrefabBase": "merlin",
   "Tonnage": 60,
-  "InitialTonnage": 14.5,
+  "InitialTonnage": 15.0,
   "weightClass": "HEAVY",
   "BattleValue": 5383000,
   "Heatsinks": 30,
@@ -147,6 +147,10 @@
           "Omni": false
         },
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -228,5 +232,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Trooper",
-  "YangsThoughts": "A definite upgrade over the base mech, this one doesn't really change anything about how it works just makes it better, and I can't really complain about that."
+  "YangsThoughts": "A definite upgrade over the base mech, it completely reworks the weapons loadout for the better, though it is very short ranged."
 }
