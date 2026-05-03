@@ -8,7 +8,7 @@
     "UIName": "Locust",
     "Id": "chassisdef_locust_LCT-S",
     "Name": "Locust",
-    "Details": "The LCT-1VX is an teempt to increase the survivability and firepower of Locust. This version packs increased armor, an upgraded laser and added support weaponry.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "The LCT-1VX is an attempt to increase the survivability and firepower of Locust. This version packs increased armor, an upgraded laser and added support weaponry.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_locust"
   },
   "MovementCapDefID": "movedef_locust_LCT-1V",
@@ -199,5 +199,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Fire Support",
-  "YangsThoughts": "The LCT-1VX is an teempt to increase the survivability and firepower of Locust. This version packs increased armor, an upgraded laser and added support weaponry."
+  "YangsThoughts": "Still fragile, still blazing fast and still lightly armed, this version is a bit stronger but not that much."
 }

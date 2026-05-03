@@ -8,7 +8,7 @@
     "UIName": "Anubis",
     "Id": "chassisdef_anubis_ABS-S",
     "Name": "Anubis",
-    "Details": "An upgraded variant of the standard 3T that mounts improved lostech weaponry.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "An upgraded variant of the standard 3L that mounts improved lostech weaponry.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_anubis"
   },
   "FixedEquipment": [],
@@ -65,18 +65,6 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -89,7 +77,16 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,
@@ -107,7 +104,16 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,
@@ -116,28 +122,7 @@
     },
     {
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 8,
       "MaxArmor": 50,
@@ -215,5 +200,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Recon",
-  "YangsThoughts": "A decent energy mech that doesn't need resupply, but you're gonna need better cooling if you want it to stay in the fight for long."
+  "YangsThoughts": "A decent light fire support mech that's fast enough to avoid most things, but you might need more ammo if you want to challenge large enemies."
 }

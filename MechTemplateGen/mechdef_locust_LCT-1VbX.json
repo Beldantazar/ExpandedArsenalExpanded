@@ -1,0 +1,165 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_mech",
+      "unit_release",
+      "unit_light",
+      "unit_lance_vanguard",
+      "unit_role_scout",
+      "unit_range_short",
+      "unit_speed_high",
+      "unit_mech_Advanced",
+      "mech_light_Advanced",
+      "unit_armor_high",
+      "elite_forces"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_locust_LCT-1VbX",
+  "HeraldryID": null,
+  "Description": {
+    "Cost": 4000000,
+    "Rarity": 0,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Locust LCT-1VbX",
+    "Id": "mechdef_locust_LCT-1VbX",
+    "Name": "Locust",
+    "Details": "The Royal Locust introduced in 2610 mounts a small pulse laser and a medium pulse laser in each arm, while keeping the torso-mounted medium laser. It also uses an XL engine, endo steel chassis, and ferro-fibrous armor, and the single heat sinks have also been upgraded to double heat sinks.",
+    "Icon": "uixTxrIcon_locust"
+  },
+  "simGameMechPartCost": 400000,
+  "Version": 1,
+  "Locations": [
+    {
+      "DamageLevel": "Functional",
+      "Location": "Head",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "CenterTorso",
+      "CurrentArmor": 60,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightTorso",
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 25,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 20
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 30,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 15,
+      "AssignedArmor": 30,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "LeftLeg",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    },
+    {
+      "DamageLevel": "Functional",
+      "Location": "RightLeg",
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 20,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_2-VMI",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaser_3-Diverse_Optics",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_2-VMI",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG",
+      "SimGameUID": null,
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_MachineGun_MachineGun_2-VMI",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    }
+  ]
+}

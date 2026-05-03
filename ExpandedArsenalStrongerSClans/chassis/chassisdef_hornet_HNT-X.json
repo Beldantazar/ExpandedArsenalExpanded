@@ -8,7 +8,7 @@
     "UIName": "Hornet",
     "Id": "chassisdef_hornet_HNT-X",
     "Name": "Hornet",
-    "Details": "Wolf's Dragoons fielded this variant, which eschewed the anti-missile system in favor of a full 150 meters of jumping and a small laser.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "Based on the 161 and produced by Coalition Armory Inc., this Hornet variant was produced by using a 100-rated XL engine with 10 compact heat sinks. It is protected by three and a half tons of ferro-fibrous armor, uses an endo steel chassis, and is armed with two small pulse lasers, and an MML-5 with two tons of ammunition in a CASE-protected bay. It is most frequently seen in the service of AFFS and Filtvelt Coalition militias.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_hornet"
   },
   "MovementCapDefID": "movedef_hornet",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_hornetbase-001",
   "PrefabBase": "hornet",
   "Tonnage": 20,
-  "InitialTonnage": 9,
+  "InitialTonnage": 6.5,
   "weightClass": "LIGHT",
   "BattleValue": 1642000,
   "Heatsinks": 30,
@@ -199,5 +199,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Striker & Scout",
-  "YangsThoughts": "Tiny, fragile and poorly armed, this thing is mostly only useful in an urban setting where you can get around behind light enemies and harass them."
+  "YangsThoughts": "The armor is still fragile, but the extra weight gives you some extra weaponry options, you might want to go for heavier energy weapons and reduce the missile weight."
 }

@@ -8,7 +8,7 @@
     "UIName": "Sentinel",
     "Id": "chassisdef_sentinel_STN-3LX",
     "Name": "Sentinel",
-    "Details": "The Sentinel is a medium BattleMech built by Defiance Industries as an infantry support and installation defense 'Mech, originally under exclusive contract for the Lyran Commonwealth. While initially pleased to have a then-Terran Hegemony controlled factory manufacturing the 'Mech exclusively for the LCAF, the Lyrans were less so when a Star League Council amendment in 2652 permitted the Star League Defense Force to purchase a highly advanced version of the design which Houses Steiner, Marik and Davion would not receive until years later. The Royal version of the Sentinel featured a significantly upgraded weapon loadout, mounting a Gauss rifle in place of the autocannon and a medium laser in place of the Streak SRM-2 rack, but retaining the small laser. To handle the weight of the Gauss rifle it was almost entirely rebuilt using an XL engine and endo steel structure, with seven and a half tons of ferro-fibrous plate enhancing its protection.",
+    "Details": "The Sentinel is a medium BattleMech built by Defiance Industries as an infantry support and installation defense 'Mech, originally under exclusive contract for the Lyran Commonwealth. While initially pleased to have a then-Terran Hegemony controlled factory manufacturing the 'Mech exclusively for the LCAF, the Lyrans were less so when a Star League Council amendment in 2652 permitted the Star League Defense Force to purchase a highly advanced version of the design which Houses Steiner, Marik and Davion would not receive until years later. The Star League Sentinel carried a somewhat unique and highly advanced armament for its time. Its primary weapon was a Kawabata Weapons Industries UAC/5 developed especially for the 3L, and is capable of firing at double the rate of a standard AC/5 at the cost of slightly increased possibility of jamming the weapon until it can be overhauled. The Sentinel also mounted an advanced Defiance Streak SRM-2, the launcher designed to only fire if it gains a lock, saving ammo until the entire salvo is virtually guaranteed to hit. Unfortunately, the weapon's benefits were hampered by the companion small laser, the swap from the fragile Defiance A-1 for the sturdier Defiance B-1A moved the launcher's ammo feed by half a meter, resulting in ammo jams during abrupt maneuvers. Though MechWarriors discovered that they could clear a jam in the field by thumping the 'Mech's chest with its right fist, opponents quickly learned to concentrate fire on any Sentinel performing this, forcing pilots to retreat from battle anyway.",
     "Icon": "uixTxrIcon_sentinel"
   },
   "FixedEquipment": [],
@@ -18,7 +18,7 @@
   "PrefabIdentifier": "chrprfmech_sentinelbase-001",
   "PrefabBase": "sentinel",
   "Tonnage": 40,
-  "InitialTonnage": 14.0,
+  "InitialTonnage": 21.5,
   "weightClass": "MEDIUM",
   "BattleValue": 3749000,
   "Heatsinks": 30,
@@ -188,6 +188,6 @@
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Medium Sniper",
-  "YangsThoughts": "This is one of the lightest mechs to get a Gauss rifle out onto the field, so if you want a nice long range punch, this is the mech to do it with."
+  "StockRole": "Medium Striker",
+  "YangsThoughts": "This thing was pretty good in its day, but UAC/5 are not special anymore so this thing could really use some upgrades"
 }

@@ -198,5 +198,14 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Scout and Trainer",
-  "YangsThoughts": "This thing has significantly more firepower than the first form, and enough free tonnage to run a good loadout, just keep in mind it's still fragile."
+  "YangsThoughts": "This thing has significantly more firepower than the first form, and enough free tonnage to run a good loadout, just keep in mind it's still fragile.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
 }

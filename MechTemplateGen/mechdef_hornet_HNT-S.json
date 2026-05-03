@@ -23,7 +23,7 @@
     "UIName": "Hornet HNT-S",
     "Id": "mechdef_hornet_HNT-S",
     "Name": "Hornet",
-    "Details": "Wolf's Dragoons fielded this variant, which eschewed the anti-missile system in favor of a full 150 meters of jumping and a small laser.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "Based on the 161 and produced by Coalition Armory Inc., this Hornet variant was produced by using a 100-rated XL engine with 10 compact heat sinks. It is protected by three and a half tons of ferro-fibrous armor, uses an endo steel chassis, and is armed with two small pulse lasers, and an MML-5 with two tons of ammunition in a CASE-protected bay. It is most frequently seen in the service of AFFS and Filtvelt Coalition militias.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_hornet"
   },
   "simGameMechPartCost": 210000,

@@ -61,6 +61,10 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -207,6 +211,6 @@
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Medium Striker",
+  "StockRole": "Light Striker",
   "YangsThoughts": "I thought all of these had been either degraded by the long years before the clan invasion or destroyed in the inner sphere, but apparently someone is still making a small number of there, although I'm not sure who would have the schematics for it."
 }

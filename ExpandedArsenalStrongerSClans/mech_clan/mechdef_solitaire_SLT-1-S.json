@@ -1,115 +1,205 @@
 {
-  "MechTags": {
-    "items": [
-      "unit_release",
-      "unit_light",
-      "unit_ready",
-      "unit_lance_assassin",
-      "unit_role_scout",
-      "unit_range_medium",
-      "unit_speed_high",
-      "elite_arsenal",
-      "elite_arsenal_s_tier",
-      "unit_mech_s_tier"
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_light",
+            "unit_ready",
+            "unit_lance_assassin",
+            "unit_role_scout",
+            "unit_range_medium",
+            "unit_speed_high",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_mech_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_solitaire_SLT-1-S",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 2530000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Solitaire SLT-1-S",
+        "Id": "mechdef_solitaire_SLT-1-S",
+        "Name": "Solitaire",
+        "Details": "The Solitaire is a fast, heavily armored light BattleMech. This 25-ton design is one of the fastest in existence, allowing it to pick off enemy units that stray too far from support, like a lioness hunting a pack of wildebeest. The design seems an odd one for the cost-conscious Clan Diamond Shark to deploy, as it makes use of every weight saving material available to the Clans in 3067, including an extralight engine, ferro-fibrous armor, and an endo steel structure. The Solitaire relies on a full complement of heavy energy weapons, which are not only powerful but gives it significant endurance so long as heat is managed properly. Even though the 10 double heat sinks cannot possibly dissipate the massive spike in heat, typical warriors will move into position and then perform a full alpha strike with the single Model X heavy large laser, the Model II heavy small laser, and the two Model V heavy medium lasers.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_solitaire"
+    },
+    "simGameMechPartCost": 250000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        }
     ],
-    "tagSetSourceFile": ""
-  },
-  "ChassisID": "chassisdef_solitaire_SLT-1-S",
-  "HeraldryID": null,
-  "Description": {
-    "Cost": 2530000,
-    "Rarity": 1,
-    "Purchasable": true,
-    "Manufacturer": null,
-    "Model": null,
-    "UIName": "Solitaire SLT-1-S",
-    "Id": "mechdef_solitaire_SLT-1-S",
-    "Name": "Solitaire",
-    "Details": "The Solitaire is a fast, heavily armored light BattleMech. This 25-ton design is one of the fastest in existence, allowing it to pick off enemy units that stray too far from support, like a lioness hunting a pack of wildebeest. The design seems an odd one for the cost-conscious Clan Diamond Shark to deploy, as it makes use of every weight saving material available to the Clans in 3067, including an extralight engine, ferro-fibrous armor, and an endo steel structure. The Solitaire relies on a full complement of heavy energy weapons, which are not only powerful but gives it significant endurance so long as heat is managed properly. Even though the 10 double heat sinks cannot possibly dissipate the massive spike in heat, typical warriors will move into position and then perform a full alpha strike with the single Model X heavy large laser, the Model II heavy small laser, and the two Model V heavy medium lasers.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
-    "Icon": "uixTxrIcon_solitaire"
-  },
-  "simGameMechPartCost": 250000,
-  "Version": 1,
-  "Locations": [
-    {
-      "DamageLevel": "Functional",
-      "Location": "Head",
-      "CurrentArmor": 30,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 16,
-      "AssignedArmor": 30,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftArm",
-      "CurrentArmor": 30,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 20,
-      "AssignedArmor": 30,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftTorso",
-      "CurrentArmor": 30,
-      "CurrentRearArmor": 15,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 30,
-      "AssignedRearArmor": 15
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "CenterTorso",
-      "CurrentArmor": 40,
-      "CurrentRearArmor": 20,
-      "CurrentInternalStructure": 40,
-      "AssignedArmor": 40,
-      "AssignedRearArmor": 20
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightTorso",
-      "CurrentArmor": 30,
-      "CurrentRearArmor": 15,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 30,
-      "AssignedRearArmor": 15
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightArm",
-      "CurrentArmor": 30,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 20,
-      "AssignedArmor": 30,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "LeftLeg",
-      "CurrentArmor": 40,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 40,
-      "AssignedRearArmor": -1
-    },
-    {
-      "DamageLevel": "Functional",
-      "Location": "RightLeg",
-      "CurrentArmor": 40,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 30,
-      "AssignedArmor": 40,
-      "AssignedRearArmor": -1
-    }
-  ],
-  "inventory": [
-    {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_Clantech",
-      "ComponentDefType": "Weapon",
-      "DamageLevel": "Functional"
-    }
-  ]
+    "inventory": [
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
 }

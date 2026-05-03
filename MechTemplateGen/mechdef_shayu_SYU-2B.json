@@ -22,7 +22,7 @@
     "UIName": "Sha Yu SYU-2B",
     "Id": "mechdef_shayu_SYU-2B",
     "Name": "Sha Yu",
-    "Details": "A mech based on the Raven, this mech is designed to integrate stealth equipment to avoid detection and TAG lasers to improve damage done to targets. This variant mounts two snub-nose PPCs and two Medium Lasers for improved close in damage.",
+    "Details": "A mech based on the Raven, this mech is designed to integrate stealth equipment to avoid detection and TAG lasers to improve damage done to targets. This variant mounts two ER Large Lasers and two ER Medium Lasers for good ranged damage.",
     "Icon": "uixTxrIcon_shayuredux"
   },
   "simGameMechPartCost": 2500000,

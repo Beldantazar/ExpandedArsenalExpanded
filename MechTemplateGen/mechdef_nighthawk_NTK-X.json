@@ -1,261 +1,208 @@
 {
+  "MechTags": {
+    "items": [
+      "unit_generic",
+      "unit_bracket_low",
+      "unit_release",
+      "unit_mech",
+      "unit_light",
+      "unit_ready",
+      "unit_lance_assassin",
+      "unit_lance_vanguard",
+      "unit_role_sniper",
+      "elite_arsenal"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_nighthawk_NTK-X",
+  "HeraldryID": null,
   "Description": {
-    "Cost": 9668120,
+    "Cost": 6000000,
     "Rarity": 1,
     "Purchasable": true,
-    "Manufacturer": "",
-    "Model": "",
+    "Manufacturer": null,
+    "Model": null,
     "UIName": "Night Hawk NTK-X",
     "Id": "mechdef_nighthawk_NTK-X",
     "Name": "Night Hawk",
     "Details": "The Night Hawk was designed as a fast reaction BattleMech for hunting down Periphery raiders that had managed to penetrate the front lines. Mountain Wolf BattleMechs submitted their proposal for the Night Hawk, their first BattleMech, to the Star League Defense Force in 2655, and after many months of trials, the 'Mech was put into full production in 2656. Production continued for almost 300 years until 2945, when the factory producing the Night Hawk was destroyed and did not see production again until 3055. The Night Hawk is an impressive light 'Mech on the modern battlefield, with a top speed of 97.2 km/h that is provided by a GM 210 XL extralight engine. For protection from enemy fire, the Night Hawk has seven tons of ProtecTech Light armor which can defend it from fire from most other light 'Mechs. Finally, to dissipate the vast amount of heat from its all energy weapons arsenal, the Night Hawk uses 12 double heat sinks. The Night Hawk carries an all energy weapons arsenal to allow it to operate in independent, long-term operations. The primary long range weapon on the Night Hawk is a Maxwell ER large laser that is backed up by a Defiance B3L large laser. Finally, for close range combat, the Night Hawk has a Defiance P5M medium pulse laser.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_nighthawk"
   },
-  "FixedEquipment": [],
-  "MovementCapDefID": "movedef_cougar",
-  "PathingCapDefID": "pathingdef_assault",
-  "HardpointDataDefID": "hardpointdatadef_cougar",
-  "PrefabIdentifier": "chrprfmech_cougarbase-001",
-  "PrefabBase": "cougar",
-  "Tonnage": 35,
-  "InitialTonnage": 6.75,
-  "weightClass": "LIGHT",
-  "BattleValue": 3762000,
-  "Heatsinks": 30,
-  "TopSpeed": 85,
-  "TurnRadius": 90,
-  "MaxJumpjets": 5,
-  "Stability": 100,
-  "StabilityDefenses": [
-    0,
-    0,
-    0,
-    0,
-    0,
-    0
-  ],
-  "SpotterDistanceMultiplier": 1,
-  "VisibilityMultiplier": 1,
-  "SensorRangeMultiplier": 1,
-  "Signature": 0,
-  "Radius": 4,
-  "PunchesWithLeftArm": false,
-  "MeleeDamage": 35,
-  "MeleeInstability": 35,
-  "MeleeToHitModifier": 0,
-  "DFADamage": 35,
-  "DFAToHitModifier": 0,
-  "DFASelfDamage": 35,
-  "DFAInstability": 18,
+  "simGameMechPartCost": 1500000,
+  "Version": 1,
   "Locations": [
     {
+      "DamageLevel": "Functional",
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 1,
-      "MaxArmor": 45,
-      "MaxRearArmor": -1,
-      "InternalStructure": 16
+      "CurrentArmor": 40,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 16,
+      "AssignedArmor": 40,
+      "AssignedRearArmor": -1
     },
     {
+      "DamageLevel": "Functional",
       "Location": "LeftArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
     },
     {
+      "DamageLevel": "Functional",
       "Location": "LeftTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 80,
-      "MaxRearArmor": 40,
-      "InternalStructure": 40
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 20
     },
     {
+      "DamageLevel": "Functional",
       "Location": "CenterTorso",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 110,
-      "MaxRearArmor": 55,
-      "InternalStructure": 55
+      "CurrentArmor": 75,
+      "CurrentRearArmor": 25,
+      "CurrentInternalStructure": 55,
+      "AssignedArmor": 75,
+      "AssignedRearArmor": 25
     },
     {
+      "DamageLevel": "Functional",
       "Location": "RightTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 10,
-      "MaxArmor": 80,
-      "MaxRearArmor": 40,
-      "InternalStructure": 40
+      "CurrentArmor": 50,
+      "CurrentRearArmor": 20,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": 20
     },
     {
+      "DamageLevel": "Functional",
       "Location": "RightArm",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
-      "Tonnage": 0,
-      "InventorySlots": 8,
-      "MaxArmor": 60,
-      "MaxRearArmor": -1,
-      "InternalStructure": 30
+      "CurrentArmor": 50,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 30,
+      "AssignedArmor": 50,
+      "AssignedRearArmor": -1
     },
     {
+      "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 80,
-      "MaxRearArmor": -1,
-      "InternalStructure": 40
+      "CurrentArmor": 60,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": -1
     },
     {
+      "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "Hardpoints": [],
-      "Tonnage": 0,
-      "InventorySlots": 4,
-      "MaxArmor": 80,
-      "MaxRearArmor": -1,
-      "InternalStructure": 40
+      "CurrentArmor": 60,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 40,
+      "AssignedArmor": 60,
+      "AssignedRearArmor": -1
     }
   ],
-  "LOSSourcePositions": [
+  "inventory": [
     {
-      "x": 0,
-      "y": 10,
-      "z": 0.5
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
     },
     {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
     },
     {
-      "x": 3,
-      "y": 9,
-      "z": -0.5
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_LRM_LRM10_Clantech",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_LRM_LRM10_Clantech",
+      "SimGameUID": null,
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "SimGameUID": null,
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+      "SimGameUID": null,
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "GUID": null,
+      "DamageLevel": "Functional",
+      "prefabName": null,
+      "hasPrefabName": false
     }
-  ],
-  "LOSTargetPositions": [
-    {
-      "x": 0,
-      "y": 10,
-      "z": 0.5
-    },
-    {
-      "x": -3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
-      "x": 3,
-      "y": 9,
-      "z": -0.5
-    },
-    {
-      "x": -2.5,
-      "y": 3,
-      "z": 0.5
-    },
-    {
-      "x": 2.5,
-      "y": 3,
-      "z": 0.5
-    }
-  ],
-  "VariantName": "CGR-PRIME",
-  "ChassisTags": {
-    "items": [],
-    "tagSetSourceFile": ""
-  },
-  "StockRole": "Support OmniMech",
-  "YangsThoughts": "Khan Marthe Pryde decided to upgrade the 'Mechs her Clan fielded. Rather than waste precious resources designing a new OmniMech from the ground up, she instructed her scientists to improve upon existing designs. The design the scientists chose to modify was the Adder. Though the two 'Mechs are visually similar and share the same weight, the Cougar is slower and better armed.",
-  "ChassisID": "chassisdef_nighthawk_NTK-X"
+  ]
 }

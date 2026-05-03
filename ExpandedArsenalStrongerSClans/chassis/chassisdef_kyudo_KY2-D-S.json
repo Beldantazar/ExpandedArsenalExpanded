@@ -8,11 +8,11 @@
     "UIName": "Kyudo",
     "Id": "chassisdef_kyudo_KY2-D-S",
     "Name": "Kyudo",
-    "Details": "The Kyudo was developed by Martinson Armaments early in the history of BattleMechs, having been unveiled in 2443. Lighter, faster, and more importantly, much cheaper than the Mackie, the Terran Hegemony purchased the design in its intended role of supporting the more powerful Mackie and assault tank units. Fierce competition saw the mech relegated to second echelon forces before the Reunification War. Martinson was destroyed during the Amaris Civil War and the Kyudo eventually faded into obscurity. The 45-ton Kyudo tops out at 86 km/h, thanks to its VOX 225 fusion engine. It's Chariot Type E endo steel chassis and internal machinery is protected by eight tons of Armorscale ferro-fibrous armor, and has CASE to protect the MechWarrior in the event of an ammunition explosion. 10 double heat sinks make heat a secondary concern. The rediscovery of the Hegemony Memory Core led to the resurfacing of the Kyudo. Irian BattleMechs Unlimited upgraded a maintenance facility on the planet Lopez to be able to produce an upgraded variant of that 'Mech in 3079. The missile launcher is replaced with a pair of Artemis-guided MML-7s, though they only have two tons of ammunition.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "The Kyudo was developed by Martinson Armaments early in the history of BattleMechs, having been unveiled in 2443. Lighter, faster, and more importantly, much cheaper than the Mackie, the Terran Hegemony purchased the design in its intended role of supporting the more powerful Mackie and assault tank units. Fierce competition saw the mech relegated to second echelon forces before the Reunification War. Martinson was destroyed during the Amaris Civil War and the Kyudo eventually faded into obscurity. The 45-ton Kyudo tops out at 86 km/h, thanks to its VOX 225 fusion engine. It's Chariot Type E endo steel chassis and internal machinery is protected by eight tons of Armorscale ferro-fibrous armor, and has CASE to protect the MechWarrior in the event of an ammunition explosion. 10 double heat sinks make heat a secondary concern. As a support 'Mech, the Kyudo mounts a Conan/20 LRM-20 that is guided by an Artemis IV FCS, which enables it to provide accurate direct and indirect fire support. To back it up, the Kyudo has a single Sorenstein ER large laser that is as effective in close as it is downrange.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_kyudo"
   },
   "FixedEquipment": [],
-  "MovementCapDefID": "movedef_kyudo_KY2-D-03",
+  "MovementCapDefID": "movedef_kyudo_KY2-D-02",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_kyudo",
   "PrefabIdentifier": "chrprfmech_kyudobase-001",
@@ -191,5 +191,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Antique Medium Battlemech",
-  "YangsThoughts": "A versatile upgrade on a classic design, this is still just as fast and effective as before, but it's more flexible with the MMLs."
+  "YangsThoughts": "A perfectly solid if old mech design, it mounts a nice big lrm rack and a decently powerful laser so it can easily cover for a larger mech."
 }

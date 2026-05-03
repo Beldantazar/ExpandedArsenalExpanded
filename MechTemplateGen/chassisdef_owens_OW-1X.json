@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_owensbase-001",
   "PrefabBase": "owens",
   "Tonnage": 35,
-  "InitialTonnage": 20,
+  "InitialTonnage": 16.5,
   "weightClass": "LIGHT",
   "BattleValue": 3762000,
   "Heatsinks": 30,
@@ -223,5 +223,28 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Fast Striker Cavalry",
-  "YangsThoughts": "The primary configuration of the Owens is meant to stay at stand-off ranges when possible using its two LRM-5 launchers. If forced into close range combat, the Owens can bring its Medium Laser and two Small Lasers to bear."
+  "YangsThoughts": "The primary configuration of the Owens is meant to stay at stand-off ranges when possible using its two LRM-5 launchers. If forced into close range combat, the Owens can bring its Medium Laser and two Small Lasers to bear.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_C3i_Computer",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_TAG_Standard_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_AP",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
 }

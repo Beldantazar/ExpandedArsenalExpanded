@@ -1,0 +1,149 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_release",
+            "unit_light",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_range_short",
+            "unit_speed_high",
+            "unit_mech_Advanced",
+            "mech_light_Advanced",
+            "unit_armor_high"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_locust_LCT-1Vb",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 4000000,
+        "Rarity": 0,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Locust LCT-1Vb",
+        "Id": "mechdef_locust_LCT-1Vb",
+        "Name": "Locust",
+        "Details": "The Royal Locust introduced in 2610 mounts a small pulse laser and a medium pulse laser in each arm, while keeping the torso-mounted medium laser. It also uses an XL engine, endo steel chassis, and ferro-fibrous armor, and the single heat sinks have also been upgraded to double heat sinks.",
+        "Icon": "uixTxrIcon_locust"
+    },
+    "simGameMechPartCost": 400000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 25,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 25,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 25,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 25,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 35,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 35,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 35,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 35,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_SmallLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

@@ -30,6 +30,8 @@ mechdef_ironcheetah_ICH-D,Mech,1,1
 mechdef_sidewinder_SDW-Prime,Mech,1,1
 mechdef_phantom_PHN-PRIME,Mech,1,1
 mechdef_phantom_PHN-A,Mech,1,1
+mechdef_phantom_PHN-B,Mech,1,1
+mechdef_phantom_PHN-C,Mech,1,1
 mechdef_cougar_CGR-XR,Mech,1,1
 mechdef_bruin_BRN-1,Mech,1,1
 mechdef_bruin_BRN-2,Mech,1,1

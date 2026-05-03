@@ -27,7 +27,7 @@
     "UIName": "Locust LCT-S",
     "Id": "mechdef_locust_LCT-S",
     "Name": "Locust",
-    "Details": "The LCT-1VX is an teempt to increase the survivability and firepower of Locust. This version packs increased armor, an upgraded laser and added support weaponry.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "The LCT-1VX is an attempt to increase the survivability and firepower of Locust. This version packs increased armor, an upgraded laser and added support weaponry.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_locust"
   },
   "simGameMechPartCost": 400000,

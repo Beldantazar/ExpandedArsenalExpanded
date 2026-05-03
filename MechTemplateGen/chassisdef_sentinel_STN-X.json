@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_sentinel"
   },
   "FixedEquipment": [],
-  "MovementCapDefID": "movedef_sentinel_STN-3L",
+  "MovementCapDefID": "movedef_sentinel_STN-3Lb",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_sentinel",
   "PrefabIdentifier": "chrprfmech_sentinelbase-001",

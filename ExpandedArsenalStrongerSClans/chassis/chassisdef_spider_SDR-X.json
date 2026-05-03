@@ -8,7 +8,7 @@
     "UIName": "Spider",
     "Id": "chassisdef_spider_SDR-X",
     "Name": "Spider",
-    "Details": "An anti-infantry variant, the 5K mounts Machine Guns in each arm along with a single Medium Laser in its center torso.  In order to make room for the added weapons, a pair of JumpJets are removed, hampering some of the Spider's vaunted mobility.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "The 7K is an upgrade of the base design, introduced by Nimakachi in 3067 and based on the success of other revitalized classic designs. It's built using an endo steel structure, five and a half tons of ferro-fibrous armor, an extra-light fusion engine in place of the standard model, and carries two medium pulse lasers. Perhaps most critically, Nimakachi was able to finally install an ejection system in the 7K.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_spider"
   },
   "MovementCapDefID": "movedef_spider_SDR-5V",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrPrfMech_spiderBase-001",
   "PrefabBase": "spider",
   "Tonnage": 30,
-  "InitialTonnage": 20.5,
+  "InitialTonnage": 13.5,
   "weightClass": "LIGHT",
   "BattleValue": 3907000,
   "Heatsinks": 30,
@@ -62,6 +62,10 @@
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -72,7 +76,16 @@
     },
     {
       "Location": "LeftTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,
@@ -87,7 +100,7 @@
           "Omni": false
         },
         {
-          "WeaponMount": "AntiPersonnel",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -99,7 +112,16 @@
     },
     {
       "Location": "RightTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 70,
@@ -109,6 +131,10 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
         {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
@@ -191,5 +217,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Extremely Maneuverable Scout",
-  "YangsThoughts": "An anti-infantry variant, the 5K mounts Machine Guns in each arm along with a single Medium Laser in its center torso.  In order to make room for the added weapons, a pair of JumpJets are removed, hampering some of the Spider's vaunted mobility."
+  "YangsThoughts": "At least it's not made of paper anymore, but it's still pretty fragile, but with speed like this it doesn't really matter that much as you can outrun basically anything that tries to kill you."
 }

@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_baboonbase-001",
   "PrefabBase": "baboon",
   "Tonnage": 20,
-  "InitialTonnage": 11.0,
+  "InitialTonnage": 8.5,
   "weightClass": "LIGHT",
   "BattleValue": 1642000,
   "Heatsinks": 45,
@@ -202,5 +202,14 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Scout and Trainer",
-  "YangsThoughts": "Surprisingly good range and damage for direct fire here, but it overheats easily, so you're gonna need to disengage frequently to avoid issues with heat."
+  "YangsThoughts": "Surprisingly good range and damage for direct fire here, but it overheats easily, so you're gonna need to disengage frequently to avoid issues with heat.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
 }

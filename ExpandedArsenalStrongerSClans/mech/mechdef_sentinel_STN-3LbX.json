@@ -1,0 +1,155 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_ready",
+            "unit_lance_assassin",
+            "unit_lance_vanguard",
+            "unit_role_brawler",
+            "unit_medium",
+            "elite_forces"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_sentinel_STN-3LbX",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 8000000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Sentinel STN-3LbX",
+        "Id": "mechdef_sentinel_STN-3LbX",
+        "Name": "Sentinel",
+        "Details": "The Sentinel is a medium BattleMech built by Defiance Industries as an infantry support and installation defense 'Mech, originally under exclusive contract for the Lyran Commonwealth. While initially pleased to have a then-Terran Hegemony controlled factory manufacturing the 'Mech exclusively for the LCAF, the Lyrans were less so when a Star League Council amendment in 2652 permitted the Star League Defense Force to purchase a highly advanced version of the design which Houses Steiner, Marik and Davion would not receive until years later. The Royal version of the Sentinel featured a significantly upgraded weapon loadout, mounting a Gauss rifle in place of the autocannon and a medium laser in place of the Streak SRM-2 rack, but retaining the small laser. To handle the weight of the Gauss rifle it was almost entirely rebuilt using an XL engine and endo steel structure, with seven and a half tons of ferro-fibrous plate enhancing its protection.",
+        "Icon": "uixTxrIcon_sentinel"
+    },
+    "simGameMechPartCost": 2500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 95,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 95,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Gauss_Gauss_2-M9",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_2-Magna",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaser_3-Intek",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_AP",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

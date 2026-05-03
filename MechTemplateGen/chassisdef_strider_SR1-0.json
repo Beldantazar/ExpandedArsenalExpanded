@@ -8,7 +8,7 @@
     "UIName": "Strider",
     "Id": "chassisdef_strider_SR1-0",
     "Name": "Strider",
-    "Details": "One of the earliest Inner Sphere OmniMechs to be deployed, this mech was a conversion of the long used Cicada design. It trades off the standard Cicadas speed for increased armor and weaponry. Unfortunately, the designers choice to use single heat sinks, limits the flexibility of the mech's variants, and most are variants on the theme of missile weapons in the arms and supporting energy weapons in the torso.",
+    "Details": "One of the earliest Inner Sphere OmniMechs to be deployed, this mech was a conversion of the long used Cicada design. It trades off the standard Cicadas speed for increased armor and weaponry. Unfortunately, the designers choice to use single heat sinks, limits the flexibility of the mech's variants, and most are variants on the theme of missile weapons in the arms and supporting energy weapons in the torso. The Strider is built on an Alshain Type KR240 Endo Steel chassis to help save on weight. Built with the rugged GM 240 fusion engine, the Strider has a top speed of 97.2 km/h, a reduction by a third in comparison to the sprightly Cicada. Outfitted with CASE, built around the durable GM 240, and protected with seven and a half tons of armor, the Strider is a durable 'Mech for its weight class; capable of suffering considerable damage before being disabled or destroyed. While its twelve tons of OmniPod space in theory can carry any equipment required, due to LAW's use of standard heat sinks rather than double-capacity models, almost every standardized configuration developed has sported a mix of arm-mounted missile pods with supporting lasers or eletronic equipment in its torso bays. The Primary configuration of the Strider is a classic example. Configured to be a short-range strike 'Mech, its primary weapons are a pair of SRM-6 launchers that are linked to an Artemis IV fire control system that increases missile accuracy. Backing this up is a single small laser giving the 'Mech some protection once its ammunition bins run dry. The Strider also carries a Beagle active probe in this configuration, allowing the 'Mech to find hidden units when acting in reconnaissance roles.",
     "Icon": "uixTxrIcon_strider"
   },
   "MovementCapDefID": "movedef_strider",
@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_striderbase-001",
   "PrefabBase": "strider",
   "Tonnage": 40,
-  "InitialTonnage": 24,
+  "InitialTonnage": 19.5,
   "weightClass": "MEDIUM",
   "BattleValue": 3610000,
   "Heatsinks": 0,
@@ -49,7 +49,12 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,

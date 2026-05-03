@@ -196,5 +196,14 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Light Scout and Trainer",
-  "YangsThoughts": "A decent fire support mech for the weight, but very easily killed if it doesn't keep moving. "
+  "YangsThoughts": "A decent fire support mech for the weight, but very easily killed if it doesn't keep moving. ",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
 }

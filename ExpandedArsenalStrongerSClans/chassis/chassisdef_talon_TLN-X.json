@@ -12,7 +12,7 @@
     "Icon": "uixTxrIcon_wolfhound"
   },
   "FixedEquipment": [],
-  "MovementCapDefID": "movedef_talon_TLN-5V",
+  "MovementCapDefID": "movedef_talon_TLN-6W",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_talon",
   "PrefabIdentifier": "chrprfmech_talonbase-001",
@@ -67,6 +67,14 @@
         {
           "WeaponMount": "Energy",
           "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -111,6 +119,14 @@
         },
         {
           "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
       ],

@@ -61,6 +61,10 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         }
@@ -207,6 +211,6 @@
     "items": [],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Medium Striker",
+  "StockRole": "Light Striker",
   "YangsThoughts": "I've never seen this layout before, I'm not sure who built it, either, but the setup seems like a slight variant of the standard star league era model."
 }

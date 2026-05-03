@@ -1,0 +1,198 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_medium",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_release",
+            "unit_fallback",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_low",
+            "NotKurita",
+            "Marik"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_strider_SR1-0F",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 3340000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Strider SR1-0F",
+        "Id": "mechdef_strider_SR1-0F",
+        "Name": "Strider",
+        "Details": "One of the earliest Inner Sphere OmniMechs to be deployed, this mech was a conversion of the long used Cicada design. It trades off the standard Cicadas speed for increased armor and weaponry. Unfortunately, the designers choice to use single heat sinks, limits the flexibility of the mech's variants, and most are variants on the theme of missile weapons in the arms and supporting energy weapons in the torso. The Strider is built on an Alshain Type KR240 Endo Steel chassis to help save on weight. Built with the rugged GM 240 fusion engine, the Strider has a top speed of 97.2 km/h, a reduction by a third in comparison to the sprightly Cicada. Outfitted with CASE, built around the durable GM 240, and protected with seven and a half tons of armor, the Strider is a durable 'Mech for its weight class; capable of suffering considerable damage before being disabled or destroyed. The F configuration of the Strider is intended for close range combat but unlike the Strider E it is not as dependent on ammunition based weapons. The primary weapons are a pair of Streak SRM-4 launchers backed up by two medium lasers. The 'Mech has also had six jump jets added, allowing it to jump up to one hundred and eighty meters. Considered by many pilots as the most effective configuration prior to the Jihad, the Strider F was also been jokingly called the 'Grand Jenner' by some members of the DCMS due its similar abilities of the Jenner.",
+        "Icon": "uixTxrIcon_strider"
+    },
+    "simGameMechPartCost": 330000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_SRM_SRM4_STREAK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SRM_SRM4_STREAK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

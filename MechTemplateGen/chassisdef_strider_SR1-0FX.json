@@ -1,0 +1,239 @@
+{
+  "Description": {
+    "Cost": 3000000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Strider",
+    "Id": "chassisdef_strider_SR1-0FX",
+    "Name": "Strider",
+    "Details": "One of the earliest Inner Sphere OmniMechs to be deployed, this mech was a conversion of the long used Cicada design. It trades off the standard Cicadas speed for increased armor and weaponry. Unfortunately, the designers choice to use single heat sinks, limits the flexibility of the mech's variants, and most are variants on the theme of missile weapons in the arms and supporting energy weapons in the torso. The Strider is built on an Alshain Type KR240 Endo Steel chassis to help save on weight. Built with the rugged GM 240 fusion engine, the Strider has a top speed of 97.2 km/h, a reduction by a third in comparison to the sprightly Cicada. Outfitted with CASE, built around the durable GM 240, and protected with seven and a half tons of armor, the Strider is a durable 'Mech for its weight class; capable of suffering considerable damage before being disabled or destroyed. The F configuration of the Strider is intended for close range combat but unlike the Strider E it is not as dependent on ammunition based weapons. The primary weapons are a pair of Streak SRM-4 launchers backed up by two medium lasers. The 'Mech has also had six jump jets added, allowing it to jump up to one hundred and eighty meters. Considered by many pilots as the most effective configuration prior to the Jihad, the Strider F was also been jokingly called the 'Grand Jenner' by some members of the DCMS due its similar abilities of the Jenner.",
+    "Icon": "uixTxrIcon_strider"
+  },
+  "MovementCapDefID": "movedef_strider",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_strider",
+  "PrefabIdentifier": "chrprfmech_striderbase-001",
+  "PrefabBase": "strider",
+  "Tonnage": 40,
+  "InitialTonnage": 19.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 3610000,
+  "Heatsinks": 30,
+  "TopSpeed": 210,
+  "TurnRadius": 90,
+  "MaxJumpjets": 8,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 25,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 12,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 12,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 6,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 6,
+      "z": 0
+    }
+  ],
+  "VariantName": "SR1-0FX",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout & Harasser",
+  "YangsThoughts": "People claim this is the most effective variant, I dunno if I believe that hype, but it does seem to be a nice solid setup for close range brawling, though you'll need to run away fast if you get overmatched."
+}
