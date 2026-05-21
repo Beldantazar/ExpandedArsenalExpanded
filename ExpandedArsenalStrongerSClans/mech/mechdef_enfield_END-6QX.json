@@ -3,6 +3,8 @@
         "items": [
             "unit_mech",
             "unit_medium",
+            "unit_mech_Advanced",
+            "mech_medium_Advanced",
             "unit_lance_tank",
             "unit_role_brawler",
             "unit_release",

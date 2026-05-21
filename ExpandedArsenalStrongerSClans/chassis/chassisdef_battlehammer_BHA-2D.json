@@ -1,0 +1,229 @@
+{
+  "Description": {
+    "Cost": 7873010,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Battlehammer",
+    "Id": "chassisdef_battlehammer_BHA-2D",
+    "Name": "Battlehammer",
+    "Details": "Pafftek Industries, trying to reduce the cost of the exceptional BattleHammer, made a series utilizing only inner-sphere tech. This, the most basic version of the BattleHammer, utilizes technology readily available in the post-Helm memory core era. It is available to anyone except the Clans and the Word of Blake.",
+    "Icon": "uixTxrIcon_battlehammer"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_battlehammer_BHA-2D",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_battlehammer",
+  "PrefabIdentifier": "chrprfmech_battlehammerbase-001",
+  "PrefabBase": "battlehammer",
+  "Tonnage": 85,
+  "InitialTonnage": 29.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 3749000,
+  "Heatsinks": 30,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.2,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.2,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 105,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 105,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 270,
+      "MaxRearArmor": 135,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "BHA-2D",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Brawler & Sniper",
+  "YangsThoughts": "A sizable downgrade overall, but the techs can fix that up with some weapon swaps. The fundamental design is pretty solid if a bit limited on weapon space."
+}

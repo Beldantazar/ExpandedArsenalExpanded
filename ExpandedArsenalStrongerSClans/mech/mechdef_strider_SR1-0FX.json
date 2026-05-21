@@ -3,6 +3,8 @@
         "items": [
             "unit_mech",
             "unit_medium",
+            "unit_mech_Advanced",
+            "mech_medium_Advanced",
             "unit_lance_vanguard",
             "unit_role_scout",
             "unit_release",

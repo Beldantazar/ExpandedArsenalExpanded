@@ -17,6 +17,8 @@
         "items": [
             "unit_mech",
             "unit_assault",
+            "unit_mech_Advanced",
+            "mech_assault_Advanced",
             "unit_indirectFire",
             "unit_jumpOK",
             "unit_lance_tank",

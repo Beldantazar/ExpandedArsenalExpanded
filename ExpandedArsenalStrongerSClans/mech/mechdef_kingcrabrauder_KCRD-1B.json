@@ -1,0 +1,331 @@
+{
+    "ChassisID": "chassisdef_kingcrabrauder_KCRD-1B",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10800000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "King Crabrauder KCRD-1B",
+        "Id": "mechdef_kingcrabrauder_KCRD-1B",
+        "Name": "King Crabrauder",
+        "Details": "After launching a series of retaliatory raids against the Lyran Alliance as punishment for stealing the Light Engine plans from them, Wolfs Dragoons wound up finding a sizable cache of intact King Crab arms but without the corresponding torsos and legs. Unwilling to waste such a windfall, the Dragoon's kept them in storage in hopes of finding a use for them later. After the destruction of the Jihad, Wolfs Dragoons contracted Irian BattleMechs Unlimited to make use of those arms by attaching them to reworked Marauder II torsos and legs. The resulting mech was then fitted with extensive Clan-spec equipment to produce this unusual design. The 1B configuration is designed more for long range fire support, mounting twin Clan-spec Large Pulse Lasers and Inner Sphere grade Rotary Autocannon 5s in the arms. These heavy arm weapons are supported by twin LRM 15 launchers on the shoulders for additional fire support.",
+        "Icon": "uixTxrIcon_crabshasapult"
+    },
+    "simGameMechPartCost": 1080000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 230,
+            "CurrentRearArmor": 80,
+            "CurrentInternalStructure": 155,
+            "AssignedArmor": 230,
+            "AssignedRearArmor": 80
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 165,
+            "CurrentRearArmor": 55,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 165,
+            "AssignedRearArmor": 55
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 165,
+            "CurrentRearArmor": 55,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 165,
+            "AssignedRearArmor": 55
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_LRM_LRM15_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_DoubleStrength",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_DoubleStrength",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "unit_release",
+            "unit_ext_rare",
+            "unit_ext_rare_Davion",
+            "unit_ext_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_ext_rare_Steiner",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_SianTriumphant"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "MinAppearanceDate": "3009-01-19T00:00:00Z"
+}

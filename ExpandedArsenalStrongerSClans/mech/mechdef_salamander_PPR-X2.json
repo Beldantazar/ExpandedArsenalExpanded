@@ -111,14 +111,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_PPC_PPC_HEAVY_2",
             "ComponentDefType": "Weapon",

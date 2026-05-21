@@ -111,14 +111,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_Thunderbolt_5_1",
             "ComponentDefType": "Weapon",

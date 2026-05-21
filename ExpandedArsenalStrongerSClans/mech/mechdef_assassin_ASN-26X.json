@@ -183,6 +183,8 @@
         "items": [
             "unit_mech",
             "unit_medium",
+            "unit_mech_Advanced",
+            "unit_medium_Advanced",
             "unit_jumpOK",
             "unit_indirectFire",
             "unit_range_medium",

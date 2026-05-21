@@ -1,0 +1,252 @@
+{
+  "Description": {
+    "Cost": 7873010,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Liberty",
+    "Id": "chassisdef_liberty_LBT-OX",
+    "Name": "Liberty",
+    "Details": "As the Inner Sphere developed Omnimech technology in the 3050s, the Taurian Concordat watched with interest. Finally, in the early 3060s, thanks to some good old-fashioned corporate espionage, the Concordat managed to steal basic Omnimech technology plans from the Federated Suns and developed their own Omnimech, the Liberty. To keep costs low, the Liberty is made with simple off-the-shelf weapons technology. The Liberty Prime is armed with twin PPCs, a LRM-15, two Medium Lasers, and 4 Small Lasers. Endo-Steel and an XL Engine provide the weight for the payload.",
+    "Icon": "uixTxrIcon_liberty"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_liberty_LBT-O",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_liberty",
+  "PrefabIdentifier": "chrprfmech_libertybase-001",
+  "PrefabBase": "liberty",
+  "Tonnage": 65,
+  "InitialTonnage": 22.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 3749000,
+  "Heatsinks": 30,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.25,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.25,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 65,
+  "MeleeInstability": 65,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 60,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 60,
+  "DFAInstability": 30,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "LBT-OX",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Native Periphery Omnimech",
+  "YangsThoughts": "A simple enough omnimech design, easy to manufacture by omnimech standards, and with a decent but not astonishing weapons loadout. The stock setup is able to work for most uses, but you'll probably want to rework it a bit."
+}

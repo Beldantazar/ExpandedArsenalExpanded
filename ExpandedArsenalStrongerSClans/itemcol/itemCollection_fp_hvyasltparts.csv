@@ -302,3 +302,7 @@ mechdef_broadside_BS-X1,MechPart,1,1
 mechdef_broadside_BS-S1,MechPart,1,1
 mechdef_broadside_BS-X2,MechPart,1,1
 mechdef_broadside_BS-S2,MechPart,1,1
+mechdef_juggernaut_JG-X,MechPart,1,1
+mechdef_juggernaut_JG-S,MechPart,1,1
+mechdef_juggernaut_JG-X2,MechPart,1,1
+mechdef_juggernaut_JG-S2,MechPart,1,1

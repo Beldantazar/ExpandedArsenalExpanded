@@ -1,0 +1,260 @@
+{
+  "Description": {
+    "Cost": 14800000,
+    "Rarity": 5,
+    "Purchasable": false,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Juggernaut",
+    "Id": "chassisdef_juggernaut_JG-R9T4",
+    "Name": "Juggernaut",
+    "Details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. In the mid-3080's Clan Sea Fox approached a Solaris Arms struggling to deal with the devastation of the Jihad with an offer to sponsor construction of new Juggernauts as long as they used a generous helping of Clan-Spec equipment provided by the Clan. The advertising deal was highly successful and the newly reworked 'Mech taking advantage of both a Clan-spec XL engine and Clan-spec EndoSteel was able to mount a much more lethal array of Clan-spec pulse lasers and AP Gauss Rifles. While it didn't fare quite as well in the arena as Solaris Arms had hoped, it definitely accomplished Clan Sea Fox's goal of driving more business for their merchant fleet.",
+    "Icon": "uixTxrIcon_juggernaut"
+  },
+  "MovementCapDefID": "movedef_juggernaut_JG-R9T4",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_juggernaut",
+  "PrefabIdentifier": "chrprfmech_juggernautbase-001",
+  "PrefabBase": "juggernaut",
+  "Tonnage": 90,
+  "InitialTonnage": 18.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 9642000,
+  "Heatsinks": 30,
+  "TopSpeed": 105,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 115,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 115,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 290,
+      "MaxRearArmor": 145,
+      "InternalStructure": 145
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 190,
+      "MaxRearArmor": 95,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 190,
+      "MaxRearArmor": -1,
+      "InternalStructure": 95
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 17,
+      "z": 0
+    },
+    {
+      "x": 5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": -5,
+      "y": 16,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "JG-R9T4",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Arena Brawler and Juggernaut",
+  "YangsThoughts": "I'm pretty sure this is as powerful as this basic design setup can go at this point, that Clan-spec stuff lets it get an astonishing amount of firepower, and it even has a bit of room left over for some missiles or ballistics if you want em."
+}

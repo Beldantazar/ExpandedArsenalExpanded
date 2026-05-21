@@ -1,0 +1,334 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_superheavy",
+            "unit_release",
+            "unit_lance_support",
+            "unit_role_sniper"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_thunderstone_TDS-3C",
+    "Description": {
+        "Cost": 25000000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Thunderstone TDS-3C",
+        "Id": "mechdef_thunderstone_TDS-3C",
+        "Name": "Thunderstone",
+        "Details": "After the initial success of the comparatively inexpensive 1A and 2A models, Earthwerks Incorporated introduced the 3C model to appeal to buyers who wanted performance and power while still being able to reuse the same mech bay facilities as the earlier models; the 3C model of the Thunderstone is built using all Clan-Spec construction materials, and XL engine and Endo-Steel chassis, as well as Clan-spec double heat sinks, CASE II systems still protect the buyer's investment. While not as prolific as the cheaper models, the ability to share bay space and maintenance crews between the various models has earned a place among the Periphery nations with deeper pockets.  For weaponry, it mounts a similar loadout in concept to the 1A, effective at all ranges, but it accomplishes this by using all Clan-spec weaponry, which, due to the lack of minimum range on a lot of them, allows it to operate at all ranges by just specing for the longest one. It thus mounts twin ER PPCs, twin Large Pulse Lasers, a single ER Medium Laser in the head, twin LRM 20 racks, a single HAG 30 and a quartet of AP Gauss Rifles for anti infantry and battle armor purposes. All sections are protected by Clan-spec CASE II to protect the investment of the buyers.",
+        "Icon": "uixTxrIcon_thunderstone"
+    },
+    "simGameMechPartCost": 714821,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 41,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 310,
+            "CurrentRearArmor": 100,
+            "CurrentInternalStructure": 205,
+            "AssignedArmor": 310,
+            "AssignedRearArmor": 100
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 265,
+            "CurrentRearArmor": 70,
+            "CurrentInternalStructure": 140,
+            "AssignedArmor": 265,
+            "AssignedRearArmor": 70
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 265,
+            "CurrentRearArmor": 70,
+            "CurrentInternalStructure": 140,
+            "AssignedArmor": 265,
+            "AssignedRearArmor": 70
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 220,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 110,
+            "AssignedArmor": 220,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 220,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 110,
+            "AssignedArmor": 220,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 280,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 140,
+            "AssignedArmor": 280,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 280,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 140,
+            "AssignedArmor": 280,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_LRM_LRM20_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_LRM_LRM20_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_HyperGauss_HAG30",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_SRM_SRM6_STREAK_CLAN",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_SRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

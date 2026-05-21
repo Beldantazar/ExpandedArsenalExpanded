@@ -25,7 +25,11 @@
         "chrprfmech_emperorbase-001_90",
         "chrprfmech_raptorbase-001_25",
         "chrprfmech_crkbase-001_85",
-        "chrprfmech_lynxbase-001_55"
+        "chrprfmech_lynxbase-001_55",
+        "chrprfmech_battlehammerbase-001_85",
+        "chrprfmech_ionraptorbase-001_70",
+        "chrprfmech_ionraptor2base-001_70",
+        "chrprfmech_wobsh1base-001_130"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

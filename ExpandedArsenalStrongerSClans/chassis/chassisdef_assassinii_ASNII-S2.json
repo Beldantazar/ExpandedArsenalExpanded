@@ -1,0 +1,253 @@
+{
+  "Description": {
+    "Cost": 3800000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Assassin II",
+    "Id": "chassisdef_assassinii_ASNII-S2",
+    "Name": "Assassin II",
+    "Details": "The Assassin II is the result of a Federated Suns specification calling for a 'quick strike harasser unit'. The Maltex Corporation proposed a major redesign of their older Assassin chassis, the resulting BattleMech exceeded all expectations and has started to see use as a counter to the stealth technology employed by the Capellan Confederation. This Omnimech is designed with integrated Triple Strength Myomer to allow it to carry a self contained handheld Plasma Rifle, is equipped with retractable blades like Word of Blake units and is fitted with a Null Signature System and Chameleon Light Polarization Shield for stealth. For pod mounted equipment, the OD layout mounts 6 jumpjets, one ER Medium Laser, a Snub-Nose PPC and an SRM-4, along with half a ton of ammo and an AMS to protect against enemy missiles.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_assassin2"
+  },
+  "MovementCapDefID": "movedef_assassin2_ASNII-OD",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_assassin2",
+  "PrefabIdentifier": "chrprfmech_assassin2base-001",
+  "PrefabBase": "assassin2",
+  "Tonnage": 40,
+  "InitialTonnage": 11.0,
+  "weightClass": "MEDIUM",
+  "Heatsinks": 45,
+  "MaxJumpjets": 7,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 50,
+  "MeleeInstability": 40,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 50,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 50,
+  "DFAInstability": 50,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 13.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12.5,
+      "z": -0.5
+    },
+    {
+      "x": -3,
+      "y": 12.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 13.5,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 12.5,
+      "z": -0.5
+    },
+    {
+      "x": -3,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 6,
+      "z": 1
+    },
+    {
+      "x": -2,
+      "y": 6,
+      "z": 1
+    }
+  ],
+  "VariantName": "ASNII-S2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Scout / Hunter-Killer",
+  "YangsThoughts": "Now this is an interesting mech design, I haven't seen handheld weapons in production mechs, but I guess there's a first time for everything, unfortunately this one is not compatible with other units as it has a non-standard control connection instead of the expected trigger mount. This is a very close range layout, probably too close ranged for how fragile this thing is.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_Arm_Blade",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_StealthSuite_2",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Plasma_Plasmarifle_0_Carried",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
+}

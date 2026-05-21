@@ -4,6 +4,8 @@
             "unit_mech",
             "unit_release",
             "unit_light",
+            "unit_mech_Advanced",
+            "mech_light_Advanced",
             "unit_lance_support",
             "unit_role_scout",
             "elite_forces"

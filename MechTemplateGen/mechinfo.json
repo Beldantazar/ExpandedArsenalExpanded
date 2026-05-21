@@ -5099,9 +5099,9 @@
         "newMechVariant": true,
         "Heatsinks": 30,
         "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": false,
+        "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 100,
         "mechEngine": 400,
         "xlEngine": true,
@@ -5134,8 +5134,8 @@
                 "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
-        "details": "A massive close in brawling mech, with a gigantic 400XL engine and a MASC system to allow it to reach a top speed of 86.4 km/h. It runs an arsenal of energy weapons for ranged operations while it gets in range for its massive 7 ton hatchet. For long range it uses an ER PPC then twin large pulse lasers for closer in work. It does mount a flamer in the head but more for the psychological effect than any actual combat use.",
-        "yangsThoughts": "Basically an axman or hatchetman but even bigger, this thing is a monster in melee and it's at least got enough firepower to blow up the things it can't catch."
+        "details": "The B3 variant is a modification of the Berserker that changes the 'Mech from a powerful brawler to a well-armed fire support 'Mech. The twin large pulse lasers have been replaced with a pair of Coventry StarFire LRM-10 launchers which allow the 'Mech to sit at long ranges and bombard the enemy. If a 'Mech closes to short range, the Berserker can act as its own bodyguard by using its hatchet.",
+        "yangsThoughts": "Not a hugely effective firesupport mech for the weight, but at least it has a lot of armor and can defend itself well with the hatchet."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
@@ -7908,6 +7908,47 @@
         "yangsThoughts": "Unlike the original mech, this one is designed for long range, and with that light engine it can mount enough weaponry to match an Atlas"
     },
     {
+        "baseTemplateFileName": "..\\EliteForces\\elitechassis\\chassisdef_atlas_AS7-DX1.json",
+        "baseMechFileName": "..\\EliteForces\\elitemech\\mechdef_atlas_AS7-DX1.json",
+        "newMechName": "Pillager",
+        "newMechDesignation": "PLG",
+        "newMechModelNumber": "1N",
+        "prefabName": "pillager",
+        "prefabId": "chrprfmech_pillagerbase-001",
+        "hardpointData": "hardpointdatadef_pillager",
+        "icon": "uixTxrIcon_battlemaster",
+        "Heatsinks": 30,
+        "newMechVariant": false,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 2, 0, 1, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Heavy Juggernaut",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The largest BattleMech ever built by HildCo Interplanetary, the Pillager is built as a larger version of the Victor, and is intended for assaulting urban centers and hardened fortifications. These design parameters were paramount as the SLDF mobilized to wage the Reunification War. Later Pillagers were upgraded with more cutting-edge Star League technology. Production of the Pillager halted not because its facility was destroyed, but the advanced Gauss rifle and XL engine production lines had been obliterated by the end of the Second Succession War. Curiously, HildCo did not restart production of the original PLG-1N, rather the Pillager lines only began production again in 3058 when advanced components were once again available for the PLG-3Z. The original Pillager, designed in 2575 and fielded for the first two decades of the Reunification War, uses a standard fusion engine instead of the extralight model that went into production. Other limitations include a 60 meter jump range and 17 tons of armor. The weapons suite was also different, relying on twin torso mounted Autocannon/20s, a single SRM-4, and three medium lasers; one mounted in each arm and a head-mounted laser. Sixteen single heat sinks kept the heat under control. ",
+        "yangsThoughts": "A decent close in brawling design, the lack of light engine seriously cuts down on the amount of weaponry it can field."
+    },
+    {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_viper_PRIME.json",
         "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_viper_PRIME.json",
         "newMechName": "Sentinel",
@@ -8252,7 +8293,7 @@
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "mechTonnage": 100,
         "mechEngine": 300,
         "xlEngine": true,
@@ -12572,5 +12613,2860 @@
         },
         "details": "The Broadside is a relatively new chassis to the battlefields of the Inner Sphere but Solaris VII never misses an opportunity for innovation. In that vein comes Blunderbuss, a Broadside with a knock-out punch. Built on the same Endo-Steel skeleton as the regular Broadside, the Blunderbuss swaps the rugged standard engine for an advanced Clan-grade 300-rated XL. It uses this extra free weight to mount a dizzying array of firepower, with a Silver Bullet Gauss Rifle and a Hyper-Assault Gauss Rifle/30 forming the core of the array. An Clan-spec Gauss Rifle and ER PPC round out the guns, ensuring that the Blunderbuss can one-tap just about anything it can catch. The heat is decently managed by the 12 double heat sinks mounted to it.",
         "yangsThoughts": "An odd layout, with mismatched Gauss Rifles and I'm not honestly sure why, but it seems to work ok so I guess if it works it works."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_highlander_HGN-732b.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_highlander_HGN-732b.json",
+        "newMechName": "Juggernaut",
+        "newMechDesignation": "JG",
+        "newMechModelNumber": "R9T1",
+        "prefabName": "juggernaut",
+        "prefabId": "chrprfmech_juggernautbase-001",
+        "hardpointData": "hardpointdatadef_juggernaut",
+        "icon": "uixTxrIcon_juggernaut",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 90,
+        "mechEngine": 270,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 1, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 4, 0, 4, 0, 0, 0 ]
+        },
+        "stockRole": "Arena Brawler and Juggernaut",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. While not a flashy design, Solaris Arms kept up steady production of the design since the early 3050s, the company addressed complaints of the 'Mech's bulky chassis and outboard sensor arrays with a sleeker refreshed model in the mid-3060s. The original Juggernaut model carries regular Large and Medium Pulse Lasers in place of the advanced X-Pulse lasers. Its ammunition bins are protected with CASE. It carries four Small Pulse Lasers in place of the coolant pods, as well as four additional Machine Guns, though this comes at the cost of four Double Heat Sinks. The original design had poorly placed sensor units that were heavily criticized by both technicians and MechWarriors.",
+        "yangsThoughts": "Oh man, I've always liked this design overall, though I had the mech techs reposition those sensor units before I even let you see the thing in the bay. It mounts a huge number of machine guns and lasers, which makes it work well in the arenas, but you may want to put on some more ranged equipment for use on the battlefield."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_highlander_HGN-732b.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_highlander_HGN-732b.json",
+        "newMechName": "Juggernaut",
+        "newMechDesignation": "JG",
+        "newMechModelNumber": "R9T2",
+        "prefabName": "juggernaut",
+        "prefabId": "chrprfmech_juggernautbase-001",
+        "hardpointData": "hardpointdatadef_juggernaut",
+        "icon": "uixTxrIcon_juggernaut",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 90,
+        "mechEngine": 270,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 3, 0, 1, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 4, 0, 4, 0, 0, 0 ]
+        },
+        "stockRole": "Arena Brawler and Juggernaut",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. While not a flashy design, Solaris Arms kept up steady production of the design since the early 3050s, the company addressed complaints of the 'Mech's bulky chassis and outboard sensor arrays with a sleeker refreshed model in the mid-3060s. Sixteen and half tons of Valiant Chainmail armor protect a GM 270 fusion engine, propelling the 'Mech at fairly standard assault 'Mech speed of 54 km/h. A whopping sixteen Double Heat Sinks are still not enough to vent the massive volume of waste heat the Juggernaut's advanced lasers produce, with the 'Mech also carrying four Coolant Pods in an desperate attempt to quickly disperse the large amount of heat that it can generate. The modern R9T2 Juggernaut's main armament is a trio of Sutel Precision Line Large Pulse Lasers with Bethel Labs X-Pulse, one in each arm with one in its center torso, backed up by three Sutel Precision Line Medium Pulse Lasers with Bethel Labs X-Pulse divided between each arm and the head. Due to the 'Mech's lack of hand actuators, at knife-fighting range the Juggernaut is protected by a staggering twelve LFN Lindblad Machine Guns fed from two tons of reloads.",
+        "yangsThoughts": "The big problem with this one has got to be the x-pulse laser's massive heat output, 16 doubles is just not up to the task of keeping it cold, and you'll probably want to just pull most of the machine guns off in favor of more heat sinks."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_highlander_HGN-732b.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_highlander_HGN-732b.json",
+        "newMechName": "Juggernaut",
+        "newMechDesignation": "JG",
+        "newMechModelNumber": "R9T3",
+        "prefabName": "juggernaut",
+        "prefabId": "chrprfmech_juggernautbase-001",
+        "hardpointData": "hardpointdatadef_juggernaut",
+        "icon": "uixTxrIcon_juggernaut",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 90,
+        "mechEngine": 270,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 3, 0, 1, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 4, 0, 4, 0, 0, 0 ]
+        },
+        "stockRole": "Arena Brawler and Juggernaut",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. While not a flashy design, Solaris Arms kept up steady production of the design since the early 3050s, the company addressed complaints of the 'Mech's bulky chassis and outboard sensor arrays with a sleeker refreshed model in the mid-3060s. Sixteen and half tons of Valiant Chainmail armor protect a GM 270 fusion engine, propelling the 'Mech at fairly standard assault 'Mech speed of 54 km/h. A whopping sixteen Double Heat Sinks are still not enough to vent the massive volume of waste heat the Juggernaut's advanced lasers produce, with the 'Mech also carrying four Coolant Pods in an desperate attempt to quickly disperse the large amount of heat that it can generate. The modern R9T2 Juggernaut's main armament is a trio of Sutel Precision Line Large Pulse Lasers with Bethel Labs X-Pulse, one in each arm with one in its center torso, backed up by three Sutel Precision Line Medium Pulse Lasers with Bethel Labs X-Pulse divided between each arm and the head. This variant replaces the Machine Guns with the Magshot gauss weapons. It also carries two more coolant pods compared to the JG-R9T2.",
+        "yangsThoughts": "Now, Magshots are these new gauss type things out of Fed Sun space, basically a super tiny Gauss Rifle that has the longest range of any support weapon, I just wish they weren't so bulky. They're way better range than the machine guns they replaced, so this is a nice upgrade overall."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_highlander_HGN-732b.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_highlander_HGN-732b.json",
+        "newMechName": "Juggernaut",
+        "newMechDesignation": "JG",
+        "newMechModelNumber": "R9T4",
+        "prefabName": "juggernaut",
+        "prefabId": "chrprfmech_juggernautbase-001",
+        "hardpointData": "hardpointdatadef_juggernaut",
+        "icon": "uixTxrIcon_juggernaut",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 90,
+        "mechEngine": 270,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 1, 3, 0, 1, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 4, 0, 4, 0, 0, 0 ]
+        },
+        "stockRole": "Arena Brawler and Juggernaut",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. In the mid-3080's Clan Sea Fox approached a Solaris Arms struggling to deal with the devastation of the Jihad with an offer to sponsor construction of new Juggernauts as long as they used a generous helping of Clan-Spec equipment provided by the Clan. The advertising deal was highly successful and the newly reworked 'Mech taking advantage of both a Clan-spec XL engine and Clan-spec EndoSteel was able to mount a much more lethal array of Clan-spec pulse lasers and AP Gauss Rifles. While it didn't fare quite as well in the arena as Solaris Arms had hoped, it definitely accomplished Clan Sea Fox's goal of driving more business for their merchant fleet.",
+        "yangsThoughts": "I'm pretty sure this is as powerful as this basic design setup can go at this point, that Clan-spec stuff lets it get an astonishing amount of firepower, and it even has a bit of room left over for some missiles or ballistics if you want em."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_warhawk_A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_warhawk_A.json",
+        "newMechName": "Battlehammer",
+        "newMechDesignation": "BHA",
+        "newMechModelNumber": "1A",
+        "prefabName": "battlehammer",
+        "prefabId": "chrprfmech_battlehammerbase-001",
+        "hardpointData": "hardpointdatadef_battlehammer",
+        "icon": "uixTxrIcon_templar",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 1, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 1, 1, 1, 1, 1, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Heavy Brawler & Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The BattleHammer was the launching point for Pafftek Industries. It is a production derivative of a frankenmech made early in the Clan Invasion by a merc company. The 'Arena Flagship' utilizes Clan Tech",
+        "yangsThoughts": "This is similar in concept to the Templar's D configuration, except it uses the much more effective Clan-spec Gauss Rifles instead, if you want to upgrade it, consider putting some Hyper Assault Gauss rifles on instead."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_warhawk_A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_warhawk_A.json",
+        "newMechName": "Battlehammer",
+        "newMechDesignation": "BHA",
+        "newMechModelNumber": "2D",
+        "prefabName": "battlehammer",
+        "prefabId": "chrprfmech_battlehammerbase-001",
+        "hardpointData": "hardpointdatadef_battlehammer",
+        "icon": "uixTxrIcon_templar",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 1, 1, 1, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Heavy Brawler & Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Pafftek Industries, trying to reduce the cost of the exceptional BattleHammer, made a series utilizing only inner-sphere tech. This, the most basic version of the BattleHammer, utilizes technology readily available in the post-Helm memory core era. It is available to anyone except the Clans and the Word of Blake.",
+        "yangsThoughts": "A sizable downgrade overall, but the techs can fix that up with some weapon swaps. The fundamental design is pretty solid if a bit limited on weapon space."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_warhawk_A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_warhawk_A.json",
+        "newMechName": "Battlehammer",
+        "newMechDesignation": "BHA",
+        "newMechModelNumber": "2R",
+        "prefabName": "battlehammer",
+        "prefabId": "chrprfmech_battlehammerbase-001",
+        "hardpointData": "hardpointdatadef_battlehammer",
+        "icon": "uixTxrIcon_templar",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 1, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 1, 1, 1, 1, 1, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "stockRole": "Heavy Brawler & Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Pafftek Industries, attempting to build on the proven performance of the Battlehammer 2D, replaced the arm autocannons with Rotary Autocannon 5's for improved firepower backed up by a quartet of medium pulse lasers in the torsos, and a single Clan-spec ER PPC in the center torso. This required switching to an endosteel chassis to free up enough tonnage.",
+        "yangsThoughts": "A very high firepower variant, it doesn't have the range of the flagship, but the raw firepower is much higher."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Black Heart",
+        "newMechDesignation": "BH",
+        "newMechModelNumber": "1",
+        "prefabName": "blackheart",
+        "prefabId": "chrprfmech_blackheartbase-001",
+        "hardpointData": "hardpointdatadef_blackheart",
+        "icon": "uixTxrIcon_hatamotochi",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 1, 1, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Sniper",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The 70 ton Black Heart is a rare Word of Blake Mech; deployed exclusively among their Manei Domini elite. Powered by a 280-rated XL Engine and built on an Endo Steel chassis, the Black Heart BH-1 is armed with a pair of Light Gauss Rifles. A pair of Medium Lasers and a trio of SRMs make up the Mechs secondary armament while a combination of Guardian ECM and an AMS boost it’s defensive capabilities.",
+        "yangsThoughts": "Good speed, decent armament for all ranges and decent armor, this mech has basically everything you could want out of a heavy mech, except possibly some Clan-spec upgrades."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_madcat_MC-PRIME.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_madcat_MC-PRIME.json",
+        "newMechName": "Prince Crab",
+        "newMechDesignation": "PRC",
+        "newMechModelNumber": "4B",
+        "prefabName": "jcrab",
+        "prefabId": "chrprfmech_jcrabbase-001",
+        "hardpointData": "hardpointdatadef_jcrab",
+        "icon": "uixTxrIcon_crab",
+        "initialTonnage": null,
+        "initialTonnageExtra": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "EndoComposite",
+        "hardpoints": {
+            "Energy": [ 0, 0, 4, 0, 4, 0, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 1, 0, 1, 0, 0 ]
+        },
+        "stockRole": "Heavy Brawler and Striker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "In the 3060s, ComStar and the Republic of the Sphere found themselves in need of a new line combat heavy BattleMech. Drawing on theoretical mock-ups from ComStar's Star League archives, they developed a heavy version of the venerable Crab BattleMech. To respect the lineage between the Crab and the assault-weight King Crab, this new chassis was named the Prince Crab. The Prince Crab is built on an Endo-Composite frame with a standard 300-rated fusion engine for power. For firepower the PRC-4B carries twin LB-10X Autocannons, backed up by four torso-mounted ER Medium Lasers and a solitary ER Small Laser. 10 double heat sinks don't quite manage the heat while four tons of CASE II protected ammunition ensure the guns never stop firing.",
+        "yangsThoughts": "An interesting midpoint between the regular Crab and the King, this thing is well armored and durable, with a good mix of weaponry."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_madcat_MC-PRIME.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_madcat_MC-PRIME.json",
+        "newMechName": "Prince Crab",
+        "newMechDesignation": "PRC",
+        "newMechModelNumber": "5S",
+        "prefabName": "jcrab",
+        "prefabId": "chrprfmech_jcrabbase-001",
+        "hardpointData": "hardpointdatadef_jcrab",
+        "icon": "uixTxrIcon_crab",
+        "initialTonnage": null,
+        "initialTonnageExtra": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoComposite",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 1, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Brawler and Striker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "In the 3060s, ComStar and the Republic of the Sphere found themselves in need of a new line combat heavy BattleMech. Drawing on theoretical mock-ups from ComStar's Star League archives, they developed a heavy version of the venerable Crab BattleMech. To respect the lineage between the Crab and the assault-weight King Crab, this new chassis was named the Prince Crab. The Prince Crab is built on an Endo-Composite frame with a standard 300-rated fusion engine for power. For firepower the PRC-5S is equipped with a quartet of SRM-6s supplied with three tons of CASE II protected ammunition. For ammo-free firepower, the -5S uses twin Snub-Nose PPCs and a lone ER Small Laser. 16 double heat sinks struggle to keep it all cooled.",
+        "yangsThoughts": "An interesting midpoint between the regular Crab and the King, this thing really goes in for the close range battling with the heavy SRM loadout, just watch out for getting outranged."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_madcat_MC-PRIME.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_madcat_MC-PRIME.json",
+        "newMechName": "Prince Crab",
+        "newMechDesignation": "PRC",
+        "newMechModelNumber": "5X",
+        "prefabName": "jcrab",
+        "prefabId": "chrprfmech_jcrabbase-001",
+        "hardpointData": "hardpointdatadef_jcrab",
+        "icon": "uixTxrIcon_crab",
+        "initialTonnage": null,
+        "initialTonnageExtra": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "EndoComposite",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 1, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Brawler and Striker",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "After the Prince Crab's debut, the Republic Institute of Strategic Combat decided to make use of the chassis for a weapon testing platform, specifically to test the newly-developed Hyper Laser. Armed with a RISC Hyper Laser, as well as two standard SRM-6s for close-range backup, the PRC-5X proved a deadly combatant. Plentiful heat management gear combined with a Guardian ECM and sturdy armor keeps the -5X functional in all environments while CASE II ensures the design is durable even against ammunition explosions.",
+        "yangsThoughts": "An interesting midpoint between the regular Crab and the King, that Hyper Laser thing is high damage, but that heat output is way too high to sustain for too long."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_ebonjaguar_B.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_ebonjaguar_B.json",
+        "newMechName": "Liberty",
+        "newMechDesignation": "LBT",
+        "newMechModelNumber": "O",
+        "prefabName": "liberty",
+        "prefabId": "chrprfmech_libertybase-001",
+        "hardpointData": "hardpointdatadef_liberty",
+        "icon": "uixTxrIcon_corsair",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 65,
+        "mechEngine": 325,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 2, 2, 0, 0, 0 ]
+        },
+        "stockRole": "Native Periphery Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "As the Inner Sphere developed Omnimech technology in the 3050s, the Taurian Concordat watched with interest. Finally, in the early 3060s, thanks to some good old-fashioned corporate espionage, the Concordat managed to steal basic Omnimech technology plans from the Federated Suns and developed their own Omnimech, the Liberty. To keep costs low, the Liberty is made with simple off-the-shelf weapons technology. The Liberty Prime is armed with twin PPCs, a LRM-15, two Medium Lasers, and 4 Small Lasers. Endo-Steel and an XL Engine provide the weight for the payload.",
+        "yangsThoughts": "A simple enough omnimech design, easy to manufacture by omnimech standards, and with a decent but not astonishing weapons loadout. The stock setup is able to work for most uses, but you'll probably want to rework it a bit."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_ebonjaguar_B.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_ebonjaguar_B.json",
+        "newMechName": "Liberty",
+        "newMechDesignation": "LBT",
+        "newMechModelNumber": "OA",
+        "prefabName": "liberty",
+        "prefabId": "chrprfmech_libertybase-001",
+        "hardpointData": "hardpointdatadef_liberty",
+        "icon": "uixTxrIcon_corsair",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 65,
+        "mechEngine": 325,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 2, 2, 0, 0, 0 ]
+        },
+        "stockRole": "Native Periphery Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "As the Inner Sphere developed Omnimech technology in the 3050s, the Taurian Concordat watched with interest. Finally, in the early 3060s, thanks to some good old-fashioned corporate espionage, the Concordat managed to steal basic Omnimech technology plans from the Federated Suns and developed their own Omnimech, the Liberty. To keep costs low, the Liberty is made with simple off-the-shelf weapons technology. The Liberty A is armed for range, with a pair of LRM-20s providing core firepower. For up close, it can call upon a quartet of Rocket Launcher/10s.",
+        "yangsThoughts": "I'm not sold on this setup really, the rocket launchers are cheap to run, sure, but if you need more than 4 volleys, then you're sunk. I'd much rather trust my life to an SRM or something else that won't run out of ammo right when I need it the most."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_ebonjaguar_B.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_ebonjaguar_B.json",
+        "newMechName": "Liberty",
+        "newMechDesignation": "LBT",
+        "newMechModelNumber": "OC",
+        "prefabName": "liberty",
+        "prefabId": "chrprfmech_libertybase-001",
+        "hardpointData": "hardpointdatadef_liberty",
+        "icon": "uixTxrIcon_corsair",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 65,
+        "mechEngine": 325,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 2, 2, 0, 0, 0 ]
+        },
+        "stockRole": "Native Periphery Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "As the Inner Sphere developed Omnimech technology in the 3050s, the Taurian Concordat watched with interest. Finally, in the early 3060s, thanks to some good old-fashioned corporate espionage, the Concordat managed to steal basic Omnimech technology plans from the Federated Suns and developed their own Omnimech, the Liberty. To keep costs low, the Liberty is made with simple off-the-shelf weapons technology. The Liberty C is equipped with an AC/5 for punch and a Large Laser for range. Up close it can call on four SRM-4s.",
+        "yangsThoughts": "Probably the cheapest weapons loadout I've ever seen on an omnimech, I feel like if you're cheaping out this much on the guns for a mech that you're putting an expensive XL engine and Endo Steel in, you've gotta rethink your priorities."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_ebonjaguar_B.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_ebonjaguar_B.json",
+        "newMechName": "Liberty",
+        "newMechDesignation": "LBT",
+        "newMechModelNumber": "OD",
+        "prefabName": "liberty",
+        "prefabId": "chrprfmech_libertybase-001",
+        "hardpointData": "hardpointdatadef_liberty",
+        "icon": "uixTxrIcon_corsair",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 65,
+        "mechEngine": 325,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 2, 2, 0, 0, 0 ]
+        },
+        "stockRole": "Native Periphery Omnimech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "As the Inner Sphere developed Omnimech technology in the 3050s, the Taurian Concordat watched with interest. Finally, in the early 3060s, thanks to some good old-fashioned corporate espionage, the Concordat managed to steal basic Omnimech technology plans from the Federated Suns and developed their own Omnimech, the Liberty. To keep costs low, the Liberty is made with simple off-the-shelf weapons technology. The Liberty D replicates the premier Taurian assault mech, the Mackie. Armed with an AC/20, twin Large Lasers, and twin CT-mounted Small Lasers, the Liberty D is quite versatile for the price.",
+        "yangsThoughts": "It's at least not quite as cheap as the C loadout, but it's still bizarrely cheap for the weapons on a chassis this pricy to build."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Mackenzie",
+        "newMechDesignation": "MK",
+        "newMechModelNumber": "22",
+        "prefabName": "ml22v2",
+        "prefabId": "chrprfmech_ml22v2base-001",
+        "hardpointData": "hardpointdatadef_ml22v2",
+        "icon": "uixTxrIcon_stonerhino",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 4, 1, 0, 1, 4, 0, 0 ]
+        },
+        "stockRole": "Heavy Gauss Platform",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Defiance Industries has used the Mackenzie as a dedicated testing platform for ballistic weaponry for years, most recently as part of development testing for the Hyper Gauss Rifle in conjunction with Clan Jade Falcon. While the weapon did eventually get manufactured, development took longer than initially expected and so the company wound up with an excess of testbed models which they then sold off after replacing the testing weaponry with production versions. The Mackensie is built around a torso cockpit and a 280-rated Extra-Light Fusion Engine for power. For backup weaponry, the Mackensie mounts an ER PPC and a quartet of Magshots. Four jump jets give it extra positioning ability.",
+        "yangsThoughts": "A pretty good heavy gauss platform overall, the big hit from the gauss is effective against most things though the support weaponry is a bit weak."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "King Crabrauder",
+        "newMechDesignation": "KCRD",
+        "newMechModelNumber": "1A",
+        "prefabName": "crabshasapult",
+        "prefabId": "chrprfmech_crabshasapultbase-001",
+        "hardpointData": "hardpointdatadef_crabshasapult",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "stockRole": "Mixed Tech Hybrid Mech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "After launching a series of retaliatory raids against the Lyran Alliance as punishment for stealing the Light Engine plans from them, Wolfs Dragoons wound up finding a sizable cache of intact King Crab arms but without the corresponding torsos and legs. Unwilling to waste such a windfall, the Dragoon's kept them in storage in hopes of finding a use for them later. After the destruction of the Jihad, Wolfs Dragoons contracted Irian BattleMechs Unlimited to make use of those arms by attaching them to reworked Marauder II torsos and legs. The resulting mech was then fitted with extensive Clan-spec equipment to produce this unusual design. The 1A configuration mounts twin Clan-spec Large Pulse Lasers and Ultra Autocannon 20s in the arms. These heavy arm weapons are supported by twin LRM 15 launchers on the shoulders for indirect fire support while the mech lumbers into range of its main guns.",
+        "yangsThoughts": "When you brought this into my mech bay I initially thought you were having a laugh at my expense, but for all it's ugly appearance, this thing is a solid heavy brawler with decent fire support abilities, just keep an eye on that heat guage."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "King Crabrauder",
+        "newMechDesignation": "KCRD",
+        "newMechModelNumber": "1B",
+        "prefabName": "crabshasapult",
+        "prefabId": "chrprfmech_crabshasapultbase-001",
+        "hardpointData": "hardpointdatadef_crabshasapult",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "stockRole": "Mixed Tech Hybrid Mech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "After launching a series of retaliatory raids against the Lyran Alliance as punishment for stealing the Light Engine plans from them, Wolfs Dragoons wound up finding a sizable cache of intact King Crab arms but without the corresponding torsos and legs. Unwilling to waste such a windfall, the Dragoon's kept them in storage in hopes of finding a use for them later. After the destruction of the Jihad, Wolfs Dragoons contracted Irian BattleMechs Unlimited to make use of those arms by attaching them to reworked Marauder II torsos and legs. The resulting mech was then fitted with extensive Clan-spec equipment to produce this unusual design. The 1B configuration is designed more for long range fire support, mounting twin Clan-spec Large Pulse Lasers and Inner Sphere grade Rotary Autocannon 5s in the arms. These heavy arm weapons are supported by twin LRM 15 launchers on the shoulders for additional fire support.",
+        "yangsThoughts": "More heavy fire support on a very weird looking mech, but for all the strange appearance I can't fault the actual performance."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "King Crabrauder",
+        "newMechDesignation": "KCRD",
+        "newMechModelNumber": "1C",
+        "prefabName": "crabshasapult",
+        "prefabId": "chrprfmech_crabshasapultbase-001",
+        "hardpointData": "hardpointdatadef_crabshasapult",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "stockRole": "Mixed Tech Hybrid Mech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "After launching a series of retaliatory raids against the Lyran Alliance as punishment for stealing the Light Engine plans from them, Wolfs Dragoons wound up finding a sizable cache of intact King Crab arms but without the corresponding torsos and legs. Unwilling to waste such a windfall, the Dragoon's kept them in storage in hopes of finding a use for them later. After the destruction of the Jihad, Wolfs Dragoons contracted Irian BattleMechs Unlimited to make use of those arms by attaching them to reworked Marauder II torsos and legs. The resulting mech was then fitted with extensive Clan-spec equipment to produce this unusual design. The 1C configuration is based on the old 'Clanbuster' configuration of the King Crab; mounting twin Clan-spec Gauss Rifles in the arms backed by twin ER PPCs, while keeping the ubiquitous twin LRM 15s that all the variants share.",
+        "yangsThoughts": "I like this design a lot, way better heat profile, and much better ammo handling, you might even be able to squeeze on some upgraded missile launchers if you don't mind it running a bit hot or lighter on ammo."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "King Crabrauder",
+        "newMechDesignation": "KCRD",
+        "newMechModelNumber": "1D",
+        "prefabName": "crabshasapult",
+        "prefabId": "chrprfmech_crabshasapultbase-001",
+        "hardpointData": "hardpointdatadef_crabshasapult",
+        "icon": "uixTxrIcon_kingcrab",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "stockRole": "Mixed Tech Hybrid Mech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "After launching a series of retaliatory raids against the Lyran Alliance as punishment for stealing the Light Engine plans from them, Wolfs Dragoons wound up finding a sizable cache of intact King Crab arms but without the corresponding torsos and legs. Unwilling to waste such a windfall, the Dragoon's kept them in storage in hopes of finding a use for them later. After the destruction of the Jihad, Wolfs Dragoons contracted Irian BattleMechs Unlimited to make use of those arms by attaching them to reworked Marauder II torsos and legs. The resulting mech was then fitted with extensive Clan-spec equipment to produce this unusual design. The 1D configuration builds on the 1C by replacing the Gauss Rifles with HAG30s for maximum firepower while keeping the twin ER PPCs and LRM 15s.",
+        "yangsThoughts": "Really going for the super heavy firewpower with this one, it might be slightly overkill for some situations but the raw firewpower is undeniable."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_shadowcat_A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_shadowcat_A.json",
+        "newMechName": "Mushu",
+        "newMechDesignation": "MHU",
+        "newMechModelNumber": "2R",
+        "prefabName": "mushu",
+        "prefabId": "chrprfmech_mushubase-001",
+        "hardpointData": "hardpointdatadef_mushu",
+        "icon": "uixTxrIcon_hellhound",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 45,
+        "mechEngine": 180,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 2, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 2, 0, 2, 2, 0, 0 ]
+        },
+        "stockRole": "Medium Sniper",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "A home-grown design from the Aurigan Reach, it was designed fairly soon after the civil war situation was resolved. Built to bring a light Gauss Rifle into combat with some defensive armament around it, it mounts the rifle in the torso for stability and has an extensive set of small and medium lasers for protection against close opponents.",
+        "yangsThoughts": "Nice to see Lady Arano's techs keeping busy, the Light Gauss has a great range so it's easily capable of outranging almost anything else on the field, but it's definitely lacking a bit in punch compared to things like the Hollander, though the better support weaponry obviously helps keep it alive much better."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_shadowcat_A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_shadowcat_A.json",
+        "newMechName": "Mushu",
+        "newMechDesignation": "MHU",
+        "newMechModelNumber": "3R",
+        "prefabName": "mushu",
+        "prefabId": "chrprfmech_mushubase-001",
+        "hardpointData": "hardpointdatadef_mushu",
+        "icon": "uixTxrIcon_hellhound",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 45,
+        "mechEngine": 180,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 2, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 2, 0, 2, 2, 0, 0 ]
+        },
+        "stockRole": "Medium Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "A home-grown design from the Aurigan Reach, it was designed fairly soon after the civil war situation was resolved. Built to bring a light Gauss Rifle into combat with some defensive armament around it, it mounts the rifle in the torso for stability and has an extensive set of small and medium lasers for protection against close opponents. For handling close in firepower needs, designers replaced the light Gauss Rifle with an LBX 10 while leaving the rest of the mech the same.",
+        "yangsThoughts": "I'm not sold super well on this one, the lack of a good long range weapon on this version is kind of a weakness."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_shadowcat_A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_shadowcat_A.json",
+        "newMechName": "Mushu",
+        "newMechDesignation": "MHU",
+        "newMechModelNumber": "4R",
+        "prefabName": "mushu",
+        "prefabId": "chrprfmech_mushubase-001",
+        "hardpointData": "hardpointdatadef_mushu",
+        "icon": "uixTxrIcon_hellhound",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 45,
+        "mechEngine": 180,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 1, 0, 1, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 2, 0, 2, 2, 0, 0 ]
+        },
+        "stockRole": "Medium Sniper",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "A home-grown design from the Aurigan Reach, it was designed fairly soon after the civil war situation was resolved. Built to bring a light Gauss Rifle into combat with some defensive armament around it, it mounts the rifle in the torso for stability and has an extensive set of small and medium lasers for protection against close opponents. To remove ammunition dependence, the light Gauss was replaed with a Heavy PPC.",
+        "yangsThoughts": "This is a nicer design, the heavy impact of that PPC is very good at busting through armor and disrupting targets, but it would be better if replaced with a Clan-spec one, as always with energy weapons."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Ion",
+        "newMechDesignation": "ION",
+        "newMechModelNumber": "1R",
+        "prefabName": "ionraptor",
+        "prefabId": "chrprfmech_ionraptorbase-001",
+        "hardpointData": "hardpointdatadef_ionraptor",
+        "icon": "uixTxrIcon_direwolf",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 2, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Striker and Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "This arena brawler is called the Ion Raptor, named for its inventive gladiator creator, The Raptor (real name unknown). Designed in concert with Zellbringen Stables (who later went on to sell a more reasonable version named the Ion on the market), the Ion Raptor is a Clantech frankenmech in the veins of the Prometheus. Armed with a battery of six Light PPCs and four Clan-spec Streak SRM-4s and powered by a Clan XL Engine, the real innovation on the Ion Raptor is its use of Laser Heat Sinks, a rare and temperamental technology. The mech's arena record speaks for itself though, with a plethora of wins backing its weird loadout.",
+        "yangsThoughts": "A kind of weird design, but it works pretty well overall, you'd probably get better performance if you got rid of the light PPCs and put on the proper Clan-spec ER PPCs."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Ion",
+        "newMechDesignation": "ION",
+        "newMechModelNumber": "2R",
+        "prefabName": "ionraptor2",
+        "prefabId": "chrprfmech_ionraptor2base-001",
+        "hardpointData": "hardpointdatadef_ionraptor",
+        "icon": "uixTxrIcon_direwolf",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 2, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Striker and Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Designed by Zellbringen Stables and patterned on a more experimental Solaris VII arena design, the Ion has been designed for extended battlefield endurance. Originally based on a Clan-tech frankenmech arena design called the Ion Raptor, the Ion is a more sober, all Inner Sphere technology, version meant for sale on the market. Powered by a 280-rated Extra Light Fusion Engine and built on a lightweight Endo-Steel frame, the Ion carries a powerful punch: 6 Light PPCs provide ranged firepower while 4 SRM-4s give short-ranged punch. 15 Double Heat Sinks strain to keep the mech cool. The Ion was a moderate success with the Great Houses and appears in all five militaries.",
+        "yangsThoughts": "Basically the same as the -1R but with worse tech weapons, the obvious upgrades to clan spec equipment will help this out, whether you stick with the SRMs or upgrade to Streaks."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Ion",
+        "newMechDesignation": "ION",
+        "newMechModelNumber": "4R",
+        "prefabName": "ionraptor2",
+        "prefabId": "chrprfmech_ionraptor2base-001",
+        "hardpointData": "hardpointdatadef_ionraptor2",
+        "icon": "uixTxrIcon_direwolf",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 2, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Striker and Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Designed by Zellbringen Stables and patterned on a more experimental Solaris VII arena design, the Ion has been designed for extended battlefield endurance. Originally based on a Clan-tech frankenmech arena design called the Ion Raptor, the Ion is a more sober, all Inner Sphere technology, version meant for sale on the market. Powered by a 280-rated Extra Light Fusion Engine and built on a lightweight Endo-Steel frame, the Ion carries a powerful punch: dual Heavy PPCs give grit and dual MRM-10s give crit potential while a battery of heat sinks strain to keep it all controlled.",
+        "yangsThoughts": "A heavy close in brawler with decent heat management, you could swap in some MMLs if you want to get some indirect fire ability for actual battlefield use instead"
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_avatar_AV1-0.json",
+        "newMechName": "Ion",
+        "newMechDesignation": "ION",
+        "newMechModelNumber": "5R",
+        "prefabName": "ionraptor2",
+        "prefabId": "chrprfmech_ionraptor2base-001",
+        "hardpointData": "hardpointdatadef_ionraptor2",
+        "icon": "uixTxrIcon_direwolf",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 70,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 1, 0, 2, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Striker and Brawler",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Designed by Zellbringen Stables and patterned on a more experimental Solaris VII arena design, the Ion has been designed for extended battlefield endurance. Originally based on a Clan-tech frankenmech arena design called the Ion Raptor, the Ion is a more sober, all Inner Sphere technology, version meant for sale on the market. Powered by a 280-rated XL Fusion Engine and built on a lightweight Endo-Steel frame, the Ion carries a powerful punch: two each of HVAC/5s, LRM-10s, and ER Medium Lasers keep the mech shooting at all ranges while six tons of ammo keeps the guns live for a long time.",
+        "yangsThoughts": "A long range striker, I might want some Ultra Autocannons instead of the HVACs for the raw damage, but you'll have to watch the ammo supply if you make that change."
+    },
+    {
+        "baseTemplateFileName": "..\\superheavies\\chassis\\chassisdef_terminus_TMS-1.json",
+        "baseMechFileName": "..\\superheavies\\mech\\mechdef_terminus_TMS-1.json",
+        "newMechName": "Thunderstone",
+        "newMechDesignation": "TDS",
+        "newMechModelNumber": "1A",
+        "prefabName": "thunderstone",
+        "prefabId": "chrprfmech_thunderstonebase-001",
+        "hardpointData": "hardpointdatadef_thunderstone",
+        "icon": "uixTxrIcon_fafnir",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 135,
+        "mechEngine": 270,
+        "xlEngine": false,
+        "chassisType": "EndoComposite",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Superheavy Juggernaut",
+        "useMountIdNaming": false,
+        "details": "Constructed by Earthwerks Incorporated to appeal to the Periphery market, the base model of the Thunderstone is built to use very little expensive or sophisticated construction materials, it uses all standard double heat sinks, a standard 270 fusion engine and standard armor, the only expensive construction material being the relatively inexpensive Endo-Composite structure and the CASE II systems protecting the buyer's investment. Marketed as being cheap to maintain and upgrade, Periphery states were quick to buy models of the mech to counter the proliferation of super heavy mechs across the Inner Sphere. Since buyers were expected to not have sufficient resources to equip multiple pilots in a squad with 'Mechs of this size, the 'Mech was built to have weapons for any situation, twin extended range medium and large lasers, twin ER PPCs, an LRM 20 and two SRM 6s. Unfortunately, the mech does not mount sufficient heat sinks to allow for firing all of these weapons simultaneously, so it was fitted with several coolant bottles to handle the load in emergencies.",
+        "yangsThoughts": "This thing is overall a bit light on firepower for a super heavy, but that comes with the territory of sticking with extremely low price weapons. That said, it's a solid mech design and easy to work on, so we can easily rework it to support whatever you want it to mount."
+    },
+    {
+        "baseTemplateFileName": "..\\superheavies\\chassis\\chassisdef_terminus_TMS-1.json",
+        "baseMechFileName": "..\\superheavies\\mech\\mechdef_terminus_TMS-1.json",
+        "newMechName": "Thunderstone",
+        "newMechDesignation": "TDS",
+        "newMechModelNumber": "2A",
+        "prefabName": "thunderstone",
+        "prefabId": "chrprfmech_thunderstonebase-001",
+        "hardpointData": "hardpointdatadef_thunderstone",
+        "icon": "uixTxrIcon_fafnir",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 135,
+        "mechEngine": 270,
+        "xlEngine": false,
+        "chassisType": "EndoComposite",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "stockRole": "Superheavy Juggernaut",
+        "useMountIdNaming": false,
+        "details": "Constructed by Earthwerks Incorporated to appeal to the Periphery market, the 2A model of the Thunderstone is built to use very little expensive or sophisticated construction materials, it uses all standard double heat sinks, a standard 270 fusion engine and standard armor, the only expensive construction material being the relatively inexpensive Endo-Composite structure and the CASE II systems protecting the buyer's investment. Marketed as being cheap to maintain and upgrade, Periphery states were quick to buy models of the mech to counter the proliferation of super heavy mechs across the Inner Sphere. This version mounts 4 Plasma Rifles and twin MRM-30 launchers with two Small Pulse Lasers acting as defense against infantry attack.",
+        "yangsThoughts": "Very specialized for heat warfare, this thing can quickly shut down most opponents, so it's great for salvage and disabling missions but it's not great at direct damage."
+    },
+    {
+        "baseTemplateFileName": "..\\superheavies\\chassis\\chassisdef_terminus_TMS-1.json",
+        "baseMechFileName": "..\\superheavies\\mech\\mechdef_terminus_TMS-1.json",
+        "newMechName": "Thunderstone",
+        "newMechDesignation": "TDS",
+        "newMechModelNumber": "3C",
+        "prefabName": "thunderstone",
+        "prefabId": "chrprfmech_thunderstonebase-001",
+        "hardpointData": "hardpointdatadef_thunderstone",
+        "icon": "uixTxrIcon_fafnir",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 135,
+        "mechEngine": 270,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 2, 0, 2, 2, 0, 0 ]
+        },
+        "stockRole": "Superheavy Juggernaut",
+        "useMountIdNaming": false,
+        "details": "After the initial success of the comparatively inexpensive 1A and 2A models, Earthwerks Incorporated introduced the 3C model to appeal to buyers who wanted performance and power while still being able to reuse the same mech bay facilities as the earlier models; the 3C model of the Thunderstone is built using all Clan-Spec construction materials, and XL engine and Endo-Steel chassis, as well as Clan-spec double heat sinks, CASE II systems still protect the buyer's investment. While not as prolific as the cheaper models, the ability to share bay space and maintenance crews between the various models has earned a place among the Periphery nations with deeper pockets.  For weaponry, it mounts a similar loadout in concept to the 1A, effective at all ranges, but it accomplishes this by using all Clan-spec weaponry, which, due to the lack of minimum range on a lot of them, allows it to operate at all ranges by just specing for the longest one. It thus mounts twin ER PPCs, twin Large Pulse Lasers, a single ER Medium Laser in the head, twin LRM 20 racks, a single HAG 30 and a quartet of AP Gauss Rifles for anti infantry and battle armor purposes. All sections are protected by Clan-spec CASE II to protect the investment of the buyers.",
+        "yangsThoughts": "I like this design a lot, it has a lot of spread out firepower, great range, good indirect and direct fire capability and plenty of armor, the only thing it lacks is speed, but for a super heavy that's par for the course."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_rifleman_RFL-3C.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_rifleman_RFL-3C.json",
+        "newMechName": "Tolson",
+        "newMechDesignation": "TOL",
+        "newMechModelNumber": "5N",
+        "prefabName": "transient",
+        "prefabId": "chrprfmech_transientbase-001",
+        "hardpointData": "hardpointdatadef_transient",
+        "icon": "uixTxrIcon_malak",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 60,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [ "Gear_Cockpit_CommandConsole_with_B2000_TOL" ],
+            [],
+            [ "Gear_Guardian_ECM" ],
+            [],
+            [ "Gear_AP" ],
+            [],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [ "Gear_Cockpit_CommandConsole_with_B2000_TOL" ],
+            [],
+            [ "Gear_Guardian_ECM_1" ],
+            [],
+            [ "Gear_AP_1" ],
+            [],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [ "Gear_Cockpit_CommandConsole_with_B2000_TOL" ],
+            [],
+            [ "Gear_Guardian_ECM_2" ],
+            [],
+            [ "Gear_AP_2" ],
+            [],
+            [],
+            []
+        ],
+        "stockRole": "Heavy Command Mech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Originally developed by the first Star League, the Tolson was designed to serve as the ultimate command and control and electronic warfare platform of its era. The original designer, Dr. Transient, elected to give it a sleek appearance to help it better resist enemy sensors and equipped it with the best technology the Star League could muster. The Tolson is built on a 300-rated XL Engine and clad in 10 tons of Ferro-Fibrous armor. For weaponry it carries two Large Lasers and a LRM-10 but the real prize of the mech is the in-built Command Console as well as the Beagle Active Probe, Guardian ECM, Narc Launcher, and TAG system, all of which give it unparalleled battlefield control.",
+        "yangsThoughts": "Great at getting command gear to the front line, but not really good for much else in terms of actually fighting."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_rifleman_RFL-3C.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_rifleman_RFL-3C.json",
+        "newMechName": "Tolson",
+        "newMechDesignation": "TOL",
+        "newMechModelNumber": "5Nb",
+        "prefabName": "transient",
+        "prefabId": "chrprfmech_transientbase-001",
+        "hardpointData": "hardpointdatadef_transient",
+        "icon": "uixTxrIcon_malak",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 60,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [ "Gear_Cockpit_CommandConsole_with_B2000_TOL" ],
+            [],
+            [ "Gear_Guardian_ECM" ],
+            [],
+            [ "Gear_AP" ],
+            [],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [ "Gear_Cockpit_CommandConsole_with_B2000_TOL" ],
+            [],
+            [ "Gear_Guardian_ECM_1" ],
+            [],
+            [ "Gear_AP_1" ],
+            [],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [ "Gear_Cockpit_CommandConsole_with_B2000_TOL" ],
+            [],
+            [ "Gear_Guardian_ECM_2" ],
+            [],
+            [ "Gear_AP_2" ],
+            [],
+            [],
+            []
+        ],
+        "stockRole": "Heavy Command Mech",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Originally developed by the first Star League, the Tolson was designed to serve as the ultimate command and control and electronic warfare platform of its era. The Tolson TOL-5Nb is the so-called 'Royal' version of the design. Although the Tolson in general was quite high-tech by Star League standards, the -5Nb uses more advanced weaponry to up the ante in combat. Built on the same 300-rated XL engine with DHS and Ferro-Fibrous armor, the 'Royal' Tolson uses a LB-10X Autocannon and 4 Medium Pulse Lasers for firepower. It carries the same Command Console and Guardian ECM of its progenitor but drops the Narc, and TAG to instead carry a MASC system for extra speed.",
+        "yangsThoughts": "I dunno about this, getting this thing to the battle faster isn't really that helpful since it's not great when it gets shot but the improved weaponry is at least better in a fight."
+    },
+    {
+        "baseTemplateFileName": "..\\superheavies\\chassis\\chassisdef_rampart_RPT-1.json",
+        "baseMechFileName": "..\\superheavies\\mech\\mechdef_rampart_RPT-1.json",
+        "newMechName": "Hyperion",
+        "newMechDesignation": "HYP",
+        "newMechModelNumber": "PRIME",
+        "prefabName": "hyperion",
+        "prefabId": "chrprfmech_hyperionbase-001",
+        "hardpointData": "hardpointdatadef_hyperion",
+        "icon": "uixTxrIcon_hyperion",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 125,
+        "mechEngine": 375,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 1, 2, 1, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Superheavy Striker",
+        "useMountIdNaming": false,
+        "details": "The Hyperion was developed in response to the Omega's debut by the Word of Blake during the Jihad. Using Clan tech to make the structure and engine allowed for a massive 72.5 tons of available pod space for the Omnimech. Propelled by a 375 XL engine and built on an Endo-Steel framework the designers did have to cut some slight corners on the actual armor to allow for such extensive firepower, the mech is protected by 18.5 tons of ferro fibrous armor, which is one and a half tons below the maximum for the frame.  The PRIME configuration mounts twin Gauss Rifles, twin ER PPCs, twin Improved Heavy Large Lasers, twin ER Medium Lasers and a seemingly superfluous ER Small Laser in the head.",
+        "yangsThoughts": "This thing is efficient, extremely heavily armed and surprisingly fast for how big it is, it's a marvel of engineering. You might want to consider replacing those small lasers with some more armor or heatsinks though, something this big will attract a lot of fire."
+    },
+    {
+        "baseTemplateFileName": "..\\superheavies\\chassis\\chassisdef_rampart_RPT-1.json",
+        "baseMechFileName": "..\\superheavies\\mech\\mechdef_rampart_RPT-1.json",
+        "newMechName": "Yazata",
+        "newMechDesignation": "X-YZT",
+        "newMechModelNumber": "ETERNATUS",
+        "prefabName": "wobsh1",
+        "prefabId": "chrprfmech_wobsh1base-001",
+        "hardpointData": "hardpointdatadef_wobsh1",
+        "icon": "uixTxrIcon_archangel",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 125,
+        "mechEngine": 375,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "stockRole": "Superheavy Striker",
+        "useMountIdNaming": false,
+        "details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 375-rated extra light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Silver Bullet Gauss Rifle and Heavy PPC for direct firepower while twin Thunderbolt-15s provide indirect support.",
+        "yangsThoughts": "A Word of Blake superheavy that isn't the Omega, interesting. The stock weapons loadout is pretty good, but a bit weird, but at least we can easily reconfigure it for other usages."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_assassin_ASN-21.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_assassin_ASN-21.json",
+        "newMechName": "Assassin II",
+        "newMechDesignation": "ASNII",
+        "newMechModelNumber": "O",
+        "prefabName": "assassin2",
+        "prefabId": "chrprfmech_assassin2base-001",
+        "hardpointData": "hardpointdatadef_assassin2",
+        "icon": "uixTxrIcon_warhammeriic",
+        "initialTonnageExtra": -5,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 40,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 2, 3, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_1" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_2" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Assassin II is the result of a Federated Suns specification calling for a 'quick strike harasser unit'. The Maltex Corporation proposed a major redesign of their older Assassin chassis, the resulting BattleMech exceeded all expectations and has started to see use as a counter to the stealth technology employed by the Capellan Confederation. This Omnimech is designed with integrated Triple Strength Myomer to allow it to carry a self contained handheld Plasma Rifle, is equipped with retractable blades like Word of Blake units and is fitted with a Null Signature System and Chameleon Light Polarization Shield for stealth. For pod mounted equipment, the base layout mounts 6 jumpjets, two ER Medium Lasers and twin MML-5s, along with two tons of ammo.",
+        "yangsThoughts": "Now this is an interesting mech design, I haven't seen handheld weapons in production mechs, but I guess there's a first time for everything, unfortunately this one is not compatible with other units as it has a non-standard control connection instead of the expected trigger mount. The pod mounted mmls and lasers are a bit underpowered for my tastes, but they do the job."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_assassin_ASN-21.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_assassin_ASN-21.json",
+        "newMechName": "Assassin II",
+        "newMechDesignation": "ASNII",
+        "newMechModelNumber": "OA",
+        "prefabName": "assassin2",
+        "prefabId": "chrprfmech_assassin2base-001",
+        "hardpointData": "hardpointdatadef_assassin2",
+        "icon": "uixTxrIcon_warhammeriic",
+        "initialTonnageExtra": -5,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 40,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 2, 3, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_1" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_2" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Assassin II is the result of a Federated Suns specification calling for a 'quick strike harasser unit'. The Maltex Corporation proposed a major redesign of their older Assassin chassis, the resulting BattleMech exceeded all expectations and has started to see use as a counter to the stealth technology employed by the Capellan Confederation. This Omnimech is designed with integrated Triple Strength Myomer to allow it to carry a self contained handheld Plasma Rifle, is equipped with retractable blades like Word of Blake units and is fitted with a Null Signature System and Chameleon Light Polarization Shield for stealth. For pod mounted equipment, the OA layout mounts 6 jumpjets, two ER Medium Lasers one RAC2, along with one ton of ammo.",
+        "yangsThoughts": "Now this is an interesting mech design, I haven't seen handheld weapons in production mechs, but I guess there's a first time for everything, unfortunately this one is not compatible with other units as it has a non-standard control connection instead of the expected trigger mount. The pod mounted RAC2 is better at direct firepower than the missiles, so it's better for how this mech likes to operate in stealth."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_assassin_ASN-21.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_assassin_ASN-21.json",
+        "newMechName": "Assassin II",
+        "newMechDesignation": "ASNII",
+        "newMechModelNumber": "OB",
+        "prefabName": "assassin2",
+        "prefabId": "chrprfmech_assassin2base-001",
+        "hardpointData": "hardpointdatadef_assassin2",
+        "icon": "uixTxrIcon_warhammeriic",
+        "initialTonnageExtra": -5,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 40,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 2, 3, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_1" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_2" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Assassin II is the result of a Federated Suns specification calling for a 'quick strike harasser unit'. The Maltex Corporation proposed a major redesign of their older Assassin chassis, the resulting BattleMech exceeded all expectations and has started to see use as a counter to the stealth technology employed by the Capellan Confederation. This Omnimech is designed with integrated Triple Strength Myomer to allow it to carry a self contained handheld Plasma Rifle, is equipped with retractable blades like Word of Blake units and is fitted with a Null Signature System and Chameleon Light Polarization Shield for stealth. For pod mounted equipment, the OB layout mounts 6 jumpjets, 3 Medium X-Pulse Lasers and an MRM-10, along with one ton of ammo.",
+        "yangsThoughts": "Now this is an interesting mech design, I haven't seen handheld weapons in production mechs, but I guess there's a first time for everything, unfortunately this one is not compatible with other units as it has a non-standard control connection instead of the expected trigger mount. An all medium range loadout, it's got efficient damage output, but it might work better with all energy weapons."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_assassin_ASN-21.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_assassin_ASN-21.json",
+        "newMechName": "Assassin II",
+        "newMechDesignation": "ASNII",
+        "newMechModelNumber": "OC",
+        "prefabName": "assassin2",
+        "prefabId": "chrprfmech_assassin2base-001",
+        "hardpointData": "hardpointdatadef_assassin2",
+        "icon": "uixTxrIcon_warhammeriic",
+        "initialTonnageExtra": -5,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 40,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 2, 3, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 1, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_1" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_2" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Assassin II is the result of a Federated Suns specification calling for a 'quick strike harasser unit'. The Maltex Corporation proposed a major redesign of their older Assassin chassis, the resulting BattleMech exceeded all expectations and has started to see use as a counter to the stealth technology employed by the Capellan Confederation. This Omnimech is designed with integrated Triple Strength Myomer to allow it to carry a self contained handheld Plasma Rifle, is equipped with retractable blades like Word of Blake units and is fitted with a Null Signature System and Chameleon Light Polarization Shield for stealth. For pod mounted equipment, the OC layout mounts 6 jumpjets, one ER Medium Laser, one Medium X-Pulse Laser and twin MRM-10s, along with one ton of ammo.",
+        "yangsThoughts": "Now this is an interesting mech design, I haven't seen handheld weapons in production mechs, but I guess there's a first time for everything, unfortunately this one is not compatible with other units as it has a non-standard control connection instead of the expected trigger mount. Twin MRMs are quite a bit of firepower for a small mech like this, but you'll have to watch that ammo supply."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_assassin_ASN-21.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_assassin_ASN-21.json",
+        "newMechName": "Assassin II",
+        "newMechDesignation": "ASNII",
+        "newMechModelNumber": "OD",
+        "prefabName": "assassin2",
+        "prefabId": "chrprfmech_assassin2base-001",
+        "hardpointData": "hardpointdatadef_assassin2",
+        "icon": "uixTxrIcon_warhammeriic",
+        "initialTonnageExtra": -5,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 40,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 2, 3, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 0, 1, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 2, 0, 0, 0, 0, 0 ]
+        },
+        "fixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_1" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [],
+            [ "Gear_Arm_Blade" ],
+            [ "Gear_StealthSuite_2" ],
+            [],
+            [],
+            [ "Weapon_Plasma_Plasmarifle_0_Carried" ],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "The Assassin II is the result of a Federated Suns specification calling for a 'quick strike harasser unit'. The Maltex Corporation proposed a major redesign of their older Assassin chassis, the resulting BattleMech exceeded all expectations and has started to see use as a counter to the stealth technology employed by the Capellan Confederation. This Omnimech is designed with integrated Triple Strength Myomer to allow it to carry a self contained handheld Plasma Rifle, is equipped with retractable blades like Word of Blake units and is fitted with a Null Signature System and Chameleon Light Polarization Shield for stealth. For pod mounted equipment, the OD layout mounts 6 jumpjets, one ER Medium Laser, a Snub-Nose PPC and an SRM-4, along with half a ton of ammo and an AMS to protect against enemy missiles.",
+        "yangsThoughts": "Now this is an interesting mech design, I haven't seen handheld weapons in production mechs, but I guess there's a first time for everything, unfortunately this one is not compatible with other units as it has a non-standard control connection instead of the expected trigger mount. This is a very close range layout, probably too close ranged for how fragile this thing is."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_templar_TLR1-O.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_templar_TLR1-O.json",
+        "newMechName": "Templar",
+        "newMechDesignation": "TLR1",
+        "newMechModelNumber": "O",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_templar_TLR1-OA.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_templar_TLR1-OA.json",
+        "newMechName": "Templar",
+        "newMechDesignation": "TLR1",
+        "newMechModelNumber": "OA",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_templar_TLR1-OD.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_templar_TLR1-OD.json",
+        "newMechName": "Templar",
+        "newMechDesignation": "TLR1",
+        "newMechModelNumber": "OD",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_templar_TLR1-OD.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_templar_TLR1-OD.json",
+        "newMechName": "Templar",
+        "newMechDesignation": "TLR1",
+        "newMechModelNumber": "OB",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 0, 3, 1, 2, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield. The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h without sacrificing durability. A workhorse configuration, the Templar B can engage an enemy at either short or long ranges. For long range combat, the Templar B carries an ER PPC. For intermediate ranges, the 'Mech has three Rotary Autocannon/2s and also has two ER medium lasers for close combat. To handle the 'Mech's heat load, the Templar B has four additional double heat sinks.",
+        "yangsThoughts": "Lots of autocannon fire makes this thing a monster against anything it can hit, but it can quickly run out of ammo if you don't keep an eye on it."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_templar_TLR1-OD.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_templar_TLR1-OD.json",
+        "newMechName": "Templar",
+        "newMechDesignation": "TLR1",
+        "newMechModelNumber": "OC",
+        "initialTonnage": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 85,
+        "mechEngine": 340,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 0, 4, 3, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 1, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 2, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "With a noticeable lack of OmniMechs designed in the Federated Suns, Field Marshal Duke George Hasek went over the heads of the Department of the Quartermaster and commissioned Kallon Industries to design an assault OmniMech and backed the project with his own considerable financial resources. The resulting 'Mech is a force to be reckoned with on the modern battlefield. The Templar is built on a lightweight Kallon Type XIX Endo Steel chassis and is powered by a KalTek 340 XL engine that gives the 'Mech a top speed of 64.8 km/h without sacrificing durability. A close combat configuration, the C configuration of the Templar carries a devastating LB 20-X Autocannon as its primary weapon, which can fire both solid rounds and shotgun-like cluster rounds. Also for close range, the Templar C has five Medium Pulse Lasers and an ER medium laser, which can be used to devastating effect at short range. For long-range defense, the Templar carries a single ER PPC. To add mobility to the 'Mech, it has four pod-mounted jump jets that let the Templar C jump up to one hundred and twenty meters. An additional heat sink is added to help handle the 'Mech's heat.",
+        "yangsThoughts": "Lots of energy weapons with an LBX as the big punch, though with this many lasers you're gonna do more damage with the energy weapons than you will with the autocannon."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_victor_VTR-9A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_victor_VTR-9A.json",
+        "newMechName": "Victor",
+        "newMechDesignation": "VTR",
+        "newMechModelNumber": "10S",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 80,
+        "mechEngine": 320,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 1, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 2, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The 10S is armed with a mammoth Heavy Gauss Rifle, split between the right and center torsos, supported by a standard Gauss Rifle in the right arm, SRM-4 in the left torso and twin ER medium lasers in the left arm. Carrying the usual Victor weapons loadout in addition to the Heavy Gauss Rifle is made possible through the use of an Endo-Steel frame and fragile 320-rated Extralight engine. Lacking the jump jets for which most Victors are renowned, the -10S mounts an anti-missile system and is clad in thirteen tons of standard plating. The 10S carries three tons of Heavy Gauss reloads, two of standard Gauss rounds and a single ton of SRM and AMS ammo each.",
+        "yangsThoughts": "This is probably one of the highest firepower version of this mech I've seen, it may be a bit fragile on the inside, but a Heavy Gauss plus a Gauss Rifle is such a big hitting combo that it usually won't take enough damage to need to worry."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Cyclops II",
+        "newMechDesignation": "CPII",
+        "newMechModelNumber": "1-B",
+        "prefabName": "ioncyclops",
+        "prefabId": "chrprfmech_ioncyclopsbase-001",
+        "hardpointData": "hardpointdatadef_ioncyclops",
+        "icon": "uixTxrIcon_cyclops",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "initialTonnageExtra": -2,
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Assault Command Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            }
+        },
+        "fixedEquipment": [
+            [ "Gear_Cockpit_Tacticon_B2000_Battle_Computer" ],
+            [],
+            [],
+            [ "Gear_HeatSink_BuiltIn_Engine_Thermal_Management" ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "details": "After the chaos of the Jihad and the Wars of Reaving, Grumium Creations saw an opportunity to revitalize the venerable Cyclops design with a ground up redesign that would make use of Clan-spec tech throughout, while still retaining the command equipment the Cyclops was known for. This redesign, dubbed the Cyclops II, was increased to 95 tons, used a Clan-spec endosteel chassis and a Clan-spec 380-XL engine and XL gyro to maintain the same speed profile of the original Cyclops, and the head was still fitted with the originals highly effective Tacticon computer. Each general variant of this 'Mech was equipped with some type of C3 system, with the B sub-variant (this one) having a C3i Computer for use with small lance level combat forces. The 1 general variant is built primarily for long range ballistic fire support mounting twin Clan-spec Gauss rifles in the arms, and an additional Gauss type weapon in the torso depending on which C3 system is installed. the 1-B sub-variant mounts a newly developed Hyper Gauss Rifle for maximum focused firepower.",
+        "yangsThoughts": "Nice to see that the classic form of the Cyclops is getting a much needed rework to meet modern battlefield needs. That Hyper Gauss rifle is bad news for anyone on the receiving end of it, and the combination of C3i and Tacticon is powerful. I just wish it had a bit more ammo."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Cyclops II",
+        "newMechDesignation": "CPII",
+        "newMechModelNumber": "2-B",
+        "prefabName": "ioncyclops",
+        "prefabId": "chrprfmech_ioncyclopsbase-001",
+        "hardpointData": "hardpointdatadef_ioncyclops",
+        "icon": "uixTxrIcon_cyclops",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "initialTonnageExtra": -2,
+        "hardpoints": {
+            "Energy": [ 0, 5, 3, 0, 3, 5, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Assault Command Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            }
+        },
+        "fixedEquipment": [
+            [ "Gear_Cockpit_Tacticon_B2000_Battle_Computer" ],
+            [],
+            [],
+            [ "Gear_HeatSink_BuiltIn_Engine_Thermal_Management" ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "details": "After the chaos of the Jihad and the Wars of Reaving, Grumium Creations saw an opportunity to revitalize the venerable Cyclops design with a ground up redesign that would make use of Clan-spec tech throughout, while still retaining the command equipment the Cyclops was known for. This redesign, dubbed the Cyclops II, was increased to 95 tons, used a Clan-spec endosteel chassis and a Clan-spec 380-XL engine and XL gyro to maintain the same speed profile of the original Cyclops, and the head was still fitted with the originals highly effective Tacticon computer. Each general variant of this 'Mech was equipped with some type of C3 system, with the B sub-variant (this one) having a C3i Computer for use with small lance level combat forces. The 2 general variant is built primarily for extensive energy weapon fire power, a trio of Clan-spec ER PPCs give it powerful long range fire support, while a massive array of 3 Medium Pulse Lasers and up to 6 ER Medium Lasers depending on which C3 system is installed give it enough close in firepower to liquify any light or medium mechs foolish enough to try and get in close. The heat generated by the all energy weapons loadout is managed by a massive 21 heat sinks and a radical heat sink system.",
+        "yangsThoughts": "Well, no ammo issues with this version, but you're gonna have to really watch that heat output with all those energy weapons. It really can do a number on anything that gets close though, which will allow it to keep safe even in the middle of heavy combat."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Cyclops II",
+        "newMechDesignation": "CPII",
+        "newMechModelNumber": "3-B",
+        "prefabName": "ioncyclops",
+        "prefabId": "chrprfmech_ioncyclopsbase-001",
+        "hardpointData": "hardpointdatadef_ioncyclops",
+        "icon": "uixTxrIcon_cyclops",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "initialTonnageExtra": -2,
+        "hardpoints": {
+            "Energy": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 4, 2, 0, 2, 4, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Assault Command Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            }
+        },
+        "fixedEquipment": [
+            [ "Gear_Cockpit_Tacticon_B2000_Battle_Computer" ],
+            [],
+            [],
+            [ "Gear_HeatSink_BuiltIn_Engine_Thermal_Management" ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "details": "After the chaos of the Jihad and the Wars of Reaving, Grumium Creations saw an opportunity to revitalize the venerable Cyclops design with a ground up redesign that would make use of Clan-spec tech throughout, while still retaining the command equipment the Cyclops was known for. This redesign, dubbed the Cyclops II, was increased to 95 tons, used a Clan-spec endosteel chassis and a Clan-spec 380-XL engine and XL gyro to maintain the same speed profile of the original Cyclops, and the head was still fitted with the originals highly effective Tacticon computer. Each general variant of this 'Mech was equipped with some type of C3 system, with the B sub-variant (this one) having a C3i Computer for use with small lance level combat forces. The 3 general variant is built for massive missile volleys, a trio of IATM 9s with 5 tons of ammo provide the primary closer in firepower, while the LRM 20 and up to 4 LRM 5 (depending on which C3 system is fitted) provide secondary fire support with another 5 tons of ammo.",
+        "yangsThoughts": "Wow, this mech really goes in for the missile volleys, this thing can absolutely crush most targets under withering missile fire and still have enough ammo to keep going."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_corsair_COR-5R.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_corsair_COR-5R.json",
+        "newMechName": "Cyclops II",
+        "newMechDesignation": "CPII",
+        "newMechModelNumber": "4-B",
+        "prefabName": "ioncyclops",
+        "prefabId": "chrprfmech_ioncyclopsbase-001",
+        "hardpointData": "hardpointdatadef_ioncyclops",
+        "icon": "uixTxrIcon_cyclops",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "4",
+        "Heatsinks": 30,
+        "mechTonnage": 95,
+        "mechEngine": 380,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "initialTonnageExtra": -2,
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 2, 5, 0, 0 ],
+            "Ballistic": [ 0, 2, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 0, 3, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Assault Command Sniper",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            }
+        },
+        "fixedEquipment": [
+            [ "Gear_Cockpit_Tacticon_B2000_Battle_Computer" ],
+            [],
+            [],
+            [ "Gear_HeatSink_BuiltIn_Engine_Thermal_Management" ],
+            [],
+            [],
+            [],
+            []
+        ],
+        "details": "After the chaos of the Jihad and the Wars of Reaving, Grumium Creations saw an opportunity to revitalize the venerable Cyclops design with a ground up redesign that would make use of Clan-spec tech throughout, while still retaining the command equipment the Cyclops was known for. This redesign, dubbed the Cyclops II, was increased to 95 tons, used a Clan-spec endosteel chassis and a Clan-spec 380-XL engine and XL gyro to maintain the same speed profile of the original Cyclops, and the head was still fitted with the originals highly effective Tacticon computer. Each general variant of this 'Mech was equipped with some type of C3 system, with the B sub-variant (this one) having a C3i Computer for use with small lance level combat forces. The 4 general variant is resemble the classic layout of the traditional Cyclops, with a HAG30 taking the place of the heavy autocannon (and moving to the left arm to protect against explosions), a Clan-spec LRM-15 replacing the LRM-10 in the left torso, a set of up to 4 ER Medium Lasers and an ER PPC replacing the medium lasers, and an IATM 6 replacing the SRM.",
+        "yangsThoughts": "Basically a massive upgrade of the classic Cyclops loadout while keeping the originals ability to operate at all range bands when necessary to support its allies, this loadout doesn't match the raw firepower of the 2-B, but is much better at avoiding heat issues."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Annihilator",
+        "newMechDesignation": "ANH",
+        "newMechModelNumber": "1G",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "stockRole": "Assault Sniper",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "An early post-Pentagon Civil War variant developed by both Clans Coyote and Star Adder, the 1G had an ER PPC in the right torso, and three Gauss rifles (one in each arm, and one in the left torso) to provide hard hitting firepower. Each Gauss rifle had two tons of ammunition. Ten double heat sinks were more than adequate to keep the machine cool. ",
+        "yangsThoughts": "I'd heard about these but didn't expect them to make their way to the Inner Sphere from clan space. They've got some serious ranged firepower and way more armor than the normal version, just don't expect it to get anywhere in a hurry."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Annihilator",
+        "newMechDesignation": "ANH",
+        "newMechModelNumber": "1X",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "stockRole": "Assault Brawler",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 1, 1, 0, 1, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The original Star League-in-Exile model created in earliest 2779 was equipped with a head-mounted ExoStar small laser, four Blackenburg LB 10-X autocannons, a pair of Starflash Plus small pulse lasers, and four Magna Mk. II medium lasers. It carried six tons of LB 10-X ammunition, and the torsos were protected with CASE. Ten double heat sinks kept heat manageable.",
+        "yangsThoughts": "Another old clan design, this one turning the classic Annihilator 1A into a way stronger brawler with more armor."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Annihilator",
+        "newMechDesignation": "ANH",
+        "newMechModelNumber": "2A",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "stockRole": "Heavy Assault Brawler",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 0, 1, 0, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The Annihilator is armed with an arsenal that is built to instill fear in an enemy as much as damage them. The 'Mech is armed with four Mydron Excel LB 10-X autocannons as its primary weapons. These can all fire either standard rounds or cluster rounds which act like 'Mech sized shotguns spreading damage out all over an enemy 'Mech. The 'Mech is also armed with four Magna 400P medium pulse lasers, which allow the Annihilator to decimate any target which is able to make it through the devastating hail of fire and into close range combat.",
+        "yangsThoughts": "Very similar to the 1X but the single heat sinks mean it doesn't have anywhere near as much armor."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Annihilator",
+        "newMechDesignation": "ANH",
+        "newMechModelNumber": "5W",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "stockRole": "Heavy Assault Sniper",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 200,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 0, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "A configuration devised by Wolf's Dragoons in cooperation with Arc-Royal MechWorks, the ANH-5W carries four Gauss rifles and four medium pulse lasers. The 5W also uses advanced components such as an endo steel internal structure. Ten double heat sinks can provide adequate heat management. ",
+        "yangsThoughts": "This is basically the long range version of the standard Annihilator, and with that much focused firepower on the table, you can really see why they built it. Still very slow, but at least it has enough range to compensate."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Annihilator",
+        "newMechDesignation": "ANH",
+        "newMechModelNumber": "C",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "stockRole": "Heavy Assault Brawler",
+        "useMountIdNaming": false,
+        "prefabName": "annihilator",
+        "prefabId": "chrPrfMech_annihilatorBase-001",
+        "hardpointData": "hardpointdatadef_annihilator",
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The first of two variants seeking to take advantage of newly developed Clan technology, the Annihilator C was rebuilt using only Clan technology during the Golden Century and later replicated by the Wolf's Dragoons in the post-Clan Invasion era. An endo steel frame and three tons less armor than the ANH-1X allowed the Annihilator C to mount a larger engine to increased its maximum speed to 54 km/h. The 'Mech was armed with four Ultra autocannon/10s and four ER medium lasers. The Ultra autocannon/10s allowed the 'Mech to fire at twice the rate of a normal autocannon, allowing it to put as much fire out as if it was carrying eight regular autocannons.",
+        "yangsThoughts": "Now this is a true Clan version of this thing, full loadout of Clan grade ballistics and actually faster to boot."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_annihilator_ANH-1A.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_annihilator_ANH-1A.json",
+        "newMechName": "Annihilator",
+        "newMechDesignation": "ANH",
+        "newMechModelNumber": "C2",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "stockRole": "Heavy Assault Sniper",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 200,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 1, 1, 2, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 1, 0, 1, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Apparently based on the ANH-1G, this variant only uses Clan technology. The 'Mech's top speed was 32.4 km/h and the armor protection was reduced, but four Gauss rifles backed up by an ER PPC in the center torso and a head-mounted ER small laser provided withering firepower for defensive engagements. Ten tons of ammunition kept the Gauss rifles fed through the longest engagements. To make room for all these weapons, the C2 used an endo steel internal structure. Integrated CASE protected the arms and torsos from Gauss rifle explosions.",
+        "yangsThoughts": "A crazy amount of long range firepower on this one, that ER PPC is basically as good as a Gauss Rifle."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_bane_3.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_bane_3.json",
+        "newMechName": "Bane",
+        "newMechDesignation": "BAN",
+        "newMechModelNumber": "3",
+        "initialTonnage": null,
+        "newMechVariant": false,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_bane_4.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_bane_4.json",
+        "newMechName": "Bane",
+        "newMechDesignation": "BAN",
+        "newMechModelNumber": "4",
+        "initialTonnage": null,
+        "newMechVariant": false,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_fafnir_FNR-5.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_fafnir_FNR-5.json",
+        "newMechName": "Fafnir",
+        "newMechDesignation": "FNR",
+        "newMechModelNumber": "5E",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "stockRole": "Heavy Assault Fire Support",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 1, 1, 0, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The 5E is more focused on missile and ballistic weapons, the arms are affixed with a pair of LRM-5 and LRM-10 while in each torso carries an Ultra autocannon/20, making this 'Mech a deadly adversary at both short and long range. Lacking any energy weaponry, the 5E carries four tons of Ultra autocannon rounds and three tons of LRM missiles.",
+        "yangsThoughts": "An interesting idea, going with the Ultras instead of the Heavy Gausses saves a lot of weight for missile launchers for use while this thing is lumbering into range, but if anything is fast enough to keep away you're gonna have a problem."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_fafnir_FNR-5.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_fafnir_FNR-5.json",
+        "newMechName": "Fafnir",
+        "newMechDesignation": "FNR",
+        "newMechModelNumber": "5E",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "stockRole": "Heavy Assault Fire Support",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 1, 1, 0, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The 5E is more focused on missile and ballistic weapons, the arms are affixed with a pair of LRM-5 and LRM-10 while in each torso carries an Ultra autocannon/20, making this 'Mech a deadly adversary at both short and long range. Lacking any energy weaponry, the 5E carries four tons of Ultra autocannon rounds and three tons of LRM missiles.",
+        "yangsThoughts": "An interesting idea, going with the Ultras instead of the Heavy Gausses saves a lot of weight for missile launchers for use while this thing is lumbering into range, but if anything is fast enough to keep away you're gonna have a problem."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_imp_IMP-2E.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_imp_IMP-2E.json",
+        "newMechName": "Imp",
+        "newMechDesignation": "IMP",
+        "newMechModelNumber": "1A",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 1, 2, 2, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 1, 1, 1, 1, 1, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "This early version of the Imp, introduced in 2793, carries a Defiance 1001 ER PPC and Defiance P5M Medium Pulse Laser in the right and left torso. Supporting these weapons is a pair of Medium Pulse Lasers mounted in the center torso and a ExoStar Small Laser in the head. The left arm mounts another Medium Pulse Laser, while the right arm carries an Holly LRM-20 slaved to an Artemis IV fire control system with 2 tons of ammo. For heat dissipation, it carries 19 Double Heat Sinks. The engine is a standard fusion model, and the missile ammunition is protected by CASE. This version was the original Imp design specified by Nicholas Kerensky and was intended for battlefield commanders.",
+        "yangsThoughts": "Not sure how this old design wound up here, but I'm not gonna look a gift horse in the mouth too hard. It's well armed and well armored with a nice loadout of double heat sinks to ensure it doesn't overheat."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_imp_IMP-2E.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_imp_IMP-2E.json",
+        "newMechName": "Imp",
+        "newMechDesignation": "IMP",
+        "newMechModelNumber": "1B",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 2, 2, 2, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 1, 1, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Similar to the Imp 1A variant, this model trades the Medium Pulse Lasers for medium lasers. It also trades the head-mounted Small Laser for a Medium Pulse Laser. It keeps the ER PPCs and LRM-20 and Artemis IV system. The biggest change is the addition of a Guardian ECM suite in the 'Mech's right torso.",
+        "yangsThoughts": "Not a huge change from the regular Imp, but those pulse lasers really improve the accuracy to make picking your targets apart much easier."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_imp_IMP-2E.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_imp_IMP-2E.json",
+        "newMechName": "Imp",
+        "newMechDesignation": "IMP",
+        "newMechModelNumber": "1C",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 2, 2, 2, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 1, 1, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "Another early version based on the Imp 1B, this variant mounts a Gauss rifle in the right arm. The Imp 1C uses the head-mounted Small Laser of the Imp 1A in place of the Medium Pulse Laser. The Guardian ECM suite is still in the right torso. One heat sink is removed, giving the Imp 1C a total of seventeen double heat sinks.",
+        "yangsThoughts": "Entirely focused on direct fire, but otherwise unchanged in concept from the other early versions of this design. This one is well suited to be turned into a brutal close combat specialist if you put some nice autocannons on it."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_imp_IMP-2E.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_imp_IMP-2E.json",
+        "newMechName": "Imp",
+        "newMechDesignation": "IMP",
+        "newMechModelNumber": "C",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 1, 3, 2, 2, 2, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 1, 1, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "This upgrade of the Imp is built exclusively for Wolf's Dragoons using only Clan technology. The 'Mech is armed with two ER PPCs and an LRM-20 launcher with an Artemis IV Fire Control System for long range combat. For close ranges, the 'Mech carries five Medium Pulse Lasers. The Imp C is also armored with nineteen tons of armor.",
+        "yangsThoughts": "Exactly as devastating as you would expect a machine mounting a full loadout of Clan-spec energy weapons and missiles to be. This is probably the highest damage output variant of the chassis and also the most well armored."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kingcrab_KGC-001.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kingcrab_KGC-001.json",
+        "newMechName": "King Crab",
+        "newMechDesignation": "KGC",
+        "newMechModelNumber": "0000",
+        "initialTonnage": null,
+        "newMechVariant": false,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "The 000b variant is an upgrade of the classic KGC-000 built exclusively for the Star League Defense Force Royal units. Introduced at the same time as the original model its upgrade to double heat sink technology allowed the removal of three heat sinks as well as the addition of an extra ton of ammunition for each autocannon and an Artemis IV FCS for the missile launcher.",
+        "yangsThoughts": "The 000b variant is an upgrade of the classic KGC-000 built exclusively for the Star League Defense Force Royal units. Introduced at the same time as the original model its upgrade to double heat sink technology allowed the removal of three heat sinks as well as the addition of an extra ton of ammunition for each autocannon and an Artemis IV FCS for the missile launcher."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_kodiak_1.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_kodiak_1.json",
+        "newMechName": "Kodiak",
+        "newMechDesignation": "KDK",
+        "newMechModelNumber": "5",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 0, 5, 0, 1, 0, 5, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "With three more heat sinks and nine ER medium lasers, the Kodiak 5 is a fearsome close range brawler. It is no slouch at range, able to bring two ER large lasers and a Gauss rifle to bear.",
+        "yangsThoughts": "A nice versatile brawling platform that can snipe at range to prevent its enemies from just kiting it around."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenalStrongerSClans\\chassis\\chassisdef_mackie-10RX.json",
+        "baseMechFileName": "..\\ExpandedArsenalStrongerSClans\\mech\\mechdef_mackie-10RX.json",
+        "newMechName": "Mackie",
+        "newMechDesignation": "MSK",
+        "newMechModelNumber": "7A",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 2, 1, 0, 1, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 2, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "With three more heat sinks and nine ER medium lasers, the Kodiak 5 is a fearsome close range brawler. It is no slouch at range, able to bring two ER large lasers and a Gauss rifle to bear.",
+        "yangsThoughts": "A nice versatile brawling platform that can snipe at range to prevent its enemies from just kiting it around."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenalStrongerSClans\\chassis\\chassisdef_mackie-10RX.json",
+        "baseMechFileName": "..\\ExpandedArsenalStrongerSClans\\mech\\mechdef_mackie-10RX.json",
+        "newMechName": "Mackie",
+        "newMechDesignation": "MSK",
+        "newMechModelNumber": "9H",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 0,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "useMountIdNaming": false,
+        "mechTonnage": 100,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "Missile": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 2, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        },
+        "details": "With three more heat sinks and nine ER medium lasers, the Kodiak 5 is a fearsome close range brawler. It is no slouch at range, able to bring two ER large lasers and a Gauss rifle to bear.",
+        "yangsThoughts": "A nice versatile brawling platform that can snipe at range to prevent its enemies from just kiting it around."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_stonerhino_STR-4.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_stonerhino_STR-4.json",
+        "newMechName": "Stone Rhino",
+        "newMechDesignation": "STR",
+        "newMechModelNumber": "4",
+        "initialTonnage": null,
+        "newMechVariant": false,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_stonerhino_STR-6.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_stonerhino_STR-6.json",
+        "newMechName": "Stone Rhino",
+        "newMechDesignation": "STR",
+        "newMechModelNumber": "6",
+        "initialTonnage": null,
+        "newMechVariant": false,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
+            }
+        }
     }
 ]

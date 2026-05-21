@@ -1,8 +1,6 @@
 {
     "MechTags": {
         "items": [
-            "elite_forces",
-            "unit_mech_Advanced",
             "unit_assault",
             "unit_release",
             "unit_ready",
@@ -11,7 +9,6 @@
             "unit_range_short",
             "unit_speed_low",
             "unit_armor_high",
-            "mech_assault_Advanced",
             "elite_arsenal",
             "elite_arsenal_s_tier",
             "unit_mech_s_tier"

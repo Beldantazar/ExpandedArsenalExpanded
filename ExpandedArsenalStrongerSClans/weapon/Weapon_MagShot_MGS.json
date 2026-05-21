@@ -1,0 +1,65 @@
+{
+    "Category" : "AntiPersonnel",
+    "Type" : "Gauss",
+    "WeaponSubType" : "Gauss",
+    "MinRange" : 0,
+    "MaxRange" : 180,
+    "RangeSplit" : [
+        130,
+        180,
+        180
+    ],
+    "ammoCategoryID" : "Flamer",
+    "StartingAmmoCapacity" : 20,
+    "HeatGenerated" : 1,
+    "Damage" : 20,
+    "OverheatedDamageMultiplier" : 0,
+    "EvasiveDamageMultiplier" : 0,
+    "EvasivePipsIgnored" : 0,
+    "DamageVariance" : 0,
+    "HeatDamage" : 0,
+    "StructureDamage": 10,
+    "AccuracyModifier" : 0,
+    "CriticalChanceMultiplier" : 1.5,
+    "AOECapable" : false,
+    "IndirectFireCapable" : false,
+    "RefireModifier" : 1,
+    "ShotsWhenFired" : 1,
+    "ProjectilesPerShot" : 1,
+    "AttackRecoil" : 0,
+    "Instability" : 8,
+    "WeaponEffectID" : "WeaponEffect-Weapon_GaussRifle",
+    "Description": {
+        "Cost": 750000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": "Johnston Industries",
+        "Model": "Poland Main Model C",
+        "UIName": "Magshot",
+        "Id": "Weapon_MagShot_MGS",
+        "Name": "Magshot Gauss Rifle",
+        "Details": "A 'Mech-sized version of the Magshot Gauss rifle introduced on the Infiltrator Mk. II battle armor, the Magshot was tested on several Solaris arena 'Mechs before being accepted by the AFFS in 3072. The delay in the approval of the Magshot was due to a court case between Johnston Industries and Federated-Barrett. Federated-Barrett believed that a general in the AFFS' Department of the Quartermaster had leaked the plans for their Magshot Gauss rifle to Johnston in exchange for employment after retirement and other 'considerations.' These plans, and Johnston's hiring of the design team away from Federated-Barrett, resulted in a five year industrial espionage trial. Between the start of this trial in 3061 and its conclusion in 3066, Johnston was limited to selling the weapon to private concerns (like the Solaris stables), and the Department of the Quartermaster couldn't accept the weapon into service.",
+        "Icon": "uixSvgIcon_weapon_Support"
+    },
+    "BonusValueA" : "",
+    "BonusValueB" : "",
+    "ComponentType" : "Weapon",
+    "ComponentSubType" : "Weapon",
+    "PrefabIdentifier" : "MachineGun",
+    "BattleValue" : 0,
+    "InventorySize" : 2,
+    "Tonnage" : 0.5,
+    "AllowedLocations" : "All",
+    "DisallowedLocations" : "All",
+    "CriticalComponent" : false,
+    "statusEffects" : [
+        
+    ],
+    "ComponentTags" : {
+        "items" : [
+            "component_type_stock",
+            "range_close"
+        ],
+        "tagSetSourceFile" : ""
+    }
+}

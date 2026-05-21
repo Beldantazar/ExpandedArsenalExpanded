@@ -140,7 +140,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
@@ -148,7 +148,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,

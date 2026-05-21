@@ -1,0 +1,280 @@
+{
+    "Description": {
+        "Cost": 16820000,
+        "Rarity": 0,
+        "Purchasable": false,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Juggernaut JG-X",
+        "Id": "mechdef_juggernaut_JG-X",
+        "Name": "Juggernaut",
+        "Details": "A lumbering mountain of armor and weaponry, Solaris Arms' massive assault 'Mech definitely lives up to the name of Juggernaut in the Solaris Games. While not a flashy design, Solaris Arms kept up steady production of the design since the early 3050s, the company addressed complaints of the 'Mech's bulky chassis and outboard sensor arrays with a sleeker refreshed model in the mid-3060s. Sixteen and half tons of Valiant Chainmail armor protect a GM 270 fusion engine, propelling the 'Mech at fairly standard assault 'Mech speed of 54 km/h. A whopping sixteen Double Heat Sinks are still not enough to vent the massive volume of waste heat the Juggernaut's advanced lasers produce, with the 'Mech also carrying four Coolant Pods in an desperate attempt to quickly disperse the large amount of heat that it can generate. The modern R9T2 Juggernaut's main armament is a trio of Sutel Precision Line Large Pulse Lasers with Bethel Labs X-Pulse, one in each arm with one in its center torso, backed up by three Sutel Precision Line Medium Pulse Lasers with Bethel Labs X-Pulse divided between each arm and the head. This variant replaces the Machine Guns with the Magshot gauss weapons. It also carries two more coolant pods compared to the JG-R9T2.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_juggernaut"
+    },
+    "ChassisID": "chassisdef_juggernaut_JG-X",
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_assault",
+            "unit_lance_tank",
+            "unit_role_brawler",
+            "Kurita",
+            "elite_arsenal"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "simGameMechPartCost": 1680000,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 205,
+            "CurrentRearArmor": 80,
+            "CurrentInternalStructure": 145,
+            "AssignedArmor": 205,
+            "AssignedRearArmor": 80
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 75,
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 95,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_X_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_X_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_X_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MagShot_MGS_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Kite",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_180KL",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Hybrid_Defensive_Package",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "Version": 1
+}

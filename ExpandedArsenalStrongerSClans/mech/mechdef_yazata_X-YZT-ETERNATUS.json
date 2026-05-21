@@ -1,0 +1,183 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_superheavy",
+            "unit_release",
+            "unit_indirectFire",
+            "unit_lance_support",
+            "unit_role_sniper"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_yazata_X-YZT-ETERNATUS",
+    "Description": {
+        "Cost": 25000000,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Yazata X-YZT-ETERNATUS",
+        "Id": "mechdef_yazata_X-YZT-ETERNATUS",
+        "Name": "Yazata",
+        "Details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 375-rated extra light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using a Silver Bullet Gauss Rifle and Heavy PPC for direct firepower while twin Thunderbolt-15s provide indirect support.",
+        "Icon": "uixTxrIcon_wobsh1"
+    },
+    "simGameMechPartCost": 714821,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 41,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 290,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 190,
+            "AssignedArmor": 290,
+            "AssignedRearArmor": 60
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 235,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 130,
+            "AssignedArmor": 235,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 235,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 130,
+            "AssignedArmor": 235,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 215,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 130,
+            "AssignedArmor": 215,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 215,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 130,
+            "AssignedArmor": 215,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_SilverBulletSpecial",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_PPC_PPC_HEAVY",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Thunderbolt_15",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Thunderbolt_15",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_C3i_Computer",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Guardian_ECM",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_AP",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

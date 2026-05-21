@@ -1,0 +1,74 @@
+{
+    "ID": "hardpointdatadef_solitaire",
+    "HardpointData": [
+        {
+            "location": "leftarm",
+            "weapons": [],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "lefttorso",
+            "weapons": [
+                [
+                    "chrprfweap_solitaire_lefttorso_laser_eh1",
+                    "chrprfweap_solitaire_lefttorso_ppc_eh1"
+                ],
+                [
+                    "chrprfweap_solitaire_lefttorso_laser_eh2",
+                    "chrprfweap_solitaire_lefttorso_ppc_eh2"
+                ],
+                [
+                    "chrprfweap_solitaire_lefttorso_mg_bh1"
+                ]
+            ],
+            "blanks": [
+            ],
+            "mountingPoints": []
+        },
+        {
+            "location": "rightarm",
+            "weapons": [],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "righttorso",
+            "weapons": [
+                [
+                    "chrprfweap_solitaire_righttorso_laser_eh1",
+                    "chrprfweap_solitaire_righttorso_ppc_eh1"
+                ],
+                [
+                    "chrprfweap_solitaire_righttorso_gauss_bh1",
+                    "chrprfweap_solitaire_righttorso_ac2_bh1",
+                    "chrprfweap_solitaire_righttorso_ac5_bh1",
+                    "chrprfweap_solitaire_righttorso_uac5_bh1",
+                    "chrprfweap_solitaire_righttorso_lbx_bh1",
+                    "chrprfweap_solitaire_righttorso_mg_bh1"
+                ]
+            ],
+            "blanks": [
+            ],
+            "mountingPoints": []
+        },
+        {
+            "location": "head",
+            "weapons": [],
+            "blanks": [],
+            "mountingPoints": []
+        },
+        {
+            "location": "centertorso",
+            "weapons": [
+                [
+                    "chrprfweap_solitaire_centertorso_laser_eh1",
+                    "chrprfweap_solitaire_centertorso_ppc_eh1"
+                ]
+            ],
+            "blanks": [],
+            "mountingPoints": []
+        }
+    ]
+
+}

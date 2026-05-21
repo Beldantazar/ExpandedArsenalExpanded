@@ -1,0 +1,181 @@
+{
+    "ChassisID": "chassisdef_tolson_TOL-5NbX",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6090000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Tolson TOL-5NbX",
+        "Id": "mechdef_tolson_TOL-5NbX",
+        "Name": "Tolson",
+        "Details": "Originally developed by the first Star League, the Tolson was designed to serve as the ultimate command and control and electronic warfare platform of its era. The Tolson TOL-5Nb is the so-called 'Royal' version of the design. Although the Tolson in general was quite high-tech by Star League standards, the -5Nb uses more advanced weaponry to up the ante in combat. Built on the same 300-rated XL engine with DHS and Ferro-Fibrous armor, the 'Royal' Tolson uses a LB-10X Autocannon and 4 Medium Pulse Lasers for firepower. It carries the same Command Console and Guardian ECM of its progenitor but drops the Narc, and TAG to instead carry a MASC system for extra speed.",
+        "Icon": "uixTxrIcon_transient"
+    },
+    "simGameMechPartCost": 610000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 70,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_2-Western",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_MASC_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_heavy",
+            "unit_release",
+            "unit_ready",
+            "unit_role_sniper",
+            "unit_range_long",
+            "unit_armor_low",
+            "unit_hot",
+            "Davion",
+            "elite_forces"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

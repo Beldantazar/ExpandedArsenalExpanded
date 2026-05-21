@@ -165,7 +165,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
@@ -173,7 +173,7 @@
         },
         {
             "MountedLocation": "RightLeg",
-            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "IsFixed": false,
@@ -181,7 +181,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
@@ -189,7 +189,7 @@
         },
         {
             "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG",
+            "ComponentDefID": "Weapon_AntiPersonnelGauss_APG_2",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 1,
             "IsFixed": false,

@@ -18,8 +18,8 @@ mechdef_toro_TR-A-X,Mech,1,1
 mechdef_toro_TR-A-S,Mech,1,1
 mechdef_anubis_ABS-X,Mech,1,1
 mechdef_anubis_ABS-S,Mech,1,1
-mechdef_anubis_ABS-X,Mech,1,1
-mechdef_anubis_ABS-S,Mech,1,1
+mechdef_anubis_ABS-X2,Mech,1,1
+mechdef_anubis_ABS-S2,Mech,1,1
 mechdef_javelin_JVN-X,Mech,1,1
 mechdef_javelin_JVN-S,Mech,1,1
 mechdef_hussar_HSR-X,Mech,1,1
@@ -28,6 +28,8 @@ mechdef_osiris_OSR-X,Mech,1,1
 mechdef_osiris_OSR-S,Mech,1,1
 mechdef_spider_SDR-X,Mech,1,1
 mechdef_spider_SDR-S,Mech,1,1
+mechdef_spider_SDR-X2,Mech,1,1
+mechdef_spider_SDR-S2,Mech,1,1
 mechdef_locust_LCT-IIC-X,Mech,1,1
 mechdef_locust_LCT-IIC-S,Mech,1,1
 mechdef_flea_FLE-X,Mech,1,1
@@ -38,6 +40,8 @@ mechdef_hornet_HNT-X,Mech,1,1
 mechdef_hornet_HNT-S,Mech,1,1
 mechdef_locust_LCT-X,Mech,1,1
 mechdef_locust_LCT-S,Mech,1,1
+mechdef_locust_LCT-X2,Mech,1,1
+mechdef_locust_LCT-S2,Mech,1,1
 mechdef_wasp_WSP-X,Mech,1,1
 mechdef_wasp_WSP-S,Mech,1,1
 mechdef_cougar_CGR-XR-X1,Mech,1,1
@@ -48,6 +52,8 @@ mechdef_wight_WGT-X,Mech,1,1
 mechdef_wight_WGT-S,Mech,1,1
 mechdef_firefly_FFL-X,Mech,1,1
 mechdef_firefly_FFL-S,Mech,1,1
+mechdef_firefly_FFL-X2,Mech,1,1
+mechdef_firefly_FFL-S2,Mech,1,1
 mechdef_nighthawk_NTK-X,Mech,1,1
 mechdef_nighthawk_NTK-S,Mech,1,1
 mechdef_talon_TLN-X,Mech,1,1

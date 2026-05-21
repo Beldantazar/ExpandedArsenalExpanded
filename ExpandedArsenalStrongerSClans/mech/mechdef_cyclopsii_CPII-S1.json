@@ -1,0 +1,210 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_assault",
+            "unit_lance_assassin",
+            "unit_role_brawler",
+            "unit_release",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_mech_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_cyclopsii_CPII-S1",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Cyclops II CPII-S1",
+        "Id": "mechdef_cyclopsii_CPII-S1",
+        "Name": "Cyclops II",
+        "Details": "After the chaos of the Jihad and the Wars of Reaving, Grumium Creations saw an opportunity to revitalize the venerable Cyclops design with a ground up redesign that would make use of Clan-spec tech throughout, while still retaining the command equipment the Cyclops was known for. This redesign, dubbed the Cyclops II, was increased to 95 tons, used a Clan-spec endosteel chassis and a Clan-spec 380-XL engine and XL gyro to maintain the same speed profile of the original Cyclops, and the head was still fitted with the originals highly effective Tacticon computer. Each general variant of this 'Mech was equipped with some type of C3 system, with the B sub-variant (this one) having a C3i Computer for use with small lance level combat forces. The 1 general variant is built primarily for long range ballistic fire support mounting twin Clan-spec Gauss rifles in the arms, and an additional Gauss type weapon in the torso depending on which C3 system is installed. the 1-B sub-variant mounts a newly developed Hyper Gauss Rifle for maximum focused firepower.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+        "Icon": "uixTxrIcon_ioncyclops"
+    },
+    "simGameMechPartCost": 2000000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 220,
+            "CurrentRearArmor": 75,
+            "CurrentInternalStructure": 150,
+            "AssignedArmor": 220,
+            "AssignedRearArmor": 75
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 150,
+            "CurrentRearArmor": 50,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 150,
+            "AssignedRearArmor": 50
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 145,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 145,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 185,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 185,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 185,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 100,
+            "AssignedArmor": 185,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Gauss_Gauss_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Gauss_Gauss_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Gauss_HyperGauss_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_C3i_Computer_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserERPulse_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_2",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Heavy_Defensive_Suite_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

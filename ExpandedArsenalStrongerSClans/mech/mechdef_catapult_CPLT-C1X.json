@@ -3,6 +3,8 @@
         "items": [
             "unit_mech",
             "unit_heavy",
+            "unit_mech_Advanced",
+            "mech_heavy_Advanced",
             "unit_release",
             "unit_lance_support",
             "unit_role_sniper",

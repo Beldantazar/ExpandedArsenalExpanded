@@ -16,14 +16,11 @@
     "prefabOverride": "chrPrfMech_highlander_SLDFBase-001",
     "MechTags": {
         "items": [
-            "elite_forces",
-            "unit_mech_Advanced",
             "unit_mech",
             "unit_assault",
             "unit_indirectFire",
             "unit_lance_tank",
             "unit_role_brawler",
-            "mech_assault_Advanced",
             "elite_arsenal"
         ],
         "tagSetSourceFile": ""

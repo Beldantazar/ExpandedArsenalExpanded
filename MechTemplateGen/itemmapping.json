@@ -2652,6 +2652,10 @@
             "itemId": "Weapon_Plasma_PlasmaPPC_0-STOCK",
             "itemType": "Weapon"
         },
+        "Weapon_Plasma_Plasmarifle_0_Carried": {
+            "itemId": "Weapon_Plasma_Plasmarifle_0_Carried",
+            "itemType": "Weapon"
+        },
         "Weapon_Plasma_Plasmarifle_0-STOCK": {
             "itemId": "Weapon_Plasma_Plasmarifle_0-STOCK",
             "itemType": "Weapon"
@@ -3030,6 +3034,10 @@
         },
         "Gear_Cockpit_CommandConsole_with_B2000": {
             "itemId": "Gear_Cockpit_CommandConsole_with_B2000",
+            "itemType": "Upgrade"
+        },
+        "Gear_Cockpit_CommandConsole_with_B2000_TOL": {
+            "itemId": "Gear_Cockpit_CommandConsole_with_B2000_TOL",
             "itemType": "Upgrade"
         },
         "emod_armorslots_LAM_1": {

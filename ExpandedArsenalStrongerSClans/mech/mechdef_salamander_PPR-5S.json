@@ -110,14 +110,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightTorso",
             "ComponentDefID": "Weapon_LRM_LRM20_0-STOCK",
             "ComponentDefType": "Weapon",

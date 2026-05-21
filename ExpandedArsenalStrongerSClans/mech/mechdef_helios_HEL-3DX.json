@@ -3,6 +3,8 @@
         "items": [
             "unit_mech",
             "unit_heavy",
+            "unit_mech_Advanced",
+            "mech_heavy_Advanced",
             "unit_jumpOK",
             "unit_release",
             "unit_ready",

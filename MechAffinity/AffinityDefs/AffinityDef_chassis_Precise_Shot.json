@@ -25,7 +25,8 @@
         "chrprfmech_bombardierbase-001_65",
         "chrprfmech_torobase-001_35",
         "chrprfmech_darkcrowbase-001_55",
-        "chrprfmech_carronadebase-001_70"
+        "chrprfmech_carronadebase-001_70",
+        "chrprfmech_wobsh1base-001_125"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

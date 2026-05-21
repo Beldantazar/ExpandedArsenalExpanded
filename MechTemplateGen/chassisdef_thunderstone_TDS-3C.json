@@ -1,0 +1,272 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Superheavy_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 20000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Thunderstone",
+    "Id": "chassisdef_thunderstone_TDS-3C",
+    "Name": "Thunderstone",
+    "Details": "After the initial success of the comparatively inexpensive 1A and 2A models, Earthwerks Incorporated introduced the 3C model to appeal to buyers who wanted performance and power while still being able to reuse the same mech bay facilities as the earlier models; the 3C model of the Thunderstone is built using all Clan-Spec construction materials, and XL engine and Endo-Steel chassis, as well as Clan-spec double heat sinks, CASE II systems still protect the buyer's investment. While not as prolific as the cheaper models, the ability to share bay space and maintenance crews between the various models has earned a place among the Periphery nations with deeper pockets.  For weaponry, it mounts a similar loadout in concept to the 1A, effective at all ranges, but it accomplishes this by using all Clan-spec weaponry, which, due to the lack of minimum range on a lot of them, allows it to operate at all ranges by just specing for the longest one. It thus mounts twin ER PPCs, twin Large Pulse Lasers, a single ER Medium Laser in the head, twin LRM 20 racks, a single HAG 30 and a quartet of AP Gauss Rifles for anti infantry and battle armor purposes. All sections are protected by Clan-spec CASE II to protect the investment of the buyers.",
+    "Icon": "uixTxrIcon_thunderstone"
+  },
+  "MovementCapDefID": "movedef_thunderstone_TDS-3C",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_thunderstone",
+  "PrefabIdentifier": "chrprfmech_thunderstonebase-001",
+  "PrefabBase": "thunderstone",
+  "Tonnage": 135,
+  "InitialTonnage": 30.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 10206000,
+  "Heatsinks": 30,
+  "TopSpeed": 105,
+  "TurnRadius": 290,
+  "MaxJumpjets": 2,
+  "Stability": 250,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 135,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 135,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 135,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 41
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 220,
+      "MaxRearArmor": -1,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 280,
+      "MaxRearArmor": 140,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 410,
+      "MaxRearArmor": 205,
+      "InternalStructure": 205
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 280,
+      "MaxRearArmor": 140,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 220,
+      "MaxRearArmor": -1,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 280,
+      "MaxRearArmor": -1,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 280,
+      "MaxRearArmor": -1,
+      "InternalStructure": 140
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "TDS-3C",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.8"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy Juggernaut",
+  "YangsThoughts": "I like this design a lot, it has a lot of spread out firepower, great range, good indirect and direct fire capability and plenty of armor, the only thing it lacks is speed, but for a super heavy that's par for the course."
+}

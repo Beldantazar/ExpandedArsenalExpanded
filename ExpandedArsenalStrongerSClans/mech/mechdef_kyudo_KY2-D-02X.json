@@ -3,6 +3,8 @@
         "items": [
             "unit_mech",
             "unit_medium",
+            "unit_mech_Advanced",
+            "mech_medium_Advanced",
             "unit_speed_high",
             "unit_bracket_high",
             "unit_range_long",

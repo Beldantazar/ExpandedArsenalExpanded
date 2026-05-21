@@ -1,0 +1,195 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech",
+            "unit_heavy",
+            "unit_ready",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_advanced",
+            "unit_bracket_high"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_princecrab_PRC-4B",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 10000000,
+        "Rarity": 2,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Prince Crab PRC-4B",
+        "Id": "mechdef_princecrab_PRC-4B",
+        "Name": "Prince Crab",
+        "Details": "In the 3060s, ComStar and the Republic of the Sphere found themselves in need of a new line combat heavy BattleMech. Drawing on theoretical mock-ups from ComStar's Star League archives, they developed a heavy version of the venerable Crab BattleMech. To respect the lineage between the Crab and the assault-weight King Crab, this new chassis was named the Prince Crab. The Prince Crab is built on an Endo-Composite frame with a standard 300-rated fusion engine for power. For firepower the PRC-4B carries twin LB-10X Autocannons, backed up by four torso-mounted ER Medium Lasers and a solitary ER Small Laser. 10 double heat sinks don't quite manage the heat while four tons of CASE II protected ammunition ensure the guns never stop firing.",
+        "Icon": "uixTxrIcon_jcrab"
+    },
+    "simGameMechPartCost": 3500000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 180,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 115,
+            "AssignedArmor": 180,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 125,
+            "CurrentRearArmor": 35,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 125,
+            "AssignedRearArmor": 35
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Autocannon_LB10X_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB10X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

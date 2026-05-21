@@ -1,0 +1,238 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Superheavy_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 20000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Thunderstone",
+    "Id": "chassisdef_thunderstone_TDS-S1",
+    "Name": "Thunderstone",
+    "Details": "Constructed by Earthwerks Incorporated to appeal to the Periphery market, the base model of the Thunderstone is built to use very little expensive or sophisticated construction materials, it uses all standard double heat sinks, a standard 270 fusion engine and standard armor, the only expensive construction material being the relatively inexpensive Endo-Composite structure and the CASE II systems protecting the buyer's investment. Marketed as being cheap to maintain and upgrade, Periphery states were quick to buy models of the mech to counter the proliferation of super heavy mechs across the Inner Sphere. Since buyers were expected to not have sufficient resources to equip multiple pilots in a squad with 'Mechs of this size, the 'Mech was built to have weapons for any situation, twin extended range medium and large lasers, twin ER PPCs, an LRM 20 and two SRM 6s. Unfortunately, the mech does not mount sufficient heat sinks to allow for firing all of these weapons simultaneously, so it was fitted with several coolant bottles to handle the load in emergencies.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_thunderstone"
+  },
+  "MovementCapDefID": "movedef_thunderstone_TDS-1A",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_thunderstone",
+  "PrefabIdentifier": "chrprfmech_thunderstonebase-001",
+  "PrefabBase": "thunderstone",
+  "Tonnage": 135,
+  "InitialTonnage": 44.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 10206000,
+  "Heatsinks": 45,
+  "TopSpeed": 105,
+  "TurnRadius": 290,
+  "MaxJumpjets": 2,
+  "Stability": 250,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 135,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 135,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 135,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 41
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 220,
+      "MaxRearArmor": -1,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 280,
+      "MaxRearArmor": 140,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 410,
+      "MaxRearArmor": 205,
+      "InternalStructure": 205
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 280,
+      "MaxRearArmor": 140,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 220,
+      "MaxRearArmor": -1,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 280,
+      "MaxRearArmor": -1,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 280,
+      "MaxRearArmor": -1,
+      "InternalStructure": 140
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "TDS-S1",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.8",
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy Juggernaut",
+  "YangsThoughts": "This thing is overall a bit light on firepower for a super heavy, but that comes with the territory of sticking with extremely low price weapons. That said, it's a solid mech design and easy to work on, so we can easily rework it to support whatever you want it to mount."
+}

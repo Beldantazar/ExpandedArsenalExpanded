@@ -3,6 +3,8 @@
         "items": [
             "unit_mech",
             "unit_assault",
+            "unit_mech_Advanced",
+            "mech_assault_Advanced",
             "unit_release",
             "unit_lance_vanguard",
             "unit_lance_assassin",
@@ -110,14 +112,6 @@
         }
     ],
     "inventory": [
-        {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_General_Enhanced_Missilery_System",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
         {
             "MountedLocation": "LeftArm",
             "ComponentDefID": "Weapon_Laser_LargeLaserPulse_2-Exostar",

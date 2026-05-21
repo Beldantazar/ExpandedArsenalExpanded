@@ -4,6 +4,8 @@
             "unit_indirectFire",
             "unit_mech",
             "unit_assault",
+            "unit_mech_Advanced",
+            "mech_assault_Advanced",
             "unit_release",
             "unit_ready",
             "unit_lance_assassin",

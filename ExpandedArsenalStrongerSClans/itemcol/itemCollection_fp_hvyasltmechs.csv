@@ -334,3 +334,7 @@ mechdef_broadside_BS-X1,Mech,1,1
 mechdef_broadside_BS-S1,Mech,1,1
 mechdef_broadside_BS-X2,Mech,1,1
 mechdef_broadside_BS-S2,Mech,1,1
+mechdef_juggernaut_JG-X,Mech,1,1
+mechdef_juggernaut_JG-S,Mech,1,1
+mechdef_juggernaut_JG-X2,Mech,1,1
+mechdef_juggernaut_JG-S2,Mech,1,1

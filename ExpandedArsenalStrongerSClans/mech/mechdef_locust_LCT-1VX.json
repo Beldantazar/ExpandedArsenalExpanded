@@ -1,17 +1,17 @@
 {
   "MechTags": {
     "items": [
-      "unit_mech",
-      "unit_release",
-      "unit_light",
-      "unit_lance_vanguard",
-      "unit_role_scout",
-      "unit_range_short",
-      "unit_speed_high",
-      "unit_mech_Advanced",
-      "mech_light_Advanced",
-      "unit_armor_high",
-      "elite_forces"
+        "unit_mech",
+        "unit_release",
+        "unit_light",
+        "unit_lance_vanguard",
+        "unit_role_scout",
+        "unit_range_short",
+        "unit_speed_high",
+        "unit_mech_Advanced",
+        "mech_light_Advanced",
+        "unit_armor_high",
+        "elite_forces"
     ],
     "tagSetSourceFile": ""
   },
@@ -26,7 +26,7 @@
     "UIName": "Locust LCT-1VX",
     "Id": "mechdef_locust_LCT-1VX",
     "Name": "Locust",
-    "Details": "The LCT-1VX is an attempt to increase the survivability and firepower of Locust. This version packs increased armor, an upgraded laser and added support weaponry.",
+    "Details": "The LCT-1VX is an attempt to increase the survivability and firepower of Locusts. This version packs increased armor, an upgraded laser and added support weaponry.",
     "Icon": "uixTxrIcon_locust"
   },
   "simGameMechPartCost": 400000,
