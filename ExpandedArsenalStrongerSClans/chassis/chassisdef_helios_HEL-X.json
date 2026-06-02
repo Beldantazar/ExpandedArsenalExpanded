@@ -8,10 +8,10 @@
     "UIName": "Helios",
     "Id": "chassisdef_helios_HEL-X",
     "Name": "Helios",
-    "Details": "With a military that utilized expensive assault 'Mechs like the Emperor, Pillager, and Victor in large numbers, the St. Ives Compact had a distinct need to protect those investments. To do this, the St. Ives Compact worked with engineers at Ceres Metals Industries to design a 'Mech that could both protect and support its heavier charges. The Helios is also produced by Ceres Metals for use by ComStar due to the secular organization quietly financing an increase in the number of production lines for the 'Mech to four. A more energy weapon dependent version of the Helios spawned by the Combine trade deal, the 4A strips all of the 'Mech's weapons and adds two tons of armor. It has an ER PPC as its primary weapon backed up by two medium lasers and an MRM-20 launcher.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "With a military that utilized expensive assault 'Mechs like the Emperor, Pillager, and Victor in large numbers, the St. Ives Compact had a distinct need to protect those investments. To do this, the St. Ives Compact worked with engineers at Ceres Metals Industries to design a 'Mech that could both protect and support its heavier charges. The Helios is also produced by Ceres Metals for use by ComStar due to the secular organization quietly financing an increase in the number of production lines for the 'Mech to four. The Helios carries a MilDouglas Gauss rifle as its primary weapon. This allows the Helios to strike an enemy at ranges similar to that of the 'Mechs it protects with respectable firepower. For close combat, the Helios has two BlazeFire Longshot ER medium lasers and a pair of MilDouglas SRM-6 launchers which can usually make short work of an enemy 'Mech that makes it into short range.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_helios"
   },
-  "MovementCapDefID": "movedef_helios_HEL-4A",
+  "MovementCapDefID": "movedef_helios_HEL-3D",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_helios",
   "PrefabIdentifier": "chrprfmech_heliosbase-001",
@@ -78,6 +78,10 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
           "WeaponMount": "Missile",
           "Omni": false
         }
@@ -90,12 +94,7 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 200,
@@ -123,10 +122,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -209,5 +204,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Skirmisher",
-  "YangsThoughts": "I like the MRM loadout a bit better than the SRMs as it lets the thing stay a bit farther away from bigger mechs that go in for close range brawling."
+  "YangsThoughts": "A nice flexible heavy mech that can keep up with most combat. Armor is a bit light, but it's still pretty durable."
 }

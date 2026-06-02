@@ -229,7 +229,7 @@
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_C3i_Computer_1",
+      "ComponentDefID": "Gear_C3i_Computer_2",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": -1,
       "DamageLevel": "Functional"

@@ -1,6 +1,7 @@
 {
     "MechTags": {
         "items": [
+            "unit_indirectFire",
             "unit_mech",
             "unit_assault",
             "unit_release",
@@ -24,7 +25,7 @@
         "UIName": "Berserker BRZ-B3",
         "Id": "mechdef_berserker_BRZ-B3",
         "Name": "Berserker",
-        "Details": "A massive close in brawling mech, with a gigantic 400XL engine and a MASC system to allow it to reach a top speed of 86.4 km/h. It runs an arsenal of energy weapons for ranged operations while it gets in range for its massive 7 ton hatchet. For long range it uses an ER PPC then twin large pulse lasers for closer in work. It does mount a flamer in the head but more for the psychological effect than any actual combat use.",
+        "Details": "The B3 variant is a modification of the Berserker that changes the 'Mech from a powerful brawler to a well-armed fire support 'Mech. The twin large pulse lasers have been replaced with a pair of Coventry StarFire LRM-10 launchers which allow the 'Mech to sit at long ranges and bombard the enemy. If a 'Mech closes to short range, the Berserker can act as its own bodyguard by using its hatchet.",
         "Icon": "uixTxrIcon_berserker"
     },
     "simGameMechPartCost": 2400000,
@@ -105,14 +106,20 @@
     ],
     "inventory": [
         {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_Actuator_Berserk_Hatchet",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "DamageLevel": "Functional"
+        },
+        {
             "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Gyro_Friedhof_Osprey",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": "",
-            "hasPrefabName": true
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -120,9 +127,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -130,9 +135,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -140,9 +143,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "Head",
@@ -150,9 +151,7 @@
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "CenterTorso",
@@ -160,9 +159,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -170,9 +167,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -180,9 +175,7 @@
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -190,9 +183,7 @@
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -200,9 +191,7 @@
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -210,9 +199,7 @@
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftArm",
@@ -220,9 +207,7 @@
             "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -230,9 +215,7 @@
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "RightTorso",
@@ -240,9 +223,7 @@
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -250,9 +231,7 @@
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         },
         {
             "MountedLocation": "LeftTorso",
@@ -260,9 +239,7 @@
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
             "IsFixed": false,
-            "DamageLevel": "Functional",
-            "prefabName": null,
-            "hasPrefabName": false
+            "DamageLevel": "Functional"
         }
     ]
 }

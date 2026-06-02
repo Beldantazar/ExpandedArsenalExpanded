@@ -8,16 +8,16 @@
     "UIName": "Glass Spider",
     "Id": "chassisdef_glassspider_GS-S1",
     "Name": "Glass Spider",
-    "Details": "The Glass Spider is the direct descendant of the Star League Galahad, so it was only natural that Inner Sphere observers gave it that code name when they first encountered the BattleMech. The Glass Spider was one of the most common 'Mechs in second-line formations and could be found in the touman of every Clan. It served in the dual role of providing direct-fire support for friendly forces and serving as the first line of air defense for most garrison units. While this mission profile made it unpopular among those trueborns assigned to pilot a Glass Spider, it was a popular choice for any MechWarrior engaging an aerospace fighter in an honor duel. Its ability to quickly kill a target, and thus quickly win honor, also made it popular among some warrior.<br>The weapons on the Glass Spider are simple and straightforward: two Gauss rifles, one in each arm. The long-range, powerful guns devastate most opponents quickly and, like the Rifleman's weapons, can rotate completely to cover the rear arc.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "The Glass Spider is the direct descendant of the Star League Galahad, so it was only natural that Inner Sphere observers gave it that code name when they first encountered the BattleMech. The Glass Spider was one of the most common 'Mechs in second-line formations and could be found in the touman of every Clan. It served in the dual role of providing direct-fire support for friendly forces and serving as the first line of air defense for most garrison units. While this mission profile made it unpopular among those trueborns assigned to pilot a Glass Spider, it was a popular choice for any MechWarrior engaging an aerospace fighter in an honor duel. Its ability to quickly kill a target, and thus quickly win honor, also made it popular among some warrior.<br>Introduced by the Wolf Empire, this configuration fits an XL engine and supercharger to the standard chassis. In place of the standard Gauss rifles, each arm carries a HAG 20 which share seven tons of ammunition. Three ER small lasers are placed in the right torso. All these weapons are tied into a targeting computer. This design is primarily used for anti-aircraft work.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_gspider"
   },
-  "MovementCapDefID": "movedef_gspider_GS-PRIME",
+  "MovementCapDefID": "movedef_gspider_GS-4",
   "PathingCapDefID": "pathingdef_heavy",
   "HardpointDataDefID": "hardpointdatadef_gspider",
   "PrefabIdentifier": "chrprfmech_gspiderbase-001",
   "PrefabBase": "gspider",
   "Tonnage": 60,
-  "InitialTonnage": 20.5,
+  "InitialTonnage": 15.0,
   "weightClass": "HEAVY",
   "Heatsinks": 45,
   "MaxJumpjets": 4,
@@ -57,10 +57,6 @@
       "Location": "LeftArm",
       "Hardpoints": [
         {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
-        {
           "WeaponMount": "Ballistic",
           "Omni": false
         }
@@ -74,6 +70,10 @@
     {
       "Location": "LeftTorso",
       "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -98,6 +98,18 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
           "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
@@ -119,10 +131,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -204,8 +212,8 @@
     ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Long Range Ballistic Sniper",
-  "YangsThoughts": "This thing is a simple and straight-forward fire support mech similar to the Rifleman in concept and use, but with FAR more firepower. It's vulnerable if anything manages to get close, but with the firepower this thing puts out most things won't make it that far.",
+  "StockRole": "Long Range Sniper",
+  "YangsThoughts": "Back to the ballistics with this version, but now it has a way stronger set of twin HAGs with an engine booster to allow for more speed.",
   "FixedEquipment": [
     {
       "MountedLocation": "Head",

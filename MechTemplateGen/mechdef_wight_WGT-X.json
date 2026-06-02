@@ -23,7 +23,7 @@
     "UIName": "Wight WGT-X",
     "Id": "mechdef_wight_WGT-X",
     "Name": "Wight",
-    "Details": "Despite sharing the cost of the design, StarCorps has never produced the base model, blasting LAW for its low mobility by light 'Mech standards. StarCorp's base version of the Wight instead uses standard ferro-fibrous armor and carries a snub-nose PPC as its main weapon to allow it to mount jump jets, trading firepower for mobility.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "The Wight's weapon array suits its role as a short ranged brawler, based around one of the newly introduced Lord's Light heavy PPCs in the right torso, backed up by dual mounted Diverse Optics ER medium lasers. Its all energy weapon loadout allows the 'Mech to stay in action as long as its bulky armor and its pilot's endurance will allow.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_wolfhound"
   },
   "simGameMechPartCost": 500000,

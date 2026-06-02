@@ -8,10 +8,10 @@
     "UIName": "Vanquisher",
     "Id": "chassisdef_vanquisher_VQR-X",
     "Name": "Vanquisher",
-    "Details": "Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree. The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request. The 7V variant uses a pair of Rotary AC/5s along with a set of two light PPCs and a Heavy PPC.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "Based on the King Crab, and built in the same factory that first produced the Mackie, the Vanquisher has a legendary pedigree. The Vanquisher has its genesis in the development of reverse engineered Improved C3 Computers. Once the Word of Blake had perfected their version of C3i, Cameron St. Jamais contacted Skobel MechWorks and contracted them to produce a 'Mech that would showcase the features of the new system. The Vanquisher was the result of that request. Intended to stay back and let faster units spot for it using the C3i system, the Vanquisher carries a pair of Corean Light Gauss Rifles backed up by two Diverse Optics Sunbeam ER Large Lasers, giving the Vanquisher almost unparalleled reach on the battlefield. For close combat, the 'Mech has three Diverse Optics Type ER Medium Lasers, which are usually enough to dissuade most lighter 'Mechs.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_vanquisher"
   },
-  "MovementCapDefID": "movedef_vanquisher_VQR-7V",
+  "MovementCapDefID": "movedef_vanquisher_VQR-2A",
   "PathingCapDefID": "pathingdef_assault",
   "HardpointDataDefID": "hardpointdatadef_vanquisher",
   "PrefabIdentifier": "chrprfmech_vanquisherbase-001",
@@ -67,10 +67,6 @@
         {
           "WeaponMount": "Ballistic",
           "Omni": false
-        },
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
         }
       ],
       "Tonnage": 0,
@@ -81,20 +77,16 @@
     },
     {
       "Location": "LeftTorso",
-        "Hardpoints": [
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            },
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            },
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            }
-        ],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 210,
@@ -112,20 +104,16 @@
     },
     {
       "Location": "RightTorso",
-        "Hardpoints": [
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            },
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            },
-            {
-                "WeaponMount": "Energy",
-                "Omni": false
-            }
-        ],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 10,
       "MaxArmor": 210,
@@ -135,10 +123,6 @@
     {
       "Location": "RightArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Ballistic",
-          "Omni": false
-        },
         {
           "WeaponMount": "Ballistic",
           "Omni": false
@@ -221,5 +205,5 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Heavy Sniper and Juggernaut",
-  "YangsThoughts": "PPC and bullet heavy, but very good at quickly ripping foes apart if you can get them into your crosshairs."
+  "YangsThoughts": "A long range sniper mech, don't expect this thing to get anywhere in a hurry, but it does have a nicely powerful long range weapon array to make sure it doesn't have to."
 }

@@ -122,22 +122,6 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightLeg",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_3-Intek",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "IsFixed": false,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "LeftLeg",
-            "ComponentDefID": "Weapon_Laser_SmallLaser_3-Intek",
-            "ComponentDefType": "Weapon",
-            "HardpointSlot": 0,
-            "IsFixed": false,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Laser_MediumLaserPulse_2-Magna400P",
             "ComponentDefType": "Weapon",
@@ -154,7 +138,23 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "RightTorso",
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_3-Voelkers",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Weapon_MachineGun_MachineGun_3-Voelkers",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_HeatSink_Generic_Double",
             "ComponentDefType": "HeatSink",
             "HardpointSlot": -1,
@@ -162,9 +162,17 @@
             "DamageLevel": "Functional"
         },
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_HeatSink_Generic_Double",
-            "ComponentDefType": "HeatSink",
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_MG_Half",
+            "ComponentDefType": "AmmunitionBox",
             "HardpointSlot": -1,
             "IsFixed": false,
             "DamageLevel": "Functional"

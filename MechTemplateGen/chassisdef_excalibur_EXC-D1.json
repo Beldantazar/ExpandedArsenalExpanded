@@ -1,0 +1,216 @@
+{
+  "Description": {
+    "Cost": 6700000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Excalibur",
+    "Id": "chassisdef_excalibur_EXC-D1",
+    "Name": "Excalibur",
+    "Details": "The Excalibur is designed to engage an enemy at long range and use its mobility to dictate the ranges of the engagement. The 'Mech is named for the appearance of the muzzle and dummy hand on the right arm, which reminded the design team of the look of a medieval Terran sword. The EXC-B2 first saw service in 2620 and served with SLDF forces well in Operation Smother and the Amaris Civil War. However, the Excalibur has proven to be most potent when supported by other types of BattleMechs, primarily due to insufficient armor. Excalibur MechWarriors were often derisively called 'Streakers' during the Amaris Coup due to their hit-and-run attacks and refusals of stand-up fights. By the time of Operation EXODUS, most surviving examples were found in the 328th Royal BattleMech Division and left with General Kerensky. The 'Mech has an impressive top speed of 86.4 km/h, which is made possible through the use of a Ford 350 XL engine. The Excalibur carries a relatively light seven and a half tons of armor, with CASE in both side torsos to protect against an ammunition explosion. With its mission of long-range combat, the Excalibur does not need a very high level of armor protection. The variant is a radical reworking of the Excalibur by Word of Blake that was first reported to have been seen in 3067 on Outreach. All the weapons are removed to make way for eleven and a half tons of armor and enough jump jets to vault the 'Mech up to one hundred and fifty meters at a time. A short-range arsenal is in place for the remaining tonnage, anchored by a rotary autocannon/5. It, along with two ER medium lasers, are made more accurate through an advanced Targeting Computer. A Streak SRM-6 enables highly-accurate missile fire. An improved C3 computer aids in targeting with the other five members of the Level II.",
+    "Icon": "uixTxrIcon_excalibur"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_excalibur_EXC-D1",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_excalibur",
+  "PrefabIdentifier": "chrprfmech_excaliburbase-001",
+  "PrefabBase": "excalibur",
+  "Tonnage": 70,
+  "InitialTonnage": 25.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 6577000,
+  "Heatsinks": 30,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 90,
+  "MeleeInstability": 70,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 90,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 90,
+  "DFAInstability": 90,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 220,
+      "MaxRearArmor": 110,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 110,
+      "MaxRearArmor": -1,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 1
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -3,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "EXC-D1",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Sniper",
+  "YangsThoughts": "Another brawling variant, this one focused on an autocannons instead of energy weapons, this variant has lots of ammunition but has issues with heat management like the CS."
+}

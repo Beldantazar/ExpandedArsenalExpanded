@@ -1,0 +1,223 @@
+{
+  "Description": {
+    "Cost": 17159064,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "Name": "Turkina",
+    "Details": "The Turkina has 42 tons available for modular pods. The first alternate configuration is well-supplied with ammunition for its paired Gauss Rifles and LRM-20s.",
+    "UIName": "Turkina",
+    "Id": "chassisdef_turkina_TKN-A",
+    "Icon": "uixTxrIcon_turkina"
+  },
+  "VariantName": "TKN-A",
+  "StockRole": "Sniper",
+  "YangsThoughts": "The Turkina has 42 tons available for modular pods. The first alternate configuration is well-supplied with ammunition for its paired Gauss Rifles and LRM-20s.",
+  "Tonnage": 95,
+  "InitialTonnage": 24.0,
+  "weightClass": "ASSAULT",
+  "Heatsinks": 30,
+  "MaxJumpjets": 4,
+  "Stability": 200,
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "HardpointDataDefID": "hardpointdatadef_turkina",
+  "PrefabIdentifier": "chrprfmech_turkinabase-001",
+  "PrefabBase": "turkina",
+  "BattleValue": 17997756,
+  "TopSpeed": 65,
+  "TurnRadius": 90,
+  "MovementCapDefID": "movedef_turkina",
+  "PathingCapDefID": "pathingdef_assault",
+  "MeleeDamage": 90,
+  "MeleeInstability": 24,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 95,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 95,
+  "DFAInstability": 47,
+  "PunchesWithLeftArm": true,
+  "Locations": [
+    {
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16,
+      "Location": "Head",
+      "Hardpoints": []
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80,
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ]
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 150,
+      "InternalStructure": 100,
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ]
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 300,
+      "MaxRearArmor": 150,
+      "InternalStructure": 150,
+      "Location": "CenterTorso",
+      "Hardpoints": []
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 200,
+      "MaxRearArmor": 100,
+      "InternalStructure": 100,
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ]
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80,
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ]
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100,
+      "Location": "LeftLeg",
+      "Hardpoints": []
+    },
+    {
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 200,
+      "MaxRearArmor": -1,
+      "InternalStructure": 100,
+      "Location": "RightLeg",
+      "Hardpoints": []
+    }
+  ],
+  "FixedEquipment": [],
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ]
+}
