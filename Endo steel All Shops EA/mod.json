@@ -7,6 +7,15 @@
     "Website": "https://www.nexusmods.com/battletech/mods/463",
     "Contact": "",
     "Manifest": [
-		{ "Type": "UpgradeDef", "Path": "upgrades", "AddToDB": true }        
+        {
+            "Type": "UpgradeDef",
+            "Path": "upgrades",
+            "AddToDB": true
+        },
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemcol",
+            "ShouldAppendText": true
+        }
     ]
 }
