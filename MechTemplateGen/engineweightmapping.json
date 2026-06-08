@@ -1,5 +1,95 @@
 {
     "mappingEntries": {
+        "10": {
+            "weight": 0.5,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "15": {
+            "weight": 0.5,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "20": {
+            "weight": 0.5,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "25": {
+            "weight": 0.5,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "30": {
+            "weight": 1.0,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "35": {
+            "weight": 1.0,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "40": {
+            "weight": 1.0,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "45": {
+            "weight": 1.0,
+            "xlweight": 0.5,
+            "gyroweight": 1.0
+        },
+        "50": {
+            "weight": 1.5,
+            "xlweight": 1.0,
+            "gyroweight": 1.0
+        },
+        "55": {
+            "weight": 1.5,
+            "xlweight": 1.0,
+            "gyroweight": 1.0
+        },
+        "60": {
+            "weight": 1.5,
+            "xlweight": 1.0,
+            "gyroweight": 1.0
+        },
+        "65": {
+            "weight": 2.0,
+            "xlweight": 1.0,
+            "gyroweight": 1.0
+        },
+        "70": {
+            "weight": 2.0,
+            "xlweight": 1.0,
+            "gyroweight": 1.0
+        },
+        "75": {
+            "weight": 2.0,
+            "xlweight": 1.0,
+            "gyroweight": 1.0
+        },
+        "80": {
+            "weight": 2.5,
+            "xlweight": 1.5,
+            "gyroweight": 1.0
+        },
+        "85": {
+            "weight": 2.5,
+            "xlweight": 1.5,
+            "gyroweight": 1.0
+        },
+        "90": {
+            "weight": 3.0,
+            "xlweight": 1.5,
+            "gyroweight": 1.0
+        },
+        "95": {
+            "weight": 3.0,
+            "xlweight": 1.5,
+            "gyroweight": 1.0
+        },
         "100": {
             "weight": 3.0,
             "xlweight": 1.5,

@@ -11,7 +11,22 @@
     "Details": "Developed in response to a Star League Defense Force request for a long-range infantry support BattleMech, the first Jackrabbit prototype was completed by 2763, but was only approved for combat testing a mere two weeks before the Amaris Coup. Stefan Amaris took advantage of this windfall and ordered the Jackrabbit mass produced for his troops. Due to fundamental flaws in the design being revealed in the hard fighting of Amaris Civil War and the taint of being used against the SLDF, no Jackrabbits were taken on Operation Exodus. The surviving examples of the 500 Jackrabbits produced and the Skobel factory were carefully mothballed by ComStar. Nicknamed 'the Joker' by SLDF troops, JKR-9R was developed by the Rim Worlds Republic in 2768; technicians attempted to boost the flawed Jackrabbits effectiveness by replacing the autocannon with a large laser, an extra single heat sink, and a ton of armor. Half the surviving examples are of this type.",
     "Icon": "uixTxrIcon_jackrabbit"
   },
-  "FixedEquipment": [],
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Targeting_Baffle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_General_Targeting_Baffle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
   "MovementCapDefID": "movedef_jackrabbit_JKR-9R",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_jackrabbit",

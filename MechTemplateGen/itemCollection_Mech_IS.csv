@@ -21,7 +21,7 @@ mechdef_vindicator_VND-3L,Mech,1,1
 mechdef_vindicator_VND-3Lr,Mech,1,1
 mechdef_assassin_ASN-26,Mech,1,1
 mechdef_assassin_ASN-27,Mech,1,1
-mechdef_clint_CLNT-2-3T,Mech,1,1
+mechdef_clint_CLNT-2-3U,Mech,1,1
 mechdef_icarusii_ICR-2S,Mech,1,1
 mechdef_strider_SR1-0B,Mech,1,1
 mechdef_strider_SR1-0F,Mech,1,1
@@ -189,6 +189,7 @@ mechdef_ymir_BWP-2E,Mech,1,1
 mechdef_ymir_BWP-3A,Mech,1,1
 mechdef_jackrabbit_JKR-8T,Mech,1,1
 mechdef_jackrabbit_JKR-9R,Mech,1,1
+mechdef_jackrabbitii_JKR-A,Mech,1,1
 mechdef_excalibur_EXC-B2,Mech,1,1
 mechdef_excalibur_EXC-B2b,Mech,1,1
 mechdef_excalibur_EXC-CS,Mech,1,1
@@ -207,6 +208,10 @@ mechdef_shootist_ST-8A,Mech,1,1
 mechdef_shootist_ST-9C,Mech,1,1
 mechdef_hoplite_HOP-4D,Mech,1,1
 mechdef_hoplite_HOP-C,Mech,1,1
+mechdef_hoplite_HOP-4B,Mech,1,1
+mechdef_hoplite_HOP-4Bb,Mech,1,1
+mechdef_hoplite_HOP-4C,Mech,1,1
+mechdef_hoplite_HOP-4Cb,Mech,1,1
 mechdef_falcon_FLC-4P,Mech,1,1
 mechdef_falcon_FLC-4Nb,Mech,1,1
 mechdef_lynx_LNX-9Q,Mech,1,1
@@ -312,11 +317,12 @@ mechdef_crab_CRB-27,Mech,1,1
 mechdef_crab_CRB-27b,Mech,1,1
 mechdef_crab_CRB-27sl,Mech,1,1
 mechdef_crab_CRB-30,Mech,1,1
+mechdef_trebuchet_TBT-7M,Mech,1,1
 mechdef_uziel_UZL-3P,Mech,1,1
 mechdef_uziel_UZL-6P,Mech,1,1
 mechdef_hellspawn_HSN-9F,Mech,1,1
-mechdef_hellspawn_HSN-9F,Mech,1,1
 mechdef_hellspawn_HSN-10g,Mech,1,1
+mechdef_phoenixhawk_PXH-C,Mech,1,1
 mechdef_cicada_CDA-3F,Mech,1,1
 mechdef_cicada_CDA-3M,Mech,1,1
 mechdef_cicada_CDA-3M,Mech,1,1
@@ -329,3 +335,9 @@ mechdef_stalker_STK-5S,Mech,1,1
 mechdef_stalker_STK-3FJAM,Mech,1,1
 mechdef_hatamoto-chii_HTM-27T2,Mech,1,1
 mechdef_hatamoto-hi_HTM-27U,Mech,1,1
+mechdef_urbanmechk-9_UM-K9,Mech,1,1
+mechdef_urbanmech_UM-R68,Mech,1,1
+mechdef_urbanmech_UM-R100,Mech,1,1
+mechdef_gladiator_GLD-4R,Mech,1,1
+mechdef_gladiator_GLD-3R,Mech,1,1
+mechdef_gladiator_GLD-5R,Mech,1,1

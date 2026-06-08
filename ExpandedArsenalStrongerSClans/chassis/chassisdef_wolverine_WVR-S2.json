@@ -1,0 +1,220 @@
+{
+  "Description": {
+    "Cost": 7200000,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Wolverine",
+    "Id": "chassisdef_wolverine_WVR-S2",
+    "Name": "Wolverine",
+    "Details": "Another major upgrade of the Wolverine, this one for the Combine and first rolling off Marduk's production lines in 3050, the 7K model is also built with an XL Engine for power with the saved weight used to increase and upgrade its arsenal. The primary weapon is a Victory Drumbeat Large Pulse Laser and a Victory Throb Small Pulse Laser in the right arm, which is backed up by a medium pulse laser in the head and two Telos-6 SRM-6 launchers in the left and right torsos with one ton of reloads each.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_wolverine"
+  },
+  "MovementCapDefID": "movedef_wolverine_WVR-6R",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_wolverine",
+  "PrefabIdentifier": "chrPrfMech_wolverineBase-001",
+  "PrefabBase": "wolverine",
+  "Tonnage": 55,
+  "InitialTonnage": 19.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 5897000,
+  "Heatsinks": 45,
+  "TopSpeed": 150,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 70,
+  "MeleeInstability": 55,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 70,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 70,
+  "DFAInstability": 70,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 90,
+      "MaxRearArmor": -1,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 130,
+      "MaxRearArmor": 65,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 130,
+      "MaxRearArmor": 65,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 90,
+      "MaxRearArmor": -1,
+      "InternalStructure": 45
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 130,
+      "MaxRearArmor": -1,
+      "InternalStructure": 65
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": -3.5,
+      "y": 13,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 5,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 5,
+      "z": 0
+    }
+  ],
+  "VariantName": "WVR-S2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Skirmisher",
+  "YangsThoughts": "Another major upgrade of the Wolverine, this one for the Combine and first rolling off Marduk's production lines in 3050, the 7K model is also built with an XL Engine for power with the saved weight used to increase and upgrade its arsenal. The primary weapon is a Victory Drumbeat Large Pulse Laser and a Victory Throb Small Pulse Laser in the right arm, which is backed up by a medium pulse laser in the head and two Telos-6 SRM-6 launchers in the left and right torsos with one ton of reloads each."
+}

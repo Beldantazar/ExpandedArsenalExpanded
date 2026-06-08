@@ -1,0 +1,208 @@
+{
+  "Description": {
+    "Cost": 3400000,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Fire Moth",
+    "Id": "chassisdef_firemoth_FM-X2",
+    "Name": "Fire Moth",
+    "Details": "The Fire Moth is a light Clan OmniMech intended for scouting. With a running speed of 162.0 km/h, accelerating up to 216.0 km/h with the MASC system installed on the 'Mech's chassis, the Fire Moth is easily one of the fastest designs ever created. The Fire Moth's superior speed comes from its 200 XL Fusion Engine. An Endo Steel chassis saves additional space. Two tons of Ferro-Fibrous armor act as the only barrier between an enemy and the 'Mech's fragile internals. In the prime configuration, each arm mounts an ER Medium Laser as primary weapons. An SRM-6 and SRM-4 rack provide the Fire Moth with additional striking capability and allow it to exploit breaches in enemy armor.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_dasher"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_dasher",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_dasher",
+  "PrefabIdentifier": "chrprfmech_dasherbase-001",
+  "PrefabBase": "dasher",
+  "Tonnage": 20,
+  "InitialTonnage": 7.25,
+  "weightClass": "LIGHT",
+  "BattleValue": 3749000,
+  "Heatsinks": 30,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 8,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 15,
+  "MeleeInstability": 5,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 15,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 15,
+  "DFAInstability": 5,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 50,
+      "MaxRearArmor": 25,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 30,
+      "MaxRearArmor": -1,
+      "InternalStructure": 15
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "FM-X2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Super-Fast Scout",
+  "YangsThoughts": "The Fire Moth is a light Clan OmniMech intended for scouting. With a running speed of 162.0 km/h, accelerating up to 216.0 km/h with the MASC system installed on the 'Mech's chassis, the Fire Moth is easily one of the fastest designs ever created. The Fire Moth's superior speed comes from its 200 XL Fusion Engine. An Endo Steel chassis saves additional space. Two tons of Ferro-Fibrous armor act as the only barrier between an enemy and the 'Mech's fragile internals. In the prime configuration, each arm mounts an ER Medium Laser as primary weapons. An SRM-6 and SRM-4 rack provide the Fire Moth with additional striking capability and allow it to exploit breaches in enemy armor."
+}

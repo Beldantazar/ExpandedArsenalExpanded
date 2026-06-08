@@ -96,6 +96,8 @@ mechdef_raptor_RTX1-OC-X2,Mech,1,1
 mechdef_raptor_RTX1-OC-S2,Mech,1,1
 mechdef_jackrabbit_JKR-X,Mech,1,1
 mechdef_jackrabbit_JKR-S,Mech,1,1
+mechdef_jackrabbitii_JKR-X2,Mech,1,1
+mechdef_jackrabbitii_JKR-S2,Mech,1,1
 mechdef_sling_SL-X1,Mech,1,1
 mechdef_sling_SL-S1,Mech,1,1
 mechdef_sling_SL-X2,Mech,1,1
@@ -142,7 +144,13 @@ mechdef_mongoose_MON-X2,Mech,1,1
 mechdef_mongoose_MON-S2,Mech,1,1
 mechdef_firemoth_FM-X2,Mech,1,1
 mechdef_firemoth_FM-S2,Mech,1,1
+mechdef_piranha_PIR-X3,Mech,1,1
+mechdef_piranha_PIR-S3,Mech,1,1
 mechdef_piranha_PIR-X2,Mech,1,1
 mechdef_piranha_PIR-S2,Mech,1,1
 mechdef_stinger_STG-X2,Mech,1,1
 mechdef_stinger_STG-S2,Mech,1,1
+mechdef_urbanmechk-9_UM-X2,Mech,1,1
+mechdef_urbanmechk-9_UM-S2,Mech,1,1
+mechdef_urbanmech_UM-X3,Mech,1,1
+mechdef_urbanmech_UM-S3,Mech,1,1

@@ -1,0 +1,276 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_light",
+            "unit_jumpOK",
+            "unit_range_medium",
+            "unit_speed_high",
+            "unit_armor_high",
+            "unit_lance_assassin",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_release",
+            "NotKurita",
+            "unit_very_rare",
+            "unit_ext_rare_Davion",
+            "unit_ext_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_rare_Steiner",
+            "unit_ext_rare_Kurita",
+            "unit_ext_rare_MagistracyOfCanopus",
+            "unit_ext_rare_TaurianConcordat",
+            "unit_ext_rare_AuriganDirectorate",
+            "unit_ext_rare_AuriganRestoration",
+            "unit_ext_rare_ComStar",
+            "unit_ext_rare_MercenaryReviewBoard",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_AuriganPirates",
+            "unit_ext_rare_Locals",
+            "unit_ext_rare_Betrayers",
+            "unit_ext_rare_MajestyMetals",
+            "unit_ext_rare_KellHounds",
+            "unit_ext_rare_GrayDeathLegion",
+            "unit_ext_rare_FlakJackals",
+            "unit_ext_rare_LocalsBrockwayRefugees",
+            "unit_ext_rare_SelfEmployed",
+            "unit_ext_rare_MasonsMarauders",
+            "unit_ext_rare_SteelBeast",
+            "unit_ext_rare_RazorbackMercs",
+            "unit_ext_rare_RedHareRegiment",
+            "unit_ext_rare_EmeraldDawn",
+            "unit_ext_rare_SianTriumphant",
+            "unit_ext_rare_BlackCalderaDefense",
+            "unit_ext_rare_BlackCalderaDefense_Hidden",
+            "unit_ext_rare_SecuritySolutionsInc",
+            "unit_ext_rare_PaladinProtectionLLC",
+            "unit_ext_rare_HouseNakano",
+            "unit_ext_rare_HouseKhulan",
+            "unit_ext_rare_HostileMercenaries",
+            "unit_ext_rare_NoFaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_jennerrattlesnake_JR7-31",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 3800000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Jenner Rattlesnake JR7-31",
+        "Id": "mechdef_jennerrattlesnake_JR7-31",
+        "Name": "Jenner Rattlesnake",
+        "Details": "The Rattlesnake was an upgrade to the Jenner, designed to make use of cutting-edge technology recovered from the Helm Memory Core while outwardly appearing as a standard Jenner. As far as can be established, they were created by refitting existing Jenners as opposed to being built in a proper factory. As part of Project Trapdoor, the Rattlesnakes were deployed with an eye to sowing confusion and uncertainty among Draconis Combine forces, and they were also used for MIIO black ops. One mission which involved the destruction of a Warhawk (Masakari) OmniMech by Rattlesnakes was embellished and altered to an unspecified degree before being published as part of the psyops. As of 3084 the 'Mech was widely regarded as an urban legend. The original JR7-31 Rattlesnake from the 3040s reportedly featured cutting-edge technologies including Ferro-fibrous armor, an XL Engine and a Guardian ECM Suite. Its main armament are seven medium lasers. Its 11 double heat sinks are only just capable of keeping its heat in check. Two jump jets were added to the original five, for a total of seven.",
+        "Icon": "uixTxrIcon_jenner"
+    },
+    "simGameMechPartCost": 380000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 35,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 35,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 65,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 65,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 65,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 65,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Gear_HeatSink_Generic_Double",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Guardian_ECM",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "2784-01-01T00:00:00Z"
+}

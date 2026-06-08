@@ -9,7 +9,6 @@
       "unit_lance_assassin",
       "unit_role_brawler",
       "unit_release",
-      "NotKurita",
       "unit_none",
       "unit_none_Davion",
       "unit_none_Liao",
@@ -62,7 +61,7 @@
     "UIName": "Kintaro KTO-X2",
     "Id": "mechdef_kintaro_KTO-X2",
     "Name": "Kintaro",
-    "Details": "A slightly downgraded version of the Star League era Kintaro KTO-19, the KTO-20 is equipped with Ferro-Fiberous armor, allowing it to have max out its armor values and Double HeatSinks to help keep the KTO-20 in the fight longer.  The only real difference from the SLDF version is that it mounts a Large Laser in place of the lost tech NARC launcher..<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. It used an XL engine and double heat sinks to free up space to upgrade the KTO-19's LRM-5 launcher to a larger LRM-15 with two tons of CASE-protected ammunition. CASE was also added to the SRM ammo bins, with the leftover half ton devoted to more armor.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_kintaro"
   },
   "simGameMechPartCost": 660000,

@@ -129,14 +129,15 @@ void processMechInfo(MechInfo info)
         }
         chassisTonnage = MathHelper.CeilingToNearest(chassisTonnage * chassisWeightMultiplier, 0.5m);
         var engineTonnageMapping = weightMapping.entries[info.mechEngine.ToString()];
-        var engineTonnage = (info.xlEngine ?? false) ? engineTonnageMapping.xlWeight : engineTonnageMapping.weight;
+        var engineTonnage = Decimal.Parse(((info.xlEngine ?? false) ? engineTonnageMapping.xlWeight : engineTonnageMapping.weight) ?? "0.0");
+        engineTonnage = (info.lEngine ?? false) ? MathHelper.CeilingToNearest(Decimal.Parse(engineTonnageMapping.weight ?? "0.0") * 0.75m, 0.5m) : engineTonnage;
         var gyroWeight = Decimal.Parse(engineTonnageMapping.gyroWeight ?? "0.0");
         if (info.mechTonnage > 100)
         {
             // superheavy gyros are double weight
             gyroWeight *= 2;
         }
-        var initialTonnage = Decimal.Parse(engineTonnage ?? "0.0") + chassisTonnage + gyroWeight + 3.0M;
+        var initialTonnage = engineTonnage + chassisTonnage + gyroWeight + 3.0M;
         chassis["InitialTonnage"] = (double)(initialTonnage + (info.initialTonnageExtra ?? 0));
     }
     if(info.icon != null)
@@ -291,9 +292,24 @@ void processMechInfo(MechInfo info)
             tagItems = removeFromTags(tagItems, "NotDavion");
             tagItems = removeFromTags(tagItems, "NotLiao");
             tagItems = removeFromTags(tagItems, "NotMarik");
+            tagItems = removeFromTags(tagItems, "NotKurita");
             tagItems = removeFromTags(tagItems, "NotSteiner");
             tagItems = removeFromTags(tagItems, "NotMagistracyOfCanopus");
             tagItems = removeFromTags(tagItems, "NotTaurianConcordat");
+            if ( info.mechTagsRemove != null)
+            {
+                foreach (var tagToRemove in info.mechTagsRemove)
+                {
+                    tagItems = removeFromTags(tagItems, tagToRemove);
+                }
+            }
+            if (info.mechTagsAdd != null)
+            {
+                foreach (var tagToAdd in info.mechTagsAdd)
+                {
+                    tagItems = addToTags(tagItems, tagToAdd);
+                }
+            }
             allTags["items"] = tagItems;
         }
     }

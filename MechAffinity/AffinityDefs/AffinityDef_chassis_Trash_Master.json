@@ -4,7 +4,9 @@
   "affinityData": {
     "id": "please_fill_it_with_some_unique_id_13",
     "chassisNames": [
-      "chrPrfMech_urbanmechBase-001_30"
+        "chrPrfMech_urbanmechBase-001_30",
+        "chrPrfMech_urbiebase-001_30",
+        "chrprfmech_k9base-001_30"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

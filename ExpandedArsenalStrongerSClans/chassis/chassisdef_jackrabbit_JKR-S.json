@@ -11,7 +11,22 @@
     "Details": "Developed in response to a Star League Defense Force request for a long-range infantry support BattleMech, the first Jackrabbit prototype was completed by 2763, but was only approved for combat testing a mere two weeks before the Amaris Coup. Stefan Amaris took advantage of this windfall and ordered the Jackrabbit mass produced for his troops. Due to fundamental flaws in the design being revealed in the hard fighting of Amaris Civil War and the taint of being used against the SLDF, no Jackrabbits were taken on Operation Exodus. The surviving examples of the 500 Jackrabbits produced and the Skobel factory were carefully mothballed by ComStar. Intended to provide long-range fire support to fellow light 'Mechs and infantry, the Jackrabbit is armed with an Armstrong JJ-Lite AC/2, backed up at short range by a single Holly Streak SRM-2 rack. The main weapon is also the Jackrabbit's main drawback; while class 2 autocannons have longer effective ranges than most other weapons, they inflict the same damage as a machine gun at the cost of considerable weight which could be devoted to a larger engine or more armor, a tradeoff that ultimately doomed the Jackrabbit.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_jackrabbit"
   },
-  "FixedEquipment": [],
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Targeting_Baffle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_General_Targeting_Baffle",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
   "MovementCapDefID": "movedef_jackrabbit_JKR-8T",
   "PathingCapDefID": "pathingdef_light",
   "HardpointDataDefID": "hardpointdatadef_jackrabbit",

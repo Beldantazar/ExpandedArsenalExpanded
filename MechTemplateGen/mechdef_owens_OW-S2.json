@@ -28,7 +28,7 @@
     "UIName": "Owens OW-S2",
     "Id": "mechdef_owens_OW-S2",
     "Name": "Owens",
-    "Details": "The primary configuration of the Owens is meant to stay at stand-off ranges when possible using its two LRM-5 launchers. If forced into close range combat, the Owens can bring its Medium Laser and two Small Lasers to bear.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Details": "Also armed for short-range combat, the B configuration has an Artemis IV FCS–enhanced SRM-6 launcher as its primary weapon, backed up by four small lasers.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_owens"
   },
   "simGameMechPartCost": 400000,

@@ -91,22 +91,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Gear_General_Targeting_Baffle",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_General_Targeting_Baffle",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
             "ComponentDefType": "Weapon",

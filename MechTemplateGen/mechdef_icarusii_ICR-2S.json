@@ -22,7 +22,7 @@
     "UIName": "Icarus II ICR-2S",
     "Id": "mechdef_icarusii_ICR-2S",
     "Name": "Icarus II",
-    "Details": "The Icarus II was the first homegrown BattleMech design to be mass-produced by the Free Worlds League. Originally designed as a speedy striker to compliment the Mackie, the Icarus II was fast enough for its day though it is pitfully slow by modern standards. The primary armament of the Icarus II is an Autocannon/10. It is backed up by a pair of Medium Lasers and a single Small Laser.",
+    "Details": "TThe Icarus II was the first homegrown BattleMech design to be mass-produced by the Free Worlds League. Originally designed as a speedy striker to compliment the Mackie, the Icarus II was fast enough for its day though it is pitfully slow by modern standards. The 2S is an upgraded design produced in very limited quantities by Gilmour Militech. The small manufacturing concern resurrected the design in 3073. It is built on an endo steel chassis and uses an XL engine to reach a top speed of 86 km/h, and an extra jump jet allows it to reach 150 meters per leap. The AC/10 is upgraded to an LB 10-X autocannon, and the two medium lasers have been upgraded to a medium pulse laser. An extra single heat sink keeps heat in check and extra armor keeps the fragile engine safe.[2] Gilmour Militech produces a mere three of these 'Mechs per year. ",
     "Icon": "uixTxrIcon_icarusii"
   },
   "RequiredToSpawnCompanyTags": {

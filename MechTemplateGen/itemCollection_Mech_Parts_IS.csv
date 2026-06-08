@@ -21,7 +21,7 @@ mechdef_vindicator_VND-3L,MechPart,1,1
 mechdef_vindicator_VND-3Lr,MechPart,1,1
 mechdef_assassin_ASN-26,MechPart,1,1
 mechdef_assassin_ASN-27,MechPart,1,1
-mechdef_clint_CLNT-2-3T,MechPart,1,1
+mechdef_clint_CLNT-2-3U,MechPart,1,1
 mechdef_icarusii_ICR-2S,MechPart,1,1
 mechdef_strider_SR1-0B,MechPart,1,1
 mechdef_strider_SR1-0F,MechPart,1,1
@@ -189,6 +189,7 @@ mechdef_ymir_BWP-2E,MechPart,1,1
 mechdef_ymir_BWP-3A,MechPart,1,1
 mechdef_jackrabbit_JKR-8T,MechPart,1,1
 mechdef_jackrabbit_JKR-9R,MechPart,1,1
+mechdef_jackrabbitii_JKR-A,MechPart,1,1
 mechdef_excalibur_EXC-B2,MechPart,1,1
 mechdef_excalibur_EXC-B2b,MechPart,1,1
 mechdef_excalibur_EXC-CS,MechPart,1,1
@@ -207,6 +208,10 @@ mechdef_shootist_ST-8A,MechPart,1,1
 mechdef_shootist_ST-9C,MechPart,1,1
 mechdef_hoplite_HOP-4D,MechPart,1,1
 mechdef_hoplite_HOP-C,MechPart,1,1
+mechdef_hoplite_HOP-4B,MechPart,1,1
+mechdef_hoplite_HOP-4Bb,MechPart,1,1
+mechdef_hoplite_HOP-4C,MechPart,1,1
+mechdef_hoplite_HOP-4Cb,MechPart,1,1
 mechdef_falcon_FLC-4P,MechPart,1,1
 mechdef_falcon_FLC-4Nb,MechPart,1,1
 mechdef_lynx_LNX-9Q,MechPart,1,1
@@ -312,11 +317,12 @@ mechdef_crab_CRB-27,MechPart,1,1
 mechdef_crab_CRB-27b,MechPart,1,1
 mechdef_crab_CRB-27sl,MechPart,1,1
 mechdef_crab_CRB-30,MechPart,1,1
+mechdef_trebuchet_TBT-7M,MechPart,1,1
 mechdef_uziel_UZL-3P,MechPart,1,1
 mechdef_uziel_UZL-6P,MechPart,1,1
 mechdef_hellspawn_HSN-9F,MechPart,1,1
-mechdef_hellspawn_HSN-9F,MechPart,1,1
 mechdef_hellspawn_HSN-10g,MechPart,1,1
+mechdef_phoenixhawk_PXH-C,MechPart,1,1
 mechdef_cicada_CDA-3F,MechPart,1,1
 mechdef_cicada_CDA-3M,MechPart,1,1
 mechdef_cicada_CDA-3M,MechPart,1,1
@@ -329,3 +335,9 @@ mechdef_stalker_STK-5S,MechPart,1,1
 mechdef_stalker_STK-3FJAM,MechPart,1,1
 mechdef_hatamoto-chii_HTM-27T2,MechPart,1,1
 mechdef_hatamoto-hi_HTM-27U,MechPart,1,1
+mechdef_urbanmechk-9_UM-K9,MechPart,1,1
+mechdef_urbanmech_UM-R68,MechPart,1,1
+mechdef_urbanmech_UM-R100,MechPart,1,1
+mechdef_gladiator_GLD-4R,MechPart,1,1
+mechdef_gladiator_GLD-3R,MechPart,1,1
+mechdef_gladiator_GLD-5R,MechPart,1,1

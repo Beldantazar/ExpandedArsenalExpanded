@@ -63,6 +63,8 @@ namespace MechTemplateGen
         public int? mechEngine;
         [JsonProperty("xlEngine")]
         public bool? xlEngine;
+        [JsonProperty("lEngine")]
+        public bool? lEngine;
         [JsonProperty("chassisType")]
         public string? chassisType;
         [JsonProperty("hardpoints")]
@@ -93,6 +95,10 @@ namespace MechTemplateGen
         public string? details;
         [JsonProperty("yangsThoughts")]
         public string? yangsThoughts;
+        [JsonProperty("mechTagsAdd")]
+        public string[] mechTagsAdd;
+        [JsonProperty("mechTagsRemove")]
+        public string[] mechTagsRemove;
         [JsonProperty("itemColAssignment")]
         public ItemColAssignment? itemColAssignment;
     }

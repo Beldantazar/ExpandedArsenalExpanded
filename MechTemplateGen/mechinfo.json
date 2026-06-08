@@ -925,7 +925,9 @@
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
-        }
+        },
+        "details": "The Kintaro is designed primarily around its missile beacon and its weapons loadout reflects this. For long range sparring, and to provide some form of striking capability as it closes, the Kintaro carries a single Holly-5 LRM-5 launcher. When the Kintaro moves into range to actually hit the enemy with the Narc beacon, it has two HoverTec-6 SRM-6 launchers and two Magna medium lasers that come into play, making it a competent and deadly close combat 'Mech.",
+        "yangsThoughts": "Not as much direct firepower as the more common 18, but that NARC lets both this mech and others hit the target much harder with missiles once they're tagged. Watch out though, missiles tend to ruin your salvage chances since they blow up everything evenly."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
@@ -952,7 +954,9 @@
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
-        }
+        },
+        "details": "The KTO-19b was an upgrade utilized by the Royal Brigades of the SLDF. It used an XL engine and double heat sinks to free up space to upgrade the KTO-19's LRM-5 launcher to a larger LRM-15 with two tons of CASE-protected ammunition. CASE was also added to the SRM ammo bins, with the leftover half ton devoted to more armor.",
+        "yangsThoughts": "I bet Lady Kamea would have loved to get her hands on one of these, all that freed tonage lets you really stack up on the missiles and it's still got that NARC to power them up. Do try to bring some other missiles along on the rest of the lance to really pilo on the damage though."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
@@ -1083,6 +1087,7 @@
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "",
+        "prefabName": "centurion",
         "Heatsinks": 30,
         "mechTonnage": 50,
         "mechEngine": 300,
@@ -1118,6 +1123,7 @@
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "2",
+        "prefabName": "centurion",
         "Heatsinks": 30,
         "mechTonnage": 50,
         "mechEngine": 300,
@@ -1379,6 +1385,12 @@
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "2",
         "Heatsinks": 30,
+        "hardpoints": {
+            "Energy": [ 0, 1, 2, 2, 2, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
@@ -1404,6 +1416,12 @@
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "3",
         "Heatsinks": 30,
+        "hardpoints": {
+            "Energy": [ 1, 1, 1, 2, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
+            "Missile": [ 0, 1, 2, 0, 2, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
@@ -1441,29 +1459,6 @@
         },
         "details": "This variant debuted in 3075 during the Jihad and carries a pair of experimental Clan-made RAC/5s, each with two tons of ammo, an ECM suite, and additional armor in place of the standard UAC/20s.",
         "yangsThoughts": "The change to RACs reduces the damage a bit, but the improvement in armor helps it stay alive long enough to deliver the damage much more effectively."
-    },
-    {
-        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_trebuchet_TBT-5N.json",
-        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_trebuchet_TBT-5N.json",
-        "newMechName": "Trebuchet",
-        "newMechDesignation": "TBT",
-        "newMechModelNumber": "5N",
-        "newMechVariant": false,
-        "newEliteForcesVariant": true,
-        "newEliteArsenalVariants": true,
-        "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
-        "Heatsinks": 30,
-        "itemColAssignment": {
-            "mech": {
-                "itemCol": [ "itemCollection_Mech_IS" ],
-                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
-            },
-            "mechPart": {
-                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
-                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
-            }
-        }
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_iceferret_IFR-A.json",
@@ -1728,7 +1723,7 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_clint_CLNT-2-3T.json",
         "newMechName": "Clint",
         "newMechDesignation": "CLNT",
-        "newMechModelNumber": "2-3T",
+        "newMechModelNumber": "2-3U",
         "newMechVariant": true,
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
@@ -1750,7 +1745,9 @@
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
-        }
+        },
+        "details": "The Clint was primarily designed as a cheap recon unit, with the capabilities of a well-armed, low-end medium weight 'Mech, and in this regard it served well. With a top speed of 97.2 km/h and a jumping capability of one hundred and eighty meters, the Clint can easily keep up with other recon elements. The 2-3U is a Capellan field upgrade of the Clint that strips all of the armaments from the chassis and replaces them with more potent and enduring weaponry, the most radical of which is the primary weapon. The AC/5 has been replaced with a Magna Firestar ER PPC while both the medium lasers were replaced with Magna 400P medium pulse lasers; as a result, it runs much hotter than the original. The 3U also packs double heat sinks in place of single models and is more deadly in combat. The 3Us were later deployed by the Armed Forces of the Federated Commonwealth in the mid-3050s up until the breakup of the Federated Commonwealth; they have since been adopted by the Lyran Alliance and several mercenary outfits.",
+        "yangsThoughts": "A nice sniper mech and it can still keep itself decently cool with the double heat sinks, overall a good versatile medium."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_icarusii_ICR-1S.json",
@@ -1801,7 +1798,9 @@
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
-        }
+        },
+        "details": "TThe Icarus II was the first homegrown BattleMech design to be mass-produced by the Free Worlds League. Originally designed as a speedy striker to compliment the Mackie, the Icarus II was fast enough for its day though it is pitfully slow by modern standards. The 2S is an upgraded design produced in very limited quantities by Gilmour Militech. The small manufacturing concern resurrected the design in 3073. It is built on an endo steel chassis and uses an XL engine to reach a top speed of 86 km/h, and an extra jump jet allows it to reach 150 meters per leap. The AC/10 is upgraded to an LB 10-X autocannon, and the two medium lasers have been upgraded to a medium pulse laser. An extra single heat sink keeps heat in check and extra armor keeps the fragile engine safe.[2] Gilmour Militech produces a mere three of these 'Mechs per year. ",
+        "yangsThoughts": "A pretty nice upgrade with more tonnage free for guns, not a lot of hardpoints though."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_strider_SR1-0.json",
@@ -2193,7 +2192,9 @@
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
             }
-        }
+        },
+        "details": "Also armed for short-range combat, the B configuration has an Artemis IV FCS–enhanced SRM-6 launcher as its primary weapon, backed up by four small lasers.",
+        "yangsThoughts": "Very short ranged, not particularly powerful, but very fast. Could really use some better firepower for its weight."
     },
     {
         "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_jenner_JR7-D.json",
@@ -2235,6 +2236,7 @@
         "mechEngine": 245,
         "xlEngine": true,
         "chassisType": "Standard",
+        "prefabName": "jenner",
         "hardpoints": {
             "Energy": [ 0, 1, 2, 1, 2, 1, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
@@ -2805,7 +2807,9 @@
             [],
             [],
             []
-        ]
+        ],
+        "details": "This Clan Jade Falcon version carries CASE with an ER medium laser in the center torso section and two Streak SRM-2s in each arm. SRM munitions are stored in the arms with a cross-feed mechanism.",
+        "yangsThoughts": "Decent close in firepower, though nowhere near the firpower of the regular variant, the extra range from the streaks though lets it actually apply its damage without getting as close."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_flea_FLE-4.json",
@@ -12438,7 +12442,7 @@
         "prefabName": "jackrabbit",
         "prefabId": "chrprfmech_jackrabbitbase-001",
         "hardpointData": "hardpointdatadef_jackrabbit",
-        "icon": "uixTxrIcon_hollander",
+        "icon": "uixTxrIcon_wasp",
         "newMechVariant": true,
         "newEliteForcesVariant": true,
         "newEliteArsenalVariants": true,
@@ -12450,6 +12454,16 @@
         "xlEngine": false,
         "chassisType": "EndoSteel",
         "stockRole": "Light High-Speed Sniper",
+        "fixedEquipment": [
+            [],
+            [],
+            [ "Gear_General_Targeting_Baffle" ],
+            [],
+            [ "Gear_General_Targeting_Baffle" ],
+            [],
+            [],
+            []
+        ],
         "hardpoints": {
             "Energy": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
@@ -12480,7 +12494,7 @@
         "hardpointData": "hardpointdatadef_jackrabbit",
         "icon": "uixTxrIcon_wasp",
         "newMechVariant": true,
-        "newEliteForcesVariant": false,
+        "newEliteForcesVariant": true,
         "newEliteArsenalVariants": false,
         "includeModelNumberInEAVariant": true,
         "eliteArsenalVariantNumber": "",
@@ -12490,6 +12504,16 @@
         "xlEngine": false,
         "chassisType": "EndoSteel",
         "stockRole": "Light High-Speed Sniper",
+        "fixedEquipment": [
+            [],
+            [],
+            [ "Gear_General_Targeting_Baffle" ],
+            [],
+            [ "Gear_General_Targeting_Baffle" ],
+            [],
+            [],
+            []
+        ],
         "hardpoints": {
             "Energy": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
@@ -12508,6 +12532,56 @@
         },
         "details": "Developed in response to a Star League Defense Force request for a long-range infantry support BattleMech, the first Jackrabbit prototype was completed by 2763, but was only approved for combat testing a mere two weeks before the Amaris Coup. Stefan Amaris took advantage of this windfall and ordered the Jackrabbit mass produced for his troops. Due to fundamental flaws in the design being revealed in the hard fighting of Amaris Civil War and the taint of being used against the SLDF, no Jackrabbits were taken on Operation Exodus. The surviving examples of the 500 Jackrabbits produced and the Skobel factory were carefully mothballed by ComStar. Nicknamed 'the Joker' by SLDF troops, JKR-9R was developed by the Rim Worlds Republic in 2768; technicians attempted to boost the flawed Jackrabbits effectiveness by replacing the autocannon with a large laser, an extra single heat sink, and a ton of armor. Half the surviving examples are of this type.",
         "yangsThoughts": "I guess a large laser kind of helps the poor performance of the AC/2, but I think cramming a PPC onto the thing would work better, really."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_locust_LCT-IIC.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_locust_LCT-IIC.json",
+        "newMechName": "Jackrabbit II",
+        "newMechDesignation": "JKR",
+        "newMechModelNumber": "A",
+        "prefabName": "jackrabbit",
+        "prefabId": "chrprfmech_jackrabbitbase-001",
+        "hardpointData": "hardpointdatadef_jackrabbit",
+        "icon": "uixTxrIcon_wasp",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 25,
+        "mechEngine": 175,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "stockRole": "High-Speed Scout and Striker",
+        "fixedEquipment": [
+            [],
+            [],
+            [ "Gear_General_Targeting_Baffle" ],
+            [],
+            [ "Gear_General_Targeting_Baffle" ],
+            [],
+            [],
+            []
+        ],
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 0, 2, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "The Jackrabbit II (also known as the Nexus) was developed by Comstar after the devastation of the fighting on Tukayyid. Since Comstar had controlled the old Jackrabbit factory since the time of the Amaris civil war, they reactivated it and reworked the Jackrabbit into being a fast striker in 3054. As a recon 'Mech intended to rarely engage an enemy in a pitched battle, the Nexus is armed with a Blankenburg Technologies medium laser backed up by two highly-accurate Blankenburg Technologies medium pulse lasers. As a weapon of last resort, the Nexus has two Intek small lasers. For added protection against missile attacks, the Nexus had an McArthur anti-missile system.",
+        "yangsThoughts": "A lot more firepower than the older model with those lasers, but it's extremely fragile with that amount of armor, so you've really gotta watch out for anything even looking at it funny."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_avatar_AV1-0.json",
@@ -13246,8 +13320,8 @@
         "stockRole": "Medium Fire Support and Brawler",
         "hardpoints": {
             "Energy": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
-            "Ballistic": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
-            "Missile": [ 0, 2, 0, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 3, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
         },
         "itemColAssignment": {
@@ -13277,7 +13351,7 @@
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "Heatsinks": 30,
         "mechTonnage": 55,
         "mechEngine": 220,
@@ -13302,6 +13376,166 @@
         },
         "details": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. Intended for infantry support, the Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. Developed after the Battle of Luthien, the Hoplite C is a variant exclusively used by Wolf's Dragoons that uses all Clan technology. Clad in 10 tons of ferro-fibrous and fitted with double heat sinks, the 'Mech carries a UAC/10 as its primary weapon, supported by an LRM-15 launcher for long-range engagements, and two medium pulse lasers and an ER medium laser for close range combat.",
         "yangsThoughts": "One of the many examples of just how much better clan weaponry is, the half weight LRMs and lighter ultra autocannon give it room for some pulse lasers and a medium laser"
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Hoplite",
+        "newMechDesignation": "HOP",
+        "newMechModelNumber": "4B",
+        "prefabName": "hoplite",
+        "prefabId": "chrprfmech_hoplitebase-001",
+        "hardpointData": "hardpointdatadef_hoplite",
+        "icon": "uixTxrIcon_urbanmechiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 0,
+        "mechTonnage": 55,
+        "mechEngine": 220,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "stockRole": "Medium Fire Support and Brawler",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 0, 4, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. Intended for infantry support, the Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. The 4B variant of the Hoplite is an early variant of the 'Mech that attempts to both alleviate the ammunition dependence of its primary weapon and increase its long-range damage potential. This is done by mounting a Magna Hellstar PPC as the primary weapon that is backed up by a massive Mitchell Systems LRM-15 launcher with two tons of reloads, giving it excellent long-range and indirect fire support capabilities. Largely extinct by the end of the Succession Wars, a single example remained on the field by the Fourth Succession War, fielded by Wolf's Dragoons.",
+        "yangsThoughts": "Basically just replacing the autocannon with a PPC and a bigger missile launcher, I think they should have used a smaller missile launcher to get some more heat sinks on here."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Hoplite",
+        "newMechDesignation": "HOP",
+        "newMechModelNumber": "4Bb",
+        "prefabName": "hoplite",
+        "prefabId": "chrprfmech_hoplitebase-001",
+        "hardpointData": "hardpointdatadef_hoplite",
+        "icon": "uixTxrIcon_urbanmechiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 55,
+        "mechEngine": 220,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "stockRole": "Medium Fire Support and Brawler",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 0, 4, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. Intended for infantry support, the Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. Essentially a 'Royal' variant in everything but name, the 'Double B' Hoplite was put into production at Strana Mechty MechWorks and Eden Weaponry Consolidated just before the death of Aleksandr Kerensky and found its way both into the forces of the Pentagon Powers and the infant toumans of the Clans. The 'Double B' upgrades the LRM-15 to a Holly manufactured version, enhanced with an Artemis IV system, swaps the PPC for an Kinslaughter H-Class ER PPC, and increases the 'Mech's survivability with a Guardian ECM suite, CASE in both torsos, double heat sinks, and an anti-missile system. However, the design's speed and armor were not upgraded, enforcing the need to deploy the 4Bb as a fire-support unit.",
+        "yangsThoughts": "The double heat sinks mean this thing can easily stay cool even when firing both weapons, so it's a very nice upgrade, I just wish they had sprung for a bigger engine."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Hoplite",
+        "newMechDesignation": "HOP",
+        "newMechModelNumber": "4C",
+        "prefabName": "hoplite",
+        "prefabId": "chrprfmech_hoplitebase-001",
+        "hardpointData": "hardpointdatadef_hoplite",
+        "icon": "uixTxrIcon_urbanmechiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 0,
+        "mechTonnage": 55,
+        "mechEngine": 220,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "stockRole": "Medium Fire Support and Brawler",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 3, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. Intended for infantry support, the Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. Effectively identical to the original Hoplite, the 4C carries a Luxor HV AC/10 as its primary weapon, which allows it to put a good amount of damage on a target, while generating a low amount of heat, and is backed up by a Conan/5 LRM-5 launcher. Arriving with Wolf's Dragoons, these were the first Hoplites seen in the Inner Sphere since their extinction during the Succession Wars.",
+        "yangsThoughts": "I remember when these things first arrived with the Dragoons, everyone was wondering where the hell they came from with this thing. It's not the best firepower overall, but it's pretty cheap as a mech to throw it on."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Hoplite",
+        "newMechDesignation": "HOP",
+        "newMechModelNumber": "4Cb",
+        "prefabName": "hoplite",
+        "prefabId": "chrprfmech_hoplitebase-001",
+        "hardpointData": "hardpointdatadef_hoplite",
+        "icon": "uixTxrIcon_urbanmechiic",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 0,
+        "mechTonnage": 55,
+        "mechEngine": 220,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "stockRole": "Medium Fire Support and Brawler",
+        "hardpoints": {
+            "Energy": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 3, 0, 0 ],
+            "Missile": [ 0, 3, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 0, 0, 0, 1, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "Conceived by Martinson Armaments of Terra in 2578 as an infantry support 'Mech, the Hoplite first saw service with the newly formed Star League Defense Force during the Reunification War before being relegated to Terran Hegemony militia units in the twenty-seventh century. While every Hoplite in the Inner Sphere was destroyed during the Amaris Crisis and the early Succession Wars, Aleksandr Kerensky's SLDF exiles found the simple and rugged design ideal for bolstering their forces in the months prior to the Exodus Civil War. Selected by Wolf's Dragoons in the belief that the ancient design wouldn't arouse undue attention, it had the complete opposite effect, and only raised more questions as to the Dragoons' origins when they arrived in 3005. After the mercenaries cut ties with the Clan Homeworlds in 3020, they also lost access to replacement Hoplites, with attrition bringing the design close to extinction by the Jihad. Intended for infantry support, the Hoplite is slow for a medium 'Mech, with a top speed of only 64.8 km/h. However its 11.5 tons of armor and heavy arsenal, both impressive for a 'Mech of its size, makes the Hoplite a rugged machine able to fight its way out of most situations using superior firepower. A Hell's Horses field refit from Operation KLONDIKE, the 4Cb removes the weapons, electronics suite, and a heat sink in favor of a Gauss rifle, SRM-6, and ferro-fibrous armor.",
+        "yangsThoughts": "A redesign that focuses more on sniping than close range fighting, but it's still capable of some decent short range punch with those missiles."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_kitfox_PRIME.json",
@@ -19310,10 +19544,16 @@
         "newMechModelNumber": "PRIME",
         "newMechVariant": true,
         "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": false,
+        "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "3",
         "Heatsinks": 30,
+        "hardpoints": {
+            "Energy": [ 0, 0, 3, 0, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "Missile": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 1, 1, 0, 1, 1, 0, 0 ]
+        },
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
@@ -19337,10 +19577,10 @@
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "2",
         "Heatsinks": 30,
         "hardpoints": {
-            "Energy": [ 0, 3, 0, 0, 0, 3, 0, 0 ],
+            "Energy": [ 1, 3, 0, 0, 0, 3, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "AntiPersonnel": [ 0, 0, 6, 0, 6, 0, 0, 0 ]
@@ -19355,7 +19595,7 @@
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         },
-        "details": "Devoid of the more experimental technology utilized by the Cephalus and Osteon to allow it to be built in higher volumes, the Septicemia saves weight with a 275 Type II XL extralight engine, 55T Battle Epsilon-5 Profile endo steel chassis, and nine tons of Compound SJ8CW ferro-fibrous armor. While the location of its weaponry in its torsos hampers its ability to carry battle armor, this was intentional to ensure hand actuators were retained for maximization of physical combat abilities. Based on configuration C, this Septicemia is also intended for battle against conventional forces. Three plasma cannons, six AP Gauss rifles, and six machine guns in two machine gun arrays provide devastating firepower against conventional infantry and vehicles. Two medium pulse lasers in each arm deal with more heavily armored foes, while still remaining effective against infantry. Finally, the Society's engineers equipped this model with a Nova CEWS.",
+        "details": "Devoid of the more experimental technology utilized by the Cephalus and Osteon to allow it to be built in higher volumes, the Septicemia saves weight with a 275 Type II XL extralight engine, 55T Battle Epsilon-5 Profile endo steel chassis, and nine tons of Compound SJ8CW ferro-fibrous armor. While the location of its weaponry in its torsos hampers its ability to carry battle armor, this was intentional to ensure hand actuators were retained for maximization of physical combat abilities. Based on configuration C, this Septicemia is also intended for battle against conventional forces. Two plasma cannons, six AP Gauss rifles, and eight machine guns in two machine gun arrays provide devastating firepower against conventional infantry and vehicles. Two medium pulse lasers in each arm deal with more heavily armored foes, while still remaining effective against infantry. Finally, the Society's engineers equipped this model with a Nova CEWS.",
         "yangsThoughts": "A very interesting loadout with those big MG arrays and AP gausses, just watch out for getting outranged by enemies."
     },
     {
@@ -19563,6 +19803,29 @@
         }
     },
     {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_trebuchet_TBT-5N.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_trebuchet_TBT-5N.json",
+        "newMechName": "Trebuchet",
+        "newMechDesignation": "TBT",
+        "newMechModelNumber": "5N",
+        "newMechVariant": false,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        }
+    },
+    {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_trebuchet_TBT-7K.json",
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_trebuchet_TBT-7K.json",
         "newMechName": "Trebuchet",
@@ -19584,6 +19847,41 @@
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_trebuchet_TBT-7K.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_trebuchet_TBT-7K.json",
+        "newMechName": "Trebuchet",
+        "newMechDesignation": "TBT",
+        "newMechModelNumber": "7M",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 2, 1, 0, 1, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "Heatsinks": 30,
+        "mechTonnage": 50,
+        "mechEngine": 250,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "Upgraded with Star League technology, the 7M variant is built with on an Endo Steel chassis and uses a 250 Magna XL engine, giving it the same performance but allowing the design to mount ten double heat sinks and five Rawlings 50 jump jets for a jumping distance of one hundred and fifty meters. It also allows for the Trebuchet's LRM-15s' ammo to be protected by CASE and for a Octagon Missile Magnet Narc Missile Beacon with two tons of ammo, improving not only the Trebuchet's accuracy but allowing it to share targeting information with other similarly equipped 'Mechs.",
+        "yangsThoughts": "Basically everything about this version is an upgrade from the standard, jumpjets, more free tonnage, double heat sinks, the works. It even comes with a NARC beacon to allow all of our units to do extra missile damage as well."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_uziel_UZL-3S.json",
@@ -19715,31 +20013,6 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_hellspawn_HSN-7D.json",
         "newMechName": "Hellspawn",
         "newMechDesignation": "HSN",
-        "newMechModelNumber": "9F",
-        "newMechVariant": true,
-        "newEliteForcesVariant": false,
-        "newEliteArsenalVariants": true,
-        "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "3",
-        "Heatsinks": 30,
-        "itemColAssignment": {
-            "mech": {
-                "itemCol": [ "itemCollection_Mech_IS" ],
-                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
-            },
-            "mechPart": {
-                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
-                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
-            }
-        },
-        "details": "This variant, introduced in 3076, is equipped with a pair of MML-7s and medium pulse lasers, supplemented with a light PPC. This variant loses a jump jet, restricting its jump range to 150 meters.",
-        "yangsThoughts": "Much more versatile than the 9F, but it loses a lot in terms of raw firepower. You might wanna consider replacing the ppc for another pulse laser to raise the armor and jump ability a bit."
-    },
-    {
-        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_hellspawn_HSN-7D.json",
-        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_hellspawn_HSN-7D.json",
-        "newMechName": "Hellspawn",
-        "newMechDesignation": "HSN",
         "newMechModelNumber": "10g",
         "newMechVariant": true,
         "newEliteForcesVariant": false,
@@ -19782,6 +20055,41 @@
                 "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
             }
         }
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_phoenixhawk_PXH-1b.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_phoenixhawk_PXH-1b.json",
+        "newMechName": "Phoenix Hawk",
+        "newMechDesignation": "PXH",
+        "newMechModelNumber": "C",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 45,
+        "mechEngine": 270,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 1, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 1, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 1, 0, 2, 0, 1, 0, 0 ]
+        },
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "details": "Developed by the Clans during the Golden Century, this rebuilt version of the Phoenix Hawk uses an endo steel chassis and XL engine. Nine tons of armor and CASE protect the 'Mech. Each arm carries a medium pulse laser while each side torso carries a UAC/2 with one ton of ammunition for each autocannon. The left torso carries a half ton of machine gun ammunition to feed the machine guns mounted in the head and center torso.",
+        "yangsThoughts": "A powerful upgrade, like all Clan variants tend to be, it has much more free tonnage and a lot of useable hardpoints for weaponry, and it still retains the vectored thrust kits."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_shadowcat_A.json",
@@ -20349,6 +20657,31 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_piranha_PIR-1.json",
         "newMechName": "Piranha",
         "newMechDesignation": "PIR",
+        "newMechModelNumber": "3",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "This version is more properly adapted to a scouting role by the addition of an active probe, and also uses double heat sinks to allow for an all-energy configuration. Eight ER micro lasers and two micro pulse lasers replace the machine guns, and are all tied into a targeting computer that improves the accuracy of all the weapons.",
+        "yangsThoughts": "Pretty similar to the standard layout in terms of firepower, but no chance of ammo explosions and no running out of ammo."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_piranha_PIR-1.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_piranha_PIR-1.json",
+        "newMechName": "Piranha",
+        "newMechDesignation": "PIR",
         "newMechModelNumber": "1",
         "newMechVariant": false,
         "newEliteForcesVariant": false,
@@ -20575,5 +20908,342 @@
         },
         "details": "The 27U, also known as the Hatamoto-Hi, was almost identical to the 27T. The differences in this 3047 design were the removal of the two SRM-6 launchers and the addition of four medium pulse lasers and another heat sink to help with the additional heat burden. ",
         "yangsThoughts": "Significantly more overall firepower with those pulse lasers, though it does run way hotter so keep an eye on the heat guage."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_vp\\chassisdef_urbanmech_UM-K9.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_vp\\mechdef_urbanmech_UM-K9.json",
+        "newMechName": "Urbanmech K-9",
+        "newMechDesignation": "UM",
+        "newMechModelNumber": "K9",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 30,
+        "mechEngine": 60,
+        "xlEngine": false,
+        "chassisType": "EndoSteel",
+        "mechTagsAdd": [
+            "unit_mech",
+            "unit_urbie",
+            "unit_light",
+            "unit_jumpOK",
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
+            "unit_lance_tank",
+            "unit_role_sniper",
+            "unit_release",
+            "unit_very_rare",
+            "unit_ext_rare_Davion",
+            "unit_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_ext_rare_Steiner",
+            "unit_ext_rare_Kurita",
+            "unit_ext_rare_MagistracyOfCanopus",
+            "unit_ext_rare_TaurianConcordat",
+            "unit_ext_rare_AuriganDirectorate",
+            "unit_ext_rare_AuriganRestoration",
+            "unit_ext_rare_ComStar",
+            "unit_ext_rare_MercenaryReviewBoard",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_AuriganPirates",
+            "unit_ext_rare_Locals",
+            "unit_ext_rare_Betrayers",
+            "unit_ext_rare_MajestyMetals",
+            "unit_rare_SianTriumphant",
+            "unit_ext_rare_BlackCalderaDefense",
+            "unit_ext_rare_BlackCalderaDefense_Hidden",
+            "unit_ext_rare_SecuritySolutionsInc",
+            "unit_ext_rare_PaladinProtectionLLC",
+            "unit_ext_rare_HouseNakano",
+            "unit_ext_rare_HouseKhulan",
+            "unit_ext_rare_HostileMercenaries",
+            "unit_ext_rare_NoFaction"
+        ],
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 2, 0, 0, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 4, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 2, 0, 0, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "A planetary forces variant of the UrbanMech fitted for handling police actions on worlds with heavy pirate and bandit presence. Complete with a light bar, the K-9 is refitted for somewhat longer range combat. The standard variant's AC/10 is swapped for a UAC/5 and the left arm small laser is updated to a large laser, with two small lasers mounted in the center torso. While its ground speed remains unchanged, the K-9's heavier weapons loadout is made possible through the use of an endo steel chassis and mounting 10 double heat sinks.",
+        "yangsThoughts": "Still painfully slow, still very fragile, but at least it has some extra firepower to bring to bear and better combat endurance with that laser."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_vp\\chassisdef_urbanmech_UM-R68.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_vp\\mechdef_urbanmech_UM-R68.json",
+        "newMechName": "Urbanmech",
+        "newMechDesignation": "UM",
+        "newMechModelNumber": "R68",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 30,
+        "mechEngine": 60,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "mechTagsAdd": [
+            "unit_mech",
+            "unit_urbie",
+            "unit_light",
+            "unit_jumpOK",
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
+            "unit_lance_tank",
+            "unit_role_sniper",
+            "unit_release",
+            "unit_very_rare",
+            "unit_ext_rare_Davion",
+            "unit_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_ext_rare_Steiner",
+            "unit_ext_rare_Kurita",
+            "unit_ext_rare_MagistracyOfCanopus",
+            "unit_ext_rare_TaurianConcordat",
+            "unit_ext_rare_AuriganDirectorate",
+            "unit_ext_rare_AuriganRestoration",
+            "unit_ext_rare_ComStar",
+            "unit_ext_rare_MercenaryReviewBoard",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_AuriganPirates",
+            "unit_ext_rare_Locals",
+            "unit_ext_rare_Betrayers",
+            "unit_ext_rare_MajestyMetals",
+            "unit_rare_SianTriumphant",
+            "unit_ext_rare_BlackCalderaDefense",
+            "unit_ext_rare_BlackCalderaDefense_Hidden",
+            "unit_ext_rare_SecuritySolutionsInc",
+            "unit_ext_rare_PaladinProtectionLLC",
+            "unit_ext_rare_HouseNakano",
+            "unit_ext_rare_HouseKhulan",
+            "unit_ext_rare_HostileMercenaries",
+            "unit_ext_rare_NoFaction"
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        },
+        "yangsThoughts": "A lot of missiles for a mech this small, it can hit really hard for its size, and is about the same at ammo supply as the base model."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_vp\\chassisdef_urbanmech_UM-R68.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_vp\\mechdef_urbanmech_UM-R68.json",
+        "newMechName": "Urbanmech",
+        "newMechDesignation": "UM",
+        "newMechModelNumber": "R100",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "Heatsinks": 30,
+        "mechTonnage": 30,
+        "mechEngine": 120,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "prefabId": "chrPrfMech_urbanmechBase-001",
+        "hardpointData": "hardpointdatadef_urbanmech",
+        "prefabName": "urbanmech",
+        "mechTagsAdd": [
+            "unit_mech",
+            "unit_urbie",
+            "unit_light",
+            "unit_jumpOK",
+            "unit_range_long",
+            "unit_speed_low",
+            "unit_armor_high",
+            "unit_lance_tank",
+            "unit_role_sniper",
+            "unit_release",
+            "unit_very_rare",
+            "unit_ext_rare_Davion",
+            "unit_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_ext_rare_Steiner",
+            "unit_ext_rare_Kurita",
+            "unit_ext_rare_MagistracyOfCanopus",
+            "unit_ext_rare_TaurianConcordat",
+            "unit_ext_rare_AuriganDirectorate",
+            "unit_ext_rare_AuriganRestoration",
+            "unit_ext_rare_ComStar",
+            "unit_ext_rare_MercenaryReviewBoard",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_AuriganPirates",
+            "unit_ext_rare_Locals",
+            "unit_ext_rare_Betrayers",
+            "unit_ext_rare_MajestyMetals",
+            "unit_rare_SianTriumphant",
+            "unit_ext_rare_BlackCalderaDefense",
+            "unit_ext_rare_BlackCalderaDefense_Hidden",
+            "unit_ext_rare_SecuritySolutionsInc",
+            "unit_ext_rare_PaladinProtectionLLC",
+            "unit_ext_rare_HouseNakano",
+            "unit_ext_rare_HouseKhulan",
+            "unit_ext_rare_HostileMercenaries",
+            "unit_ext_rare_NoFaction"
+        ],
+        "hardpoints": {
+            "Energy": [ 0, 0, 2, 0, 2, 3, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 0, 2, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "A variant proposed during the Clan Invasion but ultimately never put into production because of high cost and the Clan Invasion, this SuburbanMech would have used a 120-rated engine to reach a running speed of 64 km/h and power four jump jets. 10 double heat sinks were to be installed, and the PPC would be swapped for an extended-range model but the rest of the weaponry matched the UM-R90 variant. Six and a half tons of armor would be carried.",
+        "yangsThoughts": "I thought they never built any of these, but apparently I was wrong, because here it is in the bay. It's the same as the regular R90 in concept, but with more hardpoints and actually able to move at a vaguely reasonable speed."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Gladiator",
+        "newMechDesignation": "GLD",
+        "newMechModelNumber": "4R",
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 0,
+        "mechTonnage": 55,
+        "mechEngine": 275,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "prefabId": "chrprfmech_gladiatorbase-001",
+        "hardpointData": "hardpointdatadef_gladiator",
+        "prefabName": "gladiator",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 1, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 0, 2, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "stockRole": "Classic Medium Brawler",
+        "details": "The first homegrown BattleMech produced by the Draconis Combine was the Gladiator. The 55-ton 'Mech took seven years to design, as Coordinator Kozo Von Rohrs refused to open up the process to anybody but a select group at New Samarkand Armor Works, the predecessor of Luthien Armor Works, who were under constant surveillance by DEST. 2468 finally saw the GLD-1R Gladiator hit mass-production. Following the Battle of Nox in 2475, the dishonored 'Mech was retired from official production, with NSAW closing down the production lines by 2488. Merryweather Industries was the first private company to attempt BattleMech production without governmental support. Despite their location in the Terran Hegemony, they acquired the plans to the Gladiator and produced a new run in 2490. They were unable to raise the capital to finish their second run, the 4R, and nearly went bankrupt before changing over to IndustrialMechs. The GLD-4R production lines were closed down in 2495. During the Jihad, StarCorps Industries produced a small yearly run of a new variant, the 5R, which over decades became the foundation of a line of Gladiator variants produced by the Son Hoa branch. The 55-ton Gladiator is built on an MW240 chassis, carrying a Core Tek 275 fusion engine that gives it a top speed of 86 km/h, comparable to many other 'Mechs of the same weight. Nine and a half tons of standard armor provides a respectable amount of protection, while five jump jets gives it greater agility and enables the 'Mech to jump up to 150 meters at a time. A Lord's Light P1 PPC provides long range firepower. Two Argra 1L medium lasers are just as powerful up close and a Thunderstroke SRM-6 exploits any holes in an enemy's armor.",
+        "yangsThoughts": "A classic old medium mech, still viable today though not particularly good or notable by itself. I'm surprised this survived the five centuries since they were last made though."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Gladiator",
+        "newMechDesignation": "GLD",
+        "newMechModelNumber": "3R",
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "Heatsinks": 0,
+        "mechTonnage": 55,
+        "mechEngine": 275,
+        "xlEngine": false,
+        "chassisType": "Standard",
+        "prefabId": "chrprfmech_gladiatorbase-001",
+        "hardpointData": "hardpointdatadef_gladiator",
+        "prefabName": "gladiator",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 0, 2, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "stockRole": "Classic Medium Brawler Testbed",
+        "details": "The first homegrown BattleMech produced by the Draconis Combine was the Gladiator. The 55-ton 'Mech took seven years to design, as Coordinator Kozo Von Rohrs refused to open up the process to anybody but a select group at New Samarkand Armor Works, the predecessor of Luthien Armor Works, who were under constant surveillance by DEST. 2468 finally saw the GLD-1R Gladiator hit mass-production. Following the Battle of Nox in 2475, the dishonored 'Mech was retired from official production, with NSAW closing down the production lines by 2488. Merryweather Industries was the first private company to attempt BattleMech production without governmental support. Despite their location in the Terran Hegemony, they acquired the plans to the Gladiator and produced a new run in 2490. They were unable to raise the capital to finish their second run, the 4R, and nearly went bankrupt before changing over to IndustrialMechs. The GLD-4R production lines were closed down in 2495. During the Jihad, StarCorps Industries produced a small yearly run of a new variant, the 5R, which over decades became the foundation of a line of Gladiator variants produced by the Son Hoa branch. The 55-ton Gladiator is built on an MW240 chassis, carrying a Core Tek 275 fusion engine that gives it a top speed of 86 km/h, comparable to many other 'Mechs of the same weight. Nine and a half tons of standard armor provides a respectable amount of protection, while five jump jets gives it greater agility and enables the 'Mech to jump up to 150 meters at a time. The first test platform for Merryweather, the 3R uses two LRM-10s backed by twin Argra 1L medium lasers.",
+        "yangsThoughts": "I'd swear you are like a magnet for weird old mechs that noone has seen operational in centuries, Commander. Pretty much just a standard firesupport loadout, and the tech is mundane by current standards, but it's still a perfectly serviceable medium mech."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_kintaro_KTO-20.json",
+        "newMechName": "Gladiator",
+        "newMechDesignation": "GLD",
+        "newMechModelNumber": "5R",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "Heatsinks": 30,
+        "mechTonnage": 55,
+        "mechEngine": 220,
+        "xlEngine": false,
+        "lEngine": true,
+        "chassisType": "Standard",
+        "initialTonnageExtra": -2.5,
+        "prefabId": "chrprfmech_gladiatorbase-001",
+        "hardpointData": "hardpointdatadef_gladiator",
+        "prefabName": "gladiator",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 0, 0, 0, 2, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_medmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_medparts" ]
+            }
+        },
+        "stockRole": "Medium Brawler",
+        "details": "The first homegrown BattleMech produced by the Draconis Combine was the Gladiator. The 55-ton 'Mech took seven years to design, as Coordinator Kozo Von Rohrs refused to open up the process to anybody but a select group at New Samarkand Armor Works, the predecessor of Luthien Armor Works, who were under constant surveillance by DEST. 2468 finally saw the GLD-1R Gladiator hit mass-production. Following the Battle of Nox in 2475, the dishonored 'Mech was retired from official production, with NSAW closing down the production lines by 2488. Merryweather Industries was the first private company to attempt BattleMech production without governmental support. Despite their location in the Terran Hegemony, they acquired the plans to the Gladiator and produced a new run in 2490. They were unable to raise the capital to finish their second run, the 4R, and nearly went bankrupt before changing over to IndustrialMechs. The GLD-4R production lines were closed down in 2495. During the Jihad, StarCorps Industries produced a small yearly run of a new variant, the 5R, which over decades became the foundation of a line of Gladiator variants produced by the Son Hoa branch. The 5R is an upgraded variant by StarCorps Industries. It was fashioned after a customized Gladiator fielded by Major Alex Keller of the Devil's Brigade that utilized cutting-edge and experimental technology, though the production model designated 5R does not exactly copy Keller's customized 'Mech. It is armed with a snub-nose PPC, two ER medium lasers, and an MML-5 with Artemis IV FCS to improve accuracy. Altogether thirteen double heat sinks help to alleviate heat problems. This version features a Guardian ECM suite and a C3 slave unit, and has twelve tons of standard armor, which gives it maximum protection for a 'Mech of its size.",
+        "yangsThoughts": "A modern rebuild of the classic design, a pretty standard medium mech with good armor and weaponry. Nothing groundbreaking but able to hit at all ranges."
     }
 ]

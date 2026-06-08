@@ -96,6 +96,8 @@ mechdef_raptor_RTX1-OC-X2,MechPart,1,1
 mechdef_raptor_RTX1-OC-S2,MechPart,1,1
 mechdef_jackrabbit_JKR-X,MechPart,1,1
 mechdef_jackrabbit_JKR-S,MechPart,1,1
+mechdef_jackrabbitii_JKR-X2,MechPart,1,1
+mechdef_jackrabbitii_JKR-S2,MechPart,1,1
 mechdef_sling_SL-X1,MechPart,1,1
 mechdef_sling_SL-S1,MechPart,1,1
 mechdef_sling_SL-X2,MechPart,1,1
@@ -142,7 +144,13 @@ mechdef_mongoose_MON-X2,MechPart,1,1
 mechdef_mongoose_MON-S2,MechPart,1,1
 mechdef_firemoth_FM-X2,MechPart,1,1
 mechdef_firemoth_FM-S2,MechPart,1,1
+mechdef_piranha_PIR-X3,MechPart,1,1
+mechdef_piranha_PIR-S3,MechPart,1,1
 mechdef_piranha_PIR-X2,MechPart,1,1
 mechdef_piranha_PIR-S2,MechPart,1,1
 mechdef_stinger_STG-X2,MechPart,1,1
 mechdef_stinger_STG-S2,MechPart,1,1
+mechdef_urbanmechk-9_UM-X2,MechPart,1,1
+mechdef_urbanmechk-9_UM-S2,MechPart,1,1
+mechdef_urbanmech_UM-X3,MechPart,1,1
+mechdef_urbanmech_UM-S3,MechPart,1,1

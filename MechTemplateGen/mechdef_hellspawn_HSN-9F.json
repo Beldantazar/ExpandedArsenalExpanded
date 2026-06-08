@@ -20,7 +20,7 @@
     "UIName": "Hellspawn HSN-9F",
     "Id": "mechdef_hellspawn_HSN-9F",
     "Name": "Hellspawn",
-    "Details": "This variant, introduced in 3076, is equipped with a pair of MML-7s and medium pulse lasers, supplemented with a light PPC. This variant loses a jump jet, restricting its jump range to 150 meters.",
+    "Details": "Also developed in 3068, the 9F variant is designed for close combat. The 9F sacrifices both of the LRM-10 launchers, one medium pulse laser, the Guardian ECM suite, and a half-ton of armor for two MRM-20 launchers, giving the 'Mech more punch at the cost of ranged combat capabilities and defenses.",
     "Icon": "uixTxrIcon_hellspawn"
   },
   "simGameMechPartCost": 1000000,
