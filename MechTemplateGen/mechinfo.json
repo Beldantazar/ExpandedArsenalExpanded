@@ -363,6 +363,29 @@
         "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_champion_CHP-1Nb.json",
         "newMechName": "Champion",
         "newMechDesignation": "CHP",
+        "newMechModelNumber": "1Nb",
+        "newMechVariant": false,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "Heatsinks": 30,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        }
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_champion_CHP-1Nb.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_champion_CHP-1Nb.json",
+        "newMechName": "Champion",
+        "newMechDesignation": "CHP",
         "newMechModelNumber": "3N",
         "newMechVariant": true,
         "newEliteForcesVariant": true,
@@ -10792,11 +10815,11 @@
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
         "fixedEquipment": [
@@ -10852,11 +10875,11 @@
         "itemColAssignment": {
             "mech": {
                 "itemCol": [ "itemCollection_Mech_CLAN" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
         "fixedEquipment": [
@@ -16411,7 +16434,7 @@
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
         "fixedEquipment": [
@@ -16462,7 +16485,7 @@
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
         "fixedEquipment": [
@@ -16513,7 +16536,7 @@
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
         "fixedEquipment": [
@@ -16564,7 +16587,7 @@
             },
             "mechPart": {
                 "itemCol": [ "itemCollection_Mech_Parts_IS" ],
-                "itemColEA": [ "itemCollection_fp_hvyasltmechs" ]
+                "itemColEA": [ "itemCollection_fp_hvyasltparts" ]
             }
         },
         "fixedEquipment": [

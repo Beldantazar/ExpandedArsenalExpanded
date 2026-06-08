@@ -376,6 +376,14 @@ mechdef_templar_TLR1-X3,MechPart,1,1
 mechdef_templar_TLR1-S3,MechPart,1,1
 mechdef_victor_VTR-X2,MechPart,1,1
 mechdef_victor_VTR-S2,MechPart,1,1
+mechdef_cyclopsii_CPII-X1,MechPart,1,1
+mechdef_cyclopsii_CPII-S1,MechPart,1,1
+mechdef_cyclopsii_CPII-X2,MechPart,1,1
+mechdef_cyclopsii_CPII-S2,MechPart,1,1
+mechdef_cyclopsii_CPII-X3,MechPart,1,1
+mechdef_cyclopsii_CPII-S3,MechPart,1,1
+mechdef_cyclopsii_CPII-X4,MechPart,1,1
+mechdef_cyclopsii_CPII-S4,MechPart,1,1
 mechdef_annihilator_ANH-X1,MechPart,1,1
 mechdef_annihilator_ANH-S1,MechPart,1,1
 mechdef_annihilator_ANH-X2,MechPart,1,1
