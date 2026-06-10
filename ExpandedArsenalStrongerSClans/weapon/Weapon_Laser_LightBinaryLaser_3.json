@@ -35,7 +35,7 @@
         "Manufacturer": "Defiance",
         "Model": "Light Binary Laser Cannon",
         "UIName": "Light Binary Laser + + +",
-        "Id": "Weapon_Laser_LightBinaryLaser_2",
+        "Id": "Weapon_Laser_LightBinaryLaser_3",
         "Name": "Light Binary Laser + + +",
         "Details": "The Light Binary Laser (nicknamed 'Light Blazer') fuses two Medium Laser cores together, allowing them to be fired simultaneously. Originally considered a dead end due to the enormous amounts of heat generated, improvements in heatsinking technology have made Blazers like the Light Blazer viable again.",
         "Icon": "uixSvgIcon_weapon_Energy"

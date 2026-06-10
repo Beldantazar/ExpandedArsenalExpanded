@@ -18,7 +18,7 @@
   "PrefabIdentifier": "chrprfmech_toyamabase-001",
   "PrefabBase": "toyama",
   "Tonnage": 75,
-  "InitialTonnage": 19.5,
+  "InitialTonnage": 18.0,
   "weightClass": "HEAVY",
   "BattleValue": 8144000,
   "Heatsinks": 30,

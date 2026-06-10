@@ -24,6 +24,8 @@ mechdef_linebacker_LBK-X2,Mech,1,1
 mechdef_linebacker_LBK-S2,Mech,1,1
 mechdef_linebacker_LBK-X3,Mech,1,1
 mechdef_linebacker_LBK-S3,Mech,1,1
+mechdef_champion_CHP-X,Mech,1,1
+mechdef_champion_CHP-S,Mech,1,1
 mechdef_champion_CHP-X2,Mech,1,1
 mechdef_champion_CHP-S2,Mech,1,1
 mechdef_champion_CHP-X3,Mech,1,1
@@ -174,12 +176,12 @@ mechdef_grizzly_GRZ-X1,Mech,1,1
 mechdef_grizzly_GRZ-S1,Mech,1,1
 mechdef_grizzly_GRZ-X2,Mech,1,1
 mechdef_grizzly_GRZ-S2,Mech,1,1
-mechdef_shrike_SRK-X1,Mech,1,1
-mechdef_shrike_SRK-S1,Mech,1,1
 mechdef_toyama_TYM-X,Mech,1,1
 mechdef_toyama_TYM-S,Mech,1,1
-mechdef_toyama_TYM-X,Mech,1,1
-mechdef_toyama_TYM-S,Mech,1,1
+mechdef_toyama_TYM-X3,Mech,1,1
+mechdef_toyama_TYM-S3,Mech,1,1
+mechdef_toyama_TYM-X2,Mech,1,1
+mechdef_toyama_TYM-S2,Mech,1,1
 mechdef_carronade_CRN-X,Mech,1,1
 mechdef_carronade_CRN-S,Mech,1,1
 mechdef_koschei_KSC-X1,Mech,1,1

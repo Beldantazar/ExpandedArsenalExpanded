@@ -6,6 +6,9 @@
     "Author": "Kurst",
     "Website": "https://www.nexusmods.com/battletech/mods/463",
     "Contact": "",
+    "DependsOn": [
+        "Expanded Arsenal"
+    ],
     "Manifest": [
         {
             "Type": "UpgradeDef",

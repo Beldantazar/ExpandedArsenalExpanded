@@ -28,6 +28,8 @@ mechdef_linebacker_LBK-X2,MechPart,1,1
 mechdef_linebacker_LBK-S2,MechPart,1,1
 mechdef_linebacker_LBK-X3,MechPart,1,1
 mechdef_linebacker_LBK-S3,MechPart,1,1
+mechdef_champion_CHP-X,MechPart,1,1
+mechdef_champion_CHP-S,MechPart,1,1
 mechdef_champion_CHP-X2,MechPart,1,1
 mechdef_champion_CHP-S2,MechPart,1,1
 mechdef_champion_CHP-X3,MechPart,1,1
@@ -286,8 +288,10 @@ mechdef_naginata_NG-X,MechPart,1,1
 mechdef_naginata_NG-S,MechPart,1,1
 mechdef_toyama_TYM-X,MechPart,1,1
 mechdef_toyama_TYM-S,MechPart,1,1
-mechdef_toyama_TYM-X,MechPart,1,1
-mechdef_toyama_TYM-S,MechPart,1,1
+mechdef_toyama_TYM-X3,MechPart,1,1
+mechdef_toyama_TYM-S3,MechPart,1,1
+mechdef_toyama_TYM-X2,MechPart,1,1
+mechdef_toyama_TYM-S2,MechPart,1,1
 mechdef_carronade_CRN-X,MechPart,1,1
 mechdef_carronade_CRN-S,MechPart,1,1
 mechdef_koschei_KSC-X1,MechPart,1,1

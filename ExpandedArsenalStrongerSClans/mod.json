@@ -330,8 +330,28 @@
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/bowman/chrprfweap_bowman_righttorso_flamer_eh2.prefab", "AssetBundleName": "chrprfmech_bowmanbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/bowman/chrprfweap_bowman_righttorso_laser_eh3.prefab", "AssetBundleName": "chrprfmech_bowmanbase-001" },
         { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/bowman/chrprfweap_bowman_righttorso_ppc_eh3.prefab", "AssetBundleName": "chrprfmech_bowmanbase-001" },
-        { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/bowman/chrprfweap_bowman_righttorso_flamer_eh3.prefab", "AssetBundleName": "chrprfmech_bowmanbase-001" }
+        { "Type": "Prefab", "Path": "assets/character/mechs/prefabs/weapons/bowman/chrprfweap_bowman_righttorso_flamer_eh3.prefab", "AssetBundleName": "chrprfmech_bowmanbase-001" },
 
+        {
+            "Type": "SimGameMilestoneSet",
+            "Path": "milestoneSets"
+        },
+        {
+            "Type": "FlashpointDef",
+            "Path": "flashpoints"
+        },
+        {
+            "Type": "LanceDef",
+            "Path": "lance",
+            "AddToDB": true
+        },
+
+        {
+            "Type": "SimGameConversations",
+            "Path": "simGameConversations"
+        },
+
+        { "Type": "CastDef", "Path": "cast" }
     ],
     "DataAddendumEntries": [
         {

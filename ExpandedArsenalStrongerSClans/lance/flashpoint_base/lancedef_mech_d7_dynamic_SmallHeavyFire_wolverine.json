@@ -42,7 +42,7 @@
                 "items": [
                     "unit_noncombatant",
                     "unit_urbie",
-                    "Elite_Forces",
+                    "elite_forces",
                     "elite_arsenal",
                     "elite_arsenal_s_tier"
                 ],
@@ -77,7 +77,7 @@
                     "unit_light",
                     "unit_noncombatant",
                     "unit_urbie",
-                    "Elite_Forces",
+                    "elite_forces",
                     "elite_arsenal",
                     "elite_arsenal_s_tier"
                 ],
@@ -109,7 +109,7 @@
                 "items": [
                     "unit_noncombatant",
                     "unit_urbie",
-                    "Elite_Forces",
+                    "elite_forces",
                     "elite_arsenal",
                     "elite_arsenal_s_tier"
                 ],
@@ -141,7 +141,7 @@
                 "items": [
                     "unit_noncombatant",
                     "unit_urbie",
-                    "Elite_Forces",
+                    "elite_forces",
                     "elite_arsenal",
                     "elite_arsenal_s_tier"
                 ],
@@ -172,7 +172,7 @@
                     "unit_light",
                     "unit_noncombatant",
                     "unit_urbie",
-                    "Elite_Forces",
+                    "elite_forces",
                     "elite_arsenal",
                     "elite_arsenal_s_tier"
                 ],

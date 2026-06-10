@@ -6,7 +6,7 @@
     "callsign": "Lightshow",
     "rank": "",
     "gender": "NonBinary",
-    "faction": "CussCutlasses",
+    "factionID": "CussCutlasses",
     "sgCharType": "UNSET",
     "showRank": false,
     "showFirstName": true,

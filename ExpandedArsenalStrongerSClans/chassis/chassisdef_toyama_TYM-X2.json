@@ -1,0 +1,217 @@
+{
+  "Description": {
+    "Cost": 15000000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "Clan Wolf",
+    "Model": "Uber",
+    "UIName": "Toyama",
+    "Id": "chassisdef_toyama_TYM-X2",
+    "Name": "Toyama",
+    "Details": "Built due to an awkward exchange of technology between the Free Worlds League and the Word of Blake, the Toyama was designed by Dr. Thaddeus Anable and then given to the Word of Blake through an agreement made by Captain-General Thomas Marik. The Toyama is intended to be a multirole BattleMech that can operate somewhat independently of supply lines. The 'Mech is built on a lightweight Endo Steel chassis which supports a Vlar 300 XL engine. The Toyama has a top speed of 64.8 km/h, making it capable of keeping pace with most heavy 'Mechs. The Toyama has an impressive twelve tons of Durallex Heavy armor. To dissipate heat, the Toyama carries fourteen double heat sinks. The 'Mech also carries a Garret/Guardian Interface Guardian ECM Suite to protect the 'Mech from advanced enemy electronic warfare systems. This variant on the -1A downgrades the extralight engine to a light engine that is heavier, but makes the Toyama more durable. All of the weaponry of the -1A is also stripped out and replaced. The LRM was downsized to a Doombud 15-pack and the medium lasers were replaced with a pair of Diverse Optics ER medium lasers. The autocannon and large lasers were replaced with new Blankenburg PPCs that were originally developed by the Draconis Combine: two lights and a heavy. The ECM Suite was replaced with a now-ubiquitous C3i computer. The new weapons package left enough room to shore up the armor on the arms and legs. Sixteen double heat sinks keeps the -1B cooler than the -1A. <br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_toyama"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_toyama_TYM-1B",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_toyama",
+  "PrefabIdentifier": "chrprfmech_toyamabase-001",
+  "PrefabBase": "toyama",
+  "Tonnage": 75,
+  "InitialTonnage": 24.5,
+  "weightClass": "HEAVY",
+  "BattleValue": 8144000,
+  "Heatsinks": 30,
+  "TopSpeed": 76,
+  "TurnRadius": 180,
+  "MaxJumpjets": 4,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 75,
+  "MeleeInstability": 19,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 75,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 75,
+  "DFAInstability": 38,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 230,
+      "MaxRearArmor": 115,
+      "InternalStructure": 115
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": -1,
+      "InternalStructure": 80
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "TYM-X2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Striker and Skirmisher",
+  "YangsThoughts": "A pretty standard heavy mech with decent weaponry layout, this one has almost no ammo weapons other than the missiles which makes it good in long battles."
+}

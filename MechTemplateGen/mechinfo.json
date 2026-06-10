@@ -11649,13 +11649,13 @@
         "hardpointData": "hardpointdatadef_toyama",
         "icon": "uixTxrIcon_huntsman",
         "initialTonnage": null,
-        "initialTonnageExtra": null,
+        "initialTonnageExtra": -1.5,
         "Heatsinks": 30,
         "newMechVariant": true,
         "newEliteForcesVariant": false,
         "newEliteArsenalVariants": true,
         "includeModelNumberInEAVariant": false,
-        "eliteArsenalVariantNumber": "",
+        "eliteArsenalVariantNumber": "3",
         "mechTonnage": 75,
         "mechEngine": 300,
         "xlEngine": true,
@@ -11680,6 +11680,50 @@
         },
         "details": "Built due to an awkward exchange of technology between the Free Worlds League and the Word of Blake, the Toyama was designed by Dr. Thaddeus Anable and then given to the Word of Blake through an agreement made by Captain-General Thomas Marik. The Toyama is intended to be a multirole BattleMech that can operate somewhat independently of supply lines. The 'Mech is built on a lightweight Endo Steel chassis which supports a Vlar 300 XL engine. The Toyama has a top speed of 64.8 km/h, making it capable of keeping pace with most heavy 'Mechs. The Toyama has an impressive twelve tons of Durallex Heavy armor. To dissipate heat, the Toyama carries fourteen double heat sinks. The 'Mech also carries a Garret/Guardian Interface Guardian ECM Suite to protect the 'Mech from advanced enemy electronic warfare systems. An Advanced Tech version of the Toyama that was introduced during the Jihad. The 1C was redesigned as a fire support 'Mech. Its long-range weaponry includes; an Artemis IV-enhanced LRM 20 launcher with 2 tons of CASE-protected ammunition and a Gauss rifle with 2 tons of ammunition. For the 'Mech's secondary weaponry, it has two medium variable speed pulse lasers mounted in the right arm.",
         "yangsThoughts": "A pretty standard heavy mech with decent weaponry layout, it's got too much ammo based weaponry to really be independent of supply lines. A more sniping focused variant, this one mounts some better electronics for lance coordination."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis_clan\\chassisdef_madcat_MC-PRIME.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech_clan\\mechdef_madcat_MC-PRIME.json",
+        "newMechName": "Toyama",
+        "newMechDesignation": "TYM",
+        "newMechModelNumber": "1B",
+        "prefabName": "toyama",
+        "prefabId": "chrprfmech_toyamabase-001",
+        "hardpointData": "hardpointdatadef_toyama",
+        "icon": "uixTxrIcon_huntsman",
+        "initialTonnage": null,
+        "initialTonnageExtra": null,
+        "Heatsinks": 30,
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": false,
+        "lEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 3, 2, 0, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 0, 0, 2, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "stockRole": "Heavy Striker and Skirmisher",
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "Built due to an awkward exchange of technology between the Free Worlds League and the Word of Blake, the Toyama was designed by Dr. Thaddeus Anable and then given to the Word of Blake through an agreement made by Captain-General Thomas Marik. The Toyama is intended to be a multirole BattleMech that can operate somewhat independently of supply lines. The 'Mech is built on a lightweight Endo Steel chassis which supports a Vlar 300 XL engine. The Toyama has a top speed of 64.8 km/h, making it capable of keeping pace with most heavy 'Mechs. The Toyama has an impressive twelve tons of Durallex Heavy armor. To dissipate heat, the Toyama carries fourteen double heat sinks. The 'Mech also carries a Garret/Guardian Interface Guardian ECM Suite to protect the 'Mech from advanced enemy electronic warfare systems. This variant on the -1A downgrades the extralight engine to a light engine that is heavier, but makes the Toyama more durable. All of the weaponry of the -1A is also stripped out and replaced. The LRM was downsized to a Doombud 15-pack and the medium lasers were replaced with a pair of Diverse Optics ER medium lasers. The autocannon and large lasers were replaced with new Blankenburg PPCs that were originally developed by the Draconis Combine: two lights and a heavy. The ECM Suite was replaced with a now-ubiquitous C3i computer. The new weapons package left enough room to shore up the armor on the arms and legs. Sixteen double heat sinks keeps the -1B cooler than the -1A. ",
+        "yangsThoughts": "A pretty standard heavy mech with decent weaponry layout, this one has almost no ammo weapons other than the missiles which makes it good in long battles."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_kintaro_KTO-20.json",

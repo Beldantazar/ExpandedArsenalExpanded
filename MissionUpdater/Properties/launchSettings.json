@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MissionUpdater": {
+      "commandName": "Project",
+      "workingDirectory": "D:\\SteamLibrary\\steamapps\\common\\BATTLETECH\\Mods\\MissionUpdater"
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "Description": {
+        "Id": "fp_expanded_arsenal_expanded_generic_dif_3",
+        "Name": "Unknown Raiding Party Alpha",
+        "Details": "Elite Arsenal Expanded flashpoint",
+        "Icon": null
+    },
+    "Weight": 10,
+    "InternalName": "eae_gd_3",
+    "PublishState": "PUBLISHED",
+    "Difficulty": 3,
+    "Requirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "tagSetSourceFile": "",
+                "items": []
+            },
+            "ExclusionTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_eae_gd_3_timeout"
+                ]
+            },
+            "RequirementComparisons": [
+                {
+                    "obj": "Reputation.MercenaryReviewBoard",
+                    "op": "GreaterThan",
+                    "val": 500,
+                    "valueConstant": "500"
+                }
+            ]
+        }
+    ],
+    "LocationRequirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "tagSetSourceFile": "Tags/CompanyTags",
+            "items": [
+                "planet_faction_restoration"
+            ]
+        },
+        "ExclusionTags": {
+            "tagSetSourceFile": "Tags/PlanetTags",
+            "items": [
+                "planet_climate_lunar",
+                "planet_climate_mars"
+            ]
+        },
+        "RequirementComparisons": []
+    },
+    "PotentialEmployers": [
+        "AuriganRestoration"
+    ],
+    "TargetFaction": "CussCutlasses",
+    "AllowRefitTime": true,
+    "FlashpointLength": "MEDIUM",
+    "Repeatable": true,
+    "MilestoneSetID": "ms_fp_eae_generic_dif_3",
+    "UseAvailableTimeoutOverride": true,
+    "AvailableTimeout": 180,
+    "UseInProgressTimeoutOverride": true,
+    "InProgressTimeout": 30,
+    "RewardCollectionID": "itemCollection_fp_eae_3",
+    "UnitDropTonnageHint": "None",
+    "LanceDropTonnageHint": "None",
+    "FlashpointShortDescription": "Lady Kamea Arano urgently requests our aid to defeat an incursion by an unknown raiding party.",
+    "FlashpointDescriberCastDefId": "castDef_DariusDefault",
+    "Tags": {
+        "tagSetSourceFile": "tags/FlashpointTags",
+        "items": []
+    }
+}

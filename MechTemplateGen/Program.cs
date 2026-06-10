@@ -357,7 +357,7 @@ void processMechInfo(MechInfo info)
         var tags = newMechDef["MechTags"];
         if (tags != null)
         {
-            tags["items"] = addToTags(tags["items"], "elite_forces");
+            tags["items"] = addToTags(tags["items"], "Elite_Forces");
         }
         if (info.efFixedEquipment != null)
         {

@@ -36,7 +36,7 @@
         "Manufacturer": "Jade Falcon Scientist",
         "Model": "Experimental Bose-Einstein Plasma Rifle",
         "UIName": "Bose-Einstein Plasma Rifle + +",
-        "Id": "Weapon_Hyper_Plasma_Rifle_Clantech",
+        "Id": "Weapon_Hyper_Plasma_Rifle_Clantech_2",
         "Name": "Bose-Einstein Plasma Rifle + +",
         "Details": "When Jade Falcon scientists observed the effectiveness of Plasma Rifles, they experimented with using clan-spec energy weapon technology to improve the performance by firing a Bose-Einstein condensate plasma. This plasma is able to directly rip appart the targets material instead of melting it. The experimental weapon is expensive to make, but packs twice the power of a normal Plasma Rifle into a single weapon that weighs less than twice the original weapon. Plasma weapons normally use the power of the fusion engine or power amplifiers to power an electromagnetic accelerator that fires a stream, pulse or toroid of plasma (i.e. very hot, energetic, and excited matter). The plasma is created by using a lasing process to flash cartridges of plastic foam into white-hot projectiles that cause thermal as well as physical damage. Because this foam ammo is inert, it cannot explode even if it is destroyed.",
         "Icon": "uixSvgIcon_weapon_Energy"
