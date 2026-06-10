@@ -59,9 +59,10 @@ Additionally, several weapons have had EX versions added that can be found only 
 - Added Elite Forces grade version of at least one variant for every mech that was star league era or earlier (if you spot any that are missing an elite forces variant, please let me know)
 - Added at least two Elite Arsenal grade variants for every mech
 - Added a bunch of additional interesting variants for existing mechs
-- Total added variant count across all types: 1220 Inner Sphere, 380 Clan, 6 special
+- Total added variant count across all types: 1229 Inner Sphere, 380 Clan, 6 special
 
-# Added Flashpoints (not yet complete)
+# Flashpoints (not yet complete)
 
-- Added 32 repeatable flashpoints covering difficulty 3-10 (1.5-5 skulls) which are setup to spawn either standard, elite forces, elite arsenal x grade, and elite arsenal s grade mechs allowing for more effective collection attempts.  
+- Updated Yang's Big Score flashpoint to give much more useful and interesting reward mechs, this also makes it possible to reliably complete the final mission of it when elite arsenal is active because it gives mechs that are actually able to fight effectively.
+- Added 32 repeatable flashpoints covering difficulty 3-10 (1.5-5 skulls) which are setup to spawn either standard, elite forces, elite arsenal x grade, and elite arsenal s grade mechs allowing for more customizable difficulty (and also making it easier to find specific mechs and chassis you want).  
 - Added 6 story flashpoints about a new group causing problems for the Periphery.
