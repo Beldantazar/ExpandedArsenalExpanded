@@ -1,9 +1,9 @@
 {
-    "StartingMilestoneID": "ms_fp_eae_generic_dif_3_001",
+    "StartingMilestoneID": "ms_fp_eae_eas_generic_dif_3_001",
     "Milestones": [
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_001",
+                "Id": "ms_fp_eae_eas_generic_dif_3_001",
                 "Name": "Start",
                 "Details": "Start",
                 "Icon": null
@@ -69,7 +69,7 @@
                     "Actions": [
                         {
                             "Type": "Flashpoint_SetNextMilestone",
-                            "value": "ms_fp_eae_generic_dif_3_002_briefing",
+                            "value": "ms_fp_eae_eas_generic_dif_3_002_briefing",
                             "valueConstant": null,
                             "additionalValues": null
                         }
@@ -85,7 +85,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_002_briefing",
+                "Id": "ms_fp_eae_eas_generic_dif_3_002_briefing",
                 "Name": "Mission briefing",
                 "Details": "Mission briefing",
                 "Icon": null
@@ -130,7 +130,7 @@
                         },
                         {
                             "Type": "Flashpoint_SetNextMilestone",
-                            "value": "ms_fp_eae_generic_dif_3_003_briefingresult",
+                            "value": "ms_fp_eae_eas_generic_dif_3_003_briefingresult",
                             "valueConstant": null,
                             "additionalValues": null
                         }
@@ -146,7 +146,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_003_briefingresult",
+                "Id": "ms_fp_eae_eas_generic_dif_3_003_briefingresult",
                 "Name": "Briefing result",
                 "Details": "Briefing result",
                 "Icon": null
@@ -182,7 +182,7 @@
                     "Actions": [
                         {
                             "Type": "Flashpoint_SetNextMilestone",
-                            "value": "ms_fp_eae_generic_dif_3_011_mission1",
+                            "value": "ms_fp_eae_eas_generic_dif_3_011_mission1",
                             "valueConstant": null,
                             "additionalValues": null
                         }
@@ -219,7 +219,7 @@
                     "Actions": [
                         {
                             "Type": "Flashpoint_SetNextMilestone",
-                            "value": "ms_fp_eae_generic_dif_3_100_cancel",
+                            "value": "ms_fp_eae_eas_generic_dif_3_100_cancel",
                             "valueConstant": null,
                             "additionalValues": null
                         }
@@ -235,7 +235,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_011_mission1",
+                "Id": "ms_fp_eae_eas_generic_dif_3_011_mission1",
                 "Name": "Mission 1",
                 "Details": "Mission 1",
                 "Icon": null
@@ -274,11 +274,11 @@
                             "additionalValues": [
                                 "",
                                 "",
-                                "fp_eae_generic_dif_3_mission1",
+                                "fp_eae_eas_generic_dif_3_mission1",
                                 "AuriganRestoration",
                                 "CussCutlasses",
                                 "3",
-                                "ms_fp_eae_generic_dif_3_012_mission2",
+                                "ms_fp_eae_eas_generic_dif_3_012_mission2",
                                 "AuriganPirates",
                                 "AuriganPirates",
                                 null,
@@ -306,7 +306,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_012_mission2",
+                "Id": "ms_fp_eae_eas_generic_dif_3_012_mission2",
                 "Name": "Mission 2",
                 "Details": "Mission 2",
                 "Icon": null
@@ -345,11 +345,11 @@
                             "additionalValues": [
                                 "",
                                 "",
-                                "fp_eae_generic_dif_3_mission2",
+                                "fp_eae_eas_generic_dif_3_mission2",
                                 "AuriganRestoration",
                                 "CussCutlasses",
                                 "3",
-                                "ms_fp_eae_generic_dif_3_013_mission3",
+                                "ms_fp_eae_eas_generic_dif_3_013_mission3",
                                 "AuriganPirates",
                                 "AuriganPirates",
                                 null,
@@ -377,7 +377,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_013_mission3",
+                "Id": "ms_fp_eae_eas_generic_dif_3_013_mission3",
                 "Name": "Mission 3",
                 "Details": "Mission 3",
                 "Icon": null
@@ -416,11 +416,11 @@
                             "additionalValues": [
                                 "",
                                 "",
-                                "fp_eae_generic_dif_3_mission3",
+                                "fp_eae_eas_generic_dif_3_mission3",
                                 "AuriganRestoration",
                                 "CussCutlasses",
                                 "3",
-                                "ms_fp_eae_generic_dif_3_014_mission4",
+                                "ms_fp_eae_eas_generic_dif_3_014_mission4",
                                 "AuriganPirates",
                                 "AuriganPirates",
                                 null,
@@ -440,7 +440,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_014_mission4",
+                "Id": "ms_fp_eae_eas_generic_dif_3_014_mission4",
                 "Name": "Mission 3",
                 "Details": "Mission 3",
                 "Icon": null
@@ -479,11 +479,11 @@
                             "additionalValues": [
                                 "",
                                 "",
-                                "fp_eae_generic_dif_3_mission4",
+                                "fp_eae_eas_generic_dif_3_mission4",
                                 "AuriganRestoration",
                                 "CussCutlasses",
                                 "3",
-                                "ms_fp_eae_generic_dif_3_099_debrief",
+                                "ms_fp_eae_eas_generic_dif_3_099_debrief",
                                 "AuriganPirates",
                                 "AuriganPirates",
                                 null,
@@ -503,7 +503,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_099_debrief",
+                "Id": "ms_fp_eae_eas_generic_dif_3_099_debrief",
                 "Name": "Debrief",
                 "Details": "Debrief",
                 "Icon": null
@@ -548,7 +548,7 @@
                         },
                         {
                             "Type": "Flashpoint_SetNextMilestone",
-                            "value": "ms_fp_eae_generic_dif_3_200_complete",
+                            "value": "ms_fp_eae_eas_generic_dif_3_200_complete",
                             "valueConstant": null,
                             "additionalValues": null
                         }
@@ -564,7 +564,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_100_cancel",
+                "Id": "ms_fp_eae_eas_generic_dif_3_100_cancel",
                 "Name": "Cancel fp",
                 "Details": "Cancel fp",
                 "Icon": null
@@ -589,7 +589,7 @@
                     "AddedTags": {
                         "tagSetSourceFile": "",
                         "items": [
-                            "flashpoint_eae_generic_dif_3_cancelled"
+                            "flashpoint_eae_eas_generic_dif_3_cancelled"
                         ]
                     },
                     "RemovedTags": {
@@ -600,7 +600,7 @@
                     "Actions": [
                         {
                             "Type": "Flashpoint_CompleteFlashpoint",
-                            "value": "ms_fp_eae_generic_dif_3_201_reward",
+                            "value": "ms_fp_eae_eas_generic_dif_3_201_reward",
                             "valueConstant": null,
                             "additionalValues": [
                                 "itemCollection_loot_none",
@@ -627,7 +627,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_200_complete",
+                "Id": "ms_fp_eae_eas_generic_dif_3_200_complete",
                 "Name": "Complete",
                 "Details": "Complete",
                 "Icon": null
@@ -652,7 +652,7 @@
                     "AddedTags": {
                         "tagSetSourceFile": "",
                         "items": [
-                            "flashpoint_eae_generic_dif_3_complete"
+                            "flashpoint_eae_eas_generic_dif_3_complete"
                         ]
                     },
                     "RemovedTags": {
@@ -663,10 +663,10 @@
                     "Actions": [
                         {
                             "Type": "Flashpoint_CompleteFlashpoint",
-                            "value": "ms_fp_eae_generic_dif_3_201_reward",
+                            "value": "ms_fp_eae_eas_generic_dif_3_201_reward",
                             "valueConstant": null,
                             "additionalValues": [
-                                "itemCollection_fp_eae_3",
+                                "itemCollection_fp_eae_eas_3",
                                 null
                             ]
                         },
@@ -690,7 +690,7 @@
         },
         {
             "Description": {
-                "Id": "ms_fp_eae_generic_dif_3_201_reward",
+                "Id": "ms_fp_eae_eas_generic_dif_3_201_reward",
                 "Name": "Reward",
                 "Details": "rewards",
                 "Icon": null
@@ -751,7 +751,7 @@
                     "AddedTags": {
                         "tagSetSourceFile": "Tags/CompanyTags",
                         "items": [
-                            "flashpoint_eae_generic_dif_3_timeout"
+                            "flashpoint_eae_eas_generic_dif_3_timeout"
                         ]
                     },
                     "RemovedTags": {

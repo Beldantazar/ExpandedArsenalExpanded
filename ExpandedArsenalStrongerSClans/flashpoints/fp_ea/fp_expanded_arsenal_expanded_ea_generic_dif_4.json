@@ -1,34 +1,31 @@
 {
     "Description": {
-        "Id": "fp_expanded_arsenal_expanded_generic_dif_3",
-        "Name": "Unknown Raiding Party Alpha",
+        "Id": "fp_expanded_arsenal_expanded_ea_generic_dif_4",
+        "Name": "Unknown Raiding Party Beta",
         "Details": "Elite Arsenal Expanded flashpoint",
         "Icon": null
     },
     "Weight": 10,
-    "InternalName": "eae_gd_3",
+    "InternalName": "eae_ea_gd_4",
     "PublishState": "PUBLISHED",
-    "Difficulty": 3,
+    "Difficulty": 4,
     "Requirements": [
         {
             "Scope": "Company",
             "RequirementTags": {
                 "tagSetSourceFile": "",
-                "items": []
+                "items": [
+                    "flashpoint_eae_ea_generic_dif_3_complete"
+                ]
             },
             "ExclusionTags": {
                 "tagSetSourceFile": "",
                 "items": [
-                    "flashpoint_eae_generic_dif_3_timeout"
+                    "flashpoint_eae_ea_generic_dif_4_timeout"
                 ]
             },
             "RequirementComparisons": [
-                {
-                    "obj": "Reputation.MercenaryReviewBoard",
-                    "op": "GreaterThan",
-                    "val": 500,
-                    "valueConstant": "500"
-                }
+
             ]
         }
     ],
@@ -50,21 +47,21 @@
         "RequirementComparisons": []
     },
     "PotentialEmployers": [
-        "AuriganRestoration"
+        "MagistracyOfCanopus"
     ],
     "TargetFaction": "CussCutlasses",
     "AllowRefitTime": true,
     "FlashpointLength": "MEDIUM",
     "Repeatable": true,
-    "MilestoneSetID": "ms_fp_eae_generic_dif_3",
+    "MilestoneSetID": "ms_fp_eae_ea_generic_dif_4",
     "UseAvailableTimeoutOverride": true,
     "AvailableTimeout": 180,
     "UseInProgressTimeoutOverride": true,
     "InProgressTimeout": 30,
-    "RewardCollectionID": "itemCollection_fp_eae_3",
+    "RewardCollectionID": "itemCollection_fp_eae_ea_4",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
-    "FlashpointShortDescription": "Lady Kamea Arano urgently requests our aid to defeat an incursion by an unknown raiding party.",
+    "FlashpointShortDescription": "The Magistracy of Canopus requires elite mercenaries to defeat an incursion by an unknown raiding party.",
     "FlashpointDescriberCastDefId": "castDef_DariusDefault",
     "Tags": {
         "tagSetSourceFile": "tags/FlashpointTags",

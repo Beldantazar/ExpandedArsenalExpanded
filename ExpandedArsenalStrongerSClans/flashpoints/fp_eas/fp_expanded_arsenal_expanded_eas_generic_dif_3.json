@@ -1,12 +1,12 @@
 {
     "Description": {
-        "Id": "fp_expanded_arsenal_expanded_generic_dif_3",
+        "Id": "fp_expanded_arsenal_expanded_eas_generic_dif_3",
         "Name": "Unknown Raiding Party Alpha",
         "Details": "Elite Arsenal Expanded flashpoint",
         "Icon": null
     },
     "Weight": 10,
-    "InternalName": "eae_gd_3",
+    "InternalName": "eae_eas_gd_3",
     "PublishState": "PUBLISHED",
     "Difficulty": 3,
     "Requirements": [
@@ -19,7 +19,7 @@
             "ExclusionTags": {
                 "tagSetSourceFile": "",
                 "items": [
-                    "flashpoint_eae_generic_dif_3_timeout"
+                    "flashpoint_eae_eas_generic_dif_3_timeout"
                 ]
             },
             "RequirementComparisons": [
@@ -56,12 +56,12 @@
     "AllowRefitTime": true,
     "FlashpointLength": "MEDIUM",
     "Repeatable": true,
-    "MilestoneSetID": "ms_fp_eae_generic_dif_3",
+    "MilestoneSetID": "ms_fp_eae_eas_generic_dif_3",
     "UseAvailableTimeoutOverride": true,
     "AvailableTimeout": 180,
     "UseInProgressTimeoutOverride": true,
     "InProgressTimeout": 30,
-    "RewardCollectionID": "itemCollection_fp_eae_3",
+    "RewardCollectionID": "itemCollection_fp_eae_eas_3",
     "UnitDropTonnageHint": "None",
     "LanceDropTonnageHint": "None",
     "FlashpointShortDescription": "Lady Kamea Arano urgently requests our aid to defeat an incursion by an unknown raiding party.",
