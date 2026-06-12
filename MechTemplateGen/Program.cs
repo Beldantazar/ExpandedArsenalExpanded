@@ -4,8 +4,11 @@ using Newtonsoft.Json.Linq;
 
 List<MechInfo>? mechInfo = JsonConvert.DeserializeObject<List<MechInfo>>(File.ReadAllText("mechinfo.json"));
 EngineWeightMapping weightMapping = JsonConvert.DeserializeObject<EngineWeightMapping>(File.ReadAllText("engineweightmapping.json"));
+InternalStructureMapping structureMapping = JsonConvert.DeserializeObject<InternalStructureMapping>(File.ReadAllText("internalstructurepartmapping.json"));
 
 UtilityDataBuilder.buildItemMappingData();
+
+//Decimal ComputeBaseMechCost(Decimal tonnage, string chassisType, bool lightEngine, bool xlEngine, Decimal heatSinks, bool xlGyro)
 
 void processFixedEquipment(JToken chassis, string[][] equipment)
 {
@@ -55,6 +58,30 @@ JArray removeFromTags(JToken tags, string newTag)
         temp.Remove(mechToken);
     }
     return temp;
+}
+
+void setArmor(JArray locations, int[][] armor, MechInfo info)
+{
+    if (armor != null)
+    {
+        if (locations == null)
+        {
+            Console.WriteLine("Error: mech file " + info.baseMechFileName + " is missing locations array");
+            return;
+        }
+        for (int i = 0; i < armor.Length; i++)
+        {
+            locations[i]["AssignedArmor"] = armor[i][0];
+            if (armor[i].Length > 1)
+            {
+                locations[i]["AssignedRearArmor"] = armor[i][1];
+            }
+            else
+            {
+                locations[i]["AssignedRearArmor"] = -1;
+            }
+        }
+    }
 }
 
 void processEquipment(JToken mech, string[][] equipment)
@@ -136,6 +163,10 @@ void processMechInfo(MechInfo info)
         {
             // superheavy gyros are double weight
             gyroWeight *= 2;
+        }
+        if (info.xlGyro ?? false)
+        {
+            gyroWeight /= 2;
         }
         var initialTonnage = engineTonnage + chassisTonnage + gyroWeight + 3.0M;
         chassis["InitialTonnage"] = (double)(initialTonnage + (info.initialTonnageExtra ?? 0));
@@ -233,9 +264,53 @@ void processMechInfo(MechInfo info)
     {
         chassis["YangsThoughts"] = info.yangsThoughts;
     }
-
+    if (info.computeArmorStructure ?? false)
+    {
+        JArray locations = (JArray)chassis["Locations"];
+        var chassisTonnage = info.mechTonnage ?? chassis["Tonnage"].Value<int>();
+        if (locations == null)
+        {
+            Console.WriteLine("Error: Chassis file " + info.baseTemplateFileName + " is missing locations array");
+            return;
+        }
+        for (int i = 0; i < locations.Count; i++)
+        {
+            var location = locations[i]["Location"].Value<string>();
+            if (location != null)
+            {
+                var structureForLocation = structureMapping.entries[location].tonnageToStructure[chassisTonnage.ToString()];
+                var hbsStructureForLocation = structureForLocation * 5 + (location == "Head" ? 1 : 0);
+                var hbsFrontArmorForLocation = location == "Head" ? (chassisTonnage > 100 ? 80 : 45) : hbsStructureForLocation * 2;
+                var hbsRearArmorForLocation = location.Contains("Torso") ? structureForLocation : -1;
+                locations[i]["MaxArmor"] = hbsFrontArmorForLocation;
+                locations[i]["MaxRearArmor"] = hbsRearArmorForLocation;
+                locations[i]["InternalStructure"] = hbsStructureForLocation;
+            }
+        }
+    }
+    if (info.armor != null)
+    {
+        JArray locations = (JArray)mech["Locations"];
+        setArmor(locations, info.armor, info);
+    }
+    if (info.inventorySlots != null)
+    {
+        bool mechIsOmni = info.mechIsOmni ?? false;
+        bool useWeaponMountId = info.useMountIdNaming ?? false;
+        JArray locations = (JArray)chassis["Locations"];
+        if (locations == null)
+        {
+            Console.WriteLine("Error: Chassis file " + info.baseTemplateFileName + " is missing locations array");
+            return;
+        }
+        for (int i = 0; i < info.inventorySlots.Length; i++)
+        {
+            locations[i]["InventorySlots"] = info.inventorySlots[i];
+        }
+    }
     if (info.hardpoints != null)
     {
+        bool mechIsOmni = info.mechIsOmni ?? false;
         bool useWeaponMountId = info.useMountIdNaming ?? false;
         JArray locations = (JArray)chassis["Locations"];
         if (locations == null)
@@ -254,14 +329,14 @@ void processMechInfo(MechInfo info)
                     {
                         outputArray.Add(new JObject{
                             { "WeaponMountID",  entry.Key },
-                            { "Omni", false }
+                            { "Omni", mechIsOmni && entry.Key == "Ballistic" }
                         });
                     }
                     else
                     {
                         outputArray.Add(new JObject {
                             { "WeaponMount",  entry.Key },
-                            { "Omni", false }
+                            { "Omni", mechIsOmni && entry.Key == "Ballistic" }
                         });
                     }
                 }
@@ -367,6 +442,11 @@ void processMechInfo(MechInfo info)
         {
             processEquipment(chassis, info.efEquipment);
         }
+        if (info.efArmor != null)
+        {
+            JArray locations = (JArray)newMechDef["Locations"];
+            setArmor(locations, info.efArmor, info);
+        }
         File.WriteAllText(outputFileName, newChassisDef.ToString());
         File.WriteAllText(outputMechFileName, newMechDef.ToString());
     }
@@ -469,6 +549,16 @@ void processMechInfo(MechInfo info)
         if (info.eaSEquipment != null)
         {
             processEquipment(newSMechDef, info.eaSEquipment);
+        }
+        if (info.eaArmor != null)
+        {
+            JArray locations = (JArray)newXMechDef["Locations"];
+            setArmor(locations, info.eaArmor, info);
+        }
+        if (info.easArmor != null)
+        {
+            JArray locations = (JArray)newSMechDef["Locations"];
+            setArmor(locations, info.easArmor, info);
         }
         File.WriteAllText(outputXFileName, newXChassisDef.ToString());
         File.WriteAllText(outputXMechFileName, newXMechDef.ToString());

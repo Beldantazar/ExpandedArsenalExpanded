@@ -65,6 +65,22 @@ namespace MechTemplateGen
         public bool? xlEngine;
         [JsonProperty("lEngine")]
         public bool? lEngine;
+        [JsonProperty("xlGyro")]
+        public bool? xlGyro;
+        [JsonProperty("mechIsOmni")]
+        public bool? mechIsOmni;
+        [JsonProperty("computeArmorStructure")]
+        public bool? computeArmorStructure;
+        [JsonProperty("inventorySlots")]
+        public int[]? inventorySlots;
+        [JsonProperty("armor")]
+        public int[][]? armor;
+        [JsonProperty("efArmor")]
+        public int[][]? efArmor;
+        [JsonProperty("eaArmor")]
+        public int[][]? eaArmor;
+        [JsonProperty("easArmor")]
+        public int[][]? easArmor;
         [JsonProperty("chassisType")]
         public string? chassisType;
         [JsonProperty("hardpoints")]
@@ -101,6 +117,18 @@ namespace MechTemplateGen
         public string[] mechTagsRemove;
         [JsonProperty("itemColAssignment")]
         public ItemColAssignment? itemColAssignment;
+    }
+
+    public struct InternalStructureTonnageMappingEntry
+    {
+        [JsonProperty("tonnageToStructure")]
+        public Dictionary<string, int> tonnageToStructure;
+    }
+
+    public struct InternalStructureMapping
+    {
+        [JsonProperty("entries")]
+        public Dictionary<String, InternalStructureTonnageMappingEntry> entries;
     }
 
     public struct EngineWeightMappingEntry

@@ -1,0 +1,7 @@
+{
+    "basecosts": {
+        "cockpit": 200000,
+        "lifeSupport": 50000,
+
+    }
+}
