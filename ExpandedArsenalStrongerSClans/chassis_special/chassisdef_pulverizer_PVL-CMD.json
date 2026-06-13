@@ -6,7 +6,7 @@
         "Manufacturer": "",
         "Model": "",
         "Name": "Pulverizer Command",
-        "Details": "The personal mech of Jack 'Cus' Hambuilt, this mech was built out of the reconstructed remnants of a Pulverizer command mech. It was ground up rebuilt to have 10 more tons of weight, and all the battle electronics that it could reasonbly be installed with, while the engine was downrated and converted to an XL engine to free enough tonnage to allow for it to still mount a respectable defense with all of those electronics. The design seems to have been recently refitted again with salvaged electronics from the Word of Blake, giving it even more command power.",
+        "Details": "The personal mech of Jack 'Cus' Hollister, this mech was built out of the reconstructed remnants of a Pulverizer command mech. It was ground up rebuilt to have 10 more tons of weight, and all the battle electronics that it could reasonbly be installed with, while the engine was downrated and converted to an XL engine to free enough tonnage to allow for it to still mount a respectable defense with all of those electronics. The design seems to have been recently refitted again with salvaged electronics from the Word of Blake, giving it even more command power.",
         "UIName": "Pulverizer Command",
         "Id": "chassisdef_pulverizer_PVL-CMD",
         "Icon": "uixTxrIcon_direwolf"
@@ -184,7 +184,19 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Gear_Sensor_Prototype_ECM",
+            "ComponentDefID": "Gear_Angel_ECM_2",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Bloodhound_AP_2",
             "SimGameUID": "",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": -1,

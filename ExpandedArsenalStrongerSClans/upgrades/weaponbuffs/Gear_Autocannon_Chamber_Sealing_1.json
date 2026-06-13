@@ -1,0 +1,192 @@
+{
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 840000,
+        "Rarity": 99,
+        "Purchasable": true,
+        "Manufacturer": "FlexSeal",
+        "Model": "Autocannon Seal",
+        "UIName": "Autocannon Chamber Sealing +",
+        "Id": "Gear_Autocannon_Chamber_Sealing_1",
+        "Name": "Autocannon Chamber Sealing +",
+        "Details": "By applying a flexible sealant to the autocannon chamber it allows for running the autocannon with higher chamber pressure, allowing for longer range projectiles. Unfortunately, the increased pressures make it harder for the Mech's ballistic handling system to compensate for recoil effects, reducing overall accuracy of the weapon.'",
+        "Icon": "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA": "+ 75m Autocannon Range",
+    "BonusValueB": "-2 Autocannon Accuracy",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": true,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-LongRange_AUTOCANNONSEAL",
+                "Name": "Autocannon Chamber Sealing",
+                "Details": "Increases range of autocannon type weapons by [AMT]m.",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "LongRange",
+                "operation": "Float_Add",
+                "modValue": "75.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "Autocannon",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-MaxRange_AUTOCANNONSEAL",
+                "Name": "Autocannon Chamber Sealing",
+                "Details": "Increases max range bracket of Support weapons by [AMT]m.",
+                "Icon": "UixSvgIcon_specialEquip_System"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "MaxRange",
+                "operation": "Float_Add",
+                "modValue": "75.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "Autocannon",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Accuracy_AUTOCANNONSEAL",
+                "Name": "Autocannon Accuracy Decreased",
+                "Details": "Autocannons suffer a 2 penalty to accuracy.",
+                "Icon": "uixSvgIcon_equipment_TTS"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "AccuracyModifier",
+                "operation": "Float_Add",
+                "modValue": "2.0",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "Autocannon",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant1"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

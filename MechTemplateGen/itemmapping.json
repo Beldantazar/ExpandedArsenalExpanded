@@ -3319,6 +3319,30 @@
         "Gear_Laser_Weapon_Optimization_System": {
             "itemId": "Gear_Laser_Weapon_Optimization_System",
             "itemType": "Upgrade"
+        },
+        "Gear_Angel_ECM": {
+            "itemId": "Gear_Angel_ECM",
+            "itemType": "Upgrade"
+        },
+        "Gear_Angel_ECM_1": {
+            "itemId": "Gear_Angel_ECM_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Angel_ECM_2": {
+            "itemId": "Gear_Angel_ECM_2",
+            "itemType": "Upgrade"
+        },
+        "Gear_Bloodhound_AP": {
+            "itemId": "Gear_Bloodhound_AP",
+            "itemType": "Upgrade"
+        },
+        "Gear_Bloodhound_AP_1": {
+            "itemId": "Gear_Bloodhound_AP_1",
+            "itemType": "Upgrade"
+        },
+        "Gear_Bloodhound_AP_2": {
+            "itemId": "Gear_Bloodhound_AP_2",
+            "itemType": "Upgrade"
         }
     }
 }

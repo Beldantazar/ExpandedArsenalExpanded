@@ -1,0 +1,169 @@
+{
+    "ID" : "hardpointdatadef_duangung",
+    "HardpointData" : [
+        {
+            "location" : "leftarm",
+            "weapons": [
+                [
+                    "chrprfweap_duangung_leftarm_ac20_bh1",
+                    "chrprfweap_duangung_leftarm_ac5_bh1",
+                    "chrprfweap_duangung_leftarm_lbx_bh1",
+                    "chrprfweap_duangung_leftarm_gauss_bh1",
+                    "chrprfweap_duangung_leftarm_uac5_bh1"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_ac5_bh2"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_ac5_bh3"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_laser_eh1",
+                    "chrprfweap_duangung_leftarm_ppc_eh1",
+                    "chrprfweap_duangung_leftarm_flamer_eh1"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_lrm15_mh1",
+                    "chrprfweap_duangung_leftarm_narc_mh1",
+                    "chrprfweap_duangung_leftarm_srm2_mh1",
+                    "chrprfweap_duangung_leftarm_srm4_mh1",
+                    "chrprfweap_duangung_leftarm_srm6_mh1"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_mg_ah1"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_mg_ah2"
+                ],
+                [
+                    "chrprfweap_duangung_leftarm_mg_ah3"
+                ]
+            ],
+            "blanks" : [
+
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "lefttorso",
+            "weapons" : [
+			    [
+			        "chrprfweap_duangung_lefttorso_laser_eh1",
+                    "chrprfweap_duangung_lefttorso_flamer_eh1",
+                    "chrprfweap_duangung_lefttorso_ppc_eh1"
+			    ],
+                [
+                    "chrprfweap_duangung_lefttorso_laser_eh2",
+                    "chrprfweap_duangung_lefttorso_ppc_eh2",
+                    "chrprfweap_duangung_lefttorso_flamer_eh2"
+                ],
+                [
+                    "chrprfweap_duangung_lefttorso_laser_eh3",
+                    "chrprfweap_duangung_lefttorso_ppc_eh3",
+                    "chrprfweap_duangung_lefttorso_flamer_eh3"
+                ],
+                [
+                    "chrprfweap_duangung_lefttorso_lrm10_mh1",
+                    "chrprfweap_duangung_lefttorso_lrm5_mh1",
+                    "chrprfweap_duangung_lefttorso_narc_mh1",
+                    "chrprfweap_duangung_lefttorso_srm2_mh1",
+                    "chrprfweap_duangung_lefttorso_srm4_mh1",
+                    "chrprfweap_duangung_lefttorso_srm6_mh1"
+                ],
+                [
+                    "chrprfweap_duangung_lefttorso_lrm10_mh2",
+                    "chrprfweap_duangung_lefttorso_lrm5_mh2",
+                    "chrprfweap_duangung_lefttorso_narc_mh2",
+                    "chrprfweap_duangung_lefttorso_srm2_mh2",
+                    "chrprfweap_duangung_lefttorso_srm4_mh2",
+                    "chrprfweap_duangung_lefttorso_srm6_mh2"
+                    
+                ],
+                [
+                    "chrprfweap_duangung_lefttorso_lrm10_mh3",
+                    "chrprfweap_duangung_lefttorso_lrm5_mh3",
+                    "chrprfweap_duangung_lefttorso_narc_mh3",
+                    "chrprfweap_duangung_lefttorso_srm2_mh3",
+                    "chrprfweap_duangung_lefttorso_srm4_mh3",
+                    "chrprfweap_duangung_lefttorso_srm6_mh3"
+                ]
+            ],
+            "blanks" : [
+			
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "rightarm",
+            "weapons" : [
+			    [
+			        "chrprfweap_duangung_rightarm_laser_eh1",
+                    "chrprfweap_duangung_rightarm_ppc_eh1",
+                    "chrprfweap_duangung_rightarm_flamer_eh1",
+                    "chrprfweap_duangung_rightarm_hardpoint_eh1"
+			    ],
+                [
+                    "chrprfweap_duangung_rightarm_laser_eh2",
+                    "chrprfweap_duangung_rightarm_ppc_eh2",
+                    "chrprfweap_duangung_rightarm_flamer_eh2",
+                    "chrprfweap_duangung_rightarm_hardpoint_eh2"
+                ],
+                [
+                    "chrprfweap_duangung_rightarm_lrm15_mh1",
+                    "chrprfweap_duangung_rightarm_narc_mh1",
+                    "chrprfweap_duangung_rightarm_srm2_mh1",
+                    "chrprfweap_duangung_rightarm_srm4_mh1",
+                    "chrprfweap_duangung_rightarm_srm6_mh1",
+                    "chrprfweap_duangung_rightarm_hardpoint_mh1"
+                ]
+            ],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+        {
+            "location" : "righttorso",
+            "weapons" : [
+			    [
+			        "chrprfweap_duangung_righttorso_laser_eh1",
+                    "chrprfweap_duangung_righttorso_ppc_eh1",
+                    "chrprfweap_duangung_righttorso_flamer_eh1"
+			    ],
+                [
+                    "chrprfweap_duangung_righttorso_laser_eh2",
+                    "chrprfweap_duangung_righttorso_ppc_eh2",
+                    "chrprfweap_duangung_righttorso_flamer_eh2"
+                ],
+                [
+                    "chrprfweap_duangung_righttorso_laser_eh3",
+                    "chrprfweap_duangung_righttorso_ppc_eh3",
+                    "chrprfweap_duangung_righttorso_flamer_eh3"
+                ]
+            ],
+            "blanks" : [
+			
+            ],
+            "mountingPoints" : [
+                
+            ]
+        },
+		{
+            "location" : "centertorso",
+            "weapons" : [],
+            "blanks" : [
+                
+            ],
+            "mountingPoints" : [
+                
+            ]
+        }
+    ]
+	
+}

@@ -12,7 +12,7 @@
     "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
     "HeatGenerated": 72,
-    "Damage": 133,
+    "Damage": 140,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,
     "EvasivePipsIgnored": 0,
@@ -41,7 +41,7 @@
         "Details": "This monster of a weapon is the production-grade output of the RISC's Hyper Laser research. It pushes the power output of Heavy Lasers even further, allowing it to do enormous damage with an extremely long range, but a massive heat output to match. The amount of power running through the weapon means that it is able to explode if struck with sufficient force by enemy weapons fire.",
         "Icon": "uixSvgIcon_weapon_Energy"
     },
-    "BonusValueA": "+33 dmg",
+    "BonusValueA": "+40 dmg",
     "BonusValueB": "",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",

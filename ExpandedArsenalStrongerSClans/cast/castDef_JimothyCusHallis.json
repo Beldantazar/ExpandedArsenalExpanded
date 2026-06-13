@@ -1,9 +1,9 @@
 {
-    "id": "castDef_BillinLightshowBoffa",
-    "internalName": "BillinLightshowBoffa",
-    "firstName": "Billin",
-    "lastName": "Boffa",
-    "callsign": "Lightshow",
+    "id": "castDef_JimothyCusHallis",
+    "internalName": "JimothyCusHallis",
+    "firstName": "Jimothy",
+    "lastName": "Hallis",
+    "callsign": "CUS",
     "rank": "",
     "gender": "NonBinary",
     "factionID": "CussCutlasses",
@@ -15,7 +15,7 @@
     "localizeName": false,
     "defaultEmotePortrait": {
         "emote": "Default",
-        "portraitAssetPath": "sprites/Portraits/guiTxrPort_SE03_PirateLackey_def_utr.png"
+        "portraitAssetPath": "sprites/Portraits/Male_Rank1_4.png"
     },
     "emotePotraitList": [
 

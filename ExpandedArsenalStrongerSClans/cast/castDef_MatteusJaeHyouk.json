@@ -1,0 +1,23 @@
+{
+    "id": "castDef_MatteusJaeHyouk",
+    "internalName": "MatteusJaeHyouk",
+    "firstName": "Matteus",
+    "lastName": "JaeHyouk",
+    "callsign": "",
+    "rank": "",
+    "gender": "NonBinary",
+    "factionID": "CussCutlasses",
+    "sgCharType": "UNSET",
+    "showRank": false,
+    "showFirstName": true,
+    "showCallsign": false,
+    "showLastName": true,
+    "localizeName": false,
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/Male_Rank3_3.png"
+    },
+    "emotePotraitList": [
+
+    ]
+}

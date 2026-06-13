@@ -1,0 +1,23 @@
+{
+    "id": "castDef_MarioJumpManMario",
+    "internalName": "MarioJumpManMario",
+    "firstName": "Mario",
+    "lastName": "Mario",
+    "callsign": "Jump Man",
+    "rank": "",
+    "gender": "NonBinary",
+    "factionID": "CussCutlasses",
+    "sgCharType": "UNSET",
+    "showRank": false,
+    "showFirstName": true,
+    "showCallsign": true,
+    "showLastName": true,
+    "localizeName": false,
+    "defaultEmotePortrait": {
+        "emote": "Default",
+        "portraitAssetPath": "sprites/Portraits/Generic_Rank4_8.png"
+    },
+    "emotePotraitList": [
+
+    ]
+}

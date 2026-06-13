@@ -1,0 +1,140 @@
+{
+    "StatName": null,
+    "RelativeModifier": 0,
+    "AbsoluteModifier": 0,
+    "Description": {
+        "Cost": 840000,
+        "Rarity": 4,
+        "Purchasable": true,
+        "Manufacturer": "SLDF",
+        "Model": "Insulator",
+        "UIName": "Laser Insulator + +",
+        "Id": "Gear_Laser_Insulatator_2",
+        "Name": "Laser Insulator + +",
+        "Details": "The Laser Insulator is a component that can reduce the heat output of lasers by surrounding them with an insulating layer of aerogel, however doing this traps the heat close to the laser, which requires the lasers to operate at somewhat reduced power in order to not suffer increased failures.",
+        "Icon": "uixSvgIcon_equipment_TTS"
+    },
+    "BonusValueA": "- 30% Laser Heat",
+    "BonusValueB": "- 10% Laser Damage",
+    "ComponentType": "Upgrade",
+    "ComponentSubType": "NotSet",
+    "PrefabIdentifier": "",
+    "BattleValue": 0,
+    "InventorySize": 2,
+    "Tonnage": 1,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": true
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Heat_LASERINS",
+                "Name": "Laser Insulator Damage",
+                "Details": "5% Reduced Laser Damage.",
+                "Icon": "uixSvgIcon_equipment_TTS"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "DamagePerShot",
+                "operation": "Float_Multiply",
+                "modValue": "0.90",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "Laser",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        },
+        {
+            "durationData": {
+                "duration": -1,
+                "ticksOnActivations": false,
+                "useActivationsOfTarget": false,
+                "ticksOnEndOfRound": false,
+                "ticksOnMovements": false,
+                "stackLimit": 1,
+                "clearedWhenAttacked": false
+            },
+            "targetingData": {
+                "effectTriggerType": "Passive",
+                "triggerLimit": 0,
+                "extendDurationOnTrigger": 0,
+                "specialRules": "NotSet",
+                "effectTargetType": "Creator",
+                "range": 0,
+                "forcePathRebuild": false,
+                "forceVisRebuild": false,
+                "showInTargetPreview": false,
+                "showInStatusPanel": false
+            },
+            "effectType": "StatisticEffect",
+            "Description": {
+                "Id": "StatusEffect-Attack_LASERINS",
+                "Name": "Laser Insulator Heat",
+                "Details": "Heat generation reduced by 30%.",
+                "Icon": "uixSvgIcon_equipment_ThermalExchanger"
+            },
+            "nature": "Buff",
+            "statisticData": {
+                "appliesEachTick": false,
+                "effectsPersistAfterDestruction": false,
+                "statName": "HeatGenerated",
+                "operation": "Float_Multiply",
+                "modValue": "0.7",
+                "modType": "System.Single",
+                "additionalRules": "NotSet",
+                "targetCollection": "Weapon",
+                "targetWeaponCategory": "NotSet",
+                "targetWeaponType": "Laser",
+                "targetAmmoCategory": "NotSet",
+                "targetWeaponSubType": "NotSet"
+            },
+            "tagData": null,
+            "floatieData": null,
+            "actorBurningData": null,
+            "vfxData": null,
+            "instantModData": null,
+            "poorlyMaintainedEffectData": null
+        }
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant2"
+        ],
+        "tagSetSourceFile": ""
+    }
+}

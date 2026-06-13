@@ -11,7 +11,7 @@
     ],
     "ammoCategoryID": "NotSet",
     "StartingAmmoCapacity": 0,
-    "HeatGenerated": 50,
+    "HeatGenerated": 44,
     "Damage": 18,
     "OverheatedDamageMultiplier": 0,
     "EvasiveDamageMultiplier": 0,

@@ -21312,5 +21312,63 @@
         "stockRole": "Medium Brawler",
         "details": "The first homegrown BattleMech produced by the Draconis Combine was the Gladiator. The 55-ton 'Mech took seven years to design, as Coordinator Kozo Von Rohrs refused to open up the process to anybody but a select group at New Samarkand Armor Works, the predecessor of Luthien Armor Works, who were under constant surveillance by DEST. 2468 finally saw the GLD-1R Gladiator hit mass-production. Following the Battle of Nox in 2475, the dishonored 'Mech was retired from official production, with NSAW closing down the production lines by 2488. Merryweather Industries was the first private company to attempt BattleMech production without governmental support. Despite their location in the Terran Hegemony, they acquired the plans to the Gladiator and produced a new run in 2490. They were unable to raise the capital to finish their second run, the 4R, and nearly went bankrupt before changing over to IndustrialMechs. The GLD-4R production lines were closed down in 2495. During the Jihad, StarCorps Industries produced a small yearly run of a new variant, the 5R, which over decades became the foundation of a line of Gladiator variants produced by the Son Hoa branch. The 5R is an upgraded variant by StarCorps Industries. It was fashioned after a customized Gladiator fielded by Major Alex Keller of the Devil's Brigade that utilized cutting-edge and experimental technology, though the production model designated 5R does not exactly copy Keller's customized 'Mech. It is armed with a snub-nose PPC, two ER medium lasers, and an MML-5 with Artemis IV FCS to improve accuracy. Altogether thirteen double heat sinks help to alleviate heat problems. This version features a Guardian ECM suite and a C3 slave unit, and has twelve tons of standard armor, which gives it maximum protection for a 'Mech of its size.",
         "yangsThoughts": "A modern rebuild of the classic design, a pretty standard medium mech with good armor and weaponry. Nothing groundbreaking but able to hit at all ranges."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_owens_OW-1.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_owens_OW-1.json",
+        "newMechName": "Owens",
+        "newMechDesignation": "OW",
+        "newMechModelNumber": "1",
+        "initialTonnageExtra": -6,
+        "newMechVariant": true,
+        "newEliteForcesVariant": true,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "",
+        "mechTonnage": 35,
+        "mechEngine": 280,
+        "xlEngine": true,
+        "chassisType": "Standard",
+        "Heatsinks": 0,
+        "fixedEquipment": [
+            [],
+            [],
+            [ "Gear_General_Lance_Command_Module" ],
+            [],
+            [ "Gear_Sensor_Prototype_EWE"],
+            [],
+            [],
+            []
+        ],
+        "eaFixedEquipment": [
+            [],
+            [],
+            [ "Gear_General_Lance_Command_Module" ],
+            [],
+            [ "Gear_Sensor_Prototype_EWE"],
+            [],
+            [],
+            []
+        ],
+        "eaSFixedEquipment": [
+            [],
+            [],
+            [ "Gear_General_Lance_Command_Module" ],
+            [],
+            [ "Gear_Sensor_Prototype_EWE"],
+            [],
+            [],
+            []
+        ],
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        }
     }
 ]
