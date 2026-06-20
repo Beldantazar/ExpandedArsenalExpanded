@@ -161,8 +161,10 @@
             "unitId": "Tagged",
             "pilotId": "Tagged",
             "unitTagSet": {
-                "items": "unit_mech",
-                    "elite_forces",
+                "items": [
+                    "unit_mech",
+                    "elite_forces"
+                ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {

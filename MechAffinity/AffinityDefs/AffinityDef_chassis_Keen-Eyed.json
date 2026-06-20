@@ -10,6 +10,7 @@
         "chrprfmech_kitfoxbase-001_30",
         "chrprfmech_riflemaniicbase-001_65",
         "chrprfmech_stonerhinobase-001_120",
+        "chrprfmech_stonerhinobase-001_110",
         "chrprfmech_marauderiicbase-001_85",
         "chrprfmech_iongrigoribase-001_60",
         "chrprfmech_wanetabase-001_55",
@@ -30,7 +31,9 @@
         "chrprfmech_hussarbase-001_30",
         "chrprfmech_bowmanbase-001_70",
         "chrprfmech_shootistbase-001_70",
-        "chrprfmech_blackheartbase-001_70"
+        "chrprfmech_blackheartbase-001_70",
+        "chrprfmech_jotunnbase-001_95",
+        "chrprfmech_omenbase-001_85"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

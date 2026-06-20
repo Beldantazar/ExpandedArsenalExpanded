@@ -223,7 +223,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Medium Striker and Interdictor",
-  "YangsThoughts": "An highly maneuverable medium mech with a long jump range, this thing is great at evading fire and hitting hard, but with the short range of its weapons you'll need to be careful to not overextend.",
+  "YangsThoughts": "A highly maneuverable medium mech with a long jump range, this thing is great at evading fire and hitting hard, but with the short range of its weapons you'll need to be careful to not overextend.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

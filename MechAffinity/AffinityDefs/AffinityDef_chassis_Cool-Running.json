@@ -23,7 +23,9 @@
         "chrprfmech_iceferretbase-001_45",
         "chrprfmech_owensbase-001_35",
         "chrprfmech_jenneriicbase-001_35",
-        "chrprfmech_anubisbase-001_30"
+        "chrprfmech_anubisbase-001_30",
+        "chrprfmech_ferdelancebase-001_30",
+        "chrprfmech_thornbase-001_20"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

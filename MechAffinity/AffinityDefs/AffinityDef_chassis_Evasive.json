@@ -23,7 +23,9 @@
         "chrprfmech_hunchbackiichotd-001_50",
         "chrprfmech_striderbase-001_40",
         "chrprfmech_toyamabase-001_75",
-        "chrprfmech_excaliburbase-001_70"
+        "chrprfmech_excaliburbase-001_70",
+        "chrprfmech_reptarbase-001_35",
+        "chrprfmech_hammerheadbase-001_45"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

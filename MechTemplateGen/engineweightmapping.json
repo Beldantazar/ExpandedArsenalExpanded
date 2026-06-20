@@ -394,6 +394,56 @@
             "weight": 52.5,
             "xlweight": 26.5,
             "gyroweight": 4.0
+        },
+        "405": {
+            "weight": 56.5,
+            "xlweight": 28.5,
+            "gyroweight": 5.0
+        },
+        "410": {
+            "weight": 61.5,
+            "xlweight": 30.5,
+            "gyroweight": 5.0
+        },
+        "415": {
+            "weight": 66.5,
+            "xlweight": 33.5,
+            "gyroweight": 5.0
+        },
+        "420": {
+            "weight": 72.5,
+            "xlweight": 35.5,
+            "gyroweight": 5.0
+        },
+        "425": {
+            "weight": 79.5,
+            "xlweight": 40.0,
+            "gyroweight": 5.0
+        },
+        "430": {
+            "weight": 87.5,
+            "xlweight": 44.0,
+            "gyroweight": 5.0
+        },
+        "435": {
+            "weight": 97.0,
+            "xlweight": 48.5,
+            "gyroweight": 5.0
+        },
+        "440": {
+            "weight": 107.5,
+            "xlweight": 54.0,
+            "gyroweight": 5.0
+        },
+        "445": {
+            "weight": 119.5,
+            "xlweight": 60.0,
+            "gyroweight": 5.0
+        },
+        "450": {
+            "weight": 133.5,
+            "xlweight": 67.0,
+            "gyroweight": 5.0
         }
     }
 }

@@ -1,0 +1,250 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_superheavy",
+      "unit_release",
+      "unit_lance_support",
+      "unit_role_sniper"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_svarog_SVG-4A",
+  "Description": {
+    "Cost": 25000000,
+    "Rarity": 10,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Svarog SVG-4A",
+    "Id": "mechdef_svarog_SVG-4A",
+    "Name": "Svarog",
+    "Details": "The Svarog, also known as the King Crab II, is named after the ancient Slavic god of fire. Unlike most other superheavy designs, it is intended to be a breakthrough 'Mech: it acts as the spearhead of an advance, engaging points of resistance and destroying them with massive firepower. The 4A deviates from the formula more drastically by mounting twin MRM 40s and a pair of RAC2s, the flamers having been replaced with lighter ER Small Lasers for weight savings. The Svarog has proved to be quite successful; even if an overconfident MechWarrior outruns their support, the 'Mech's sheer firepower and protection mean it can survive against heavy odds until help arrives.",
+    "Icon": "uixTxrIcon_superheavy"
+  },
+  "simGameMechPartCost": 714821,
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Head",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 41,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftArm",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftTorso",
+      "CurrentArmor": 245,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 245,
+      "AssignedRearArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "CenterTorso",
+      "CurrentArmor": 300,
+      "CurrentRearArmor": 60,
+      "CurrentInternalStructure": 190,
+      "AssignedArmor": 300,
+      "AssignedRearArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightTorso",
+      "CurrentArmor": 245,
+      "CurrentRearArmor": 50,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 245,
+      "AssignedRearArmor": 50,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightArm",
+      "CurrentArmor": 210,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 105,
+      "AssignedArmor": 210,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftLeg",
+      "CurrentArmor": 235,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 235,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightLeg",
+      "CurrentArmor": 235,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 130,
+      "AssignedArmor": 235,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_RotaryAutocannon_RAC5_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_BinaryLaserCannon_1-Defiance",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Laser_BinaryLaserCannon_1-Defiance",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_AC5_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

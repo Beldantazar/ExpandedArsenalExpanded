@@ -27,7 +27,8 @@
         "chrprfmech_merlinbase-001_60",
         "chrprfmech_hoplitebase-001_55",
         "chrprfmech_libertybase-001_65",
-        "chrprfmech_mushubase-001_45"
+        "chrprfmech_mushubase-001_45",
+        "chrprfmech_hermesbase-001_30"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

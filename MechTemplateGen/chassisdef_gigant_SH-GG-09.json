@@ -1,0 +1,255 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Superheavy_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 20000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Gigant",
+    "Id": "chassisdef_gigant_SH-GG-09",
+    "Name": "Gigant",
+    "Details": "The Gigant was created by House Steiner as an emergency response to House Marik's Longbow II superheavy 'Mech. Just as the Longbow II is an upsized Longbow, the Gigant is an upsized Crusader, with the designers taking advantage of Lyran resources to more than double the tonnage of the original chassis. The hasty process by which the Gigant was conceived meant that it suffered from numerous teething problems; most of these were eventually solved, but the design retains a dubious reputation. Regardless, as a superheavy it can lay down tremendous firepower with multiple missile launchers and energy weapons. The -09 model completely reworks the weaponry, twin arm mounted Large Variable Speed Pulse Lasers, two arm mounted Ultra Autocannon 5s, a quartet of torso mounted MML5s and two torso mounted ER Medium Lasers.",
+    "Icon": "uixTxrIcon_superheavy"
+  },
+  "MovementCapDefID": "movedef_stonerhino_300",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_crusader",
+  "PrefabIdentifier": "chrprfmech_crusaderhotd-001",
+  "PrefabBase": "crusader",
+  "Tonnage": 135,
+  "InitialTonnage": 39,
+  "weightClass": "ASSAULT",
+  "BattleValue": 10206000,
+  "Heatsinks": 30,
+  "TopSpeed": 105,
+  "TurnRadius": 290,
+  "MaxJumpjets": 0,
+  "Stability": 250,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 150,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 135,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 135,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 41
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 220,
+      "MaxRearArmor": -1,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 280,
+      "MaxRearArmor": 140,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 410,
+      "MaxRearArmor": 205,
+      "InternalStructure": 205
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 280,
+      "MaxRearArmor": 140,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 220,
+      "MaxRearArmor": -1,
+      "InternalStructure": 110
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 280,
+      "MaxRearArmor": -1,
+      "InternalStructure": 140
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 280,
+      "MaxRearArmor": -1,
+      "InternalStructure": 140
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "SH-GG-09",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.8"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy",
+  "YangsThoughts": "An interesting change of loadout, I'm not sure I like how heavy the large variable pulses are, but the techs can probably put something better in their place."
+}

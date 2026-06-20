@@ -65,12 +65,16 @@ namespace MechTemplateGen
         public bool? xlEngine;
         [JsonProperty("lEngine")]
         public bool? lEngine;
+        [JsonProperty("xxlEngine")]
+        public bool? xxlEngine;
         [JsonProperty("xlGyro")]
         public bool? xlGyro;
         [JsonProperty("mechIsOmni")]
         public bool? mechIsOmni;
         [JsonProperty("computeArmorStructure")]
         public bool? computeArmorStructure;
+        [JsonProperty("hardenedArmor")]
+        public bool? hardenedArmor;
         [JsonProperty("inventorySlots")]
         public int[]? inventorySlots;
         [JsonProperty("armor")]

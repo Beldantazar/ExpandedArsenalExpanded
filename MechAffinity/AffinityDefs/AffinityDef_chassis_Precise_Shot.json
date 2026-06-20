@@ -26,7 +26,10 @@
         "chrprfmech_torobase-001_35",
         "chrprfmech_darkcrowbase-001_55",
         "chrprfmech_carronadebase-001_70",
-        "chrprfmech_wobsh1base-001_125"
+        "chrprfmech_wobsh1base-001_125",
+        "chrprfmech_spectorbase-001_35",
+        "chrprfmech_duangungbase-001_25"
+
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

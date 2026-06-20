@@ -1,0 +1,313 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_release",
+      "unit_lance_support",
+      "unit_role_sniper",
+      "elite_arsenal",
+      "elite_arsenal_s_tier",
+      "unit_superheavy_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_matarii_SAM-CS-S2",
+  "Description": {
+    "Cost": 25000000,
+    "Rarity": 10,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Matar II SAM-CS-S2",
+    "Id": "mechdef_matarii_SAM-CS-S2",
+    "Name": "Matar II",
+    "Details": "The Matar, commonly referred to as \"Amaris' Folly\", was an early attempt to create a BattleMech able to withstand an entire company. Carrying devastating firepower and counters to all perceived threats, the Matar's leg actuators proved incapable of moving the massive machine and it never went into production. The Matar II is a 31st Century update on the original Matar design that uses advances in technology to correct its faults, adding 10 tons in the process. The CS variant is armed with a closer range loadout of UAC10s and ER Large Lasers.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_superheavy"
+  },
+  "simGameMechPartCost": 714821,
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Head",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 41,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftArm",
+      "CurrentArmor": 200,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 100,
+      "AssignedArmor": 200,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftTorso",
+      "CurrentArmor": 225,
+      "CurrentRearArmor": 40,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 225,
+      "AssignedRearArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "CenterTorso",
+      "CurrentArmor": 290,
+      "CurrentRearArmor": 60,
+      "CurrentInternalStructure": 180,
+      "AssignedArmor": 290,
+      "AssignedRearArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightTorso",
+      "CurrentArmor": 225,
+      "CurrentRearArmor": 40,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 225,
+      "AssignedRearArmor": 40,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightArm",
+      "CurrentArmor": 200,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 100,
+      "AssignedArmor": 200,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftLeg",
+      "CurrentArmor": 220,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 220,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightLeg",
+      "CurrentArmor": 220,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 220,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Gauss_Gauss_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Flamer_Flamer_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Weapon_Laser_LargeLaserER_0-STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Guardian_ECM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

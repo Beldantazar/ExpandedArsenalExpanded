@@ -2800,6 +2800,10 @@
             "itemId": "Gear_JumpJet_Heavy_Vectored_Thrust_Kit",
             "itemType": "JumpJet"
         },
+        "Gear_JumpJet_Heavy_Vectored_Thrust_Kit_70": {
+            "itemId": "Gear_JumpJet_Heavy_Vectored_Thrust_Kit_70",
+            "itemType": "JumpJet"
+        },
         "Gear_HeatSink_PartialWingSystem_Generic_Standard35": {
             "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard35",
             "itemType": "HeatSink"
@@ -2814,6 +2818,10 @@
         },
         "Gear_HeatSink_PartialWingSystem_Generic_Standard95": {
             "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard95",
+            "itemType": "HeatSink"
+        },
+        "Gear_HeatSink_PartialWingSystem_Generic_Standard70": {
+            "itemId": "Gear_HeatSink_PartialWingSystem_Generic_Standard70",
             "itemType": "HeatSink"
         },
         "Gear_PartialWing_Generic_Standard75": {

@@ -24,7 +24,9 @@
         "chrprfmech_chargerhotd-001_80",
         "chrprfmech_clintbase-001_40",
         "chrprfmech_shrikebase-001_95",
-        "chrprfmech_wraithbase-001_55"
+        "chrprfmech_wraithbase-001_55",
+        "chrprfmech_genericlight1base-001_30",
+        "chrprfmech_genericlight3base-001_30"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

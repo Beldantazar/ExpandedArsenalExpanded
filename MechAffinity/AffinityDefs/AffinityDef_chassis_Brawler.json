@@ -25,7 +25,8 @@
         "chrprfmech_roughneckbase-001_65",
         "chrprfmech_valkyrieiibase-001_60",
         "chrprfmech_conjurerbase-001_50",
-        "chrprfmech_grizzlybase-001_50"
+        "chrprfmech_grizzlybase-001_50",
+        "chrprfmech_ghostbase-001_50"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

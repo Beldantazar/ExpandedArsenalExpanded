@@ -15,7 +15,7 @@
         "Icon": "uixSvgIcon_equipment_TTS"
     },
     "BonusValueA": "+ 90m SRM Range",
-    "BonusValueB": "+100% SRM Heat",
+    "BonusValueB": "+50% SRM Heat",
     "ComponentType": "Upgrade",
     "ComponentSubType": "NotSet",
     "PrefabIdentifier": "",
@@ -163,7 +163,7 @@
                 "effectsPersistAfterDestruction": false,
                 "statName": "HeatGenerated",
                 "operation": "Float_Multiply",
-                "modValue": "2",
+                "modValue": "1.5",
                 "modType": "System.Single",
                 "additionalRules": "NotSet",
                 "targetCollection": "Weapon",

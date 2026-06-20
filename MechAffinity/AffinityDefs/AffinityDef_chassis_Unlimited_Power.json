@@ -29,7 +29,10 @@
         "chrprfmech_battlehammerbase-001_85",
         "chrprfmech_ionraptorbase-001_70",
         "chrprfmech_ionraptor2base-001_70",
-        "chrprfmech_wobsh1base-001_130"
+        "chrprfmech_wobsh1base-001_130",
+        "chrprfmech_piratemech1base-001_135",
+        "chrprfmech_arthurbase-001_95",
+        "chrprfmech_vonrohrsbase-001_65"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

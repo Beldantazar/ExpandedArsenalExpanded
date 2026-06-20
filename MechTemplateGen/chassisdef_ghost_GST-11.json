@@ -1,0 +1,218 @@
+{
+  "Description": {
+    "Cost": 4200000,
+    "Rarity": 3,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Ghost",
+    "Id": "chassisdef_ghost_GST-11",
+    "Name": "Ghost",
+    "Details": "Developed as a complement to the Griffin in the later years of the Jihad, the Ghost is a medium strike 'Mech that saw considerable use in the years after the formation of the Republic of the Sphere. Developed by the Lyran Commonwealth and elements of the former Free Worlds League, the Ghost carries an extensive array of electronic warfare equipment into combat. With excellent land speed and formidable medium-range weaponry, the Ghost is ideal for hunter-killer and heavy raiding missions, especially when paired with Griffins. Though production runs started low due to the expensive stealth armor and electronics, both Defiance and Earthwerks make a simpler Ghost variant available for purchase on the open market. The Ghost is built on a standard Enran TXS2A chassis and powered by a GM 300 XL engine, allowing it to move at speeds up to 97.2 km/h. Besides this speed, the Ghost is protected by 10.5 tons of stealth armor, powered by a mounted Guardian ECM suite. These, combined with the weapon loadout, allow the Ghost to dictate the pace and range of engagements. Offensively, the Ghost uses twin Defiance 1002 light PPCs to hit a target at long ranges, supplemented by two Helga Series MML-3s that can support this fire with one ton of long range missiles. After closing with enemy forces, the Ghost can easily switch to its single ton SRM ammunition and the BlazeFire Longshot ER medium laser to damage the enemy. A Beagle active probe helps the Ghost detect enemies and defeat enemy ECM, while fourteen double heat sinks work to keep things cool. The GST-11 is identical to the -10 except for removing the stealth armor.",
+    "Icon": "uixTxrIcon_ghost"
+  },
+  "MovementCapDefID": "movedef_ghost_GST-11",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_ghost",
+  "PrefabIdentifier": "chrprfmech_ghostbase-001",
+  "PrefabBase": "ghost",
+  "Tonnage": 50,
+  "InitialTonnage": 20.5,
+  "weightClass": "MEDIUM",
+  "BattleValue": 4596000,
+  "Heatsinks": 30,
+  "TopSpeed": 120,
+  "TurnRadius": 90,
+  "MaxJumpjets": 6,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 5,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 65,
+  "MeleeInstability": 50,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 65,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 65,
+  "DFAInstability": 65,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 160,
+      "MaxRearArmor": 80,
+      "InternalStructure": 80
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": -1,
+      "InternalStructure": 60
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 15,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": -4,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 2.5,
+      "y": 6,
+      "z": 2.5
+    },
+    {
+      "x": -2.5,
+      "y": 6,
+      "z": 2.5
+    }
+  ],
+  "VariantName": "GST-11",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fire Support",
+  "YangsThoughts": "A perfectly serviceable medium mech, not the best firepower but decent for this sort of thing."
+}

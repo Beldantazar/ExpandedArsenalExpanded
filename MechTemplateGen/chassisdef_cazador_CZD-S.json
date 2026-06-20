@@ -1,0 +1,212 @@
+{
+  "Description": {
+    "Cost": 3300000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Cazador",
+    "Id": "chassisdef_cazador_CZD-S",
+    "Name": "Cazador",
+    "Details": "The Cazador is the BattleMech version of the Reptar MilitiaMech developed by the Escorpión Imperio. Where the original Reptar mounted a fuel cell engine, the Imperio's technicians and engineers fitted a fusion engine with ten heat sinks to the endo steel chassis. Instead of the original protomech AC/8 with light machineguns in the side torsos, the Cazador has upgraded to a single LB 10-X mounted in the right arm and a small pulse laser mounted in each side torso. Two tons of autocannon ammunition is carried in a CASE protected bay in the right torso. Six tons of armor protects the 'Mech, while a supercharger is attached to the engine, allowing the Cazador to reach a top speed of 108 km/h in short bursts and facilitate quick escapes or pursuits.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_reptar"
+  },
+  "MovementCapDefID": "movedef_reptar_CZD-1",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_reptar",
+  "PrefabIdentifier": "chrprfmech_reptarbase-001",
+  "PrefabBase": "reptar",
+  "Tonnage": 35,
+  "InitialTonnage": 14.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 3762000,
+  "Heatsinks": 45,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 35,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0.5
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0.5
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": -2.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "CZD-S",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light Striker",
+  "YangsThoughts": "I've never seen the point of weak militiamechs, they're too fragile to deal with any actual serious invasion, even here in the periphery, and while they're cheap to make, they still take resources that could be used to make better units. This thing is at least a proper fast striker and raider, not the fastest but it's got great firepower for a light mech."
+}

@@ -1,0 +1,278 @@
+{
+  "MechTags": {
+    "items": [
+      "unit_superheavy",
+      "unit_release",
+      "unit_lance_support",
+      "unit_role_sniper",
+      "wolverine",
+      "elite_arsenal"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "ChassisID": "chassisdef_alpha_ALP-X2",
+  "Description": {
+    "Cost": 25000000,
+    "Rarity": 10,
+    "Purchasable": true,
+    "Manufacturer": null,
+    "Model": null,
+    "UIName": "Alpha ALP-X2",
+    "Id": "mechdef_alpha_ALP-X2",
+    "Name": "Alpha",
+    "Details": "The Alpha is a mysterious new super heavy chassis design. The fact that it is fully built by clan level tech is unmistakeable, however the name of the clan responsible for constructing it is unknown. Unknown design origin aside, the ability of the mech to actually function is clearly based on the Omega superheavy as designed by the Word of Blake. This mech, however, is built with a wide variety of weapons hardpoints in both arms and both torsos, to allow for more weapons customization than most mechs superheavy or otherwise. Designed for a more firesupport role, the ALP-2 is fitted with twin HAG 20's for sniping, a pair of ATM 9s and ATM 12s for more precise fire support and a massive array of 8 medium pulse lasers to neutralize anything foolish enough to get into close range. Its primary flaw is a lack of ammunition to sustain bombardment for long periods.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_superheavy"
+  },
+  "simGameMechPartCost": 714821,
+  "Version": 1,
+  "Locations": [
+    {
+      "Location": "Head",
+      "CurrentArmor": 80,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 41,
+      "AssignedArmor": 80,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftArm",
+      "CurrentArmor": 250,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 250,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftTorso",
+      "CurrentArmor": 280,
+      "CurrentRearArmor": 60,
+      "CurrentInternalStructure": 160,
+      "AssignedArmor": 280,
+      "AssignedRearArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "CenterTorso",
+      "CurrentArmor": 340,
+      "CurrentRearArmor": 80,
+      "CurrentInternalStructure": 225,
+      "AssignedArmor": 340,
+      "AssignedRearArmor": 80,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightTorso",
+      "CurrentArmor": 280,
+      "CurrentRearArmor": 60,
+      "CurrentInternalStructure": 160,
+      "AssignedArmor": 280,
+      "AssignedRearArmor": 60,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightArm",
+      "CurrentArmor": 250,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 250,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "LeftLeg",
+      "CurrentArmor": 280,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 160,
+      "AssignedArmor": 280,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "Location": "RightLeg",
+      "CurrentArmor": 280,
+      "CurrentRearArmor": -1,
+      "CurrentInternalStructure": 160,
+      "AssignedArmor": 280,
+      "AssignedRearArmor": -1,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "inventory": [
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_PPC_PPC_MICRO",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Weapon_LRM_LRM20_Clantech",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Shotgauss_20_CLAN_STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_Plasma_RefinedPlasmaPPC_STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Weapon_PPC_PPC_MICRO",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_PPC_PPC_MICRO",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Weapon_LRM_LRM20_Clantech",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Shotgauss_20_CLAN_STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_Plasma_RefinedPlasmaPPC_STOCK",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Weapon_PPC_PPC_MICRO",
+      "ComponentDefType": "Weapon",
+      "HardpointSlot": 0,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB20X_Double",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Guardian_ECM_CLAN",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": 0,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftArm",
+      "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightArm",
+      "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "RightLeg",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+      "SimGameUID": null,
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional",
+      "hasPrefabName": false
+    }
+  ]
+}

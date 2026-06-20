@@ -1,0 +1,227 @@
+{
+  "Description": {
+    "Cost": 7873010,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Whitworth",
+    "Id": "chassisdef_whitworth_WTH-X2",
+    "Name": "Whitworth",
+    "Details": "The Whitworth is something of an ugly duckling, known among both critics and fans as the 'Tin Woodsman.' It was originally produced in 2610 as a BattleMech that was meant to fill the weight gap between the lighter Wasp and the heavier Phoenix Hawk 'Mechs as a light-weight missile support platform. The Whitworth, though, is slower than either of these designs by over 30 km/h. The original WTH-1S Whitworth model saw combat in the Age of War, however since it was armed with Harpoon-6 SRMs many were lost when their pilots rushed into close-range combat to effectively use them where they were often mauled by heavier machines. The Whitworth's lack of hand actuators, low speed curve, unconventional armor distribution, and weak leg joints made the machine a poor brawling platform. At the insistence of the Star League, the Whitworth Company replaced these weapons with LRMs in 2689 and the WTH-1 would serve in the Star League Defense Force as an able if mediocre scout and light strike platform. Whitworths often took part in reconnaissance-in-force missions and raids against well-defended areas, often alongside Wolverines and Phoenix Hawks, or provided fire support for heavy attack forces with Riflemans and Warhammers when not used in common defensive roles. This Draconis Combine variant of the Whitworth introduced in 3068 harkens back to the WTH-1S Whitworth though whether they were custom refits or new production models is unknown. The chassis has been redesigned using endo steel construction techniques, one of the three medium lasers have been downgraded to a small laser and the heat sinks were upgraded to ten double heat sinks. The saved weight was used to add four Streak SRM-4 launchers and a C3i unit.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_whitworth"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_whitworth_WTH-2A",
+  "PathingCapDefID": "pathingdef_medium",
+  "HardpointDataDefID": "hardpointdatadef_whitworth",
+  "PrefabIdentifier": "chrprfmech_whitworthbase-001",
+  "PrefabBase": "whitworth",
+  "Tonnage": 40,
+  "InitialTonnage": 13.0,
+  "weightClass": "MEDIUM",
+  "BattleValue": 3749000,
+  "Heatsinks": 30,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 4,
+  "Stability": 130,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 50,
+  "MeleeInstability": 12,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 45,
+  "DFAInstability": 23,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 120,
+      "MaxRearArmor": 60,
+      "InternalStructure": 60
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "WTH-X2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Slow Brawler",
+  "YangsThoughts": "This has a lot more close in firepower, and better electronics, so it can fight better, but it's still very slow."
+}

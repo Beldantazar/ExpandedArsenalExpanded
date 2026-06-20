@@ -158,6 +158,7 @@ void processMechInfo(MechInfo info)
         var engineTonnageMapping = weightMapping.entries[info.mechEngine.ToString()];
         var engineTonnage = Decimal.Parse(((info.xlEngine ?? false) ? engineTonnageMapping.xlWeight : engineTonnageMapping.weight) ?? "0.0");
         engineTonnage = (info.lEngine ?? false) ? MathHelper.CeilingToNearest(Decimal.Parse(engineTonnageMapping.weight ?? "0.0") * 0.75m, 0.5m) : engineTonnage;
+        engineTonnage = (info.xxlEngine ?? false) ? MathHelper.CeilingToNearest(Decimal.Parse(engineTonnageMapping.weight ?? "0.0") * 0.33m, 0.5m) : engineTonnage;
         var gyroWeight = Decimal.Parse(engineTonnageMapping.gyroWeight ?? "0.0");
         if (info.mechTonnage > 100)
         {
@@ -281,7 +282,10 @@ void processMechInfo(MechInfo info)
                 var structureForLocation = structureMapping.entries[location].tonnageToStructure[chassisTonnage.ToString()];
                 var hbsStructureForLocation = structureForLocation * 5 + (location == "Head" ? 1 : 0);
                 var hbsFrontArmorForLocation = location == "Head" ? (chassisTonnage > 100 ? 80 : 45) : hbsStructureForLocation * 2;
-                var hbsRearArmorForLocation = location.Contains("Torso") ? structureForLocation : -1;
+                var hbsRearArmorForLocation = location.Contains("Torso") ? hbsStructureForLocation : -1;
+                hbsFrontArmorForLocation = (info.hardenedArmor ?? false) ? hbsFrontArmorForLocation * 2 : hbsFrontArmorForLocation;
+                hbsRearArmorForLocation = (info.hardenedArmor ?? false) ? hbsRearArmorForLocation * 2 : hbsRearArmorForLocation;
+                hbsRearArmorForLocation = hbsRearArmorForLocation == -2 ? -1 : hbsRearArmorForLocation;
                 locations[i]["MaxArmor"] = hbsFrontArmorForLocation;
                 locations[i]["MaxRearArmor"] = hbsRearArmorForLocation;
                 locations[i]["InternalStructure"] = hbsStructureForLocation;

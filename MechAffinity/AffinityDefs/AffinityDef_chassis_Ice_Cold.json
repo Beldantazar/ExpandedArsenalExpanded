@@ -25,7 +25,10 @@
         "chrprfmech_mercurybase-001_20",
         "chrprfmech_thunderstonebase-001_135",
         "chrprfmech_jcrabbasebase-001_75",
-        "chrprfmech_crabshasapultbase-001_100"
+        "chrprfmech_crabshasapultbase-001_100",
+        "chrprfmech_coehornbase-001_75",
+        "chrprfmech_legacybase-001_80",
+        "chrprfmech_flambergebase-001_80"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],

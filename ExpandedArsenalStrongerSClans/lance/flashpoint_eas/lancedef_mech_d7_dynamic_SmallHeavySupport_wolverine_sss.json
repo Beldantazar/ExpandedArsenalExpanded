@@ -161,9 +161,11 @@
             "unitId": "Tagged",
             "pilotId": "Tagged",
             "unitTagSet": {
-                "items": "unit_mech_s_tier",
+                "items": [
+                    "unit_mech_s_tier",
                     "elite_arsenal",
-                    "elite_arsenal_s_tier",
+                    "elite_arsenal_s_tier"
+                ],
                 "tagSetSourceFile": "Tags/UnitTags"
             },
             "excludedUnitTagSet": {

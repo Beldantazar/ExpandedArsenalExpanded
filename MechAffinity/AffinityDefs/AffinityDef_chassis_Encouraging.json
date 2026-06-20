@@ -26,7 +26,8 @@
         "chrprfmech_hauptmannbase-001_95",
         "chrprfmech_ostsolhotd-001_60",
         "chrprfmech_arcticwolfbase-001_40",
-        "chrprfmech_naginatabase-001_95"
+        "chrprfmech_naginatabase-001_95",
+        "chrprfmech_genericlight4base-001_35"
     ],
     "idType": "AssemblyVariant",
     "altMaps": [],
