@@ -1,0 +1,218 @@
+{
+  "Description": {
+    "Cost": 7873010,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Von Rohrs",
+    "Id": "chassisdef_vonrohrs_VON-4RH-6",
+    "Name": "Von Rohrs",
+    "Details": "Following the Battle of Nox and the failure of the Gladiator during that battle, Coordinator Yama Von Rohrs ordered the creation of a new manufacturing center with a new BattleMech. 2487 saw the first Von Rohrs step out of the factory. This new 'Mech was to be symbolic of the Dragon's steps forward, as well as the Dragon itself. Following the McAllister Rebellion that saw all of the members of the Von Rohrs dynasty killed, Coordinator Martin McAllister ordered the Von Rohrs renamed the Hebi. He further mandated that the BattleMech not be salvaged from the battlefield and instead chose to focus on newer designs, a situation eerily reminiscent of the fate of the Gladiator. Production ceased in 2510 and the last Hebi was dismantled in 2518. The BattleMech itself can reach speeds up to 86 km/h. It is protected by a reasonable nine tons of armor. A planned variant that may or may not have reached production status prior to the annihilation of the Von Rohrs family, this version of the Von Rohrs called for the replacement of the missile launcher with two SRM-4s. An additional heat sink would have allowed it to keep up a respectable rate of fire.",
+    "Icon": "uixTxrIcon_ebonjaguar"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_vonrohrs_VON-4RH-6",
+  "PathingCapDefID": "pathingdef_heavy",
+  "HardpointDataDefID": "hardpointdatadef_vonrohrs",
+  "PrefabIdentifier": "chrprfmech_vonrohrsbase-001",
+  "PrefabBase": "vonrohrs",
+  "Tonnage": 65,
+  "InitialTonnage": 37.0,
+  "weightClass": "HEAVY",
+  "BattleValue": 3749000,
+  "Heatsinks": 0,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 5,
+  "Stability": 160,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.25,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.25,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 65,
+  "MeleeInstability": 65,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 60,
+  "DFAToHitModifier": 2,
+  "DFASelfDamage": 60,
+  "DFAInstability": 30,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 210,
+      "MaxRearArmor": 105,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 150,
+      "MaxRearArmor": 75,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 100,
+      "MaxRearArmor": -1,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 150,
+      "MaxRearArmor": -1,
+      "InternalStructure": 75
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "VON-4RH-6",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Antique Heavy Skirmisher",
+  "YangsThoughts": "I'm not even surprised at this point, why <i>wouldn't</i> an extinct mech from 500 years ago turn up in our mechbay in repairable condition. The impossibility of it existing aside, it's a bit light on armor for a heavy mech and doesn't have much space for weaponry compared to modern mechs."
+}

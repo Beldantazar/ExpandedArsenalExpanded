@@ -223,7 +223,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Medium Striker and Interdictor",
-  "YangsThoughts": "An highly maneuverable medium mech with a long jump range. This variants improved weapons ranges allow for it to operate better as a direct competitor to the phoenix hawk, but it does lack the range of the MMLs.",
+  "YangsThoughts": "A highly maneuverable medium mech with a long jump range. This variants improved weapons ranges allow for it to operate better as a direct competitor to the phoenix hawk, but it does lack the range of the MMLs.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",

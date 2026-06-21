@@ -1,0 +1,245 @@
+{
+  "Description": {
+    "Cost": 3300000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Jackdaw",
+    "Id": "chassisdef_jackdaw_JCD-2EK",
+    "Name": "Jackdaw",
+    "Details": "The Jackdaw is a post-Jihad ground up redesign of the Raven. Built using a combination of Clan and Inner Sphere equipment, it serves primarily as powerful electronics warfare and lance coordination unit for light lances. Its most notable equipment is the Angel ECM Suite and Bloodhound Active Probe it mounts ensuring that it has the electronics power to overwhelm any opposition using less advanced systems. Built using a 245 XL engine and an EndoSteel chassis, it has enough free tonnage to mount a decent array of weaponry for a scout mech. The 2EK version mounts 4 Clan-spec ER Medium Lasers and a trio of Clan-Spec LRM-5 launchers although it can only manage to carry one ton of ammunition for them. Four extra double heat sinks are needed to keep this variant stable.",
+    "Icon": "uixTxrIcon_owens"
+  },
+  "MovementCapDefID": "movedef_genericlight2_JCD-2EK",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_genericlight2",
+  "PrefabIdentifier": "chrprfmech_genericlight2base-001",
+  "PrefabBase": "genericlight2",
+  "Tonnage": 35,
+  "InitialTonnage": 12.5,
+  "weightClass": "LIGHT",
+  "BattleValue": 3762000,
+  "Heatsinks": 30,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 7,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 35,
+  "MeleeInstability": 35,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 45,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 45,
+  "DFAInstability": 45,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 110,
+      "MaxRearArmor": 55,
+      "InternalStructure": 55
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 40
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0.5
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 10,
+      "z": 0.5
+    },
+    {
+      "x": -3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 9,
+      "z": -0.5
+    },
+    {
+      "x": -2.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "JCD-2EK",
+  "ChassisTags": {
+    "items": [],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Fast Striker Cavalry",
+  "YangsThoughts": "Now this is an interesting machine, that ECM suite is seriously powerful, and nothing can hide from that probe either. A bit more close range firepower at the cost of some of that long range bombardment power, good for rougher terrain where you can't get a good shot in at distance.'.",
+  "FixedEquipment": [
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_General_Lance_Command_Module",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Angel_ECM",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_Bloodhound_AP",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "DamageLevel": "Functional"
+    }
+  ]
+}

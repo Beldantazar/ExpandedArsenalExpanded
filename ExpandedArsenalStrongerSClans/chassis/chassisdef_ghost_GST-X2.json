@@ -5,25 +5,25 @@
     "Purchasable": true,
     "Manufacturer": "",
     "Model": "",
-    "UIName": "Eris",
-    "Id": "chassisdef_eris_ERS-2N",
-    "Name": "Eris",
-    "Details": "The Eris began as an attempt by Nashan Diversified to branch out of IndustrialMechs and into BattleMechs along with the Inner Sphere's other major BattleMech manufacturers. It was originally called the Hel, but the LCAF rejected the design, and Nashan Diversified was only able to sell a few to mercenaries and various governments within the former Free Worlds League before Defiance Industries stopped supplying Nashan with necessary components to what had become a competitor. Left with a powerful 'Mech it was no longer able to build, Nashan sold the specifications for the Hel to Kallon Weapon Industries, who went on to redesign the 'Mech as a skirmisher ideally suited for the sort of fighting that was going on in the former Free Worlds League following the end of the Jihad. The armament of the Hel was very similar to that of the Wolverine, which was also manufactured by Kallon. As such, they tried to distinguish the Eris by adding a partial wing, which improved its mobility in rough terrain and also allowed them to market it as a competitor to the Phoenix Hawk being sold by Earthwerks. The energy weaponry that the Hel had used were replaced with a Fusigon Smarttooth snub-nose PPC and three Diverse Optics small X-Pulse lasers, and the Hel's single Streak Missile Launcher were replaced with a pair of Holly MML-5s fed from two CASE II protected ammo bins.",
-    "Icon": "uixTxrIcon_eris"
+    "UIName": "Ghost",
+    "Id": "chassisdef_ghost_GST-X2",
+    "Name": "Ghost",
+    "Details": "Developed as a complement to the Griffin in the later years of the Jihad, the Ghost is a medium strike 'Mech that saw considerable use in the years after the formation of the Republic of the Sphere. Developed by the Lyran Commonwealth and elements of the former Free Worlds League, the Ghost carries an extensive array of electronic warfare equipment into combat. With excellent land speed and formidable medium-range weaponry, the Ghost is ideal for hunter-killer and heavy raiding missions, especially when paired with Griffins. Though production runs started low due to the expensive stealth armor and electronics, both Defiance and Earthwerks make a simpler Ghost variant available for purchase on the open market. The Ghost is built on a standard Enran TXS2A chassis and powered by a GM 300 XL engine, allowing it to move at speeds up to 97.2 km/h. Besides this speed, the Ghost is protected by 10.5 tons of stealth armor, powered by a mounted Guardian ECM suite. These, combined with the weapon loadout, allow the Ghost to dictate the pace and range of engagements. This variant, developed in 3087, replaces the standard weapons with a pair of large pulse lasers, an ER small laser, and a single SRM-6. Built around an endo steel skeleton, this version uses a Defiance 300 light fusion engine and standard armor with CASE to protect itself.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_ghost"
   },
-  "MovementCapDefID": "movedef_eris_ERS-2N",
+  "MovementCapDefID": "movedef_ghost_GST-50",
   "PathingCapDefID": "pathingdef_medium",
-  "HardpointDataDefID": "hardpointdatadef_eris",
-  "PrefabIdentifier": "chrprfmech_erisbase-001",
-  "PrefabBase": "eris",
+  "HardpointDataDefID": "hardpointdatadef_ghost",
+  "PrefabIdentifier": "chrprfmech_ghostbase-001",
+  "PrefabBase": "ghost",
   "Tonnage": 50,
-  "InitialTonnage": 15.0,
+  "InitialTonnage": 23.0,
   "weightClass": "MEDIUM",
   "BattleValue": 4596000,
   "Heatsinks": 30,
   "TopSpeed": 120,
   "TurnRadius": 90,
-  "MaxJumpjets": 5,
+  "MaxJumpjets": 6,
   "Stability": 130,
   "StabilityDefenses": [
     0,
@@ -49,12 +49,7 @@
   "Locations": [
     {
       "Location": "Head",
-      "Hardpoints": [
-        {
-          "WeaponMount": "AntiPersonnel",
-          "Omni": false
-        }
-      ],
+      "Hardpoints": [],
       "Tonnage": 0,
       "InventorySlots": 1,
       "MaxArmor": 45,
@@ -64,10 +59,6 @@
     {
       "Location": "LeftArm",
       "Hardpoints": [
-        {
-          "WeaponMount": "Energy",
-          "Omni": false
-        },
         {
           "WeaponMount": "Energy",
           "Omni": false
@@ -91,11 +82,7 @@
       "Location": "LeftTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -107,7 +94,12 @@
     },
     {
       "Location": "CenterTorso",
-      "Hardpoints": [],
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
       "Tonnage": 0,
       "InventorySlots": 4,
       "MaxArmor": 160,
@@ -118,11 +110,7 @@
       "Location": "RightTorso",
       "Hardpoints": [
         {
-          "WeaponMount": "Missile",
-          "Omni": false
-        },
-        {
-          "WeaponMount": "Missile",
+          "WeaponMount": "Energy",
           "Omni": false
         }
       ],
@@ -140,7 +128,11 @@
           "Omni": false
         },
         {
-          "WeaponMount": "Energy",
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
           "Omni": false
         },
         {
@@ -217,27 +209,13 @@
       "z": 2.5
     }
   ],
-  "VariantName": "ERS-2N",
+  "VariantName": "GST-X2",
   "ChassisTags": {
-    "items": [],
+    "items": [
+      "elite_arsenal"
+    ],
     "tagSetSourceFile": ""
   },
-  "StockRole": "Medium Striker and Interdictor",
-  "YangsThoughts": "A highly maneuverable medium mech with a long jump range, this thing is great at evading fire and hitting hard, but with the short range of its weapons you'll need to be careful to not overextend.",
-  "FixedEquipment": [
-    {
-      "MountedLocation": "LeftTorso",
-      "ComponentDefID": "Gear_HeatSink_PartialWingSystem_Generic_Standard50",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "MountedLocation": "RightTorso",
-      "ComponentDefID": "Gear_HeatSink_PartialWingSystem_Generic_Standard50",
-      "ComponentDefType": "HeatSink",
-      "HardpointSlot": -1,
-      "DamageLevel": "Functional"
-    }
-  ]
+  "StockRole": "Medium Brawler and Striker",
+  "YangsThoughts": "A perfectly serviceable medium mech, not the best firepower but decent for this sort of thing."
 }

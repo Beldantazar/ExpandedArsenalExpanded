@@ -1,0 +1,238 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Superheavy_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 20000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Rampart",
+    "Id": "chassisdef_rampart_RPT-S3",
+    "Name": "Rampart",
+    "Details": "The Rampart is Clan Diamond Shark's first attempt to create a superheavy BattleMech. The alternate RPT-3 layout is designed for heavy fire support by mounting 4 RAC5s, barely capable of fitting enough ammo to run the guns, or enough heat management to allow firing them, the mech is nevertheless brutally efficient if it can bring the weapons to bear.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_superheavy"
+  },
+  "MovementCapDefID": "movedef_stonerhino_300",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_genericsh3",
+  "PrefabIdentifier": "chrprfmech_genericsh3base-001",
+  "PrefabBase": "genericsh3",
+  "Tonnage": 125,
+  "InitialTonnage": 33,
+  "weightClass": "ASSAULT",
+  "BattleValue": 10206000,
+  "Heatsinks": 45,
+  "TopSpeed": 105,
+  "TurnRadius": 290,
+  "MaxJumpjets": 0,
+  "Stability": 250,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 130,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 125,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 125,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 41
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 260,
+      "MaxRearArmor": 130,
+      "InternalStructure": 130
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 380,
+      "MaxRearArmor": 190,
+      "InternalStructure": 190
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 260,
+      "MaxRearArmor": 130,
+      "InternalStructure": 130
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 210,
+      "MaxRearArmor": -1,
+      "InternalStructure": 105
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 260,
+      "MaxRearArmor": -1,
+      "InternalStructure": 130
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 260,
+      "MaxRearArmor": -1,
+      "InternalStructure": 130
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 14,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": 3.5,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3.5,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "RPT-S3",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.8",
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy",
+  "YangsThoughts": "Well, it's direct and to the point I'll give it that, but running nothing but RAC5s is the sort of layout a madman would put together."
+}

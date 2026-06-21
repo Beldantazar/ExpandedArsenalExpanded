@@ -1,0 +1,221 @@
+{
+  "Description": {
+    "Cost": 7873010,
+    "Rarity": 2,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Omen",
+    "Id": "chassisdef_omen_OMN-S2",
+    "Name": "Omen",
+    "Details": "The Omen is a Clan assault BattleMech that was created by Clan Snow Raven in the post-Jihad era. The design first began production in 3087, and saw deployment by 3088. The Omen was conceived as a means to bolster the Clan's touman, which was depleted of BattleMech ranks among its second-line combat units. The 'Mech saw production at the Clan's controlled world of Dante, where it could keep Clan technology from falling to its less trusted Outworlds Alliance compatriots. Designed as an all-purpose combat unit, the Omen is considered to be slower than the typical late thirty-first century Clan Assault BattleMech. However, its well-rounded weaponry and its 16.5 tons of standard armor allows it to be durable in combat. Also to help with its lack of speed, the Omen has been given three jump jets, which allow the 'Mech to tactically position itself up to 90 meters in the air and effectively use its weapons. The Omen 2 changes up the weaponry significantly by fitting twin Refined Plasma PPCs for closer in damage, a Shotgauss 10 to attempt to cause damage to enemy internals and a rack of light thunderbolts for heavy impact damage.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_omen"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_omen_OMN-2",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_omen",
+  "PrefabIdentifier": "chrprfmech_omenbase-001",
+  "PrefabBase": "omen",
+  "Tonnage": 85,
+  "InitialTonnage": 17.0,
+  "weightClass": "ASSAULT",
+  "BattleValue": 3749000,
+  "Heatsinks": 45,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 3,
+  "Stability": 200,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1.2,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1.2,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": true,
+  "MeleeDamage": 105,
+  "MeleeInstability": 90,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 105,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 115,
+  "DFAInstability": 115,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 270,
+      "MaxRearArmor": 135,
+      "InternalStructure": 135
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 180,
+      "MaxRearArmor": 90,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 140,
+      "MaxRearArmor": -1,
+      "InternalStructure": 70
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 180,
+      "MaxRearArmor": -1,
+      "InternalStructure": 90
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 12.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 11.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "OMN-S2",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Heavy Clan Juggernaut",
+  "YangsThoughts": "An efficient loadout overall for that damage, but watch out for that Shotgauss, it has a nasty habit of exploding on you, and the ammo bins are explosive too."
+}

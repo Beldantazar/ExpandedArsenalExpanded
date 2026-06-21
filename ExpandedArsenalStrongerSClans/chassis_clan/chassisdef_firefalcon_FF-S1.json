@@ -1,0 +1,228 @@
+{
+  "Description": {
+    "Cost": 2100000,
+    "Rarity": 1,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Fire Falcon",
+    "Id": "chassisdef_firefalcon_FF-S1",
+    "Name": "Fire Falcon",
+    "Details": "The Fire Falcon was created in the early-3050s, apparently as a replacement for the Mist Lynx; it is faster, has more front-facing armor, and more pod space, though it lacks the jump jets of that earlier 'Mech. It makes use of weight-saving materials in the form of an XL engine, an endo steel internal structure, and four tons of ferro-fibrous armor. Clan Jade Falcon first produced this OmniMech on their capital of Ironhold, but they soon began to produce it on the Occupation Zone headquarters of Sudeten. In November of 3069, Clan Steel Viper would sack Ironhold as part that Clan's effort to expel the Jade Falcons from the Clan Homeworlds. The invasion would end up destroying the Fire Falcon's production facilities, letting the design fade from use by Homeworlds based Clans. With the 'Mech featuring a total of ten tons of pod space, the Primary configuration of the Fire Falcon is best at short to medium ranges where it can bring its twin Streak SRM-4 launchers, medium pulse laser, two ER medium lasers, and two ER small lasers to bear. While this barrage is powerful for a 'Mech its size, ten double heat sinks are mostly able to keep the design cool.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_genericlight1"
+  },
+  "FixedEquipment": [],
+  "MovementCapDefID": "movedef_genericlight1_FF-PRIME",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_genericlight1",
+  "PrefabIdentifier": "chrprfmech_genericlight1base-001",
+  "PrefabBase": "genericlight1",
+  "Tonnage": 25,
+  "InitialTonnage": 11.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 2061000,
+  "Heatsinks": 45,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 8,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 35,
+  "MeleeInstability": 25,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 30,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 30,
+  "DFAInstability": 30,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 80,
+      "MaxRearArmor": 40,
+      "InternalStructure": 40
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 60,
+      "MaxRearArmor": 30,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 40,
+      "MaxRearArmor": -1,
+      "InternalStructure": 20
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 60,
+      "MaxRearArmor": -1,
+      "InternalStructure": 30
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 9.5,
+      "z": 0.5
+    },
+    {
+      "x": -2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 8.5,
+      "z": -0.5
+    },
+    {
+      "x": -1.5,
+      "y": 3,
+      "z": 0.5
+    },
+    {
+      "x": 1.5,
+      "y": 3,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "FF-S1",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Light High-Speed Striker",
+  "YangsThoughts": "Pretty fast, and lots of firepower for how small it is, a bit light on the armor, but you can't really expect better with a mech this light."
+}

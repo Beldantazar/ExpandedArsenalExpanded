@@ -6,12 +6,12 @@
     "Manufacturer": "",
     "Model": "",
     "UIName": "Eris",
-    "Id": "chassisdef_eris_ERS-X",
+    "Id": "chassisdef_eris_ERS-X2",
     "Name": "Eris",
-    "Details": "The Eris began as an attempt by Nashan Diversified to branch out of IndustrialMechs and into BattleMechs along with the Inner Sphere's other major BattleMech manufacturers. It was originally called the Hel, but the LCAF rejected the design, and Nashan Diversified was only able to sell a few to mercenaries and various governments within the former Free Worlds League before Defiance Industries stopped supplying Nashan with necessary components to what had become a competitor. Left with a powerful 'Mech it was no longer able to build, Nashan sold the specifications for the Hel to Kallon Weapon Industries, who went on to redesign the 'Mech as a skirmisher ideally suited for the sort of fighting that was going on in the former Free Worlds League following the end of the Jihad. The armament of the Hel was very similar to that of the Wolverine, which was also manufactured by Kallon. As such, they tried to distinguish the Eris by adding a partial wing, which improved its mobility in rough terrain and also allowed them to market it as a competitor to the Phoenix Hawk being sold by Earthwerks. Save for different component manufacturers, this variant was functionally identical to the HL-1 Hel, and became popular after Clan Wolf conquered Thermopolis, cutting off access to new Wolverines. This means a Heavy PPC in the right arm, with a Streak SRM-6 in the left torso and a pair of ER Medium Lasers in the left arm.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
+    "Details": "The Eris began as an attempt by Nashan Diversified to branch out of IndustrialMechs and into BattleMechs along with the Inner Sphere's other major BattleMech manufacturers. It was originally called the Hel, but the LCAF rejected the design, and Nashan Diversified was only able to sell a few to mercenaries and various governments within the former Free Worlds League before Defiance Industries stopped supplying Nashan with necessary components to what had become a competitor. Left with a powerful 'Mech it was no longer able to build, Nashan sold the specifications for the Hel to Kallon Weapon Industries, who went on to redesign the 'Mech as a skirmisher ideally suited for the sort of fighting that was going on in the former Free Worlds League following the end of the Jihad. The armament of the Hel was very similar to that of the Wolverine, which was also manufactured by Kallon. As such, they tried to distinguish the Eris by adding a partial wing, which improved its mobility in rough terrain and also allowed them to market it as a competitor to the Phoenix Hawk being sold by Earthwerks. The energy weaponry that the Hel had used were replaced with a Fusigon Smarttooth snub-nose PPC and three Diverse Optics small X-Pulse lasers, and the Hel's single Streak Missile Launcher were replaced with a pair of Holly MML-5s fed from two CASE II protected ammo bins.<br><br>X-class mechs feature upgrades to their armour, thermal management and defensive systems that improve their survivability on the 31st century battlefield.",
     "Icon": "uixTxrIcon_eris"
   },
-  "MovementCapDefID": "movedef_eris_ERS-2H",
+  "MovementCapDefID": "movedef_eris_ERS-2N",
   "PathingCapDefID": "pathingdef_medium",
   "HardpointDataDefID": "hardpointdatadef_eris",
   "PrefabIdentifier": "chrprfmech_erisbase-001",
@@ -217,7 +217,7 @@
       "z": 2.5
     }
   ],
-  "VariantName": "ERS-X",
+  "VariantName": "ERS-X2",
   "ChassisTags": {
     "items": [
       "elite_arsenal"
@@ -225,7 +225,7 @@
     "tagSetSourceFile": ""
   },
   "StockRole": "Medium Striker and Interdictor",
-  "YangsThoughts": "A highly maneuverable medium mech with a long jump range. This variants improved weapons ranges allow for it to operate better as a direct competitor to the phoenix hawk, but it does lack the range of the MMLs.",
+  "YangsThoughts": "A highly maneuverable medium mech with a long jump range, this thing is great at evading fire and hitting hard, but with the short range of its weapons you'll need to be careful to not overextend.",
   "FixedEquipment": [
     {
       "MountedLocation": "LeftTorso",
