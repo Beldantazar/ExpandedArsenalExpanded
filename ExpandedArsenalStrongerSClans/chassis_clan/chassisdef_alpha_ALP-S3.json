@@ -1,0 +1,289 @@
+{
+  "FixedEquipment": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Superheavy_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "SimGameUID": "",
+      "hasPrefabName": false,
+      "DamageLevel": "Functional"
+    }
+  ],
+  "Description": {
+    "Cost": 25000000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Alpha",
+    "Id": "chassisdef_alpha_ALP-S3",
+    "Name": "Alpha",
+    "Details": "The Alpha is a mysterious new super heavy chassis design. The fact that it is fully built by clan level tech is unmistakeable, however the name of the clan responsible for constructing it is unknown. Unknown design origin aside, the ability of the mech to actually function is clearly based on the Omega superheavy as designed by the Word of Blake. This mech, however, is built with a wide variety of weapons hardpoints in both arms and both torsos, to allow for more weapons customization than most mechs superheavy or otherwise. Focusing entirely on direct fire, the ALP-3 is fitted with twin RAC5s, a quartet of ER PPCs and a quartet of Streak SRM6's. Like other variants however, it still suffers from relatively limited ammunition supplies in the case of long battles.<br><br>S-class mechs feature upgrades to their armour, thermal management and defensive systems that substantially improve their survivability on the 31st century battlefield.",
+    "Icon": "uixTxrIcon_superheavy"
+  },
+  "MovementCapDefID": "movedef_annihilator_ANH-1A",
+  "PathingCapDefID": "pathingdef_assault",
+  "HardpointDataDefID": "hardpointdatadef_genericsh5",
+  "PrefabIdentifier": "chrprfmech_genericsh5base-001",
+  "PrefabBase": "genericsh5",
+  "Tonnage": 150,
+  "InitialTonnage": 33.5,
+  "weightClass": "ASSAULT",
+  "BattleValue": 10206000,
+  "Heatsinks": 45,
+  "TopSpeed": 105,
+  "TurnRadius": 290,
+  "MaxJumpjets": 0,
+  "Stability": 250,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 8,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 150,
+  "MeleeInstability": 100,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 150,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 150,
+  "DFAInstability": 75,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 80,
+      "MaxRearArmor": -1,
+      "InternalStructure": 41
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 250,
+      "MaxRearArmor": -1,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "LeftTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 320,
+      "MaxRearArmor": 160,
+      "InternalStructure": 160
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 450,
+      "MaxRearArmor": 225,
+      "InternalStructure": 225
+    },
+    {
+      "Location": "RightTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 320,
+      "MaxRearArmor": 160,
+      "InternalStructure": 160
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Ballistic",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 250,
+      "MaxRearArmor": -1,
+      "InternalStructure": 125
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 320,
+      "MaxRearArmor": -1,
+      "InternalStructure": 160
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 320,
+      "MaxRearArmor": -1,
+      "InternalStructure": 160
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 14.5,
+      "z": 0
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "z": -1
+    },
+    {
+      "x": -4,
+      "y": 15,
+      "z": -1
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 19,
+      "z": 0
+    },
+    {
+      "x": 4.5,
+      "y": 16,
+      "z": -0.5
+    },
+    {
+      "x": -4.5,
+      "y": 16,
+      "z": -0.5
+    },
+    {
+      "x": 3,
+      "y": 5.5,
+      "z": 1
+    },
+    {
+      "x": -3,
+      "y": 5.5,
+      "z": 1
+    }
+  ],
+  "VariantName": "ALP-S3",
+  "ChassisTags": {
+    "items": [
+      "mr-resize-1.5",
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Superheavy Juggernaut",
+  "YangsThoughts": "A brand new superheavy design, of Clan-spec origin and the name of the clan is unknown? The mysteries abound with this one. A kind of strange layout vaguely resembling some sort of mutant Awesome, but the fact that it can mount a quartet of ER PPCs casually really drives home how absurd superheavies can be."
+}

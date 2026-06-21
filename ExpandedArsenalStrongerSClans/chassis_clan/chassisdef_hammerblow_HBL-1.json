@@ -20,7 +20,7 @@
         "UIName": "Hammerblow",
         "Id": "chassisdef_hammerblow_HBL-1",
         "Name": "Hammerblow",
-        "Details": "Clan Jade Falcon's brand new super heavy mech design, this mech is heavily armed but with a somewhat eclectic hardpoint mount setup for a superheavy, with no ballistic hardpoints in the torso. Designed with heavy combat in mind, the mech has plenty of free tonnage to use for heavy weaponry.",
+        "Details": "Clan Jade Falcon's brand new super heavy mech design, this mech is heavily armed but with a somewhat eclectic hardpoint mount setup for a superheavy, with no ballistic hardpoints in the torso. Designed with heavy combat in mind, the mech has plenty of free tonnage to use for heavy weaponry. The primary layout mounts a pair of high powered Hyper Gauss Rifles for extreme damage, a pair of specialized plasma rifles designed for structural damage and a pair of unusual clan designed thunderbolt launchers.",
         "Icon": "uixTxrIcon_superheavy"
     },
     "MovementCapDefID": "movedef_annihilator_ANH-1A",
@@ -29,7 +29,7 @@
     "PrefabIdentifier": "chrprfmech_genericsh6base-001",
     "PrefabBase": "genericsh6",
     "Tonnage": 150,
-    "InitialTonnage": 39,
+    "InitialTonnage": 34.5,
     "weightClass": "ASSAULT",
     "BattleValue": 10206000,
     "Heatsinks": 30,

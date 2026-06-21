@@ -27,85 +27,93 @@
   "Version": 1,
   "Locations": [
     {
+      "DamageLevel": "Functional",
       "Location": "Head",
       "CurrentArmor": 80,
-      "CurrentRearArmor": -1,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 41,
       "AssignedArmor": 80,
-      "AssignedRearArmor": -1,
-      "DamageLevel": "Functional"
+      "AssignedRearArmor": 0
     },
     {
-      "Location": "LeftArm",
-      "CurrentArmor": 250,
-      "CurrentRearArmor": -1,
-      "CurrentInternalStructure": 125,
-      "AssignedArmor": 250,
-      "AssignedRearArmor": -1,
-      "DamageLevel": "Functional"
-    },
-    {
-      "Location": "LeftTorso",
-      "CurrentArmor": 290,
-      "CurrentRearArmor": 50,
-      "CurrentInternalStructure": 160,
-      "AssignedArmor": 290,
-      "AssignedRearArmor": 50,
-      "DamageLevel": "Functional"
-    },
-    {
+      "DamageLevel": "Functional",
       "Location": "CenterTorso",
       "CurrentArmor": 340,
-      "CurrentRearArmor": 60,
+      "CurrentRearArmor": 110,
       "CurrentInternalStructure": 225,
       "AssignedArmor": 340,
-      "AssignedRearArmor": 60,
-      "DamageLevel": "Functional"
+      "AssignedRearArmor": 110
     },
     {
+      "DamageLevel": "Functional",
+      "Location": "LeftTorso",
+      "CurrentArmor": 290,
+      "CurrentRearArmor": 80,
+      "CurrentInternalStructure": 160,
+      "AssignedArmor": 290,
+      "AssignedRearArmor": 80
+    },
+    {
+      "DamageLevel": "Functional",
       "Location": "RightTorso",
       "CurrentArmor": 290,
-      "CurrentRearArmor": 50,
+      "CurrentRearArmor": 80,
       "CurrentInternalStructure": 160,
       "AssignedArmor": 290,
-      "AssignedRearArmor": 50,
-      "DamageLevel": "Functional"
+      "AssignedRearArmor": 80
     },
     {
-      "Location": "RightArm",
+      "DamageLevel": "Functional",
+      "Location": "LeftArm",
       "CurrentArmor": 250,
-      "CurrentRearArmor": -1,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 125,
       "AssignedArmor": 250,
-      "AssignedRearArmor": -1,
-      "DamageLevel": "Functional"
+      "AssignedRearArmor": 0
     },
     {
+      "DamageLevel": "Functional",
+      "Location": "RightArm",
+      "CurrentArmor": 250,
+      "CurrentRearArmor": 0,
+      "CurrentInternalStructure": 125,
+      "AssignedArmor": 250,
+      "AssignedRearArmor": 0
+    },
+    {
+      "DamageLevel": "Functional",
       "Location": "LeftLeg",
-      "CurrentArmor": 290,
-      "CurrentRearArmor": -1,
+      "CurrentArmor": 295,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 160,
-      "AssignedArmor": 290,
-      "AssignedRearArmor": -1,
-      "DamageLevel": "Functional"
+      "AssignedArmor": 295,
+      "AssignedRearArmor": 0
     },
     {
+      "DamageLevel": "Functional",
       "Location": "RightLeg",
-      "CurrentArmor": 290,
-      "CurrentRearArmor": -1,
+      "CurrentArmor": 295,
+      "CurrentRearArmor": 0,
       "CurrentInternalStructure": 160,
-      "AssignedArmor": 290,
-      "AssignedRearArmor": -1,
-      "DamageLevel": "Functional"
+      "AssignedArmor": 295,
+      "AssignedRearArmor": 0
     }
   ],
   "inventory": [
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Gear_Superheavy_Chassis",
+      "ComponentDefType": "Upgrade",
+      "HardpointSlot": -1,
+      "IsFixed": true,
+      "DamageLevel": "Functional"
+    },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Gauss_HyperGauss_STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -113,7 +121,7 @@
       "ComponentDefID": "Weapon_Thunderbolt_54_Clantech_STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -121,7 +129,7 @@
       "ComponentDefID": "Weapon_Hyper_Plasma_Rifle_Clantech_STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -129,7 +137,7 @@
       "ComponentDefID": "Weapon_Gauss_HyperGauss_STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -137,7 +145,7 @@
       "ComponentDefID": "Weapon_Thunderbolt_54_Clantech_STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -145,7 +153,7 @@
       "ComponentDefID": "Weapon_Hyper_Plasma_Rifle_Clantech_STOCK",
       "ComponentDefType": "Weapon",
       "HardpointSlot": 0,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -153,7 +161,7 @@
       "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
       "ComponentDefType": "AmmunitionBox",
       "HardpointSlot": -1,
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
@@ -161,63 +169,80 @@
       "ComponentDefID": "Gear_Guardian_ECM_CLAN",
       "ComponentDefType": "Upgrade",
       "HardpointSlot": 0,
-      "SimGameUID": "",
-      "hasPrefabName": false,
+      "IsFixed": false,
       "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "IsFixed": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightLeg",
       "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "IsFixed": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "IsFixed": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "RightArm",
       "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
-      "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "IsFixed": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
-      "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "IsFixed": false,
+      "DamageLevel": "Functional"
     },
     {
       "MountedLocation": "LeftLeg",
       "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
-      "SimGameUID": null,
       "ComponentDefType": "HeatSink",
       "HardpointSlot": -1,
-      "DamageLevel": "Functional",
-      "hasPrefabName": false
+      "IsFixed": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "CenterTorso",
+      "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS",
+      "ComponentDefType": "AmmunitionBox",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "RightTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional"
+    },
+    {
+      "MountedLocation": "LeftTorso",
+      "ComponentDefID": "Gear_HeatSink_Generic_Double_Clan",
+      "ComponentDefType": "HeatSink",
+      "HardpointSlot": -1,
+      "IsFixed": false,
+      "DamageLevel": "Functional"
     }
   ]
 }
