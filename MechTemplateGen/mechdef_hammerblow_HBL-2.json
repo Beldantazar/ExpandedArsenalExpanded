@@ -100,14 +100,6 @@
   ],
   "inventory": [
     {
-      "MountedLocation": "CenterTorso",
-      "ComponentDefID": "Gear_Superheavy_Chassis",
-      "ComponentDefType": "Upgrade",
-      "HardpointSlot": -1,
-      "IsFixed": true,
-      "DamageLevel": "Functional"
-    },
-    {
       "MountedLocation": "LeftArm",
       "ComponentDefID": "Weapon_Gauss_HyperGauss_STOCK",
       "ComponentDefType": "Weapon",

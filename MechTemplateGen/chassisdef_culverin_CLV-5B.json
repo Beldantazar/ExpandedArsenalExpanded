@@ -29,7 +29,7 @@
   "PrefabIdentifier": "chrprfmech_piratemech1base-001",
   "PrefabBase": "piratemech1",
   "Tonnage": 135,
-  "InitialTonnage": 55.0,
+  "InitialTonnage": 45.5,
   "weightClass": "ASSAULT",
   "BattleValue": 10206000,
   "Heatsinks": 30,

@@ -21844,7 +21844,7 @@
         "stockRole": "Superheavy",
         "useMountIdNaming": false,
         "hardpoints": {
-            "Energy": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Energy": [ 0, 1, 1, 0, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
             "Missile": [ 0, 0, 2, 0, 2, 0, 1, 1 ],
             "AntiPersonnel": [ 0, 1, 1, 1, 1, 1, 0, 0 ]
@@ -22085,7 +22085,7 @@
         "eliteArsenalVariantNumber": "1",
         "mechTonnage": 135,
         "mechEngine": 405,
-        "xlEngine": true,
+        "xxlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
             "Energy": [ 0, 1, 1, 0, 1, 0, 0, 0 ],
@@ -22117,7 +22117,7 @@
         "eliteArsenalVariantNumber": "2",
         "mechTonnage": 135,
         "mechEngine": 405,
-        "xlEngine": true,
+        "xxlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
             "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
@@ -22149,7 +22149,7 @@
         "eliteArsenalVariantNumber": "3",
         "mechTonnage": 135,
         "mechEngine": 405,
-        "xlEngine": true,
+        "xxlEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
             "Energy": [ 0, 0, 2, 0, 2, 0, 0, 0 ],
