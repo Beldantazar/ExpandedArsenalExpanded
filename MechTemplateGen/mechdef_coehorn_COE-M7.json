@@ -23,7 +23,7 @@
     "UIName": "Coehorn COE-M7",
     "Id": "mechdef_coehorn_COE-M7",
     "Name": "Coehorn",
-    "Details": "While originally developed as a bombardment mech, the Coehorn M7 is not fitted with any indirect fire weapons. Instead a pair of Large Variable Speed Pulse Lasers and a pair of Hyper Lasers sources from the Republic Institute of Strategic Combat is mounted to hammer anything that it can get into view. With a 300 XL engine and a Clan-grade endosteel skeleton, it has enough heat management equipment to stay stable at least long enough for it's enemies to be destroyed.",
+    "Details": "While originally developed as a bombardment mech, the Coehorn M7 is not fitted with any indirect fire weapons. Instead a pair of Large Variable Speed Pulse Lasers and a pair of Hyper Lasers sourced from the Republic Institute of Strategic Combat is mounted to hammer anything that it can get into view. With a 300 XL engine and a Clan-grade endosteel skeleton, it has enough heat management equipment to stay stable at least long enough for its enemies to be destroyed.",
     "Icon": "uixTxrIcon_coehorn"
   },
   "simGameMechPartCost": 3500000,

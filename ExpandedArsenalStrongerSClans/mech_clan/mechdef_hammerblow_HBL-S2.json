@@ -102,14 +102,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Superheavy_Chassis",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_Autocannon_AC2_CLAN_2",
             "ComponentDefType": "Weapon",

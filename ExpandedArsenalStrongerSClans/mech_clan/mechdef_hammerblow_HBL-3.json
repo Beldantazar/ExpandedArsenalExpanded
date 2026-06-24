@@ -101,14 +101,6 @@
     "inventory": [
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Superheavy_Chassis",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
-            "MountedLocation": "CenterTorso",
             "ComponentDefID": "Gear_Guardian_ECM_CLAN",
             "ComponentDefType": "Upgrade",
             "HardpointSlot": 0,

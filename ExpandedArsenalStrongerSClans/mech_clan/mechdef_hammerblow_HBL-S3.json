@@ -102,14 +102,6 @@
     ],
     "inventory": [
         {
-            "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Gear_Superheavy_Chassis",
-            "ComponentDefType": "Upgrade",
-            "HardpointSlot": -1,
-            "IsFixed": true,
-            "DamageLevel": "Functional"
-        },
-        {
             "MountedLocation": "RightArm",
             "ComponentDefID": "Weapon_HyperGauss_HAG40_2",
             "ComponentDefType": "Weapon",

@@ -16030,7 +16030,7 @@
         },
         "stockRole": "Superheavy Striker",
         "useMountIdNaming": false,
-        "details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 375-rated extra light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using twin Silver bullet Gauss Rifles and a quartet of snub nosed PPCs.  Angel ECM makes it hard to target the unit.",
+        "details": "Rumored to exist and only recently proven to exist, the Yazata is the second Word of Blake superheavy design and seems to follow in the tracks of the Celestial OmniMechs, serving as a sort of 'master' for that family of designs. Powered by a 375-rated extra light fusion engine, the Yazata has tremendous free tonnage to use for firepower. The Yazata puts even assaults to shame with its weapon load, using twin Silver bullet Gauss Rifles and a pair of snub nosed PPCs and a pair of light PPCs.  Angel ECM makes it hard to target the unit.",
         "yangsThoughts": "A Word of Blake superheavy that isn't the Omega, interesting. Even more gausses and ppcs for this one, no indirect fire."
     },
     {
@@ -21980,6 +21980,12 @@
         "eliteArsenalVariantNumber": "2",
         "stockRole": "Superheavy",
         "useMountIdNaming": false,
+        "hardpoints": {
+            "Energy": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
+            "Missile": [ 0, 3, 4, 1, 4, 3, 0, 0 ],
+            "AntiPersonnel": [ 0, 0, 1, 1, 1, 0 , 0, 0 ]
+        },
         "details": "A rebuild of the venerable LGB-7Q Longbow that increases its weight by more than 40 per cent, the Longbow II is a veritable walking arsenal. Unlike the 9, the 10 replaces the launch tubes with a huge array of SRMs along with a set of accelerating launch rails for improved range and some Large X-Pulse Lasers to provide direct fire support. The Longbow II also mounts enough heat dissipation capacity to fire all its weapons without significantly heating up. This superheavy 'Mech was first produced by the Free Worlds League, but the design has since spread to most parts of the Inner Sphere, whether by capture or trade.",
         "yangsThoughts": "Those launch rails are handy, increasing the range of SRMs can make them very useful, but they're still pretty short range."
     },
@@ -22245,7 +22251,7 @@
                 "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
             }
         },
-        "details": "While originally developed as a bombardment mech, the Coehorn M7 is not fitted with any indirect fire weapons. Instead a pair of Large Variable Speed Pulse Lasers and a pair of Hyper Lasers sources from the Republic Institute of Strategic Combat is mounted to hammer anything that it can get into view. With a 300 XL engine and a Clan-grade endosteel skeleton, it has enough heat management equipment to stay stable at least long enough for it's enemies to be destroyed.",
+        "details": "While originally developed as a bombardment mech, the Coehorn M7 is not fitted with any indirect fire weapons. Instead a pair of Large Variable Speed Pulse Lasers and a pair of Hyper Lasers sourced from the Republic Institute of Strategic Combat is mounted to hammer anything that it can get into view. With a 300 XL engine and a Clan-grade endosteel skeleton, it has enough heat management equipment to stay stable at least long enough for its enemies to be destroyed.",
         "yangsThoughts": "I have no idea why they decided to completely change the purpose of the mech, but it seems to work ok, just watch out for the heat usage."
     },
     {
@@ -24264,7 +24270,7 @@
         "includeModelNumberInEAVariant": false,
         "eliteArsenalVariantNumber": "3",
         "mechTonnage": 80,
-        "mechEngine": 240,
+        "mechEngine": 320,
         "lEngine": true,
         "chassisType": "EndoSteel",
         "hardpoints": {
