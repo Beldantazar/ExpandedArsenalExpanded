@@ -1,43 +1,21 @@
 {
-    "ID": "AttackDefend_PowerUp",
-    "contractName": "Power Up",
-    "contractDisplayStyle": "BaseCampaignNormal",
-    "difficulty": 2,
+    "ID": "fp_wolverine_1_mission3",
+    "contractName": "Cus's Cutlasses: Introductions 3",
+    "contractDisplayStyle": "BaseFlashpoint",
+    "difficulty": 4,
     "difficultyUIModifier": 0,
     "weight": 1,
-    "scope": "STANDARD",
+    "scope": "MID_CAMPAIGN",
     "finalDifficulty": 0,
     "representativeCastDefIDOverride": null,
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We've been able to infiltrate personnel into a contested region to take control of an abandoned base. We've brought the base's primary power and communications systems online, but in doing so, we've made an unfortunate discovery: a {TEAM_TAR.FactionDef.Demonym} force has done the same thing with a nearby facility. They're somewhat ahead of us in the process, and have their base's turrets online; they're also landing troops and 'Mechs to hold their new acquisition. Only one of us can control this area when we're finished; we'd like you to ensure that it's us.",
+    "shortDescription": "We're ready to start the hack, Commander, we've alredy secured the base's defense systems but we need to be protected from the nearby base in the area. Once we start the hack they're gonna call in all the reinforcements they've got in the area, so you're gonna have to deal with that base and their reinforcements to keep them off us.",
     "longDescription": "We'll be outnumbered and outmatched, Commander, but that's hardly a new experience for us.",
     "salvagePotential": 20,
     "requirementList": [
-        {
-            "Scope": "StarSystem",
-            "RequirementTags": {
-                "items": [
-                    "planet_other_empty"
-                ],
-                "tagSetSourceFile": ""
-            },
-            "ExclusionTags": {
-                "items": [
 
-                ],
-                "tagSetSourceFile": ""
-            },
-            "RequirementComparisons": [
-                {
-                    "obj": "Employer.IsOwner",
-                    "op": "Equal",
-                    "val": 0,
-                    "valueConstant": null
-                }
-            ]
-        }
     ],
     "OnContractSuccessResults": [
 
@@ -48,7 +26,7 @@
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
-    "lanceMaxTonnage": 550,
+    "lanceMaxTonnage": 260,
     "mechMinTonnages": [
         -1,
         -1,
@@ -56,10 +34,10 @@
         -1
     ],
     "mechMaxTonnages": [
-        -1,
-        -1,
-        -1,
-        -1
+        75,
+        75,
+        55,
+        55
     ],
     "mapMood": null,
     "startingFogOfWarVisibility": "Surveyed",
@@ -1956,7 +1934,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "All right, Commander; we're already behind the competition here, so we'll need to move fast.",
+                    "words": "All right, Commander; Farah and her team are starting the hack, so we've gotta keep them alive.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -1972,7 +1950,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "The opfor is already on their way to the {TEAM_EMP.FactionDef.Demonym} facility; we've landed just in time.",
+                    "words": "The opfor is already on their way.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2045,7 +2023,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "That's it, Commander; the {TEAM_EMP.FactionDef.Demonym} reinforcements can handle the rest. Let's go home.",
+                    "words": "That's it, Commander; the hack is done and we should be in control of the planetary defense network. Let's go home.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2261,7 +2239,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "Commander, if we lose another structure, the base is a total loss, and we don't get paid.",
+                    "words": "Commander, if we lose another structure, the base is a total loss, and the hack is a failure.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2343,7 +2321,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "As long as you're still in the AO, Commander, you'll need to keep the {TEAM_EMP.FactionDef.Demonym} base secure.",
+                    "words": "As long as you're still in the AO, Commander, you'll need to keep the planetary defense node secure.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -2368,7 +2346,7 @@
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "I'm not detecting any more hostiles in the area. You can extact now if you wish; our employer has reinforcements on standby that can relieve you.",
+                    "words": "I'm not detecting any more hostiles in the area. You can extact now if you wish.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -4132,7 +4110,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -4140,9 +4120,7 @@
                     "items": [
                         "lance_type_turret",
                         "lance_type_convoy",
-                        "lance_type_vehicle",
-                        "elite_arsenal",
-                        "elite_arsenal_ss"
+                        "lance_type_vehicle"
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
@@ -4166,8 +4144,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_medium",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4210,8 +4187,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4254,8 +4230,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4298,9 +4273,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_support"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4343,21 +4316,21 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_dynamic_difficulty",
-                        "lance_type_assault"
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        "elite_arsenal",
-                        "elite_arsenal_ss"
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_75"
+
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
@@ -4375,8 +4348,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_medium",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4419,8 +4391,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4463,8 +4434,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4507,9 +4477,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_support"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4758,7 +4726,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -4792,8 +4762,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_medium",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4836,8 +4805,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4880,8 +4848,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4921,12 +4888,10 @@
                         "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_spider_SDR-5V",
+                        "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_jumpok"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -4969,7 +4934,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -5003,8 +4970,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_medium",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5047,8 +5013,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5091,8 +5056,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5135,9 +5099,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_vanguard"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5180,7 +5142,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -5214,9 +5178,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_support"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5259,9 +5221,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_assassin"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5390,8 +5350,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_dynamic_difficulty",
-                        "lance_type_support"
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -5404,7 +5365,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_75"
+
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
@@ -5422,8 +5383,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_mech",
-                                "unit_medium"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5595,8 +5555,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_dynamic_difficulty",
-                        "lance_type_cavalry"
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -5609,7 +5570,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_75"
+
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
@@ -5627,8 +5588,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_mech",
-                                "unit_medium"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5800,8 +5760,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_dynamic_difficulty",
-                        "lance_type_cavalry"
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -5814,7 +5775,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_50"
+
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
@@ -5832,8 +5793,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_medium",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5876,8 +5836,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5920,8 +5879,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -5964,9 +5922,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_vanguard"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -6009,8 +5965,9 @@
                 "lanceDefId": "Tagged",
                 "lanceTagSet": {
                     "items": [
-                        "lance_type_dynamic_difficulty",
-                        "lance_type_cavalry"
+                        "lance_type_battle_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
                     ],
                     "tagSetSourceFile": "mc_force_extended_lance"
                 },
@@ -6023,7 +5980,7 @@
                 },
                 "spawnEffectTags": {
                     "items": [
-                        "spawn_poorly_maintained_50"
+
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
@@ -6041,8 +5998,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_medium",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -6085,8 +6041,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -6129,8 +6084,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_vehicle"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },
@@ -6173,9 +6127,7 @@
                         "unitDefId": "mechDef_InheritLance",
                         "unitTagSet": {
                             "items": [
-                                "unit_light",
-                                "unit_mech",
-                                "unit_lance_vanguard"
+
                             ],
                             "tagSetSourceFile": "tags/UnitTags"
                         },

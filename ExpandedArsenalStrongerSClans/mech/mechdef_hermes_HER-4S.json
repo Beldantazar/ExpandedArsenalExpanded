@@ -1,0 +1,185 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_light",
+            "unit_range_short",
+            "unit_speed_high",
+            "unit_armor_low",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_release",
+            "unit_very_rare",
+            "unit_ext_rare_Davion",
+            "unit_ext_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_ext_rare_Steiner",
+            "unit_rare_Kurita",
+            "unit_ext_rare_MagistracyOfCanopus",
+            "unit_ext_rare_TaurianConcordat",
+            "unit_very_rare_AuriganDirectorate",
+            "unit_ext_rare_AuriganRestoration",
+            "unit_ext_rare_ComStar",
+            "unit_ext_rare_MercenaryReviewBoard",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_AuriganPirates",
+            "unit_ext_rare_Locals",
+            "unit_ext_rare_Betrayers",
+            "unit_ext_rare_MajestyMetals",
+            "unit_ext_rare_KellHounds",
+            "unit_ext_rare_GrayDeathLegion",
+            "unit_ext_rare_FlakJackals",
+            "unit_ext_rare_LocalsBrockwayRefugees",
+            "unit_ext_rare_SelfEmployed",
+            "unit_ext_rare_MasonsMarauders",
+            "unit_ext_rare_SteelBeast",
+            "unit_ext_rare_RazorbackMercs",
+            "unit_ext_rare_RedHareRegiment",
+            "unit_ext_rare_EmeraldDawn",
+            "unit_ext_rare_SianTriumphant",
+            "unit_ext_rare_BlackCalderaDefense",
+            "unit_ext_rare_BlackCalderaDefense_Hidden",
+            "unit_ext_rare_SecuritySolutionsInc",
+            "unit_ext_rare_PaladinProtectionLLC",
+            "unit_ext_rare_HouseNakano",
+            "unit_ext_rare_HouseKhulan",
+            "unit_ext_rare_HostileMercenaries",
+            "unit_ext_rare_NoFaction"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_hermes_HER-4S",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 2900000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Hermes HER-4S",
+        "Id": "mechdef_hermes_HER-4S",
+        "Name": "Hermes",
+        "Details": "The 'Mech was originally designed to be as fast as any 'Mech that existed at the time, trading a great deal of potential firepower and armor for an incredible ground speed. While this made the Hermes nearly untouchable at sustained pace, the MechWarriors who piloted them usually had doubts about taking such an underarmed scout 'Mech into battle and it soon became unpopular. Heat management is provided for by the standard number of ten single heat sinks mounted in the GM 270 engine. In spite of using an endo steel chassis, this massive engine takes up nearly half of the Hermes' mass and is responsible for its tremendous cruising speed of 97 km/h as well as both an anemic weapons payload and paltry five tons of armor. The 4S Hermes was introduced in 3057 and based on the 3S1 variant. It carries over the MASC and endo steel chassis from the 3S1 model, but has had a complete upgrade of its weapons and engine. The original standard engine has been replaced with an extralight engine, and the armor protection has been upgraded to five and a half tons. The weapons on board the Hermes have also been replaced by three medium pulse lasers, giving the Hermes an unprecedented amount of firepower in its long history.",
+        "Icon": "uixTxrIcon_hermes"
+    },
+    "simGameMechPartCost": 290000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Guardian_ECM",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_MASC",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "2850-01-01T00:00:00Z"
+}

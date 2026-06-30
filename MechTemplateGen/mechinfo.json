@@ -22363,7 +22363,7 @@
         "mechTonnage": 30,
         "mechEngine": 240,
         "xlEngine": true,
-        "chassisType": "Standard",
+        "chassisType": "EndoSteel",
         "hardpoints": {
             "Energy": [ 0, 1, 1, 1, 1, 1, 0, 0 ],
             "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],

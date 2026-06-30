@@ -1,6 +1,6 @@
 {
-    "ID": "fp_wolverine_1_mission1",
-    "contractName": "Cus's Crusaders: Introductions 2",
+    "ID": "fp_wolverine_1_mission2",
+    "contractName": "Cus's Cutlasses: Introductions 2",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 4,
     "difficultyUIModifier": 0,
@@ -15,7 +15,7 @@
     "longDescription": "Commander, remember that Farah and her team are counting on us to destroy this node so that their infiltration of the secondary control node isn't in vain.",
     "salvagePotential": 20,
     "requirementList": [
-        
+
     ],
     "OnContractSuccessResults": [
 
@@ -1214,7 +1214,7 @@
                 },
                 "lanceExcludedTagSet": {
                     "items": [
-                        
+
                     ],
                     "tagSetSourceFile": "tags/LanceTags"
                 },

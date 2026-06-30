@@ -17,7 +17,7 @@
   "PrefabIdentifier": "chrprfmech_ferdelancebase-001",
   "PrefabBase": "ferdelance",
   "Tonnage": 30,
-  "InitialTonnage": 15.0,
+  "InitialTonnage": 13.5,
   "weightClass": "LIGHT",
   "BattleValue": 3907000,
   "Heatsinks": 45,

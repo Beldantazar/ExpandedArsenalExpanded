@@ -785,7 +785,12 @@
             "Path": "simGameConversations"
         },
 
-        { "Type": "CastDef", "Path": "cast" }
+        { "Type": "CastDef", "Path": "cast" },
+
+        {
+            "Type": "PilotDef",
+            "Path": "pilot"
+        }
     ],
     "DataAddendumEntries": [
         {
