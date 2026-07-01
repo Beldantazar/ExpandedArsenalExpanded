@@ -1,0 +1,1082 @@
+{
+    "StartingMilestoneID": "ms_fp_wolverine_5_001",
+    "Milestones": [
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_001",
+                "Name": "Start",
+                "Details": "Start",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Flashpoint",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": [
+                            "fp_choice_a",
+                            "fp_choice_b",
+                            "fp_choice_cancel"
+                        ]
+                    },
+                    "Stats": null,
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_002_briefing",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_002_briefing",
+                "Name": "Mission briefing",
+                "Details": "Mission briefing",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c4f91947987885d19c7ebc5",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_003_briefingresult",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_003_briefingresult",
+                "Name": "Briefing result",
+                "Details": "Briefing result",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Flashpoint",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": [
+                                "fp_choice_cancel"
+                            ]
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_011_mission1",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Flashpoint",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": [
+                                "fp_choice_cancel"
+                            ]
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_100_cancel",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_011_mission1",
+                "Name": "Mission 1",
+                "Details": "Mission 1",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "",
+                                "fp_wolverine_5_mission1",
+                                "AuriganRestoration",
+                                "CussCutlasses",
+                                "10",
+                                "ms_fp_wolverine_5_012_middle1",
+                                "AuriganPirates",
+                                "AuriganPirates",
+                                null,
+                                "AuriganPirates",
+                                "AuriganPirates"
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_012_middle1",
+                "Name": "Cus call",
+                "Details": "Cus call",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9c037cb2766f31e8d65c2980",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_012_mission2",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_012_mission2",
+                "Name": "Mission 2",
+                "Details": "Mission 2",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_AddContract",
+                            "value": "",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "",
+                                "fp_wolverine_5_mission2",
+                                "AuriganRestoration",
+                                "CussCutlasses",
+                                "10",
+                                "ms_fp_wolverine_5_013_mission3",
+                                "AuriganPirates",
+                                "AuriganPirates",
+                                null,
+                                "AuriganPirates",
+                                "AuriganPirates"
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Contract",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_013_mission3",
+                "Name": "Mission 3",
+                "Details": "Mission 3",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "",
+                                "fp_wolverine_5_mission3",
+                                "AuriganRestoration",
+                                "CussCutlasses",
+                                "10",
+                                "ms_fp_wolverine_5_014_session2",
+                                "AuriganPirates",
+                                "AuriganPirates",
+                                null,
+                                "AuriganPirates",
+                                "AuriganPirates"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_014_session2",
+                "Name": "Cus Calls",
+                "Details": "Cus Calls",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9cf0af63ba22f0d5f443f6db",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_015_mission4",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_015_mission4",
+                "Name": "Mission 4",
+                "Details": "Mission 4",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "",
+                                "fp_wolverine_5_mission4",
+                                "AuriganRestoration",
+                                "JadeFalcons",
+                                "10",
+                                "ms_fp_wolverine_5_016_mission5",
+                                "AuriganPirates",
+                                "AuriganPirates",
+                                null,
+                                "AuriganPirates",
+                                "AuriganPirates"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_016_mission5",
+                "Name": "Mission 5",
+                "Details": "Mission 5",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "",
+                                "fp_wolverine_5_mission5",
+                                "AuriganRestoration",
+                                "JadeFalcons",
+                                "10",
+                                "ms_fp_wolverine_5_017_middle3",
+                                "AuriganPirates",
+                                "AuriganPirates",
+                                null,
+                                "AuriganPirates",
+                                "AuriganPirates"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_017_middle3",
+                "Name": "Challenge",
+                "Details": "Challenge",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9caa2ea9007098a382fd5f19",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_017_mission6",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_017_mission6",
+                "Name": "Mission 6",
+                "Details": "Mission 6",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_StartContract",
+                            "value": "",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "",
+                                "",
+                                "fp_wolverine_5_mission6",
+                                "AuriganRestoration",
+                                "CussCutlasses",
+                                "10",
+                                "ms_fp_wolverine_5_099_debrief",
+                                "JadeFalcons",
+                                "JadeFalcons",
+                                null,
+                                "JadeFalcons",
+                                "JadeFalcons"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_099_debrief",
+                "Name": "Debrief",
+                "Details": "Debrief",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "System_StartConversation",
+                            "value": "9ccf1a3043093381df64ed2a",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "{TGT_FLASHPOINT.Def.Description.Name}",
+                                "High Orbit \u2014 {TGT_FLASHPOINT.CurSystem.Name}",
+                                "Conference",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "Flashpoint_SetNextMilestone",
+                            "value": "ms_fp_wolverine_5_200_complete",
+                            "valueConstant": null,
+                            "additionalValues": null
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_100_cancel",
+                "Name": "Cancel fp",
+                "Details": "Cancel fp",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": [
+                            "flashpoint_wolverine_5_cancelled"
+                        ]
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_CompleteFlashpoint",
+                            "value": "ms_fp_wolverine_5_201_reward",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "itemCollection_loot_none",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Ship",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "BaseFlashpoint"
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_200_complete",
+                "Name": "Complete",
+                "Details": "Complete",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": [
+                            "flashpoint_wolverine_5_complete"
+                        ]
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": [
+                        {
+                            "Type": "Flashpoint_CompleteFlashpoint",
+                            "value": "ms_fp_wolverine_5_201_reward",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                "itemCollection_fp_wolverine_5",
+                                null
+                            ]
+                        },
+                        {
+                            "Type": "System_ForceDropshipRoom",
+                            "value": "Ship",
+                            "valueConstant": null,
+                            "additionalValues": [
+                                null
+                            ]
+                        }
+                    ],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        },
+        {
+            "Description": {
+                "Id": "ms_fp_wolverine_5_201_reward",
+                "Name": "Reward",
+                "Details": "rewards",
+                "Icon": null
+            },
+            "Scope": "Company",
+            "Requirements": [],
+            "Results": [
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Int32",
+                            "name": "Funds",
+                            "value": "0",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [],
+                    "ForceEvents": null,
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                },
+                {
+                    "Scope": "Company",
+                    "Requirements": {
+                        "Scope": "Company",
+                        "RequirementTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "ExclusionTags": {
+                            "tagSetSourceFile": "",
+                            "items": []
+                        },
+                        "RequirementComparisons": []
+                    },
+                    "AddedTags": {
+                        "tagSetSourceFile": "Tags/CompanyTags",
+                        "items": [
+                            "flashpoint_wolverine_5_complete"
+                        ]
+                    },
+                    "RemovedTags": {
+                        "tagSetSourceFile": "",
+                        "items": []
+                    },
+                    "Stats": null,
+                    "Actions": null,
+                    "ForceEvents": null,
+                    "TemporaryResult": true,
+                    "ResultDuration": 0
+                }
+            ],
+            "Repeatable": false,
+            "UseRandomInvocation": false,
+            "InvokeChance": 0
+        }
+    ]
+}

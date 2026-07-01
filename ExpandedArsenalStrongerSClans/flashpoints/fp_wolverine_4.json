@@ -1,0 +1,71 @@
+{
+    "Description": {
+        "Id": "fp_wolverine_4",
+        "Name": "Cus's Cutlasses: Cussing You Out",
+        "Details": "Elite Arsenal Expanded flashpoint",
+        "Icon": null
+    },
+    "Weight": 10,
+    "InternalName": "eae_wolverine_4",
+    "PublishState": "PUBLISHED",
+    "Difficulty": 8,
+    "Requirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_eae_eas_generic_dif_9_complete",
+                    "flashpoint_wolverine_3_complete"
+                ]
+            },
+            "ExclusionTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_wolverine_4_complete"
+                ]
+            },
+            "RequirementComparisons": [
+
+            ]
+        }
+    ],
+    "LocationRequirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "tagSetSourceFile": "Tags/CompanyTags",
+            "items": [
+
+            ]
+        },
+        "ExclusionTags": {
+            "tagSetSourceFile": "Tags/PlanetTags",
+            "items": [
+                "planet_climate_lunar",
+                "planet_climate_mars"
+            ]
+        },
+        "RequirementComparisons": []
+    },
+    "PotentialEmployers": [
+        "AuriganRestoration"
+    ],
+    "TargetFaction": "CussCutlasses",
+    "AllowRefitTime": true,
+    "FlashpointLength": "MEDIUM",
+    "Repeatable": true,
+    "MilestoneSetID": "ms_fp_wolverine_4",
+    "UseAvailableTimeoutOverride": true,
+    "AvailableTimeout": 180,
+    "UseInProgressTimeoutOverride": true,
+    "InProgressTimeout": 30,
+    "RewardCollectionID": "itemCollection_fp_wolverine_4",
+    "UnitDropTonnageHint": "None",
+    "LanceDropTonnageHint": "None",
+    "FlashpointShortDescription": "Time to finally get some answers, though I'm sure we won't get all of them.",
+    "FlashpointDescriberCastDefId": "castDef_DariusDefault",
+    "Tags": {
+        "tagSetSourceFile": "tags/FlashpointTags",
+        "items": []
+    }
+}

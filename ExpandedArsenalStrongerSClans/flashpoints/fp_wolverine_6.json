@@ -1,0 +1,71 @@
+{
+    "Description": {
+        "Id": "fp_wolverine_6",
+        "Name": "Cus's Cutlasses: New Friends",
+        "Details": "Elite Arsenal Expanded flashpoint",
+        "Icon": null
+    },
+    "Weight": 10,
+    "InternalName": "eae_wolverine_6",
+    "PublishState": "PUBLISHED",
+    "Difficulty": 8,
+    "Requirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_eae_eas_generic_dif_10_complete",
+                    "flashpoint_wolverine_5_complete"
+                ]
+            },
+            "ExclusionTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_wolverine_6_complete"
+                ]
+            },
+            "RequirementComparisons": [
+
+            ]
+        }
+    ],
+    "LocationRequirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "tagSetSourceFile": "Tags/CompanyTags",
+            "items": [
+
+            ]
+        },
+        "ExclusionTags": {
+            "tagSetSourceFile": "Tags/PlanetTags",
+            "items": [
+                "planet_climate_lunar",
+                "planet_climate_mars"
+            ]
+        },
+        "RequirementComparisons": []
+    },
+    "PotentialEmployers": [
+        "CussCutlasses"
+    ],
+    "TargetFaction": "GhostBear",
+    "AllowRefitTime": true,
+    "FlashpointLength": "MEDIUM",
+    "Repeatable": true,
+    "MilestoneSetID": "ms_fp_wolverine_6",
+    "UseAvailableTimeoutOverride": true,
+    "AvailableTimeout": 180,
+    "UseInProgressTimeoutOverride": true,
+    "InProgressTimeout": 30,
+    "RewardCollectionID": "itemCollection_fp_wolverine_6",
+    "UnitDropTonnageHint": "None",
+    "LanceDropTonnageHint": "None",
+    "FlashpointShortDescription": "Work with our new friends to deal with the Ghost Bear annoyances.",
+    "FlashpointDescriberCastDefId": "castDef_DariusDefault",
+    "Tags": {
+        "tagSetSourceFile": "tags/FlashpointTags",
+        "items": []
+    }
+}

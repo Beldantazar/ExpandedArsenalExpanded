@@ -7,9 +7,9 @@
   "enableMonthlyMoraleReset": false,
   "enableStablePiloting": false,
   "affinitySettings": {
-    "missionsBeforeDecay": 5,
+    "missionsBeforeDecay": 20,
     "lowestPossibleDecay": 0,
-    "removeAffinityAfter": 17,
+    "removeAffinityAfter": 40,
     "maxAffinityPoints": 1000,
     "decayByModulo": false,
     "debugForceTag": "",

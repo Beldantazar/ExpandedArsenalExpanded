@@ -1,6 +1,6 @@
 {
-    "ID": "fp_wolverine_3_mission5",
-    "contractName": "Cus's Cutlasses: Jumping In 5",
+    "ID": "fp_wolverine_5_mission5",
+    "contractName": "Cus's Cutlasses: Just BeCus 5",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 8,
     "difficultyUIModifier": 0,
@@ -11,7 +11,7 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "We've found the main base serving as the Jade Falcon foothold on the planet. The good news is there is a base nearby we can use to stage an assault on their base, the bad news is that we're gonna have to keep that base intact while we do the assault.",
+    "shortDescription": "There's a major Jade Falcon base next to an important manufacturing facility, they haven't attacked it yet, but it's only a matter of time, so before they can attack it, you need to get in there and protect it. Get rid of the Jade Falcon base at the same time as you protect the facility.",
     "longDescription": "We'll be outnumbered and outmatched, Commander, but that's hardly a new experience for us.",
     "salvagePotential": 20,
     "requirementList": [
@@ -26,7 +26,7 @@
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
-    "lanceMaxTonnage": 500,
+    "lanceMaxTonnage": 600,
     "mechMinTonnages": [
         -1,
         -1,
@@ -34,10 +34,10 @@
         -1
     ],
     "mechMaxTonnages": [
-        150,
-        150,
-        100,
-        100
+        -1,
+        -1,
+        -1,
+        -1
     ],
     "mapMood": null,
     "startingFogOfWarVisibility": "Surveyed",
@@ -242,7 +242,7 @@
             "objective": {
                 "EncounterObjectGuid": "836c1bef-fe50-475b-a169-c65fe7cb9333"
             },
-            "title": "Defend the {TEAM_EMP.FactionDef.Demonym} Base",
+            "title": "Defend the Manufacturing Base",
             "description": "At least 1 must survive.",
             "isPrimary": true,
             "OnSuccessResults": [

@@ -1,8 +1,8 @@
 {
-    "ID": "fp_wolverine_2_mission6",
-    "contractName": "Cus's Cutlasses: Sky High 6",
+    "ID": "fp_wolverine_5_mission1",
+    "contractName": "Cus's Cutlasses: Just BeCus 1",
     "contractDisplayStyle": "BaseFlashpoint",
-    "difficulty": 5,
+    "difficulty": 10,
     "difficultyUIModifier": 0,
     "weight": 1,
     "scope": "MID_CAMPAIGN",
@@ -11,9 +11,9 @@
     "missionSuccessStatementOverride": null,
     "badFaithStatementOverride": null,
     "goodFaithStatementOverride": null,
-    "shortDescription": "Finish off the remaining Cutlass forces, including their commander.",
-    "longDescription": "We're detecting a lot of reactor signals, including one very odd one, so keep your eyes peeled on this one, Commander.",
-    "salvagePotential": 15,
+    "shortDescription": "The meteor shower is going on right now, so long range radio is unuseable, this is the perfect time to strike this base and establish a foothold on the planet.",
+    "longDescription": "Expect stiff resistance, the enemy always seems to be aware of their tactical holes, so they're probably prepared for this one too.",
+    "salvagePotential": 20,
     "requirementList": [
 
     ],
@@ -26,7 +26,7 @@
     "encounterPlayStyle": "SinglePlayer",
     "maxNumberOfPlayerUnits": 4,
     "lanceMinTonnage": -1,
-    "lanceMaxTonnage": 300,
+    "lanceMaxTonnage": 600,
     "mechMinTonnages": [
         -1,
         -1,
@@ -34,36 +34,54 @@
         -1
     ],
     "mechMaxTonnages": [
-        75,
-        75,
-        75,
-        75
+        -1,
+        -1,
+        -1,
+        -1
     ],
     "mapMood": null,
     "startingFogOfWarVisibility": "Surveyed",
     "contractObjectiveList": [
         {
             "contractObjective": {
-                "EncounterObjectGuid": "73275787-720a-4c33-9f20-953b1bbf48bd"
+                "EncounterObjectGuid": "6f5f8d17-70ed-44a8-acc0-ccf9258925aa"
             },
-            "title": "Destroy Enemy Units",
-            "description": "",
+            "title": "Destroy {TEAM_TAR.FactionDef.Demonym} Logistical Base and Escape",
+            "description": "Destroy Enemy Structures",
             "isPrimary": true,
             "forPlayer": "Player1",
             "objectiveGuids": [
-                "d111d351-a666-4852-8e4b-a300d0cccc2d",
-                "0e2a07c1-e22a-47a7-a353-3e93ebcd7b47"
+                "3ac1476d-5ab0-436b-aa68-e1a5436e796f",
+                "3a753f8c-2d38-4ea6-9812-c9c169cd3545",
+                "979864d1-7d84-4797-b032-696a157deed8",
+                "ea4504c3-8dcc-4049-bff2-784c423f0aa8"
             ]
         }
     ],
     "objectiveList": [
         {
             "objective": {
-                "EncounterObjectGuid": "d111d351-a666-4852-8e4b-a300d0cccc2d"
+                "EncounterObjectGuid": "3ac1476d-5ab0-436b-aa68-e1a5436e796f"
             },
-            "title": "Destroy Enemy Units",
+            "title": "Destroy Logistical Base",
             "description": "",
             "isPrimary": true,
+            "OnSuccessResults": [
+
+            ],
+            "OnFailureResults": [
+
+            ],
+            "OnSuccessDialogueGUID": null,
+            "OnFailureDialogueGUID": null
+        },
+        {
+            "objective": {
+                "EncounterObjectGuid": "979864d1-7d84-4797-b032-696a157deed8"
+            },
+            "title": "Destroy {TEAM_TAR.FactionDef.Demonym} Base Garrison",
+            "description": "",
+            "isPrimary": false,
             "OnSuccessResults": [
                 {
                     "Scope": "Company",
@@ -84,7 +102,7 @@
                         {
                             "typeString": "System.Single",
                             "name": "ContractBonusRewardPct",
-                            "value": "0.0",
+                            "value": "0.25",
                             "set": false,
                             "valueConstant": null
                         }
@@ -107,9 +125,105 @@
         },
         {
             "objective": {
-                "EncounterObjectGuid": "0e2a07c1-e22a-47a7-a353-3e93ebcd7b47"
+                "EncounterObjectGuid": "71f98492-dc71-450f-a9a7-2bb4bb09591a"
             },
-            "title": "Destroy Enemy Reinforcements",
+            "title": "HIDDEN Objective: Destroy Base Turrets",
+            "description": "HIDDEN Objective: Destroy Base Turrets",
+            "isPrimary": false,
+            "OnSuccessResults": [
+                {
+                    "Scope": "Company",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [
+
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [
+
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Single",
+                            "name": "ContractBonusRewardPct",
+                            "value": "0.1",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+
+                    ],
+                    "ForceEvents": [
+
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "OnFailureResults": [
+
+            ],
+            "OnSuccessDialogueGUID": null,
+            "OnFailureDialogueGUID": null
+        },
+        {
+            "objective": {
+                "EncounterObjectGuid": "ea4504c3-8dcc-4049-bff2-784c423f0aa8"
+            },
+            "title": "Destroy {TEAM_TAR.FactionDef.Demonym} Reinforcements",
+            "description": "",
+            "isPrimary": false,
+            "OnSuccessResults": [
+                {
+                    "Scope": "Company",
+                    "Requirements": null,
+                    "AddedTags": {
+                        "items": [
+
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "RemovedTags": {
+                        "items": [
+
+                        ],
+                        "tagSetSourceFile": ""
+                    },
+                    "Stats": [
+                        {
+                            "typeString": "System.Single",
+                            "name": "ContractBonusRewardPct",
+                            "value": "0.1",
+                            "set": false,
+                            "valueConstant": null
+                        }
+                    ],
+                    "Actions": [
+
+                    ],
+                    "ForceEvents": [
+
+                    ],
+                    "TemporaryResult": false,
+                    "ResultDuration": 0
+                }
+            ],
+            "OnFailureResults": [
+
+            ],
+            "OnSuccessDialogueGUID": null,
+            "OnFailureDialogueGUID": null
+        },
+        {
+            "objective": {
+                "EncounterObjectGuid": "3a753f8c-2d38-4ea6-9812-c9c169cd3545"
+            },
+            "title": "Get to the evac zone",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [
@@ -132,7 +246,7 @@
         {
             "name": "Chunk_Ambush (Bonus)",
             "encounterChunk": {
-                "EncounterObjectGuid": "181d617b-02bc-4fd3-be25-d6d5cffb78de"
+                "EncounterObjectGuid": "a5257151-5269-4222-9a0d-31001a70fe22"
             },
             "enableChunkFromContract": true,
             "controlledByContractChunkGroupList": [
@@ -147,19 +261,37 @@
         {
             "name": "Spawner_PlayerLance",
             "encounterObject": {
-                "EncounterObjectGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe"
+                "EncounterObjectGuid": "dafd0d98-c88a-4f90-b137-4fe5ed94ebbb"
             }
         },
         {
             "name": "Lance_Enemy_OpposingForce",
             "encounterObject": {
-                "EncounterObjectGuid": "d9a28c08-abdb-42bb-a140-ad3927d1f8cf"
+                "EncounterObjectGuid": "5a1b1a4a-0325-4a6d-b021-d9ba167e2ac8"
+            }
+        },
+        {
+            "name": "Lance_Enemy_BaseTurrets",
+            "encounterObject": {
+                "EncounterObjectGuid": "40decd4d-427d-4f2e-8fc7-fc379ae4bbc2"
             }
         },
         {
             "name": "Lance_Enemy_Ambushers",
             "encounterObject": {
-                "EncounterObjectGuid": "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e"
+                "EncounterObjectGuid": "bb480a51-ce9c-4dcf-9bbc-3ef5698c4422"
+            }
+        },
+        {
+            "name": "Region_Ambush",
+            "encounterObject": {
+                "EncounterObjectGuid": "0ee819bd-b34c-464a-8d2a-987005fe0bc7"
+            }
+        },
+        {
+            "name": "Region_Escape",
+            "encounterObject": {
+                "EncounterObjectGuid": "f22d699f-edce-4f14-b520-8580535f620f"
             }
         }
     ],
@@ -168,11 +300,11 @@
             "dialogue": {
                 "EncounterObjectGuid": "73df8d9c-a274-48fd-98c9-2bd0d7860e83"
             },
-            "name": "Dialogue_MissionStart",
+            "name": "Dialog_MissionStart",
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "This is where the satellite pictures showed the hostile lance touching down.",
+                    "words": "To render this base unuseable, we'll need to destroy several key structures.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -188,7 +320,7 @@
                     "revealRadius": -1
                 },
                 {
-                    "words": "Move up and make contact; let's see what we're dealing with.",
+                    "words": "Move up to engage the target buildings. Looks like the base has its own defenses.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -198,13 +330,13 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "",
+                    "cameraFocusGuid": "40decd4d-427d-4f2e-8fc7-fc379ae4bbc2",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
                 },
                 {
-                    "words": "Expect serious resistance. Oliveira out.",
+                    "words": "Once you've engaged, expect enemy reinforcements. Oliveira out.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -214,7 +346,7 @@
                     "selectedCastDefId": "castDef_DariusDefault",
                     "emote": "Default",
                     "audioName": "NONE",
-                    "cameraFocusGuid": "",
+                    "cameraFocusGuid": "dafd0d98-c88a-4f90-b137-4fe5ed94ebbb",
                     "cameraDistance": "Far",
                     "cameraHeight": "Default",
                     "revealRadius": -1
@@ -225,11 +357,11 @@
             "dialogue": {
                 "EncounterObjectGuid": "4011a4c3-cba2-4d22-b2b3-3b19a3297ab9"
             },
-            "name": "Dialogue_MissionSuccess",
+            "name": "Dialog_MissionSuccess",
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "That's the last of them, Commander. Let's dust off and go home.",
+                    "words": "That's everything, Commander. Time to move on to the next one.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -250,11 +382,11 @@
             "dialogue": {
                 "EncounterObjectGuid": "d3d33d95-9ed7-4686-b9eb-954ebe51cc02"
             },
-            "name": "Dialogue_MissionFailure",
+            "name": "Dialog_MissionFailure",
             "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "I'm pulling you out. We can't get this one done.",
+                    "words": "Damn. We need to abort, Commander, before we suffer any more losses.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -273,13 +405,113 @@
         },
         {
             "dialogue": {
-                "EncounterObjectGuid": "33166b96-5af2-4724-b970-7884ec41ffd0"
+                "EncounterObjectGuid": "5e45a01d-01a2-40bf-b4ce-c963eb32f26d"
             },
-            "name": "Dialogue_AmbushWarning",
-            "overrideDialogueBucketId": "DialogBucketDef_Universal_HostilesInbound",
+            "name": "Dialogue_Interrupt_AmbushWarning",
+            "overrideDialogueBucketId": "",
             "dialogueContent": [
                 {
-                    "words": "A primary target is damaged, Commander! Keep it up!",
+                    "words": "Incoming reinforcements, Commander, and it looks like they're sending in the big guns.",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "bb480a51-ce9c-4dcf-9bbc-3ef5698c4422",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                }
+            ]
+        },
+        {
+            "dialogue": {
+                "EncounterObjectGuid": "a2472c65-4ab9-4c45-a5d3-e51a151ae25e"
+            },
+            "name": "Dialogue_EscapeDirection",
+            "overrideDialogueBucketId": "DialogBucketDef_Universal_Escape",
+            "dialogueContent": [
+                {
+                    "words": "We've demolished the objective buildings. No need to loiter, get to the evac zone. ",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                }
+            ]
+        },
+        {
+            "dialogue": {
+                "EncounterObjectGuid": "719d08e9-5bf9-4dc0-a13b-ad86bac4a65d"
+            },
+            "name": "Dialogue_TargetBuildingDamaged",
+            "overrideDialogueBucketId": "DialogBucketDef_DestroyBase_EnemyStruct-Damaged",
+            "dialogueContent": [
+                {
+                    "words": "Good shots, Commander! You scored a solid hit on one of the target structures, keep it up. ",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                }
+            ]
+        },
+        {
+            "dialogue": {
+                "EncounterObjectGuid": "e882f006-f7fd-4048-9c29-56553a5b5698"
+            },
+            "name": "Dialogue_TargetBuildingDestroyed",
+            "overrideDialogueBucketId": "DialogBucketDef_DestroyBase_EnemyStruct-Destroyed",
+            "dialogueContent": [
+                {
+                    "words": "Target building destroyed, good work commander, stay at it and we'll be done in no time. ",
+                    "wordsColor": {
+                        "r": 1,
+                        "g": 1,
+                        "b": 1,
+                        "a": 1
+                    },
+                    "selectedCastDefId": "castDef_DariusDefault",
+                    "emote": "Default",
+                    "audioName": "NONE",
+                    "cameraFocusGuid": "",
+                    "cameraDistance": "Far",
+                    "cameraHeight": "Default",
+                    "revealRadius": -1
+                }
+            ]
+        },
+        {
+            "dialogue": {
+                "EncounterObjectGuid": "aeff78ff-42fd-430a-8785-2aad29f83326"
+            },
+            "name": "Dialogue_TargetGarrisonDestroyed",
+            "overrideDialogueBucketId": "DialogBucketDef_Universal_KillConfirmed",
+            "dialogueContent": [
+                {
+                    "words": "Bkt_KillConfirmed: The garrison is destroyed. Good Work.",
                     "wordsColor": {
                         "r": 1,
                         "g": 1,
@@ -316,7 +548,7 @@
     "excludedFromProceduralGeneration": true,
     "player1Team": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "bf40fd39-ccf9-47c4-94a6-061809681140",
         "teamName": "Player 1",
@@ -325,7 +557,7 @@
         "lanceOverrideList": [
             {
                 "lanceSpawner": {
-                    "EncounterObjectGuid": "76b654a6-4f2c-4a6f-86e6-d4cf868335fe"
+                    "EncounterObjectGuid": "dafd0d98-c88a-4f90-b137-4fe5ed94ebbb"
                 },
                 "name": "Spawner_PlayerLance",
                 "lanceDefId": "Manual",
@@ -353,10 +585,10 @@
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "ec9d2280-ca9a-4d90-8a20-963d8a4c0a39"
+                            "EncounterObjectGuid": "1668c1ba-b9c6-4ef3-83df-19bfec270da1"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "mechDef_None",
                         "unitTagSet": {
@@ -396,10 +628,10 @@
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "ebc06b6a-c5a8-4165-95ce-480bcf335570"
+                            "EncounterObjectGuid": "6b4979b9-b730-460b-8f18-c9b19efbb91c"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "mechDef_None",
                         "unitTagSet": {
@@ -439,10 +671,10 @@
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "d50f1e9d-0a0b-4dc8-9a06-a33233aaa8a1"
+                            "EncounterObjectGuid": "0a320081-2d60-450e-8e00-092c838496b4"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "mechDef_None",
                         "unitTagSet": {
@@ -482,10 +714,10 @@
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "461141c2-f956-49a5-b2c6-6f951b957a94"
+                            "EncounterObjectGuid": "34a720da-9acc-4c57-bb4a-2cbe22da78a8"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "mechDef_None",
                         "unitTagSet": {
@@ -529,7 +761,7 @@
     },
     "player2Team": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "757173dd-b4e1-4bb5-9bee-d78e623cc867",
         "teamName": "Player 2",
@@ -541,7 +773,7 @@
     },
     "employerTeam": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "ecc8d4f2-74b4-465d-adf6-84445e5dfc230",
         "teamName": "Employer",
@@ -553,7 +785,7 @@
     },
     "targetTeam": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "be77cadd-e245-4240-a93e-b99cc98902a5",
         "teamName": "Target",
@@ -562,7 +794,7 @@
         "lanceOverrideList": [
             {
                 "lanceSpawner": {
-                    "EncounterObjectGuid": "d9a28c08-abdb-42bb-a140-ad3927d1f8cf"
+                    "EncounterObjectGuid": "5a1b1a4a-0325-4a6d-b021-d9ba167e2ac8"
                 },
                 "name": "Lance_Enemy_OpposingForce",
                 "lanceDefId": "Tagged",
@@ -572,7 +804,7 @@
                         "lance_type_notallvehicles_expanded_arsenal_expanded",
                         "expanded_arsenal_expanded_eas"
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
@@ -586,16 +818,16 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 0,
+                "lanceDifficultyAdjustment": 1,
                 "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "9e2d0fed-3d92-42ee-92d0-2cc595709f2a"
+                            "EncounterObjectGuid": "63ad3b03-b392-49b8-ac26-1ad827b010b4"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "UseLance",
                         "unitTagSet": {
@@ -635,10 +867,10 @@
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "e3e34fc2-c664-42ab-920b-6002c058ac55"
+                            "EncounterObjectGuid": "74a1e790-8882-4e72-844f-26b1a3804231"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "UseLance",
                         "unitTagSet": {
@@ -678,10 +910,10 @@
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "ab9e2bfb-f6c4-4b4b-b540-957dcfc48a27"
+                            "EncounterObjectGuid": "b7eb8d4e-6b3d-4670-a48a-baf2757e024a"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "UseLance",
                         "unitTagSet": {
@@ -721,10 +953,10 @@
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "f46b3021-803a-41ed-87e0-1b8cb86663b8"
+                            "EncounterObjectGuid": "74c2e448-9cc6-44bf-9c23-6442756067bf"
                         },
-                        "customUnitName": null,
-                        "customHeraldryDefId": null,
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
                         "unitType": "Mech",
                         "unitDefId": "UseLance",
                         "unitTagSet": {
@@ -766,15 +998,219 @@
             },
             {
                 "lanceSpawner": {
-                    "EncounterObjectGuid": "d3d75b1e-ace5-43e8-b037-79a2dd2b3d4e"
+                    "EncounterObjectGuid": "40decd4d-427d-4f2e-8fc7-fc379ae4bbc2"
                 },
-                "name": "Lance_Enemy_Ambushers",
-                "lanceDefId": "Manual",
+                "name": "Lance_Enemy_BaseTurrets",
+                "lanceDefId": "Tagged",
                 "lanceTagSet": {
+                    "items": [
+                        "lance_type_turret"
+                    ],
+                    "tagSetSourceFile": "mc_force_extended_lance"
+                },
+                "lanceExcludedTagSet": {
+                    "items": [
+                        "elite_arsenal_ss"
+                    ],
+                    "tagSetSourceFile": "tags/LanceTags"
+                },
+                "spawnEffectTags": {
                     "items": [
 
                     ],
-                    "tagSetSourceFile": "tags/LanceTags"
+                    "tagSetSourceFile": "tags/SpawnEffectTags"
+                },
+                "lanceDifficultyAdjustment": 0,
+                "selectedLanceDefId": null,
+                "selectedLanceDifficulty": 0,
+                "unitSpawnPointOverrideList": [
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "26da7487-142c-4be0-bff2-d2d1194df6b8"
+                        },
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
+                        "unitType": "Turret",
+                        "unitDefId": "UseLance",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "60b090eb-ec4e-4852-a36e-a942842955d1"
+                        },
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
+                        "unitType": "Turret",
+                        "unitDefId": "UseLance",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "08b13e63-0a1d-4299-aea6-9fd4d5365e6a"
+                        },
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
+                        "unitType": "Turret",
+                        "unitDefId": "UseLance",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    },
+                    {
+                        "unitSpawnPoint": {
+                            "EncounterObjectGuid": "6fd7746a-0546-4322-820f-a6130e33a84b"
+                        },
+                        "customUnitName": "",
+                        "customHeraldryDefId": "",
+                        "unitType": "Turret",
+                        "unitDefId": "UseLance",
+                        "unitTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "unitExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/UnitTags"
+                        },
+                        "spawnEffectTags": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/SpawnEffectTags"
+                        },
+                        "pilotDefId": "pilotDef_InheritLance",
+                        "pilotTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "pilotExcludedTagSet": {
+                            "items": [
+
+                            ],
+                            "tagSetSourceFile": "tags/PilotTags"
+                        },
+                        "selectedUnitType": "UNDEFINED",
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
+                    }
+                ]
+            },
+            {
+                "lanceSpawner": {
+                    "EncounterObjectGuid": "bb480a51-ce9c-4dcf-9bbc-3ef5698c4422"
+                },
+                "name": "Lance_Enemy_Ambushers",
+                "lanceDefId": "Tagged",
+                "lanceTagSet": {
+                    "items": [
+                        "lance_type_support_expanded_arsenal_expanded",
+                        "lance_type_notallvehicles_expanded_arsenal_expanded",
+                        "expanded_arsenal_expanded_eas"
+                    ],
+                    "tagSetSourceFile": "mc_force_extended_lance"
                 },
                 "lanceExcludedTagSet": {
                     "items": [
@@ -788,18 +1224,18 @@
                     ],
                     "tagSetSourceFile": "tags/SpawnEffectTags"
                 },
-                "lanceDifficultyAdjustment": 0,
-                "selectedLanceDefId": "",
+                "lanceDifficultyAdjustment": 2,
+                "selectedLanceDefId": null,
                 "selectedLanceDifficulty": 0,
                 "unitSpawnPointOverrideList": [
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "6cd3107e-0f9d-4809-ab8c-fb30faf4cd80"
+                            "EncounterObjectGuid": "6a902689-eca8-469b-9b45-32a1dcd904c6"
                         },
-                        "customUnitName": null,
+                        "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_super_lam_SLAM-SS",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -818,7 +1254,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_wolverine_Skyline",
+                        "pilotDefId": "pilotDef_InheritLance",
                         "pilotTagSet": {
                             "items": [
 
@@ -832,17 +1268,17 @@
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": "",
-                        "selectedPilotDefId": ""
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "14c58a13-96a6-4f91-a1e5-47b5d02b81d1"
+                            "EncounterObjectGuid": "4ad6002d-6d87-42c8-a99d-ffeb35d62723"
                         },
-                        "customUnitName": null,
+                        "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_darkcrow_DCR-S",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -861,7 +1297,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d10_Ace_2",
+                        "pilotDefId": "pilotDef_InheritLance",
                         "pilotTagSet": {
                             "items": [
 
@@ -875,17 +1311,17 @@
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": "",
-                        "selectedPilotDefId": ""
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "a72a9eec-1e1d-4d57-8abd-4748863763dd"
+                            "EncounterObjectGuid": "98f65ba4-c2dc-4435-959b-fb5a2e30a889"
                         },
-                        "customUnitName": null,
+                        "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_ebonjaguar_EBJ-S2",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -904,7 +1340,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d10_Ace_3",
+                        "pilotDefId": "pilotDef_InheritLance",
                         "pilotTagSet": {
                             "items": [
 
@@ -918,17 +1354,17 @@
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": "",
-                        "selectedPilotDefId": ""
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
                     },
                     {
                         "unitSpawnPoint": {
-                            "EncounterObjectGuid": "68159bf4-8891-4516-b188-f48b2ddf6801"
+                            "EncounterObjectGuid": "3839b098-fae1-429f-b0fc-276b115894f8"
                         },
-                        "customUnitName": null,
+                        "customUnitName": "",
                         "customHeraldryDefId": "",
                         "unitType": "Mech",
-                        "unitDefId": "mechdef_fox_FX-S",
+                        "unitDefId": "UseLance",
                         "unitTagSet": {
                             "items": [
 
@@ -947,7 +1383,7 @@
                             ],
                             "tagSetSourceFile": "tags/SpawnEffectTags"
                         },
-                        "pilotDefId": "pilot_d10_Elite_1",
+                        "pilotDefId": "pilotDef_InheritLance",
                         "pilotTagSet": {
                             "items": [
 
@@ -961,51 +1397,8 @@
                             "tagSetSourceFile": "tags/PilotTags"
                         },
                         "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": "",
-                        "selectedPilotDefId": ""
-                    },
-                    {
-                        "unitSpawnPoint": {
-                            "EncounterObjectGuid": "68159bf4-8891-4516-b188-f48b2ddf6801"
-                        },
-                        "customUnitName": null,
-                        "customHeraldryDefId": "",
-                        "unitType": "Mech",
-                        "unitDefId": "mechdef_naja_NJA-S2",
-                        "unitTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "unitExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/UnitTags"
-                        },
-                        "spawnEffectTags": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/SpawnEffectTags"
-                        },
-                        "pilotDefId": "pilot_d10_Elite_1",
-                        "pilotTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "pilotExcludedTagSet": {
-                            "items": [
-
-                            ],
-                            "tagSetSourceFile": "tags/PilotTags"
-                        },
-                        "selectedUnitType": "UNDEFINED",
-                        "selectedUnitDefId": "",
-                        "selectedPilotDefId": ""
+                        "selectedUnitDefId": null,
+                        "selectedPilotDefId": null
                     }
                 ]
             }
@@ -1013,7 +1406,7 @@
     },
     "targetsAllyTeam": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "31151ed6-cfc2-467e-98c4-9ae5bea784cf",
         "teamName": "Target's Ally",
@@ -1025,7 +1418,7 @@
     },
     "neutralToAllTeam": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "61612bb3-abf9-4586-952a-0559fa9dcd75",
         "teamName": "Neutral to All",
@@ -1037,7 +1430,7 @@
     },
     "hostileToAllTeam": {
         "encounterLayerData": {
-            "EncounterObjectGuid": "c1dd76b9-5f5f-46f1-b5a2-d1f22dd4991b"
+            "EncounterObjectGuid": "ca92ce11-36c5-40d1-ac17-2559e1d3bcc9"
         },
         "teamGuid": "3c9f3a20-ab03-4bcb-8ab6-b1ef0442bbf0",
         "teamName": "Hostile to All",
@@ -1057,7 +1450,7 @@
 
         ]
     },
-    "contractType": "SimpleBattle",
-    "contractTypeID": "SimpleBattle"
+    "contractType": "DestroyBase",
+    "contractTypeID": "DestroyBase"
 }
 

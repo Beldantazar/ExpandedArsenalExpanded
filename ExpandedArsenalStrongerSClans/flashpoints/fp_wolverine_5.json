@@ -1,0 +1,71 @@
+{
+    "Description": {
+        "Id": "fp_wolverine_5",
+        "Name": "Cus's Cutlasses: Just BeCus",
+        "Details": "Elite Arsenal Expanded flashpoint",
+        "Icon": null
+    },
+    "Weight": 10,
+    "InternalName": "eae_wolverine_5",
+    "PublishState": "PUBLISHED",
+    "Difficulty": 8,
+    "Requirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_eae_eas_generic_dif_10_complete",
+                    "flashpoint_wolverine_4_complete"
+                ]
+            },
+            "ExclusionTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_wolverine_5_complete"
+                ]
+            },
+            "RequirementComparisons": [
+
+            ]
+        }
+    ],
+    "LocationRequirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "tagSetSourceFile": "Tags/CompanyTags",
+            "items": [
+
+            ]
+        },
+        "ExclusionTags": {
+            "tagSetSourceFile": "Tags/PlanetTags",
+            "items": [
+                "planet_climate_lunar",
+                "planet_climate_mars"
+            ]
+        },
+        "RequirementComparisons": []
+    },
+    "PotentialEmployers": [
+        "AuriganRestoration"
+    ],
+    "TargetFaction": "CussCutlasses",
+    "AllowRefitTime": true,
+    "FlashpointLength": "MEDIUM",
+    "Repeatable": true,
+    "MilestoneSetID": "ms_fp_wolverine_5",
+    "UseAvailableTimeoutOverride": true,
+    "AvailableTimeout": 180,
+    "UseInProgressTimeoutOverride": true,
+    "InProgressTimeout": 30,
+    "RewardCollectionID": "itemCollection_fp_wolverine_5",
+    "UnitDropTonnageHint": "None",
+    "LanceDropTonnageHint": "None",
+    "FlashpointShortDescription": "The final battle against the Cutlasses, lets get a proper answer and see what this is all about.",
+    "FlashpointDescriberCastDefId": "castDef_DariusDefault",
+    "Tags": {
+        "tagSetSourceFile": "tags/FlashpointTags",
+        "items": []
+    }
+}
