@@ -89,11 +89,17 @@ mechdef_highlander_HGN-S2,Mech,1,1
 mechdef_imp_IMP-S,Mech,1,1
 mechdef_imp_IMP-S2,Mech,1,1
 mechdef_imp_IMP-S3,Mech,1,1
+mechdef_jotunn_JTN-S1,Mech,1,1
+mechdef_jotunn_JTN-S2,Mech,1,1
+mechdef_jotunn_JTN-S3,Mech,1,1
 mechdef_juggernaut_JG-S,Mech,1,1
 mechdef_juggernaut_JG-S2,Mech,1,1
 mechdef_kingcrabrauder_KCRD-S1,Mech,1,1
 mechdef_kingcrabrauder_KCRD-S2,Mech,1,1
 mechdef_kingcrab_KGC-S2,Mech,1,1
+mechdef_legacy_LGC-S1,Mech,1,1
+mechdef_legacy_LGC-S2,Mech,1,1
+mechdef_legacy_LGC-S3,Mech,1,1
 mechdef_mackie-S,Mech,1,1
 mechdef_mackie_MSK-S2,Mech,1,1
 mechdef_mackie_MSK-S3,Mech,1,1
@@ -103,6 +109,8 @@ mechdef_naginata_NG-S,Mech,1,1
 mechdef_naginata_NG-S2,Mech,1,1
 mechdef_nightstar_NSR-S,Mech,1,1
 mechdef_nightstar_NSR-S2,Mech,1,1
+mechdef_pendragon_PDG-S1,Mech,1,1
+mechdef_pendragon_PDG-S2,Mech,1,1
 mechdef_pillager_PLG-S,Mech,1,1
 mechdef_pillager_PLG-S2,Mech,1,1
 mechdef_rampage_RMP-S1,Mech,1,1
@@ -167,6 +175,8 @@ mechdef_marauderiic_MAD-IIC-S2,Mech,1,1
 mechdef_marauderiic_MAD-IIC-S3,Mech,1,1
 mechdef_nagaii_NGA-S1,Mech,1,1
 mechdef_nagaii_NGA-S2,Mech,1,1
+mechdef_omen_OMN-S1,Mech,1,1
+mechdef_omen_OMN-S2,Mech,1,1
 mechdef_onager_ONG-S1,Mech,1,1
 mechdef_onager_ONG-S2,Mech,1,1
 mechdef_scylla_SCL-S,Mech,1,1

@@ -144,8 +144,8 @@ mechdef_komodo_KIM-X,Mech,1,1
 mechdef_komodo_KIM-S,Mech,1,1
 mechdef_komodo_KIM-X2,Mech,1,1
 mechdef_komodo_KIM-S2,Mech,1,1
-mechdef_eris_ERS-X,Mech,1,1
-mechdef_eris_ERS-S,Mech,1,1
+mechdef_eris_ERS-X2,Mech,1,1
+mechdef_eris_ERS-S2,Mech,1,1
 mechdef_eris_ERS-X,Mech,1,1
 mechdef_eris_ERS-S,Mech,1,1
 mechdef_hoplite_HOP-X,Mech,1,1
@@ -224,3 +224,15 @@ mechdef_gladiator_GLD-X1,Mech,1,1
 mechdef_gladiator_GLD-S1,Mech,1,1
 mechdef_gladiator_GLD-X2,Mech,1,1
 mechdef_gladiator_GLD-S2,Mech,1,1
+mechdef_whitworth_WTH-X1,Mech,1,1
+mechdef_whitworth_WTH-S1,Mech,1,1
+mechdef_whitworth_WTH-X2,Mech,1,1
+mechdef_whitworth_WTH-S2,Mech,1,1
+mechdef_ghost_GST-X1,Mech,1,1
+mechdef_ghost_GST-S1,Mech,1,1
+mechdef_ghost_GST-X2,Mech,1,1
+mechdef_ghost_GST-S2,Mech,1,1
+mechdef_hammerhead_HMH-X1,Mech,1,1
+mechdef_hammerhead_HMH-S1,Mech,1,1
+mechdef_hammerhead_HMH-X2,Mech,1,1
+mechdef_hammerhead_HMH-S2,Mech,1,1

@@ -128,6 +128,8 @@ mechdef_chimera_CMA-S,Mech,1,1
 mechdef_cicada_CDA-S2,Mech,1,1
 mechdef_clint_CLNT-S,Mech,1,1
 mechdef_clint_CLNT-S2,Mech,1,1
+mechdef_coehorn_COE-S1,Mech,1,1
+mechdef_coehorn_COE-S2,Mech,1,1
 mechdef_crab_CRB-S3,Mech,1,1
 mechdef_daikyu_DAI-S1,Mech,1,1
 mechdef_daikyu_DAI-S2,Mech,1,1
@@ -142,11 +144,14 @@ mechdef_enfield_END-S2,Mech,1,1
 mechdef_enforcer_ENF-S,Mech,1,1
 mechdef_enforcer_ENF-S2,Mech,1,1
 mechdef_eris_ERS-S,Mech,1,1
+mechdef_eris_ERS-S2,Mech,1,1
 mechdef_excalibur_EXC-S,Mech,1,1
 mechdef_excalibur_EXC-S2,Mech,1,1
 mechdef_excalibur_EXC-S3,Mech,1,1
 mechdef_exterminator_EXT-4D-S,Mech,1,1
 mechdef_exterminator_EXT-S,Mech,1,1
+mechdef_ghost_GST-S1,Mech,1,1
+mechdef_ghost_GST-S2,Mech,1,1
 mechdef_gladiator_GLD-S1,Mech,1,1
 mechdef_gladiator_GLD-S2,Mech,1,1
 mechdef_granddragon_DRG-S,Mech,1,1
@@ -252,10 +257,14 @@ mechdef_valkyrieii_VLK-II-1A-S,Mech,1,1
 mechdef_valkyrieii_VLK-II-2A-S,Mech,1,1
 mechdef_vindicator_VND-S,Mech,1,1
 mechdef_vindicator_VND-S2,Mech,1,1
+mechdef_vonrohrs_VON-4RH-S,Mech,1,1
+mechdef_vonrohrs_VON-4RH-S2,Mech,1,1
 mechdef_vulcan_VL-S,Mech,1,1
 mechdef_vulcan_VL-S2,Mech,1,1
 mechdef_warhammer_WHM-S2,Mech,1,1
 mechdef_warhammer_WHM-S3,Mech,1,1
+mechdef_whitworth_WTH-S1,Mech,1,1
+mechdef_whitworth_WTH-S2,Mech,1,1
 mechdef_wolverine_WVR-S2,Mech,1,1
 mechdef_wraith_TR-S,Mech,1,1
 mechdef_wraith_TR-S2,Mech,1,1
@@ -275,6 +284,9 @@ mechdef_conjurer_WVR-IIC-S2,Mech,1,1
 mechdef_darkcrow_DCR-S,Mech,1,1
 mechdef_ebonjaguar_EBJ-S2,Mech,1,1
 mechdef_ebonjaguar_EBJ-S3,Mech,1,1
+mechdef_flamberge_FMB-S1,Mech,1,1
+mechdef_flamberge_FMB-S2,Mech,1,1
+mechdef_flamberge_FMB-S3,Mech,1,1
 mechdef_fox_FX-S,Mech,1,1
 mechdef_glassspider_GS-S1,Mech,1,1
 mechdef_glassspider_GS-S2,Mech,1,1
@@ -283,6 +295,8 @@ mechdef_grendel_GDL-S1,Mech,1,1
 mechdef_grendel_GDL-S2,Mech,1,1
 mechdef_grizzly_GRZ-S1,Mech,1,1
 mechdef_grizzly_GRZ-S2,Mech,1,1
+mechdef_hammerhead_HMH-S1,Mech,1,1
+mechdef_hammerhead_HMH-S2,Mech,1,1
 mechdef_hellbringer_HBR-S3,Mech,1,1
 mechdef_hellfire_HLF-S3,Mech,1,1
 mechdef_hellfire_HLF-S4,Mech,1,1

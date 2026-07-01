@@ -363,6 +363,8 @@ mechdef_carronade_CRN-7M,MechPart,1,1
 mechdef_cataphract_CTF-4XE,MechPart,1,1
 mechdef_champion_CHP-3N,MechPart,1,1
 mechdef_champion_CHP-C,MechPart,1,1
+mechdef_coehorn_COE-H5,MechPart,1,1
+mechdef_coehorn_COE-M7,MechPart,1,1
 mechdef_crockett_CRK-5003-0,MechPart,1,1
 mechdef_crockett_CRK-5003-1,MechPart,1,1
 mechdef_crockett_CRK-5003-1b,MechPart,1,1
@@ -417,6 +419,9 @@ mechdef_jinggau_JN-G7L,MechPart,1,1
 mechdef_jinggau_JN-G7Lr,MechPart,1,1
 mechdef_jinggau_JN-G8A,MechPart,1,1
 mechdef_jinggau_JN-G8Ar,MechPart,1,1
+mechdef_jotunn_JTN-5Q,MechPart,1,1
+mechdef_jotunn_JTN-6Q,MechPart,1,1
+mechdef_jotunn_JTN-7Q,MechPart,1,1
 mechdef_juggernaut_JG-R9T1,MechPart,1,1
 mechdef_juggernaut_JG-R9T2,MechPart,1,1
 mechdef_juggernaut_JG-R9T3,MechPart,1,1
@@ -433,6 +438,9 @@ mechdef_koschei_KSC-5I,MechPart,1,1
 mechdef_koschei_KSC-5MC,MechPart,1,1
 mechdef_lament_LMT-3R,MechPart,1,1
 mechdef_laohu_LHU-3L,MechPart,1,1
+mechdef_legacy_LGC-01,MechPart,1,1
+mechdef_legacy_LGC-02,MechPart,1,1
+mechdef_legacy_LGC-03,MechPart,1,1
 mechdef_liberty_LBT-O,MechPart,1,1
 mechdef_liberty_LBT-OA,MechPart,1,1
 mechdef_liberty_LBT-OC,MechPart,1,1
@@ -453,6 +461,9 @@ mechdef_orion_ON2-K,MechPart,1,1
 mechdef_ostsol_OTL-7M,MechPart,1,1
 mechdef_ostwar_OWR-2M,MechPart,1,1
 mechdef_ostwar_OWR-3M,MechPart,1,1
+mechdef_pendragon_PDG-1R,MechPart,1,1
+mechdef_pendragon_PDG-1X,MechPart,1,1
+mechdef_pendragon_PDG-3R,MechPart,1,1
 mechdef_penetrator_PTR-4D,MechPart,1,1
 mechdef_penetrator_PTR-4F,MechPart,1,1
 mechdef_pillager_PLG-1N,MechPart,1,1
@@ -516,6 +527,8 @@ mechdef_vanquisher_VQR-7V,MechPart,1,1
 mechdef_victor_VTR-10S,MechPart,1,1
 mechdef_viking_VKG-2F,MechPart,1,1
 mechdef_viking_VKG-2G,MechPart,1,1
+mechdef_vonrohrs_VON-4RH-5,MechPart,1,1
+mechdef_vonrohrs_VON-4RH-6,MechPart,1,1
 mechdef_warhammer_WHM-7CS,MechPart,1,1
 mechdef_warhammer_WHM-C,MechPart,1,1
 mechdef_warhammer_WHM-C3,MechPart,1,1
@@ -533,6 +546,11 @@ mechdef_bruin_BRN-1,MechPart,1,1
 mechdef_bruin_BRN-2,MechPart,1,1
 mechdef_canis_CAS-1,MechPart,1,1
 mechdef_canis_CAS-2,MechPart,1,1
+mechdef_flamberge_FMB-2,MechPart,1,1
+mechdef_flamberge_FMB-3,MechPart,1,1
+mechdef_flamberge_FMB-A,MechPart,1,1
+mechdef_flamberge_FMB-D,MechPart,1,1
+mechdef_flamberge_FMB-Prime,MechPart,1,1
 mechdef_glassspider_GS-2,MechPart,1,1
 mechdef_glassspider_GS-3,MechPart,1,1
 mechdef_glassspider_GS-4,MechPart,1,1
@@ -575,6 +593,8 @@ mechdef_nagaii_NGA-C,MechPart,1,1
 mechdef_nagaii_NGA-PRIME,MechPart,1,1
 mechdef_nightgyr_NTG-A,MechPart,1,1
 mechdef_nightgyr_NTG-E,MechPart,1,1
+mechdef_omen_OMN-1,MechPart,1,1
+mechdef_omen_OMN-2,MechPart,1,1
 mechdef_onager_ONG-90,MechPart,1,1
 mechdef_onager_ONG-92,MechPart,1,1
 mechdef_orioniic_ON1-IIC-B,MechPart,1,1

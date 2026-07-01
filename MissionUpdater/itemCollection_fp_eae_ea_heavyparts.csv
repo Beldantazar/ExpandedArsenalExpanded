@@ -62,6 +62,8 @@ mechdef_catapult_CPLT-X2,MechPart,1,1
 mechdef_champion_CHP-X,MechPart,1,1
 mechdef_champion_CHP-X2,MechPart,1,1
 mechdef_champion_CHP-X3,MechPart,1,1
+mechdef_coehorn_COE-X1,MechPart,1,1
+mechdef_coehorn_COE-X2,MechPart,1,1
 mechdef_daikyu_DAI-X1,MechPart,1,1
 mechdef_daikyu_DAI-X2,MechPart,1,1
 mechdef_dragonfire_DGR-X1,MechPart,1,1
@@ -137,6 +139,8 @@ mechdef_toyama_TYM-X2,MechPart,1,1
 mechdef_toyama_TYM-X3,MechPart,1,1
 mechdef_valkyrieii_VLK-II-1A-X,MechPart,1,1
 mechdef_valkyrieii_VLK-II-2A-X,MechPart,1,1
+mechdef_vonrohrs_VON-4RH-X,MechPart,1,1
+mechdef_vonrohrs_VON-4RH-X2,MechPart,1,1
 mechdef_warhammer_WHM-X2,MechPart,1,1
 mechdef_warhammer_WHM-X3,MechPart,1,1
 mechdef_yeoman_YMN-X,MechPart,1,1
@@ -146,6 +150,9 @@ mechdef_bowman_BWM-X1,MechPart,1,1
 mechdef_bowman_BWM-X2,MechPart,1,1
 mechdef_ebonjaguar_EBJ-X2,MechPart,1,1
 mechdef_ebonjaguar_EBJ-X3,MechPart,1,1
+mechdef_flamberge_FMB-X1,MechPart,1,1
+mechdef_flamberge_FMB-X2,MechPart,1,1
+mechdef_flamberge_FMB-X3,MechPart,1,1
 mechdef_glassspider_GS-X1,MechPart,1,1
 mechdef_glassspider_GS-X2,MechPart,1,1
 mechdef_glassspider_GS-X3,MechPart,1,1

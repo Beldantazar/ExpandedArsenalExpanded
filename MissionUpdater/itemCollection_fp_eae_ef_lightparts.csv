@@ -14,10 +14,13 @@ mechdef_commando_COM-3AX,MechPart,1,1
 mechdef_cossack_C-SK1X,MechPart,1,1
 mechdef_cyclone_CYC-A1X,MechPart,1,1
 mechdef_falcon_FLC-4PX,MechPart,1,1
+mechdef_fer-de-lance_FDL-1X,MechPart,1,1
+mechdef_fireball_ALM-7DX,MechPart,1,1
 mechdef_firebee_FRB-2EX,MechPart,1,1
 mechdef_firefly_FFL-3AX,MechPart,1,1
 mechdef_firefly_FFL-3SLEX,MechPart,1,1
 mechdef_firestarter_FS9-MX,MechPart,1,1
+mechdef_hermes_HER-1SX,MechPart,1,1
 mechdef_jackrabbit_JKR-8TX,MechPart,1,1
 mechdef_jackrabbit_JKR-9RX,MechPart,1,1
 mechdef_locust_LCT-1VbX,MechPart,1,1
@@ -30,10 +33,13 @@ mechdef_owens_OW-1X,MechPart,1,1
 mechdef_panther_PNT-9ALAGX,MechPart,1,1
 mechdef_sling_SL-1GX,MechPart,1,1
 mechdef_sling_SL-1HX,MechPart,1,1
+mechdef_spector_SPR-4FX,MechPart,1,1
+mechdef_spector_SPR-5FX,MechPart,1,1
 mechdef_spider_SDR-5KX,MechPart,1,1
 mechdef_spider_SDR-7KX,MechPart,1,1
 mechdef_stinger_STG-5TX,MechPart,1,1
 mechdef_talon_TLN-5WX,MechPart,1,1
+mechdef_thorn_THE-NX,MechPart,1,1
 mechdef_toro_TR-A-6X,MechPart,1,1
 mechdef_wasp_WSP-1AX,MechPart,1,1
 mechdef_wasp_WSP-1DX,MechPart,1,1

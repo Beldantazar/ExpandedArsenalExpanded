@@ -181,6 +181,9 @@ mechdef_enfield_END-6Q,Mech,1,1
 mechdef_enforcer_ENF-5D,Mech,1,1
 mechdef_eris_ERS-2H,Mech,1,1
 mechdef_eris_ERS-2N,Mech,1,1
+mechdef_ghost_GST-10,Mech,1,1
+mechdef_ghost_GST-11,Mech,1,1
+mechdef_ghost_GST-50,Mech,1,1
 mechdef_gladiator_GLD-3R,Mech,1,1
 mechdef_gladiator_GLD-4R,Mech,1,1
 mechdef_gladiator_GLD-5R,Mech,1,1
@@ -222,6 +225,9 @@ mechdef_uziel_UZL-3P,Mech,1,1
 mechdef_uziel_UZL-6P,Mech,1,1
 mechdef_vindicator_VND-3L,Mech,1,1
 mechdef_vindicator_VND-3Lr,Mech,1,1
+mechdef_whitworth_WTH-1,Mech,1,1
+mechdef_whitworth_WTH-1S,Mech,1,1
+mechdef_whitworth_WTH-2A,Mech,1,1
 mechdef_wraith_TR-1,Mech,1,1
 mechdef_wraith_TR-2,Mech,1,1
 mechdef_wraith_TR-3,Mech,1,1
@@ -235,6 +241,8 @@ mechdef_fox_FX-1,Mech,1,1
 mechdef_grendel_GDL-A,Mech,1,1
 mechdef_grendel_GDL-B,Mech,1,1
 mechdef_grendel_GDL-PRIME,Mech,1,1
+mechdef_hammerhead_HMH-1,Mech,1,1
+mechdef_hammerhead_HMH-2,Mech,1,1
 mechdef_hunchbackiic_HBK-IIC-2,Mech,1,1
 mechdef_hunchbackiic_HBK-IIC-3,Mech,1,1
 mechdef_hunchbackiic_HBK-IIC-4,Mech,1,1

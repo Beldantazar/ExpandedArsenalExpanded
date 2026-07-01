@@ -125,6 +125,8 @@ mechdef_champion_CHP-S,Mech,1,1
 mechdef_champion_CHP-S2,Mech,1,1
 mechdef_champion_CHP-S3,Mech,1,1
 mechdef_charger_CGR-S,Mech,1,1
+mechdef_coehorn_COE-S1,Mech,1,1
+mechdef_coehorn_COE-S2,Mech,1,1
 mechdef_corsair_COR-S2,Mech,1,1
 mechdef_crockett_CRK-S1,Mech,1,1
 mechdef_crockett_CRK-S2,Mech,1,1
@@ -183,6 +185,9 @@ mechdef_jagermech_JM6-DD-S,Mech,1,1
 mechdef_jinggau_JN-S,Mech,1,1
 mechdef_jinggau_JN-S2,Mech,1,1
 mechdef_jinggau_JN-S3,Mech,1,1
+mechdef_jotunn_JTN-S1,Mech,1,1
+mechdef_jotunn_JTN-S2,Mech,1,1
+mechdef_jotunn_JTN-S3,Mech,1,1
 mechdef_juggernaut_JG-S,Mech,1,1
 mechdef_juggernaut_JG-S2,Mech,1,1
 mechdef_kingcrabrauder_KCRD-S1,Mech,1,1
@@ -193,6 +198,9 @@ mechdef_koschei_KSC-S2,Mech,1,1
 mechdef_lament_LMT-S,Mech,1,1
 mechdef_lament_LMT-S2,Mech,1,1
 mechdef_laohu_LHU-S2,Mech,1,1
+mechdef_legacy_LGC-S1,Mech,1,1
+mechdef_legacy_LGC-S2,Mech,1,1
+mechdef_legacy_LGC-S3,Mech,1,1
 mechdef_liberty_LBT-S1,Mech,1,1
 mechdef_liberty_LBT-S2,Mech,1,1
 mechdef_mackenzie_MK-S,Mech,1,1
@@ -214,6 +222,8 @@ mechdef_ostroc_OSR-S2,Mech,1,1
 mechdef_ostsol_OTL-S,Mech,1,1
 mechdef_ostsol_OTL-S2,Mech,1,1
 mechdef_ostwar_OWR-S2,Mech,1,1
+mechdef_pendragon_PDG-S1,Mech,1,1
+mechdef_pendragon_PDG-S2,Mech,1,1
 mechdef_penetrator_PTR-S1,Mech,1,1
 mechdef_penetrator_PTR-S2,Mech,1,1
 mechdef_pillager_PLG-S,Mech,1,1
@@ -279,6 +289,8 @@ mechdef_victor_VTR-S,Mech,1,1
 mechdef_victor_VTR-S2,Mech,1,1
 mechdef_viking_VKG-S1,Mech,1,1
 mechdef_viking_VKG-S2,Mech,1,1
+mechdef_vonrohrs_VON-4RH-S,Mech,1,1
+mechdef_vonrohrs_VON-4RH-S2,Mech,1,1
 mechdef_warhammer_WHM-S2,Mech,1,1
 mechdef_warhammer_WHM-S3,Mech,1,1
 mechdef_yeoman_YMN-S,Mech,1,1
@@ -301,6 +313,9 @@ mechdef_direwolfs_DWF-S3,Mech,1,1
 mechdef_ebonjaguar_EBJ-S2,Mech,1,1
 mechdef_ebonjaguar_EBJ-S3,Mech,1,1
 mechdef_executioner_EXE-S2,Mech,1,1
+mechdef_flamberge_FMB-S1,Mech,1,1
+mechdef_flamberge_FMB-S2,Mech,1,1
+mechdef_flamberge_FMB-S3,Mech,1,1
 mechdef_gargoyle_GAR-S2,Mech,1,1
 mechdef_glassspider_GS-S1,Mech,1,1
 mechdef_glassspider_GS-S2,Mech,1,1
@@ -341,6 +356,8 @@ mechdef_nightgyr_NTG-S3,Mech,1,1
 mechdef_novacat_NCT-S1,Mech,1,1
 mechdef_novacat_NCT-S2,Mech,1,1
 mechdef_novacat_NCT-S3,Mech,1,1
+mechdef_omen_OMN-S1,Mech,1,1
+mechdef_omen_OMN-S2,Mech,1,1
 mechdef_onager_ONG-S1,Mech,1,1
 mechdef_onager_ONG-S2,Mech,1,1
 mechdef_orioniic_ON1-IIC-S2,Mech,1,1

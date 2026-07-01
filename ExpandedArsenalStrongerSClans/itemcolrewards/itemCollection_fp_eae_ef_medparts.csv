@@ -46,6 +46,8 @@ mechdef_strider_SR1-0FX,MechPart,1,1
 mechdef_strider_SR1-0X,MechPart,1,1
 mechdef_swordsman_SWD-2X,MechPart,1,1
 mechdef_trebuchet_TBT-5NX,MechPart,1,1
+mechdef_whitworth_WTH-1SX,MechPart,1,1
+mechdef_whitworth_WTH-1X,MechPart,1,1
 mechdef_wraith_TR-1X,MechPart,1,1
 mechdef_wyvern_WVE-5NbX,MechPart,1,1
 mechdef_wyvern_WVE-9NX,MechPart,1,1

@@ -72,6 +72,9 @@ mechdef_enfield_END-S2,Mech,1,1
 mechdef_enforcer_ENF-S,Mech,1,1
 mechdef_enforcer_ENF-S2,Mech,1,1
 mechdef_eris_ERS-S,Mech,1,1
+mechdef_eris_ERS-S2,Mech,1,1
+mechdef_ghost_GST-S1,Mech,1,1
+mechdef_ghost_GST-S2,Mech,1,1
 mechdef_gladiator_GLD-S1,Mech,1,1
 mechdef_gladiator_GLD-S2,Mech,1,1
 mechdef_hatchetman_HCT-S2,Mech,1,1
@@ -115,6 +118,8 @@ mechdef_vindicator_VND-S,Mech,1,1
 mechdef_vindicator_VND-S2,Mech,1,1
 mechdef_vulcan_VL-S,Mech,1,1
 mechdef_vulcan_VL-S2,Mech,1,1
+mechdef_whitworth_WTH-S1,Mech,1,1
+mechdef_whitworth_WTH-S2,Mech,1,1
 mechdef_wolverine_WVR-S2,Mech,1,1
 mechdef_wraith_TR-S,Mech,1,1
 mechdef_wraith_TR-S2,Mech,1,1
@@ -130,6 +135,8 @@ mechdef_darkcrow_DCR-S,Mech,1,1
 mechdef_fox_FX-S,Mech,1,1
 mechdef_grendel_GDL-S1,Mech,1,1
 mechdef_grendel_GDL-S2,Mech,1,1
+mechdef_hammerhead_HMH-S1,Mech,1,1
+mechdef_hammerhead_HMH-S2,Mech,1,1
 mechdef_hunchbackiic_HBK-IIC-S,Mech,1,1
 mechdef_hunchbackiic_HBK-IIC-S2,Mech,1,1
 mechdef_hunchbackiic_HBK-IIC-S3,Mech,1,1
