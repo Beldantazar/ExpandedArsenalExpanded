@@ -7,7 +7,7 @@
 		"LastName": "JaeHyouk",
 		"Callsign": "",
 		"Gender": "Male",
-		"Faction": "JadeFalcons",
+		"factionID": "JadeFalcons",
 		"Age": 45,
 		"Details": "NONE",
 		"Icon": "Male_Rank3_3"

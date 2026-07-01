@@ -6,7 +6,7 @@
 		"LastName": "Mario",
 		"Callsign": "Jump Man",
 		"Gender": "Male",
-		"Faction": "CussCutlasses",
+		"factionID": "CussCutlasses",
 		"Age": 45,
 		"Details": "NONE",
 		"Icon": "Generic_Rank4_8"

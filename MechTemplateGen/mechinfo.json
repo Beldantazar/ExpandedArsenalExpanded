@@ -21984,7 +21984,7 @@
             "Energy": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 1, 0, 0, 0 ],
             "Missile": [ 0, 3, 4, 1, 4, 3, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 1, 1, 1, 0 , 0, 0 ]
+            "AntiPersonnel": [ 0, 0, 1, 1, 1, 0, 0, 0 ]
         },
         "details": "A rebuild of the venerable LGB-7Q Longbow that increases its weight by more than 40 per cent, the Longbow II is a veritable walking arsenal. Unlike the 9, the 10 replaces the launch tubes with a huge array of SRMs along with a set of accelerating launch rails for improved range and some Large X-Pulse Lasers to provide direct fire support. The Longbow II also mounts enough heat dissipation capacity to fire all its weapons without significantly heating up. This superheavy 'Mech was first produced by the Free Worlds League, but the design has since spread to most parts of the Inner Sphere, whether by capture or trade.",
         "yangsThoughts": "Those launch rails are handy, increasing the range of SRMs can make them very useful, but they're still pretty short range."
@@ -22493,6 +22493,46 @@
         },
         "details": "The Fire Falcon was created in the early-3050s, apparently as a replacement for the Mist Lynx; it is faster, has more front-facing armor, and more pod space, though it lacks the jump jets of that earlier 'Mech. It makes use of weight-saving materials in the form of an XL engine, an endo steel internal structure, and four tons of ferro-fibrous armor. Clan Jade Falcon first produced this OmniMech on their capital of Ironhold, but they soon began to produce it on the Occupation Zone headquarters of Sudeten. In November of 3069, Clan Steel Viper would sack Ironhold as part that Clan's effort to expel the Jade Falcons from the Clan Homeworlds. The invasion would end up destroying the Fire Falcon's production facilities, letting the design fade from use by Homeworlds based Clans. With the 'Mech featuring a total of ten tons of pod space, the C configuration was designed for scouting and work against infantry. It uses an active probe to find hidden targets, then carries one medium pulse laser, one small pulse laser, one ER small laser, and a pair of SRM-6s to quickly eliminate them. Against soft targets, four machine guns provide ample infantry killing power.",
         "yangsThoughts": "High alpha at close range this time, so even less range than the prime, but more firepower. Great against anything you can dodge counter fire from."
+    },
+    {
+        "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_locust_LCT-IIC.json",
+        "baseMechFileName": "..\\ExpandedArsenal\\mech\\mechdef_locust_LCT-IIC.json",
+        "newMechName": "Fire Falcon",
+        "newMechDesignation": "FF",
+        "newMechModelNumber": "F",
+        "prefabName": "genericlight1",
+        "prefabId": "chrprfmech_genericlight1base-001",
+        "hardpointData": "hardpointdatadef_genericlight1",
+        "icon": "uixTxrIcon_raven",
+        "newMechVariant": true,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "Heatsinks": 30,
+        "mechTonnage": 25,
+        "mechEngine": 200,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "stockRole": "Light High-Speed Striker",
+        "hardpoints": {
+            "Energy": [ 0, 2, 0, 1, 0, 2, 0, 0 ],
+            "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
+            "Missile": [ 0, 0, 2, 0, 0, 0, 0, 0 ],
+            "AntiPersonnel": [ 0, 2, 4, 0, 4, 2, 0, 0 ]
+        },
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedmechs", "itemCollection_fp_lightmechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_CLAN" ],
+                "itemColEA": [ "itemCollection_fp_lightmedparts", "itemCollection_fp_lightparts" ]
+            }
+        },
+        "details": "The Fire Falcon was created in the early-3050s, apparently as a replacement for the Mist Lynx; it is faster, has more front-facing armor, and more pod space, though it lacks the jump jets of that earlier 'Mech. It makes use of weight-saving materials in the form of an XL engine, an endo steel internal structure, and four tons of ferro-fibrous armor. Clan Jade Falcon first produced this OmniMech on their capital of Ironhold, but they soon began to produce it on the Occupation Zone headquarters of Sudeten. In November of 3069, Clan Steel Viper would sack Ironhold as part that Clan's effort to expel the Jade Falcons from the Clan Homeworlds. The invasion would end up destroying the Fire Falcon's production facilities, letting the design fade from use by Homeworlds based Clans. With the 'Mech featuring a total of ten tons of pod space, the F variant is designed to destroy infantry and battle armored troops. Equipped with an active probe to sniff out targets, each side torso carries a machine gun array with four machine guns for infantry, while the arms each carry an ER micro laser and ER small laser to deal with battle armor. For heavier targets, the Fire Falcon F carries a single ER large laser.",
+        "yangsThoughts": "Devastating close in firepower, basically useless at distance, watch out for the machine gun explosions too, maybe move that ammo out of the center torso."
     },
     {
         "baseTemplateFileName": "..\\ExpandedArsenal\\chassis\\chassisdef_locust_LCT-IIC.json",
@@ -23332,7 +23372,7 @@
             "Energy": [ 1, 2, 0, 0, 0, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 1, 1, 0, 0, 0, 0, 0, 0 ]
         },
         "itemColAssignment": {
             "mech": {
@@ -23372,7 +23412,7 @@
             "Energy": [ 1, 2, 0, 0, 0, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 1, 1, 0, 0, 0, 0, 0, 0 ]
         },
         "itemColAssignment": {
             "mech": {
@@ -23412,7 +23452,7 @@
             "Energy": [ 1, 2, 0, 0, 0, 2, 0, 0 ],
             "Ballistic": [ 0, 0, 0, 0, 0, 0, 0, 0 ],
             "Missile": [ 0, 0, 0, 0, 0, 2, 0, 0 ],
-            "AntiPersonnel": [ 0, 0, 0, 0, 0, 0, 0, 0 ]
+            "AntiPersonnel": [ 1, 1, 0, 0, 0, 0, 0, 0 ]
         },
         "itemColAssignment": {
             "mech": {

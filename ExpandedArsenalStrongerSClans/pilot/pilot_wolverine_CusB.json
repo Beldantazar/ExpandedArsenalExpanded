@@ -6,7 +6,7 @@
 		"LastName": "Hallis",
 		"Callsign": "Cus",
 		"Gender": "Male",
-		"Faction": "CussCutlasses",
+		"factionID": "CussCutlasses",
 		"Age": 45,
 		"Details": "NONE",
 		"Icon": "Male_Rank1_4"

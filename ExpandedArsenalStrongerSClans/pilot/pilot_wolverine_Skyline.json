@@ -6,7 +6,7 @@
 		"LastName": "Jeannet",
 		"Callsign": "Skyline",
 		"Gender": "Female",
-		"Faction": "CussCutlasses",
+		"factionID": "CussCutlasses",
 		"Age": 45,
 		"Details": "NONE",
 		"Icon": "Female_rank2_6"

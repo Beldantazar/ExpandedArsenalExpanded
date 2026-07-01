@@ -1,0 +1,137 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech",
+            "unit_release",
+            "unit_light",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_range_medium"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_thorn_THE-N",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 2060000,
+        "Rarity": 1,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Thorn THE-N",
+        "Id": "mechdef_thorn_THE-N",
+        "Name": "Thorn",
+        "Details": "Once in service, the Thorn found its niche as a light 'Mech hunter and infantry support platform, and supporters quickly pointed out the Thorn was, ton-for-ton, superior to most other light 'Mechs in terms of combat power and could reduce an opponent of similar weight to scrap in minutes. This aspect made it very popular for light 'Mech companies expecting heavy fighting and infantry in need of fire support. The Thorn carries a weapons array that is not usually seen on light 'Mechs: a Zeus LRM-5 launcher mounted in the right arm with one ton of reloads in the right torso, paired with two Hellion Spitfire medium lasers split between the head and left arm. The long reach the LRM launcher provides is necessary, since the Thorn lacks the speed to catch faster light 'Mechs, although it is easily damaged in hand-to-hand combat.",
+        "Icon": "uixTxrIcon_thorn"
+    },
+    "simGameMechPartCost": 210000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 60,
+            "CurrentRearArmor": 25,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 60,
+            "AssignedRearArmor": 25
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 15,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 20,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaser_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_LRM_LRM5_0-STOCK",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}
