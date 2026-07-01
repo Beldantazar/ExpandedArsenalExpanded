@@ -63,7 +63,7 @@
             "objective": {
                 "EncounterObjectGuid": "3ac1476d-5ab0-436b-aa68-e1a5436e796f"
             },
-            "title": "Destroy Primary Regional Planetary Defense System Control Node",
+            "title": "Destroy Logistical Base",
             "description": "",
             "isPrimary": true,
             "OnSuccessResults": [

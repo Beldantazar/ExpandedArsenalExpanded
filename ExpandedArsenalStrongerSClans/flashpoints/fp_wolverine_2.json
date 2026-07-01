@@ -8,7 +8,7 @@
     "Weight": 10,
     "InternalName": "eae_wolverine_2",
     "PublishState": "PUBLISHED",
-    "Difficulty": 4,
+    "Difficulty": 5,
     "Requirements": [
         {
             "Scope": "Company",
@@ -35,7 +35,7 @@
         "RequirementTags": {
             "tagSetSourceFile": "Tags/CompanyTags",
             "items": [
-                "planet_faction_restoration"
+
             ]
         },
         "ExclusionTags": {

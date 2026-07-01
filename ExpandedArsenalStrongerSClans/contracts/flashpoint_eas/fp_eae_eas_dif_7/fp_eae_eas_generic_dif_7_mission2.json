@@ -1,6 +1,6 @@
 {
     "ID": "fp_eae_eas_generic_dif_7_mission2",
-    "contractName": "Unknown Raiding Party Epsilon: Mission 2",
+    "contractName": "Unknown Raiding Party Epsilon: Mission 2 (+ + +)",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 7,
     "difficultyUIModifier": 1,
@@ -183,7 +183,7 @@
                         {
                             "typeString": "System.Single",
                             "name": "ContractBonusRewardPct",
-                            "value": "0.0",
+                            "value": "0.50",
                             "set": false,
                             "valueConstant": null
                         }

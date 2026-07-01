@@ -46,7 +46,7 @@
             "contractObjective": {
                 "EncounterObjectGuid": "6f5f8d17-70ed-44a8-acc0-ccf9258925aa"
             },
-            "title": "Protect the {TEAM_EMP.FactionDef.Demonym} VIP",
+            "title": "Protect the Prison holding the planetary garrison prisoners",
             "description": "",
             "isPrimary": true,
             "forPlayer": "Player1",

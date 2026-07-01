@@ -1,6 +1,6 @@
 {
     "ID": "fp_eae_eas_generic_dif_3_mission1",
-    "contractName": "Unknown Raiding Party Alpha: Mission 2",
+    "contractName": "Unknown Raiding Party Alpha: Mission 2 (+ + +)",
     "contractDisplayStyle": "BaseFlashpoint",
     "difficulty": 3,
     "difficultyUIModifier": 0,
@@ -88,7 +88,7 @@
                         {
                             "typeString": "System.Single",
                             "name": "ContractBonusRewardPct",
-                            "value": "0.0",
+                            "value": "0.50",
                             "set": false,
                             "valueConstant": null
                         }

@@ -1,0 +1,71 @@
+{
+    "Description": {
+        "Id": "fp_wolverine_3",
+        "Name": "Cus's Cutlasses: Jumping In",
+        "Details": "Elite Arsenal Expanded flashpoint",
+        "Icon": null
+    },
+    "Weight": 10,
+    "InternalName": "eae_wolverine_3",
+    "PublishState": "PUBLISHED",
+    "Difficulty": 8,
+    "Requirements": [
+        {
+            "Scope": "Company",
+            "RequirementTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_eae_eas_generic_dif_8_complete",
+                    "flashpoint_wolverine_2_complete"
+                ]
+            },
+            "ExclusionTags": {
+                "tagSetSourceFile": "",
+                "items": [
+                    "flashpoint_wolverine_3_complete"
+                ]
+            },
+            "RequirementComparisons": [
+
+            ]
+        }
+    ],
+    "LocationRequirements": {
+        "Scope": "Company",
+        "RequirementTags": {
+            "tagSetSourceFile": "Tags/CompanyTags",
+            "items": [
+
+            ]
+        },
+        "ExclusionTags": {
+            "tagSetSourceFile": "Tags/PlanetTags",
+            "items": [
+                "planet_climate_lunar",
+                "planet_climate_mars"
+            ]
+        },
+        "RequirementComparisons": []
+    },
+    "PotentialEmployers": [
+        "AuriganRestoration"
+    ],
+    "TargetFaction": "CussCutlasses",
+    "AllowRefitTime": true,
+    "FlashpointLength": "MEDIUM",
+    "Repeatable": true,
+    "MilestoneSetID": "ms_fp_wolverine_3",
+    "UseAvailableTimeoutOverride": true,
+    "AvailableTimeout": 180,
+    "UseInProgressTimeoutOverride": true,
+    "InProgressTimeout": 30,
+    "RewardCollectionID": "itemCollection_fp_wolverine_3",
+    "UnitDropTonnageHint": "None",
+    "LanceDropTonnageHint": "None",
+    "FlashpointShortDescription": "A strange figure needs to be fought in the arena of battle.",
+    "FlashpointDescriberCastDefId": "castDef_DariusDefault",
+    "Tags": {
+        "tagSetSourceFile": "tags/FlashpointTags",
+        "items": []
+    }
+}
