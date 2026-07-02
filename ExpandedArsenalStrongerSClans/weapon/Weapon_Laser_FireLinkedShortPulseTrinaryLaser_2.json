@@ -41,7 +41,7 @@
         "Icon": "uixSvgIcon_weapon_Energy"
     },
     "BonusValueA": "+ 4 Dmg.",
-    "BonusValueB": "- 6 Heat",
+    "BonusValueB": "- 12 Heat",
     "ComponentType": "Weapon",
     "ComponentSubType": "Weapon",
     "PrefabIdentifier": "Laser",
