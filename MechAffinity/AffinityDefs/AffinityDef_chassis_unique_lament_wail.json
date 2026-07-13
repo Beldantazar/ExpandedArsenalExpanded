@@ -1,16 +1,16 @@
 {
-  "id": "AffinityDef_chassis_unique_perseus_smasher",
+  "id": "AffinityDef_chassis_unique_lament_wail",
   "affinityType": "Chassis",
     "affinityData": {
-        "id": "unique_perseus_smasher",
+        "id": "unique_lament_wail",
         "chassisNames": [
-            "chassisdef_perseus_P1-SS"
+            "chassisdef_lament_LMT-SS"
         ],
         "idType": "ChassisId",
         "altMaps": [],
         "affinityLevels": [
             {
-                "id": "unique_perseus_smasher_1",
+                "id": "unique_lament_wail_1",
                 "missionsRequired": 15,
                 "levelName": "Precise Aim",
                 "decription": "+1 Accuracy",
@@ -52,7 +52,7 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_2",
+                "id": "unique_lament_wail_2",
                 "missionsRequired": 20,
                 "levelName": "Rugged Chassis",
                 "decription": "-10% Damage Received",
@@ -94,7 +94,7 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_3",
+                "id": "unique_lament_wail_3",
                 "missionsRequired": 25,
                 "levelName": "Defensive Piloting",
                 "decription": "+2 Defense",
@@ -136,7 +136,7 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_4",
+                "id": "unique_lament_wail_4",
                 "missionsRequired": 40,
                 "levelName": "Heat Management",
                 "decription": "-10% Heat",
@@ -178,18 +178,18 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_5",
+                "id": "unique_lament_wail_5",
                 "missionsRequired": 50,
-                "levelName": "Precision Targeting",
-                "decription": "+20% Crit Chance",
+                "levelName": "Long Range Sights",
+                "decription": "+15% Vision",
                 "affinities": [],
                 "effectData": [
                     {
                         "Description": {
-                            "Details": "The pilot's incredible skill with this mech improves it's critical chance by 20%'.",
+                            "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
                             "Icon": "UixSvgIcon_specialEquip_System",
-                            "Id": "StatusEffect-Affinity-CritChance-Unique",
-                            "Name": "Mech Affinity CritChance Boost"
+                            "Id": "StatusEffect-Affinity-Sensor",
+                            "Name": "Mech Affinity Sensor Boost"
                         },
                         "durationData": {
                             "duration": -1,
@@ -198,24 +198,55 @@
                         "effectType": "StatisticEffect",
                         "nature": "Buff",
                         "statisticData": {
-                            "appliesEachTick": false,
-                            "effectsPersistAfterDestruction": false,
-                            "statName": "CriticalChanceMultiplier",
-                            "operation": "Float_Multiply",
-                            "modValue": "1.2",
-                            "modType": "System.Single",
                             "additionalRules": "NotSet",
-                            "targetCollection": "Weapon",
-                            "targetWeaponCategory": "NotSet",
-                            "targetWeaponType": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "1.15",
+                            "operation": "Float_Multiply",
+                            "statName": "SensorDistanceAbsolute",
                             "targetAmmoCategory": "NotSet",
-                            "targetWeaponSubType": "NotSet"
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
                         },
                         "targetingData": {
                             "effectTargetType": "Creator",
                             "effectTriggerType": "Passive",
                             "hideApplicationFloatie": true,
                             "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    },
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech increases its vision and sensor range.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-Sight",
+                            "Name": "Mech Affinity Sight Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "1.15",
+                            "operation": "Float_Multiply",
+                            "statName": "SpotterDistanceAbsolute",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": false,
                             "showInTargetPreview": false
                         }
                     }

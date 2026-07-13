@@ -1,27 +1,27 @@
 {
-  "id": "AffinityDef_chassis_unique_perseus_smasher",
+  "id": "AffinityDef_chassis_unique_nyx_obscura",
   "affinityType": "Chassis",
     "affinityData": {
-        "id": "unique_perseus_smasher",
+        "id": "unique_nyx_obscura",
         "chassisNames": [
-            "chassisdef_perseus_P1-SS"
+            "chassisdef_nyx_NX-SS"
         ],
         "idType": "ChassisId",
         "altMaps": [],
         "affinityLevels": [
             {
-                "id": "unique_perseus_smasher_1",
+                "id": "unique_nyx_obscura_1",
                 "missionsRequired": 15,
-                "levelName": "Precise Aim",
-                "decription": "+1 Accuracy",
+                "levelName": "Zippy",
+                "decription": "+15% speed",
                 "affinities": [],
                 "effectData": [
                     {
                         "Description": {
-                            "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+                            "Details": "The pilot's incredible skill with this mech improves its walk & sprinting speed by 15%.",
                             "Icon": "UixSvgIcon_specialEquip_System",
-                            "Id": "StatusEffect-Affinity-Targeting",
-                            "Name": "Mech Affinity Targeting Boost"
+                            "Id": "StatusEffect-Affinity-EasyToPilotWalk",
+                            "Name": "Mech Affinity Sprint Boost"
                         },
                         "durationData": {
                             "duration": -1,
@@ -32,9 +32,9 @@
                         "statisticData": {
                             "additionalRules": "NotSet",
                             "modType": "System.Single",
-                            "modValue": "-1.0",
-                            "operation": "Float_Add",
-                            "statName": "AccuracyModifier",
+                            "modValue": "1.15",
+                            "operation": "Float_Multiply",
+                            "statName": "WalkSpeed",
                             "targetAmmoCategory": "NotSet",
                             "targetCollection": "NotSet",
                             "targetWeaponCategory": "NotSet",
@@ -46,16 +46,49 @@
                             "effectTriggerType": "Passive",
                             "hideApplicationFloatie": true,
                             "showInStatusPanel": true,
+                            "showInTargetPreview": true
+                        }
+                    },
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-EasyToPilotRun",
+                            "Name": "Mech Affinity Sprint Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "1.15",
+                            "operation": "Float_Multiply",
+                            "statName": "RunSpeed",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": false,
                             "showInTargetPreview": false
                         }
                     }
                 ]
             },
             {
-                "id": "unique_perseus_smasher_2",
+                "id": "unique_nyx_obscura_2",
                 "missionsRequired": 20,
-                "levelName": "Rugged Chassis",
-                "decription": "-10% Damage Received",
+                "levelName": "Angled Deflection",
+                "decription": "-10% Damage",
                 "affinities": [],
                 "effectData": [
                     {
@@ -63,7 +96,7 @@
                             "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
                             "Icon": "UixSvgIcon_specialEquip_System",
                             "Id": "StatusEffect-Affinity-DamageReduction-Unique",
-                            "Name": "Mech Affinity Damage Reduction"
+                            "Name": "Mech Affinity Evasion Boost"
                         },
                         "durationData": {
                             "duration": -1,
@@ -94,10 +127,10 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_3",
+                "id": "unique_nyx_obscura_3",
                 "missionsRequired": 25,
-                "levelName": "Defensive Piloting",
-                "decription": "+2 Defense",
+                "levelName": "Defensive",
+                "decription": "+2 Hit Defense",
                 "affinities": [],
                 "effectData": [
                     {
@@ -136,18 +169,18 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_4",
+                "id": "unique_nyx_obscura_4",
                 "missionsRequired": 40,
-                "levelName": "Heat Management",
-                "decription": "-10% Heat",
+                "levelName": "Evasive Master",
+                "decription": "+2 Evasion Pips on Movement",
                 "affinities": [],
                 "effectData": [
                     {
                         "Description": {
-                            "Details": "The pilot's incredible skill with this mech reduces the heat generated by its weapons.",
+                            "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 2.",
                             "Icon": "UixSvgIcon_specialEquip_System",
-                            "Id": "StatusEffect-Affinity-HeatGenerated-Unique",
-                            "Name": "Mech Affinity Heat Reduction"
+                            "Id": "StatusEffect-Affinity-Evasion",
+                            "Name": "Mech Affinity Evasive Pips Boost"
                         },
                         "durationData": {
                             "duration": -1,
@@ -156,16 +189,16 @@
                         "effectType": "StatisticEffect",
                         "nature": "Buff",
                         "statisticData": {
-                            "statName": "HeatGenerated",
-                            "operation": "Float_Multiply",
-                            "modValue": "0.9",
-                            "modType": "System.Single",
                             "additionalRules": "NotSet",
-                            "targetCollection": "Weapon",
-                            "targetWeaponCategory": "NotSet",
-                            "targetWeaponType": "NotSet",
+                            "modType": "System.Int32",
+                            "modValue": "2",
+                            "operation": "Int_Add",
+                            "statName": "EvasivePipsGainedAdditional",
                             "targetAmmoCategory": "NotSet",
-                            "targetWeaponSubType": "NotSet"
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
                         },
                         "targetingData": {
                             "effectTargetType": "Creator",
@@ -178,18 +211,18 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_5",
+                "id": "unique_nyx_obscura_5",
                 "missionsRequired": 50,
-                "levelName": "Precision Targeting",
-                "decription": "+20% Crit Chance",
+                "levelName": "Front of the Line",
+                "decription": "+1 Init",
                 "affinities": [],
                 "effectData": [
                     {
                         "Description": {
-                            "Details": "The pilot's incredible skill with this mech improves it's critical chance by 20%'.",
+                            "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
                             "Icon": "UixSvgIcon_specialEquip_System",
-                            "Id": "StatusEffect-Affinity-CritChance-Unique",
-                            "Name": "Mech Affinity CritChance Boost"
+                            "Id": "StatusEffect-Affinity-Initiative-Unique",
+                            "Name": "Mech Affinity Initiative Boost"
                         },
                         "durationData": {
                             "duration": -1,
@@ -198,18 +231,16 @@
                         "effectType": "StatisticEffect",
                         "nature": "Buff",
                         "statisticData": {
-                            "appliesEachTick": false,
-                            "effectsPersistAfterDestruction": false,
-                            "statName": "CriticalChanceMultiplier",
-                            "operation": "Float_Multiply",
-                            "modValue": "1.2",
-                            "modType": "System.Single",
                             "additionalRules": "NotSet",
-                            "targetCollection": "Weapon",
-                            "targetWeaponCategory": "NotSet",
-                            "targetWeaponType": "NotSet",
+                            "modType": "System.Int32",
+                            "modValue": "-1",
+                            "operation": "Int_Add",
+                            "statName": "BaseInitiative",
                             "targetAmmoCategory": "NotSet",
-                            "targetWeaponSubType": "NotSet"
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
                         },
                         "targetingData": {
                             "effectTargetType": "Creator",

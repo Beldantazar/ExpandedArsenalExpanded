@@ -181,7 +181,7 @@
                 "id": "unique_sidewinder_glow_5",
                 "missionsRequired": 50,
                 "levelName": "Precision Targeting",
-                "decription": "+1 init",
+                "decription": "+20% Crit Chance",
                 "affinities": [],
                 "effectData": [
                     {

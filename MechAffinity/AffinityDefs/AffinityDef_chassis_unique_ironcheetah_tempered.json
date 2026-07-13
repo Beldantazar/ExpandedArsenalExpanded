@@ -1,18 +1,18 @@
 {
-  "id": "AffinityDef_chassis_unique_perseus_smasher",
-  "affinityType": "Chassis",
+    "id": "AffinityDef_chassis_unique_ironcheetah_tempered",
+    "affinityType": "Chassis",
     "affinityData": {
-        "id": "unique_perseus_smasher",
+        "id": "unique_ironcheetah_tempered",
         "chassisNames": [
-            "chassisdef_perseus_P1-SS"
+            "chassisdef_ironcheetah_ICH-SS"
         ],
         "idType": "ChassisId",
         "altMaps": [],
         "affinityLevels": [
             {
-                "id": "unique_perseus_smasher_1",
+                "id": "unique_ironcheetah_tempered_1",
                 "missionsRequired": 15,
-                "levelName": "Precise Aim",
+                "levelName": "Advanced Targetting Operations",
                 "decription": "+1 Accuracy",
                 "affinities": [],
                 "effectData": [
@@ -52,18 +52,18 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_2",
+                "id": "unique_ironcheetah_tempered_2",
                 "missionsRequired": 20,
-                "levelName": "Rugged Chassis",
-                "decription": "-10% Damage Received",
+                "levelName": "Assault Range",
+                "decription": "+60m Range",
                 "affinities": [],
                 "effectData": [
                     {
                         "Description": {
-                            "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                            "Details": "The pilot's incredible skill with this mech increases weapon range by 60m.",
                             "Icon": "UixSvgIcon_specialEquip_System",
-                            "Id": "StatusEffect-Affinity-DamageReduction-Unique",
-                            "Name": "Mech Affinity Damage Reduction"
+                            "Id": "StatusEffect-Affinity-Range",
+                            "Name": "Mech Affinity Range Boost"
                         },
                         "durationData": {
                             "duration": -1,
@@ -72,12 +72,49 @@
                         "effectType": "StatisticEffect",
                         "nature": "Buff",
                         "statisticData": {
-                            "statName": "DamageReductionMultiplierAll",
-                            "operation": "Float_Multiply",
-                            "modValue": "0.90",
+                            "appliesEachTick": false,
+                            "effectsPersistAfterDestruction": false,
+                            "statName": "LongRange",
+                            "operation": "Float_Add",
+                            "modValue": "60.0",
                             "modType": "System.Single",
                             "additionalRules": "NotSet",
-                            "targetCollection": "NotSet",
+                            "targetCollection": "Weapon",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponType": "NotSet",
+                            "targetAmmoCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    },
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech increases weapon maximum range by 60m.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-MaxRange",
+                            "Name": "Mech Affinity Maximum Range Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "appliesEachTick": false,
+                            "effectsPersistAfterDestruction": false,
+                            "statName": "MaxRange",
+                            "operation": "Float_Add",
+                            "modValue": "60.0",
+                            "modType": "System.Single",
+                            "additionalRules": "NotSet",
+                            "targetCollection": "Weapon",
                             "targetWeaponCategory": "NotSet",
                             "targetWeaponType": "NotSet",
                             "targetAmmoCategory": "NotSet",
@@ -94,9 +131,9 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_3",
+                "id": "unique_ironcheetah_tempered_3",
                 "missionsRequired": 25,
-                "levelName": "Defensive Piloting",
+                "levelName": "Assault Defense",
                 "decription": "+2 Defense",
                 "affinities": [],
                 "effectData": [
@@ -136,10 +173,10 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_4",
+                "id": "unique_ironcheetah_tempered_4",
                 "missionsRequired": 40,
-                "levelName": "Heat Management",
-                "decription": "-10% Heat",
+                "levelName": "Advanced Engine Operations",
+                "decription": "10% Heat Reduction",
                 "affinities": [],
                 "effectData": [
                     {
@@ -178,18 +215,18 @@
                 ]
             },
             {
-                "id": "unique_perseus_smasher_5",
+                "id": "unique_ironcheetah_tempered_5",
                 "missionsRequired": 50,
-                "levelName": "Precision Targeting",
-                "decription": "+20% Crit Chance",
+                "levelName": "Vanguard",
+                "decription": "-10% Damage Received",
                 "affinities": [],
                 "effectData": [
                     {
                         "Description": {
-                            "Details": "The pilot's incredible skill with this mech improves it's critical chance by 20%'.",
+                            "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
                             "Icon": "UixSvgIcon_specialEquip_System",
-                            "Id": "StatusEffect-Affinity-CritChance-Unique",
-                            "Name": "Mech Affinity CritChance Boost"
+                            "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                            "Name": "Mech Affinity Damage Resistance"
                         },
                         "durationData": {
                             "duration": -1,
@@ -198,14 +235,12 @@
                         "effectType": "StatisticEffect",
                         "nature": "Buff",
                         "statisticData": {
-                            "appliesEachTick": false,
-                            "effectsPersistAfterDestruction": false,
-                            "statName": "CriticalChanceMultiplier",
+                            "statName": "DamageReductionMultiplierAll",
                             "operation": "Float_Multiply",
-                            "modValue": "1.2",
+                            "modValue": "0.90",
                             "modType": "System.Single",
                             "additionalRules": "NotSet",
-                            "targetCollection": "Weapon",
+                            "targetCollection": "NotSet",
                             "targetWeaponCategory": "NotSet",
                             "targetWeaponType": "NotSet",
                             "targetAmmoCategory": "NotSet",
