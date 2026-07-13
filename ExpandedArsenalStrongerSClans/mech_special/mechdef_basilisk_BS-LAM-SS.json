@@ -1,0 +1,184 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech_s_tier",
+            "unit_jumpOK",
+            "unit_light",
+            "unit_release",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_role_scout",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_very_rare",
+            "unit_lam",
+            "wordofblake"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_basilisk_BS-LAM-SS",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6000000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Basilisk",
+        "Id": "mechdef_basilisk_BS-LAM-SS",
+        "Name": "Basilisk",
+        "Details": "Intended to be a replacement for the lost Valkyrie Ghost protoype, the Basilisk is a powerful small LAM with the same weight management technology. Unfortunately for the Word of Blake, the same mercenary group that took the Valkyrie Ghost prototype away from them, found the research facility developing this mech as well.",
+        "Icon": "uixTxrIcon_gerwalk3"
+    },
+    "simGameMechPartCost": 1000000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 65,
+            "CurrentRearArmor": 15,
+            "CurrentInternalStructure": 55,
+            "AssignedArmor": 65,
+            "AssignedRearArmor": 15
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 50,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 50,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 30,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 55,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 55,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Hardened",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Autocannon_AC2_LBX_CLAN_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Autocannon_AC2_LBX_CLAN_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_VSSLaser_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_VSSLaser_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LB2X",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}
+

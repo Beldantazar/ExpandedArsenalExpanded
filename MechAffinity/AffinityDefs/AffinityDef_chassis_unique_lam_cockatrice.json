@@ -1,0 +1,224 @@
+{
+  "id": "AffinityDef_chassis_unique_lam_cockatrice",
+  "affinityType": "Chassis",
+    "affinityData": {
+        "id": "unique_lam_cockatrice",
+        "chassisNames": [
+            "chassisdef_cockatrice_COCKLAM-SS"
+        ],
+        "idType": "ChassisId",
+        "altMaps": [],
+        "affinityLevels": [
+            {
+                "id": "unique_lam_cockatrice_1",
+                "missionsRequired": 15,
+                "levelName": "Long Jump",
+                "decription": "+15% Jump Distance",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech makes it extremely mobile with its jump jets.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-NimbleJumper",
+                            "Name": "Mech Affinity Jumping Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "1.15",
+                            "operation": "Float_Multiply",
+                            "statName": "JumpDistanceMultiplier",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_lam_cockatrice_2",
+                "missionsRequired": 20,
+                "levelName": "Defensive Piloting",
+                "decription": "+2 Defense",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-NarrowProfile",
+                            "Name": "Mech Affinity Defensive Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "2.0",
+                            "operation": "Float_Add",
+                            "statName": "ToHitThisActor",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_lam_cockatrice_3",
+                "missionsRequired": 25,
+                "levelName": "Evasive Piloting",
+                "decription": "+2 Evasion Pips on Movement",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 2.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-Evasion-Unique",
+                            "Name": "Mech Affinity Evasive Pips Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Int32",
+                            "modValue": "2",
+                            "operation": "Int_Add",
+                            "statName": "EvasivePipsGainedAdditional",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": false,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_lam_cockatrice_4",
+                "missionsRequired": 40,
+                "levelName": "Precise Aim",
+                "decription": "+1 Accuracy",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-Targeting",
+                            "Name": "Mech Affinity Targeting Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "-1.0",
+                            "operation": "Float_Add",
+                            "statName": "AccuracyModifier",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_lam_cockatrice_5",
+                "missionsRequired": 50,
+                "levelName": "Durable Frame",
+                "decription": "-10% Damage",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                            "Name": "Mech Affinity Evasion Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "statName": "DamageReductionMultiplierAll",
+                            "operation": "Float_Multiply",
+                            "modValue": "0.90",
+                            "modType": "System.Single",
+                            "additionalRules": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponType": "NotSet",
+                            "targetAmmoCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

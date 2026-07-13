@@ -1,0 +1,217 @@
+{
+  "Description": {
+    "Cost": 2500000,
+    "Rarity": 5,
+    "Purchasable": true,
+    "Manufacturer": "",
+    "Model": "",
+    "UIName": "Nyx Obscura",
+    "Id": "chassisdef_nyx_NX-SS",
+    "Name": "Nyx Obscura",
+    "Details": "Developed from the super-fast scouting design, the Nyx Obscura is an improved versions of the standard Nyx fielded by the Republic Institute of Strategic Combat. The Nyx is already incredibly fast with a 300 rated engine and weighing only 30 tons, and the Obscura version replaces the XL engine with an Clan XXL version to allow for more weight for weaponry. It sticks with the primary weapons being two Variable Speed Medium Pulse Lasers, but it adds two MML3's to the mix as a means of combining the strengths of all the mech's variants.",
+    "Icon": "uixTxrIcon_genericlight3"
+  },
+  "MovementCapDefID": "movedef_genericlight3_NX-60",
+  "PathingCapDefID": "pathingdef_light",
+  "HardpointDataDefID": "hardpointdatadef_genericlight3",
+  "PrefabIdentifier": "chrprfmech_genericlight3base-001",
+  "PrefabBase": "genericlight3",
+  "Tonnage": 30,
+  "InitialTonnage": 14.0,
+  "weightClass": "LIGHT",
+  "BattleValue": 3907000,
+  "Heatsinks": 45,
+  "TopSpeed": 85,
+  "TurnRadius": 90,
+  "MaxJumpjets": 10,
+  "Stability": 100,
+  "StabilityDefenses": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "SpotterDistanceMultiplier": 1,
+  "VisibilityMultiplier": 1,
+  "SensorRangeMultiplier": 1,
+  "Signature": 0,
+  "Radius": 4,
+  "PunchesWithLeftArm": false,
+  "MeleeDamage": 30,
+  "MeleeInstability": 30,
+  "MeleeToHitModifier": 0,
+  "DFADamage": 40,
+  "DFAToHitModifier": 0,
+  "DFASelfDamage": 40,
+  "DFAInstability": 40,
+  "Locations": [
+    {
+      "Location": "Head",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 1,
+      "MaxArmor": 45,
+      "MaxRearArmor": -1,
+      "InternalStructure": 16
+    },
+    {
+      "Location": "LeftArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftTorso",
+        "Hardpoints": [
+            {
+                "WeaponMount": "Missile",
+                "Omni": false
+            }
+        ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "CenterTorso",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Missile",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 100,
+      "MaxRearArmor": 50,
+      "InternalStructure": 50
+    },
+    {
+      "Location": "RightTorso",
+        "Hardpoints": [
+            {
+                "WeaponMount": "Missile",
+                "Omni": false
+            }
+        ],
+      "Tonnage": 0,
+      "InventorySlots": 10,
+      "MaxArmor": 70,
+      "MaxRearArmor": 35,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightArm",
+      "Hardpoints": [
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "Energy",
+          "Omni": false
+        },
+        {
+          "WeaponMount": "AntiPersonnel",
+          "Omni": false
+        }
+      ],
+      "Tonnage": 0,
+      "InventorySlots": 8,
+      "MaxArmor": 50,
+      "MaxRearArmor": -1,
+      "InternalStructure": 25
+    },
+    {
+      "Location": "LeftLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    },
+    {
+      "Location": "RightLeg",
+      "Hardpoints": [],
+      "Tonnage": 0,
+      "InventorySlots": 4,
+      "MaxArmor": 70,
+      "MaxRearArmor": -1,
+      "InternalStructure": 35
+    }
+  ],
+  "LOSSourcePositions": [
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.5,
+      "z": -0.5
+    }
+  ],
+  "LOSTargetPositions": [
+    {
+      "x": 0,
+      "y": 11,
+      "z": 0
+    },
+    {
+      "x": -2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": 2.5,
+      "y": 10.5,
+      "z": -0.5
+    },
+    {
+      "x": -2,
+      "y": 4,
+      "z": 0.5
+    },
+    {
+      "x": 2,
+      "y": 4,
+      "z": 0.5
+    }
+  ],
+  "VariantName": "NX-SS",
+  "ChassisTags": {
+    "items": [
+      "elite_arsenal_s_tier"
+    ],
+    "tagSetSourceFile": ""
+  },
+  "StockRole": "Super-Fast Scout",
+  "YangsThoughts": "Even more firepower than the normal version without losing any speed, what's not to like? Just don't outrun the rest of the force and draw too much heat for you to handle."
+}

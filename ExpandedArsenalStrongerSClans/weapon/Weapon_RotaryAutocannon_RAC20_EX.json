@@ -1,0 +1,67 @@
+{
+    "Category": "Ballistic",
+    "Type": "Autocannon",
+    "WeaponSubType": "UAC20",
+    "MinRange": 0,
+    "MaxRange": 270,
+    "RangeSplit": [
+        180,
+        180,
+        270
+    ],
+    "ammoCategoryID": "AC20",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 80,
+    "Damage": 150,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "StructureDamage": 0,
+    "AccuracyModifier": 0,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 4,
+    "ShotsWhenFired": 4,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 4,
+    "Instability": 40,
+    "WeaponEffectID": "WeaponEffect-Weapon_AC20_Ultra",
+    "Description": {
+        "Cost": 14568750,
+        "Rarity": 10,
+        "Purchasable": true,
+        "Manufacturer": "Mechforce UK",
+        "Model": "Shredder Autocannon",
+        "UIName": "RAC/20 EX",
+        "Id": "Weapon_RotaryAutocannon_RAC20_EX",
+        "Name": "RAC/20 EX",
+        "Details": "A fearsome brute of a weapon, the Rotary Autocannon/20 is not able to sustain the massive rate of fire of its smaller bretheren but it compensates for that by firing more effective rounds allowing it to still do six times the damage of a standard AC/20. This absurd level of damage, is matched only by the weapons absurd ammunition consumption.",
+        "Icon": "uixSvgIcon_weapon_Ballistic"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "uac5",
+    "InventorySize": 10,
+    "Tonnage": 16,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "range_standard",
+            "component_type_variant",
+            "component_type_variant2"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

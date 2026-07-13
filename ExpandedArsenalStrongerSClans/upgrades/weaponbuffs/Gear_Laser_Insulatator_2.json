@@ -52,7 +52,7 @@
             "Description": {
                 "Id": "StatusEffect-Heat_LASERINS",
                 "Name": "Laser Insulator Damage",
-                "Details": "5% Reduced Laser Damage.",
+                "Details": "10% Reduced Laser Damage.",
                 "Icon": "uixSvgIcon_equipment_TTS"
             },
             "nature": "Buff",

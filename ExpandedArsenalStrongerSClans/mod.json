@@ -790,7 +790,9 @@
         {
             "Type": "PilotDef",
             "Path": "pilot"
-        }
+        },
+
+        { "Type": "Sprite", "Path": "castSprites" }
     ],
     "DataAddendumEntries": [
         {

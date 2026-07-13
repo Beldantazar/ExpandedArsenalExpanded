@@ -1,0 +1,211 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_light",
+            "unit_range_short",
+            "unit_speed_high",
+            "unit_armor_low",
+            "unit_lance_vanguard",
+            "unit_role_scout",
+            "unit_release",
+            "unit_very_rare",
+            "unit_ext_rare_Davion",
+            "unit_ext_rare_Liao",
+            "unit_ext_rare_Marik",
+            "unit_ext_rare_Steiner",
+            "unit_rare_Kurita",
+            "unit_ext_rare_MagistracyOfCanopus",
+            "unit_ext_rare_TaurianConcordat",
+            "unit_very_rare_AuriganDirectorate",
+            "unit_ext_rare_AuriganRestoration",
+            "unit_ext_rare_ComStar",
+            "unit_ext_rare_MercenaryReviewBoard",
+            "unit_ext_rare_DuchyOfAndurien",
+            "unit_ext_rare_AuriganMercenaries",
+            "unit_ext_rare_AuriganPirates",
+            "unit_ext_rare_Locals",
+            "unit_ext_rare_Betrayers",
+            "unit_ext_rare_MajestyMetals",
+            "unit_ext_rare_KellHounds",
+            "unit_ext_rare_GrayDeathLegion",
+            "unit_ext_rare_FlakJackals",
+            "unit_ext_rare_LocalsBrockwayRefugees",
+            "unit_ext_rare_SelfEmployed",
+            "unit_ext_rare_MasonsMarauders",
+            "unit_ext_rare_SteelBeast",
+            "unit_ext_rare_RazorbackMercs",
+            "unit_ext_rare_RedHareRegiment",
+            "unit_ext_rare_EmeraldDawn",
+            "unit_ext_rare_SianTriumphant",
+            "unit_ext_rare_BlackCalderaDefense",
+            "unit_ext_rare_BlackCalderaDefense_Hidden",
+            "unit_ext_rare_SecuritySolutionsInc",
+            "unit_ext_rare_PaladinProtectionLLC",
+            "unit_ext_rare_HouseNakano",
+            "unit_ext_rare_HouseKhulan",
+            "unit_ext_rare_HostileMercenaries",
+            "unit_ext_rare_NoFaction",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_mech_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_nyx_NX-SS",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 2900000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Nyx Obscura NX-SS",
+        "Id": "mechdef_nyx_NX-SS",
+        "Name": "Nyx Obscura",
+        "Details": "Developed from the super-fast scouting design, the Nyx Obscura is an improved versions of the standard Nyx fielded by the Republic Institute of Strategic Combat. The Nyx is already incredibly fast with a 300 rated engine and weighing only 30 tons, and the Obscura version replaces the XL engine with an Clan XXL version to allow for more weight for weaponry. It sticks with the primary weapons being two Variable Speed Medium Pulse Lasers, but it adds two MML3's to the mix as a means of combining the strengths of all the mech's variants.",
+        "Icon": "uixTxrIcon_genericlight3"
+    },
+    "simGameMechPartCost": 290000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 75,
+            "CurrentRearArmor": 20,
+            "CurrentInternalStructure": 50,
+            "AssignedArmor": 75,
+            "AssignedRearArmor": 20
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 40,
+            "CurrentRearArmor": 10,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 40,
+            "AssignedRearArmor": 10
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 25,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 30,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 35,
+            "AssignedArmor": 30,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_VSMLaser_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_VSMLaser_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MML-3_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_MML-3_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM_Half",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ],
+    "MinAppearanceDate": "2850-01-01T00:00:00Z"
+}

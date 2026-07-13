@@ -15,7 +15,8 @@
             "unit_lance_tank",
             "unit_lance_assassin",
             "elite_arsenal",
-            "elite_arsenal_s_tier"
+            "elite_arsenal_s_tier",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },

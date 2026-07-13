@@ -1,0 +1,67 @@
+{
+    "Category": "Energy",
+    "Type": "Laser",
+    "WeaponSubType": "LargeLaserPulse",
+    "MinRange": 0,
+    "MaxRange": 700,
+    "RangeSplit": [
+        180,
+        420,
+        560
+    ],
+    "ammoCategoryID": "NotSet",
+    "StartingAmmoCapacity": 0,
+    "HeatGenerated": 135,
+    "Damage": 50,
+    "OverheatedDamageMultiplier": 0,
+    "EvasiveDamageMultiplier": 0,
+    "EvasivePipsIgnored": 0,
+    "DamageVariance": 0,
+    "HeatDamage": 0,
+    "AccuracyModifier": -2,
+    "CriticalChanceMultiplier": 1,
+    "AOECapable": false,
+    "IndirectFireCapable": false,
+    "RefireModifier": 0,
+    "ShotsWhenFired": 9,
+    "ProjectilesPerShot": 1,
+    "AttackRecoil": 1,
+    "Instability": 0,
+    "WeaponEffectID": "WeaponEffect-Weapon_LaserPulse_Large",
+    "Description": {
+        "Cost": 2500000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": "RISC",
+        "Model": "Fire Linked Short Pulse Trinary Hyper Laser",
+        "UIName": "FLSPT Hyper Laser (EX)",
+        "Id": "Weapon_Laser_FireLinkedShortPulseTrinaryHyperLaser_EX",
+        "Name": "FLSPT Hyper Laser (EX)",
+        "Details": "The Republic Institute of Strategic Combat observed the successful production release of the Fire-Linked Short-Pulse Trinary laser and decided to attempt to combine the Traser's rapid short pulses for reduced heat output with the extremely high energy output of their Hyper Laser. The attempt was mostly successful, with the resulting Fire linked Short Pulse Trinary Hyper Laser having much higher output per pulse than the standard model. However, the weapon was incredibly heavy and bulky and still generates enormous amounts of heat, making it impractical for use by anything other than the heaviest mechs.",
+        "Icon": "uixSvgIcon_weapon_Energy"
+    },
+    "BonusValueA": "",
+    "BonusValueB": "",
+    "ComponentType": "Weapon",
+    "ComponentSubType": "Weapon",
+    "PrefabIdentifier": "Laser",
+    "BattleValue": 0,
+    "InventorySize": 9,
+    "Tonnage": 19,
+    "AllowedLocations": "All",
+    "DisallowedLocations": "All",
+    "CriticalComponent": false,
+    "statusEffects": [
+
+    ],
+    "ComponentTags": {
+        "items": [
+            "component_type_stock",
+            "component_type_variant",
+            "component_type_variant2",
+            "range_very-long"
+        ],
+        "tagSetSourceFile": ""
+    }
+}
+

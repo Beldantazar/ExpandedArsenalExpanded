@@ -560,3 +560,9 @@ mechdef_omen_OMN-X1,MechPart,1,1
 mechdef_omen_OMN-S1,MechPart,1,1
 mechdef_omen_OMN-X2,MechPart,1,1
 mechdef_omen_OMN-S2,MechPart,1,1
+mechdef_perseus_P1-X1,MechPart,1,1
+mechdef_perseus_P1-S1,MechPart,1,1
+mechdef_perseus_P1-X2,MechPart,1,1
+mechdef_perseus_P1-S2,MechPart,1,1
+mechdef_perseus_P1-X3,MechPart,1,1
+mechdef_perseus_P1-S3,MechPart,1,1

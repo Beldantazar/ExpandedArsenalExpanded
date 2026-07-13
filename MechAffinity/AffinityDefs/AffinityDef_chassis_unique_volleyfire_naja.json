@@ -1,0 +1,257 @@
+{
+  "id": "AffinityDef_chassis_unique_volleyfire_naja",
+  "affinityType": "Chassis",
+  "affinityData": {
+    "id": "unique_volleyfire_naja",
+    "chassisNames": [
+        "chassisdef_naja_NJA-SS"
+    ],
+    "idType": "ChassisId",
+    "altMaps": [],
+    "affinityLevels": [
+        {
+            "id": "unique_volleyfire_naja_1",
+            "missionsRequired": 15,
+            "levelName": "Fast Charger",
+            "decription": "+15% Speed",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its walk & sprinting speed by 15%.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-EasyToPilotWalk",
+                        "Name": "Mech Affinity Sprint Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "WalkSpeed",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": true
+                    }
+                },
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its sprinting speed by 15%.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-EasyToPilotRun",
+                        "Name": "Mech Affinity Sprint Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "1.15",
+                        "operation": "Float_Multiply",
+                        "statName": "RunSpeed",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": false,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unique_volleyfire_naja_2",
+            "missionsRequired": 20,
+            "levelName": "Rugged Chassis",
+            "decription": "-10% Damage Received",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                        "Name": "Mech Affinity Damage Reduction"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "statName": "DamageReductionMultiplierAll",
+                        "operation": "Float_Multiply",
+                        "modValue": "0.90",
+                        "modType": "System.Single",
+                        "additionalRules": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponType": "NotSet",
+                        "targetAmmoCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unique_volleyfire_naja_3",
+            "missionsRequired": 25,
+            "levelName": "Evasive Piloting",
+            "decription": "+2 Evasion Pips on Movement",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its evasive pips on movement by 2.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-Evasion-Unique",
+                        "Name": "Mech Affinity Evasive Pips Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Int32",
+                        "modValue": "2",
+                        "operation": "Int_Add",
+                        "statName": "EvasivePipsGainedAdditional",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": false,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unique_volleyfire_naja_4",
+            "missionsRequired": 40,
+            "levelName": "Defensive Piloting",
+            "decription": "+2 Defense",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-NarrowProfile",
+                        "Name": "Mech Affinity Defensive Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Single",
+                        "modValue": "2.0",
+                        "operation": "Float_Add",
+                        "statName": "ToHitThisActor",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        },
+        {
+            "id": "unique_volleyfire_naja_5",
+            "missionsRequired": 50,
+            "levelName": "Fast Acting",
+            "decription": "+1 init",
+            "affinities": [],
+            "effectData": [
+                {
+                    "Description": {
+                        "Details": "The pilot's incredible skill with this mech improves its initiatve by 1.",
+                        "Icon": "UixSvgIcon_specialEquip_System",
+                        "Id": "StatusEffect-Affinity-Initiative-Unique",
+                        "Name": "Mech Affinity Initiative Boost"
+                    },
+                    "durationData": {
+                        "duration": -1,
+                        "stackLimit": -1
+                    },
+                    "effectType": "StatisticEffect",
+                    "nature": "Buff",
+                    "statisticData": {
+                        "additionalRules": "NotSet",
+                        "modType": "System.Int32",
+                        "modValue": "-1",
+                        "operation": "Int_Add",
+                        "statName": "BaseInitiative",
+                        "targetAmmoCategory": "NotSet",
+                        "targetCollection": "NotSet",
+                        "targetWeaponCategory": "NotSet",
+                        "targetWeaponSubType": "NotSet",
+                        "targetWeaponType": "NotSet"
+                    },
+                    "targetingData": {
+                        "effectTargetType": "Creator",
+                        "effectTriggerType": "Passive",
+                        "hideApplicationFloatie": true,
+                        "showInStatusPanel": true,
+                        "showInTargetPreview": false
+                    }
+                }
+            ]
+        }
+    ]
+  }
+}

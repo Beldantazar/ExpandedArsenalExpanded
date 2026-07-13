@@ -1,0 +1,238 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech_Advanced",
+            "unit_assault",
+            "unit_release",
+            "unit_ready",
+            "unit_lance_tank",
+            "unit_lance_support",
+            "unit_role_brawler",
+            "unit_role_scout",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_lance_vanguard",
+            "unit_lance_assassin",
+            "unit_range_medium",
+            "unit_speed_low",
+            "unit_armor_high",
+            "mech_assault_Advanced",
+            "elite_arsenal",
+            "elite_arsenal_s_tier",
+            "unit_mech_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_ironcheetah_ICH-SS",
+    "HeraldryID": "heraldrydef_Betrayers",
+    "Description": {
+        "Cost": 23980000,
+        "Rarity": 5,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Iron Cheetah Tempered ICH-SS",
+        "Id": "mechdef_ironcheetah_ICH-SS",
+        "Name": "Iron Cheetah Tempered",
+        "Details": "The Tempered Iron Cheetah is a new model of the advanced assault mech built by the Republic Institute of Strategic Combat for use in false flag attacks and cooersion campaigns. Upgraded with an XXL engine and XL gyro, the Mech is given a huge amount of tonnage to work with, despite its high speed and heavy armor. Based on the T variant it mounts an upgraded HAG40 with 4 tons of ammo, twin upgraded large pulse lasers and twin FLSPT lasers for close range combat.",
+        "Icon": "uixTxrIcon_ironcheetah"
+    },
+    "simGameMechPartCost": 2400000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 250,
+            "CurrentRearArmor": 85,
+            "CurrentInternalStructure": 155,
+            "AssignedArmor": 250,
+            "AssignedRearArmor": 85
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 60
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 60,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 60
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 170,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 85,
+            "AssignedArmor": 170,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 210,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 105,
+            "AssignedArmor": 210,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Majesty_M_M_MagestrixAlpha",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_HyperGauss_HAG40_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_FireLinkedShortPulseTrinaryLaser_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Weapon_Laser_LargeLaserPulse_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_Hybrid_Defensive_Package_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_C3i_Computer_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_MASC_CLAN_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_3",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}

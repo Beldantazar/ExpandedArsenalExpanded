@@ -1,0 +1,308 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_release",
+            "unit_mech_s_tier",
+            "unit_medium",
+            "unit_lance_support",
+            "unit_jumpOK",
+            "unit_role_sniper",
+            "unit_role_flanker",
+            "unit_bracket_med",
+            "unit_speed_high",
+            "unit_role_scout",
+            "unit_role_brawler",
+            "unit_lance_vanguard",
+            "unit_lance_tank",
+            "unit_lance_assassin",
+            "elite_arsenal",
+            "elite_arsenal_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_nova_NVA-SS",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 12000000,
+        "Rarity": 9,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "BrightNova",
+        "Id": "mechdef_nova_NVA-SS",
+        "Name": "BrightNova",
+        "Details": "The personal mech of Marta Buckenburger, one of the leaders of the Jade Falcon Mongols splinter faction that launched a series of attacks across the Periphery. The BrightNova is a modified version of the classic Nova Prime, using upgraded lasers to reduce heat output and increase damage. Combined with built in laser insulators it allows the mech to fire a full alpha strike without overheating, something impossible for a standard Nova to even consider.",
+        "Icon": "uixTxrIcon_nova"
+    },
+    "simGameMechPartCost": 3750000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 140,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 80,
+            "AssignedArmor": 140,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 105,
+            "CurrentRearArmor": 40,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 105,
+            "AssignedRearArmor": 40
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 80,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 40,
+            "AssignedArmor": 80,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 60,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_Cockpit_Ceres_Metals_Reinforced",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_TargetingTrackingSystem_CLAN_2",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 4,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 5,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 2,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 3,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 4,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserER_Clantech_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 5,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_Generic_Thermal-Exchanger-III",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_HeatSink_CorrosiveDouble",
+            "ComponentDefType": "HeatSink",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}
+

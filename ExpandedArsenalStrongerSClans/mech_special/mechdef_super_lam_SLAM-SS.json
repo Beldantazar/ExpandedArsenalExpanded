@@ -11,14 +11,15 @@
             "unit_role_sniper",
             "unit_role_flanker",
             "unit_very_rare",
-            "unit_lam"
+            "unit_lam",
+            "BLACKLISTED"
         ],
         "tagSetSourceFile": ""
     },
     "ChassisID": "chassisdef_super_lam_SLAM-SS",
     "HeraldryID": null,
     "Description": {
-        "Cost": 452500000,
+        "Cost": 45250000,
         "Rarity": 99,
         "Purchasable": true,
         "Manufacturer": null,

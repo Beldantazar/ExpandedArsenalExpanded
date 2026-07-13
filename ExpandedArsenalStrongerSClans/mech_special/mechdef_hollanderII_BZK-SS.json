@@ -1,0 +1,226 @@
+{
+    "MechTags": {
+        "items": [
+            "unit_mech_s_tier",
+            "unit_light",
+            "unit_release",
+            "unit_jumpOK",
+            "unit_lance_assassin",
+            "unit_lance_support",
+            "unit_role_sniper",
+            "unit_role_scout",
+            "unit_role_brawler",
+            "unit_role_flanker",
+            "unit_lance_vanguard",
+            "unit_lance_tank",
+            "elite_arsenal",
+            "elite_arsenal_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "ChassisID": "chassisdef_hollanderii_BZK-SS",
+    "HeraldryID": null,
+    "Description": {
+        "Cost": 6000000,
+        "Rarity": 9,
+        "Purchasable": true,
+        "Manufacturer": null,
+        "Model": null,
+        "UIName": "Hollander II Heavy",
+        "Id": "mechdef_hollanderii_BZK-SS",
+        "Name": "Hollander II Heavy",
+        "Details": "The Hollander was introduced in 3054 specifically to carry a Gauss Rifle into combat and act as a sniper. The Hollander II was built as a successor to the original Hollander to add some support weaponry to the original mech. When The Society started their rebellion against the Clan warrior caste, they discovered quickly that they needed effective sniper mechs, just like the Inner Sphere had needed during the original Clan Invasion. An experimental design attempting to push the concept of the Hollander to its limit, the Hollander II Heavy mounts a titanic Mass Driver instead of any more reasonable weapon. This hugely powerful but inaccurate weapon is supported by improved targeting systems and a set of Medium X-Pulse Lasers and IATM 3's. To make room for the massive gun, a 275 XXL engine, EndoSteel chassis and XL Gyro were used to save weight. The full 12 tons of standard armor supported by the frame is used to protect the expensive gun. Only a handful of this heavy variant were produced as it was found to be resource prohibitive to manufacture the Mass Driver, and placing it in a relatively slow sniper platform resulted in high attrition rates.",
+        "Icon": "uixTxrIcon_hollander"
+    },
+    "simGameMechPartCost": 750000,
+    "Version": 1,
+    "Locations": [
+        {
+            "DamageLevel": "Functional",
+            "Location": "Head",
+            "CurrentArmor": 45,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 16,
+            "AssignedArmor": 45,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "CenterTorso",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 45,
+            "CurrentInternalStructure": 90,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 45
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightTorso",
+            "CurrentArmor": 100,
+            "CurrentRearArmor": 30,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 100,
+            "AssignedRearArmor": 30
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightArm",
+            "CurrentArmor": 90,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 45,
+            "AssignedArmor": 90,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "LeftLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 0
+        },
+        {
+            "DamageLevel": "Functional",
+            "Location": "RightLeg",
+            "CurrentArmor": 130,
+            "CurrentRearArmor": 0,
+            "CurrentInternalStructure": 65,
+            "AssignedArmor": 130,
+            "AssignedRearArmor": 0
+        }
+    ],
+    "inventory": [
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_Gyro_Friedhof_Sparrow",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "CenterTorso",
+            "ComponentDefID": "Gear_JumpJet_Generic_Standard",
+            "ComponentDefType": "JumpJet",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftTorso",
+            "ComponentDefID": "Gear_Passive_Defensive_Matrix_1",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightTorso",
+            "ComponentDefID": "Weapon_MassDriver_MD40_1",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_Laser_MediumLaserPulse_X_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 0,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightArm",
+            "ComponentDefID": "Weapon_ATM_IATM3_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftArm",
+            "ComponentDefID": "Weapon_ATM_IATM3_EX",
+            "ComponentDefType": "Weapon",
+            "HardpointSlot": 1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "LeftLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_LRM",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        },
+        {
+            "MountedLocation": "RightLeg",
+            "ComponentDefID": "Ammo_AmmunitionBox_Generic_GAUSS_Double",
+            "ComponentDefType": "AmmunitionBox",
+            "HardpointSlot": -1,
+            "IsFixed": false,
+            "DamageLevel": "Functional"
+        }
+    ]
+}
+

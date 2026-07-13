@@ -1,0 +1,251 @@
+{
+    "Description": {
+        "Cost": 8250000,
+        "Rarity": 3,
+        "Purchasable": true,
+        "Manufacturer": "",
+        "Model": "",
+        "UIName": "Hollander II Heavy",
+        "Id": "chassisdef_hollanderii_BZK-SS",
+        "Name": "Hollander II",
+        "Details": "The Hollander was introduced in 3054 specifically to carry a Gauss Rifle into combat and act as a sniper. The Hollander II was built as a successor to the original Hollander to add some support weaponry to the original mech. When The Society started their rebellion against the Clan warrior caste, they discovered quickly that they needed effective sniper mechs, just like the Inner Sphere had needed during the original Clan Invasion. An experimental design attempting to push the concept of the Hollander to its limit, the Hollander II Heavy mounts a titanic Mass Driver instead of any more reasonable weapon. This hugely powerful but inaccurate weapon is supported by improved targeting systems and a set of Medium X-Pulse Lasers and IATM 3's. To make room for the massive gun, a 275 XXL engine, EndoSteel chassis and XL Gyro were used to save weight. The full 12 tons of standard armor supported by the frame is used to protect the expensive gun. Only a handful of this heavy variant were produced as it was found to be resource prohibitive to manufacture the Mass Driver, and placing it in a relatively slow sniper platform resulted in high attrition rates.",
+        "Icon": "uixTxrIcon_hollander"
+    },
+    "MovementCapDefID": "movedef_hollander_BZK-F3",
+    "PathingCapDefID": "pathingdef_medium",
+    "HardpointDataDefID": "hardpointdatadef_hollander",
+    "PrefabIdentifier": "chrprfmech_hollanderbase-001",
+    "PrefabBase": "hollander",
+    "Tonnage": 55,
+    "InitialTonnage": 13,
+    "weightClass": "MEDIUM",
+    "BattleValue": 3762000,
+    "Heatsinks": 30,
+    "TopSpeed": 85,
+    "TurnRadius": 90,
+    "MaxJumpjets": 5,
+    "Stability": 130,
+    "StabilityDefenses": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+    ],
+    "SpotterDistanceMultiplier": 1,
+    "VisibilityMultiplier": 1,
+    "SensorRangeMultiplier": 1,
+    "Signature": 0,
+    "Radius": 4,
+    "PunchesWithLeftArm": false,
+    "MeleeDamage": 70,
+    "MeleeInstability": 55,
+    "MeleeToHitModifier": 0,
+    "DFADamage": 70,
+    "DFAToHitModifier": 0,
+    "DFASelfDamage": 70,
+    "DFAInstability": 70,
+    "Locations": [
+        {
+            "Location": "Head",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 1,
+            "MaxArmor": 45,
+            "MaxRearArmor": -1,
+            "InternalStructure": 16
+        },
+        {
+            "Location": "LeftArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 45
+        },
+        {
+            "Location": "LeftTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "CenterTorso",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 180,
+            "MaxRearArmor": 90,
+            "InternalStructure": 90
+        },
+        {
+            "Location": "RightTorso",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Ballistic",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 10,
+            "MaxArmor": 130,
+            "MaxRearArmor": 65,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightArm",
+            "Hardpoints": [
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Energy",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "Missile",
+                    "Omni": false
+                },
+                {
+                    "WeaponMount": "AntiPersonnel",
+                    "Omni": false
+                }
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 8,
+            "MaxArmor": 90,
+            "MaxRearArmor": -1,
+            "InternalStructure": 45
+        },
+        {
+            "Location": "LeftLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        },
+        {
+            "Location": "RightLeg",
+            "Hardpoints": [
+
+            ],
+            "Tonnage": 0,
+            "InventorySlots": 4,
+            "MaxArmor": 130,
+            "MaxRearArmor": -1,
+            "InternalStructure": 65
+        }
+    ],
+    "LOSSourcePositions": [
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0.5
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": -0.5
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -0.5
+        }
+    ],
+    "LOSTargetPositions": [
+        {
+            "x": 0,
+            "y": 10,
+            "z": 0.5
+        },
+        {
+            "x": -3,
+            "y": 9,
+            "z": -0.5
+        },
+        {
+            "x": 3,
+            "y": 9,
+            "z": -0.5
+        },
+        {
+            "x": -2.5,
+            "y": 3,
+            "z": 0.5
+        },
+        {
+            "x": 2.5,
+            "y": 3,
+            "z": 0.5
+        }
+    ],
+    "VariantName": "BZK-SS",
+    "FixedEquipment": [
+        {
+            "MountedLocation": "Head",
+            "ComponentDefID": "Gear_General_Rangefinder_Suite",
+            "SimGameUID": "",
+            "ComponentDefType": "Upgrade",
+            "HardpointSlot": -1,
+            "IsFixed": true,
+            "GUID": null,
+            "DamageLevel": "Functional",
+            "prefabName": null,
+            "hasPrefabName": false
+        }
+    ],
+    "ChassisTags": {
+        "items": [
+            "elite_arsenal_s_tier"
+        ],
+        "tagSetSourceFile": ""
+    },
+    "StockRole": "Sniper",
+    "YangsThoughts": "These society guys are real pieces of work, I'm not entirely sure how this mech doesn't get blown backwards from the recoil from this gun, but it manages to stand its ground decently enough. The support weapons aren't particularly noteworthy honestly, but they can help keep it alive."
+}
+

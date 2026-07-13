@@ -24958,5 +24958,190 @@
         "stockRole": "Light Striker",
         "details": "The Cazador is the BattleMech version of the Reptar MilitiaMech developed by the Escorpión Imperio. Where the original Reptar mounted a fuel cell engine, the Imperio's technicians and engineers fitted a fusion engine with ten heat sinks to the endo steel chassis. Instead of the original protomech AC/8 with light machineguns in the side torsos, the Cazador has upgraded to a single LB 10-X mounted in the right arm and a small pulse laser mounted in each side torso. Two tons of autocannon ammunition is carried in a CASE protected bay in the right torso. Six tons of armor protects the 'Mech, while a supercharger is attached to the engine, allowing the Cazador to reach a top speed of 108 km/h in short bursts and facilitate quick escapes or pursuits.",
         "yangsThoughts": "I've never seen the point of weak militiamechs, they're too fragile to deal with any actual serious invasion, even here in the periphery, and while they're cheap to make, they still take resources that could be used to make better units. This thing is at least a proper fast striker and raider, not the fastest but it's got great firepower for a light mech."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Perseus",
+        "newMechDesignation": "P1",
+        "newMechModelNumber": "O",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "1",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 1, 0, 1, 2, 2 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 1, 1, 0, 1, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production. The Perseus shares much with the venerable Orion, a staple of the Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the 'Omni-Orion' and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis. Built on a lightweight endo steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis. The primary configuration of the Perseus shares a great deal with the Orion. For long range direct and indirect fire support, the Perseus carries an LRM-20 with Artemis IV fire control for increased missile accuracy. For long range direct fire, the Perseus carries a powerful Ultra autocannon/10 that is capable of firing at twice the rate as a standard autocannon. The Perseus has a devastating short range arsenal with a highly accurate medium pulse laser, four ER medium lasers , an ER small laser, and finally an SRM-4 launcher that is linked to an Artemis IV FCS. The primary configuration mounts two tons each of both Ultra autocannon and LRM munitions as well as single ton of SRM reloads in CASE protected ammunition bays in both its side torsos.",
+        "yangsThoughts": "A decently flexible layout, but a bit hampered by how heavy the LRMs are and their poor close range performance, upgrading to MMLs would probably improve flexibility a lot."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Perseus",
+        "newMechDesignation": "P1",
+        "newMechModelNumber": "OA",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "2",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 1, 0, 1, 2, 2 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 1, 1, 0, 1, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production. The Perseus shares much with the venerable Orion, a staple of the Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the 'Omni-Orion' and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis. Built on a lightweight endo steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis. Configured for long range fire support, the A configuration carries an LRM-20 launchers in either arm, both of which are linked to an Artemis IV FCS for increased accuracy. For close range defense, the 'Mech carries two medium pulse lasers and has an SRM-6 launcher linked to an Artemis IV FCS. The 'Mech also has a leg-mounted TAG laser designator, allowing it to call in semi-guided LRM and Arrow IV attacks from friendly units and has a Guardian ECM suite to defend itself from enemy electronic warfare systems. CASE covers the two sets of ammo bins.",
+        "yangsThoughts": "A pretty good fire support layout, better than things like the catapult, as always, upgrading to MMLs would improve performance a lot."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Perseus",
+        "newMechDesignation": "P1",
+        "newMechModelNumber": "OB",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": true,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 1, 0, 1, 2, 2 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 1, 1, 0, 1, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production. The Perseus shares much with the venerable Orion, a staple of the Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the 'Omni-Orion' and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis. Built on a lightweight endo steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis. Capable of fighting at close and long ranges, the B configuration has a Gauss rifle and ER large laser for long-range combat, though only a single ton of reloads relegates the Gauss to use as a secondary rather than primary weapon. The Perseus B is also capable of handling close combat with two large pulse lasers and it has an anti-missile system to protect itself from missile attacks. Two extra double heat sinks complete the package.",
+        "yangsThoughts": "A strong direct fire version, good at both close and long range, just watch out for it being a bit slow."
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Perseus",
+        "newMechDesignation": "P1",
+        "newMechModelNumber": "OC",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 1, 0, 1, 2, 2 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 1, 1, 0, 1, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production. The Perseus shares much with the venerable Orion, a staple of the Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the 'Omni-Orion' and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis. Built on a lightweight endo steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis. An all around configuration, the C is built to be capable of engaging an enemy at both long and short ranges. To do this, the Perseus C carries a light Gauss rifle, giving the 'Mech an extremely long reach. This is backed up by an Ultra autocannon/10 capable of engaging the enemy as they close. For close combat, the Perseus C has three ER medium lasers, a medium pulse laser, and a Streak SRM-2 launcher. Two tons of Gauss reloads, three tons of Ultra autocannon ammunition and a ton of missile reloads give the design adequate field endurance, though CASE is not carried. Two extra double heat sinks make things a bit more comfortable for the pilot.",
+        "yangsThoughts": "An interesting all around build, but I think focusing on a specific range would make this thing far more useful in most "
+    },
+    {
+        "baseTemplateFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\chassis\\chassisdef_orion_ON1-K.json",
+        "baseMechFileName": "..\\..\\BattleTech_Data\\StreamingAssets\\data\\mech\\mechdef_orion_ON1-K.json",
+        "newMechName": "Perseus",
+        "newMechDesignation": "P1",
+        "newMechModelNumber": "OD",
+        "initialTonnage": null,
+        "newMechVariant": true,
+        "Heatsinks": 30,
+        "newEliteForcesVariant": false,
+        "newEliteArsenalVariants": false,
+        "includeModelNumberInEAVariant": false,
+        "eliteArsenalVariantNumber": "3",
+        "mechTonnage": 75,
+        "mechEngine": 300,
+        "xlEngine": true,
+        "chassisType": "EndoSteel",
+        "hardpoints": {
+            "Energy": [ 0, 2, 2, 1, 0, 1, 2, 2 ],
+            "Ballistic": [ 0, 1, 0, 0, 0, 1, 0, 0 ],
+            "Missile": [ 1, 1, 0, 1, 1, 1, 0, 0 ],
+            "AntiPersonnel": [ 1, 0, 0, 0, 0, 0, 0, 0 ]
+        },
+        "useMountIdNaming": false,
+        "itemColAssignment": {
+            "mech": {
+                "itemCol": [ "itemCollection_Mech_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltmechs", "itemCollection_fp_hvymechs" ]
+            },
+            "mechPart": {
+                "itemCol": [ "itemCollection_Mech_Parts_IS" ],
+                "itemColEA": [ "itemCollection_fp_hvyasltparts", "itemCollection_fp_hvyparts" ]
+            }
+        },
+        "details": "The Perseus is the product of a program begun by the League Central Coordination and Command to create an OmniMech completely indigenous to the Free Worlds League from concept to production. The Perseus shares much with the venerable Orion, a staple of the Free Worlds League Military, both broadly resembling the older design visually and using a number of the same components. This similarity prompted more than a few FWLM technicians to nickname the new design the 'Omni-Orion' and the deployment of Perseus has largely been to front-line units that fielded large concentrations of its progenitor, replacing older Orions on a one-for-one basis. Built on a lightweight endo steel chassis, the Perseus is powered by a Hermes 300 XL engine helping save even more weight and giving the 'Mech a top speed of 64.8 km/h. The advanced structure and engine save a great deal of weight for weapons and equipment. The Perseus is protected by fourteen tons of Valiant Lamellor armor, giving it around average armor protection for a 'Mech of its size. It also has twelve double heat sinks that are fixed on the chassis. Configured specifically for close combat, the D configuration has an LRM-20 launcher with an Artemis IV FCS for increased accuracy as well as an LB 10-X autocannon for long-range combat. For close ranges, the 'Mech has an SRM-6 launcher linked to an Artemis IV FCS, three ER medium lasers, and an ER small laser. The D also has a Guardian ECM suite to protect itself from enemy electronic warfare systems and a Beagle active probe that allows it to find hidden units in close combat situations.",
+        "yangsThoughts": "For a close combat design, the LRM-20 is a weird addition, if you want to stick with it, swap it for a Clan-spec version so it loses the minimum range."
     }
 ]

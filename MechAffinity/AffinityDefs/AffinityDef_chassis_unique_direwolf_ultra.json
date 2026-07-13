@@ -1,0 +1,261 @@
+{
+    "id": "AffinityDef_chassis_unique_direwolf_ultra",
+    "affinityType": "Chassis",
+    "affinityData": {
+        "id": "unique_direwolf_ultra",
+        "chassisNames": [
+            "chassisdef_direwolfs_DWF-SS"
+        ],
+        "idType": "ChassisId",
+        "altMaps": [],
+        "affinityLevels": [
+            {
+                "id": "unique_direwolf_ultra_1",
+                "missionsRequired": 15,
+                "levelName": "Advanced Targetting Operations",
+                "decription": "+1 Accuracy",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech improves its targeting by 1.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-Targeting",
+                            "Name": "Mech Affinity Targeting Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "-1.0",
+                            "operation": "Float_Add",
+                            "statName": "AccuracyModifier",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_direwolf_ultra_2",
+                "missionsRequired": 20,
+                "levelName": "Assault Range",
+                "decription": "+60m Range",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech increases weapon range by 60m.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-Range",
+                            "Name": "Mech Affinity Range Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "appliesEachTick": false,
+                            "effectsPersistAfterDestruction": false,
+                            "statName": "LongRange",
+                            "operation": "Float_Add",
+                            "modValue": "60.0",
+                            "modType": "System.Single",
+                            "additionalRules": "NotSet",
+                            "targetCollection": "Weapon",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponType": "NotSet",
+                            "targetAmmoCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    },
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech increases weapon maximum range by 60m.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-MaxRange",
+                            "Name": "Mech Affinity Maximum Range Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "appliesEachTick": false,
+                            "effectsPersistAfterDestruction": false,
+                            "statName": "MaxRange",
+                            "operation": "Float_Add",
+                            "modValue": "60.0",
+                            "modType": "System.Single",
+                            "additionalRules": "NotSet",
+                            "targetCollection": "Weapon",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponType": "NotSet",
+                            "targetAmmoCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_direwolf_ultra_3",
+                "missionsRequired": 25,
+                "levelName": "Assault Defense",
+                "decription": "+2 Defense",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech makes it even harder to hit the mech.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-NarrowProfile",
+                            "Name": "Mech Affinity Defensive Boost"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "additionalRules": "NotSet",
+                            "modType": "System.Single",
+                            "modValue": "2.0",
+                            "operation": "Float_Add",
+                            "statName": "ToHitThisActor",
+                            "targetAmmoCategory": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet",
+                            "targetWeaponType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_direwolf_ultra_4",
+                "missionsRequired": 40,
+                "levelName": "Advanced Engine Operations",
+                "decription": "10% Heat Reduction",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech reduces the heat generated by its weapons.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-HeatGenerated-Unique",
+                            "Name": "Mech Affinity Heat Reduction"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "statName": "HeatGenerated",
+                            "operation": "Float_Multiply",
+                            "modValue": "0.9",
+                            "modType": "System.Single",
+                            "additionalRules": "NotSet",
+                            "targetCollection": "Weapon",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponType": "NotSet",
+                            "targetAmmoCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            },
+            {
+                "id": "unique_direwolf_ultra_5",
+                "missionsRequired": 50,
+                "levelName": "Vanguard",
+                "decription": "-10% Damage Received",
+                "affinities": [],
+                "effectData": [
+                    {
+                        "Description": {
+                            "Details": "The pilot's incredible skill with this mech reduces incoming damage by 10%.",
+                            "Icon": "UixSvgIcon_specialEquip_System",
+                            "Id": "StatusEffect-Affinity-DamageReduction-Unique",
+                            "Name": "Mech Affinity Damage Resistance"
+                        },
+                        "durationData": {
+                            "duration": -1,
+                            "stackLimit": -1
+                        },
+                        "effectType": "StatisticEffect",
+                        "nature": "Buff",
+                        "statisticData": {
+                            "statName": "DamageReductionMultiplierAll",
+                            "operation": "Float_Multiply",
+                            "modValue": "0.90",
+                            "modType": "System.Single",
+                            "additionalRules": "NotSet",
+                            "targetCollection": "NotSet",
+                            "targetWeaponCategory": "NotSet",
+                            "targetWeaponType": "NotSet",
+                            "targetAmmoCategory": "NotSet",
+                            "targetWeaponSubType": "NotSet"
+                        },
+                        "targetingData": {
+                            "effectTargetType": "Creator",
+                            "effectTriggerType": "Passive",
+                            "hideApplicationFloatie": true,
+                            "showInStatusPanel": true,
+                            "showInTargetPreview": false
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}
