@@ -123,7 +123,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -139,7 +139,7 @@
         },
         {
             "MountedLocation": "LeftTorso",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -155,7 +155,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -171,7 +171,7 @@
         },
         {
             "MountedLocation": "RightTorso",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,
@@ -195,7 +195,7 @@
         },
         {
             "MountedLocation": "CenterTorso",
-            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_3",
+            "ComponentDefID": "Weapon_PPC_PPCER_CLAN_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 0,
             "hasPrefabName": false,

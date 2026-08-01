@@ -26,7 +26,7 @@
         "UIName": "Warthog LAM",
         "Id": "mechdef_warthog_WHLAM-SS",
         "Name": "Warthog LAM",
-        "Details": "The culmination of all of the Word of Blake's superheavy and LAM research, the Warthog LAM is the largest heaviest single pilot vehicle capable of flight. Weighing a massive 150 tons and yet still capable of LAM operation, this colossal machine breaks all known rules of how heavy a LAM can be more than any other mech constructed. The purpose of such a massive vehicle is to bring its equally oversized Rotary Autocannon 20 to bear on unfortunate targets. The most powerful direct fire ballistic weapon ever constructed, this cannon has the equivalent firepower to 6 Autocannon 20s. Too bulky to fit into a standard LAM regardless of configuration, the Warthog was built around the massive weapon with only a few missile and energy weapons as support.",
+        "Details": "The culmination of all of the Word of Blake's superheavy and LAM research, the Warthog LAM is the largest and heaviest single pilot vehicle capable of flight. Weighing a massive 150 tons and yet still capable of LAM operation, this colossal machine breaks all known rules of how heavy a LAM can be more than any other mech constructed. The purpose of such a massive vehicle is to bring its equally oversized Rotary Autocannon 20 to bear on unfortunate targets. The most powerful direct fire ballistic weapon ever constructed, this cannon has the equivalent firepower to 6 Autocannon 20s. Too bulky to fit into a standard LAM regardless of configuration, the Warthog was built around the massive weapon with only a few missile and energy weapons as support.",
         "Icon": "uixTxrIcon_gerwalk5"
     },
     "simGameMechPartCost": 5250000,

@@ -57,6 +57,7 @@ If you don't want that change, don't replace the settings.json file inside of th
 - Thunderbolt 5x4 - The Clans wanted to duplicate the Thunderbolt, and succeeded at cutting the launcher and ammo weight in half, but failed to quite understand the concept, and so they made a thunderbolt "20" by duct taping 4 of the 5s together, hence the name. Lighter than regular thunderbolts, but generates the most heat of any missile weapon.
 
 Additionally, several weapons have had EX versions added that can be found only on specific flashpoint exclusive reward units.  EX grade weapons are overpowered slightly compared to normal weapon versions but cannot be easily replaced which makes using them a gamble.
+see below spoilers section for exact list
 
 ## Equipment
 - Angel ECM and upgrade variants - basically a lighter version of the vanilla game's prototype EW equipment that also does some damage reduction changes like the guardian from expanded arsenal. Too many mechs have guardians for me to make them behave properly cause it causes weird ai issues if too many of them have the EW equipment, so instead I put the behavior on this new equipment.
@@ -75,7 +76,8 @@ Additionally, several weapons have had EX versions added that can be found only 
 - Added Elite Forces grade version of at least one variant for every mech that was star league era or earlier (if you spot any that are missing an elite forces variant, please let me know)
 - Added at least two Elite Arsenal grade variants for every mech
 - Added a bunch of additional interesting variants for existing mechs
-- Total added and updated variant count across all types: 1419 Inner Sphere, 464 Clan, 6 special
+- Total added and updated variant count across all types: 1430 Inner Sphere, 464 Clan, 25 special
+- Added a total of 23 Unique mech variants some of which are based on existing mechs, others are using specific models.  See below spoilers section for details
 
 # Flashpoints
 
@@ -85,6 +87,53 @@ Additionally, several weapons have had EX versions added that can be found only 
 
 # TODO
 
-- More unique mechs and flashpoints to reward them
-  - eventual goal is 4 each of light, medium, heavy, assault and superheavy allowing for a full team of unique mechs for all weight classes
-- 
+- More flashpoints for remaining unique mechs.
+  - 17 unique mechs do not have flashpoints for rewarding them yet and so can be found as random spawns for now so they can be aquired and tested.
+
+# Spoilers
+
+<details>
+  <summary>Spoilers</summary>
+  
+  There are 23 new unique mechs added beyond the original mod which had the Monster as a reward from the Superheavies flashpoint and the Valkyrie Ghost as a reward for the LAMs flashpoint.
+  The below list includes all 25 unique mechs
+
+  ## Light Mechs
+  - Assault Cougar - Cougar with an assault weapons package from a Dire Wolf X which increases all damage and reduces heat. Equipped with 5 Micro PPC EX and 5 Clan SRM 6 EX - Additional weight capacity provided by using XXL engine and XL gyro. Strongest raw firepower potential for any light mech.
+  - Fireball XFC (eXtra Fast Combat) - Based on the canon Fireball XF (eXtra Fast) but with a reduced engine to allow for enough tonnage for decent weaponry. Fastest mech in the game with MASC and 2X Engine and it comes with a COIL M EX and a COIL S EX. Has evasion baffles that increase max evasion charges allowing for extra coil damage.
+  - Nyx Obscura - A RISC Nyx using an XXL engine to allow for additional weaponry. Mounts 2 VSM Laser EX and 2 MML3 EX. Extremely fast mech, but relatively low firepower for a unique mech.
+  - Urbanemech - An uptonned Urbanmech designed to have similar firepower layout to a Bane. Mounts two RAC 2 EX, 1 Clan ER Medium Laser EX and 2 Clan ER Small Laser EX. Has limited ammo but high firepower. Based on the Urbanmech R100 so it has twice the base speed of a standard Urbanmech.
+  - Basilisk LAM - Uses the gripgerwalk model. Basically a lighter Valkyrie Ghost with the same built in stealth. Fitted with 2 LBX 2 (C) EX and 2 VSS Laser EX. Good if you want to be underweight for a mission, very difficult to hit just like the Valkyrie Ghost, so it's very good for sending forward to scout and then pull back.
+
+  ## Medium Mechs
+  - BrightNova - A Nova using a combination of fixed mount laser insulators and 12 Clan ER Medium Laser EX to allow it to fire a full alpha strike without overheating. No other weapons, very straightforward.
+  - Hollander II EX - Based on the Hollander, but uptonned all the way to 55 tons. Same basic concept as a standard Hollander II but using an XMD 40 EX instead of a regular gauss. Has two Medium X-Pulse Lasers and two IATM 3 EX as support and comes with a rangefinder suite like a rifleman. Most powerful medium sniper mech in the game.
+  - Osprey Talon - A RISC redesigned Osprey built to bring a Silver Bullet Special EX into the field. Has two MRM 10 EX, two Light Blazer +++ and two Clan ER Small Laser EX as support weaponry. Very fast for its level of firepower, but very ammo dependent.
+  - Volleyfire Naja - An old clan design based on the kintaro. Modernized by mounting a set of 8 Clan Stream SRM 6 EX for heavy volleys and fixed mount launch rails for extended range. Has 3 Clan ER Medium Laser ++ as backup weaponry. Massive volley damage, but runs out of ammo fast.
+  - Valkyrie Ghost - Rewarded by LAMs flashpoint from Expanded Arsenal. A LAM with a built in Void Signature System ++ and C3I ++, Very limited hardpoints so it needs high damage single hardpoint weaponry. Very difficult for enemies to hit which makes it excellent as a spotter/distraction, vulnerable to enemies sensor locking.
+
+  ## Heavy Mechs
+  - Lament Wail - RISC designed mech mounting a mix of 2 RISC Hyper Laser EX and 2 Improved Heavy Large Laser EX - Mounts an XXL engine to free enough tonnage for mounting enough D-CC Heat Sinks to get the heat output under control. Able to snipe with the Hyper Lasers far beyond the heavy laser range.
+  - Perseus Smasher - Society designed heavy sniper mech mounting 2 Light Gauss Rifle EX, 2 VSL Laser EX and MML 7 EX. Good at all ranges, but not very fast just like other Orion based designs. Comes with Optimized Capacitors and Annihilator Siege Module. Good as a heavy brawler as well
+  - Sidewinder Glow - Society designed heavy brawler built around a Hyper Gauss Rifle EX. Has two Binary Laser Cannon EX and two IATM 9 EX as support and built in Gauss Capacitator for boosting the Hyper Gauss crit rate. Good at all ranges, but bad at catching fast mechs.
+  - Woodsman Blazer - Rewarded by the first Cus's Cutlasses flashpoint. Unnamed Clan built mech with an advanced Laser Optimization Weapon System to boost laser damage and reduce heat in one module. Has twin RISC Hyper Laser EX and twin FLSPT Laser EX and two Clan ER Small Laser ++ as minor backup. Similar to the Lament Wail, but with more close range firepower. 
+  - Super LAM - Rewarded by the second Cus's Cutlasses Flashpoint. Unnamed Clan built 75 ton LAM. Comes with twin Thunderbolt 5x4 EX and 6 Micro PPC EX. Heavy firepower and very maneuverable, but does not have the stealth power of the lighter LAMs so it is much less suitable as a scout.
+
+  ## Assault Mechs
+  - Dire Wolf Ultra - Society designed ultimate assault mech. Built with an improved assault package that has the full power damage boost that S class direwolfs get, but to all weapon types. Has 4 Clan ER PPC EX, 4 Clan UAC/2 EX and 2 IATM 9 EX supported by a ppc capacitator and lrm follow the leader seekers to improve power. Highest raw firepower assault mech in the game, good at destruction that doesn't require being speedy.
+  - Iron Cheetah Tempered - RISC designed fast assault mech. Fitted with HAG 40 EX for long range power, and 2 Clan Large Pulse Laser EX and 2 FLSPT Laser EX and a MASC for maximum speed. Slightly light firepower for a 100ton assault, but very effective at getting around the map for something this heavy.
+  - Pulverizer Command - Rewarded by fourth Cus's Cutlasses Flashpoint. Unnamed Clan designed command mech. Fitted with every piece of buffing gear in the game (that doesn't completely overlap) Company Command Mod, Dual Cockpit Battle Computer, C31++, Nova CEWS++, Bloodhound AP++ and Angel ECM ++. Most powerful lance buffing unit in the game and all buff gear is built in so can never be permanently destroyed. Comes with two Refined Plasma PPC EX, an odd mix of LRMs to deal with the large amounts of occupied torso space and a Shotgauss 10 ++.
+  - Scylla Jumpman - Rewarded by third Cus's Cutlasses flashpoint. Unnamed Clan designed DFA focused mech. Takes heavily reduced DFA damage due to built in reinforcements, has no hard points other than support weapons and mounts 4 Clan ER Small Laser Array ++, 2 Clan Small Pulse Laser Array ++, 6 Clan Heavy Machine Gun ++ and 2 Clan ER Small Laser EX. The laser arrays are identical to 3x of whatever laser they are arrays of, to avoid exceeding the 14 weapons limit. Since all weapons are anti-personnel type, they can all fire after melee or DFA allowing for absurd damage. Has vulcan CQC array to improve melee defense and support weapon range.
+  - Cockatrice LAM - 100 ton WOB assault LAM. Comes with a massive Clan UAC/20 EX, two Heavy PPC EX and one MML 7 EX. Very heavy firepower and able to move around the battlefield fast, but easily hit and not particularly well armored.
+  
+  ## Superheavy Mechs
+  - Alpha Cus - Rewarded by the fifth Cus's Cutlasses flashpoint. Unnamed Clan built 150t Superheavy devastator. Has 12 of every non-support hardpoint and they are evenly distributed on the arms and side torsos allowing for unmatched build flexibility. Comes with 4 Shotgauss 5++, 4 FLSPT Laser EX, 4 ATM 3++ and 2 ATM 6 ++. Can reach absurd firepower with the right combination of weaponry. Massive amount of free tonnage. One of the strongest mechs for raw power in game.
+  - Hammerblow Custom - Rewarded by the sixth Cus's Cutlasses Flashpoint. Jade Falcon built 150t Superheavy devastator. Somewhat odd hardpoint layout, but comes with 4 Bose Einstein Plasma Rifle EX, 2 Thunderbolt 5x4 EX, two assault cannons and two ER Large Pulse Laser ++. Heavy firewpower and big free tonnage, but not as layout flexible as the Alpha.
+  - Monster - Rewarded by superheavy flashpoint from expanded arsenal. Supposedly a modified omega, but actually based on the monster from macross. Has been upgraded compared to base expanded arsenal to now mount 2 XMD40 EX, 5 C ERPPC EX (one in each arm and every torso to properly match the visual external weapon mounts) and two ER Medium Pulse ++
+  - Snowflame Malice - RISC designed Superheavy Brawler. Based on design concept of the quad hyper laser Malice. Uses two RISC Hyper Laser EX and two FLSPT Hyper Lasers for massive long range laser destruction, with 4 Stream SRM 4 EX to defend at close range. Has absurd heat output and needs 6 exchanger ++ and a laser insulator ++ to be viable. 
+  - Warthog LAM - WOB designed 150 ton LAM. Absurdly overweight lam, only jump capable super heavy in game (other super heavies have jet slots but no jump jets are available). Has unusual loadout slots, unfortunately vanilla cannot render this correctly in the mechbay, but it does correctly handle it. Mech is built around a Rotary Autocannon 20 EX and has only two thunderbolt 5x4 ex and two ER medium Laser ++ as support.
+
+  ## EX Ballistic Weapons
+  -
+
+</details>

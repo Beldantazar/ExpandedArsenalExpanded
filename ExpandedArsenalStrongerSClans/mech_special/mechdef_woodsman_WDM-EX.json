@@ -239,7 +239,7 @@
         },
         {
             "MountedLocation": "RightArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
             "IsFixed": false,
@@ -247,7 +247,7 @@
         },
         {
             "MountedLocation": "LeftArm",
-            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_2",
+            "ComponentDefID": "Weapon_Laser_SmallLaserER_Clantech_EX",
             "ComponentDefType": "Weapon",
             "HardpointSlot": 2,
             "IsFixed": false,

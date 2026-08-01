@@ -304,3 +304,9 @@ mechdef_flamberge_FMB-X2,MechPart,1,1
 mechdef_flamberge_FMB-S2,MechPart,1,1
 mechdef_flamberge_FMB-X3,MechPart,1,1
 mechdef_flamberge_FMB-S3,MechPart,1,1
+mechdef_perseus_P1-X1,MechPart,1,1
+mechdef_perseus_P1-S1,MechPart,1,1
+mechdef_perseus_P1-X2,MechPart,1,1
+mechdef_perseus_P1-S2,MechPart,1,1
+mechdef_perseus_P1-X3,MechPart,1,1
+mechdef_perseus_P1-S3,MechPart,1,1
